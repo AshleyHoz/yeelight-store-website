@@ -1,1 +1,1083 @@
-{"sections":{"slideshow_AaGJwH":{"type":"slideshow","blocks":{"slide_HmWpzr":{"type":"slide","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/banner-new.jpg","mobile_image":"shopify:\/\/shop_images\/banner-M.jpg","slide_link":"","video_background":false,"badge_text":"","subheading":"","heading":"Yeelight Cube Smart Lamp","heading_size":"h2","content":"Customizable ARGB Table Lamp with Magnetic Modular Design","description_size":"medium","content_position":"middle-left","text_alignment":"left","content_size":"medium","color_slidebg":"rgba(0,0,0,0)","color_slidebg_opacity":0,"color_slidebg_blur":0,"color_text":"#fdfdfd","color_badge_bg":"#ffffff","color_badge_text":"#ffffff","overlay_color":"#000000","overlay_opacity":0,"overlay_gradient":"","button_1_text":"Shop Now","button_1_color":"white","button_1_link":"shopify:\/\/products\/yeelight-smart-cube","use_text_button_1":false,"button_2_text":"","button_2_color":"white","button_2_link":"","use_text_button_2":true}},"slide_B9biA3":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/f6f29f3f72edf58e4c4c7f3f6cf6e13f.jpg","mobile_image":"shopify:\/\/shop_images\/f6914cc574aa2eb6913da83a0a65a64a.jpg","slide_link":"shopify:\/\/collections\/all-lights","video_background":false,"badge_text":"","subheading":"","heading":"","heading_size":"h1","content":"","description_size":"medium","content_position":"middle-left","text_alignment":"left","content_size":"medium","color_slidebg":"rgba(0,0,0,0)","color_slidebg_opacity":0,"color_slidebg_blur":0,"color_text":"#ffffff","color_badge_bg":"#ffffff","color_badge_text":"#ffffff","overlay_color":"#ffffff","overlay_opacity":0,"overlay_gradient":"","button_1_text":"","button_1_color":"white","button_1_link":"","use_text_button_1":false,"button_2_text":"","button_2_color":"white","button_2_link":"","use_text_button_2":false}}},"block_order":["slide_HmWpzr","slide_B9biA3"],"settings":{"desktop_height":"desktop-height-650","mobile_height":"mobile-height-500","full_width":true,"autoplay":true,"autoplay_length":5,"transition":"zoom","controls":"arrows-with-numbers","disable_top_spacing":true,"disable_bottom_spacing":true}},"featured_collection_M8HqE3":{"type":"featured-collection","settings":{"heading":"What's Popular","marker_style":"style1","description":"","collection":"all-lights","display_type":"grid","product_limit":4,"columns_desktop":4,"show_view_all":true,"mobile_swipe":false,"show_progress_bar":true,"marker_color":"#fd6262","disable_top_spacing":false,"disable_bottom_spacing":true}},"multicolumn_WygXNb":{"type":"multicolumn","blocks":{"column_VwffB9":{"type":"column","settings":{"image_full_width":false,"image_link":"","title":"Crafted with Precision","text":"<p>Yeelight's accessories are meticulously crafted with precision and care, enhancing your smart home setup with elegance and sophistication.<\/p>","link_label":"","link":""}},"column_NfczMg":{"type":"column","settings":{"image_full_width":false,"image_link":"","title":"Uncompromising Quality","text":"<p>Experience luxury with Yeelight's premium accessories, crafted from the finest materials for exceptional durability and performance.<\/p>","link_label":"","link":""}},"column_4KKLUw":{"type":"column","settings":{"image_full_width":false,"image_link":"","title":"Personalized Elegance","text":"<p>Express your style with Yeelight's upgrades, designed to complement your smart bulbs and fixtures. Elevate your smart home with innovation and style.<\/p>","link_label":"","link":""}}},"block_order":["column_VwffB9","column_NfczMg","column_4KKLUw"],"disabled":true,"settings":{"heading":"|Level Up Your Gaming Experience|","marker_style":"style2","description":"<p>Immerse yourself in the ultimate gaming experience with Yeelight's state-of-the-art smart lighting solutions. Elevate your gaming setup with dynamic lighting effects that synchronize seamlessly with your gameplay, creating an electrifying atmosphere that brings every virtual world to life.<\/p>","columns_desktop":4,"mobile_swipe":false,"image_ratio":"adapt","text_alignment":"center","heading_size":"h3","color_heading":"#1a1c1d","marker_color":"#3f72e5","color_text":"#2c2d2e","color_links":"#2c2d2e","disable_top_spacing":false,"disable_bottom_spacing":true}},"rich_text_Uicwnn":{"type":"rich-text","blocks":{"heading_L4NGzr":{"type":"heading","settings":{"text":"What did they say about us","marker_style":"style1","size":"h3","marker_color":"#fd6262"}}},"block_order":["heading_L4NGzr"],"settings":{"text_width":"medium","text_position":"center","text_alignment":"center","color_bg":"rgba(0,0,0,0)","color_heading":"#1a1c1d","color_text":"#2c2d2e","color_links":"#2c2d2e","disable_top_spacing":false,"disable_bottom_spacing":false}},"image_with_text_eRwPQt":{"type":"image-with-text","blocks":{"heading_cEzNtY":{"type":"heading","settings":{"text":"|Coolest| New Product with Matter","marker_style":"style1","heading_size":"h3","marker_color":"#2596be"}},"text_cFJ8k8":{"type":"text","settings":{"text":"<p>-- The Brad Lloyd<\/p>"}}},"block_order":["heading_cEzNtY","text_cFJ8k8"],"settings":{"use_video":true,"video":"https:\/\/youtu.be\/zjA2Jf2CWjs?si=4SOgbCaUkrXuxK10","video_autoplay":true,"height":"adapt","desktop_image_width":"medium","full_width":false,"layout":"image_first","content_position":"text-left","column_spacing":"large","color_bg":"#f6f6f6","color_text":"#2c2d2e","color_border":"#e2e2e2","disable_top_spacing":true,"disable_bottom_spacing":true}},"image_with_text_M64RrT":{"type":"image-with-text","blocks":{"heading_RbcRtF":{"type":"heading","settings":{"text":"As Smart Home products go this is a beast!","marker_style":"style2","heading_size":"h3","marker_color":"#2596be"}},"text_KRqV4y":{"type":"text","settings":{"text":"<p>-- Paul Hibbert <\/p>"}}},"block_order":["heading_RbcRtF","text_KRqV4y"],"settings":{"use_video":true,"video":"https:\/\/www.youtube.com\/watch?v=Q70lpee5lSY&t=501s","video_autoplay":true,"height":"adapt","desktop_image_width":"medium","full_width":false,"layout":"text_first","content_position":"text-left","column_spacing":"medium","color_bg":"#f6f6f6","color_text":"#2c2d2e","color_border":"#e2e2e2","disable_top_spacing":true,"disable_bottom_spacing":true}},"rich_text_Qb3iUW":{"type":"rich-text","blocks":{"heading_W9jYDF":{"type":"heading","settings":{"text":"Why Choose Us","marker_style":"style1","size":"h3","marker_color":"#fd6262"}}},"block_order":["heading_W9jYDF"],"settings":{"text_width":"medium","text_position":"center","text_alignment":"center","color_bg":"rgba(0,0,0,0)","color_heading":"#1a1c1d","color_text":"#2c2d2e","color_links":"#2c2d2e","disable_top_spacing":false,"disable_bottom_spacing":false}},"text_with_icons_MqACi7":{"type":"text-with-icons","blocks":{"icon_aBKTbt":{"type":"icon","settings":{"icon":"star","image":"shopify:\/\/shop_images\/stars.png","heading":"Excellent ratings (4.8)","text":"<p>With top-notch ratings in every category, homeowners rely on us to elevate their lighting experience. Feel assured as you browse, knowing you're selecting a brand endorsed by passionate lighting aficionados.<\/p>"}},"icon_GFyYAm":{"type":"icon","settings":{"icon":"plane","image":"shopify:\/\/shop_images\/plane.png","heading":"Free worldwide shipping","text":"<p>Take advantage of complimentary shipping on all bundled orders. Our items are promptly dispatched, and you'll promptly receive a shipping confirmation containing a tracking number.<\/p><p><\/p><p><\/p>"}},"icon_RFQH79":{"type":"icon","settings":{"icon":"chat_bubble","image":"shopify:\/\/shop_images\/speech-bubble.png","heading":"Exceptional Customer Service","text":"<p>Count on our devoted customer service team for assistance. Connect with us effortlessly through email or live chat, and experience our personalized 1-on-1 customer support.<\/p><p><\/p>"}},"icon_h6xJ9e":{"type":"icon","settings":{"icon":"ruler","image":"shopify:\/\/shop_images\/warranty.png","heading":"2 Year Warranty","text":"<p>Illuminate confidently with Yeelight's smart lighting, backed by a solid 2-year warranty. Trust our quality and innovation, knowing we've got you covered for any issues. <\/p>"}}},"block_order":["icon_aBKTbt","icon_GFyYAm","icon_RFQH79","icon_h6xJ9e"],"settings":{"text_alignment":"center","icon_position":"top","icon_size":"medium","heading_size":"medium","mobile_swipe":true,"color_bg":"rgba(0,0,0,0)","color_heading":"#1a1c1d","color_text":"#2c2d2e","disable_top_spacing":true,"disable_bottom_spacing":false}},"rich_text_ajyhj6":{"type":"rich-text","blocks":{"heading_UzCadp":{"type":"heading","settings":{"text":"Customer Reviews","marker_style":"style1","size":"h3","marker_color":"#fd6262"}}},"block_order":["heading_UzCadp"],"settings":{"text_width":"medium","text_position":"center","text_alignment":"center","color_bg":"rgba(0,0,0,0)","color_heading":"#1a1c1d","color_text":"#2c2d2e","color_links":"#2c2d2e","disable_top_spacing":false,"disable_bottom_spacing":true}},"1711998083986c24cc":{"type":"apps","blocks":{"loox_reviews_loox_agg_section_f3REWL":{"type":"shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"only_photos":false,"hide_thumbnails":false,"product_handle":"","aggregated":true,"data-limit":10,"maxwidth":1200,"is_sample":true}}},"block_order":["loox_reviews_loox_agg_section_f3REWL"],"settings":{}},"rich_text_GgN3Xc":{"type":"rich-text","blocks":{"heading_6U8jnh":{"type":"heading","settings":{"text":"Media Public Relations","marker_style":"style2","size":"h3","marker_color":"#fd6262"}}},"block_order":["heading_6U8jnh"],"settings":{"text_width":"medium","text_position":"center","text_alignment":"center","color_bg":"rgba(0,0,0,0)","color_heading":"#1a1c1d","color_text":"#2c2d2e","color_links":"#2c2d2e","disable_top_spacing":false,"disable_bottom_spacing":true}},"promotion_blocks_NpxCRX":{"type":"promotion-blocks","blocks":{"promotion_LWaA8N":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/make_use_of.png","title":"Yeelight's new products will strengthen its integration with the new smart home standard, which is a bonus and helps keep Yeelight at the topo'smart lighting game.","button_text":"Explore","button_link":"https:\/\/www.makeuseof.com\/yeelight-cube-review\/"}},"promotion_Y6ewhy":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/techradar-logo_logotyp.us.svg","title":"The Yeelight Cube makes it super easy to add smart lighting to the desk or wherever else you need it. The lights can be added in modules, and you can even design patterns and colors for your setup.","button_text":"Explore","button_link":"https:\/\/global.techradar.com\/da-dk\/reviews\/yeelight-cube-er-lanceret"}},"promotion_VD6w3B":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/android_Central.png","title":"This Matter-enabled modular smart light is unlike anything I've used before. It's safe to say that the Yeelight Cube is the best ambientlighting product if you care about customizability.","button_text":"Explore","button_link":"https:\/\/www.androidcentral.com\/accessories\/smart-home\/yeelight-cube-review"}}},"block_order":["promotion_LWaA8N","promotion_Y6ewhy","promotion_VD6w3B"],"settings":{"mobile_swipe":true,"image_ratio":"adapt","column_spacing":"medium","color_bg":"#ffffff","color_text":"#2c2d2e","color_link":"#3f72e5","disable_top_spacing":false,"disable_bottom_spacing":false}},"collection_list_7U8MXe":{"type":"collection-list","settings":{"heading":"Shop by Category","marker_style":"style1","description":"","heading_size":"small","collection_list":["gaming-light","smart-led-strip","smart-bulb"],"image_ratio":"square","collection_layout":"grid","style":"style1","columns_desktop":3,"columns_mobile":"1","show_progress_bar":true,"mobile_swipe":true,"heading_position":"bottom-center","marker_color":"#fd6262","text_color":"#2c2d2e","overlay_color":"#dadce0","overlay_opacity":0,"disable_top_spacing":true,"disable_bottom_spacing":false}},"gallery_LGBiNY":{"type":"gallery","blocks":{"image_z43Naq":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/IMG_8631.jpg","enable_gallery_video":false,"enable_hover_play":false,"subheading":"","title":"","marker_style":"style1","text":"","link_label":"","link":"","use_text_button":false,"block_link":"","marker_color":"#fd6262"}},"image_RrUUNU":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/IMG_8634.jpg","enable_gallery_video":false,"enable_hover_play":false,"subheading":"","title":"","marker_style":"style1","text":"","link_label":"","link":"","use_text_button":false,"block_link":"","marker_color":"#fd6262"}},"image_T8BAhg":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/IMG_8633.jpg","enable_gallery_video":false,"enable_hover_play":false,"subheading":"","title":"","marker_style":"style1","text":"","link_label":"","link":"","use_text_button":false,"block_link":"","marker_color":"#fd6262"}},"image_wdytLT":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/1_628733eb-126b-4d4f-9cc8-4de1ce6bbe68.jpg","enable_gallery_video":false,"enable_hover_play":false,"subheading":"","title":"","marker_style":"style1","text":"","link_label":"","link":"","use_text_button":false,"block_link":"","marker_color":"#fd6262"}}},"block_order":["image_z43Naq","image_RrUUNU","image_T8BAhg","image_wdytLT"],"disabled":true,"settings":{"columns_desktop":4,"full_width":false,"mobile_swipe":false,"image_ratio":"portrait","content_position":"bottom-left","text_alignment":"left","column_spacing":"small","heading_size":"h2","description_size":"medium","overlay_color":"#000000","overlay_opacity":0,"disable_top_spacing":true,"disable_bottom_spacing":false}},"rich_text_fnix7M":{"type":"rich-text","blocks":{"heading_MmFBek":{"type":"heading","settings":{"text":"Command Center Gaming Set","marker_style":"style1","size":"h3","marker_color":"#fd6262"}},"text_Hj4bDe":{"type":"text","settings":{"text":"<p>The ultimate gaming setup makes you the Commander<\/p>","custom_liquid":"","size":"text-size-regular"}},"button_9fHQEy":{"type":"button","settings":{"link_label":"Save With Bundles","link":"shopify:\/\/products\/yeelight-gaming-lighting-trible-pack"}}},"block_order":["heading_MmFBek","text_Hj4bDe","button_9fHQEy"],"settings":{"text_width":"large","text_position":"center","text_alignment":"center","color_bg":"rgba(0,0,0,0)","color_heading":"#1a1c1d","color_text":"#2c2d2e","color_links":"#2c2d2e","disable_top_spacing":true,"disable_bottom_spacing":true}},"shop_the_look_94Y4Bx":{"type":"shop-the-look","blocks":{"product_Gycbkt":{"type":"product","settings":{"product_handle":"yeelight-monitor-light-bar-pro-flagship-edition","x_position":55,"y_position":22,"x_position_mobile":42,"y_position_mobile":30}},"product_pRzYba":{"type":"product","settings":{"product_handle":"yeelight-smart-cube-kit","x_position":49,"y_position":71,"x_position_mobile":31,"y_position_mobile":65}},"product_LP69Mb":{"type":"product","settings":{"product_handle":"yeelight-beam-rgbic-light-bar","x_position":89,"y_position":52,"x_position_mobile":84,"y_position_mobile":52}}},"block_order":["product_Gycbkt","product_pRzYba","product_LP69Mb"],"settings":{"image":"shopify:\/\/shop_images\/Command_Center.jpg","image_mobile":"shopify:\/\/shop_images\/gaminglightingbundle.jpg","full_width":false,"disable_top_spacing":false,"disable_bottom_spacing":true}},"rich_text_97FdYr":{"type":"rich-text","blocks":{"heading_nPyAGz":{"type":"heading","settings":{"text":"Essential Glow Gaming Set","marker_style":"style1","size":"h3","marker_color":"#fd6262"}},"text_4cwetT":{"type":"text","settings":{"text":"<p>The foundational bundle for immersive gaming ambiance<\/p>","custom_liquid":"","size":"text-size-regular"}},"button_wrXctq":{"type":"button","settings":{"link_label":"Save With Bundles","link":"shopify:\/\/products\/immersive-audiovisual-lighting-bundle"}}},"block_order":["heading_nPyAGz","text_4cwetT","button_wrXctq"],"settings":{"text_width":"medium","text_position":"center","text_alignment":"center","color_bg":"rgba(0,0,0,0)","color_heading":"#1a1c1d","color_text":"#2c2d2e","color_links":"#2c2d2e","disable_top_spacing":false,"disable_bottom_spacing":true}},"shop_the_look_QgXkXQ":{"type":"shop-the-look","blocks":{"product_PaLJwT":{"type":"product","settings":{"product_handle":"yeelight-monitor-light-bar-pro-flagship-edition","x_position":45,"y_position":27,"x_position_mobile":50,"y_position_mobile":40}},"product_y3gmjA":{"type":"product","settings":{"product_handle":"yeelight-beam-rgbic-light-bar","x_position":67,"y_position":45,"x_position_mobile":70,"y_position_mobile":60}}},"block_order":["product_PaLJwT","product_y3gmjA"],"settings":{"image":"shopify:\/\/shop_images\/Perfermance_Boost.jpg","image_mobile":"shopify:\/\/shop_images\/LibraPro-beam.jpg","full_width":false,"disable_top_spacing":false,"disable_bottom_spacing":true}},"rich_text_LkTqMa":{"type":"rich-text","blocks":{"heading_LfLRQF":{"type":"heading","settings":{"text":"Performance Boost Gaming Set","marker_style":"style1","size":"h3","marker_color":"#fd6262"}},"text_CtbNFi":{"type":"text","settings":{"text":"<p>Fuels your gaming sessions with lighting that enhances focus and immersion<\/p>","custom_liquid":"","size":"text-size-regular"}},"button_YyP6bB":{"type":"button","settings":{"link_label":"Save With Bundles","link":"shopify:\/\/products\/yeelight-ambient-lighting-dual-pack"}}},"block_order":["heading_LfLRQF","text_CtbNFi","button_YyP6bB"],"settings":{"text_width":"large","text_position":"center","text_alignment":"center","color_bg":"rgba(0,0,0,0)","color_heading":"#1a1c1d","color_text":"#2c2d2e","color_links":"#2c2d2e","disable_top_spacing":false,"disable_bottom_spacing":true}},"shop_the_look_CermnV":{"type":"shop-the-look","blocks":{"product_rxfqJq":{"type":"product","settings":{"product_handle":"yeelight-obsid-rgbic-light-strip","x_position":25,"y_position":20,"x_position_mobile":7,"y_position_mobile":61}},"product_3Y3bwR":{"type":"product","settings":{"product_handle":"yeelight-beam-rgbic-light-bar","x_position":76,"y_position":57,"x_position_mobile":61,"y_position_mobile":30}}},"block_order":["product_rxfqJq","product_3Y3bwR"],"settings":{"image":"shopify:\/\/shop_images\/1_c15174af-f97b-4f47-a451-a1fbf9c8c926.jpg","image_mobile":"shopify:\/\/shop_images\/BeamandObsid1.jpg","full_width":false,"disable_top_spacing":false,"disable_bottom_spacing":false}},"1647955648d6a0baee":{"type":"featured-blog","disabled":true,"settings":{"heading":"Latest News","marker_style":"style1","description":"<p>Everything about Lights<\/p>","blog":"everything-about-lights","post_limit":3,"columns_desktop":3,"mobile_swipe":true,"image_ratio":"landscape","show_date":true,"show_excerpt":true,"show_read_more":true,"show_view_all":true,"marker_color":"#fd6262","disable_top_spacing":true,"disable_bottom_spacing":false}},"single_image_4eyaPr":{"type":"single-image","settings":{"image":"shopify:\/\/shop_images\/platforms.png","image_mobile":"shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png","full_width":true,"disable_top_spacing":true,"disable_bottom_spacing":false}},"scrolling_images_9q4NDw":{"type":"scrolling-images","blocks":{"image_WB4riQ":{"type":"image","settings":{"link":"","heading":"Heading","text":"<p>Add description text here.<\/p>"}},"image_VgPtCJ":{"type":"image","settings":{"link":"","heading":"Heading","text":"<p>Add description text here.<\/p>"}}},"block_order":["image_WB4riQ","image_VgPtCJ"],"disabled":true,"settings":{"image_ratio":"portrait","column_spacing":"small","image_alignment":"top","direction":"left","speed":"30s","disable_top_spacing":true,"disable_bottom_spacing":false}},"email_signup_8hrJki":{"type":"email-signup","blocks":{"heading_tcgqi8":{"type":"heading","settings":{"text":"Newsletter","heading_size":"h3"}},"text_Pd6d7D":{"type":"text","settings":{"text":"Know about New Products and Get Exclusive Offers","description_size":"medium"}},"form_4wVnxx":{"type":"form","settings":{}}},"block_order":["heading_tcgqi8","text_Pd6d7D","form_4wVnxx"],"settings":{"full_width":false,"color_bg":"#f5f5f5","color_text":"#2c2d2e","color_heading":"#1a1c1d","color_border":"#d3d3d3","overlay_color":"#000000","overlay_opacity":0,"disable_top_spacing":false,"disable_bottom_spacing":false}}},"order":["slideshow_AaGJwH","featured_collection_M8HqE3","multicolumn_WygXNb","rich_text_Uicwnn","image_with_text_eRwPQt","image_with_text_M64RrT","rich_text_Qb3iUW","text_with_icons_MqACi7","rich_text_ajyhj6","1711998083986c24cc","rich_text_GgN3Xc","promotion_blocks_NpxCRX","collection_list_7U8MXe","gallery_LGBiNY","rich_text_fnix7M","shop_the_look_94Y4Bx","rich_text_97FdYr","shop_the_look_QgXkXQ","rich_text_LkTqMa","shop_the_look_CermnV","1647955648d6a0baee","single_image_4eyaPr","scrolling_images_9q4NDw","email_signup_8hrJki"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "slideshow_AaGJwH": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_HmWpzr": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-new.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/banner-M.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "Yeelight Cube Smart Lamp",
+            "heading_size": "h2",
+            "content": "Customizable ARGB Table Lamp with Magnetic Modular Design",
+            "description_size": "medium",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#fdfdfd",
+            "color_badge_bg": "#ffffff",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "Shop Now",
+            "button_1_color": "white",
+            "button_1_link": "shopify:\/\/products\/yeelight-smart-cube",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": true
+          }
+        },
+        "slide_B9biA3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f6f29f3f72edf58e4c4c7f3f6cf6e13f.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/f6914cc574aa2eb6913da83a0a65a64a.jpg",
+            "slide_link": "shopify:\/\/collections\/all-lights",
+            "video_background": false,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#ffffff",
+            "color_badge_bg": "#ffffff",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_color": "white",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_Apj7XN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Beam-PC.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Beam-Mobile_550a5713-496e-4bc1-8e62-88463f402400.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#fdfdfd",
+            "color_badge_bg": "#ffffff",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_color": "white",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": true
+          }
+        },
+        "slide_E8nF4j": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f6f29f3f72edf58e4c4c7f3f6cf6e13f.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/f6914cc574aa2eb6913da83a0a65a64a.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h2",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#fdfdfd",
+            "color_badge_bg": "#ffffff",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_color": "white",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_HmWpzr",
+        "slide_B9biA3",
+        "slide_Apj7XN",
+        "slide_E8nF4j"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "transition": "slide",
+        "controls": "dots",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_M8HqE3": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "What's Popular",
+        "marker_style": "style1",
+        "description": "",
+        "collection": "all-lights",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": false,
+        "show_progress_bar": true,
+        "marker_color": "#fd6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "multicolumn_WygXNb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VwffB9": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "image_link": "",
+            "title": "Crafted with Precision",
+            "text": "<p>Yeelight's accessories are meticulously crafted with precision and care, enhancing your smart home setup with elegance and sophistication.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NfczMg": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "image_link": "",
+            "title": "Uncompromising Quality",
+            "text": "<p>Experience luxury with Yeelight's premium accessories, crafted from the finest materials for exceptional durability and performance.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4KKLUw": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "image_link": "",
+            "title": "Personalized Elegance",
+            "text": "<p>Express your style with Yeelight's upgrades, designed to complement your smart bulbs and fixtures. Elevate your smart home with innovation and style.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VwffB9",
+        "column_NfczMg",
+        "column_4KKLUw"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "|Level Up Your Gaming Experience|",
+        "marker_style": "style2",
+        "description": "<p>Immerse yourself in the ultimate gaming experience with Yeelight's state-of-the-art smart lighting solutions. Elevate your gaming setup with dynamic lighting effects that synchronize seamlessly with your gameplay, creating an electrifying atmosphere that brings every virtual world to life.<\/p>",
+        "columns_desktop": 4,
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "text_alignment": "center",
+        "heading_size": "h3",
+        "color_heading": "#1a1c1d",
+        "marker_color": "#3f72e5",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_Uicwnn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_L4NGzr": {
+          "type": "heading",
+          "settings": {
+            "text": "What did they say about us",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_L4NGzr"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_eRwPQt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_cEzNtY": {
+          "type": "heading",
+          "settings": {
+            "text": "|Coolest| New Product with Matter",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#2596be"
+          }
+        },
+        "text_cFJ8k8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>-- The Brad Lloyd<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cEzNtY",
+        "text_cFJ8k8"
+      ],
+      "settings": {
+        "use_video": true,
+        "video": "https:\/\/youtu.be\/zjA2Jf2CWjs?si=4SOgbCaUkrXuxK10",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "column_spacing": "large",
+        "color_bg": "#f6f6f6",
+        "color_text": "#2c2d2e",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_M64RrT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RbcRtF": {
+          "type": "heading",
+          "settings": {
+            "text": "As Smart Home products go this is a beast!",
+            "marker_style": "style2",
+            "heading_size": "h3",
+            "marker_color": "#2596be"
+          }
+        },
+        "text_KRqV4y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>-- Paul Hibbert <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RbcRtF",
+        "text_KRqV4y"
+      ],
+      "settings": {
+        "use_video": true,
+        "video": "https:\/\/www.youtube.com\/watch?v=Q70lpee5lSY&t=501s",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "text_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#f6f6f6",
+        "color_text": "#2c2d2e",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_Qb3iUW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_W9jYDF": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Choose Us",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_W9jYDF"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "text_with_icons_MqACi7": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_aBKTbt": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image": "shopify:\/\/shop_images\/stars.png",
+            "heading": "Excellent ratings (4.8)",
+            "text": "<p>With top-notch ratings in every category, homeowners rely on us to elevate their lighting experience. Feel assured as you browse, knowing you're selecting a brand endorsed by passionate lighting aficionados.<\/p>"
+          }
+        },
+        "icon_GFyYAm": {
+          "type": "icon",
+          "settings": {
+            "icon": "plane",
+            "image": "shopify:\/\/shop_images\/plane.png",
+            "heading": "Free worldwide shipping",
+            "text": "<p>Take advantage of complimentary shipping on all bundled orders. Our items are promptly dispatched, and you'll promptly receive a shipping confirmation containing a tracking number.<\/p><p><\/p><p><\/p>"
+          }
+        },
+        "icon_RFQH79": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble",
+            "image": "shopify:\/\/shop_images\/speech-bubble.png",
+            "heading": "Exceptional Customer Service",
+            "text": "<p>Count on our devoted customer service team for assistance. Connect with us effortlessly through email or live chat, and experience our personalized 1-on-1 customer support.<\/p><p><\/p>"
+          }
+        },
+        "icon_h6xJ9e": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/warranty.png",
+            "heading": "2 Year Warranty",
+            "text": "<p>Illuminate confidently with Yeelight's smart lighting, backed by a solid 2-year warranty. Trust our quality and innovation, knowing we've got you covered for any issues. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_aBKTbt",
+        "icon_GFyYAm",
+        "icon_RFQH79",
+        "icon_h6xJ9e"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "medium",
+        "heading_size": "medium",
+        "mobile_swipe": true,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_ajyhj6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UzCadp": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer Reviews",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UzCadp"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1711998083986c24cc": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_f3REWL": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 10,
+            "maxwidth": 1200,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_f3REWL"
+      ],
+      "settings": {
+      }
+    },
+    "rich_text_GgN3Xc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6U8jnh": {
+          "type": "heading",
+          "settings": {
+            "text": "Media Public Relations",
+            "marker_style": "style2",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6U8jnh"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "promotion_blocks_NpxCRX": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "promotion_LWaA8N": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/make_use_of.png",
+            "title": "Yeelight's new products will strengthen its integration with the new smart home standard, which is a bonus and helps keep Yeelight at the topo'smart lighting game.",
+            "button_text": "Explore",
+            "button_link": "https:\/\/www.makeuseof.com\/yeelight-cube-review\/"
+          }
+        },
+        "promotion_Y6ewhy": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/techradar-logo_logotyp.us.svg",
+            "title": "The Yeelight Cube makes it super easy to add smart lighting to the desk or wherever else you need it. The lights can be added in modules, and you can even design patterns and colors for your setup.",
+            "button_text": "Explore",
+            "button_link": "https:\/\/global.techradar.com\/da-dk\/reviews\/yeelight-cube-er-lanceret"
+          }
+        },
+        "promotion_VD6w3B": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/android_Central.png",
+            "title": "This Matter-enabled modular smart light is unlike anything I've used before. It's safe to say that the Yeelight Cube is the best ambientlighting product if you care about customizability.",
+            "button_text": "Explore",
+            "button_link": "https:\/\/www.androidcentral.com\/accessories\/smart-home\/yeelight-cube-review"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_LWaA8N",
+        "promotion_Y6ewhy",
+        "promotion_VD6w3B"
+      ],
+      "settings": {
+        "mobile_swipe": true,
+        "image_ratio": "adapt",
+        "column_spacing": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_link": "#3f72e5",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "collection_list_7U8MXe": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "Shop by Category",
+        "marker_style": "style1",
+        "description": "",
+        "heading_size": "small",
+        "collection_list": [
+          "gaming-light",
+          "smart-led-strip",
+          "smart-bulb"
+        ],
+        "image_ratio": "square",
+        "collection_layout": "grid",
+        "style": "style1",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "heading_position": "bottom-center",
+        "marker_color": "#fd6262",
+        "text_color": "#2c2d2e",
+        "overlay_color": "#dadce0",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "gallery_LGBiNY": {
+      "type": "gallery",
+      "blocks": {
+        "image_z43Naq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8631.jpg",
+            "enable_gallery_video": false,
+            "enable_hover_play": false,
+            "subheading": "",
+            "title": "",
+            "marker_style": "style1",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "marker_color": "#fd6262"
+          }
+        },
+        "image_RrUUNU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8634.jpg",
+            "enable_gallery_video": false,
+            "enable_hover_play": false,
+            "subheading": "",
+            "title": "",
+            "marker_style": "style1",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "marker_color": "#fd6262"
+          }
+        },
+        "image_T8BAhg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8633.jpg",
+            "enable_gallery_video": false,
+            "enable_hover_play": false,
+            "subheading": "",
+            "title": "",
+            "marker_style": "style1",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "marker_color": "#fd6262"
+          }
+        },
+        "image_wdytLT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_628733eb-126b-4d4f-9cc8-4de1ce6bbe68.jpg",
+            "enable_gallery_video": false,
+            "enable_hover_play": false,
+            "subheading": "",
+            "title": "",
+            "marker_style": "style1",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "image_z43Naq",
+        "image_RrUUNU",
+        "image_T8BAhg",
+        "image_wdytLT"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 4,
+        "full_width": false,
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h2",
+        "description_size": "medium",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_fnix7M": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MmFBek": {
+          "type": "heading",
+          "settings": {
+            "text": "Command Center Gaming Set",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        },
+        "text_Hj4bDe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The ultimate gaming setup makes you the Commander<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_9fHQEy": {
+          "type": "button",
+          "settings": {
+            "link_label": "Save With Bundles",
+            "link": "shopify:\/\/products\/yeelight-gaming-lighting-trible-pack"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MmFBek",
+        "text_Hj4bDe",
+        "button_9fHQEy"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "shop_the_look_94Y4Bx": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_Gycbkt": {
+          "type": "product",
+          "settings": {
+            "product_handle": "yeelight-monitor-light-bar-pro-flagship-edition",
+            "x_position": 55,
+            "y_position": 22,
+            "x_position_mobile": 42,
+            "y_position_mobile": 30
+          }
+        },
+        "product_pRzYba": {
+          "type": "product",
+          "settings": {
+            "product_handle": "yeelight-smart-cube-kit",
+            "x_position": 49,
+            "y_position": 71,
+            "x_position_mobile": 31,
+            "y_position_mobile": 65
+          }
+        },
+        "product_LP69Mb": {
+          "type": "product",
+          "settings": {
+            "product_handle": "yeelight-beam-rgbic-light-bar",
+            "x_position": 89,
+            "y_position": 52,
+            "x_position_mobile": 84,
+            "y_position_mobile": 52
+          }
+        }
+      },
+      "block_order": [
+        "product_Gycbkt",
+        "product_pRzYba",
+        "product_LP69Mb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Command_Center.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/gaminglightingbundle.jpg",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_97FdYr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nPyAGz": {
+          "type": "heading",
+          "settings": {
+            "text": "Essential Glow Gaming Set",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        },
+        "text_4cwetT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The foundational bundle for immersive gaming ambiance<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_wrXctq": {
+          "type": "button",
+          "settings": {
+            "link_label": "Save With Bundles",
+            "link": "shopify:\/\/products\/immersive-audiovisual-lighting-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nPyAGz",
+        "text_4cwetT",
+        "button_wrXctq"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "shop_the_look_QgXkXQ": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_PaLJwT": {
+          "type": "product",
+          "settings": {
+            "product_handle": "yeelight-monitor-light-bar-pro-flagship-edition",
+            "x_position": 45,
+            "y_position": 27,
+            "x_position_mobile": 50,
+            "y_position_mobile": 40
+          }
+        },
+        "product_y3gmjA": {
+          "type": "product",
+          "settings": {
+            "product_handle": "yeelight-beam-rgbic-light-bar",
+            "x_position": 67,
+            "y_position": 45,
+            "x_position_mobile": 70,
+            "y_position_mobile": 60
+          }
+        }
+      },
+      "block_order": [
+        "product_PaLJwT",
+        "product_y3gmjA"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Perfermance_Boost.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/LibraPro-beam.jpg",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_LkTqMa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LfLRQF": {
+          "type": "heading",
+          "settings": {
+            "text": "Performance Boost Gaming Set",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        },
+        "text_CtbNFi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fuels your gaming sessions with lighting that enhances focus and immersion<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_YyP6bB": {
+          "type": "button",
+          "settings": {
+            "link_label": "Save With Bundles",
+            "link": "shopify:\/\/products\/yeelight-ambient-lighting-dual-pack"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LfLRQF",
+        "text_CtbNFi",
+        "button_YyP6bB"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "shop_the_look_CermnV": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_rxfqJq": {
+          "type": "product",
+          "settings": {
+            "product_handle": "yeelight-obsid-rgbic-light-strip",
+            "x_position": 25,
+            "y_position": 20,
+            "x_position_mobile": 7,
+            "y_position_mobile": 61
+          }
+        },
+        "product_3Y3bwR": {
+          "type": "product",
+          "settings": {
+            "product_handle": "yeelight-beam-rgbic-light-bar",
+            "x_position": 76,
+            "y_position": 57,
+            "x_position_mobile": 61,
+            "y_position_mobile": 30
+          }
+        }
+      },
+      "block_order": [
+        "product_rxfqJq",
+        "product_3Y3bwR"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_c15174af-f97b-4f47-a451-a1fbf9c8c926.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/BeamandObsid1.jpg",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1647955648d6a0baee": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Latest News",
+        "marker_style": "style1",
+        "description": "<p>Everything about Lights<\/p>",
+        "blog": "everything-about-lights",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "mobile_swipe": true,
+        "image_ratio": "landscape",
+        "show_date": true,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "show_view_all": true,
+        "marker_color": "#fd6262",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "single_image_4eyaPr": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/platforms.png",
+        "image_mobile": "shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "scrolling_images_9q4NDw": {
+      "type": "scrolling-images",
+      "blocks": {
+        "image_WB4riQ": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "heading": "Heading",
+            "text": "<p>Add description text here.<\/p>"
+          }
+        },
+        "image_VgPtCJ": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "heading": "Heading",
+            "text": "<p>Add description text here.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_WB4riQ",
+        "image_VgPtCJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_ratio": "portrait",
+        "column_spacing": "small",
+        "image_alignment": "top",
+        "direction": "left",
+        "speed": "30s",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "email_signup_8hrJki": {
+      "type": "email-signup",
+      "blocks": {
+        "heading_tcgqi8": {
+          "type": "heading",
+          "settings": {
+            "text": "Newsletter",
+            "heading_size": "h3"
+          }
+        },
+        "text_Pd6d7D": {
+          "type": "text",
+          "settings": {
+            "text": "Know about New Products and Get Exclusive Offers",
+            "description_size": "medium"
+          }
+        },
+        "form_4wVnxx": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_tcgqi8",
+        "text_Pd6d7D",
+        "form_4wVnxx"
+      ],
+      "settings": {
+        "full_width": false,
+        "color_bg": "#f5f5f5",
+        "color_text": "#2c2d2e",
+        "color_heading": "#1a1c1d",
+        "color_border": "#d3d3d3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_AaGJwH",
+    "featured_collection_M8HqE3",
+    "multicolumn_WygXNb",
+    "rich_text_Uicwnn",
+    "image_with_text_eRwPQt",
+    "image_with_text_M64RrT",
+    "rich_text_Qb3iUW",
+    "text_with_icons_MqACi7",
+    "rich_text_ajyhj6",
+    "1711998083986c24cc",
+    "rich_text_GgN3Xc",
+    "promotion_blocks_NpxCRX",
+    "collection_list_7U8MXe",
+    "gallery_LGBiNY",
+    "rich_text_fnix7M",
+    "shop_the_look_94Y4Bx",
+    "rich_text_97FdYr",
+    "shop_the_look_QgXkXQ",
+    "rich_text_LkTqMa",
+    "shop_the_look_CermnV",
+    "1647955648d6a0baee",
+    "single_image_4eyaPr",
+    "scrolling_images_9q4NDw",
+    "email_signup_8hrJki"
+  ]
+}
