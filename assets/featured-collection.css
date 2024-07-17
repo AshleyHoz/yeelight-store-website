@@ -19,7 +19,7 @@
 .custom-text--button {
   text-align: center;
 }
-.custom-text--button > span {
+.custom-text--button span {
   display: none;
 }
 .button--primary {
