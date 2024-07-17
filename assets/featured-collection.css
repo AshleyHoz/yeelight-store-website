@@ -16,6 +16,9 @@
 .featured-collection__inner {
   margin-bottom: 40px;
 }
+.custom-text--button {
+  text-align: center;
+}
 .button--primary {
   padding: 16px 30px;
   border-radius: 100px;
