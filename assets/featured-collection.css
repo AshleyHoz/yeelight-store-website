@@ -19,6 +19,9 @@
 .custom-text--button {
   text-align: center;
 }
+.text-button--has-icon {
+  display: none;
+}
 .button--primary {
   padding: 16px 30px;
   border-radius: 100px;
