@@ -13,7 +13,7 @@
 -%}
 <shop-the-look class="shop-the-look section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
 	<div class="row{% if full_width %} full-width-row-full{% endif %}">
-		<div class="small-12 columns">
+		<div class="small-12 columns customshop-look-column">
 			<figure class="shop-the-look--area shop-the-look--mobile shop-the-look--full-width-{{ full_width }}">
 				{%- if image_mobile -%}
 					{% assign small_height = image_mobile.src.height | times: '750' | divided_by: image_mobile.src.width %}
@@ -75,6 +75,21 @@
         {% endfor %}
 			</figure>
 		</div>
+    <div>
+    <div class="thb-hotspot-bubble">
+			{% if hotspot_product.featured_image %}
+			<a href="{{ hotspot_product.url }}" title="{{ hotspot_product.title | escape }}" class="thb-hotspot-product-image">
+			{%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
+			</a>
+		  {% endif %}
+		  <div class="thb-hotspot-product-content">
+		  <div class="thb-hotspot-product-title">{{ hotspot_product.title }}</div>
+        {% render 'product-price', product: hotspot_product %}
+        {% assign text_button_title = 'sections.shop_the_look.view_product' | t %}
+        {% render 'text-button', url: hotspot_product.url, title: text_button_title %}
+        </div>
+      </div>
+    </div>
 	</div>
 </shop-the-look>
 <script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer"></script>
