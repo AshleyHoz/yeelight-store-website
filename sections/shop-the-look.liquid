@@ -12,8 +12,8 @@
 	endunless
 -%}
 <shop-the-look class="shop-the-look section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
-	<div class="row{% if full_width %} full-width-row-full{% endif %}">
-		<div class="small-12 columns customshop-look-column">
+	<div class="row{% if full_width %} full-width-row-full custom-shop-look{% endif %}">
+		<div class="small-12 columns custom-shop-look-column">
 			<figure class="shop-the-look--area shop-the-look--mobile shop-the-look--full-width-{{ full_width }}">
 				{%- if image_mobile -%}
 					{% assign small_height = image_mobile.src.height | times: '750' | divided_by: image_mobile.src.width %}
