@@ -76,19 +76,22 @@
 			</figure>
 		</div>
     <div class="product-list">
-      <div>
-        {% if hotspot_product.featured_image %}
-        <a href="{{ hotspot_product.url }}" title="{{ hotspot_product.title | escape }}" class="thb-hotspot-product-image">
-        {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
-        </a>
-        {% endif %}
-        <div class="thb-hotspot-product-content">
-        <div class="thb-hotspot-product-title">{{ hotspot_product.title }}</div>
-          {% render 'product-price', product: hotspot_product %}
-          {% assign text_button_title = 'sections.shop_the_look.view_product' | t %}
-          {% render 'text-button', url: hotspot_product.url, title: text_button_title %}
-        </div>
-      </div>
+      {% for block in section.blocks %}
+				{%- assign hotspot_product = all_products[block.settings.product_handle] -%}
+        <div class="product-card">
+          {% if hotspot_product.featured_image %}
+          <a href="{{ hotspot_product.url }}" title="{{ hotspot_product.title | escape }}" class="thb-hotspot-product-image">
+          {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
+          </a>
+          {% endif %}
+          <div class="thb-hotspot-product-content custom-product-content">
+            <div class="thb-hotspot-product-title">{{ hotspot_product.title }}</div>
+              {% render 'product-price', product: hotspot_product %}
+              {% assign text_button_title = 'sections.shop_the_look.view_product' | t %}
+              {% render 'text-button', url: hotspot_product.url, title: text_button_title %}
+            </div>
+          </div>
+        {% endfor %}
     </div>
 	</div>
 </shop-the-look>
