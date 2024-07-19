@@ -15,8 +15,7 @@ if (!customElements.get('shop-the-look')) {
   }
   customElements.define('shop-the-look', ShopTheLook);
 }
-
-window.onload = function () {
+function loadLottie() {
   lottie.loadAnimation({
     container: document.getElementById('animation-container'), // 动画将在这个元素内部显示
     renderer: 'svg',
@@ -24,7 +23,21 @@ window.onload = function () {
     autoplay: true,
     path: loadingJson,
   });
-  setTimeout(function () {
-    lottie.stop('Loading');
-  }, 5000);
+  // setTimeout(function () {
+  //   lottie.stop('Loading');
+  // }, 5000);
+}
+
+document.onreadystatechange = function () {
+  console.log(1, 'lottie loaded');
+
+  if (document.readyState === 'complete') {
+    // 你的代码
+    loadLottie();
+  }
+};
+
+window.onload = function () {
+  console.log(2, 'lottie loaded');
+  loadLottie();
 };
