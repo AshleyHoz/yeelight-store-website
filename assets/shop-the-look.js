@@ -16,13 +16,13 @@ if (!customElements.get('shop-the-look')) {
   customElements.define('shop-the-look', ShopTheLook);
 }
 // function loadLottie() {
-//   lottie.loadAnimation({
-//     container: document.getElementById('animation-container'), // 动画将在这个元素内部显示
-//     renderer: 'svg',
-//     loop: true,
-//     autoplay: true,
-//     path: loadingJson,
-//   });
+lottie.loadAnimation({
+  container: document.getElementById('animation-container'), // 动画将在这个元素内部显示
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: loadingJson,
+});
 //   // setTimeout(function () {
 //   //   lottie.stop('Loading');
 //   // }, 5000);
