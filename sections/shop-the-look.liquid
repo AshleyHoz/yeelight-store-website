@@ -75,11 +75,11 @@
         {% endfor %}
 			</figure>
 		</div>
-    <div class="product-list">
+    <div class="custom-product-list">
     <div id="lottie-loading" class="lottie" style="width: 32px; height: 32px"></div>
       {% for block in section.blocks %}
 				{%- assign hotspot_product = all_products[block.settings.product_handle] -%}
-        <div class="product-card">
+        <div class="custom-product-card">
           {% if hotspot_product.featured_image %}
           <a href="{{ hotspot_product.url }}" title="{{ hotspot_product.title | escape }}" class="thb-hotspot-product-image">
           {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
