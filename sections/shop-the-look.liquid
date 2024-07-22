@@ -98,15 +98,7 @@
           </div>
         {% endfor %}
       {% preload_tag "script" "lottie-player.js" %}
-      <div id="lottie1" style="width: 32px; height: 32px; ">
-        <lottie-player id="lottie-loading1" src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="0,5" style="width: 32px; height: 32px;" direction="1" loop="false"></lottie-player>
-       </div>
-      <div id="lottie2" style="width: 32px; height: 32px; ">
-       <lottie-player id="lottie-loading2" src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="1" style="width: 32px; height: 32px;" loop autoplay></lottie-player >
-       </div>
-      <div id="lottie3" style="width: 32px; height: 32px; ">
-       <dotlottie-player id="lottie-loading3" src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="1" style="width: 32px; height: 32px;" loop autoplay></dotlottie-player>
-       </div>
+        <lottie-player id="lottie-loading" src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="0,5" style="width: 32px; height: 32px;" direction="1" loop="false"></lottie-player>
     </div>
 	</div>
 </shop-the-look>
