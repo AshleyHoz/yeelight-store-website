@@ -10,6 +10,27 @@ if (!customElements.get('shop-the-look')) {
     constructor(e) {
       super();
       console.log(e);
+
+      this.animation = lottie.loadAnimation({
+        container: document.getElementById('lottie-loading'), // 动画将在这个元素内部显示
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: loadingJson,
+      });
+
+      LottieInteractivity.create({
+        player: '#lottie-loading',
+        mode: 'scroll',
+        container: '#lottie-loading',
+        actions: [
+          {
+            visibility: [0, 1],
+            type: 'seek',
+            frames: [0, 90],
+          },
+        ],
+      });
     }
     connectedCallback() {}
   }
