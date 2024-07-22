@@ -94,47 +94,59 @@
           </div>
         {% endfor %}
       {% preload_tag "script" "lottie-player.js" %}
-      <div id="lottie-loading" class="lottie" style="width: 32px; height: 32px"></div>
-      <div id="lottie-container" style="width: 100%; height: auto; ">
-        <lottie-player id="lottie-loading" src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="0,5" style="width: 100%;" direction="1" loop="false"></lottie-player>
+      <div id="lottie1" style="width: 32px; height: 32px; ">
+        <lottie-player id="lottie-loading1" src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="0,5" style="width: 32px; height: 32px;" direction="1" loop="false"></lottie-player>
        </div>
-       <Player autoplay loop src="{{ 'lottie-loading.json' | asset_url }}" style="width: 32px;height: 32px;">
-       </Player>
-       <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_uhsngkt4.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player >
+      <div id="lottie2" style="width: 32px; height: 32px; ">
+       <lottie-player id="lottie-loading2" src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="1" style="width: 32px; height: 32px;" loop autoplay></lottie-player >
+       </div>
+      <div id="lottie3" style="width: 32px; height: 32px; ">
+       <dotlottie-player id="lottie-loading3" src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="1" style="width: 32px; height: 32px;" loop autoplay></dotlottie-player>
+       </div>
     </div>
 	</div>
 </shop-the-look>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer="defer"></script>
+{% comment %} <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js" defer></script> {% endcomment %}
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 <script src="{{ '../assets/lottie-player.js' | asset_url }}" defer="defer">
 </script>
 <script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer">
-import {Player} from 'react-lottie-player';
-import lottie from 'lottie-web';
-import loadingJson from '../assets/loading.json';
 
-var animation = lottie.loadAnimation({
-  container: document.getElementById('lottie-loading'), // 动画将在这个元素内部显示
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: loadingJson,
-});
-
-console.log(window, document);
-document.onreadystatechange = function () {
-  console.log(1, 'lottie loaded');
-
-  if (document.readyState === 'complete') {
-    lottie.loadAnimation({
-      container: document.getElementById('lottie-loading'), // 动画将在这个元素内部显示
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: loadingJson,
-    });
-  }
-};
+// LottieInteractivity.create({
+//   player:'#lottie-loading',
+//   mode:"scroll",
+//   actions: [
+//     {
+//       visibility:[0, 1.0],
+//       type: "seek",
+//       frames: [0, 48],
+//     },
+//   ]
+// });
 </script>
+{% comment %} 
+<script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_uhsngkt4.json" background="transparent" speed="1" style="width: 32px; height: 32px;" loop autoplay></lottie-player >
+
+<dotlottie-player id="comeBack" src="https://lottie.host/3a00aa6b-5ca4-4b29-9baa-9c1407a10ead/67AWJhJ7v5.json" background="transparent" speed="1" style="width: 100%;" loop autoplay></dotlottie-player>
+<script
+LottieInteractivity.create({
+player:'#comeBack',
+mode:"scroll",
+actions: [
+{
+visibility:[0, 1.0],
+type: "seek",
+frames: [0, 48],
+},
+]
+});
+</script> {% endcomment %}
+
 {% schema %}
   {
     "name": "Shop the look",
