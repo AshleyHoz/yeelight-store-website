@@ -97,47 +97,11 @@
             </div>
           </div>
         {% endfor %}
-      {% preload_tag "script" "lottie-player.js" %}
-        <lottie-player id="lottie-loading" src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="0,5" style="width: 32px; height: 32px;" direction="1" loop="false"></lottie-player>
+        <lottie-player src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="0,5" style="width: 32px; height: 32px;" direction="1" loop autoplay></lottie-player>
     </div>
 	</div>
 </shop-the-look>
-<script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer">
-
-// LottieInteractivity.create({
-//   player:'#lottie-loading',
-//   mode:"scroll",
-//   actions: [
-//     {
-//       visibility:[0, 1.0],
-//       type: "seek",
-//       frames: [0, 48],
-//     },
-//   ]
-// });
-</script>
-{% comment %} 
-<script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
-<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
-<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_uhsngkt4.json" background="transparent" speed="1" style="width: 32px; height: 32px;" loop autoplay></lottie-player >
-
-<dotlottie-player id="comeBack" src="https://lottie.host/3a00aa6b-5ca4-4b29-9baa-9c1407a10ead/67AWJhJ7v5.json" background="transparent" speed="1" style="width: 100%;" loop autoplay></dotlottie-player>
-<script
-LottieInteractivity.create({
-player:'#comeBack',
-mode:"scroll",
-actions: [
-{
-visibility:[0, 1.0],
-type: "seek",
-frames: [0, 48],
-},
-]
-});
-</script> {% endcomment %}
-
+<script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer"></script>
 {% schema %}
   {
     "name": "Shop the look",

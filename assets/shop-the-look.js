@@ -11,16 +11,3 @@ if (!customElements.get('shop-the-look')) {
   }
   customElements.define('shop-the-look', ShopTheLook);
 }
-
-LottieInteractivity.create({
-  player: '#lottie-loading',
-  mode: 'scroll',
-  container: '#lottie-container',
-  actions: [
-    {
-      visibility: [0, 1],
-      type: 'seek',
-      frames: [0, 90],
-    },
-  ],
-});
