@@ -1,6 +1,10 @@
 {{ 'shop-the-look.css' | asset_url | stylesheet_tag }}
-{{ 'lottie-player.js' | asset_url | stylesheet_tag }}
 <script src="{{ 'product.js' | asset_url }}" defer="defer"></script>
+<script src="{{ '../assets/lottie-player.js' | asset_url }}" defer="defer">
+</script>
+<script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js" defer="defer"></script>
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module" defer="defer"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer="defer"></script>
 {%- liquid
 	assign full_width = section.settings.full_width
 	assign image = section.settings.image
@@ -106,11 +110,6 @@
     </div>
 	</div>
 </shop-the-look>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer="defer"></script>
-{% comment %} <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js" defer></script> {% endcomment %}
-<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
-<script src="{{ '../assets/lottie-player.js' | asset_url }}" defer="defer">
-</script>
 <script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer">
 
 // LottieInteractivity.create({
