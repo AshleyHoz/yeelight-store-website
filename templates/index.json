@@ -1055,12 +1055,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "custom_liquid_eNyLkz": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-interactivity@latest\/dist\/lottie-interactivity.min.js\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@dotlottie\/player-component@latest\/dist\/dotlottie-player.mjs\" type=\"module\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-player@latest\/dist\/lottie-player.js\"><\/script>"
-      }
     }
   },
   "order": [
@@ -1087,7 +1081,6 @@
     "1647955648d6a0baee",
     "single_image_4eyaPr",
     "scrolling_images_9q4NDw",
-    "email_signup_8hrJki",
-    "custom_liquid_eNyLkz"
+    "email_signup_8hrJki"
   ]
 }
