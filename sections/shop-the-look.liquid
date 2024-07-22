@@ -99,7 +99,32 @@
     </div>
 	</div>
 </shop-the-look>
-<script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer">
+  import lottie from 'lottie-web';
+import loadingJson from '../assets/loading.json';
+
+lottie.loadAnimation({
+  container: document.getElementById('animation-container'), // 动画将在这个元素内部显示
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: loadingJson,
+});
+
+document.onreadystatechange = function () {
+  console.log(1, 'lottie loaded');
+
+  if (document.readyState === 'complete') {
+    lottie.loadAnimation({
+      container: document.getElementById('animation-container'), // 动画将在这个元素内部显示
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: loadingJson,
+    });
+  }
+};
+</script>
 {% schema %}
   {
     "name": "Shop the look",

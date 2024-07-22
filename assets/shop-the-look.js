@@ -32,7 +32,6 @@ lottie.loadAnimation({
 //   console.log(1, 'lottie loaded');
 
 //   if (document.readyState === 'complete') {
-//     // 你的代码
 //     loadLottie();
 //   }
 // };
