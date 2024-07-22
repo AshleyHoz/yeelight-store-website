@@ -51,7 +51,7 @@
         "888fc484-50e5-4566-bad6-41e835d00d5f"
       ],
       "settings": {
-        "announcement_bar": false,
+        "announcement_bar": true,
         "announcement_bar_homepage_only": true,
         "announcement_bar_layout": "carousel",
         "direction": "left",
