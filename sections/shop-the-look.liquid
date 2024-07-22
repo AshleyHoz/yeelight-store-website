@@ -1,4 +1,5 @@
 {{ 'shop-the-look.css' | asset_url | stylesheet_tag }}
+{{ 'lottie-player.js' | asset_url | stylesheet_tag }}
 <script src="{{ 'product.js' | asset_url }}" defer="defer"></script>
 {%- liquid
 	assign full_width = section.settings.full_width
@@ -94,15 +95,18 @@
         {% endfor %}
       {% preload_tag "script" "lottie-player.js" %}
       <div id="lottie-loading" class="lottie" style="width: 32px; height: 32px"></div>
-      <div id="lottie-loading" style="width: 100%; height: auto; ">
-      <lottie-player id="lottie-loading" src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="0,5" style="width: 100%;" direction="1" loop="false"></lottie-player>
+      <div id="lottie-container" style="width: 100%; height: auto; ">
+        <lottie-player id="lottie-loading" src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="0,5" style="width: 100%;" direction="1" loop="false"></lottie-player>
        </div>
+       <Player autoplay loop src="{{ 'lottie-loading.json' | asset_url }}" style="width: 32px;height: 32px;">
+       </Player>
     </div>
 	</div>
 </shop-the-look>
-<link rel="preload" as="script" href="{{ 'lottie-player.js' | asset_url }}">
-<script src="../assets/lottie-player.js" defer="defer"></script>
+<script src="{{ '../assets/lottie-player.js' | asset_url }}" defer="defer">
+</script>
 <script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer">
+import {Player} from 'react-lottie-player';
 import lottie from 'lottie-web';
 import loadingJson from '../assets/loading.json';
 

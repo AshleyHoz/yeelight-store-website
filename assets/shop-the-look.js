@@ -22,7 +22,7 @@ if (!customElements.get('shop-the-look')) {
       LottieInteractivity.create({
         player: '#lottie-loading',
         mode: 'scroll',
-        container: '#lottie-loading',
+        container: '#lottie-container',
         actions: [
           {
             visibility: [0, 1],
@@ -65,7 +65,7 @@ lottie.loadAnimation({
 LottieInteractivity.create({
   player: '#lottie-loading',
   mode: 'scroll',
-  container: '#lottie-loading',
+  container: '#lottie-container',
   actions: [
     {
       visibility: [0, 1],
