@@ -17,7 +17,7 @@ if (!customElements.get('shop-the-look')) {
 }
 // function loadLottie() {
 lottie.loadAnimation({
-  container: document.getElementById('animation-container'), // 动画将在这个元素内部显示
+  container: document.getElementById('lottie-loading'), // 动画将在这个元素内部显示
   renderer: 'svg',
   loop: true,
   autoplay: true,
@@ -44,7 +44,7 @@ lottie.loadAnimation({
 LottieInteractivity.create({
   player: '#lottie-loading',
   mode: 'scroll',
-  container: '#lottie-animation',
+  container: '#lottie-loading',
   actions: [
     {
       visibility: [0, 1],
