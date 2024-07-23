@@ -2945,7 +2945,7 @@ h6,
   width: 100%;
   bottom: 0;
   z-index: -1;
-  background: var(--color-header-bg);
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
   opacity: 1;
   transition: opacity 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
@@ -4385,6 +4385,13 @@ select.resize-select {
 .custom-select--item .thb-localization-forms--flag {
   width: 16px;
   height: 16px;
+}
+.custom-select--item .custom-localization-currency {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.28px;
 }
 .custom-select--item-active {
   text-decoration: underline;
