@@ -6,7 +6,9 @@
 	endif
 -%}
 <div class="thb-secondary-area thb-header-right">
-  {%- render 'localization', id: 'HeaderLocalization', show_language_switcher: false, show_currency_switcher: true -%}
+  <div class="thb-secondary-area-item">
+    {%- render 'localization', id: 'HeaderLocalization', show_language_switcher: false, show_currency_switcher: true -%}
+  </div>
 	<a class="thb-secondary-area-item thb-quick-search" href="{{ routes.search_url }}" title="{{ 'sections.header.search' | t }}">{%- render 'svg-icons' with 'search' -%}</a>
 	{%- if shop.customer_accounts_enabled -%}
     <a class="thb-secondary-area-item thb-secondary-myaccount" href="{{ profile_link | escape }}" title="{{ 'sections.header.my_account' | t }}">{%- render 'svg-icons' with 'myaccount' -%}</a>
