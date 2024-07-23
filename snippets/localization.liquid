@@ -29,7 +29,8 @@
 						{%- for country in localization.available_countries -%}
 	            <li class="custom-select--item" tabindex="-1">
 	              <button class="{% if country.iso_code == localization.country.iso_code %}custom-select--item-active{% endif %}" {% if country.iso_code == localization.country.iso_code %} aria-current="true"{% endif %} data-value="{{ country.iso_code }}">
-									{{ country | image_url: width: 28, height: 28, format: 'jpg' | image_tag: loading: 'lazy', sizes: '14px', widths: '28', class: 'thb-localization-forms--flag' }}{{ country.name }} <span class="thb-localization-forms--currency">({{ country.currency.iso_code }} {{ country.currency.symbol }})</span>
+									{% comment %} {{ country | image_url: width: 28, height: 28, format: 'jpg' | image_tag: loading: 'lazy', sizes: '14px', widths: '28', class: 'thb-localization-forms--flag' }}{{ country.name }} <span class="thb-localization-forms--currency">({{ country.currency.iso_code }} {{ country.currency.symbol }})</span> {% endcomment %}
+                    <span class="thb-localization-forms--currency custom-localization-currency">{{ country.currency.iso_code }} {{ country.currency.symbol }}</span>
 	              </button>
 	            </li>
 	          {%- endfor -%}
