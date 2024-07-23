@@ -27,7 +27,7 @@
     "color_announcement_bar_bg": "#0079fb",
     "color_secondary_menu_text": "#ffffff",
     "color_secondary_menu_bg": "#000000",
-    "color_header_bg": "#000000",
+    "color_header_bg": "rgba(0,0,0,0)",
     "color_header_text": "#ffffff",
     "color_header_links": "#ffffff",
     "color_header_icons": "#ffffff",
