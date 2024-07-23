@@ -376,6 +376,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding: 0 10 px;
 }
 .flickity-static-arrows .flickity-nav {
   position: static;
@@ -395,7 +396,7 @@
 }
 .flickity-custom-navigation-wrapper {
   position: absolute;
-  bottom: 270px;
+  bottom: 275px;
   transform: translateX(-50%);
   z-index: 40;
   left: 50%;
