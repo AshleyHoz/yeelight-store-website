@@ -3,7 +3,10 @@
 	<div class="section-header--content">
 		{%- if section_heading -%}
 			<h3 class="section-header--title">
-				{% render 'animated-marker-heading', heading: section_heading, style: marker_style, color: marker_color %}
+				{% comment %} {% render 'animated-marker-heading', heading: section_heading, style: marker_style, color: marker_color %} {% endcomment %}
+          What's
+          <span>Popular</span>
+          Now
 			</h3>
 		{%- endif -%}
 		{%- if section_description != blank -%}

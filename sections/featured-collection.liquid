@@ -46,7 +46,7 @@
 -%}
 <div class="featured-collection{% if mobile_swipe %} swipe-on-mobile{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
 	<div class="row">
-		<div class="small-12 columns">
+		<div class="small-12">
 			{% render 'section-header', section_heading: section_heading, section_description: section_description, section_heading_button: section_heading_button, marker_color: marker_color, marker_style: marker_style %}
 			<div class="featured-collection__inner display-type--{{ display_type }}">
 				<{{ element }} id="product-grid-{{ section.id }}" class="products row {{ display_type }}">
@@ -78,7 +78,7 @@
 			</div>
       <div class="custom-text--button">
         {% assign text_button_title = 'All Products' %}
-        {% render 'text-button', url: section_heading_button.url, title: text_button_title class: 'button--primary' %}
+        {% render 'text-button', url: section_heading_button.url, title: text_button_title class: 'custom-button--primary' %}
       </div>
 		</div>
 	</div>
