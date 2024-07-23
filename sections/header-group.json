@@ -75,8 +75,8 @@
       "type": "header",
       "settings": {
         "sticky_header": true,
-        "logo": "shopify:\/\/shop_images\/Logo_black.png",
-        "logo_height_range": 52,
+        "logo": "shopify:\/\/shop_images\/Yeelight-Logo-White.png",
+        "logo_height_range": 20,
         "logo_height_range_mobile": 41,
         "style": "style1",
         "header_shadow": "header--shadow-small",
