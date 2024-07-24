@@ -4601,6 +4601,7 @@ select.resize-select {
   font-weight: 400;
   text-decoration: line-through;
   text-transform: capitalize;
+  display: inline-block;
 }
 .price .unit-price {
   margin-left: 5px;
