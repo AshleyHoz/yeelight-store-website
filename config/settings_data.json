@@ -51,7 +51,7 @@
     "product_price_position": "after-product-title",
     "product_aspect_ratio": "square",
     "products_hover_images": true,
-    "enable_quick_add": false,
+    "enable_quick_add": true,
     "show_products_vendor": false,
     "show_products_swatches": true,
     "show_products_rating_average": true,
