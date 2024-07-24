@@ -265,9 +265,10 @@
 .product-card .product-card-title {
   font-size: calc(var(--font-product-title-scale, 1) * 1rem);
   line-height: calc(var(--font-product-title-line-height-scale, 1) * 1.4);
-  font-weight: var(--font-body-medium-weight, 500);
+  font-weight: var(--font-body-medium-weight, 400);
   display: block;
   margin-bottom: 5px;
+  color: #fff;
 }
 .product-card .price {
   font-size: calc(var(--font-product-price-scale, 1) * 0.9375rem);

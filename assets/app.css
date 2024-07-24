@@ -4592,6 +4592,19 @@ select.resize-select {
 .price .amount.discounted {
   color: var(--color-price-discounted, #ee3b45);
 }
+.price .custom-amount-ins {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.price .custom-amount-del {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration-line: strikethrough;
+  text-transform: capitalize;
+}
 .price .unit-price {
   margin-left: 5px;
   font-size: 0.75rem;
