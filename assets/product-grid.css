@@ -183,6 +183,7 @@
   background: transparent;
   width: 342px;
   border-radius: 25px;
+  position: relative;
 }
 .carousel .product-card {
   margin-bottom: 0;
@@ -612,4 +613,14 @@
   display: flex;
   grid-gap: 5px;
   flex-wrap: wrap;
+}
+
+.product-card-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(50px);
 }

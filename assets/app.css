@@ -4553,14 +4553,21 @@ select.resize-select {
 .badge {
   display: inline-flex;
   align-items: center;
-  background: var(--color-badge-sale, #c62a32);
   color: var(--color-badge-text, #fff);
   border-radius: var(--badge-corner-radius, 50px);
-  font-size: 11px;
   font-weight: var(--font-body-medium-weight, 500);
-  height: 28px;
-  padding: 8px 12px;
-  line-height: 0;
+  border-radius: 20px;
+  background: radial-gradient(
+    158.74% 105.82% at 104.61% -0.2%,
+    #fbb120 0.51%,
+    #ef2e79 54.59%,
+    #c52284 68.63%,
+    #5d05a1 100%
+  );
+  padding: 8px 16px;
+  font-size: 12px;
+  line-height: normal;
+  text-transform: capitalize;
 }
 .badge.out-of-stock {
   background: var(--color-badge-sold-out, #acacac);
