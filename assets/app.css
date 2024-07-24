@@ -585,7 +585,7 @@ a img {
 
 hr {
   clear: both;
-  max-width: 1380px;
+  max-width: 1440px;
   height: 0;
   margin: 1.25rem auto;
   border-top: 0;
@@ -856,7 +856,7 @@ code,
 }
 
 .row {
-  max-width: 1380px;
+  max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -1731,7 +1731,7 @@ code,
 
 .thb-full-menu .mega-menu-columns {
   padding: 0 15px;
-  max-width: 1380px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -4969,7 +4969,7 @@ input[type='radio'],
 
 .thb-full-menu .mega-menu-columns {
   padding: 0 15px;
-  max-width: 1380px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -5252,7 +5252,7 @@ input[type='radio'],
 
 .thb-full-menu .mega-menu-columns {
   padding: 0 15px;
-  max-width: 1380px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }

@@ -1,5 +1,5 @@
 {{ 'featured-collection.css' | asset_url | stylesheet_tag }}
-{{ 'product-grid.css' | asset_url | stylesheet_tag }}
+{{ 'product-grid-home.css' | asset_url | stylesheet_tag }}
 {%- liquid
 	assign section_heading = section.settings.heading
 	assign marker_style = section.settings.marker_style
@@ -53,13 +53,13 @@
 					{%- if featured_collection != blank -%}
 						{%- for product in featured_collection.products limit: product_limit -%}
 							<div class="{{ columns_class }} columns {% if display_type == 'carousel' %}carousel__slide{% endif %}">
-								{% render 'product-card', product_card_product: product %}
+								{% render 'product-card-home', product_card_product: product %}
 							</div>
 						{%- endfor -%}
 					{%- else -%}
 						{%- for i in (1..product_limit) -%}
 						<div class="{{ columns_class }} columns {% if display_type == 'carousel' %}carousel__slide{% endif %}">
-							{% render 'product-card' %}
+							{% render 'product-card-home' %}
 						</div>
 						{%- endfor -%}
 					{%- endif -%}

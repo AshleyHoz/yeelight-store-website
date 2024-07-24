@@ -293,7 +293,7 @@
     padding: 50px;
   }
 }
-@media only screen and (min-width: 1380px) {
+@media only screen and (min-width: 1440px) {
   .slideshow--full-width-true .slideshow__slide-inner.content-has-bg--false .slideshow__slide-content {
     padding-left: 0;
     padding-right: 0;
