@@ -1602,8 +1602,10 @@
   line-height: 1;
 }
 .star-rating:before {
-  content: '★★★★★';
-  background: linear-gradient(90deg, var(--color-star) var(--star-percent), #e1e1e1 var(--star-percent));
+  /* ★★★★ */
+  /* background: linear-gradient(90deg, var(--color-star) var(--star-percent), #e1e1e1 var(--star-percent)); */
+  content: '★';
+  background: #fff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
