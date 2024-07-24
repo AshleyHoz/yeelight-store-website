@@ -4589,9 +4589,6 @@ select.resize-select {
 .price ins {
   text-decoration: none;
 }
-.price .amount.discounted {
-  color: var(--color-price-discounted, #ee3b45);
-}
 .price .custom-amount-ins {
   color: #fff;
   font-size: 20px;
@@ -4602,7 +4599,7 @@ select.resize-select {
   color: rgba(255, 255, 255, 0.4);
   font-size: 20px;
   font-weight: 400;
-  text-decoration-line: strikethrough;
+  text-decoration: line-through;
   text-transform: capitalize;
 }
 .price .unit-price {
