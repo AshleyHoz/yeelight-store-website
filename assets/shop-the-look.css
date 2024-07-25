@@ -12,6 +12,8 @@
 
 .shop-the-look--area {
   box-shadow: var(--block-shadows);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .shop-the-look {
@@ -138,13 +140,37 @@
   animation-delay: -0.4s;
 }
 
-.custom-shop-look {
-  display: flex;
-  justify-content: center;
+.custom-shop-look-row {
+  padding: 0;
 }
 
 .custom-shop-look-column {
-  max-width: 70%;
+  position: relative;
+  padding: 100px 0 40px;
+}
+
+.shop-look-header--title {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.shop-look-header--title > span {
+  background: linear-gradient(
+    108deg,
+    #46d3ff 0.14%,
+    #6178ff 24.02%,
+    #a750ff 39.05%,
+    #ff1ec0 56.82%,
+    #ff784b 77.82%,
+    #ffce51 95.45%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .custom-product-list {

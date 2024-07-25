@@ -226,7 +226,8 @@
         "image_mobile": "shopify://shop_images/gaminglightingbundle.jpg",
         "full_width": false,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "title": "Illuminate Your Villa with <span>Brilliance</span>"
       }
     },
     "shop_the_look_QgXkXQ": {
@@ -259,7 +260,8 @@
         "image_mobile": "shopify://shop_images/LibraPro-beam.jpg",
         "full_width": false,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "title": "Stylish Lighting for Your Living Room"
       }
     },
     "shop_the_look_CermnV": {
@@ -292,7 +294,8 @@
         "image_mobile": "shopify://shop_images/BeamandObsid1.jpg",
         "full_width": false,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "title": "Epic Gaming Atmosphere"
       }
     },
     "multicolumn_WygXNb": {
