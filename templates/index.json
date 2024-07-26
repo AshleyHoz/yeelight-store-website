@@ -233,9 +233,9 @@
         "product_LP69Mb"
       ],
       "settings": {
-        "title": "Illuminate Your Villa with <span>Brilliance<\/span>",
-        "button_1_icon": "Icon",
-        "button_1_text": "Button",
+        "title": "Illuminate Your Villa with Brilliance",
+        "button_1_icon": "custom-hallween",
+        "button_1_text": "Halloween",
         "image_1": "shopify:\/\/shop_images\/Command_Center.jpg",
         "button_2_icon": "",
         "button_2_text": "",
