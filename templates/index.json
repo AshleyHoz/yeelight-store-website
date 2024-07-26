@@ -234,6 +234,8 @@
       ],
       "settings": {
         "title": "Illuminate Your Villa with <span>Brilliance<\/span>",
+        "button_1_icon": "Icon",
+        "button_1_text": "Button",
         "image": "shopify:\/\/shop_images\/Command_Center.jpg",
         "image_mobile": "shopify:\/\/shop_images\/gaminglightingbundle.jpg",
         "full_width": false,
@@ -271,6 +273,8 @@
       ],
       "settings": {
         "title": "Stylish Lighting for Your Living Room",
+        "button_1_icon": "Icon",
+        "button_1_text": "Button",
         "image": "shopify:\/\/shop_images\/Perfermance_Boost.jpg",
         "image_mobile": "shopify:\/\/shop_images\/LibraPro-beam.jpg",
         "full_width": false,
@@ -308,6 +312,8 @@
       ],
       "settings": {
         "title": "Epic Gaming Atmosphere",
+        "button_1_icon": "Icon",
+        "button_1_text": "Button",
         "image": "shopify:\/\/shop_images\/1_c15174af-f97b-4f47-a451-a1fbf9c8c926.jpg",
         "image_mobile": "shopify:\/\/shop_images\/BeamandObsid1.jpg",
         "full_width": false,
