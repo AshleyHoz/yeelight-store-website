@@ -2,14 +2,16 @@
 <script src="{{ 'product.js' | asset_url }}" defer="defer"></script>
 {%- liquid
   assign full_width = section.settings.full_width
-  assign image = section.settings.image
-  assign image_mobile = section.settings.image_mobile
   assign disable_top_spacing = section.settings.disable_top_spacing
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
   assign title = section.settings.title
+  assign image_1 = section.settings.image_1
+  assign image_1_mobile = section.settings.image_1_mobile
+  assign button_1_icon = section.settings.button_1_icon
+  assign button_1_text = section.settings.button_1_text
 
-  unless image_mobile
-    assign image_mobile = image
+  unless image_1_mobile
+    assign image_1_mobile = image_1
   endunless
 -%}
 <shop-the-look class="shop-the-look section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
@@ -19,11 +21,11 @@
         <div class="shop-look-header--title">{{ title }}</div>
       {%- endif -%}
       <figure class="shop-the-look--area shop-the-look--mobile shop-the-look--full-width-{{ full_width }}">
-        {%- if image_mobile -%}
-          {% assign small_height = image_mobile.src.height | times: '750' | divided_by: image_mobile.src.width %}
-          {% assign master_width = image_mobile.src.width | append: 'x' | append: image_mobile.src.height %}
+        {%- if image_1_mobile -%}
+          {% assign small_height = image_1_mobile.src.height | times: '750' | divided_by: image_1_mobile.src.width %}
+          {% assign master_width = image_1_mobile.src.width | append: 'x' | append: image_1_mobile.src.height %}
           {% assign sizes = '750x' | append: small_height | append: ',' | append: master_width %}
-          {% render 'responsive-image', image: image_mobile, sizes: sizes %}
+          {% render 'responsive-image', image: image_1_mobile, sizes: sizes %}
         {%- else -%}
           <div class="thb-placeholder">
             {{ 'collection-1' | placeholder_svg_tag }}
@@ -47,9 +49,9 @@
         {% endfor %}
       </figure>
       <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
-        {%- if image -%}
-          {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
-          {% render 'responsive-image', image: image, sizes: master_width %}
+        {%- if image_1 -%}
+          {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
+          {% render 'responsive-image', image: image_1, sizes: master_width %}
         {%- else -%}
           <div class="thb-placeholder">
             {{ 'lifestyle-1' | placeholder_svg_tag }}
