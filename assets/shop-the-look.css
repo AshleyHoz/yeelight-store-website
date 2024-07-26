@@ -199,13 +199,14 @@
 }
 
 .shop-look-buttons {
-  margin-bottom: 30px;
   border-radius: 100px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #ffffff1a;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
+  margin: 0 auto 30px;
 }
 
 .shop-look-buttons_item {
