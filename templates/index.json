@@ -235,9 +235,9 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Command_Center.jpg",
         "image_mobile": "shopify:\/\/shop_images\/gaminglightingbundle.jpg",
-        "full_width": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "full_width": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "shop_the_look_QgXkXQ": {
