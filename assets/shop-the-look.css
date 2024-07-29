@@ -248,6 +248,8 @@
   background: linear-gradient(97deg, #ff7c51 0%, #d749af 30%, #566cec 70%, #4ab1f1 100%);
   transition: transform 0.3s ease;
   z-index: 0;
+  /* width: 150px;
+    height: 50px; */
 }
 
 .shop-look-buttons_item:hover {
