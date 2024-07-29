@@ -6,6 +6,18 @@ if (!customElements.get('shop-the-look')) {
   class ShopTheLook extends HTMLElement {
     constructor(e) {
       super();
+      console.log(1, this);
+    }
+    connectedCallback() {}
+  }
+  customElements.define('shop-the-look', ShopTheLook);
+}
+
+if (customElements.get('shop-the-look')) {
+  class ShopTheLook extends HTMLElement {
+    constructor(e) {
+      super();
+      console.log(2, this);
     }
     connectedCallback() {}
   }
@@ -14,7 +26,9 @@ if (!customElements.get('shop-the-look')) {
 
 function onChangeBackground(e) {
   const currentEle = document.getElementsByClassName('shop-look-buttons-bg')[0];
-  const containerEle = document.getElementsByClassName('shop-look-buttons')[0];
+  // const containerEle = document.getElementsByClassName('shop-look-buttons')[0];
+  const containerEle = e.closest('.shop-look-buttons');
+  console.log(containerEle);
   const currentRect = currentEle.getBoundingClientRect();
   const containerRect = containerEle.getBoundingClientRect();
   console.log(e, currentEle, containerEle, currentRect, containerRect);
@@ -29,9 +43,12 @@ function onChangeBackground(e) {
 }
 
 window.onload = function () {
-  const currentEle = document.getElementsByClassName('shop-look-buttons-bg')[0];
+  const lookEle = document.getElementsById('shop_the_look_94Y4Bx');
+  console.log(lookEle);
+  const currentEle = document.getElementsByClassName('shop-look-buttons-bg');
   const button1 = document.getElementsByClassName('shop-look-buttons_item')[0];
-  console.log(button1.offsetWidth, button1.clientWidth);
-  currentEle.style.width = button1.offsetWidth + 'px';
-  currentEle.style.height = button1.offsetHeight + 'px';
+  currentEle.forEach(item => {
+    item.style.width = button1.offsetWidth + 'px';
+    item.style.height = button1.offsetHeight + 'px';
+  });
 };
