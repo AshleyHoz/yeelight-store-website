@@ -46,39 +46,47 @@
           {% assign buttons = buttons | map: 'strip' %}
           {% for item in buttons %}
             {% assign button_hash = item | split: ',' %}
-            <div id="button-1" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+            {{ button_hash }}
+            <div class="shop-look-buttons_item" onclick="onChangeBackground(this)">
               {% render 'svg-icons' with {{ button_hash[0] | split: ":" | last | strip }} %}
               {{ button_hash[1] | split: ':' | last | strip }}
             </div>
           {% endfor %}
         </div>
       {%- endif -%}
-      {%- if button_1_text and button_2_text and button_3_text and button_4_text and button_5_text -%}
+      {%- if button_1_text != blank
+        and button_2_text != blank
+        and button_3_text != blank
+        and button_4_text != blank
+        and button_5_text != blank
+      -%}
         <div class="shop-look-buttons">
-          {%- if button_1_text -%}
-            <div id="button-1" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
-              {% render 'svg-icons' with button_1_icon %}
-              {{ button_1_text }}
+          {% if button_1_text != blank %}
+            <div class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+              <div class="shop-look-buttons_item-content">
+                {% render 'svg-icons' with button_1_icon %}
+                {{ button_1_text }}
+              </div>
             </div>
-          {%- endif -%}
-          {%- if button_2_text -%}
+          {% endif %}
+          {% if button_2_text != blank %}
             <div id="button-2" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
               {% render 'svg-icons' with button_2_icon %}
               {{ button_2_text }}
             </div>
-          {%- endif -%}
-          {%- if button_3_text -%}
+          {% endif %}
+          {% if button_3_text != blank %}
             <div id="button-3" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
               {% render 'svg-icons' with button_3_icon %}
               {{ button_3_text }}
             </div>
-          {%- endif -%}
-          {%- if button_4_text != blank -%}
+          {% endif %}
+          {% if button_4_text != blank %}
             <div id="button-4" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
               {% render 'svg-icons' with button_4_icon %}
               {{ button_4_text }}
             </div>
-          {%- endif -%}
+          {% endif %}
           {% if button_5_text != blank %}
             <div id="button-5" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
               {% render 'svg-icons' with button_5_icon %}
