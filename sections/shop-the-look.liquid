@@ -53,7 +53,7 @@
             {{ button_4_text }}
           </div>
         {%- endif -%}
-        {%- if button_5_text %}
+        {%- if button_5_text != blank %}
           <div id="button-5" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
             {% render 'svg-icons' with button_5_icon %}
             {{ button_5_text }}

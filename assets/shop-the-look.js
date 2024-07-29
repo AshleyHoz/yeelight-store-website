@@ -18,7 +18,8 @@ function onChangeBackground(e) {
   buttons.forEach(button => {
     button.classList.remove('active');
   });
-  e.target.classList.add('active');
+  console.log(e.classList);
+  e.classList.add('active');
 }
 
 const btn1 = document.getElementById('button-1');
