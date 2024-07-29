@@ -200,27 +200,26 @@
 
 .shop-look-buttons-container {
   width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .shop-look-buttons-container-inner {
   display: inline-block;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .shop-look-buttons {
-  border-radius: 100px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  display: inline-block;
+  overflow: hidden;
+  border-radius: 100px;
 }
 
 .shop-look-buttons_item {
   padding: 14px 24px;
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
@@ -228,10 +227,11 @@
   cursor: pointer;
   position: relative;
   transition: color 0.3s;
-  margin-bottom: 30px;
+  opacity: 0.6;
 }
 
 .shop-look-buttons_item-content {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,36 +239,19 @@
   z-index: 1;
 }
 
-.shop-look-buttons_item::before {
+.shop-look-buttons-bg {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 34px;
+  border-radius: 100px;
   background: linear-gradient(97deg, #ff7c51 0%, #d749af 30%, #566cec 70%, #4ab1f1 100%);
-  transform: translateX(-100%);
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
   z-index: 0;
-  opacity: 0;
 }
 
-.shop-look-buttons_item:hover .shop-look-buttons_item-content {
-  color: #fff;
-}
-
-.shop-look-buttons_item.active::before {
-  transform: translateX(0);
+.shop-look-buttons_item:hover {
   opacity: 1;
-}
-
-.shop-look-buttons_item:first-child {
-  border-radius: 100px 0 0 100px;
-}
-
-.shop-look-buttons_item:last-child {
-  border-radius: 0 100px 100px 0;
 }
 
 @-moz-keyframes pulsing {

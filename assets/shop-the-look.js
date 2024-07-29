@@ -13,17 +13,14 @@ if (!customElements.get('shop-the-look')) {
 }
 
 function onChangeBackground(e) {
-  console.log(1, e);
-  const buttons = document.querySelectorAll('.shop-look-buttons_item');
-  buttons.forEach(button => {
-    button.classList.remove('active');
-  });
-  console.log(e.classList);
-  e.classList.add('active');
+  const currentEle = document.getElementsByClassName('shop-look-buttons-bg')[0];
+  const containerEle = document.getElementsByClassName('shop-look-buttons')[0];
+  const currentRect = currentEle.getBoundingClientRect();
+  const containerRect = containerEle.getBoundingClientRect();
+  console.log(e, currentEle, containerEle);
+  currentEle.style.width = e.offsetWidth + 'px';
+  currentEle.style.height = e.offsetHeight + 'px';
+  const offSetX = currentRect.left - containerRect.left;
+  currentEle.style.left = offSetX + 'px';
+  currentEle.style.transform = 'translateX(' + offSetX + 'px)';
 }
-
-const btn1 = document.getElementById('button-1');
-const btn2 = document.getElementById('button-2');
-const btn3 = document.getElementById('button-3');
-const btn4 = document.getElementById('button-4');
-const btn5 = document.getElementById('button-5');
