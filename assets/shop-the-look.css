@@ -198,13 +198,8 @@
   -webkit-backdrop-filter: blur(5px);
 }
 
-.shop-look-buttons-container {
-  display: inline-block;
-}
-
 .shop-look-buttons {
   border-radius: 100px;
-  background: #ffffff1a;
   position: relative;
   display: flex;
   justify-content: center;
@@ -222,6 +217,15 @@
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
+  background: #ffffff1a;
+}
+
+.shop-look-buttons_item:first-child {
+  border-radius: 100px 0 0 100px;
+}
+
+.shop-look-buttons_item:larst-child {
+  border-radius: 0 100px 100px 0;
 }
 
 @-moz-keyframes pulsing {
