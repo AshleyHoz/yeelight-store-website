@@ -28,38 +28,66 @@
       {%- if title -%}
         <div class="shop-look-header--title">{{ title }}</div>
       {%- endif -%}
-      <div class="shop-look-buttons">
-        {%- if button_1_text -%}
-          <div id="button-1" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
-            {% render 'svg-icons' with button_1_icon %}
-            {{ button_1_text }}
-          </div>
-        {%- endif -%}
-        {%- if button_2_text -%}
-          <div id="button-2" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
-            {% render 'svg-icons' with button_2_icon %}
-            {{ button_2_text }}
-          </div>
-        {%- endif -%}
-        {%- if button_3_text -%}
-          <div id="button-3" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
-            {% render 'svg-icons' with button_3_icon %}
-            {{ button_3_text }}
-          </div>
-        {%- endif -%}
-        {%- if button_4_text -%}
-          <div id="button-4" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
-            {% render 'svg-icons' with button_4_icon %}
-            {{ button_4_text }}
-          </div>
-        {%- endif -%}
-        {%- if button_5_text != blank %}
-          <div id="button-5" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
-            {% render 'svg-icons' with button_5_icon %}
-            {{ button_5_text }}
-          </div>
-        {% endif %}
-      </div>
+      {%- if button_1_text and button_2_text and button_3_text and button_4_text and button_5_text -%}
+        <div class="shop-look-buttons">
+          {% assign buttons = '{'
+            | append: "'text': {{button_1_text}}, 'icon': {{button_1_icon}}"
+            | append: '},{'
+            | append: "'text': {{button_2_text}}, 'icon': {{button_2_icon}}"
+            | append: '},{'
+            | append: "'text': {{button_3_text}}, 'icon': {{button_3_icon}}"
+            | append: '},{'
+            | append: "'text': {{button_4_text}}, 'icon': {{button_4_icon}}"
+            | append: '},{'
+            | append: "'text': {{button_5_text}}, 'icon': {{button_5_icon}}"
+            | append: '}'
+            | split: '},{'
+          %}
+          {% assign buttons = buttons | map: 'strip' %}
+          {% for item in buttons %}
+            {% assign button_hash = item | split: ',' %}
+            <div id="button-1" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+              {% render 'svg-icons' with {{ button_hash[0] | split: ":" | last | strip }} %}
+              {{ button_hash[1] | split: ':' | last | strip }}
+            </div>
+          {% endfor %}
+        </div>
+      {%- endif -%}
+      {%- if button_1_text and button_2_text and button_3_text and button_4_text and button_5_text -%}
+        <div class="shop-look-buttons">
+          {%- if button_1_text -%}
+            <div id="button-1" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+              {% render 'svg-icons' with button_1_icon %}
+              {{ button_1_text }}
+            </div>
+          {%- endif -%}
+          {%- if button_2_text -%}
+            <div id="button-2" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+              {% render 'svg-icons' with button_2_icon %}
+              {{ button_2_text }}
+            </div>
+          {%- endif -%}
+          {%- if button_3_text -%}
+            <div id="button-3" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+              {% render 'svg-icons' with button_3_icon %}
+              {{ button_3_text }}
+            </div>
+          {%- endif -%}
+          {%- if button_4_text != blank -%}
+            <div id="button-4" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+              {% render 'svg-icons' with button_4_icon %}
+              {{ button_4_text }}
+            </div>
+          {%- endif -%}
+          {% if button_5_text != blank %}
+            <div id="button-5" class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+              {% render 'svg-icons' with button_5_icon %}
+              {{ button_5_text }}
+            </div>
+          {% endif %}
+        </div>
+      {%- endif -%}
+
       <figure class="shop-the-look--area shop-the-look--mobile shop-the-look--full-width-{{ full_width }}">
         {%- if image_1_mobile -%}
           {% assign small_height = image_1_mobile.src.height | times: '750' | divided_by: image_1_mobile.src.width %}
