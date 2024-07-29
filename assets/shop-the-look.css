@@ -239,7 +239,7 @@
   transform: translateX(-100%);
   transition: transform 0.3s;
   z-index: 0;
-  display: none;
+  opacity: 0;
 }
 
 .shop-look-buttons_item:hover .shop-look-buttons_item-content {
@@ -248,12 +248,7 @@
 
 .shop-look-buttons_item.active::before {
   transform: translateX(0);
-  display: block;
-}
-
-.shop-look-buttons_item .active::before {
-  transform: translateX(0);
-  display: block;
+  opacity: 1;
 }
 
 .shop-look-buttons_item:first-child {
