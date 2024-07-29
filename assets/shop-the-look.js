@@ -6,17 +6,6 @@ if (!customElements.get('shop-the-look')) {
   class ShopTheLook extends HTMLElement {
     constructor(e) {
       super();
-      this.addEventListener('change', this.changeBackground);
-    }
-    changeBackground(e) {
-      console.log(e);
-      const buttons = document.querySelectorAll('.shop-look-buttons_item');
-      buttons.forEach(button => {
-        button.classList.remove('active');
-      });
-    }
-    onChangeBackground(e) {
-      console.log(2, e);
     }
     connectedCallback() {}
   }
@@ -29,6 +18,7 @@ function onChangeBackground(e) {
   buttons.forEach(button => {
     button.classList.remove('active');
   });
+  e.target.classList.add('active');
 }
 
 const btn1 = document.getElementById('button-1');
