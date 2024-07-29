@@ -11,7 +11,7 @@ if (!customElements.get('shop-the-look')) {
       console.log(currentEle);
       currentEle.style.width = button1.offsetWidth + 'px';
       currentEle.style.height = button1.offsetHeight + 'px';
-      this.addEventListener('click', onChangeBackground);
+      this.addEventListener('click', this.onChangeBackground);
     }
     onChangeBackground(e) {
       console.log(2);

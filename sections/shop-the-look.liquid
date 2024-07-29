@@ -56,7 +56,12 @@
           </div>
         {%- endif -%}
       {% endcomment %}
-      {%- if button_1_text or button_2_text or button_3_text or button_4_text or button_5_text -%}
+      {%- if button_1_text != blank
+        or button_2_text != blank
+        or button_3_text != blank
+        or button_4_text != blank
+        or button_5_text != blank
+      -%}
         <div class="shop-look-buttons-container">
           <div class="shop-look-buttons-container-inner">
             <div class="shop-look-buttons">
