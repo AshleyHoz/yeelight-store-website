@@ -9,6 +9,14 @@
   assign image_1_mobile = section.settings.image_1_mobile
   assign button_1_icon = section.settings.button_1_icon
   assign button_1_text = section.settings.button_1_text
+  assign button_2_icon = section.settings.button_2_icon
+  assign button_2_text = section.settings.button_2_text
+  assign button_3_icon = section.settings.button_3_icon
+  assign button_3_text = section.settings.button_3_text
+  assign button_4_icon = section.settings.button_4_icon
+  assign button_4_text = section.settings.button_4_text
+  assign button_5_icon = section.settings.button_5_icon
+  assign button_5_text = section.settings.button_5_text
 
   unless image_1_mobile
     assign image_1_mobile = image_1
@@ -20,26 +28,28 @@
       {%- if title -%}
         <div class="shop-look-header--title">{{ title }}</div>
       {%- endif -%}
-      <div class="shop-look-buttons">
-        <div class="shop-look-buttons_item">
-          {% render 'svg-icons' with button_1_icon %}
-          {{ button_1_text }}
-        </div>
-        <div class="shop-look-buttons_item">
-          {% render 'svg-icons' with button_1_icon %}
-          {{ button_1_text }}
-        </div>
-        <div class="shop-look-buttons_item">
-          {% render 'svg-icons' with button_1_icon %}
-          {{ button_1_text }}
-        </div>
-        <div class="shop-look-buttons_item">
-          {% render 'svg-icons' with button_1_icon %}
-          {{ button_1_text }}
-        </div>
-        <div class="shop-look-buttons_item">
-          {% render 'svg-icons' with button_1_icon %}
-          {{ button_1_text }}
+      <div class="shop-look-buttons-container">
+        <div class="shop-look-buttons">
+          <div class="shop-look-buttons_item">
+            {% render 'svg-icons' with button_1_icon %}
+            {{ button_1_text }}
+          </div>
+          <div class="shop-look-buttons_item">
+            {% render 'svg-icons' with button_2_icon %}
+            {{ button_2_text }}
+          </div>
+          <div class="shop-look-buttons_item">
+            {% render 'svg-icons' with button_3_icon %}
+            {{ button_3_text }}
+          </div>
+          <div class="shop-look-buttons_item">
+            {% render 'svg-icons' with button_4_icon %}
+            {{ button_4_text }}
+          </div>
+          <div class="shop-look-buttons_item">
+            {% render 'svg-icons' with button_5_icon %}
+            {{ button_5_text }}
+          </div>
         </div>
       </div>
       <figure class="shop-the-look--area shop-the-look--mobile shop-the-look--full-width-{{ full_width }}">
