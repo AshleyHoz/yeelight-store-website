@@ -14,11 +14,9 @@ if (!customElements.get('shop-the-look')) {
       this.addEventListener('click', this.onChangeBackground);
     }
     onChangeBackground(e) {
-      console.log(2);
-      const currentEle = document.getElementsByClassName('shop-look-buttons-bg')[0];
-      // const containerEle = document.getElementsByClassName('shop-look-buttons')[0];
-      const containerEle = e.closest('.shop-look-buttons');
-      console.log(containerEle);
+      console.log(2, e);
+      const currentEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
+      const containerEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
       const currentRect = currentEle.getBoundingClientRect();
       const containerRect = containerEle.getBoundingClientRect();
       console.log(e, currentEle, containerEle, currentRect, containerRect);
@@ -36,24 +34,24 @@ if (!customElements.get('shop-the-look')) {
   customElements.define('shop-the-look', ShopTheLook);
 }
 
-function onChangeBackground(e) {
-  console.log(1);
-  const currentEle = document.getElementsByClassName('shop-look-buttons-bg')[0];
-  // const containerEle = document.getElementsByClassName('shop-look-buttons')[0];
-  const containerEle = e.closest('.shop-look-buttons');
-  console.log(containerEle);
-  const currentRect = currentEle.getBoundingClientRect();
-  const containerRect = containerEle.getBoundingClientRect();
-  console.log(e, currentEle, containerEle, currentRect, containerRect);
-  currentEle.style.width = e.offsetWidth + 'px';
-  currentEle.style.height = e.offsetHeight + 'px';
-  const offSetX = currentRect.left - containerRect.left;
-  console.log(offSetX);
-  currentEle.style.position = 'absolute';
-  currentEle.style.top = 0;
-  currentEle.style.left = offSetX + 'px';
-  currentEle.style.transform = 'translateX(' + offSetX + 'px)';
-}
+// function onChangeBackground(e) {
+//   console.log(1);
+//   const currentEle = document.getElementsByClassName('shop-look-buttons-bg')[0];
+//   // const containerEle = document.getElementsByClassName('shop-look-buttons')[0];
+//   const containerEle = e.closest('.shop-look-buttons');
+//   console.log(containerEle);
+//   const currentRect = currentEle.getBoundingClientRect();
+//   const containerRect = containerEle.getBoundingClientRect();
+//   console.log(e, currentEle, containerEle, currentRect, containerRect);
+//   currentEle.style.width = e.offsetWidth + 'px';
+//   currentEle.style.height = e.offsetHeight + 'px';
+//   const offSetX = currentRect.left - containerRect.left;
+//   console.log(offSetX);
+//   currentEle.style.position = 'absolute';
+//   currentEle.style.top = 0;
+//   currentEle.style.left = offSetX + 'px';
+//   currentEle.style.transform = 'translateX(' + offSetX + 'px)';
+// }
 
 // window.onload = function () {
 //   const lookEle = document.getElementsById('shop_the_look_94Y4Bx');
