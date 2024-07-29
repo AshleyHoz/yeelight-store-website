@@ -9,7 +9,7 @@ if (!customElements.get('shop-the-look')) {
       this.addEventListener('click', this.onChangeBackground);
       const currentEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
       const button1 = this.getElementsByClassName('shop-look-buttons_item')[0];
-      if (!currentEl) return;
+      if (!currentEle) return;
       currentEle.style.width = button1.offsetWidth + 'px';
       currentEle.style.height = button1.offsetHeight + 'px';
     }
@@ -17,7 +17,7 @@ if (!customElements.get('shop-the-look')) {
       console.log(2, e);
       if (e.target.className === 'shop-look-buttons_item-content') {
         const currentEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
-        const containerEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
+        const containerEle = this.getElementsByClassName('shop-look-buttons')[0];
         const currentRect = currentEle.getBoundingClientRect();
         const containerRect = containerEle.getBoundingClientRect();
         console.log(e, currentEle, containerEle, currentRect, containerRect);
