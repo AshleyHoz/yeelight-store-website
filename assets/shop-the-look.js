@@ -7,17 +7,14 @@ if (!customElements.get('shop-the-look')) {
     constructor(e) {
       super();
       console.log(1, this);
-    }
-    connectedCallback() {}
-  }
-  customElements.define('shop-the-look', ShopTheLook);
-}
+      const currentEle = this.getElementsByClassName('shop-look-buttons-bg');
+      const button1 = document.getElementsByClassName('shop-look-buttons_item')[0];
+      console.log(currentEle);
 
-if (customElements.get('shop-the-look')) {
-  class ShopTheLook extends HTMLElement {
-    constructor(e) {
-      super();
-      console.log(2, this);
+      currentEle.forEach(item => {
+        item.style.width = button1.offsetWidth + 'px';
+        item.style.height = button1.offsetHeight + 'px';
+      });
     }
     connectedCallback() {}
   }
@@ -42,13 +39,13 @@ function onChangeBackground(e) {
   currentEle.style.transform = 'translateX(' + offSetX + 'px)';
 }
 
-window.onload = function () {
-  const lookEle = document.getElementsById('shop_the_look_94Y4Bx');
-  console.log(lookEle);
-  const currentEle = document.getElementsByClassName('shop-look-buttons-bg');
-  const button1 = document.getElementsByClassName('shop-look-buttons_item')[0];
-  currentEle.forEach(item => {
-    item.style.width = button1.offsetWidth + 'px';
-    item.style.height = button1.offsetHeight + 'px';
-  });
-};
+// window.onload = function () {
+//   const lookEle = document.getElementsById('shop_the_look_94Y4Bx');
+//   console.log(lookEle);
+//   const currentEle = document.getElementsByClassName('shop-look-buttons-bg');
+//   const button1 = document.getElementsByClassName('shop-look-buttons_item')[0];
+//   currentEle.forEach(item => {
+//     item.style.width = button1.offsetWidth + 'px';
+//     item.style.height = button1.offsetHeight + 'px';
+//   });
+// };
