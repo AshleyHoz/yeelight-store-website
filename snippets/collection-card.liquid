@@ -73,7 +73,9 @@
         title="{{ grid_collection_title | escape }}"
       >
         <div class="custom-collection-card--title">
-          {{ grid_collection_title }}
+          <div>
+            {{ grid_collection_title }}
+          </div>
           <div class="custom-collection-card--desc">
             View 30+ products
             {% render 'svg-icons' with 'custom-arrow-right' %}

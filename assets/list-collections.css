@@ -247,7 +247,6 @@
   text-transform: capitalize;
   padding: 24px;
 }
-
 .custom-collection-card--desc {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
@@ -267,6 +266,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   color: #fff;
   position: relative;
   font-size: 30px;
@@ -278,5 +278,6 @@
 }
 
 .custom-collection-list-column:last-child .custom-collection-card--title .custom-collection-card--desc {
-  display: block;
+  display: flex;
+  align-items: center;
 }
