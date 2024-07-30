@@ -29,7 +29,7 @@
   endif
 -%}
 <div class="row custom-collection-list-row">
-  <div class="small-12">
+  <div class="small-12 custom-collection-list-column">
     <div
       class="list-collections section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"
       style="--overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}; --var-collection-list-columns:{{ columns_desktop }}; --collection-text-color: {{ text_color }}"

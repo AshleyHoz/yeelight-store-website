@@ -72,7 +72,13 @@
         class="collection-card--link collection-card--link-{{ heading_size }} collection-card--link-{{ heading_position }}"
         title="{{ grid_collection_title | escape }}"
       >
-        <div class="custom-collection-card--title">{{ grid_collection_title }}</div>
+        <div class="custom-collection-card--title">
+          {{ grid_collection_title }}
+          <a href="/collections/all-lights" class="custom-collection-card--desc">
+            View 30+ products
+            {% render 'svg-icons' with 'custom-arrow-right' %}
+          </a>
+        </div>
       </a>
     </div>
   </div>
