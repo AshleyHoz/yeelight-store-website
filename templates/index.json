@@ -470,27 +470,27 @@
         "subheading_W94qRH": {
           "type": "subheading",
           "settings": {
-            "text": "Add a tagline"
+            "text": ""
           }
         },
         "heading_EK9ETj": {
           "type": "heading",
           "settings": {
-            "text": "Image with text overlay",
+            "text": "",
             "heading_size": "h1-xlarge"
           }
         },
         "text_xGw3Ux": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "description_size": "medium"
           }
         },
         "button_MVrwf9": {
           "type": "button",
           "settings": {
-            "button_text": "Shop Now",
+            "button_text": "",
             "button_link": "",
             "button_color": "accent"
           }
