@@ -267,6 +267,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
+  position: relative;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: capitalize;
+  padding: 24px;
 }
 
 .custom-collection-list-column:last-child .custom-collection-card--title .custom-collection-card--desc {
