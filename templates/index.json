@@ -361,6 +361,10 @@
           "smart-bulb",
           "all-lights"
         ],
+        "cover_image_1": "shopify:\/\/shop_images\/CategoryCover1.png",
+        "cover_image_2": "shopify:\/\/shop_images\/CategoryCover2.png",
+        "cover_image_3": "shopify:\/\/shop_images\/CategoryCover3.png",
+        "cover_image_4": "shopify:\/\/shop_images\/CategoryCover1.png",
         "image_ratio": "square",
         "collection_layout": "grid",
         "style": "style2",
