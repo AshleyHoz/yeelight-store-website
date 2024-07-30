@@ -566,6 +566,34 @@
         "disable_bottom_spacing": true
       }
     },
+    "rich_text_Q8UQ7e": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ia67Jc": {
+          "type": "heading",
+          "settings": {
+            "text": "What Others Say About Us",
+            "marker_style": "style2",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ia67Jc"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
     "1711998083986c24cc": {
       "type": "apps",
       "blocks": {
@@ -906,6 +934,7 @@
     "single_image_XMGMeB",
     "single_image_dQe4Mf",
     "multicolumn_WygXNb",
+    "rich_text_Q8UQ7e",
     "1711998083986c24cc",
     "rich_text_GgN3Xc",
     "promotion_blocks_NpxCRX",
