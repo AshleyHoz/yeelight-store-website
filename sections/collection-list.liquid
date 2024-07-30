@@ -21,11 +21,6 @@
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
   assign is_carousel = false
 
-  assign cover_image_1 = section.settings.cover_image_1
-  assign cover_image_2 = section.settings.cover_image_2
-  assign cover_image_3 = section.settings.cover_image_3
-  assign cover_image_4 = section.settings.cover_image_4
-
   assign tag = 'div'
   if collection_layout == 'carousel'
     assign tag = 'slide-show'
@@ -50,17 +45,19 @@
       <{{ tag }} class="collection-grid collection-grid__{{ collection_layout }} {{ carousel_class }}{% if mobile_swipe %} swipe-on-mobile{% endif %} mobile-columns--{{ columns_mobile | default: 1 }}">
         {%- if collections.count > 0 -%}
           {%- for collection in collections -%}
-            {%- liquid
-              if forloop.index == 2
-                assign cover_image = cover_image_1
-                elseif forloop.index==3
-                assign cover_image = cover_image_2
-                elseif forloop.index==4
-                assign cover_image = cover_image_3
-                elseif forloop.index==5
-                assign cover_image = cover_image_4
-              endif
-            -%}
+            {% comment %}
+              {%- liquid
+                if forloop.index == 2
+                  assign cover_image = cover_image_1
+                  elseif forloop.index==3
+                  assign cover_image = cover_image_2
+                  elseif forloop.index==4
+                  assign cover_image = cover_image_3
+                  elseif forloop.index==5
+                  assign cover_image = cover_image_4
+                endif
+              -%}
+            {% endcomment %}
             {%- render 'collection-card',
               grid_collection: collection,
               media_aspect_ratio: section.settings.image_ratio,
@@ -71,8 +68,7 @@
               columns_desktop: columns_desktop,
               columns_mobile: columns_mobile,
               heading_position: heading_position,
-              heading_size: heading_size,
-              cover_image: cover_image
+              heading_size: heading_size
             -%}
           {%- endfor -%}
         {%- else -%}
@@ -87,8 +83,7 @@
               columns_desktop: columns_desktop,
               columns_mobile: columns_mobile,
               heading_position: heading_position,
-              heading_size: heading_size,
-              cover_image: cover_image
+              heading_size: heading_size
             -%}
           {%- endfor -%}
         {%- endif -%}
@@ -175,46 +170,6 @@
       "id": "collection_list",
       "label": "Collections",
       "limit": 18
-    },
-    {
-      "type": "header",
-      "content": "Cover Image 1"
-    },
-    {
-      "type": "image_picker",
-      "id": "cover_image_1",
-      "label": "Image",
-      "info": "1280 x 650 px .jpg recommended."
-    },
-    {
-      "type": "header",
-      "content": "Cover Image 2"
-    },
-    {
-      "type": "image_picker",
-      "id": "cover_image_2",
-      "label": "Image",
-      "info": "1280 x 650 px .jpg recommended."
-    },
-    {
-      "type": "header",
-      "content": "Cover Image 3"
-    },
-    {
-      "type": "image_picker",
-      "id": "cover_image_3",
-      "label": "Image",
-      "info": "1280 x 650 px .jpg recommended."
-    },
-    {
-      "type": "header",
-      "content": "Cover Image 4"
-    },
-    {
-      "type": "image_picker",
-      "id": "cover_image_4",
-      "label": "Image",
-      "info": "1280 x 650 px .jpg recommended."
     },
     {
       "type": "select",
