@@ -265,6 +265,9 @@
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(50px);
+  position: absolute;
+  left: 45%;
+  bottom: -27px;
 }
 
 .shop-look-product-images {
@@ -283,9 +286,6 @@
   display: flex;
   align-items: center;
   padding: 0 8px;
-  position: absolute;
-  left: 45%;
-  bottom: -27px;
 }
 
 .shop-look-info-left {
