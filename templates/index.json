@@ -575,7 +575,7 @@
             "only_photos": false,
             "hide_thumbnails": false,
             "product_handle": "",
-            "aggregated": true,
+            "aggregated": false,
             "data-limit": 10,
             "maxwidth": 1200,
             "is_sample": true
@@ -594,7 +594,7 @@
         "heading_6U8jnh": {
           "type": "heading",
           "settings": {
-            "text": "Media Public Relations",
+            "text": "Featured In",
             "marker_style": "style2",
             "size": "h3",
             "marker_color": "#fd6262"
@@ -661,6 +661,7 @@
         "promotion_Y6ewhy",
         "promotion_VD6w3B"
       ],
+      "disabled": true,
       "settings": {
         "mobile_swipe": true,
         "image_ratio": "adapt",
@@ -767,141 +768,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "rich_text_fnix7M": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_MmFBek": {
-          "type": "heading",
-          "settings": {
-            "text": "Command Center Gaming Set",
-            "marker_style": "style1",
-            "size": "h3",
-            "marker_color": "#fd6262"
-          }
-        },
-        "text_Hj4bDe": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The ultimate gaming setup makes you the Commander<\/p>",
-            "custom_liquid": "",
-            "size": "text-size-regular"
-          }
-        },
-        "button_9fHQEy": {
-          "type": "button",
-          "settings": {
-            "link_label": "Save With Bundles",
-            "link": "shopify:\/\/products\/yeelight-gaming-lighting-trible-pack"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MmFBek",
-        "text_Hj4bDe",
-        "button_9fHQEy"
-      ],
-      "settings": {
-        "text_width": "large",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#1a1c1d",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "rich_text_97FdYr": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_nPyAGz": {
-          "type": "heading",
-          "settings": {
-            "text": "Essential Glow Gaming Set",
-            "marker_style": "style1",
-            "size": "h3",
-            "marker_color": "#fd6262"
-          }
-        },
-        "text_4cwetT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The foundational bundle for immersive gaming ambiance<\/p>",
-            "custom_liquid": "",
-            "size": "text-size-regular"
-          }
-        },
-        "button_wrXctq": {
-          "type": "button",
-          "settings": {
-            "link_label": "Save With Bundles",
-            "link": "shopify:\/\/products\/immersive-audiovisual-lighting-bundle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nPyAGz",
-        "text_4cwetT",
-        "button_wrXctq"
-      ],
-      "settings": {
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#1a1c1d",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "rich_text_LkTqMa": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_LfLRQF": {
-          "type": "heading",
-          "settings": {
-            "text": "Performance Boost Gaming Set",
-            "marker_style": "style1",
-            "size": "h3",
-            "marker_color": "#fd6262"
-          }
-        },
-        "text_CtbNFi": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fuels your gaming sessions with lighting that enhances focus and immersion<\/p>",
-            "custom_liquid": "",
-            "size": "text-size-regular"
-          }
-        },
-        "button_YyP6bB": {
-          "type": "button",
-          "settings": {
-            "link_label": "Save With Bundles",
-            "link": "shopify:\/\/products\/yeelight-ambient-lighting-dual-pack"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LfLRQF",
-        "text_CtbNFi",
-        "button_YyP6bB"
-      ],
-      "settings": {
-        "text_width": "large",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#1a1c1d",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
     "1647955648d6a0baee": {
       "type": "featured-blog",
       "disabled": true,
@@ -963,6 +829,67 @@
       "settings": {
         "custom_liquid": "<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-interactivity@latest\/dist\/lottie-interactivity.min.js\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@dotlottie\/player-component@latest\/dist\/dotlottie-player.mjs\" type=\"module\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-player@latest\/dist\/lottie-player.js\"><\/script>"
       }
+    },
+    "scrolling_images_ijGKLL": {
+      "type": "scrolling-images",
+      "blocks": {
+        "image_BUjL8a": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "heading": "Heading",
+            "text": "<p>Add description text here.<\/p>"
+          }
+        },
+        "image_zygXMb": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "heading": "Heading",
+            "text": "<p>Add description text here.<\/p>"
+          }
+        },
+        "image_cAGeET": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "heading": "Heading",
+            "text": "<p>Add description text here.<\/p>"
+          }
+        },
+        "image_aR6bqm": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "heading": "Heading",
+            "text": "<p>Add description text here.<\/p>"
+          }
+        },
+        "image_dVxQPF": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "heading": "Heading",
+            "text": "<p>Add description text here.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_BUjL8a",
+        "image_zygXMb",
+        "image_cAGeET",
+        "image_aR6bqm",
+        "image_dVxQPF"
+      ],
+      "settings": {
+        "image_ratio": "adapt",
+        "column_spacing": "small",
+        "image_alignment": "top",
+        "direction": "left",
+        "speed": "20s",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -983,11 +910,9 @@
     "rich_text_GgN3Xc",
     "promotion_blocks_NpxCRX",
     "gallery_LGBiNY",
-    "rich_text_fnix7M",
-    "rich_text_97FdYr",
-    "rich_text_LkTqMa",
     "1647955648d6a0baee",
     "scrolling_images_9q4NDw",
-    "custom_liquid_eTafiM"
+    "custom_liquid_eTafiM",
+    "scrolling_images_ijGKLL"
   ]
 }
