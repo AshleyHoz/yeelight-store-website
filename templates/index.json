@@ -412,7 +412,7 @@
           "type": "icon",
           "settings": {
             "icon": "star",
-            "image": "shopify:\/\/shop_images\/stars.png",
+            "image": "shopify:\/\/shop_images\/IconFree_35ffc7c2-1d0e-4aeb-bcdc-a1bef7eefb16.png",
             "heading": "Free",
             "text": "<p>Worldwide shipping<\/p>"
           }
@@ -421,7 +421,7 @@
           "type": "icon",
           "settings": {
             "icon": "plane",
-            "image": "shopify:\/\/shop_images\/plane.png",
+            "image": "shopify:\/\/shop_images\/IconCorn_d53b1fe6-5119-43a5-a4b3-09b14ea72533.png",
             "heading": "30 Day",
             "text": "<p>Money Back Guarantee<\/p>"
           }
@@ -430,7 +430,7 @@
           "type": "icon",
           "settings": {
             "icon": "chat_bubble",
-            "image": "shopify:\/\/shop_images\/speech-bubble.png",
+            "image": "shopify:\/\/shop_images\/IconService_a9a581c1-7d87-4454-b0d9-54c936dc6848.png",
             "heading": "Lifetime",
             "text": "<p>Customer Support<\/p>"
           }
@@ -439,7 +439,7 @@
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/warranty.png",
+            "image": "shopify:\/\/shop_images\/IconShield_2de60b39-58c8-47ca-b32c-10db8859f9a3.png",
             "heading": "2 Year",
             "text": "<p>warranty<\/p>"
           }
