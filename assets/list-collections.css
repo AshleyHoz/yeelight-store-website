@@ -234,7 +234,7 @@
 }
 
 .custom-collection-card--title {
-  width: 50%;
+  width: 60%;
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -245,4 +245,5 @@
   font-weight: 700;
   line-height: 40px;
   text-transform: capitalize;
+  padding: 24px;
 }
