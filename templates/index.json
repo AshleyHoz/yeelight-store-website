@@ -234,7 +234,7 @@
       ],
       "settings": {
         "title": "Illuminate Your Villa with Brilliance",
-        "footer_title": "Living Room",
+        "footer_title": "Outdoor",
         "footer_description": "Special Page",
         "button_1_icon": "custom-hallween",
         "button_1_text": "Halloween",
@@ -282,8 +282,8 @@
       ],
       "settings": {
         "title": "Stylish Lighting for Your Living Room",
-        "footer_title": "",
-        "footer_description": "",
+        "footer_title": "Living room",
+        "footer_description": "Special Page",
         "button_1_icon": "custom-movie",
         "button_1_text": "Halloween",
         "image_1": "shopify:\/\/shop_images\/Perfermance_Boost.jpg",
@@ -330,8 +330,8 @@
       ],
       "settings": {
         "title": "Epic Gaming Atmosphere",
-        "footer_title": "",
-        "footer_description": "",
+        "footer_title": "Game Room",
+        "footer_description": "Special Page",
         "button_1_icon": "custom-game",
         "button_1_text": "Game",
         "image_1": "shopify:\/\/shop_images\/1_c15174af-f97b-4f47-a451-a1fbf9c8c926.jpg",
