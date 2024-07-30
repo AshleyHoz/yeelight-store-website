@@ -50,8 +50,18 @@
       <{{ tag }} class="collection-grid collection-grid__{{ collection_layout }} {{ carousel_class }}{% if mobile_swipe %} swipe-on-mobile{% endif %} mobile-columns--{{ columns_mobile | default: 1 }}">
         {%- if collections.count > 0 -%}
           {%- for collection in collections -%}
-            {%-
-              render 'collection-card',
+            {%- liquid
+              if forloop.index == 2
+                assign cover_image = cover_image_1
+                elseif forloop.index==3
+                assign cover_image = cover_image_2
+                elseif forloop.index==4
+                assign cover_image = cover_image_3
+                elseif forloop.index==5
+                assign cover_image = cover_image_4
+              endif
+            -%}
+            {%- render 'collection-card',
               grid_collection: collection,
               media_aspect_ratio: section.settings.image_ratio,
               style: style,
@@ -62,7 +72,7 @@
               columns_mobile: columns_mobile,
               heading_position: heading_position,
               heading_size: heading_size,
-              cover:forloop.index==2? cover_image_1:forloop.index==3? cover_image_2:forloop.index==4? cover_image_3:forloop.index==5? cover_image_4
+              cover_image: cover_image
             -%}
           {%- endfor -%}
         {%- else -%}
