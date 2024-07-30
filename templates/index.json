@@ -393,6 +393,7 @@
       "block_order": [
         "heading_W9jYDF"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -451,6 +452,7 @@
         "icon_RFQH79",
         "icon_h6xJ9e"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "icon_position": "top",
@@ -465,6 +467,16 @@
       }
     },
     "single_image_4eyaPr": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ChooseUs.png",
+        "image_mobile": "shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_WBiTDf": {
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/ExquisiteDesign.png",
@@ -963,6 +975,7 @@
     "rich_text_Qb3iUW",
     "text_with_icons_MqACi7",
     "single_image_4eyaPr",
+    "single_image_WBiTDf",
     "single_image_XMGMeB",
     "single_image_dQe4Mf",
     "multicolumn_WygXNb",
