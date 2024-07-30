@@ -185,7 +185,7 @@
           </quick-view>
         {% endfor %}
       </figure>
-      <div class="shop-look-product-list">
+      <a href="/collections/all-lights" class="shop-look-product-list">
         <div class="shop-look-product-images">
           {% for block in section.blocks %}
             {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
@@ -209,7 +209,7 @@
             {% render 'svg-icons' with 'custom-arrow-right' %}
           </div>
         </div>
-      </div>
+      </a>
     </div>
     {% comment %}
       <div class="custom-product-list">
