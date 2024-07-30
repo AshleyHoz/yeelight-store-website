@@ -55,7 +55,11 @@
       class="collection-card--image media-aspect-{{ media_aspect_ratio }} {{ collection_image_shadow_class }}"
       style="--var-media-aspect-ratio: {{ media_aspect_percentage }}"
     >
-      <a href="{{ grid_collection_url }}" class="collection-card--link" title="{{ grid_collection_title | escape }}">
+      <a
+        href="{{ grid_collection_url }}"
+        class="collection-card--link {{index_c}}"
+        title="{{ grid_collection_title | escape }}"
+      >
         {% if grid_collection == empty %}
           <div class="thb-placeholder">{{ 'collection-' | append: index | placeholder_svg_tag }}</div>
         {% else %}
