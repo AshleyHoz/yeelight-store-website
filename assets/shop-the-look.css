@@ -259,16 +259,17 @@
 }
 
 .shop-look-product-list {
-  display: inline-flex;
+  display: flex;
   padding: 8px;
   align-items: center;
   border-radius: 16px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #ffffff1a;
+  -webkit-backdrop-filter: blur(50px);
   backdrop-filter: blur(50px);
   position: absolute;
   left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
+  bottom: 5px;
+  transform: translate(-50%);
 }
 
 .shop-look-product-images {
@@ -409,4 +410,8 @@
 .shop-the-look .thb-hotspot-product-content a {
   font-size: 0.75rem;
   font-weight: var(--font-body-medium-weight, 500);
+}
+
+.shop-look-info-icon {
+  display: flex;
 }
