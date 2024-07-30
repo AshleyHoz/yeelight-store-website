@@ -77,8 +77,7 @@
           {%- endfor -%}
         {%- else -%}
           {%- for i in (1..5) -%}
-            {%-
-              render 'collection-card',
+            {%- render 'collection-card',
               grid_collection: empty,
               media_aspect_ratio: section.settings.image_ratio,
               style: style,
@@ -89,7 +88,7 @@
               columns_mobile: columns_mobile,
               heading_position: heading_position,
               heading_size: heading_size,
-              cover:forloop.index==2? cover_image_1:forloop.index==3? cover_image_2:forloop.index==4? cover_image_3:forloop.index==5? cover_image_4
+              cover_image: cover_image
             -%}
           {%- endfor -%}
         {%- endif -%}
