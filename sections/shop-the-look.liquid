@@ -17,6 +17,8 @@
   assign button_4_text = section.settings.button_4_text
   assign button_5_icon = section.settings.button_5_icon
   assign button_5_text = section.settings.button_5_text
+  assign footer_title = section.settings.footer_title
+  assign footer_description = section.settings.footer_description
 
   unless image_1_mobile
     assign image_1_mobile = image_1
@@ -183,6 +185,29 @@
           </quick-view>
         {% endfor %}
       </figure>
+      <div class="shop-look-product-list">
+        <div class="shop-look-product-images">
+          {% for block in section.blocks %}
+            {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
+            {% if hotspot_product.featured_image %}
+              <a
+                href="{{ hotspot_product.url }}"
+                title="{{ hotspot_product.title | escape }}"
+                class="shop-look-product-image_item"
+              >
+                {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="shop-look-info">
+          <div class="shop-look-info-left">
+            <div class="shop-look-info-title">{{ footer_title }}</div>
+            <div class="shop-look-info-desc">{{ footer_description }}</div>
+          </div>
+          <div class="shop-look-info-icon"></div>
+        </div>
+      </div>
     </div>
     {% comment %}
       <div class="custom-product-list">
@@ -222,6 +247,22 @@
       "id": "title",
       "label": "Header Title",
       "info": "Wrap your text."
+    },
+    {
+      "type": "header",
+      "content": "Footer Info"
+    },
+    {
+      "id": "footer_title",
+      "type": "text",
+      "label": "Title",
+      "info": "Leave the label blank to hide the icon."
+    },
+    {
+      "id": "footer_description",
+      "type": "text",
+      "label": "Description",
+      "info": "Leave the label blank to hide the icon."
     },
     {
       "type": "header",
