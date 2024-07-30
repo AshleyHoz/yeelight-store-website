@@ -464,166 +464,34 @@
         "disable_bottom_spacing": false
       }
     },
-    "image_with_text_overlay_AHcJAG": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_W94qRH": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_EK9ETj": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_size": "h1-xlarge"
-          }
-        },
-        "text_xGw3Ux": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "description_size": "medium"
-          }
-        },
-        "button_MVrwf9": {
-          "type": "button",
-          "settings": {
-            "button_text": "",
-            "button_link": "",
-            "button_color": "accent"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_W94qRH",
-        "heading_EK9ETj",
-        "text_xGw3Ux",
-        "button_MVrwf9"
-      ],
+    "single_image_4eyaPr": {
+      "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/ExquisiteDesign.png",
-        "image_parallax": false,
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-500",
+        "image_mobile": "shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
         "full_width": true,
-        "content_width": "medium",
-        "content_position": "bottom-center",
-        "text_alignment": "center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
-    "image_with_text_overlay_r4n8DF": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_EMpRRh": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_eBX79a": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_size": "h1-xlarge"
-          }
-        },
-        "text_8kpkfe": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "description_size": "medium"
-          }
-        },
-        "button_Cmb7DB": {
-          "type": "button",
-          "settings": {
-            "button_text": "",
-            "button_link": "",
-            "button_color": "accent"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_EMpRRh",
-        "heading_eBX79a",
-        "text_8kpkfe",
-        "button_Cmb7DB"
-      ],
+    "single_image_XMGMeB": {
+      "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/OurSearch.png",
-        "image_parallax": false,
-        "desktop_height": "desktop-height-450",
-        "mobile_height": "mobile-height-500",
+        "image_mobile": "shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
         "full_width": true,
-        "content_width": "medium",
-        "content_position": "bottom-center",
-        "text_alignment": "center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
-    "image_with_text_overlay_yWg436": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_EKHBKc": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_xYpAR6": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_size": "h1-xlarge"
-          }
-        },
-        "text_HD989H": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "description_size": "medium"
-          }
-        },
-        "button_YHNxdj": {
-          "type": "button",
-          "settings": {
-            "button_text": "",
-            "button_link": "",
-            "button_color": "accent"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_EKHBKc",
-        "heading_xYpAR6",
-        "text_HD989H",
-        "button_YHNxdj"
-      ],
+    "single_image_dQe4Mf": {
+      "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/IotEcosystem.png",
-        "image_parallax": false,
-        "desktop_height": "desktop-height-550",
-        "mobile_height": "mobile-height-500",
+        "image_mobile": "shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
         "full_width": true,
-        "content_width": "medium",
-        "content_position": "bottom-center",
-        "text_alignment": "center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "multicolumn_WygXNb": {
@@ -1043,16 +911,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "single_image_4eyaPr": {
-      "type": "single-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/platforms.png",
-        "image_mobile": "shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
     "scrolling_images_9q4NDw": {
       "type": "scrolling-images",
       "blocks": {
@@ -1104,9 +962,9 @@
     "collection_list_7U8MXe",
     "rich_text_Qb3iUW",
     "text_with_icons_MqACi7",
-    "image_with_text_overlay_AHcJAG",
-    "image_with_text_overlay_r4n8DF",
-    "image_with_text_overlay_yWg436",
+    "single_image_4eyaPr",
+    "single_image_XMGMeB",
+    "single_image_dQe4Mf",
     "multicolumn_WygXNb",
     "1711998083986c24cc",
     "rich_text_GgN3Xc",
@@ -1116,7 +974,6 @@
     "rich_text_97FdYr",
     "rich_text_LkTqMa",
     "1647955648d6a0baee",
-    "single_image_4eyaPr",
     "scrolling_images_9q4NDw",
     "custom_liquid_eTafiM"
   ]
