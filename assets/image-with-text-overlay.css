@@ -64,7 +64,7 @@
   fill: var(--bg-body, #fff);
   opacity: 0.5;
 }
-.image-with-text-overlay--bg:after {
+/* .image-with-text-overlay--bg:after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -74,7 +74,7 @@
   z-index: 11;
   background: rgba(var(--overlay-color-rgb), var(--overlay-opacity));
   pointer-events: none;
-}
+} */
 .image-with-text-overlay--content {
   display: flex;
   padding: 0 15px;
