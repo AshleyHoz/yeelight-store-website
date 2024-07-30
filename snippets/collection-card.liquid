@@ -57,7 +57,7 @@
     >
       <a
         href="{{ grid_collection_url }}"
-        class="collection-card--link {{index_c}}"
+        class="collection-card--link"
         title="{{ grid_collection_title | escape }}"
       >
         {% if grid_collection == empty %}
@@ -77,7 +77,10 @@
         class="collection-card--link collection-card--link-{{ heading_size }} collection-card--link-{{ heading_position }}"
         title="{{ grid_collection_title | escape }}"
       >
-        <div class="custom-collection-card--title">{{ grid_collection_title }}</div>
+        <div class="custom-collection-card--title">
+          {{ grid_collection_title }}
+          {{ index_c }}
+        </div>
       </a>
     </div>
   </div>
