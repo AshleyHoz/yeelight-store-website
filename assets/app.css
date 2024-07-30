@@ -432,7 +432,7 @@ h6,
     Ubuntu, roboto, noto, arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  color: var(--color-heading, #1a1c1d);
+  color: #ffffff;
   text-rendering: optimizeLegibility;
 }
 h1 small,

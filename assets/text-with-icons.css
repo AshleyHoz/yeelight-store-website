@@ -30,6 +30,9 @@
   grid-auto-columns: minmax(250px, 300px);
 }
 @media only screen and (min-width: 768px) {
+  .text-with-icons {
+    margin-bottom: 160px;
+  }
   .text-with-icons__inner {
     grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
   }
