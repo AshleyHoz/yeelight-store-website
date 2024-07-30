@@ -1,12 +1,10 @@
 .text-with-icons__inner {
-  padding: 0 15px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
 @media only screen and (min-width: 768px) {
   .text-with-icons__inner {
-    padding: 0 50px;
   }
 }
 
@@ -75,9 +73,27 @@
   align-items: center;
   scroll-snap-align: center;
   scroll-snap-stop: always;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  /* background: linear-gradient(to bottom left, #ff5e5e 0%, #ff5e5e 20%, transparent 20%, transparent 100%);
+  filter: blur(60px); */
+  position: relative;
+  padding: 20px;
+}
+.text-with-icons__block::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  right: -25px;
+  background: #ff5e5e;
+  filter: blur(60px);
 }
 .text-with-icons__block-content {
   font-size: 0.9375rem;
+  width: 100%;
+  text-align: left;
 }
 .text-with-icons__block-content h6 {
   line-height: 1;
@@ -93,6 +109,8 @@
 }
 .text-with-icons__icon {
   flex-shrink: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 .text-with-icons__icon svg {
   width: 100%;
@@ -111,9 +129,6 @@
 .text-with-icons.icon-top .text-with-icons__block {
   flex-direction: column;
 }
-.text-with-icons.icon-top .text-with-icons__icon {
-  margin-bottom: 20px;
-}
 .text-with-icons.icon-top.text-left .text-with-icons__block {
   align-items: flex-start;
 }
@@ -125,9 +140,6 @@
 }
 .text-with-icons.icon-right .text-with-icons__block {
   flex-direction: row-reverse;
-}
-.text-with-icons.icon-right .text-with-icons__icon {
-  margin-left: 20px;
 }
 .text-with-icons.icon-small .text-with-icons__icon {
   height: 32px;
@@ -156,4 +168,23 @@
 }
 .text-with-icons.heading-small h6 {
   font-size: 14px;
+}
+
+.text-with-icons__block-content-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  background: linear-gradient(103deg, #ffc9aa 0%, #ff5e5e 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-with-icons__block-content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: capitalize;
 }
