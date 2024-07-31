@@ -91,3 +91,10 @@
     transform: translateX(0%);
   }
 }
+
+.scrolling-images-header--title {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 40px 0;
+}
