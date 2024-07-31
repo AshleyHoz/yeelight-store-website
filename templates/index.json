@@ -597,41 +597,6 @@
     "1711998083986c24cc": {
       "type": "apps",
       "blocks": {
-        "loox_reviews_loox_agg_section_f3REWL": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": false,
-            "data-limit": 10,
-            "maxwidth": 1200,
-            "is_sample": true
-          }
-        },
-        "loox_reviews_loox_card_carousel_section_KmMrAA": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "maxWidth": 1440,
-            "borderRadius": 8,
-            "itemsPerView": 5,
-            "mobileItemsPerView": 1,
-            "maxNumberOfCharacters": 100,
-            "imageRatio": "0.72",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "itemBackgroundColor": "#ffffff",
-            "starsColor": "",
-            "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#ffffff",
-            "arrows_iconColor": "#9a9a9a",
-            "shadow": "offset-dark",
-            "border_active": false,
-            "border_width": 2,
-            "border_color": "#000000",
-            "productIds": ""
-          }
-        },
         "loox_reviews_loox_video_slider_y63DVW": {
           "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-video-slider\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -655,8 +620,6 @@
         }
       },
       "block_order": [
-        "loox_reviews_loox_agg_section_f3REWL",
-        "loox_reviews_loox_card_carousel_section_KmMrAA",
         "loox_reviews_loox_video_slider_y63DVW"
       ],
       "settings": {
@@ -900,6 +863,7 @@
         "image_dVxQPF"
       ],
       "settings": {
+        "title": "",
         "image_ratio": "adapt",
         "column_spacing": "large",
         "image_alignment": "top",
