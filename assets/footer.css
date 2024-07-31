@@ -46,6 +46,11 @@
     right: auto;
     transform: translateX(-50%);
   }
+
+  .footer-payment-icons figure {
+    display: inline-flex;
+    margin-left: 5px;
+  }
 }
 .footer .widget button {
   color: var(--color-footer-link, #fff);
@@ -270,6 +275,10 @@
   .footer-payment-icons {
     text-align: right;
   }
+  .footer-payment-icons figure {
+    display: inline-flex;
+    margin-left: 24px;
+  }
 }
 
 @media only screen and (min-width: 1068px) {
@@ -278,10 +287,6 @@
   }
 }
 
-.footer-payment-icons figure {
-  display: inline-flex;
-  margin-left: 24px;
-}
 .footer-payment-icons figure:first-child {
   margin-left: 0;
 }
