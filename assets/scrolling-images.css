@@ -10,6 +10,7 @@
   align-items: center;
   overflow: hidden;
   background: #121212;
+  padding-bottom: 160px;
 }
 .scrolling-images--inner {
   display: flex;
