@@ -625,34 +625,6 @@
       "settings": {
       }
     },
-    "rich_text_GgN3Xc": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6U8jnh": {
-          "type": "heading",
-          "settings": {
-            "text": "Featured In",
-            "marker_style": "style2",
-            "size": "h3",
-            "marker_color": "#fd6262"
-          }
-        }
-      },
-      "block_order": [
-        "heading_6U8jnh"
-      ],
-      "settings": {
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#1a1c1d",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "promotion_blocks_NpxCRX": {
       "type": "promotion-blocks",
       "blocks": {
@@ -863,7 +835,7 @@
         "image_dVxQPF"
       ],
       "settings": {
-        "title": "",
+        "title": "Featured In",
         "image_ratio": "adapt",
         "column_spacing": "large",
         "image_alignment": "top",
@@ -890,7 +862,6 @@
     "multicolumn_WygXNb",
     "rich_text_Q8UQ7e",
     "1711998083986c24cc",
-    "rich_text_GgN3Xc",
     "promotion_blocks_NpxCRX",
     "gallery_LGBiNY",
     "custom_liquid_eTafiM",
