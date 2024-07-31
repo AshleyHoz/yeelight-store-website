@@ -339,6 +339,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 .social-links li {
   margin-bottom: 5px;
