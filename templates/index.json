@@ -855,40 +855,40 @@
           "type": "image",
           "settings": {
             "link": "",
-            "heading": "Heading",
-            "text": "<p>Add description text here.<\/p>"
+            "heading": "",
+            "text": ""
           }
         },
         "image_zygXMb": {
           "type": "image",
           "settings": {
             "link": "",
-            "heading": "Heading",
-            "text": "<p>Add description text here.<\/p>"
+            "heading": "",
+            "text": ""
           }
         },
         "image_cAGeET": {
           "type": "image",
           "settings": {
             "link": "",
-            "heading": "Heading",
-            "text": "<p>Add description text here.<\/p>"
+            "heading": "",
+            "text": ""
           }
         },
         "image_aR6bqm": {
           "type": "image",
           "settings": {
             "link": "",
-            "heading": "Heading",
-            "text": "<p>Add description text here.<\/p>"
+            "heading": "",
+            "text": ""
           }
         },
         "image_dVxQPF": {
           "type": "image",
           "settings": {
             "link": "",
-            "heading": "Heading",
-            "text": "<p>Add description text here.<\/p>"
+            "heading": "",
+            "text": ""
           }
         }
       },
@@ -901,7 +901,7 @@
       ],
       "settings": {
         "image_ratio": "adapt",
-        "column_spacing": "small",
+        "column_spacing": "large",
         "image_alignment": "top",
         "direction": "left",
         "speed": "20s",
