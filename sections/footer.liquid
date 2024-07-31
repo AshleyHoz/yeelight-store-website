@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="{{ 'footer.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'footer.css' | asset_url | stylesheet_tag }}</noscript>
 <theme-footer class="footer" id="footer">
-  <div class="row">
+  <div class="row custom-footer-row ">
     {%- for block in section.blocks -%}
       {% if block.type == 'text' %}
         {%- liquid
@@ -21,7 +21,7 @@
               assign column_class = 'small-12 medium-4'
           endcase
         -%}
-        <div class="custom-footer-column {{ column_class | escape }} columns" {{ block.shopify_attributes }}>
+        <div class="{{ column_class | escape }} columns" {{ block.shopify_attributes }}>
           <div class="widget widget--text text-{{ block.settings.text_alignment }}">
             {%- if block.settings.title != blank -%}
               <div class="thb-widget-title">{{ block.settings.title }}</div>
@@ -55,7 +55,10 @@
               assign column_class = 'small-12 medium-4'
           endcase
         -%}
-        <div class="{{ column_class | escape }} columns widget--menu-column" {{ block.shopify_attributes }}>
+        <div
+          class="custom-footer-column {{ column_class | escape }} columns widget--menu-column"
+          {{ block.shopify_attributes }}
+        >
           <div class="widget widget--menu">
             <button class="thb-widget-title collapsible" tabindex="0">
               {{ block.settings.title }}
