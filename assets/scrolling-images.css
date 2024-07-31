@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   overflow: hidden;
+  background: #121212;
 }
 .scrolling-images--inner {
   display: flex;
