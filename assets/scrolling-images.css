@@ -6,8 +6,6 @@
 .scrolling-images {
   position: relative;
   background-size: cover;
-  display: flex;
-  align-items: center;
   overflow: hidden;
   background: #121212;
   padding-bottom: 160px;
@@ -97,4 +95,11 @@
   height: 100%;
   text-align: center;
   padding: 40px 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
 }
