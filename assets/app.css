@@ -1858,7 +1858,7 @@ summary {
 }
 @media only screen and (min-width: 768px) {
   .row {
-    padding: 0 35px;
+    padding: 0;
   }
 }
 .row .columns {

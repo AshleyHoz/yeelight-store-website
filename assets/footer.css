@@ -363,10 +363,6 @@
   height: auto;
 }
 
-.custom-footer-row {
-  padding: 0;
-}
-
 @media print, screen and (min-width: 66.75em) {
   .custom-footer-column.large-2 {
     flex: 0 0 22.22222%;
