@@ -3142,6 +3142,11 @@ h6,
     display: none;
   }
 }
+@media only screen and (max-width: 768px) {
+  .thb-header-right .thb-quick-localization {
+    display: none;
+  }
+}
 .header.style5 .full-menu {
   width: 100%;
   grid-column: span 2;
@@ -3318,6 +3323,13 @@ h6,
 @media only screen and (min-width: 768px) {
   .logolink .logoimg {
     height: var(--logo-height, 30px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logolink .logoimg {
+    width: 150px;
+    height: auto;
   }
 }
 
