@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="{{ 'footer.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'footer.css' | asset_url | stylesheet_tag }}</noscript>
 <theme-footer class="footer" id="footer">
-  <div class="row custom-footer-row ">
+  <div class="row">
     {%- for block in section.blocks -%}
       {% if block.type == 'text' %}
         {%- liquid
@@ -38,9 +38,6 @@
             {%- endif -%}
             {%- if block.settings.button_text != blank -%}
               {% render 'text-button', url: block.settings.button_link, title: block.settings.button_text %}
-            {%- endif -%}
-            {%- if block.settings.show_social_links -%}
-              {%- render 'social-links', show_label: false -%}
             {%- endif -%}
           </div>
         </div>
@@ -193,15 +190,32 @@
     {%- endfor -%}
   </div>
   <div class="sub-footer">
-    <div class="row">
-      <div class="small-12 columns"><hr></div>
+    <div class="row sub-footer--row">
+      {% comment %} <div class="small-12 columns"><hr></div> {% endcomment %}
+      {% comment %}
+        <div class="small-12 medium-8 columns">
+          {% render 'localization',
+            id: 'FooterLocalization',
+            show_language_switcher: show_language_switcher,
+            show_currency_switcher: show_currency_switcher,
+            open_top: true
+          %}
+        </div>
+      {% endcomment %}
       <div class="small-12 medium-8 columns">
-        {% render 'localization',
-          id: 'FooterLocalization',
-          show_language_switcher: show_language_switcher,
-          show_currency_switcher: show_currency_switcher,
-          open_top: true
-        %}
+        {%- render 'social-links', show_label: false -%}
+        <div>
+          <p>
+            &copy; {{ 'now' | date: '%Y' }}
+            {{ shop.name }}, {{ copyright_text }}
+            {{ powered_by_link }}
+          </p>
+          {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
+            <div class="footer--follow-on-shop">
+              {{ shop | login_button: action: 'follow' }}
+            </div>
+          {%- endif -%}
+        </div>
       </div>
       <div class="small-12 medium-4 columns">
         {%- if show_payment_icons -%}
@@ -211,18 +225,6 @@
                 <figure>{{ type | payment_type_svg_tag: class: 'payment-icons__icon' }}</figure>
               {%- endfor -%}
             {%- endunless -%}
-          </div>
-        {%- endif -%}
-      </div>
-      <div class="small-12 columns">
-        <p>
-          &copy; {{ 'now' | date: '%Y' }}
-          {{ shop.name }}, {{ copyright_text }}
-          {{ powered_by_link }}
-        </p>
-        {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
-          <div class="footer--follow-on-shop">
-            {{ shop | login_button: action: 'follow' }}
           </div>
         {%- endif -%}
       </div>

@@ -274,13 +274,13 @@
 
 @media only screen and (min-width: 1068px) {
   .footer-payment-icons {
-    padding: 15px 0 0;
+    padding: 0;
   }
 }
 
 .footer-payment-icons figure {
   display: inline-flex;
-  margin-left: 5px;
+  margin-left: 24px;
 }
 .footer-payment-icons figure:first-child {
   margin-left: 0;
@@ -368,4 +368,10 @@
     flex: 0 0 22.22222%;
     max-width: 22.22222%;
   }
+}
+
+.sub-footer--row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
