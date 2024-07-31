@@ -21,7 +21,7 @@
               assign column_class = 'small-12 medium-4'
           endcase
         -%}
-        <div class="{{ column_class | escape }} columns" {{ block.shopify_attributes }}>
+        <div class="custom-footer-column {{ column_class | escape }} columns" {{ block.shopify_attributes }}>
           <div class="widget widget--text text-{{ block.settings.text_alignment }}">
             {%- if block.settings.title != blank -%}
               <div class="thb-widget-title">{{ block.settings.title }}</div>
@@ -169,23 +169,23 @@
         </div>
       {%- endif -%}
       {%- if block.type == 'custom_liquid' -%}
-				{%- liquid
-					assign column_class = 'small-6 medium-4 large-2'
-					case block.settings.column_size
-						when 'medium'
-							assign column_class = 'small-12 medium-3'
-						when 'large'
-							assign column_class = 'small-12 medium-6'
-					endcase
-				-%}
-				<div class="{{ column_class | escape }} columns" {{ block.shopify_attributes }}>
-					<div class="widget widget--custom">
-						{% if block.settings.title != blank %}
-							<div class="thb-widget-title">{{ block.settings.title }}</div>
-						{% endif %}
-						{{ block.settings.custom_liquid }}
-					</div>
-				</div>
+        {%- liquid
+          assign column_class = 'small-6 medium-4 large-2'
+          case block.settings.column_size
+            when 'medium'
+              assign column_class = 'small-12 medium-3'
+            when 'large'
+              assign column_class = 'small-12 medium-6'
+          endcase
+        -%}
+        <div class="{{ column_class | escape }} columns" {{ block.shopify_attributes }}>
+          <div class="widget widget--custom">
+            {% if block.settings.title != blank %}
+              <div class="thb-widget-title">{{ block.settings.title }}</div>
+            {% endif %}
+            {{ block.settings.custom_liquid }}
+          </div>
+        </div>
       {%- endif -%}
     {%- endfor -%}
   </div>
@@ -459,15 +459,15 @@
       "name": "Custom liquid",
       "settings": [
         {
-            "type": "select",
-            "id": "column_size",
-            "label": "Column size",
-            "options": [
-              { "value": "small", "label": "Small" },
-              { "value": "medium", "label": "Medium" },
-              { "value": "large", "label": "Large" }
-            ],
-            "default": "small"
+          "type": "select",
+          "id": "column_size",
+          "label": "Column size",
+          "options": [
+            { "value": "small", "label": "Small" },
+            { "value": "medium", "label": "Medium" },
+            { "value": "large", "label": "Large" }
+          ],
+          "default": "small"
         },
         {
           "id": "title",
