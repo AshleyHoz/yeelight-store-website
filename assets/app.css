@@ -3326,7 +3326,7 @@ h6,
 }
 
 @media only screen and (max-width: 768px) {
-.logolink .logoimg {
+  .logolink .logoimg {
     width: 100px;
     height: auto;
   }
@@ -3477,7 +3477,8 @@ h6,
 }
 .thb-full-menu a:hover,
 .thb-full-menu a:focus {
-  color: var(--color-header-links-hover, --color-accent2);
+  /* color: var(--color-header-links-hover, --color-accent2); */
+  color: #fff;
 }
 .thb-full-menu a:hover:after,
 .thb-full-menu a:focus:after {
