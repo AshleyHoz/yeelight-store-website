@@ -379,7 +379,7 @@
   -webkit-backdrop-filter: blur(5px);
   display: flex;
   width: max-content;
-  max-width: 325px;
+  max-width: 330px;
   align-items: center;
   opacity: 0;
   transform: translateX(-50%) translateY(20px);
