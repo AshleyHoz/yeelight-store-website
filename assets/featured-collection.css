@@ -35,6 +35,9 @@
 .featured-collection__inner {
   margin: 40px 0;
 }
+.featured-collection__inner--column {
+  width: 100%;
+}
 .custom-text--button {
   text-align: center;
 }
