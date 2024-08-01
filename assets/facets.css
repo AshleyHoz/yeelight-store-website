@@ -176,7 +176,7 @@
 }
 
 .facets .thb-filter-title span svg path {
-  stroke: var(--solid-button-background, var(--color-accent));
+  stroke: var(--color-accent);
 }
 
 .facets .thb-filter-title::marker,
