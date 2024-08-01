@@ -264,7 +264,7 @@
   backdrop-filter: blur(50px);
   position: absolute;
   left: 50%;
-  bottom: 5px;
+  bottom: -35px;
   transform: translate(-50%);
 }
 
