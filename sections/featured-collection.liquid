@@ -61,7 +61,7 @@
         >
           {%- if featured_collection != blank -%}
             {%- for product in featured_collection.products limit: product_limit -%}
-              <div class="{{ columns_class }} columns {% if display_type == 'carousel' %}carousel__slide{% endif %}">
+              <div class="{{ columns_class }} columns {% if display_type == 'carousel' %}carousel__slide{% endif %} featured-collection__inner--column">
                 {% render 'product-card', product_card_product: product %}
               </div>
             {%- endfor -%}
