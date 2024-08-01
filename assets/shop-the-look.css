@@ -299,6 +299,7 @@
   line-height: normal;
   letter-spacing: 0.32px;
   text-transform: capitalize;
+  white-space: nowrap;
 }
 
 .shop-look-info-desc {
@@ -472,7 +473,7 @@
     backdrop-filter: blur(50px);
     position: absolute;
     left: 50%;
-    bottom: -15px;
+    bottom: -20px;
     transform: translate(-50%);
   }
 
@@ -502,6 +503,7 @@
     line-height: normal;
     letter-spacing: 0.32px;
     text-transform: capitalize;
+    white-space: nowrap;
   }
 
   .shop-look-info-desc {
