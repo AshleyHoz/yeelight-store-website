@@ -3473,7 +3473,8 @@ h6,
   height: 1px;
   transform: scale(0, 1);
   transform-origin: left center;
-  background: var(--color-header-links-hover, --color-accent);
+  /* background: var(--color-header-links-hover, --color-accent); */
+  color: #fff;
 }
 .thb-full-menu a:hover,
 .thb-full-menu a:focus {
