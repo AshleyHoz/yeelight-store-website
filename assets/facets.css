@@ -639,4 +639,11 @@
     width: 100%;
     margin: 0;
   }
+
+  .facets--bar {
+    display: block;
+    margin: 10px 0;
+    font-size: 0.8125rem;
+    z-index: 45;
+  }
 }
