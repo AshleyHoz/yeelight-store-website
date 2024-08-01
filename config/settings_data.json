@@ -24,6 +24,7 @@
     "color_body": "#ffffff",
     "color_heading": "#1a1c1d",
     "color_accent": "#007aff",
+    "color_drawer_bg": "#000000",
     "color_announcement_bar_bg": "#0079fb",
     "color_secondary_menu_text": "#ffffff",
     "color_secondary_menu_bg": "#000000",
