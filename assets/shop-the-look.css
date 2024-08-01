@@ -445,6 +445,19 @@
     transition: color 0.3s;
   }
 
+  .shop-look-buttons_item-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    z-index: 1;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    padding: 8px 18px;
+  }
+
   .shop-look-buttons_item-content span {
     display: none;
   }

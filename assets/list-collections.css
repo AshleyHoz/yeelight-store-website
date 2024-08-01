@@ -225,7 +225,7 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.custom-collection-list-row {
+.custom-collection-list--row {
   padding: 100px 0;
 }
 
@@ -280,4 +280,10 @@
 .custom-collection-list-column:last-child .custom-collection-card--title .custom-collection-card--desc {
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .custom-collection-list--row {
+    padding: 40px 0;
+  }
 }
