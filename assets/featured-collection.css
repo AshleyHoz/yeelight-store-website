@@ -62,13 +62,13 @@
   .featured-collection {
     overflow: hidden;
     position: relative;
-    padding: 40px 0 0;
+    padding: 20px 0 0;
   }
 
   .section-header--title {
     text-align: center;
     color: #fff;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;

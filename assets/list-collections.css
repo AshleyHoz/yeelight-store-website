@@ -284,6 +284,10 @@
 
 @media only screen and (max-width: 767px) {
   .custom-collection-list--row {
-    padding: 40px 0;
+    padding: 20px 11px;
+  }
+
+  .custom-collection-list-header {
+    margin-bottom: 20px;
   }
 }

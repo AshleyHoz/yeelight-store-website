@@ -416,13 +416,13 @@
 @media only screen and (max-width: 768px) {
   .shop-the-look {
     display: block;
-    padding: 50px 0 20px;
+    padding: 20px 0 20px;
   }
 
   .shop-look-header--title {
     text-align: center;
     color: #fff;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;

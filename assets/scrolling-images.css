@@ -103,3 +103,27 @@
   line-height: normal;
   text-transform: capitalize;
 }
+
+@media only screen and (max-width: 768px) {
+  .scrolling-images {
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    background: #121212;
+    padding-bottom: 20px;
+  }
+
+  .scrolling-images-header--title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+}
