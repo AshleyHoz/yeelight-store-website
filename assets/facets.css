@@ -630,11 +630,13 @@
 }
 
 .product-column {
-  margin: 0 20px 20px;
+  width: calc(25% - 20px);
+  margin: 0 10px 10px;
 }
 
 @media only screen and (max-width: 767px) {
   .product-column {
-    margin: 0 0 20px;
+    width: 100%;
+    margin: 0;
   }
 }
