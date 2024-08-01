@@ -32,6 +32,7 @@
 }
 .rich-text .rte {
   margin-bottom: 35px;
+  color: #ffffff;
 }
 .rich-text .rte p:last-child {
   margin-bottom: 0;
