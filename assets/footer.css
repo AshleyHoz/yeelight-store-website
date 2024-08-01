@@ -27,11 +27,6 @@
 .footer .custom-select--arrow svg path {
   stroke: var(--color-footer-text, #fff);
 }
-@media only screen and (max-width: 768px) {
-  .footer .custom-select--item {
-    max-width: 250px;
-  }
-}
 .footer .custom-select--item button {
   display: block;
   text-align: left;
@@ -50,6 +45,10 @@
   .footer-payment-icons figure {
     display: inline-flex;
     margin-left: 5px;
+  }
+
+  .footer .custom-select--item {
+    max-width: 250px;
   }
 }
 .footer .widget button {
