@@ -1,9 +1,6 @@
-
-
 .page-header--tags a {
-  transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1); }
-
-
+  transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
+}
 
 .page-header--tags a {
   display: inline-flex;
@@ -17,19 +14,27 @@
   margin: 0 2px 2px 0;
   line-height: 1;
   background: rgba(var(--color-body-rgb), 0.05);
-  color: rgba(var(--color-body-rgb), 0.8); }
-  .page-header--tags a:hover, .page-header--tags a.active {
-    color: #fff;
-    background: var(--color-accent); }
+  color: rgba(var(--color-body-rgb), 0.8);
+}
+.page-header--tags a:hover,
+.page-header--tags a.active {
+  color: #000000;
+  background: var(--color-accent);
+}
 
 .breadcrumbs-section + .page-header-section .page-header {
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
 .page-header {
-  padding: 25px 0; }
-  .page-header h1 {
-    margin-bottom: 10px; }
-  .page-header p {
-    margin-bottom: 0; }
-  .page-header--tags {
-    margin-top: 20px; }
+  padding: 25px 0;
+}
+.page-header h1 {
+  margin-bottom: 10px;
+}
+.page-header p {
+  margin-bottom: 0;
+}
+.page-header--tags {
+  margin-top: 20px;
+}
