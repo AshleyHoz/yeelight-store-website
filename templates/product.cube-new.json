@@ -1,1 +1,842 @@
-{"sections":{"breadcrumbs":{"type":"breadcrumbs","settings":{}},"main-product":{"type":"main-product","blocks":{"2b609eea-6cce-4efe-b447-c5560de1d797":{"type":"label","settings":{}},"e431a79e-9c7b-4a53-a79a-0cb918617ecf":{"type":"text","settings":{"text":"{{ product.vendor }}","text_style":"style_vendor"}},"title":{"type":"title","settings":{"show_products_rating":false}},"loox_reviews_loox_rating_cVhpLw":{"type":"shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"contentSize":16,"pattern":"","hideText":false,"alignment":"","layout":"","textColor":"","starColor":"","showAllReviews":false,"looxOpenFloatingWidget":false,"emptyRatingWidget":false}},"separator_yYnCVD":{"type":"separator","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","color_picker":true,"color_picker_use_variants":false,"variant_is_disabled":true,"sizing_guide_variant":"Size","sizing_guide_text":"","sizing_guide_icon":"ruler","sizing_guide_page":""}},"quantity":{"type":"quantity","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":false}},"0b3e272b-c86a-4dba-946c-c6912251371c":{"type":"description","settings":{}},"386f7e4a-6127-4141-928b-9cb4614ee18c":{"type":"collapsible_tab","settings":{"heading":"Shipping","open":false,"content":"<p>Order will typically be processed within 24 hours.<\/p><p><strong>Estimated Shipping Time:<\/strong><\/p><ul><li>USA: 3-7 Business Days<\/li><li>Europe: 7-10 Business Days<\/li><\/ul>","page":"","custom_liquid":""}},"d56924f2-0137-4e3b-8c33-49b1f28391c6":{"type":"collapsible_tab","settings":{"heading":"Warranty","open":false,"content":"<p>We offer 2 Year Warranty on all Yeelight Products.<\/p>","page":"","custom_liquid":""}},"4fd23485-293f-46a0-8a4c-34d0e25ea41b":{"type":"share","settings":{}},"fc6da228-45eb-4a6e-aa68-d6ec477bec34":{"type":"complementary","settings":{"block_heading":"Pairs well with","product_list_limit":6}}},"block_order":["2b609eea-6cce-4efe-b447-c5560de1d797","e431a79e-9c7b-4a53-a79a-0cb918617ecf","title","loox_reviews_loox_rating_cVhpLw","separator_yYnCVD","variant_picker","quantity","buy_buttons","0b3e272b-c86a-4dba-946c-c6912251371c","386f7e4a-6127-4141-928b-9cb4614ee18c","d56924f2-0137-4e3b-8c33-49b1f28391c6","4fd23485-293f-46a0-8a4c-34d0e25ea41b","fc6da228-45eb-4a6e-aa68-d6ec477bec34"],"settings":{"enable_sticky_add_to_cart":true,"show_taxes_included":true,"thumbnail_position":"left","media_aspect_ratio":"adapt","display_captions":true,"hide_variants":false,"lightbox":true,"enable_video_looping":false}},"logo_list_4rGT3p":{"type":"logo-list","blocks":{"logo_FMrgMj":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/matter_1.png","link":""}},"logo_mKzWBz":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/Apple_Home_78be6963-c410-44d0-81c3-cfdd347a2e05.jpg","link":""}},"logo_rr3cCK":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/Google_home.png","link":""}},"logo_b8Knz7":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/work_with_alexa.png","link":""}},"logo_btcrht":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/5.png","link":""}},"logo_43A8A9":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/yeelight_icon_2.jpg","link":""}}},"block_order":["logo_FMrgMj","logo_mKzWBz","logo_rr3cCK","logo_b8Knz7","logo_btcrht","logo_43A8A9"],"settings":{"heading":"Works with","marker_style":"style1","description":"","columns":6,"mobile_swipe":true,"center_align":true,"disable_top_spacing":false,"disable_bottom_spacing":true,"color_logo_bg":"#ffffff","marker_color":"#fd6262"}},"video_dhTyJi":{"type":"video","settings":{"heading":"","marker_style":"style1","description":"","full_width":false,"video":"","video_hosted":"shopify:\/\/files\/videos\/Yeelight Cube Smart Lamp 2.mp4","video_autoplay":true,"aspect_ratio":"16-9","marker_color":"#fd6262","disable_top_spacing":false,"disable_bottom_spacing":true}},"16623743398765981b":{"type":"rich-text","blocks":{"1662374339c00286b1-1":{"type":"heading","settings":{"text":"Key Features","marker_style":"style1","size":"h1","marker_color":"#fd6262"}},"1662374339c00286b1-2":{"type":"text","settings":{"text":"<p>DIY  your colors space with Yeelight cube<\/p>","custom_liquid":"","size":"text-size-regular"}}},"block_order":["1662374339c00286b1-1","1662374339c00286b1-2"],"settings":{"text_width":"xlarge","text_position":"center","text_alignment":"center","color_bg":"rgba(0,0,0,0)","color_heading":"#252f35","color_text":"#303c43","color_links":"#151515","disable_top_spacing":false,"disable_bottom_spacing":true}},"3a444c86-680e-4deb-b870-63aec684439f":{"type":"media-grid","blocks":{"template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-0":{"type":"media","settings":{"image":"shopify:\/\/shop_images\/diy_1.png","slide_link":"","use_video":false,"video_autoplay":true,"column":2,"row":3,"subheading":"","heading":"DIY Graffiti","heading_size":"h2","button_text":"","button_link":"","content_position":"top-left","text_alignment":"left","color_bg":"#5375c1","color_bg_gradient":"","color_text":"#ffffff","color_link":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-1":{"type":"media","settings":{"image":"shopify:\/\/shop_images\/diy_3.png","slide_link":"","use_video":false,"video_autoplay":true,"column":1,"row":2,"subheading":"","heading":"16 Million Colors","heading_size":"h3","button_text":"","button_link":"","content_position":"top-center","text_alignment":"center","color_bg":"#3b63bd","color_bg_gradient":"","color_text":"#fdfdfd","color_link":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"3595a460-057e-4e41-aab6-3ced52f76ef3":{"type":"media","settings":{"slide_link":"","use_video":false,"video_autoplay":true,"column":1,"row":1,"subheading":"","heading":"Content Monitor","heading_size":"h3","button_text":"","button_link":"","content_position":"middle-center","text_alignment":"center","color_bg":"#fdfdfd","color_bg_gradient":"radial-gradient(rgba(121, 128, 252, 1), rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)","color_text":"#fdfdfd","color_link":"#3f72e5","overlay_color":"#000000","overlay_opacity":0}},"template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-2":{"type":"media","settings":{"slide_link":"","use_video":false,"video_autoplay":true,"column":1,"row":1,"subheading":"","heading":"Light and Shadow Magic","heading_size":"h3","button_text":"","button_link":"","content_position":"middle-center","text_alignment":"center","color_bg":"#fdfdfd","color_bg_gradient":"linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)","color_text":"#151515","color_link":"#3f72e5","overlay_color":"#000000","overlay_opacity":0}},"52402f74-ffbf-4ff7-96b3-6c6c30568c45":{"type":"media","settings":{"image":"shopify:\/\/shop_images\/diy_2.png","slide_link":"","use_video":false,"video_autoplay":true,"column":2,"row":1,"subheading":"","heading":"Music Flow","heading_size":"h3","button_text":"","button_link":"","content_position":"middle-center","text_alignment":"center","color_bg":"#ffffff","color_bg_gradient":"","color_text":"#ffffff","color_link":"#3f72e5","overlay_color":"#2c2d2e","overlay_opacity":0}}},"block_order":["template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-0","template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-1","3595a460-057e-4e41-aab6-3ced52f76ef3","template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-2","52402f74-ffbf-4ff7-96b3-6c6c30568c45"],"settings":{"desktop_height":220,"mobile_height":150,"column_spacing":"medium","color_bg":"#ffffff","color_text":"#2c2d2e","color_link":"#3f72e5","disable_top_spacing":true,"disable_bottom_spacing":true}},"toggle_boxes_L4q8AU":{"type":"toggle-boxes","blocks":{"box_DUL4BR":{"type":"box","settings":{"image":"shopify:\/\/shop_images\/1_7ac4e223-ff96-4ef3-9805-a467c065097b.png","image_link":"","open":false,"heading":"Cube-Matrix","text":"<p>The dot matrix component features 25 RGB color light clusters, arranged in a 5x5 grid. Each individual light bead offers 16000K color variations, all of which can be controlled via an APP. When these 25 light beads come together, they provide an infinite array of color possibilities.<\/p>"}},"box_wpaqGM":{"type":"box","settings":{"image":"shopify:\/\/shop_images\/2_624ea9cd-ccd8-4c2e-a1de-afdca33d7429.png","image_link":"","open":false,"heading":"Cube-Panel","text":"<p>The panel components employ soft light panels with RGB technology, which can craft a one-of-a-kind ambience. You can DIY spectacular lighting effects with up to 16000K color options, allowing you to play with an array of light and shadow.<\/p>"}},"box_q8LRrt":{"type":"box","settings":{"image":"shopify:\/\/shop_images\/3_1c4b79f0-6464-4b68-aae5-3886b5823fb3.png","image_link":"","open":false,"heading":"Cube-Spotlight","text":"<p>The spotlight component is a potent RGB light source that projects a focused 15-degree colored beam. With adjustable directionality, this component serves as an excellent choice for creating visually appealing wall decorations.<\/p>"}}},"block_order":["box_DUL4BR","box_wpaqGM","box_q8LRrt"],"settings":{"heading":"Cube Components","marker_style":"style1","description":"<p>Freely assemble with 3 different types of Cube Lights<\/p>","columns_desktop":3,"column_spacing":"medium","image_ratio":"adapt","mobile_swipe":true,"text_alignment":"left","color_bg":"#ffffff","color_heading":"#1a1c1d","marker_color":"#fd6262","color_text":"#2c2d2e","color_link":"#3f72e5","disable_top_spacing":false,"disable_bottom_spacing":false}},"image_with_text_kxtL8c":{"type":"image-with-text","blocks":{"heading_fz4bUw":{"type":"heading","settings":{"text":"Easy-to-Use Desktop App","marker_style":"style1","heading_size":"h3","marker_color":"#fd6262"}},"text_aDJmbN":{"type":"text","settings":{"text":"<p>Powerful PC play tool: Sync with games, movies, music, and screens.<\/p>"}}},"block_order":["heading_fz4bUw","text_aDJmbN"],"settings":{"image":"shopify:\/\/shop_images\/image_3.png","use_video":false,"video":"","video_autoplay":true,"height":"adapt","desktop_image_width":"medium","full_width":false,"layout":"image_first","content_position":"text-left","column_spacing":"medium","color_bg":"#ffffff","color_text":"#2c2d2e","color_border":"#e2e2e2","disable_top_spacing":true,"disable_bottom_spacing":true}},"image_with_text_JEngU3":{"type":"image-with-text","blocks":{"heading_BjnpPb":{"type":"heading","settings":{"text":"Free combination","marker_style":"style1","heading_size":"h3","marker_color":"#fd6262"}},"text_AX79GB":{"type":"text","settings":{"text":"<p>The Cube collaborates with desktop applications to enable desktop color perception. It captures real-time shifts in desktop color, transforming these into dynamic light and shadow effects, thereby enriching your interactive experience.<\/p>"}}},"block_order":["heading_BjnpPb","text_AX79GB"],"settings":{"image":"shopify:\/\/shop_images\/3_7567291f-cadb-460b-b6ea-d36ad48d4c8e.jpg","use_video":false,"video":"","video_autoplay":false,"height":"small","desktop_image_width":"medium","full_width":false,"layout":"text_first","content_position":"text-left","column_spacing":"medium","color_bg":"#ffffff","color_text":"#2c2d2e","color_border":"#e2e2e2","disable_top_spacing":true,"disable_bottom_spacing":true}},"image_with_text_9x7Vgb":{"type":"image-with-text","blocks":{"heading_HhVWrL":{"type":"heading","settings":{"text":"Rock Your Gaming Experience","marker_style":"style2","heading_size":"h3","marker_color":"#fd6262"}},"text_86ppUe":{"type":"text","settings":{"text":"<p>Integrated with Razer Chroma and Overwolf, Cube senses andvisualizes yourgaming mood or on-screen activity in real-time. Prepare yourself for a gamingodyssey!<\/p>"}}},"block_order":["heading_HhVWrL","text_86ppUe"],"settings":{"image":"shopify:\/\/shop_images\/4_bd1192da-ec7f-42c7-9c56-e7c5af5320d0.jpg","use_video":false,"video":"","video_autoplay":false,"height":"small","desktop_image_width":"medium","full_width":false,"layout":"image_first","content_position":"text-left","column_spacing":"medium","color_bg":"#ffffff","color_text":"#2c2d2e","color_border":"#e2e2e2","disable_top_spacing":true,"disable_bottom_spacing":true}},"image_with_text_jtdTDz":{"type":"image-with-text","blocks":{"heading_nYHh8d":{"type":"heading","settings":{"text":"Magnetic Connection","marker_style":"style1","heading_size":"h3","marker_color":"#fd6262"}},"text_jLLzCn":{"type":"text","settings":{"text":"<p>The magnetic interconnections between the modules offer great convenience. The unique circular data transmission ring design allows each module to freely rotate 360 degrees, providing flexibility in arrangement and positioning.<\/p>"}}},"block_order":["heading_nYHh8d","text_jLLzCn"],"settings":{"image":"shopify:\/\/shop_images\/8_29b0a576-50d4-4342-9b43-d65532a900ee.jpg","use_video":false,"video":"","video_autoplay":true,"height":"small","desktop_image_width":"medium","full_width":false,"layout":"text_first","content_position":"text-left","column_spacing":"medium","color_bg":"#ffffff","color_text":"#2c2d2e","color_border":"#e2e2e2","disable_top_spacing":true,"disable_bottom_spacing":true}},"image_with_text_AnkELY":{"type":"image-with-text","blocks":{"heading_WMp8Qx":{"type":"heading","settings":{"text":"Set No Limitation to Your Creativity","marker_style":"style1","heading_size":"h3","marker_color":"#fd6262"}},"text_fYYLWG":{"type":"text","settings":{"text":"<p>The addressable LED beads in Matrix\/Panel Cube can becustomized into emojis,letters, numbers, and so much more,adding a touch of personal color toyour place.They are more than just lights.<\/p>"}}},"block_order":["heading_WMp8Qx","text_fYYLWG"],"settings":{"image":"shopify:\/\/shop_images\/6_2f6b420f-bc9d-4f1d-9e1f-4c84f610764a.jpg","use_video":false,"video":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","video_autoplay":true,"height":"small","desktop_image_width":"medium","full_width":false,"layout":"image_first","content_position":"text-left","column_spacing":"medium","color_bg":"#ffffff","color_text":"#2c2d2e","color_border":"#e2e2e2","disable_top_spacing":true,"disable_bottom_spacing":true}},"245ee280-dfa9-4791-91ed-b65a153cc976":{"type":"tabbed-content","blocks":{"aab3af59-da6e-4438-a635-b38db53647da":{"type":"tab","settings":{"tab_label":"Specifications","icon":"clipboard","text":"<ul><li><strong>Name: <\/strong>Yeelight Cube Smart Lamp<\/li><li><strong>RGB Light Life: <\/strong>60000 Hours<\/li><li><strong>Rated Input<\/strong>: 12V-0.21A, 2.5W (1pcs)；12V-1A, 12W (6pcs)<\/li><li><strong>Rated Input(with adapter)<\/strong>:  100-240V~50\/60Hz,0.17A<\/li><li><strong>Product Dimensions: <\/strong>75mmx75mmx75mm<\/li><li><strong>Supported Platforms: <\/strong>Android, iOS, Windows<\/li><li><strong>The maximum expandable quantity：<\/strong>6<\/li><li><strong>Wireless Connection: <\/strong>Wi-Fi IEEE 802.11b\/g\/n 2.4GHz, Bluetooth 5.0 BLE<br\/><\/li><\/ul>","text_columns":"1","page":""}}},"block_order":["aab3af59-da6e-4438-a635-b38db53647da"],"settings":{"heading":"Tech Specs","marker_style":"style1","description":"","text_size":"small","tab_alignment":"left","text_alignment":"left","color_bg":"rgba(0,0,0,0)","color_tabs":"#303c43","color_text":"#303c43","marker_color":"#fd6262","disable_top_spacing":false,"disable_bottom_spacing":false}},"1663667029efc274af":{"type":"collapsible-content","blocks":{"cd3d35fb-4237-4e0c-b360-523aae405e51":{"type":"collapsible_tab","settings":{"heading":"How does Cube work","open":false,"content":"<p>Yeelight Cube uses the latest Led programming control technology, you can customize your Yeelight cube to display any array content through the application. Not only that, Yeelight Cube can become your speaker companion with your music rhythm. Yeelight Cube can also be based on your computer desktop color changes different colors to enhance your gaming experience.<br\/>You can use Yeelight Cube to explore infinite possibilities, let's experience the fun of Light DIY together!<\/p>","page":""}},"6e96805a-0713-4c8f-98b5-f7f2996582ee":{"type":"collapsible_tab","settings":{"heading":"How to set up the cube","open":false,"content":"<p>Yeelight Cube Set up Instruction<\/p>","page":"yeelight-cube-setup-instruction-and-faqs"}},"1c2b155f-fa55-47b7-b3ac-f2b66737ec17":{"type":"collapsible_tab","settings":{"heading":"Troubleshooting videos","open":false,"content":"<p>Yeelight Cube common issues and troubleshootings<\/p>","page":"instruction-videos"}},"collapsible_tab_hbbhc4":{"type":"collapsible_tab","settings":{"heading":"Any question?","open":false,"content":"<p>You can contact us through our contact page! We will be happy to assist you.<\/p>","page":""}}},"block_order":["cd3d35fb-4237-4e0c-b360-523aae405e51","6e96805a-0713-4c8f-98b5-f7f2996582ee","1c2b155f-fa55-47b7-b3ac-f2b66737ec17","collapsible_tab_hbbhc4"],"settings":{"heading":"FAQ","marker_style":"style1","description":"","color_bg":"#3f72e5","color_heading":"#ffffff","marker_color":"#fd6262","color_text":"#f1f1f1","color_links":"#d2ff28","color_border":"#628be4","disable_top_spacing":true,"disable_bottom_spacing":false}},"rich_text_PMLY8L":{"type":"rich-text","blocks":{"heading_qTp7zQ":{"type":"heading","settings":{"text":"Customer Reviews","marker_style":"style1","size":"h3","marker_color":"#fd6262"}}},"block_order":["heading_qTp7zQ"],"settings":{"text_width":"medium","text_position":"center","text_alignment":"center","color_bg":"rgba(0,0,0,0)","color_heading":"#1a1c1d","color_text":"#2c2d2e","color_links":"#2c2d2e","disable_top_spacing":true,"disable_bottom_spacing":true}},"1712653930ba36f195":{"type":"apps","blocks":{"loox_reviews_loox_dynamic_section_bNPXU4":{"type":"shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"only_photos":false,"aggregated":false,"limit":15,"hide_thumbnails":false,"maxwidth":1080,"is_sample":true}}},"block_order":["loox_reviews_loox_dynamic_section_bNPXU4"],"settings":{}},"product-recommendations":{"type":"product-recommendations","settings":{"heading":"You may also like","description":"<p>Combine your style with these products<\/p>","mobile_swipe":true,"product_limit":4,"columns_desktop":4,"disable_top_spacing":true,"disable_bottom_spacing":false}}},"order":["breadcrumbs","main-product","logo_list_4rGT3p","video_dhTyJi","16623743398765981b","3a444c86-680e-4deb-b870-63aec684439f","toggle_boxes_L4q8AU","image_with_text_kxtL8c","image_with_text_JEngU3","image_with_text_9x7Vgb","image_with_text_jtdTDz","image_with_text_AnkELY","245ee280-dfa9-4791-91ed-b65a153cc976","1663667029efc274af","rich_text_PMLY8L","1712653930ba36f195","product-recommendations"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "2b609eea-6cce-4efe-b447-c5560de1d797": {
+          "type": "label",
+          "settings": {
+          }
+        },
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "style_vendor"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": false
+          }
+        },
+        "loox_reviews_loox_rating_cVhpLw": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "separator_yYnCVD": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_use_variants": false,
+            "variant_is_disabled": true,
+            "sizing_guide_variant": "Size",
+            "sizing_guide_text": "",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "386f7e4a-6127-4141-928b-9cb4614ee18c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "open": false,
+            "content": "<p>Order will typically be processed within 24 hours.<\/p><p><strong>Estimated Shipping Time:<\/strong><\/p><ul><li>USA: 3-7 Business Days<\/li><li>Europe: 7-10 Business Days<\/li><\/ul>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty",
+            "open": false,
+            "content": "<p>We offer 2 Year Warranty on all Yeelight Products.<\/p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {
+          }
+        },
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "product_list_limit": 6
+          }
+        }
+      },
+      "block_order": [
+        "2b609eea-6cce-4efe-b447-c5560de1d797",
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf",
+        "title",
+        "loox_reviews_loox_rating_cVhpLw",
+        "separator_yYnCVD",
+        "variant_picker",
+        "quantity",
+        "buy_buttons",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "386f7e4a-6127-4141-928b-9cb4614ee18c",
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34"
+      ],
+      "settings": {
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "logo_list_4rGT3p": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_FMrgMj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/matter_1.png",
+            "link": ""
+          }
+        },
+        "logo_mKzWBz": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Apple_Home_78be6963-c410-44d0-81c3-cfdd347a2e05.jpg",
+            "link": ""
+          }
+        },
+        "logo_rr3cCK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Google_home.png",
+            "link": ""
+          }
+        },
+        "logo_b8Knz7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/work_with_alexa.png",
+            "link": ""
+          }
+        },
+        "logo_btcrht": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.png",
+            "link": ""
+          }
+        },
+        "logo_43A8A9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yeelight_icon_2.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_FMrgMj",
+        "logo_mKzWBz",
+        "logo_rr3cCK",
+        "logo_b8Knz7",
+        "logo_btcrht",
+        "logo_43A8A9"
+      ],
+      "settings": {
+        "heading": "Works with",
+        "marker_style": "style1",
+        "description": "",
+        "columns": 6,
+        "mobile_swipe": true,
+        "center_align": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true,
+        "color_logo_bg": "#ffffff",
+        "marker_color": "#fd6262"
+      }
+    },
+    "video_dhTyJi": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
+        "video": "",
+        "video_hosted": "shopify:\/\/files\/videos\/Yeelight Cube Smart Lamp 2.mp4",
+        "video_autoplay": true,
+        "aspect_ratio": "16-9",
+        "marker_color": "#fd6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16623743398765981b": {
+      "type": "rich-text",
+      "blocks": {
+        "1662374339c00286b1-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Key Features",
+            "marker_style": "style1",
+            "size": "h1",
+            "marker_color": "#fd6262"
+          }
+        },
+        "1662374339c00286b1-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DIY  your colors space with Yeelight cube<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "1662374339c00286b1-1",
+        "1662374339c00286b1-2"
+      ],
+      "settings": {
+        "text_width": "xlarge",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#252f35",
+        "color_text": "#303c43",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "3a444c86-680e-4deb-b870-63aec684439f": {
+      "type": "media-grid",
+      "blocks": {
+        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-0": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/diy_1.png",
+            "slide_link": "",
+            "use_video": false,
+            "video_autoplay": true,
+            "column": 2,
+            "row": 3,
+            "subheading": "",
+            "heading": "DIY Graffiti",
+            "heading_size": "h2",
+            "button_text": "",
+            "button_link": "",
+            "content_position": "top-left",
+            "text_alignment": "left",
+            "color_bg": "#5375c1",
+            "color_bg_gradient": "",
+            "color_text": "#ffffff",
+            "color_link": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-1": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/diy_3.png",
+            "slide_link": "",
+            "use_video": false,
+            "video_autoplay": true,
+            "column": 1,
+            "row": 2,
+            "subheading": "",
+            "heading": "16 Million Colors",
+            "heading_size": "h3",
+            "button_text": "",
+            "button_link": "",
+            "content_position": "top-center",
+            "text_alignment": "center",
+            "color_bg": "#3b63bd",
+            "color_bg_gradient": "",
+            "color_text": "#fdfdfd",
+            "color_link": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "3595a460-057e-4e41-aab6-3ced52f76ef3": {
+          "type": "media",
+          "settings": {
+            "slide_link": "",
+            "use_video": false,
+            "video_autoplay": true,
+            "column": 1,
+            "row": 1,
+            "subheading": "",
+            "heading": "Content Monitor",
+            "heading_size": "h3",
+            "button_text": "",
+            "button_link": "",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "color_bg": "#fdfdfd",
+            "color_bg_gradient": "radial-gradient(rgba(121, 128, 252, 1), rgba(215, 204, 250, 1) 100%, rgba(247, 197, 204, 1) 100%)",
+            "color_text": "#fdfdfd",
+            "color_link": "#3f72e5",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-2": {
+          "type": "media",
+          "settings": {
+            "slide_link": "",
+            "use_video": false,
+            "video_autoplay": true,
+            "column": 1,
+            "row": 1,
+            "subheading": "",
+            "heading": "Light and Shadow Magic",
+            "heading_size": "h3",
+            "button_text": "",
+            "button_link": "",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "color_bg": "#fdfdfd",
+            "color_bg_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "color_text": "#151515",
+            "color_link": "#3f72e5",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "52402f74-ffbf-4ff7-96b3-6c6c30568c45": {
+          "type": "media",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/diy_2.png",
+            "slide_link": "",
+            "use_video": false,
+            "video_autoplay": true,
+            "column": 2,
+            "row": 1,
+            "subheading": "",
+            "heading": "Music Flow",
+            "heading_size": "h3",
+            "button_text": "",
+            "button_link": "",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "color_bg": "#ffffff",
+            "color_bg_gradient": "",
+            "color_text": "#ffffff",
+            "color_link": "#3f72e5",
+            "overlay_color": "#2c2d2e",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-0",
+        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-1",
+        "3595a460-057e-4e41-aab6-3ced52f76ef3",
+        "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-2",
+        "52402f74-ffbf-4ff7-96b3-6c6c30568c45"
+      ],
+      "settings": {
+        "desktop_height": 220,
+        "mobile_height": 150,
+        "column_spacing": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_link": "#3f72e5",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "toggle_boxes_L4q8AU": {
+      "type": "toggle-boxes",
+      "blocks": {
+        "box_DUL4BR": {
+          "type": "box",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_7ac4e223-ff96-4ef3-9805-a467c065097b.png",
+            "image_link": "",
+            "open": false,
+            "heading": "Cube-Matrix",
+            "text": "<p>The dot matrix component features 25 RGB color light clusters, arranged in a 5x5 grid. Each individual light bead offers 16000K color variations, all of which can be controlled via an APP. When these 25 light beads come together, they provide an infinite array of color possibilities.<\/p>"
+          }
+        },
+        "box_wpaqGM": {
+          "type": "box",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_624ea9cd-ccd8-4c2e-a1de-afdca33d7429.png",
+            "image_link": "",
+            "open": false,
+            "heading": "Cube-Panel",
+            "text": "<p>The panel components employ soft light panels with RGB technology, which can craft a one-of-a-kind ambience. You can DIY spectacular lighting effects with up to 16000K color options, allowing you to play with an array of light and shadow.<\/p>"
+          }
+        },
+        "box_q8LRrt": {
+          "type": "box",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_1c4b79f0-6464-4b68-aae5-3886b5823fb3.png",
+            "image_link": "",
+            "open": false,
+            "heading": "Cube-Spotlight",
+            "text": "<p>The spotlight component is a potent RGB light source that projects a focused 15-degree colored beam. With adjustable directionality, this component serves as an excellent choice for creating visually appealing wall decorations.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "box_DUL4BR",
+        "box_wpaqGM",
+        "box_q8LRrt"
+      ],
+      "settings": {
+        "heading": "Cube Components",
+        "marker_style": "style1",
+        "description": "<p>Freely assemble with 3 different types of Cube Lights<\/p>",
+        "columns_desktop": 3,
+        "column_spacing": "medium",
+        "image_ratio": "adapt",
+        "mobile_swipe": true,
+        "text_alignment": "left",
+        "color_bg": "#ffffff",
+        "color_heading": "#1a1c1d",
+        "marker_color": "#fd6262",
+        "color_text": "#2c2d2e",
+        "color_link": "#3f72e5",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_kxtL8c": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fz4bUw": {
+          "type": "heading",
+          "settings": {
+            "text": "Easy-to-Use Desktop App",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#fd6262"
+          }
+        },
+        "text_aDJmbN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Powerful PC play tool: Sync with games, movies, music, and screens.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fz4bUw",
+        "text_aDJmbN"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_3.png",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_JEngU3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BjnpPb": {
+          "type": "heading",
+          "settings": {
+            "text": "Free combination",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#fd6262"
+          }
+        },
+        "text_AX79GB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Cube collaborates with desktop applications to enable desktop color perception. It captures real-time shifts in desktop color, transforming these into dynamic light and shadow effects, thereby enriching your interactive experience.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BjnpPb",
+        "text_AX79GB"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_7567291f-cadb-460b-b6ea-d36ad48d4c8e.jpg",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": false,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "text_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_9x7Vgb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HhVWrL": {
+          "type": "heading",
+          "settings": {
+            "text": "Rock Your Gaming Experience",
+            "marker_style": "style2",
+            "heading_size": "h3",
+            "marker_color": "#fd6262"
+          }
+        },
+        "text_86ppUe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Integrated with Razer Chroma and Overwolf, Cube senses andvisualizes yourgaming mood or on-screen activity in real-time. Prepare yourself for a gamingodyssey!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HhVWrL",
+        "text_86ppUe"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4_bd1192da-ec7f-42c7-9c56-e7c5af5320d0.jpg",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": false,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_jtdTDz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nYHh8d": {
+          "type": "heading",
+          "settings": {
+            "text": "Magnetic Connection",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#fd6262"
+          }
+        },
+        "text_jLLzCn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The magnetic interconnections between the modules offer great convenience. The unique circular data transmission ring design allows each module to freely rotate 360 degrees, providing flexibility in arrangement and positioning.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nYHh8d",
+        "text_jLLzCn"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/8_29b0a576-50d4-4342-9b43-d65532a900ee.jpg",
+        "use_video": false,
+        "video": "",
+        "video_autoplay": true,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "text_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_AnkELY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WMp8Qx": {
+          "type": "heading",
+          "settings": {
+            "text": "Set No Limitation to Your Creativity",
+            "marker_style": "style1",
+            "heading_size": "h3",
+            "marker_color": "#fd6262"
+          }
+        },
+        "text_fYYLWG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The addressable LED beads in Matrix\/Panel Cube can becustomized into emojis,letters, numbers, and so much more,adding a touch of personal color toyour place.They are more than just lights.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WMp8Qx",
+        "text_fYYLWG"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/6_2f6b420f-bc9d-4f1d-9e1f-4c84f610764a.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "full_width": false,
+        "layout": "image_first",
+        "content_position": "text-left",
+        "column_spacing": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#2c2d2e",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "245ee280-dfa9-4791-91ed-b65a153cc976": {
+      "type": "tabbed-content",
+      "blocks": {
+        "aab3af59-da6e-4438-a635-b38db53647da": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "Specifications",
+            "icon": "clipboard",
+            "text": "<ul><li><strong>Name: <\/strong>Yeelight Cube Smart Lamp<\/li><li><strong>RGB Light Life: <\/strong>60000 Hours<\/li><li><strong>Rated Input<\/strong>: 12V-0.21A, 2.5W (1pcs)；12V-1A, 12W (6pcs)<\/li><li><strong>Rated Input(with adapter)<\/strong>:  100-240V~50\/60Hz,0.17A<\/li><li><strong>Product Dimensions: <\/strong>75mmx75mmx75mm<\/li><li><strong>Supported Platforms: <\/strong>Android, iOS, Windows<\/li><li><strong>The maximum expandable quantity：<\/strong>6<\/li><li><strong>Wireless Connection: <\/strong>Wi-Fi IEEE 802.11b\/g\/n 2.4GHz, Bluetooth 5.0 BLE<br\/><\/li><\/ul>",
+            "text_columns": "1",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "aab3af59-da6e-4438-a635-b38db53647da"
+      ],
+      "settings": {
+        "heading": "Tech Specs",
+        "marker_style": "style1",
+        "description": "",
+        "text_size": "small",
+        "tab_alignment": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_tabs": "#303c43",
+        "color_text": "#303c43",
+        "marker_color": "#fd6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1663667029efc274af": {
+      "type": "collapsible-content",
+      "blocks": {
+        "cd3d35fb-4237-4e0c-b360-523aae405e51": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does Cube work",
+            "open": false,
+            "content": "<p>Yeelight Cube uses the latest Led programming control technology, you can customize your Yeelight cube to display any array content through the application. Not only that, Yeelight Cube can become your speaker companion with your music rhythm. Yeelight Cube can also be based on your computer desktop color changes different colors to enhance your gaming experience.<br\/>You can use Yeelight Cube to explore infinite possibilities, let's experience the fun of Light DIY together!<\/p>",
+            "page": ""
+          }
+        },
+        "6e96805a-0713-4c8f-98b5-f7f2996582ee": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to set up the cube",
+            "open": false,
+            "content": "<p>Yeelight Cube Set up Instruction<\/p>",
+            "page": "yeelight-cube-setup-instruction-and-faqs"
+          }
+        },
+        "1c2b155f-fa55-47b7-b3ac-f2b66737ec17": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Troubleshooting videos",
+            "open": false,
+            "content": "<p>Yeelight Cube common issues and troubleshootings<\/p>",
+            "page": "instruction-videos"
+          }
+        },
+        "collapsible_tab_hbbhc4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Any question?",
+            "open": false,
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "cd3d35fb-4237-4e0c-b360-523aae405e51",
+        "6e96805a-0713-4c8f-98b5-f7f2996582ee",
+        "1c2b155f-fa55-47b7-b3ac-f2b66737ec17",
+        "collapsible_tab_hbbhc4"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "marker_style": "style1",
+        "description": "",
+        "color_bg": "#2c2d2e",
+        "color_heading": "#ffffff",
+        "marker_color": "#fd6262",
+        "color_text": "#f1f1f1",
+        "color_links": "#d2ff28",
+        "color_border": "#9FA3A7",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_PMLY8L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qTp7zQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer Reviews",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qTp7zQ"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1712653930ba36f195": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_bNPXU4": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 15,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_bNPXU4"
+      ],
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "description": "<p>Combine your style with these products<\/p>",
+        "mobile_swipe": true,
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "logo_list_4rGT3p",
+    "video_dhTyJi",
+    "16623743398765981b",
+    "3a444c86-680e-4deb-b870-63aec684439f",
+    "toggle_boxes_L4q8AU",
+    "image_with_text_kxtL8c",
+    "image_with_text_JEngU3",
+    "image_with_text_9x7Vgb",
+    "image_with_text_jtdTDz",
+    "image_with_text_AnkELY",
+    "245ee280-dfa9-4791-91ed-b65a153cc976",
+    "1663667029efc274af",
+    "rich_text_PMLY8L",
+    "1712653930ba36f195",
+    "product-recommendations"
+  ]
+}
