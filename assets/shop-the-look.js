@@ -23,19 +23,18 @@ if (!customElements.get('shop-the-look')) {
         const coverEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
         const currentEle = e.target.className === 'shop-look-buttons_item-content' ? e.target : e.target.parentNode;
         const containerEle = this.getElementsByClassName('shop-look-buttons')[0];
-        const buttonsEle = this.getElementsByClassName('.shop-look-buttons_item');
-        const buttonItemEle = currentEle.closest('.shop-look-buttons_item');
+        const buttonsEle = this.getElementsByClassName('shop-look-buttons_item');
+        const buttonItemEle = currentEle.closest('shop-look-buttons_item');
         const currentRect = currentEle.getBoundingClientRect();
         const containerRect = containerEle.getBoundingClientRect();
-        // console.log(e, currentEle, containerEle, currentRect, containerRect);
+        const offSetX = currentRect.left - containerRect.left;
         coverEle.style.width = currentEle.offsetWidth + 'px';
         coverEle.style.height = currentEle.offsetHeight + 'px';
-        const offSetX = currentRect.left - containerRect.left;
-        console.log(buttonsEle);
         coverEle.style.position = 'absolute';
         coverEle.style.top = 0;
         coverEle.style.left = 0;
         coverEle.style.transform = 'translateX(' + offSetX + 'px)';
+        console.log(buttonsEle, buttonItemEle);
         buttonsEle.forEach(button => {
           button.classList.remove('active');
         });
