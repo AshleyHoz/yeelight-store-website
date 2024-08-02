@@ -35,7 +35,7 @@ if (!customElements.get('shop-the-look')) {
         coverEle.style.left = 0;
         coverEle.style.transform = 'translateX(' + offSetX + 'px)';
         console.log(buttonsEle, buttonItemEle);
-        buttonsEle.forEach(button => {
+        this.getElementsByClassName('shop-look-buttons_item').forEach(button => {
           button.classList.remove('active');
         });
         buttonItemEle.classList.add('active');
