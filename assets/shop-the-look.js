@@ -34,10 +34,13 @@ if (!customElements.get('shop-the-look')) {
         coverEle.style.top = 0;
         coverEle.style.left = 0;
         coverEle.style.transform = 'translateX(' + offSetX + 'px)';
-        console.log(buttonsEle, buttonItemEle);
-        this.getElementsByClassName('shop-look-buttons_item').forEach(button => {
-          button.classList.remove('active');
-        });
+        console.log(buttonsEle, buttonItemEle, Array.isArray(buttonsEle));
+        for (let i = 0; i < buttonsEle.length; i++) {
+          buttonsEle[i].classList.remove('active');
+        }
+        // this.getElementsByClassName('shop-look-buttons_item').forEach(button => {
+        //   button.classList.remove('active');
+        // });
         buttonItemEle.classList.add('active');
       }
     }
