@@ -38,9 +38,6 @@ if (!customElements.get('shop-the-look')) {
         for (let i = 0; i < buttonsEle.length; i++) {
           buttonsEle[i].classList.remove('active');
         }
-        // this.getElementsByClassName('shop-look-buttons_item').forEach(button => {
-        //   button.classList.remove('active');
-        // });
         buttonItemEle.classList.add('active');
       }
     }
