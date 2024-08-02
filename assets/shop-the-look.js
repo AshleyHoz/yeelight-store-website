@@ -26,8 +26,8 @@ if (!customElements.get('shop-the-look')) {
         const currentRect = currentEle.getBoundingClientRect();
         const containerRect = containerEle.getBoundingClientRect();
         console.log(e, currentEle, containerEle, currentRect, containerRect);
-        currentEle.style.width = e.offsetWidth + 'px';
-        currentEle.style.height = e.offsetHeight + 'px';
+        coverEle.style.width = currentEle.offsetWidth + 'px';
+        coverEle.style.height = currentEle.offsetHeight + 'px';
         const offSetX = currentRect.left - containerRect.left;
         console.log(offSetX);
         coverEle.style.position = 'absolute';
