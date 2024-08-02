@@ -27,14 +27,14 @@ if (!customElements.get('shop-the-look')) {
         const buttonItemEle = currentEle.closest('.shop-look-buttons_item');
         const currentRect = currentEle.getBoundingClientRect();
         const containerRect = containerEle.getBoundingClientRect();
-        console.log(e, currentEle, containerEle, currentRect, containerRect);
+        // console.log(e, currentEle, containerEle, currentRect, containerRect);
         coverEle.style.width = currentEle.offsetWidth + 'px';
         coverEle.style.height = currentEle.offsetHeight + 'px';
         const offSetX = currentRect.left - containerRect.left;
-        console.log(offSetX);
+        console.log(buttonsEle);
         coverEle.style.position = 'absolute';
         coverEle.style.top = 0;
-        coverEle.style.left = offSetX + 'px';
+        coverEle.style.left = 0;
         coverEle.style.transform = 'translateX(' + offSetX + 'px)';
         buttonsEle.forEach(button => {
           button.classList.remove('active');
