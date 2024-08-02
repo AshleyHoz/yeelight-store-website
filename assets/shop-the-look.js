@@ -12,6 +12,7 @@ if (!customElements.get('shop-the-look')) {
       if (!currentEle) return;
       currentEle.style.width = button1.offsetWidth + 'px';
       currentEle.style.height = button1.offsetHeight + 'px';
+      button1.classList.add('active');
     }
     onChangeBackground(e) {
       console.log(2, e);

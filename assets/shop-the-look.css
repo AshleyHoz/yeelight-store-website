@@ -515,3 +515,7 @@
     text-transform: capitalize;
   }
 }
+
+.shop-look-buttons_item.active .shop-look-buttons_item-content {
+  opacity: 1;
+}
