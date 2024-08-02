@@ -33,6 +33,7 @@
     "color_header_links": "#ffffff",
     "color_header_links_hover": "#ffffff",
     "color_header_icons": "#ffffff",
+    "color_header_border": "rgba(0,0,0,0)",
     "solid_button_background": "#2c2d2e",
     "solid_button_label": "#ffffff",
     "color_price": "#2c2d2e",
