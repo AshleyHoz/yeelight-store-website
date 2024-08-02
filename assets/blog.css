@@ -186,7 +186,7 @@
   width: calc(100% - 15px);
 }
 
-.articles.row .blog-post {
+.articles.row .blog-post:last-child {
   width: 100%;
   margin-right: 0;
 }
@@ -213,6 +213,16 @@
     scroll-snap-stop: always;
     padding: 0;
   }
+
+  .articles.row .blog-post {
+    min-height: calc(100% - 15px);
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+.blog-header__tags--inner a.active {
+  color: #000000;
 }
 
 .articles {
