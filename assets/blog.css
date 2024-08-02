@@ -186,11 +186,6 @@
   width: calc(100% - 15px);
 }
 
-.articles.row .blog-post:last-child {
-  width: 100%;
-  margin-right: 0;
-}
-
 @media only screen and (max-width: 767px) {
   .blog-posts.swipe-on-mobile .row {
     display: grid;
