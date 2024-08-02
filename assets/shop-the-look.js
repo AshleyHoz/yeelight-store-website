@@ -24,7 +24,7 @@ if (!customElements.get('shop-the-look')) {
         const currentEle = e.target.className === 'shop-look-buttons_item-content' ? e.target : e.target.parentNode;
         const containerEle = this.getElementsByClassName('shop-look-buttons')[0];
         const buttonsEle = this.getElementsByClassName('shop-look-buttons_item');
-        const buttonItemEle = currentEle.closest('shop-look-buttons_item');
+        const buttonItemEle = currentEle.parentNode;
         const currentRect = currentEle.getBoundingClientRect();
         const containerRect = containerEle.getBoundingClientRect();
         const offSetX = currentRect.left - containerRect.left;
