@@ -3286,7 +3286,7 @@ h6,
   height: 19px;
   border-radius: 50%;
   background: var(--color-accent);
-  color: var(--color-header-bg, #fff);
+  color: #000000;
   position: absolute;
   top: -8px;
   right: -12px;
