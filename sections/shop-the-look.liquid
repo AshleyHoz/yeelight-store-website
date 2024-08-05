@@ -7,6 +7,14 @@
   assign title = section.settings.title
   assign image_1 = section.settings.image_1
   assign image_1_mobile = section.settings.image_1_mobile
+  assign image_2 = section.settings.image_2
+  assign image_2_mobile = section.settings.image_2_mobile
+  assign image_3 = section.settings.image_3
+  assign image_3_mobile = section.settings.image_3_mobile
+  assign image_4 = section.settings.image_4
+  assign image_4_mobile = section.settings.image_4_mobile
+  assign image_5 = section.settings.image_5
+  assign image_5_mobile = section.settings.image_5_mobile
   assign button_1_icon = section.settings.button_1_icon
   assign button_1_text = section.settings.button_1_text
   assign button_2_icon = section.settings.button_2_icon
@@ -22,6 +30,18 @@
 
   unless image_1_mobile
     assign image_1_mobile = image_1
+  endunless
+  unless image_2_mobile
+    assign image_2_mobile = image_2
+  endunless
+  unless image_3_mobile
+    assign image_3_mobile = image_3
+  endunless
+  unless image_4_mobile
+    assign image_4_mobile = image_4
+  endunless
+  unless image_5_mobile
+    assign image_5_mobile = image_5
   endunless
 -%}
 <shop-the-look class="shop-the-look section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
@@ -141,14 +161,58 @@
         {% endfor %}
       </figure>
       <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
-        {%- if image_1 -%}
-          {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
-          {% render 'responsive-image', image: image_1, sizes: master_width %}
-        {%- else -%}
-          <div class="thb-placeholder">
-            {{ 'lifestyle-1' | placeholder_svg_tag }}
+        <slide-show class="carousel announcement-bar--use-colors-{{ false }}" data-autoplay="{{ true }}">
+          <div class="carousel__slide">
+            {%- if image_1 -%}
+              {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
+              {% render 'responsive-image', image: image_1, sizes: master_width %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'lifestyle-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
           </div>
-        {%- endif -%}
+          <div class="carousel__slide">
+            {%- if image_2 -%}
+              {% assign master_width = image_2.src.width | append: 'x' | append: image_2.src.height %}
+              {% render 'responsive-image', image: image_2, sizes: master_width %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'lifestyle-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="carousel__slide">
+            {%- if image_3 -%}
+              {% assign master_width = image_3.src.width | append: 'x' | append: image_3.src.height %}
+              {% render 'responsive-image', image: image_3, sizes: master_width %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'lifestyle-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="carousel__slide">
+            {%- if image_4 -%}
+              {% assign master_width = image_4.src.width | append: 'x' | append: image_4.src.height %}
+              {% render 'responsive-image', image: image_4, sizes: master_width %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'lifestyle-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="carousel__slide">
+            {%- if image_5 -%}
+              {% assign master_width = image_5.src.width | append: 'x' | append: image_5.src.height %}
+              {% render 'responsive-image', image: image_5, sizes: master_width %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'lifestyle-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+        </slide-show>
         {% for block in section.blocks %}
           {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
           <quick-view
