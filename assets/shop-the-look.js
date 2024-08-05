@@ -6,7 +6,6 @@ if (!customElements.get('shop-the-look')) {
   class ShopTheLook extends HTMLElement {
     constructor(e) {
       super();
-      console.log(image);
       this.addEventListener('click', this.onChangeBackground);
       const currentEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
       const button1 = this.getElementsByClassName('shop-look-buttons_item')[0];

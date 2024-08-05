@@ -161,7 +161,12 @@
         {% endfor %}
       </figure>
       <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
-        <slide-show class="carousel announcement-bar--use-colors-{{ false }}" data-autoplay="{{ true }}">
+        <slide-show
+          class="carousel announcement-bar--use-colors-{{ false }} transition--fade"
+          data-autoplay="{{ false }}"
+          data-transition="fade"
+          data-fade="{{ true }}"
+        >
           <div class="carousel__slide">
             {%- if image_1 -%}
               {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
@@ -300,6 +305,7 @@
 </shop-the-look>
 <script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer">
   var image = {{image_1}};
+      console.log(image);
 </script>
 {% schema %}
 {
