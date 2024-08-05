@@ -1,12 +1,12 @@
 {%- liquid
-	assign lazy_loading = settings.lazy_loading
-	assign image_sizes = sizes | split: ","
+  assign lazy_loading = settings.lazy_loading
+  assign image_sizes = sizes | split: ','
 
-	if priority
-		assign fetchpriority = priority
-	else
-		assign fetchpriority = 'auto'
-	endif
+  if priority
+    assign fetchpriority = priority
+  else
+    assign fetchpriority = 'auto'
+  endif
 -%}
 {%- capture srcset -%}
   {%- for size in image_sizes -%}
@@ -29,27 +29,52 @@
   {%- endfor -%}
 {%- endcapture -%}
 {%- liquid
-	assign l = srcset | size | minus: 1
-	assign w = image.width
-	assign h = image.height
-	if retina
-		assign w = image.width | divided_by: 2
-		assign h = image.height | divided_by: 2
-	endif
+  assign l = srcset | size | minus: 1
+  assign w = image.width
+  assign h = image.height
+  if retina
+    assign w = image.width | divided_by: 2
+    assign h = image.height | divided_by: 2
+  endif
 
-	assign focal_point = image.presentation.focal_point
+  assign focal_point = image.presentation.focal_point
 
-	capture src
-		if lazy_loading
-			echo image.src | img_url: small_size, crop: 'center'
-		else
-			echo image.src | img_url: image_sizes[0], crop: 'center'
-		endif
-	endcapture
+  capture src
+    if lazy_loading
+      echo image.src | img_url: small_size, crop: 'center'
+    else
+      echo image.src | img_url: image_sizes[0], crop: 'center'
+    endif
+  endcapture
 -%}
 
 {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-<img class="lazyload{% unless lazy_loading %} no-blur{% endunless %}{% if retina %} retina_size{% endif %} {{ class | escape }}" width="{{ w }}" height="{{ h }}" data-sizes="auto" src="{{- src -}}" data-srcset="{{ srcset | slice: 0, l | strip_newlines -}}" fetchpriority="{{ fetchpriority }}" alt="{{ image.alt | escape }}" {% if focal_point -%}style="object-position: {{ focal_point }};"{% endif %} />
+<img
+  class="lazyload{% unless lazy_loading %} no-blur{% endunless %}{% if retina %} retina_size{% endif %} {{ class | escape }} shop-look_img"
+  width="{{ w }}"
+  height="{{ h }}"
+  data-sizes="auto"
+  src="{{- src -}}"
+  data-srcset="{{ srcset | slice: 0, l | strip_newlines -}}"
+  fetchpriority="{{ fetchpriority }}"
+  alt="{{ image.alt | escape }}"
+  {% if focal_point -%}
+    style="object-position: {{ focal_point }};"
+  {% endif %}
+>
 <noscript>
-<img width="{{ image.width }}" height="{{ image.height }}" sizes="auto" src="{{- image.src | img_url: image_sizes[0], crop: 'center' -}}" srcset="{{ srcset | slice: 0, l | strip_newlines }}" alt="{{ image.alt | escape }}" fetchpriority="{{ fetchpriority }}" loading="lazy" {% if focal_point -%}style="object-position: {{ focal_point }};"{% endif %} />
-</noscript>{% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
+  <img
+    width="{{ image.width }}"
+    height="{{ image.height }}"
+    sizes="auto"
+    src="{{- image.src | img_url: image_sizes[0], crop: 'center' -}}"
+    srcset="{{ srcset | slice: 0, l | strip_newlines }}"
+    alt="{{ image.alt | escape }}"
+    fetchpriority="{{ fetchpriority }}"
+    loading="lazy"
+    {% if focal_point -%}
+      style="object-position: {{ focal_point }};"
+    {% endif %}
+  >
+</noscript>
+{% comment %}theme-check-enable ImgLazyLoading{% endcomment %}

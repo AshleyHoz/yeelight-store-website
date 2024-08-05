@@ -69,7 +69,7 @@
             <div class="shop-look-buttons">
               <div class="shop-look-buttons-bg"></div>
               {% if button_1_text != blank %}
-                <div class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+                <div class="shop-look-buttons_item" data-img="{{image_1}}" onclick="onChangeBackground(this)">
                   <div class="shop-look-buttons_item-content">
                     {% render 'svg-icons' with button_1_icon %}
                     <span>{{ button_1_text }}</span>
@@ -234,7 +234,9 @@
     {% endcomment %}
   </div>
 </shop-the-look>
-<script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer">
+  var image = {{image_1}};
+</script>
 {% schema %}
 {
   "name": "Shop the look",
