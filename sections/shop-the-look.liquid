@@ -162,12 +162,12 @@
       </figure>
       <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
         <slide-show
-          class="carousel announcement-bar--use-colors-{{ false }} transition--fade desktop-height-image"
+          class="slideshow main-slideshow slideshow--full-width-true carousel transition--fade desktop-height-image"
           data-autoplay="{{ false }}"
           data-transition="fade"
           data-fade="{{ true }}"
         >
-          <div class="slideshow__slide carousel__slide">
+          <div class="slideshow__slide carousel__slide desktop-height-image">
             {%- if image_1 -%}
               {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
               {% render 'responsive-image', image: image_1, sizes: master_width %}
@@ -177,7 +177,7 @@
               </div>
             {%- endif -%}
           </div>
-          <div class="slideshow__slide carousel__slide">
+          <div class="slideshow__slide carousel__slide desktop-height-image">
             {%- if image_2 -%}
               {% assign master_width = image_2.src.width | append: 'x' | append: image_2.src.height %}
               {% render 'responsive-image', image: image_2, sizes: master_width %}
@@ -187,7 +187,7 @@
               </div>
             {%- endif -%}
           </div>
-          <div class="slideshow__slide carousel__slide">
+          <div class="slideshow__slide carousel__slide desktop-height-image">
             {%- if image_3 -%}
               {% assign master_width = image_3.src.width | append: 'x' | append: image_3.src.height %}
               {% render 'responsive-image', image: image_3, sizes: master_width %}
@@ -197,7 +197,7 @@
               </div>
             {%- endif -%}
           </div>
-          <div class="slideshow__slide carousel__slide">
+          <div class="slideshow__slide carousel__slide desktop-height-image">
             {%- if image_4 -%}
               {% assign master_width = image_4.src.width | append: 'x' | append: image_4.src.height %}
               {% render 'responsive-image', image: image_4, sizes: master_width %}
@@ -207,7 +207,7 @@
               </div>
             {%- endif -%}
           </div>
-          <div class="slideshow__slide carousel__slide">
+          <div class="slideshow__slide carousel__slide desktop-height-image">
             {%- if image_5 -%}
               {% assign master_width = image_5.src.width | append: 'x' | append: image_5.src.height %}
               {% render 'responsive-image', image: image_5, sizes: master_width %}
