@@ -1,5 +1,6 @@
 {{ 'shop-the-look.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'product.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'slideshow.js' | asset_url }}" defer="defer"></script>
 {%- liquid
   assign full_width = section.settings.full_width
   assign disable_top_spacing = section.settings.disable_top_spacing
@@ -86,7 +87,7 @@
       -%}
         <div class="shop-look-buttons-container">
           <div class="shop-look-buttons-container-inner">
-            <div class="shop-look-buttons">
+            <div class="shop-look-buttons flickity-page-dots">
               <div class="shop-look-buttons-bg"></div>
               {% if button_1_text != blank %}
                 <div class="shop-look-buttons_item" data-img="{{image_1}}" onclick="onChangeBackground(this)">
