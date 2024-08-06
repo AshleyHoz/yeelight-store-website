@@ -529,3 +529,7 @@
   border-radius: 30px;
   overflow: hidden;
 }
+
+.shop-look_slideshow--container {
+  display: block;
+}
