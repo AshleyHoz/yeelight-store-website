@@ -79,6 +79,7 @@
           </div>
         {%- endif -%}
       {% endcomment %}
+      <div class="shop-look-quick-views"></div>
       <slide-show
         class="slideshow main-slideshow slideshow--full-width-true carousel transition--fade desktop-height-image shop-look_slideshow--container"
         data-autoplay="{{ false }}"
@@ -172,56 +173,6 @@
             {% endfor %}
           </figure>
           <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
-            <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-              {%- if image_1 -%}
-                {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
-                {% render 'responsive-image', image: image_1, sizes: master_width %}
-              {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {%- endif -%}
-            </div>
-            <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-              {%- if image_2 -%}
-                {% assign master_width = image_2.src.width | append: 'x' | append: image_2.src.height %}
-                {% render 'responsive-image', image: image_2, sizes: master_width %}
-              {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {%- endif -%}
-            </div>
-            <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-              {%- if image_3 -%}
-                {% assign master_width = image_3.src.width | append: 'x' | append: image_3.src.height %}
-                {% render 'responsive-image', image: image_3, sizes: master_width %}
-              {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {%- endif -%}
-            </div>
-            <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-              {%- if image_4 -%}
-                {% assign master_width = image_4.src.width | append: 'x' | append: image_4.src.height %}
-                {% render 'responsive-image', image: image_4, sizes: master_width %}
-              {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {%- endif -%}
-            </div>
-            <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-              {%- if image_5 -%}
-                {% assign master_width = image_5.src.width | append: 'x' | append: image_5.src.height %}
-                {% render 'responsive-image', image: image_5, sizes: master_width %}
-              {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {%- endif -%}
-            </div>
             {% for block in section.blocks %}
               {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
               <quick-view
@@ -258,6 +209,58 @@
               </quick-view>
             {% endfor %}
           </figure>
+        </div>
+        <div class="shop-look-flickity-viewport">
+          <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+            {%- if image_1 -%}
+              {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
+              {% render 'responsive-image', image: image_1, sizes: master_width %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'lifestyle-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+            {%- if image_2 -%}
+              {% assign master_width = image_2.src.width | append: 'x' | append: image_2.src.height %}
+              {% render 'responsive-image', image: image_2, sizes: master_width %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'lifestyle-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+            {%- if image_3 -%}
+              {% assign master_width = image_3.src.width | append: 'x' | append: image_3.src.height %}
+              {% render 'responsive-image', image: image_3, sizes: master_width %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'lifestyle-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+            {%- if image_4 -%}
+              {% assign master_width = image_4.src.width | append: 'x' | append: image_4.src.height %}
+              {% render 'responsive-image', image: image_4, sizes: master_width %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'lifestyle-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+            {%- if image_5 -%}
+              {% assign master_width = image_5.src.width | append: 'x' | append: image_5.src.height %}
+              {% render 'responsive-image', image: image_5, sizes: master_width %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'lifestyle-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
         </div>
       </slide-show>
       <div class="shop-look-product-list">

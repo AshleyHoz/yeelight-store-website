@@ -533,3 +533,15 @@
 .shop-look_slideshow--container {
   display: block;
 }
+
+.slideshow_inner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.shop-the-look--area {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
