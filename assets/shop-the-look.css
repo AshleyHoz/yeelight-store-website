@@ -222,6 +222,7 @@
   cursor: pointer;
   position: relative;
   transition: color 0.3s;
+  list-style: none;
 }
 
 .shop-look-buttons_item-content {
@@ -518,4 +519,13 @@
 
 .shop-look-buttons_item.active .shop-look-buttons_item-content {
   opacity: 1;
+}
+
+.shop-look_img {
+  width: 100%;
+}
+
+.shop-look_slide {
+  border-radius: 30px;
+  overflow: hidden;
 }
