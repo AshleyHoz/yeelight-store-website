@@ -71,7 +71,7 @@
             {% for item in buttons %}
               {% assign button_hash = item | split: ',' %}
               {{ button_hash }}
-              <li class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+              <li class="shop-look-buttons_item" onclick="onChangeBackground">
                 {% render 'svg-icons' with {{ button_hash[0] | split: ":" | last | strip }} %}
                 {{ button_hash[1] | split: ':' | last | strip }}
               </li>
@@ -94,10 +94,10 @@
         -%}
           <div class="shop-look-buttons-container">
             <div class="shop-look-buttons-container-inner">
-              <div class="shop-look-buttons flickity-page-dots">
+              <div class="shop-look-buttons flickity-custom-dots">
                 <div class="shop-look-buttons-bg"></div>
                 {% if button_1_text != blank %}
-                  <li class="shop-look-buttons_item" data-img="{{image_1}}" onclick="onChangeBackground(this)">
+                  <li class="shop-look-buttons_item" data-img="{{image_1}}" onclick="onChangeBackground">
                     <div class="shop-look-buttons_item-content">
                       {% render 'svg-icons' with button_1_icon %}
                       <span>{{ button_1_text }}</span>
@@ -105,7 +105,7 @@
                   </li>
                 {% endif %}
                 {% if button_2_text != blank %}
-                  <li class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
                     <div class="shop-look-buttons_item-content">
                       {% render 'svg-icons' with button_2_icon %}
                       <span>{{ button_2_text }}</span>
@@ -113,7 +113,7 @@
                   </li>
                 {% endif %}
                 {% if button_3_text != blank %}
-                  <li class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
                     <div class="shop-look-buttons_item-content">
                       {% render 'svg-icons' with button_3_icon %}
                       <span>{{ button_3_text }}</span>
@@ -121,7 +121,7 @@
                   </li>
                 {% endif %}
                 {% if button_4_text != blank %}
-                  <li class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
                     <div class="shop-look-buttons_item-content">
                       {% render 'svg-icons' with button_4_icon %}
                       <span>{{ button_4_text }}</span>
@@ -129,7 +129,7 @@
                   </li>
                 {% endif %}
                 {% if button_5_text != blank %}
-                  <li class="shop-look-buttons_item" onclick="onChangeBackground(this)">
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
                     <div class="shop-look-buttons_item-content">
                       {% render 'svg-icons' with button_5_icon %}
                       <span>{{ button_5_text }}</span>
