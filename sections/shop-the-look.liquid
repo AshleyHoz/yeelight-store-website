@@ -91,7 +91,7 @@
           or button_4_text != blank
           or button_5_text != blank
         -%}
-          <div class="shop-look-buttons-container">
+          <div class="shop-look-buttons-container shop-the-look--mobile">
             <div class="shop-look-buttons-container-inner">
               <div class="shop-look-buttons flickity-custom-dots">
                 <div class="shop-look-buttons-bg"></div>
@@ -139,7 +139,7 @@
             </div>
           </div>
         {%- endif -%}
-        <div class="slideshow_inner">
+        <div class="slideshow_inner shop-the-look--mobile">
           <figure class="shop-the-look--area shop-the-look--mobile shop-the-look--full-width-{{ full_width }}">
             {% for block in section.blocks %}
               {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
@@ -249,7 +249,7 @@
           or button_4_text != blank
           or button_5_text != blank
         -%}
-          <div class="shop-look-buttons-container">
+          <div class="shop-look-buttons-container shop-the-look--desktop">
             <div class="shop-look-buttons-container-inner">
               <div class="shop-look-buttons flickity-custom-dots">
                 <div class="shop-look-buttons-bg"></div>
@@ -297,7 +297,7 @@
             </div>
           </div>
         {%- endif -%}
-        <div class="slideshow_inner">
+        <div class="slideshow_inner shop-the-look--desktop">
           <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
             {% for block in section.blocks %}
               {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
