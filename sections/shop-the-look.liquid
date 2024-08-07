@@ -140,6 +140,7 @@
           </div>
         {%- endif -%}
         <div class="slideshow_inner">
+          {{ request.user_agent }}
           {%- if request.user_agent contains 'Mobile' -%}
             <figure class="shop-the-look--area shop-the-look--mobile shop-the-look--full-width-{{ full_width }}">
               {% for block in section.blocks %}
