@@ -79,9 +79,8 @@
           </div>
         {%- endif -%}
       {% endcomment %}
-      <div class="shop-look-quick-views"></div>
       <slide-show
-        class="slideshow main-slideshow slideshow--full-width-true carousel transition--fade desktop-height-image shop-look_slideshow--container"
+        class="slideshow main-slideshow slideshow--full-width-true carousel transition--fade mobile-height-image shop-look_slideshow--container"
         data-autoplay="{{ false }}"
         data-transition="fade"
         data-fade="{{ true }}"
@@ -153,43 +152,6 @@
                   {%- unless hotspot_product == empty -%}
                     <div class="loading-overlay">
                       {% render 'svg-icons' with 'thb-loading' %}
-                    </div>
-                  {%- endunless -%}
-                </div>
-              </quick-view>
-            {% endfor %}
-          </figure>
-          <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
-            {% for block in section.blocks %}
-              {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
-              <quick-view
-                class="thb-hotspot pin-white"
-                style="left: {{- block.settings.x_position | append: '%' -}}; top: {{- block.settings.y_position | append: '%' -}};"
-                data-product-handle="{{ hotspot_product.handle }}"
-                {{ block.shopify_attributes }}
-              >
-                <div class="thb-hotspot-content thb-pulsate">
-                  {%- unless hotspot_product == empty -%}
-                    <div class="loading-overlay">
-                      {% render 'svg-icons' with 'thb-loading' %}
-                    </div>
-                    <div class="thb-hotspot-arrow"></div>
-                    <div class="thb-hotspot-bubble">
-                      {% if hotspot_product.featured_image %}
-                        <a
-                          href="{{ hotspot_product.url }}"
-                          title="{{ hotspot_product.title | escape }}"
-                          class="thb-hotspot-product-image"
-                        >
-                          {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
-                        </a>
-                      {% endif %}
-                      <div class="thb-hotspot-product-content">
-                        <div class="thb-hotspot-product-title">{{ hotspot_product.title }}</div>
-                        {% render 'product-price', product: hotspot_product %}
-                        {% assign text_button_title = 'sections.shop_the_look.view_product' | t %}
-                        {% render 'text-button', url: hotspot_product.url, title: text_button_title %}
-                      </div>
                     </div>
                   {%- endunless -%}
                 </div>
@@ -273,6 +235,106 @@
               </div>
             {%- endif -%}
           </div>
+        </div>
+      </slide-show>
+      <slide-show
+        class="slideshow main-slideshow slideshow--full-width-true carousel transition--fade desktop-height-image shop-look_slideshow--container"
+        data-autoplay="{{ false }}"
+        data-transition="fade"
+        data-fade="{{ true }}"
+      >
+        {%- if button_1_text != blank
+          or button_2_text != blank
+          or button_3_text != blank
+          or button_4_text != blank
+          or button_5_text != blank
+        -%}
+          <div class="shop-look-buttons-container">
+            <div class="shop-look-buttons-container-inner">
+              <div class="shop-look-buttons flickity-custom-dots">
+                <div class="shop-look-buttons-bg"></div>
+                {% if button_1_text != blank %}
+                  <li class="shop-look-buttons_item" data-img="{{image_1}}" onclick="onChangeBackground">
+                    <div class="shop-look-buttons_item-content">
+                      {% render 'svg-icons' with button_1_icon %}
+                      <span>{{ button_1_text }}</span>
+                    </div>
+                  </li>
+                {% endif %}
+                {% if button_2_text != blank %}
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
+                    <div class="shop-look-buttons_item-content">
+                      {% render 'svg-icons' with button_2_icon %}
+                      <span>{{ button_2_text }}</span>
+                    </div>
+                  </li>
+                {% endif %}
+                {% if button_3_text != blank %}
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
+                    <div class="shop-look-buttons_item-content">
+                      {% render 'svg-icons' with button_3_icon %}
+                      <span>{{ button_3_text }}</span>
+                    </div>
+                  </li>
+                {% endif %}
+                {% if button_4_text != blank %}
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
+                    <div class="shop-look-buttons_item-content">
+                      {% render 'svg-icons' with button_4_icon %}
+                      <span>{{ button_4_text }}</span>
+                    </div>
+                  </li>
+                {% endif %}
+                {% if button_5_text != blank %}
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
+                    <div class="shop-look-buttons_item-content">
+                      {% render 'svg-icons' with button_5_icon %}
+                      <span>{{ button_5_text }}</span>
+                    </div>
+                  </li>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {%- endif -%}
+        <div class="slideshow_inner">
+          <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
+            {% for block in section.blocks %}
+              {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
+              <quick-view
+                class="thb-hotspot pin-white"
+                style="left: {{- block.settings.x_position | append: '%' -}}; top: {{- block.settings.y_position | append: '%' -}};"
+                data-product-handle="{{ hotspot_product.handle }}"
+                {{ block.shopify_attributes }}
+              >
+                <div class="thb-hotspot-content thb-pulsate">
+                  {%- unless hotspot_product == empty -%}
+                    <div class="loading-overlay">
+                      {% render 'svg-icons' with 'thb-loading' %}
+                    </div>
+                    <div class="thb-hotspot-arrow"></div>
+                    <div class="thb-hotspot-bubble">
+                      {% if hotspot_product.featured_image %}
+                        <a
+                          href="{{ hotspot_product.url }}"
+                          title="{{ hotspot_product.title | escape }}"
+                          class="thb-hotspot-product-image"
+                        >
+                          {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
+                        </a>
+                      {% endif %}
+                      <div class="thb-hotspot-product-content">
+                        <div class="thb-hotspot-product-title">{{ hotspot_product.title }}</div>
+                        {% render 'product-price', product: hotspot_product %}
+                        {% assign text_button_title = 'sections.shop_the_look.view_product' | t %}
+                        {% render 'text-button', url: hotspot_product.url, title: text_button_title %}
+                      </div>
+                    </div>
+                  {%- endunless -%}
+                </div>
+              </quick-view>
+            {% endfor %}
+          </figure>
         </div>
         <div class="shop-look-flickity-viewport shop-the-look--desktop">
           <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
