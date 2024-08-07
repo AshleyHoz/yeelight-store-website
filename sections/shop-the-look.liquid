@@ -142,19 +142,6 @@
         {%- endif -%}
         <div class="slideshow_inner">
           <figure class="shop-the-look--area shop-the-look--mobile shop-the-look--full-width-{{ full_width }}">
-            {%- if image_1_mobile -%}
-              {% assign small_height = image_1_mobile.src.height
-                | times: '750'
-                | divided_by: image_1_mobile.src.width
-              %}
-              {% assign master_width = image_1_mobile.src.width | append: 'x' | append: image_1_mobile.src.height %}
-              {% assign sizes = '750x' | append: small_height | append: ',' | append: master_width %}
-              {% render 'responsive-image', image: image_1_mobile, sizes: sizes %}
-            {%- else -%}
-              <div class="thb-placeholder">
-                {{ 'collection-1' | placeholder_svg_tag }}
-              </div>
-            {%- endif -%}
             {% for block in section.blocks %}
               {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
               <quick-view
@@ -210,7 +197,84 @@
             {% endfor %}
           </figure>
         </div>
-        <div class="shop-look-flickity-viewport">
+        <div class="shop-look-flickity-viewport shop-the-look--mobile">
+          <div class="slideshow__slide carousel__slide mobile-height-image shop-look_slide">
+            {%- if image_1_mobile -%}
+              {% assign small_height = image_1_mobile.src.height
+                | times: '750'
+                | divided_by: image_1_mobile.src.width
+              %}
+              {% assign master_width = image_1_mobile.src.width | append: 'x' | append: image_1_mobile.src.height %}
+              {% assign sizes = '750x' | append: small_height | append: ',' | append: master_width %}
+              {% render 'responsive-image', image: image_1_mobile, sizes: sizes %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'collection-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="slideshow__slide carousel__slide mobile-height-image shop-look_slide">
+            {%- if image_2_mobile -%}
+              {% assign small_height = image_2_mobile.src.height
+                | times: '750'
+                | divided_by: image_2_mobile.src.width
+              %}
+              {% assign master_width = image_2_mobile.src.width | append: 'x' | append: image_2_mobile.src.height %}
+              {% assign sizes = '750x' | append: small_height | append: ',' | append: master_width %}
+              {% render 'responsive-image', image: image_2_mobile, sizes: sizes %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'collection-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="slideshow__slide carousel__slide mobile-height-image shop-look_slide">
+            {%- if image_3_mobile -%}
+              {% assign small_height = image_3_mobile.src.height
+                | times: '750'
+                | divided_by: image_3_mobile.src.width
+              %}
+              {% assign master_width = image_3_mobile.src.width | append: 'x' | append: image_3_mobile.src.height %}
+              {% assign sizes = '750x' | append: small_height | append: ',' | append: master_width %}
+              {% render 'responsive-image', image: image_3_mobile, sizes: sizes %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'collection-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="slideshow__slide carousel__slide mobile-height-image shop-look_slide">
+            {%- if image_4_mobile -%}
+              {% assign small_height = image_4_mobile.src.height
+                | times: '750'
+                | divided_by: image_4_mobile.src.width
+              %}
+              {% assign master_width = image_4_mobile.src.width | append: 'x' | append: image_4_mobile.src.height %}
+              {% assign sizes = '750x' | append: small_height | append: ',' | append: master_width %}
+              {% render 'responsive-image', image: image_4_mobile, sizes: sizes %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'collection-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="slideshow__slide carousel__slide mobile-height-image shop-look_slide">
+            {%- if image_5_mobile -%}
+              {% assign small_height = image_5_mobile.src.height
+                | times: '750'
+                | divided_by: image_5_mobile.src.width
+              %}
+              {% assign master_width = image_5_mobile.src.width | append: 'x' | append: image_5_mobile.src.height %}
+              {% assign sizes = '750x' | append: small_height | append: ',' | append: master_width %}
+              {% render 'responsive-image', image: image_5_mobile, sizes: sizes %}
+            {%- else -%}
+              <div class="thb-placeholder">
+                {{ 'collection-1' | placeholder_svg_tag }}
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+        <div class="shop-look-flickity-viewport shop-the-look--desktop">
           <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {%- if image_1 -%}
               {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}

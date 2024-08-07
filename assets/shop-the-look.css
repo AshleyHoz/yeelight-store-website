@@ -33,7 +33,8 @@
   display: block;
 }
 @media only screen and (min-width: 768px) {
-  .shop-the-look--mobile {
+  .shop-the-look--mobile,
+  .shop-look-flickity-viewport {
     display: none;
   }
 }
@@ -44,7 +45,8 @@
   display: none;
 }
 @media only screen and (min-width: 768px) {
-  .shop-the-look--desktop {
+  .shop-the-look--desktop,
+  .shop-look-flickity-viewport {
     display: block;
   }
 }
