@@ -34,14 +34,16 @@
 }
 @media only screen and (min-width: 768px) {
   .shop-the-look--mobile,
-  .shop-look-flickity-viewport {
+  .shop-look-flickity-viewport,
+  .mobile-height-image {
     display: none;
   }
 }
 .shop-the-look--mobile .thb-placeholder {
   height: 500px;
 }
-.shop-the-look--desktop {
+.shop-the-look--desktop,
+.desktop-height-image {
   display: none;
 }
 @media only screen and (min-width: 768px) {
