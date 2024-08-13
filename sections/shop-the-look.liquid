@@ -28,6 +28,7 @@
   assign button_5_text = section.settings.button_5_text
   assign footer_title = section.settings.footer_title
   assign footer_description = section.settings.footer_description
+  assing navigate_page  section.settings.navigate_page
 
   unless image_1_mobile
     assign image_1_mobile = image_1
@@ -46,7 +47,7 @@
   endunless
 -%}
 <shop-the-look class="shop-the-look section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
-  <div class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-row">
+  <a href="{{navigate_page}}" class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-row">
     <div class="small-12 custom-shop-look-column">
       {%- if title -%}
         <div class="shop-look-header--title">{{ title }}</div>
@@ -383,7 +384,7 @@
           <lottie-player src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="1" style="width: 60px; height: 60px;" loop autoplay></lottie-player >
       </div>
     {% endcomment %}
-  </div>
+  </a>
 </shop-the-look>
 <script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer">
   var image = {{image_1}};
@@ -403,6 +404,16 @@
       "id": "title",
       "label": "Header Title",
       "info": "Wrap your text."
+    },
+    {
+      "type": "header",
+      "content": "Navigate Page"
+    },
+    {
+      "id": "navigate_page",
+      "type": "text",
+      "label": "Navigate Page",
+      "info": "Leave the label blank to hide the icon."
     },
     {
       "type": "header",
