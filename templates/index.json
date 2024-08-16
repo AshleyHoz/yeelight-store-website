@@ -507,6 +507,7 @@
     },
     "single_image_dQe4Mf": {
       "type": "single-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/IotEcosystem.png",
         "image_mobile": "shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
@@ -521,18 +522,21 @@
         "logo_qqkNpf": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EcosystemAppleHome.png",
             "link": ""
           }
         },
         "logo_hreAHD": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EcosystemGoogleHome.png",
             "link": ""
           }
         },
         "logo_fEEJ7K": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EcosystemAlexa.png",
             "link": ""
           }
         },
@@ -545,6 +549,27 @@
         "logo_jeDKMW": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EcosystemIFTTT.png",
+            "link": ""
+          }
+        },
+        "logo_xryMEa": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EcosystemRazer.png",
+            "link": ""
+          }
+        },
+        "logo_tXjPme": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EcosystemOverwolf.png",
+            "link": ""
+          }
+        },
+        "logo_DR9KRW": {
+          "type": "logo",
+          "settings": {
             "link": ""
           }
         }
@@ -554,7 +579,10 @@
         "logo_hreAHD",
         "logo_fEEJ7K",
         "logo_KTULtR",
-        "logo_jeDKMW"
+        "logo_jeDKMW",
+        "logo_xryMEa",
+        "logo_tXjPme",
+        "logo_DR9KRW"
       ],
       "settings": {
         "heading": "IoT Ecosystem",
@@ -566,7 +594,7 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
         "color_logo_bg": "#ffffff",
-        "marker_color": "#FD6262"
+        "marker_color": "#fd6262"
       }
     },
     "multicolumn_WygXNb": {
