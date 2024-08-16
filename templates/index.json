@@ -515,6 +515,60 @@
         "disable_bottom_spacing": true
       }
     },
+    "logo_list_RWbxLf": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_qqkNpf": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_hreAHD": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_fEEJ7K": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_KTULtR": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_jeDKMW": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_qqkNpf",
+        "logo_hreAHD",
+        "logo_fEEJ7K",
+        "logo_KTULtR",
+        "logo_jeDKMW"
+      ],
+      "settings": {
+        "heading": "IoT Ecosystem",
+        "marker_style": "style1",
+        "description": "",
+        "columns": 6,
+        "mobile_swipe": true,
+        "center_align": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "color_logo_bg": "#ffffff",
+        "marker_color": "#FD6262"
+      }
+    },
     "multicolumn_WygXNb": {
       "type": "multicolumn",
       "blocks": {
@@ -868,6 +922,7 @@
     "single_image_WBiTDf",
     "single_image_XMGMeB",
     "single_image_dQe4Mf",
+    "logo_list_RWbxLf",
     "multicolumn_WygXNb",
     "rich_text_Q8UQ7e",
     "1711998083986c24cc",
