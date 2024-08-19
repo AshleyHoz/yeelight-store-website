@@ -79,9 +79,9 @@
 .logo-list--logo[aria-disabled] {
   pointer-events: none;
 }
-.logo-list--logo:not([aria-disabled]):hover img {
+/* .logo-list--logo:not([aria-disabled]):hover img {
   transform: scale(1.07);
-}
+} */
 
 .logo-list.logo-list--centered-true .logo-list__logo {
   display: flex;
@@ -91,6 +91,9 @@
 .logo-image--item {
   position: relative;
   cursor: pointer;
+}
+
+.logo-image {
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
@@ -105,10 +108,8 @@
 
 .logo-image--item:hover .main-image {
   opacity: 0;
-  transition: all 0.2s ease-in-out;
 }
 
 .logo-image--item:hover .logo-cover-image {
   opacity: 1;
-  transition: all 0.2s ease-in-out;
 }
