@@ -36,23 +36,21 @@
         {% else %}
           aria-disabled
         {% endif %}
-        {{ block.shopify_attributes }}
       >
+        {% comment %}
+          {{ block.shopify_attributes }}
+        {% endcomment %}
         {% if block.settings.image %}
-          {%
-            assign image = block.settings.image
-            assign image_hover = block.settings.image_hover
-          %}
-          {%
-            assign master_width = image.src.width | append: 'x' | append: image.src.height
-            assign cover_width = image_hover.src.width | append: 'x' | append: image_hover.src.height
-          %}
           <div class="logo-image--item">
             <div class="main-image">
+              {% assign image = block.settings.image %}
+              {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
               {%- render 'responsive-image', image: image, sizes: master_width -%}
             </div>
-            <div class="cover-image">
-              {%- render 'responsive-image', image: image_hover, sizes: cover_width -%}
+            <div class="logo-cover-image">
+              {% assign cover_image = block.settings.cover_image %}
+              {% assign cover_width = cover_image.src.width | append: 'x' | append: cover_image.src.height %}
+              {%- render 'responsive-image', image: cover_image, sizes: cover_width -%}
             </div>
           </div>
         {% else %}
@@ -166,6 +164,13 @@
       "name": "Logo",
       "settings": [
         {
+          "type": "text",
+          "id": "logo_heading",
+          "label": "Heading",
+          "default": "Logo list",
+          "info": "Wrap your text between | to add animated markers. For example: Animated |marker| will underline marker text."
+        },
+        {
           "type": "image_picker",
           "id": "image",
           "label": "Logo",
@@ -173,7 +178,7 @@
         },
         {
           "type": "image_picker",
-          "id": "image_hover",
+          "id": "cover_image",
           "label": "Logo_hover",
           "info": "240 x 100 px .png recommended."
         },
