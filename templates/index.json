@@ -522,56 +522,72 @@
         "logo_qqkNpf": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/EcosystemAppleHome.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemAppleHomeColor.png",
             "link": ""
           }
         },
         "logo_hreAHD": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/EcosystemGoogleHome.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemGoogleHomeColor.png",
             "link": ""
           }
         },
         "logo_fEEJ7K": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/EcosystemAlexa.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemAlexaColor.png",
             "link": ""
           }
         },
         "logo_KTULtR": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/EcosystemSmartthings.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemSmartthingsColor.png",
             "link": ""
           }
         },
         "logo_jeDKMW": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/EcosystemIFTTT.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemIFTTTColor.png",
             "link": ""
           }
         },
         "logo_xryMEa": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/EcosystemRazer.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemRazerColor.png",
             "link": ""
           }
         },
         "logo_tXjPme": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/EcosystemOverwolf.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemOverwolfColor.png",
             "link": ""
           }
         },
         "logo_DR9KRW": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/EcosystemSignalrgb.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemSignalrgbColor.png",
             "link": ""
           }
         }
