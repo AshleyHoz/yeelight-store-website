@@ -34,8 +34,9 @@
 }
 @media only screen and (min-width: 768px) {
   .logo-list--inner {
-    grid-gap: 20px;
+    grid-gap: 24px;
     grid-template-columns: repeat(var(--logo-columns), 1fr);
+    margin-top: 40px;
   }
 }
 @media only screen and (max-width: 767px) {
