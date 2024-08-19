@@ -88,9 +88,10 @@
   align-items: center;
 }
 
-/* .logo-image--item {
-  position: relative;
-} */
+.logo-image--item {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
 
 .logo-cover-image {
   /* position: absolute;
