@@ -30,18 +30,18 @@
   >
     {% for block in section.blocks %}
       <a
-        class="logo-list--logo {% if has_bg -%}logo-list--logo--has-bg{% endif %}"
+        class="logo-list--logo {% if has_bg -%}logo-list--logo--has-bg{% endif %} logo-image--item"
         {% if block.settings.link %}
           href="{{ block.settings.link | escape }}"
-        {% else %}
-          aria-disabled
         {% endif %}
+        {{ block.shopify_attributes }}
       >
         {% comment %}
-          {{ block.shopify_attributes }}
+          {% else %}
+          aria-disabled
         {% endcomment %}
         {% if block.settings.image %}
-          <div class="logo-image--item">
+          <div>
             <div class="main-image">
               {% assign image = block.settings.image %}
               {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}

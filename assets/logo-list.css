@@ -89,24 +89,26 @@
 }
 
 .logo-image--item {
+  position: relative;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
 .logo-cover-image {
-  /* position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; */
-  display: none;
+  height: 100%;
+  opacity: 0;
 }
 
 .logo-image--item:hover .main-image {
-  display: none;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
 }
 
 .logo-image--item:hover .logo-cover-image {
-  display: block;
+  opacity: 1;
   transition: all 0.2s ease-in-out;
 }

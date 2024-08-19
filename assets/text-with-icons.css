@@ -31,7 +31,7 @@
 }
 @media only screen and (min-width: 768px) {
   .text-with-icons {
-    margin-bottom: 160px;
+    margin-bottom: 100px;
   }
   .text-with-icons__inner {
     grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
