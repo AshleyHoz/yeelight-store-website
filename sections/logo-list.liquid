@@ -30,7 +30,7 @@
   >
     {% for block in section.blocks %}
       <a
-        class="logo-list--logo {% if has_bg -%}{% endif %}"
+        class="logo-list--logo {% if has_bg -%}logo-list--logo--has-bg{% endif %}"
         {% if block.settings.link %}
           href="{{ block.settings.link | escape }}"
         {% else %}
