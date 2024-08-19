@@ -543,6 +543,7 @@
         "logo_KTULtR": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EcosystemSmartthings.png",
             "link": ""
           }
         },
@@ -570,6 +571,7 @@
         "logo_DR9KRW": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EcosystemSignalrgb.png",
             "link": ""
           }
         }
