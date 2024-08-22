@@ -5089,28 +5089,28 @@ https://flickity.metafizzy.co
   z-index: 20;
 }
 .flickity-page-dots .dot {
-  width: 8px;
-  height: 8px;
+  width: 60px;
+  height: 4px;
   display: inline-block;
   opacity: 0.2;
   border-radius: 4px;
   margin: 0 6px;
-  background: var(--color-body, #2c2d2e);
   cursor: pointer;
   position: relative;
   transform: scale(1, 1);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.4);
 }
 .flickity-page-dots .dot.is-selected {
-  opacity: 1;
+  width: 60px;
+  height: 4px;
+  background: rgba(255, 255, 255, 1);
 }
-@media (hover: hover) {
+/* @media (hover: hover) {
   .flickity-page-dots .dot:hover {
     opacity: 1;
   }
-}
-.flickity-page-dots .dot.is-selected {
-  width: 32px;
-}
+} */
 .flickity-page-dots.dot-style--logos {
   display: inline-flex;
   align-items: center;
