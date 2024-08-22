@@ -5147,6 +5147,7 @@ https://flickity.metafizzy.co
   z-index: 30;
   opacity: 0;
   cursor: pointer;
+  transform: scale(1.7);
 }
 .flickity-nav svg {
   pointer-events: none;
