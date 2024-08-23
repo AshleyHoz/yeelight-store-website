@@ -217,7 +217,11 @@
         </a>
       </div>
     </div>
-    <div class="product-card-view">Shop Now</div>
+    <a
+      href="{{ product_card_product.url | within: collection }}"
+      class="product-card-view"
+      >Shop Now</a
+    >
   </product-card>
 {%- else -%}
   <product-card class=" product-card text-{{ product_content_alignment }} product-card--content-spacing-{{ info_spacing }} product-card--border-{{ product_card_border }} {{ product_card_shadow_class }}">
