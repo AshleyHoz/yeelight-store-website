@@ -200,7 +200,7 @@
 }
 .product-card .product-card-content {
   position: relative;
-  margin-bottom: 16px;
+  overflow: hidden;
 }
 .product-card .product-card-view {
   display: flex;
@@ -216,6 +216,8 @@
   text-transform: capitalize;
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.1);
+  margin: 20px;
+  cursor: pointer;
 }
 .product-card .product-featured-image {
   margin-bottom: 15px;
