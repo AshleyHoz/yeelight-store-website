@@ -198,6 +198,10 @@
 .product-card .product-card-info > *:last-child {
   margin-bottom: 0;
 }
+.product-card .product-card-content {
+  position: relative;
+  margin-bottom: 16px;
+}
 .product-card .product-card-view {
   display: flex;
   padding: 16px 30px;
