@@ -10,9 +10,7 @@
   {%- endif -%}
   <div class="badge onsale {{ badge_position }}">
     {% comment %} {%- if settings.sale_badge_type == 'sale' -%} {% endcomment %}
-    <div class="badge-title">
-      {{ 'products.product.on_sale' | t }}
-    </div>
+    <div class="badge-title">Save</div>
     {% comment %} {%- else -%} {% endcomment %}
     <div class="badge-percent">
       {{ 'products.product.save_html' | t: saved_amount: saved_amount }}
