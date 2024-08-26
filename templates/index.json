@@ -880,12 +880,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "custom_liquid_eTafiM": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-interactivity@latest\/dist\/lottie-interactivity.min.js\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@dotlottie\/player-component@latest\/dist\/dotlottie-player.mjs\" type=\"module\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-player@latest\/dist\/lottie-player.js\"><\/script>"
-      }
-    },
     "scrolling_images_ijGKLL": {
       "type": "scrolling-images",
       "blocks": {
@@ -1002,6 +996,12 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "custom_liquid_eTafiM": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-interactivity@latest\/dist\/lottie-interactivity.min.js\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@dotlottie\/player-component@latest\/dist\/dotlottie-player.mjs\" type=\"module\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-player@latest\/dist\/lottie-player.js\"><\/script>"
+      }
     }
   },
   "order": [
@@ -1023,7 +1023,7 @@
     "1711998083986c24cc",
     "promotion_blocks_NpxCRX",
     "gallery_LGBiNY",
-    "custom_liquid_eTafiM",
-    "scrolling_images_ijGKLL"
+    "scrolling_images_ijGKLL",
+    "custom_liquid_eTafiM"
   ]
 }
