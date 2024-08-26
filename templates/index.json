@@ -1003,7 +1003,7 @@
         "column_spacing": "large",
         "image_alignment": "top",
         "direction": "left",
-        "speed": "20s",
+        "speed": "30s",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
