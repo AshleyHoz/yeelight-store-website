@@ -897,6 +897,7 @@
         "image_BUjL8a": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Featured01.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -905,6 +906,7 @@
         "image_zygXMb": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Featured02.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -913,6 +915,7 @@
         "image_cAGeET": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Featured03.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -921,6 +924,7 @@
         "image_aR6bqm": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Featured04.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -929,6 +933,52 @@
         "image_dVxQPF": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Featured05.png",
+            "link": "",
+            "heading": "",
+            "text": ""
+          }
+        },
+        "image_WBFXgM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Featured06.png",
+            "link": "",
+            "heading": "",
+            "text": ""
+          }
+        },
+        "image_6MtjdT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Featured07.png",
+            "link": "",
+            "heading": "",
+            "text": ""
+          }
+        },
+        "image_PwtWhn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Featured08.png",
+            "link": "",
+            "heading": "",
+            "text": ""
+          }
+        },
+        "image_YLgjXN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Featured09.png",
+            "link": "",
+            "heading": "",
+            "text": ""
+          }
+        },
+        "image_8rdHFX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Featured10.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -940,7 +990,12 @@
         "image_zygXMb",
         "image_cAGeET",
         "image_aR6bqm",
-        "image_dVxQPF"
+        "image_dVxQPF",
+        "image_WBFXgM",
+        "image_6MtjdT",
+        "image_PwtWhn",
+        "image_YLgjXN",
+        "image_8rdHFX"
       ],
       "settings": {
         "title": "Featured In",
