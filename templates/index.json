@@ -457,7 +457,11 @@
     "custom_liquid_8YjDef": {
       "type": "image-text-desc",
       "settings": {
-        "image_text_desc": ""
+        "image": "",
+        "image_mobile": "",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "single_image_XMGMeB": {
