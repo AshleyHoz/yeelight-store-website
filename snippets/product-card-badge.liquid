@@ -10,9 +10,13 @@
   {%- endif -%}
   <span class="badge onsale {{ badge_position }}">
     {%- if settings.sale_badge_type == 'sale' -%}
-      {{ 'products.product.on_sale' | t }}
+      <div class="badge-title">
+        {{ 'products.product.on_sale' | t }}
+      </div>
     {%- else -%}
-      {{ 'products.product.save_html' | t: saved_amount: saved_amount }}
+      <div class="badge-percent">
+        {{ 'products.product.save_html' | t: saved_amount: saved_amount }}
+      </div>
     {%- endif -%}
   </span>
 {%- endif -%}
