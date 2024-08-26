@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "continue_shopping": "Continue shopping",
@@ -12,13 +21,19 @@
       "add_order_note": "Add order note",
       "save": "Save",
       "free_shipping": {
-        "spend_more_for_free_shipping_html": "Spend <span>{{ amount }}</span> more for FREE shipping.",
+        "spend_more_for_free_shipping_html": "Spend <span>{{ amount }}<\/span> more for FREE shipping.",
         "free_shipping_applied_at_checkout": "FREE shipping will be applied at checkout"
       }
     },
-    "meta": { "page": "Page", "tags": "Tag" }
+    "meta": {
+      "page": "Page",
+      "tags": "Tag"
+    }
   },
-  "newsletter": { "label": "Email", "success": "Thanks for subscribing" },
+  "newsletter": {
+    "label": "Email",
+    "success": "Thanks for subscribing"
+  },
   "social": {
     "links": {
       "twitter": "Twitter",
@@ -46,22 +61,29 @@
       "one": "{{ count }} result found for “{{ key }}”",
       "other": "{{ count }} results found for “{{ key }}”"
     },
-    "results_with_count": { "one": "{{ count }} result", "other": "{{ count }} results" }
+    "results_with_count": {
+      "one": "{{ count }} result",
+      "other": "{{ count }} results"
+    }
   },
   "accessibility": {
     "skip_to_text": "Skip to content",
     "close": "Close",
     "unit_price_separator": "per",
-    "link_messages": { "new_window": "Opens in a new window." }
+    "link_messages": {
+      "new_window": "Opens in a new window."
+    }
   },
   "blogs": {
-    "blog": { "all": "All" },
+    "blog": {
+      "all": "All"
+    },
     "article": {
       "read_more": "Read more",
       "tags": "Tags:",
       "comments_html": {
-        "one": "<span>{{ count }} comment on</span> {{ title }}",
-        "other": "<span>{{ count }} comments on</span> {{ title }}"
+        "one": "<span>{{ count }} comment on<\/span> {{ title }}",
+        "other": "<span>{{ count }} comments on<\/span> {{ title }}"
       },
       "moderated": "Please note, comments need to be approved before they are published.",
       "comment_form_title": "Leave a comment",
@@ -98,14 +120,20 @@
       "unavailable": "Unavailable",
       "pre_order": "Pre-order",
       "price": {
-        "from_price_html": "<span class=\"from\">From</span> {{ price }}",
+        "from_price_html": "<span class=\"from\">From<\/span> {{ price }}",
         "regular_price": "Regular price",
         "sale_price": "Sale price",
         "unit_price": "Unit price"
       },
       "include_taxes": "Tax included.",
-      "reviews": { "one": "{{ count }} review", "other": "{{ count }} reviews" },
-      "available": { "one": "Available in {{ count }} color", "other": "Available in {{ count }} colors" },
+      "reviews": {
+        "one": "{{ count }} review",
+        "other": "{{ count }} reviews"
+      },
+      "available": {
+        "one": "Available in {{ count }} color",
+        "other": "Available in {{ count }} colors"
+      },
       "shipping_policy_html": " ",
       "quantity": {
         "label": "Quantity",
@@ -124,16 +152,20 @@
         "view_store_info": "View store information",
         "check_other_stores": "Check availability at other stores",
         "pick_up_available": "Pickup available",
-        "pick_up_available_at_html": "Pickup available at <span>{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Pickup currently unavailable at <span>{{ location_name }}</span>",
+        "pick_up_available_at_html": "Pickup available at <span>{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Pickup currently unavailable at <span>{{ location_name }}<\/span>",
         "unavailable": "Couldn't load pickup availability",
         "refresh": "Refresh"
       },
       "view_product_details": "View product details",
-      "product_drawer": { "select_options": "Select options" },
+      "product_drawer": {
+        "select_options": "Select options"
+      },
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
-      "siblings": { "label": "Color" }
+      "siblings": {
+        "label": "Color"
+      }
     },
     "facets": {
       "apply": "Apply",
@@ -143,13 +175,19 @@
       "filter_and_sort": "Filter and sort",
       "filter_by_label": "Filter:",
       "filter_button": "Filter",
-      "filters_selected": { "one": "{{ count }} selected", "other": "{{ count }} selected" },
+      "filters_selected": {
+        "one": "{{ count }} selected",
+        "other": "{{ count }} selected"
+      },
       "max_price": "The highest price is {{ price }}",
       "product_count": {
         "one": "{{ product_count }} of {{ count }} product",
         "other": "{{ product_count }} of {{ count }} products"
       },
-      "product_count_simple": { "one": "{{ count }} product", "other": "{{ count }} products" },
+      "product_count_simple": {
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      },
       "reset": "Reset",
       "sort_button": "Sort",
       "sort_by_label": "Sort by",
@@ -195,13 +233,18 @@
       "ready": "Ready to find your new favorite products?",
       "cart_error": "There was an error while updating your cart. Please try again.",
       "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
-      "headings": { "product": "Product", "price": "Price", "total": "Total", "quantity": "Quantity" },
+      "headings": {
+        "product": "Product",
+        "price": "Price",
+        "total": "Total",
+        "quantity": "Quantity"
+      },
       "terms": "I agree with the terms and conditions",
-      "terms_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions</a>",
+      "terms_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions<\/a>",
       "terms_confirm": "You must agree with the terms and conditions of sales to check out",
       "shipping_estimator": {
         "estimate_shipping": "Estimate shipping",
@@ -217,7 +260,7 @@
     },
     "collection_template": {
       "empty": "No products found",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"clear-filters text-button\" href=\"{{ link }}\">clear all</a>",
+      "use_fewer_filters_html": "Use fewer filters or <a class=\"clear-filters text-button\" href=\"{{ link }}\">clear all<\/a>",
       "load_more": "Load more"
     },
     "password": {
@@ -228,18 +271,27 @@
       "login_here": "Log in here",
       "cancel": "Cancel"
     },
-    "featured_collection": { "shop_collection": "Shop {{ collection }}" },
+    "featured_collection": {
+      "shop_collection": "Shop {{ collection }}"
+    },
     "featured_blog": {
       "view_all": "View all posts",
       "onboarding_title": "Blog post",
       "onboarding_content": "Give your customers a summary of your blog post"
     },
-    "shop_the_look": { "view_product": "View Product" },
+    "shop_the_look": {
+      "view_product": "View Product"
+    },
     "signup": {
       "enter_your_email": "Enter your email",
       "i_agree": "I agree to receiving marketing emails and special deals"
     },
-    "countdown_banner": { "days": "Days", "hours": "Hours", "minutes": "Minutes", "seconds": "Seconds" },
+    "countdown_banner": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    },
     "contact": {
       "form": {
         "name": "Name",
@@ -250,14 +302,16 @@
         "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
         "error_heading": "Please adjust the following:"
       },
-      "map": { "location": "Location {{ index }}" }
+      "map": {
+        "location": "Location {{ index }}"
+      }
     }
   },
   "localization": {
-    "country_label": "Country/region",
+    "country_label": "Country\/region",
     "language_label": "Language",
     "update_language": "Update language",
-    "update_country": "Update country/region"
+    "update_country": "Update country\/region"
   },
   "customer": {
     "login_page": {
@@ -351,9 +405,9 @@
       "address1": "Address 1",
       "address2": "Address 2",
       "city": "City",
-      "country": "Country/region",
+      "country": "Country\/region",
       "province": "Province",
-      "zip": "Postal/ZIP code",
+      "zip": "Postal\/ZIP code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add address",
@@ -393,7 +447,9 @@
     }
   },
   "shopify": {
-    "links": { "powered_by_shopify": " " },
+    "links": {
+      "powered_by_shopify": " "
+    },
     "checkout": {
       "thank_you": {
         "thank_you_confirmed_order_with_email": "Your order number and tracking information will be sent to you shortly via email and WhatsApp.",

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "continue_shopping": "Continua a fare acquisti",
@@ -12,13 +21,19 @@
       "add_order_note": "Aggiungi nota d'ordine",
       "save": "Salva",
       "free_shipping": {
-        "spend_more_for_free_shipping_html": "Spendi altri \u003cspan\u003e{{ amount }}\u003c/span\u003e per la spedizione GRATUITA.",
+        "spend_more_for_free_shipping_html": "Spendi altri <span>{{ amount }}<\/span> per la spedizione GRATUITA.",
         "free_shipping_applied_at_checkout": "La spedizione GRATUITA verrà applicata al momento del pagamento"
       }
     },
-    "meta": { "page": "Pagina", "tags": "Etichetta" }
+    "meta": {
+      "page": "Pagina",
+      "tags": "Etichetta"
+    }
   },
-  "newsletter": { "label": "Indirizzo email", "success": "Grazie per l'iscrizione" },
+  "newsletter": {
+    "label": "Indirizzo email",
+    "success": "Grazie per l'iscrizione"
+  },
   "social": {
     "links": {
       "twitter": "Twitter",
@@ -56,16 +71,20 @@
     "skip_to_text": "Vai direttamente ai contenuti",
     "close": "Chiudi",
     "unit_price_separator": "per",
-    "link_messages": { "new_window": "Si apre in una nuova finestra." }
+    "link_messages": {
+      "new_window": "Si apre in una nuova finestra."
+    }
   },
   "blogs": {
-    "blog": { "all": "Tutto" },
+    "blog": {
+      "all": "Tutto"
+    },
     "article": {
       "read_more": "Leggi di più",
       "tags": "Etichetta:",
       "comments_html": {
-        "one": "\u003cspan\u003e{{ count }} commento su\u003c/span\u003e {{ title }}",
-        "other": "\u003cspan\u003e{{ count }} commenti su\u003c/span\u003e {{ title }}"
+        "one": "<span>{{ count }} commento su<\/span> {{ title }}",
+        "other": "<span>{{ count }} commenti su<\/span> {{ title }}"
       },
       "moderated": "Si prega di notare che, prima di essere pubblicati, i commenti devono essere approvati.",
       "comment_form_title": "Leave a comment",
@@ -108,9 +127,15 @@
         "unit_price": "Prezzo unitario"
       },
       "include_taxes": "Tax included.",
-      "reviews": { "one": "{{ count }} review", "other": "{{ count }} reviews" },
-      "available": { "one": "Disponibile in {{ count }} colore", "other": "Disponibile in {{ count }} colori" },
-      "shipping_policy_html": "\u003ca href=\"{{ link }}\"\u003eSpese di spedizione\u003c/a\u003e calcolate al check-out.",
+      "reviews": {
+        "one": "{{ count }} review",
+        "other": "{{ count }} reviews"
+      },
+      "available": {
+        "one": "Disponibile in {{ count }} colore",
+        "other": "Disponibile in {{ count }} colori"
+      },
+      "shipping_policy_html": "<a href=\"{{ link }}\">Spese di spedizione<\/a> calcolate al check-out.",
       "quantity": {
         "label": "Quantità",
         "input_label": "Quantità per {{ product }}",
@@ -128,16 +153,20 @@
         "view_store_info": "Visualizza i dettagli del negozio",
         "check_other_stores": "Verifica la disponibilità in altri negozi",
         "pick_up_available": "Ritiro disponibile",
-        "pick_up_available_at_html": "Ritiro disponibile presso la sede \u003cspan class=\"color-foreground\"\u003e{{ location_name }}\u003c/span\u003e",
-        "pick_up_unavailable_at_html": "Ritiro attualmente non disponibile presso la sede \u003cspan class=\"color-foreground\"\u003e{{ location_name }}\u003c/span\u003e",
+        "pick_up_available_at_html": "Ritiro disponibile presso la sede <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Ritiro attualmente non disponibile presso la sede <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "Impossibile caricare la disponibilità di ritiro",
         "refresh": "Aggiorna"
       },
       "view_product_details": "Visualizza i dettagli del prodotto",
-      "product_drawer": { "select_options": "selezionare le opzioni" },
+      "product_drawer": {
+        "select_options": "selezionare le opzioni"
+      },
       "xr_button": "Visualizza nel tuo spazio",
       "xr_button_label": "Visualizza nel tuo spazio, carica l'articolo nella finestra della realtà aumentata",
-      "siblings": { "label": "Colore" }
+      "siblings": {
+        "label": "Colore"
+      }
     },
     "facets": {
       "apply": "Applica",
@@ -208,13 +237,18 @@
       "ready": "Pronto a trovare i tuoi nuovi prodotti preferiti?",
       "cart_error": "Si è verificato un errore durante l'aggiornamento del carrello. Riprova più tardi.",
       "cart_quantity_error_html": "Puoi aggiungere soltanto {{ quantity }} di questo articolo al tuo carrello.",
-      "taxes_and_shipping_policy_at_checkout_html": "Imposte e \u003ca href=\"{{ link }}\"\u003espese di spedizione\u003c/a\u003e calcolate al momento del check-out",
+      "taxes_and_shipping_policy_at_checkout_html": "Imposte e <a href=\"{{ link }}\">spese di spedizione<\/a> calcolate al momento del check-out",
       "taxes_included_but_shipping_at_checkout": "Imposte incluse e spese di spedizione calcolate al momento del check-out",
-      "taxes_included_and_shipping_policy_html": "Imposte incluse. \u003ca href=\"{{ link }}\"\u003eSpese di spedizione\u003c/a\u003e calcolate al check-out.",
+      "taxes_included_and_shipping_policy_html": "Imposte incluse. <a href=\"{{ link }}\">Spese di spedizione<\/a> calcolate al check-out.",
       "taxes_and_shipping_at_checkout": "Imposte e spese di spedizione calcolate al momento del check-out",
-      "headings": { "product": "Prodotto", "price": "Prezzo", "total": "Totale", "quantity": "Quantità" },
+      "headings": {
+        "product": "Prodotto",
+        "price": "Prezzo",
+        "total": "Totale",
+        "quantity": "Quantità"
+      },
       "terms": "Sono d'accordo con i termini e le condizioni",
-      "terms_html": "Sono d'accordo con i \u003ca href='{{ url }}' target='_blank'\u003etermini e condizioni\u003c/a\u003e",
+      "terms_html": "Sono d'accordo con i <a href='{{ url }}' target='_blank'>termini e condizioni<\/a>",
       "terms_confirm": "Devi accettare i termini e le condizioni di vendita per effettuare il pagamento",
       "shipping_estimator": {
         "estimate_shipping": "Previsione di spedizione",
@@ -230,14 +264,19 @@
     },
     "collection_template": {
       "empty": "Nessun prodotto trovato",
-      "use_fewer_filters_html": "Utilizza meno filtri o \u003ca class=\"{{ class }}\" href=\"{{ link }}\"\u003erimuovi tutto\u003c/a\u003e",
+      "use_fewer_filters_html": "Utilizza meno filtri o <a class=\"{{ class }}\" href=\"{{ link }}\">rimuovi tutto<\/a>",
       "load_more": "Carica di più"
     },
     "signup": {
       "enter_your_email": "Inserisci il tuo indirizzo email",
       "i_agree": "Accetto di ricevere e-mail di marketing e offerte speciali"
     },
-    "countdown_banner": { "days": "Giorni", "hours": "Ore", "minutes": "Minuti", "seconds": "Secondi" },
+    "countdown_banner": {
+      "days": "Giorni",
+      "hours": "Ore",
+      "minutes": "Minuti",
+      "seconds": "Secondi"
+    },
     "password": {
       "login_using": "Accedi utilizzando la password",
       "opening_soon": "Prossima apertura",
@@ -246,13 +285,17 @@
       "login_here": "Accedi qui",
       "cancel": "Annulla"
     },
-    "featured_collection": { "shop_collection": "Shop {{ collection }}" },
+    "featured_collection": {
+      "shop_collection": "Shop {{ collection }}"
+    },
     "featured_blog": {
       "view_all": "Visualizza tutto",
       "onboarding_title": "Articolo del blog",
       "onboarding_content": "Offri ai clienti un riepilogo dell'articolo del blog"
     },
-    "shop_the_look": { "view_product": "Visualizza prodotto" },
+    "shop_the_look": {
+      "view_product": "Visualizza prodotto"
+    },
     "contact": {
       "form": {
         "name": "Nome",
@@ -263,14 +306,16 @@
         "post_success": "Grazie per averci contattato. Risponderemo il prima possibile.",
         "error_heading": "Correggi gli errori seguenti:"
       },
-      "map": { "location": "Posizione {{ index }}" }
+      "map": {
+        "location": "Posizione {{ index }}"
+      }
     }
   },
   "localization": {
-    "country_label": "Paese/Area geografica",
+    "country_label": "Paese\/Area geografica",
     "language_label": "Lingua",
     "update_language": "Aggiorna lingua",
-    "update_country": "Aggiorna paese/area geografica"
+    "update_country": "Aggiorna paese\/area geografica"
   },
   "customer": {
     "login_page": {
@@ -364,7 +409,7 @@
       "address1": "Indirizzo - campo 1",
       "address2": "Indirizzo - campo 2",
       "city": "Città",
-      "country": "Paese/Area geografica",
+      "country": "Paese\/Area geografica",
       "province": "Provincia",
       "zip": "CAP",
       "phone": "Numero di telefono",
