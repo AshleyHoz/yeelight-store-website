@@ -2,13 +2,30 @@
 {%- liquid
   assign section_heading = section.settings.heading
   assign section_description = section.settings.description
+  assign background_image = section.settings.image
 -%}
 
-<div class="image-text-desc">
+<div
+  class="image-text-desc"
+  style="background: url({{ background_image }}) top center;background-size: cover"
+>
   <div class="row">
     <div class="small-12">
       {% render 'section-header', section_heading: section_heading %}
-      {{ section_description }}
+      <div class="image-text_desc">
+        {{ section_description }}
+      </div>
+      <div class="image-text_inner">
+        {% for block in section.blocks %}
+          {% if block.settings.image %}
+            <div class="logo-image">
+              {% assign image = block.settings.image %}
+              {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
+              {%- render 'responsive-image', image: image, sizes: master_width -%}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
@@ -79,12 +96,6 @@
           "type": "image_picker",
           "id": "image",
           "label": "Logo",
-          "info": "240 x 100 px .png recommended."
-        },
-        {
-          "type": "image_picker",
-          "id": "cover_image",
-          "label": "Logo_hover",
           "info": "240 x 100 px .png recommended."
         },
         {

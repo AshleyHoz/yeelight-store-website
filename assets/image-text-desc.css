@@ -1,0 +1,27 @@
+.image-text-desc {
+  padding: 100px 0;
+}
+
+.image-text_desc {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.image-text_inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.image-text_inner .logo-image {
+  width: 310px;
+  height: auto;
+  margin: 0 24px 24px 0;
+}
+
+@media only screen and (max-width: 767px) {
+}
