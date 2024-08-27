@@ -3478,10 +3478,10 @@ h6,
 .thb-full-menu a:focus {
   color: var(--color-header-links-hover, --color-accent2);
 }
-.thb-full-menu a:hover:after,
+/* .thb-full-menu a:hover:after,
 .thb-full-menu a:focus:after {
   transform: scale(1, 1);
-}
+} */
 .thb-full-menu a:hover svg path,
 .thb-full-menu a:focus svg path {
   stroke: var(--color-header-links-hover, --color-accent2);
