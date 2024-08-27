@@ -1,1 +1,88 @@
-{"sections":{"breadcrumbs":{"type":"breadcrumbs","settings":{}},"image_with_text_overlay_8jXp9g":{"type":"image-with-text-overlay","blocks":{"heading_HhgdPq":{"type":"heading","settings":{"text":"All Lights","heading_size":"h1"}},"text_HhPXHD":{"type":"text","settings":{"text":"<p>Buy the best RGB lights on Yeelight<\/p>","description_size":"medium"}}},"block_order":["heading_HhgdPq","text_HhPXHD"],"settings":{"image":"shopify:\/\/shop_images\/product.jpg","image_parallax":false,"desktop_height":"desktop-height-450","mobile_height":"mobile-height-350","full_width":true,"content_width":"medium","content_position":"middle-center","text_alignment":"left","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0,"disable_top_spacing":true,"disable_bottom_spacing":true}},"template-header":{"type":"template-header","disabled":true,"settings":{"show_collection_image":false,"show_collection_description":true,"show_subcollections":true,"color_subcollection_bg":"#ffffff","color_subcollection_text":"#303c43","display_description":true}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":12,"columns_desktop":4,"pagination_type":"paginated","enable_filtering":true,"enable_sorting":true,"show_counts":true,"filter_color_swatches":true,"filters_collapsed":false,"facets_desktop":"sidebar"}}},"order":["breadcrumbs","image_with_text_overlay_8jXp9g","template-header","product-grid"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "image_with_text_overlay_8jXp9g": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_HhgdPq": {
+          "type": "heading",
+          "settings": {
+            "text": "All Lights",
+            "heading_size": "h1"
+          }
+        },
+        "text_HhPXHD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buy the best RGB lights on Yeelight<\/p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HhgdPq",
+        "text_HhPXHD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-350",
+        "full_width": true,
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "left",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": true,
+        "show_subcollections": true,
+        "color_subcollection_bg": "#ffffff",
+        "color_subcollection_text": "#303c43",
+        "display_description": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "pagination_type": "paginated",
+        "enable_filtering": false,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": true,
+        "filters_collapsed": false,
+        "facets_desktop": "sidebar"
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "image_with_text_overlay_8jXp9g",
+    "template-header",
+    "product-grid"
+  ]
+}
