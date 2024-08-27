@@ -485,9 +485,49 @@
     },
     "custom_liquid_8YjDef": {
       "type": "image-text-desc",
+      "blocks": {
+        "logo_DfbNEY": {
+          "type": "logo",
+          "settings": {
+            "logo_heading": "Logo list",
+            "image": "shopify:\/\/shop_images\/DesignBg01.png",
+            "link": ""
+          }
+        },
+        "logo_NLQ8Pd": {
+          "type": "logo",
+          "settings": {
+            "logo_heading": "Logo list",
+            "image": "shopify:\/\/shop_images\/DesignBg02.png",
+            "link": ""
+          }
+        },
+        "logo_Et8Lha": {
+          "type": "logo",
+          "settings": {
+            "logo_heading": "Logo list",
+            "image": "shopify:\/\/shop_images\/DesignBg03.png",
+            "link": ""
+          }
+        },
+        "logo_C6LWgp": {
+          "type": "logo",
+          "settings": {
+            "logo_heading": "Logo list",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_DfbNEY",
+        "logo_NLQ8Pd",
+        "logo_Et8Lha",
+        "logo_C6LWgp"
+      ],
       "settings": {
         "heading": "Exquisite Design",
         "description": "<p>Yeelight smart lighting has been awarded 20 international design awards, including iF Design Award, reddot Award, IDEA, and Good Design Award.<\/p>",
+        "image": "shopify:\/\/shop_images\/DesignBg.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
