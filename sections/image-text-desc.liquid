@@ -9,7 +9,11 @@
   class="image-text-desc"
   style="background: url({{ background_image }}) top center;background-size: cover"
 >
-  <image class="image-text_bg" src="{{ background_image}}" />
+  <img class="image-text_bg" src="{{ background_image}}" width="100%" height="100%">
+  <div class="image-text_bg">
+    {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+  </div>
+  {%- render 'responsive-image', image: image, sizes: master_width -%}
   <div class="image-text_container">
     <div class="small-12 section-max-width">
       {% render 'section-header', section_heading: section_heading %}
