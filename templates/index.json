@@ -486,22 +486,6 @@
     "custom_liquid_8YjDef": {
       "type": "image-text-desc",
       "blocks": {
-        "logo_DfbNEY": {
-          "type": "logo",
-          "settings": {
-            "logo_heading": "Logo list",
-            "image": "shopify:\/\/shop_images\/DesignBg01.png",
-            "link": ""
-          }
-        },
-        "logo_NLQ8Pd": {
-          "type": "logo",
-          "settings": {
-            "logo_heading": "Logo list",
-            "image": "shopify:\/\/shop_images\/DesignBg02.png",
-            "link": ""
-          }
-        },
         "logo_Et8Lha": {
           "type": "logo",
           "settings": {
@@ -525,14 +509,30 @@
             "image": "shopify:\/\/shop_images\/DesignBg05.png",
             "link": ""
           }
+        },
+        "logo_DfbNEY": {
+          "type": "logo",
+          "settings": {
+            "logo_heading": "Logo list",
+            "image": "shopify:\/\/shop_images\/DesignBg01.png",
+            "link": ""
+          }
+        },
+        "logo_NLQ8Pd": {
+          "type": "logo",
+          "settings": {
+            "logo_heading": "Logo list",
+            "image": "shopify:\/\/shop_images\/DesignBg02.png",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "logo_DfbNEY",
-        "logo_NLQ8Pd",
         "logo_Et8Lha",
         "logo_C6LWgp",
-        "logo_Vtn34L"
+        "logo_Vtn34L",
+        "logo_DfbNEY",
+        "logo_NLQ8Pd"
       ],
       "settings": {
         "heading": "Exquisite Design",
