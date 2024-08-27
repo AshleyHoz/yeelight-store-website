@@ -1,12 +1,12 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow_AaGJwH": {
@@ -16,8 +16,8 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/banner-new.jpg",
-            "mobile_image": "shopify://shop_images/banner-M.jpg",
+            "image": "shopify:\/\/shop_images\/banner-new.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/banner-M.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -40,7 +40,7 @@
             "overlay_gradient": "",
             "button_1_text": "Shop Now",
             "button_1_color": "white",
-            "button_1_link": "shopify://products/yeelight-smart-cube",
+            "button_1_link": "shopify:\/\/products\/yeelight-smart-cube",
             "use_text_button_1": false,
             "button_2_text": "",
             "button_2_color": "white",
@@ -51,9 +51,9 @@
         "slide_B9biA3": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/banner-test_01.png",
-            "mobile_image": "shopify://shop_images/f6914cc574aa2eb6913da83a0a65a64a.jpg",
-            "slide_link": "shopify://collections/all-lights",
+            "image": "shopify:\/\/shop_images\/banner-test_01.png",
+            "mobile_image": "shopify:\/\/shop_images\/f6914cc574aa2eb6913da83a0a65a64a.jpg",
+            "slide_link": "shopify:\/\/collections\/all-lights",
             "video_background": false,
             "badge_text": "",
             "subheading": "",
@@ -86,8 +86,8 @@
         "slide_Apj7XN": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Beam-PC.jpg",
-            "mobile_image": "shopify://shop_images/Beam-Mobile_550a5713-496e-4bc1-8e62-88463f402400.jpg",
+            "image": "shopify:\/\/shop_images\/Beam-PC.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Beam-Mobile_550a5713-496e-4bc1-8e62-88463f402400.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -121,8 +121,8 @@
         "slide_E8nF4j": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/f6f29f3f72edf58e4c4c7f3f6cf6e13f.jpg",
-            "mobile_image": "shopify://shop_images/f6914cc574aa2eb6913da83a0a65a64a.jpg",
+            "image": "shopify:\/\/shop_images\/f6f29f3f72edf58e4c4c7f3f6cf6e13f.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/f6914cc574aa2eb6913da83a0a65a64a.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -154,7 +154,12 @@
           }
         }
       },
-      "block_order": ["slide_HmWpzr", "slide_B9biA3", "slide_Apj7XN", "slide_E8nF4j"],
+      "block_order": [
+        "slide_HmWpzr",
+        "slide_B9biA3",
+        "slide_Apj7XN",
+        "slide_E8nF4j"
+      ],
       "settings": {
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
@@ -169,9 +174,11 @@
     },
     "featured_collection_M8HqE3": {
       "type": "featured-collection",
-      "custom_css": [],
+      "custom_css": [
+
+      ],
       "settings": {
-        "heading": "What's <span>Popular</span> Now",
+        "heading": "What's <span>Popular<\/span> Now",
         "marker_style": "style1",
         "description": "",
         "collection": "all-lights",
@@ -220,31 +227,35 @@
           }
         }
       },
-      "block_order": ["product_Gycbkt", "product_pRzYba", "product_LP69Mb"],
+      "block_order": [
+        "product_Gycbkt",
+        "product_pRzYba",
+        "product_LP69Mb"
+      ],
       "settings": {
-        "title": "Illuminate Your Villa with <span>Brilliance</span>",
+        "title": "Illuminate Your Villa with <span>Brilliance<\/span>",
         "footer_title": "Outdoor",
         "footer_description": "Special Page",
         "button_1_icon": "custom-hallween",
         "button_1_text": "Halloween",
-        "image_1": "shopify://shop_images/Command_Center.jpg",
-        "image_1_mobile": "shopify://shop_images/Skylight05.png",
+        "image_1": "shopify:\/\/shop_images\/Command_Center.jpg",
+        "image_1_mobile": "shopify:\/\/shop_images\/Skylight05.png",
         "button_2_icon": "custom-christmas",
         "button_2_text": "Christmas",
-        "image_2": "shopify://shop_images/Perfermance_Boost.jpg",
-        "image_2_mobile": "shopify://shop_images/Skylight01.png",
+        "image_2": "shopify:\/\/shop_images\/Perfermance_Boost.jpg",
+        "image_2_mobile": "shopify:\/\/shop_images\/Skylight01.png",
         "button_3_icon": "custom-valentine",
         "button_3_text": "Valentine's Day",
-        "image_3": "shopify://shop_images/1_c15174af-f97b-4f47-a451-a1fbf9c8c926.jpg",
-        "image_3_mobile": "shopify://shop_images/Skylight02.png",
+        "image_3": "shopify:\/\/shop_images\/1_c15174af-f97b-4f47-a451-a1fbf9c8c926.jpg",
+        "image_3_mobile": "shopify:\/\/shop_images\/Skylight02.png",
         "button_4_icon": "custom-birthday",
         "button_4_text": "Birthday",
-        "image_4": "shopify://shop_images/Command_Center.jpg",
-        "image_4_mobile": "shopify://shop_images/Skylight03.png",
+        "image_4": "shopify:\/\/shop_images\/Command_Center.jpg",
+        "image_4_mobile": "shopify:\/\/shop_images\/Skylight03.png",
         "button_5_icon": "custom-party",
         "button_5_text": "Party",
-        "image_5": "shopify://shop_images/Perfermance_Boost.jpg",
-        "image_5_mobile": "shopify://shop_images/Skylight09.png",
+        "image_5": "shopify:\/\/shop_images\/Perfermance_Boost.jpg",
+        "image_5_mobile": "shopify:\/\/shop_images\/Skylight09.png",
         "full_width": false,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -274,14 +285,17 @@
           }
         }
       },
-      "block_order": ["product_PaLJwT", "product_y3gmjA"],
+      "block_order": [
+        "product_PaLJwT",
+        "product_y3gmjA"
+      ],
       "settings": {
-        "title": "Stylish Lighting for Your <span>Living Room</span>",
+        "title": "Stylish Lighting for Your <span>Living Room<\/span>",
         "footer_title": "Living room",
         "footer_description": "Special Page",
         "button_1_icon": "custom-movie",
         "button_1_text": "Halloween",
-        "image_1": "shopify://shop_images/Perfermance_Boost.jpg",
+        "image_1": "shopify:\/\/shop_images\/Perfermance_Boost.jpg",
         "button_2_icon": "custom-game",
         "button_2_text": "Halloween",
         "button_3_icon": "custom-christmas",
@@ -319,14 +333,17 @@
           }
         }
       },
-      "block_order": ["product_rxfqJq", "product_3Y3bwR"],
+      "block_order": [
+        "product_rxfqJq",
+        "product_3Y3bwR"
+      ],
       "settings": {
-        "title": "Epic <span>Gaming</span> Atmosphere",
+        "title": "Epic <span>Gaming<\/span> Atmosphere",
         "footer_title": "Game Room",
         "footer_description": "Special Page",
         "button_1_icon": "custom-game",
         "button_1_text": "Game",
-        "image_1": "shopify://shop_images/1_c15174af-f97b-4f47-a451-a1fbf9c8c926.jpg",
+        "image_1": "shopify:\/\/shop_images\/1_c15174af-f97b-4f47-a451-a1fbf9c8c926.jpg",
         "button_2_icon": "custom-interstellar",
         "button_2_text": "Interstellar",
         "button_3_icon": "",
@@ -347,7 +364,12 @@
         "marker_style": "style1",
         "description": "",
         "heading_size": "small",
-        "collection_list": ["gaming-light", "smart-led-strip", "smart-bulb", "all-lights"],
+        "collection_list": [
+          "gaming-light",
+          "smart-led-strip",
+          "smart-bulb",
+          "all-lights"
+        ],
         "image_ratio": "square",
         "collection_layout": "grid",
         "style": "style2",
@@ -377,7 +399,9 @@
           }
         }
       },
-      "block_order": ["heading_W9jYDF"],
+      "block_order": [
+        "heading_W9jYDF"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -397,40 +421,45 @@
           "type": "icon",
           "settings": {
             "icon": "star",
-            "image": "shopify://shop_images/IconFree.png",
+            "image": "shopify:\/\/shop_images\/IconFree.png",
             "heading": "Free",
-            "text": "<p>Worldwide shipping</p>"
+            "text": "<p>Worldwide shipping<\/p>"
           }
         },
         "icon_GFyYAm": {
           "type": "icon",
           "settings": {
             "icon": "plane",
-            "image": "shopify://shop_images/IconCorn.png",
+            "image": "shopify:\/\/shop_images\/IconCorn.png",
             "heading": "30 Day",
-            "text": "<p>Money Back Guarantee</p>"
+            "text": "<p>Money Back Guarantee<\/p>"
           }
         },
         "icon_RFQH79": {
           "type": "icon",
           "settings": {
             "icon": "chat_bubble",
-            "image": "shopify://shop_images/IconService.png",
+            "image": "shopify:\/\/shop_images\/IconService.png",
             "heading": "Lifetime",
-            "text": "<p>Customer Support</p>"
+            "text": "<p>Customer Support<\/p>"
           }
         },
         "icon_h6xJ9e": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify://shop_images/IconShield.png",
+            "image": "shopify:\/\/shop_images\/IconShield.png",
             "heading": "2 Year",
-            "text": "<p>warranty</p>"
+            "text": "<p>warranty<\/p>"
           }
         }
       },
-      "block_order": ["icon_aBKTbt", "icon_GFyYAm", "icon_RFQH79", "icon_h6xJ9e"],
+      "block_order": [
+        "icon_aBKTbt",
+        "icon_GFyYAm",
+        "icon_RFQH79",
+        "icon_h6xJ9e"
+      ],
       "settings": {
         "text_alignment": "center",
         "icon_position": "top",
@@ -447,8 +476,8 @@
     "single_image_WBiTDf": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/ExquisiteDesign.png",
-        "image_mobile": "shopify://shop_images/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
+        "image": "shopify:\/\/shop_images\/ExquisiteDesign.png",
+        "image_mobile": "shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -457,8 +486,8 @@
     "custom_liquid_8YjDef": {
       "type": "image-text-desc",
       "settings": {
-        "image": "",
-        "image_mobile": "",
+        "heading": "Exquisite Design",
+        "description": "<p>Yeelight smart lighting has been awarded 20 international design awards, including iF Design Award, reddot Award, IDEA, and Good Design Award.<\/p>",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -467,8 +496,8 @@
     "single_image_XMGMeB": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/OurSearch.png",
-        "image_mobile": "shopify://shop_images/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
+        "image": "shopify:\/\/shop_images\/OurSearch.png",
+        "image_mobile": "shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -478,8 +507,8 @@
       "type": "single-image",
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/IotEcosystem.png",
-        "image_mobile": "shopify://shop_images/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
+        "image": "shopify:\/\/shop_images\/IotEcosystem.png",
+        "image_mobile": "shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -492,8 +521,8 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify://shop_images/EcosystemAppleHome.png",
-            "cover_image": "shopify://shop_images/EcosystemAppleHomeColor.png",
+            "image": "shopify:\/\/shop_images\/EcosystemAppleHome.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemAppleHomeColor.png",
             "link": ""
           }
         },
@@ -501,8 +530,8 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify://shop_images/EcosystemGoogleHome.png",
-            "cover_image": "shopify://shop_images/EcosystemGoogleHomeColor.png",
+            "image": "shopify:\/\/shop_images\/EcosystemGoogleHome.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemGoogleHomeColor.png",
             "link": ""
           }
         },
@@ -510,8 +539,8 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify://shop_images/EcosystemAlexa.png",
-            "cover_image": "shopify://shop_images/EcosystemAlexaColor.png",
+            "image": "shopify:\/\/shop_images\/EcosystemAlexa.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemAlexaColor.png",
             "link": ""
           }
         },
@@ -519,8 +548,8 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify://shop_images/EcosystemSmartthings.png",
-            "cover_image": "shopify://shop_images/EcosystemSmartthingsColor.png",
+            "image": "shopify:\/\/shop_images\/EcosystemSmartthings.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemSmartthingsColor.png",
             "link": ""
           }
         },
@@ -528,8 +557,8 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify://shop_images/EcosystemIFTTT.png",
-            "cover_image": "shopify://shop_images/EcosystemIFTTTColor.png",
+            "image": "shopify:\/\/shop_images\/EcosystemIFTTT.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemIFTTTColor.png",
             "link": ""
           }
         },
@@ -537,8 +566,8 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify://shop_images/EcosystemRazer.png",
-            "cover_image": "shopify://shop_images/EcosystemRazerColor.png",
+            "image": "shopify:\/\/shop_images\/EcosystemRazer.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemRazerColor.png",
             "link": ""
           }
         },
@@ -546,8 +575,8 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify://shop_images/EcosystemOverwolf.png",
-            "cover_image": "shopify://shop_images/EcosystemOverwolfColor.png",
+            "image": "shopify:\/\/shop_images\/EcosystemOverwolf.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemOverwolfColor.png",
             "link": ""
           }
         },
@@ -555,8 +584,8 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify://shop_images/EcosystemSignalrgb.png",
-            "cover_image": "shopify://shop_images/EcosystemSignalrgbColor.png",
+            "image": "shopify:\/\/shop_images\/EcosystemSignalrgb.png",
+            "cover_image": "shopify:\/\/shop_images\/EcosystemSignalrgbColor.png",
             "link": ""
           }
         }
@@ -593,7 +622,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Crafted with Precision",
-            "text": "<p>Yeelight's accessories are meticulously crafted with precision and care, enhancing your smart home setup with elegance and sophistication.</p>",
+            "text": "<p>Yeelight's accessories are meticulously crafted with precision and care, enhancing your smart home setup with elegance and sophistication.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -604,7 +633,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Uncompromising Quality",
-            "text": "<p>Experience luxury with Yeelight's premium accessories, crafted from the finest materials for exceptional durability and performance.</p>",
+            "text": "<p>Experience luxury with Yeelight's premium accessories, crafted from the finest materials for exceptional durability and performance.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -615,18 +644,22 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Personalized Elegance",
-            "text": "<p>Express your style with Yeelight's upgrades, designed to complement your smart bulbs and fixtures. Elevate your smart home with innovation and style.</p>",
+            "text": "<p>Express your style with Yeelight's upgrades, designed to complement your smart bulbs and fixtures. Elevate your smart home with innovation and style.<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
-      "block_order": ["column_VwffB9", "column_NfczMg", "column_4KKLUw"],
+      "block_order": [
+        "column_VwffB9",
+        "column_NfczMg",
+        "column_4KKLUw"
+      ],
       "disabled": true,
       "settings": {
         "heading": "|Level Up Your Gaming Experience|",
         "marker_style": "style2",
-        "description": "<p>Immerse yourself in the ultimate gaming experience with Yeelight's state-of-the-art smart lighting solutions. Elevate your gaming setup with dynamic lighting effects that synchronize seamlessly with your gameplay, creating an electrifying atmosphere that brings every virtual world to life.</p>",
+        "description": "<p>Immerse yourself in the ultimate gaming experience with Yeelight's state-of-the-art smart lighting solutions. Elevate your gaming setup with dynamic lighting effects that synchronize seamlessly with your gameplay, creating an electrifying atmosphere that brings every virtual world to life.<\/p>",
         "columns_desktop": 4,
         "mobile_swipe": false,
         "image_ratio": "adapt",
@@ -653,7 +686,9 @@
           }
         }
       },
-      "block_order": ["heading_ia67Jc"],
+      "block_order": [
+        "heading_ia67Jc"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -670,7 +705,7 @@
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_video_slider_y63DVW": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-video-slider/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-video-slider\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "show-by-tag": false,
             "layout": "classic",
@@ -691,8 +726,11 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_video_slider_y63DVW"],
-      "settings": {}
+      "block_order": [
+        "loox_reviews_loox_video_slider_y63DVW"
+      ],
+      "settings": {
+      }
     },
     "promotion_blocks_NpxCRX": {
       "type": "promotion-blocks",
@@ -708,32 +746,37 @@
         "promotion_LWaA8N": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/make_use_of.png",
+            "image": "shopify:\/\/shop_images\/make_use_of.png",
             "title": "Yeelight's new products will strengthen its integration with the new smart home standard, which is a bonus and helps keep Yeelight at the topo'smart lighting game.",
             "button_text": "Explore",
-            "button_link": "https://www.makeuseof.com/yeelight-cube-review/"
+            "button_link": "https:\/\/www.makeuseof.com\/yeelight-cube-review\/"
           }
         },
         "promotion_Y6ewhy": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/techradar-logo_logotyp.us.svg",
+            "image": "shopify:\/\/shop_images\/techradar-logo_logotyp.us.svg",
             "title": "The Yeelight Cube makes it super easy to add smart lighting to the desk or wherever else you need it. The lights can be added in modules, and you can even design patterns and colors for your setup.",
             "button_text": "Explore",
-            "button_link": "https://global.techradar.com/da-dk/reviews/yeelight-cube-er-lanceret"
+            "button_link": "https:\/\/global.techradar.com\/da-dk\/reviews\/yeelight-cube-er-lanceret"
           }
         },
         "promotion_VD6w3B": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/android_Central.png",
+            "image": "shopify:\/\/shop_images\/android_Central.png",
             "title": "This Matter-enabled modular smart light is unlike anything I've used before. It's safe to say that the Yeelight Cube is the best ambientlighting product if you care about customizability.",
             "button_text": "Explore",
-            "button_link": "https://www.androidcentral.com/accessories/smart-home/yeelight-cube-review"
+            "button_link": "https:\/\/www.androidcentral.com\/accessories\/smart-home\/yeelight-cube-review"
           }
         }
       },
-      "block_order": ["promotion_bEV3Qj", "promotion_LWaA8N", "promotion_Y6ewhy", "promotion_VD6w3B"],
+      "block_order": [
+        "promotion_bEV3Qj",
+        "promotion_LWaA8N",
+        "promotion_Y6ewhy",
+        "promotion_VD6w3B"
+      ],
       "disabled": true,
       "settings": {
         "mobile_swipe": true,
@@ -752,7 +795,7 @@
         "image_z43Naq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_8631.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_8631.jpg",
             "enable_gallery_video": false,
             "enable_hover_play": false,
             "subheading": "",
@@ -769,7 +812,7 @@
         "image_RrUUNU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_8634.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_8634.jpg",
             "enable_gallery_video": false,
             "enable_hover_play": false,
             "subheading": "",
@@ -786,7 +829,7 @@
         "image_T8BAhg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_8633.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_8633.jpg",
             "enable_gallery_video": false,
             "enable_hover_play": false,
             "subheading": "",
@@ -803,7 +846,7 @@
         "image_wdytLT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_628733eb-126b-4d4f-9cc8-4de1ce6bbe68.jpg",
+            "image": "shopify:\/\/shop_images\/1_628733eb-126b-4d4f-9cc8-4de1ce6bbe68.jpg",
             "enable_gallery_video": false,
             "enable_hover_play": false,
             "subheading": "",
@@ -818,7 +861,12 @@
           }
         }
       },
-      "block_order": ["image_z43Naq", "image_RrUUNU", "image_T8BAhg", "image_wdytLT"],
+      "block_order": [
+        "image_z43Naq",
+        "image_RrUUNU",
+        "image_T8BAhg",
+        "image_wdytLT"
+      ],
       "disabled": true,
       "settings": {
         "columns_desktop": 4,
@@ -842,7 +890,7 @@
         "image_BUjL8a": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Featured01.png",
+            "image": "shopify:\/\/shop_images\/Featured01.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -851,7 +899,7 @@
         "image_zygXMb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Featured02.png",
+            "image": "shopify:\/\/shop_images\/Featured02.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -860,7 +908,7 @@
         "image_cAGeET": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Featured03.png",
+            "image": "shopify:\/\/shop_images\/Featured03.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -869,7 +917,7 @@
         "image_aR6bqm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Featured04.png",
+            "image": "shopify:\/\/shop_images\/Featured04.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -878,7 +926,7 @@
         "image_dVxQPF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Featured05.png",
+            "image": "shopify:\/\/shop_images\/Featured05.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -887,7 +935,7 @@
         "image_WBFXgM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Featured06.png",
+            "image": "shopify:\/\/shop_images\/Featured06.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -896,7 +944,7 @@
         "image_6MtjdT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Featured07.png",
+            "image": "shopify:\/\/shop_images\/Featured07.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -905,7 +953,7 @@
         "image_PwtWhn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Featured08.png",
+            "image": "shopify:\/\/shop_images\/Featured08.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -914,7 +962,7 @@
         "image_YLgjXN": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Featured09.png",
+            "image": "shopify:\/\/shop_images\/Featured09.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -923,7 +971,7 @@
         "image_8rdHFX": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Featured10.png",
+            "image": "shopify:\/\/shop_images\/Featured10.png",
             "link": "",
             "heading": "",
             "text": ""
@@ -956,7 +1004,7 @@
     "custom_liquid_eTafiM": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script src=\"https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js\"></script>\n<script src=\"https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs\" type=\"module\"></script>\n<script src=\"https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js\"></script>"
+        "custom_liquid": "<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-interactivity@latest\/dist\/lottie-interactivity.min.js\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@dotlottie\/player-component@latest\/dist\/dotlottie-player.mjs\" type=\"module\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-player@latest\/dist\/lottie-player.js\"><\/script>"
       }
     }
   },
