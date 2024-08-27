@@ -126,3 +126,9 @@
     transform: translateX(0%);
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .announcement-bar--carousel .carousel {
+    width: 80%;
+  }
+}

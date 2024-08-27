@@ -2557,6 +2557,10 @@ scroll-shadow > * {
   .thb-header-right .thb-quick-localization {
     display: none;
   }
+
+  .header--inner {
+    min-height: 50px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
