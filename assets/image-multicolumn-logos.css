@@ -56,24 +56,33 @@
   margin-bottom: 0;
 }
 .multicolumn__column .multicolumn__title {
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 28px;
   font-weight: 600;
   line-height: normal;
 }
 .multicolumn__column:first-child .multicolumn__title {
   background: linear-gradient(94deg, #86e962 0.62%, #2aae5c 100.62%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .multicolumn__column:nth-child(2) .multicolumn__title {
   background: linear-gradient(106deg, #bc94ff -0.02%, #9f66ff 100.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .multicolumn__column:nth-child(3) .multicolumn__title {
   background: linear-gradient(104deg, #ffb37f -0.02%, #ff7b0d 94.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .multicolumn__column:last-child .multicolumn__title {
   background: linear-gradient(103deg, #ff759f 0.59%, #ff196e 100.59%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .multicolumn__column p {
   color: rgba(0, 0, 0, 0.6);
