@@ -2,6 +2,11 @@
   padding: 100px 0;
 }
 
+.image-text-desc .section-max-width {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
 .image-text_desc {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
@@ -9,12 +14,15 @@
   font-weight: 300;
   line-height: normal;
   margin-bottom: 40px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .image-text_inner {
   display: flex;
   align-items: center;
   flex-wrap: wrap-reverse;
+  justify-content: center;
 }
 
 .image-text_inner .logo-image {
