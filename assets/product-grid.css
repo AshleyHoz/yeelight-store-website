@@ -217,19 +217,22 @@
   background: rgba(255, 255, 255, 0.1);
   margin: 20px;
   cursor: pointer;
-  transition: background 0.25s ease;
+  transition: background 0.5s ease;
 }
-.product-card .product-card-view:hover {
+.product-card .product-card-view::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%), rgba(255, 255, 255, 0.1);
-  animation: backgroundChange 0.25s ease;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
 }
-@keyframes backgroundChange {
-  0% {
-    background: transparent;
-  }
-  100% {
-    background: linear-gradient(103deg, #111bff 0%, #fd119e 100%), rgba(255, 255, 255, 0.1);
-  }
+.product-card .product-card-view:hover::before {
+  opacity: 1;
 }
 .product-card .product-featured-image {
   margin-bottom: 15px;
