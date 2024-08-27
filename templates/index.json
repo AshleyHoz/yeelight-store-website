@@ -543,75 +543,10 @@
         "disable_bottom_spacing": true
       }
     },
-    "multicolumn_logos_FacVj4": {
-      "type": "multicolumn-logos",
-      "blocks": {
-        "column_FwpCdy": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_NUcATh": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_X3LFaJ": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_yPrURr": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_FwpCdy",
-        "column_NUcATh",
-        "column_X3LFaJ",
-        "column_yPrURr"
-      ],
+    "custom_liquid_CwC9mL": {
+      "type": "custom-liquid",
       "settings": {
-        "heading": "Multicolumn",
-        "marker_style": "style1",
-        "description": "<p>Add a short description for this section<\/p>",
-        "columns_desktop": 4,
-        "mobile_swipe": false,
-        "image_ratio": "adapt",
-        "text_alignment": "left",
-        "heading_size": "h5",
-        "color_heading": "#1a1c1d",
-        "marker_color": "#FD6262",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "custom_liquid": ""
       }
     },
     "logo_list_RWbxLf": {
@@ -1119,7 +1054,7 @@
     "text_with_icons_MqACi7",
     "custom_liquid_8YjDef",
     "single_image_XMGMeB",
-    "multicolumn_logos_FacVj4",
+    "custom_liquid_CwC9mL",
     "logo_list_RWbxLf",
     "multicolumn_WygXNb",
     "rich_text_Q8UQ7e",
