@@ -5,10 +5,7 @@
   assign background_image = section.settings.image
 -%}
 
-<div
-  class="image-text-logo"
-  style="background: url({{ background_image }}) top center;background-size: cover"
->
+<div class="image-text-logo">
   <div class="image-text_bg">
     {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
   </div>
