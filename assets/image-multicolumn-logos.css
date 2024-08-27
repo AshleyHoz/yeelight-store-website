@@ -21,6 +21,7 @@
 
 .image-multicolumn-logos .image-multicolumn_container {
   position: relative;
+  padding: 100px 0;
 }
 
 .image-multicolumn-logos.text-alignment--center .section-header {
@@ -33,19 +34,55 @@
   text-align: right;
 }
 
+.image-multicolumn-logos .image-multicolumn_container .section-header {
+  margin-bottom: 60px;
+}
+
+.image-multicolumn-logos .image-multicolumn_container .section-header .section-header--title {
+  background: linear-gradient(111deg, #69bff9 43.56%, #b96af3 48.16%, #e9685e 52.61%, #f2ac3e 57.1%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
 .multicolumn__column {
-  margin-bottom: 40px;
+  padding: 24px;
 }
 .multicolumn__column.carousel__slide {
   margin-bottom: 0;
 }
-.multicolumn__column h4 {
-  margin-bottom: 8px;
+.multicolumn__column .multicolumn__title {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: normal;
+}
+.multicolumn__column:first-child .multicolumn__title {
+  background: linear-gradient(94deg, #86e962 0.62%, #2aae5c 100.62%);
+}
+.multicolumn__column:nth-child(2) .multicolumn__title {
+  background: linear-gradient(106deg, #bc94ff -0.02%, #9f66ff 100.84%);
+}
+.multicolumn__column:nth-child(3) .multicolumn__title {
+  background: linear-gradient(104deg, #ffb37f -0.02%, #ff7b0d 94.94%);
+}
+.multicolumn__column:last-child .multicolumn__title {
+  background: linear-gradient(103deg, #ff759f 0.59%, #ff196e 100.59%);
 }
 .multicolumn__column p {
-  margin-bottom: 12px;
-  font-size: 0.9375rem;
-  color: var(--color-text, var(--color-body, #2c2d2e));
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  opacity: 0.8;
+  margin-bottom: 0;
 }
 .multicolumn__column .text-button {
   margin-right: 0;
@@ -55,7 +92,6 @@
   display: inline-block;
   width: 100%;
   overflow: hidden;
-  margin-bottom: 15px;
   max-width: 100%;
 }
 .multicolumn__image--inner {
