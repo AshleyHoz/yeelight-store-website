@@ -549,6 +549,7 @@
         "column_Rygefn": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Overseas01.png",
             "image_full_width": false,
             "image_link": "",
             "title": "Column",
@@ -560,6 +561,7 @@
         "column_KwQMMF": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Overseas02.png",
             "image_full_width": false,
             "image_link": "",
             "title": "Column",
@@ -571,6 +573,7 @@
         "column_bhYHEt": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Overseas03.png",
             "image_full_width": false,
             "image_link": "",
             "title": "Column",
@@ -582,6 +585,7 @@
         "column_bJEm86": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Overseas04.png",
             "image_full_width": false,
             "image_link": "",
             "title": "Column",
