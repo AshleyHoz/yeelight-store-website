@@ -37,7 +37,7 @@
   <div class="image-multicolumn_bg">
     {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
   </div>
-  <div class="row">
+  <div class="row image-multicolumn_container">
     <div class="small-12 columns">
       {% render 'section-header',
         section_heading: section_heading,

@@ -19,6 +19,10 @@
   height: 100%;
 }
 
+.image-multicolumn-logos .image-multicolumn_container {
+  position: relative;
+}
+
 .image-multicolumn-logos.text-alignment--center .section-header {
   justify-content: center;
   text-align: center;
