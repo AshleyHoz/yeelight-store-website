@@ -514,6 +514,15 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
+            "image": "shopify:\/\/shop_images\/DesignBg04.png",
+            "link": ""
+          }
+        },
+        "logo_Vtn34L": {
+          "type": "logo",
+          "settings": {
+            "logo_heading": "Logo list",
+            "image": "shopify:\/\/shop_images\/DesignBg05.png",
             "link": ""
           }
         }
@@ -522,7 +531,8 @@
         "logo_DfbNEY",
         "logo_NLQ8Pd",
         "logo_Et8Lha",
-        "logo_C6LWgp"
+        "logo_C6LWgp",
+        "logo_Vtn34L"
       ],
       "settings": {
         "heading": "Exquisite Design",
