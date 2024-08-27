@@ -1,4 +1,4 @@
-{{ 'image-text-desc.css' | asset_url | stylesheet_tag }}
+{{ 'image-text-logo.css' | asset_url | stylesheet_tag }}
 {%- liquid
   assign section_heading = section.settings.heading
   assign section_description = section.settings.description
@@ -6,7 +6,7 @@
 -%}
 
 <div
-  class="image-text-desc"
+  class="image-text-logo"
   style="background: url({{ background_image }}) top center;background-size: cover"
 >
   <div class="image-text_bg">
@@ -34,8 +34,8 @@
 </div>
 {% schema %}
 {
-  "name": "Image Text Desc",
-  "class": "section-image-text-desc",
+  "name": "Image Text Logo",
+  "class": "section-image-text-logo",
   "settings": [
     {
       "type": "text",
@@ -112,7 +112,7 @@
   ],
   "presets": [
     {
-      "name": "Image Text Desc",
+      "name": "Image Text Logo",
       "blocks": [
         {
           "type": "logo"
