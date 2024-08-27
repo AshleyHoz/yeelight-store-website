@@ -9,8 +9,9 @@
   class="image-text-desc"
   style="background: url({{ background_image }}) top center;background-size: cover"
 >
-  <div class="section-max-width">
-    <div class="small-12">
+  <image class="image-text_bg" src="{{ background_image}}" />
+  <div class="image-text_container">
+    <div class="small-12 section-max-width">
       {% render 'section-header', section_heading: section_heading %}
       <div class="image-text_desc">
         {{ section_description }}

@@ -225,7 +225,7 @@
     >
   </product-card>
 {%- else -%}
-  <product-card class=" product-card text-{{ product_content_alignment }} product-card--content-spacing-{{ info_spacing }} product-card--border-{{ product_card_border }} {{ product_card_shadow_class }}">
+  <product-card class="product-card text-{{ product_content_alignment }} product-card--content-spacing-{{ info_spacing }} product-card--border-{{ product_card_border }} {{ product_card_shadow_class }}">
     <figure class="product-featured-image {% if settings.products_hover_images %}thb-hover{% endif %}">
       <a
         href="{{ product_card_product.url | within: collection }}"

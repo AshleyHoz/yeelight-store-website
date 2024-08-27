@@ -1,5 +1,20 @@
 .image-text-desc {
   padding: 100px 0;
+  position: relative;
+}
+
+.image-text_bg {
+  width: 100%;
+  height: 100%;
+}
+
+.image-text_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
 .image-text-desc .section-max-width {
@@ -15,7 +30,7 @@
   line-height: normal;
   margin-bottom: 40px;
   width: 70%;
-  margin: 0 auto;
+  margin: 10px auto 0;
 }
 
 .image-text_inner {
@@ -26,7 +41,7 @@
 }
 
 .image-text_inner .logo-image {
-  width: 310px;
+  width: 280px;
   height: auto;
   margin: 0 24px 24px 0;
 }

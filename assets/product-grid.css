@@ -218,6 +218,9 @@
   margin: 20px;
   cursor: pointer;
 }
+.product-card .product-card-view:hover {
+  background: linear-gradient(103deg, #111bff 0%, #fd119e 100%), var(----Dark, rgba(255, 255, 255, 0.1));
+}
 .product-card .product-featured-image {
   margin-bottom: 15px;
   position: relative;
