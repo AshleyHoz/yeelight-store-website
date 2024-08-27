@@ -533,16 +533,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "single_image_XMGMeB": {
-      "type": "single-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/OurSearch.png",
-        "image_mobile": "shopify:\/\/shop_images\/platforms_5f853c8f-e876-4151-ae65-7a7c82835eec.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "custom_liquid_CwC9mL": {
       "type": "image-multicolumn-logos",
       "blocks": {
@@ -1123,7 +1113,6 @@
     "rich_text_Qb3iUW",
     "text_with_icons_MqACi7",
     "custom_liquid_8YjDef",
-    "single_image_XMGMeB",
     "custom_liquid_CwC9mL",
     "logo_list_RWbxLf",
     "multicolumn_WygXNb",
