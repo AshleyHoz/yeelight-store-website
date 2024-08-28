@@ -71,7 +71,7 @@
   .section-header--title {
     text-align: center;
     color: #fff;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
@@ -87,22 +87,6 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
-
-  .featured-collection--row .products {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .featured-collection--row .products .columns {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .featured-collection--row .products .columns .product-card {
-    margin: 0 0 20px;
   }
 
   .featured-collection__inner--column {
