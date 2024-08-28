@@ -65,7 +65,7 @@
   .featured-collection {
     overflow: hidden;
     position: relative;
-    padding: 20px 0 0;
+    padding: 40px 0;
   }
 
   .section-header--title {
@@ -78,14 +78,15 @@
   }
 
   .featured-collection__inner {
-    margin: 20px 0 0;
+    margin: 24px 0 0;
   }
 
   .featured-collection--row {
     margin: 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .featured-collection--row .products {
@@ -102,6 +103,12 @@
 
   .featured-collection--row .products .columns .product-card {
     margin: 0 0 20px;
+  }
+
+  .featured-collection__inner--column {
+    width: calc(50% - 6px);
+    flex: none;
+    padding: 0;
   }
 }
 .featured-collection .products.row {
