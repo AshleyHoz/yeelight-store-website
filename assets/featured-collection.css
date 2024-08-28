@@ -82,7 +82,7 @@
   }
 
   .featured-collection--row {
-    margin: 0;
+    margin: 0 0 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -92,7 +92,7 @@
   .featured-collection__inner--column {
     width: calc(50% - 6px);
     flex: none;
-    padding: 0;
+    padding: 0 !important;
   }
 }
 .featured-collection .products.row {
