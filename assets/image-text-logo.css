@@ -60,7 +60,7 @@
   }
 
   .image-text-logo .section-max-width {
-    width: 100%;
+    max-width: 100%;
   }
 
   .image-text-logo .image-text_desc {
