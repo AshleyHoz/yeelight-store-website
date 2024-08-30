@@ -186,7 +186,7 @@
 
 @media only screen and (max-width: 767px) {
   .text-with-icons {
-    padding: 40px 16px 28px;
+    padding: 40px 16px;
   }
 
   .text-with-icons.swipe-on-mobile .text-with-icons__inner {
