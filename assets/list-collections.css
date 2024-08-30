@@ -276,7 +276,7 @@
 
 @media only screen and (max-width: 767px) {
   .custom-collection-list--row {
-    padding: 40px 16px 16px;
+    padding: 40px 16px 0;
   }
 
   .custom-collection-list-header {
