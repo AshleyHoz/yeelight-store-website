@@ -740,7 +740,7 @@
 
   .product-card .price .custom-amount-ins {
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
@@ -748,7 +748,7 @@
 
   .product-card .price .custom-amount-del {
     color: rgba(255, 255, 255, 0.4);
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     line-height: normal;
     text-decoration-line: strikethrough;

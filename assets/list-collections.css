@@ -276,7 +276,7 @@
 
 @media only screen and (max-width: 767px) {
   .custom-collection-list--row {
-    padding: 40px 16px 0;
+    padding: 40px 16px 16px;
   }
 
   .custom-collection-list-header {
@@ -285,12 +285,11 @@
 
   .custom-collection-list-column {
     width: calc(50% - 6px);
-    margin-bottom: 12px;
     flex: none;
   }
 
   .collection-grid {
-    grid-gap: 0;
+    grid-gap: 12px;
   }
 
   .custom-collection-card--title,

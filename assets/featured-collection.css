@@ -98,6 +98,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 12px;
   }
 
   .featured-collection__inner--column {
@@ -150,6 +151,14 @@
   .featured-collection.swipe-on-mobile .featured-collection__inner.display-type--grid .products.row .columns {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  .featured-collection__inner .row {
+    margin: 0;
+  }
+
+  .custom-text--button {
+    margin-top: 24px;
   }
 }
 .featured-collection .text-center .button {
