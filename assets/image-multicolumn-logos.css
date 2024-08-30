@@ -4,6 +4,7 @@
 
 .image-multicolumn-logos {
   position: relative;
+  background: #fff;
 }
 
 .image-multicolumn-logos .image-multicolumn_bg {
@@ -190,6 +191,14 @@
 
   .multicolumn__column p {
     font-size: 12px;
+  }
+
+  .image-multicolumn-logos .image-multicolumn_container .section-header .section-header--title {
+    font-size: 24px;
+  }
+
+  .image-multicolumn_bg {
+    display: none;
   }
 }
 
