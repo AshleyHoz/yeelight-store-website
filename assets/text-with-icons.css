@@ -195,7 +195,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    grid-gap: 0;
+    grid-gap: 12px;
   }
 
   .text-with-icons.swipe-on-mobile .text-with-icons__inner::-webkit-scrollbar {
