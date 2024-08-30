@@ -419,20 +419,24 @@
   display: flex;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .shop-the-look {
     display: block;
-    padding: 20px 0 20px;
+    padding: 40px 16px 16px;
+  }
+
+  .custom-shop-look-row {
+    padding: 0;
   }
 
   .shop-look-header--title {
     text-align: center;
     color: #fff;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
   }
 
   .shop-look-buttons-container {
