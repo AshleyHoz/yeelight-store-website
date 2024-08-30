@@ -32,9 +32,6 @@
   .collection-grid.swipe-on-mobile::-webkit-scrollbar {
     display: none;
   }
-  .collection-grid.swipe-on-mobile .collection-card {
-    margin-bottom: 10px;
-  }
 }
 @media only screen and (max-width: 767px) {
   .collection-grid.swipe-on-mobile.mobile-columns--2 {
@@ -288,6 +285,8 @@
 
   .custom-collection-list-column {
     width: calc(50% - 6px);
+    margin-bottom: 12px;
+    flex: auto;
   }
 
   .collection-grid {
@@ -295,5 +294,9 @@
   }
 
   .custom-collection-card--title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 12px;
   }
 }
