@@ -73,7 +73,6 @@
   z-index: 1;
   background: rgba(255, 255, 255, 0.05);
   overflow: hidden;
-  width: calc(50% - 6px);
   background: linear-gradient(251deg, rgba(255, 94, 94, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
 }
 /* .text-with-icons__block::before {
@@ -207,6 +206,7 @@
   }
 
   .text-with-icons__block {
+    width: calc(50% - 6px);
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 12px;
