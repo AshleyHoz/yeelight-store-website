@@ -22,15 +22,18 @@
   text-align: right;
 }
 .text-with-icons__inner {
-  display: flex;
+  display: grid;
+  grid-gap: 40px 20px;
   justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  grid-auto-columns: minmax(250px, 300px);
 }
 @media only screen and (min-width: 768px) {
   .text-with-icons {
     padding: 40px 0 160px;
+  }
+
+  .text-with-icons__inner {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
   }
 
   .text-with-icons .section-header {
@@ -115,8 +118,8 @@
 }
 .text-with-icons__icon img {
   display: block;
-  height: 48px;
-  width: 48px;
+  height: 40px;
+  width: 40px;
   object-fit: contain;
 }
 .text-with-icons.icon-top .text-with-icons__block {
@@ -139,8 +142,8 @@
   height: 32px;
 }
 .text-with-icons.icon-medium .text-with-icons__icon img {
-  height: 48px;
-  width: 48px;
+  height: 40px;
+  width: 40px;
 }
 .text-with-icons.icon-large .text-with-icons__icon img {
   height: 64px;
@@ -187,6 +190,14 @@
     padding: 40px 16px 28px;
   }
 
+  .text-with-icons.swipe-on-mobile .text-with-icons__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
   .text-with-icons.swipe-on-mobile .text-with-icons__inner::-webkit-scrollbar {
     display: none;
   }
@@ -207,5 +218,11 @@
 
   .text-with-icons__block-content p {
     font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .text-with-icons__icon img {
+    width: 30px;
+    height: 30px;
   }
 }
