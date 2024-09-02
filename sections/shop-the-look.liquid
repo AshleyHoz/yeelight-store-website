@@ -47,7 +47,7 @@
   endunless
 -%}
 <shop-the-look class="shop-the-look section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
-  <a href="{{section_link}}" class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-row">
+  <div class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-row">
     <div class="small-12 custom-shop-look-column">
       {%- if title -%}
         <div class="shop-look-header--title">{{ title }}</div>
@@ -140,7 +140,7 @@
             </div>
           </div>
         {%- endif -%}
-        <div class="slideshow_inner">
+        <a href="{{section_link}}" class="slideshow_inner">
           {% comment %}
             {%- if request.user_agent contains 'Mobile' -%}
               <figure class="shop-the-look--area shop-the-look--mobile shop-the-look--full-width-{{ full_width }}">
@@ -201,7 +201,7 @@
             {% endfor %}
           </figure>
           {% comment %} {%- endif -%} {% endcomment %}
-        </div>
+        </a>
         {% comment %}
           {%- if request.user_agent contains 'Mobile' -%}
             <div class="shop-look-flickity-viewport shop-the-look--mobile">
@@ -283,7 +283,7 @@
             </div>
           {%- else -%}
         {% endcomment %}
-        <div class="shop-look-flickity-viewport shop-the-look--desktop">
+        <a href="{{section_link}}" class="shop-look-flickity-viewport shop-the-look--desktop">
           <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {%- if image_1 -%}
               {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
@@ -334,10 +334,10 @@
               </div>
             {%- endif -%}
           </div>
-        </div>
+        </a>
         {% comment %} {%- endif -%} {% endcomment %}
       </slide-show>
-      <div class="shop-look-product-list">
+      <a href="{{section_link}}" class="shop-look-product-list">
         <div class="shop-look-product-images">
           {% for block in section.blocks %}
             {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
@@ -359,7 +359,7 @@
             {% render 'svg-icons' with 'custom-arrow-right' %}
           </a>
         </div>
-      </div>
+      </a>
     </div>
     {% comment %}
       <div class="custom-product-list">
@@ -382,7 +382,7 @@
           <lottie-player src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="1" style="width: 60px; height: 60px;" loop autoplay></lottie-player >
       </div>
     {% endcomment %}
-  </a>
+  </div>
 </shop-the-look>
 <script src="{{ 'shop-the-look.js' | asset_url }}" defer="defer">
   var image = {{image_1}};
