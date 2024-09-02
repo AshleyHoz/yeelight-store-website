@@ -73,6 +73,24 @@
     {{ scrolling_text -}}
     {{- scrolling_text }}
   </div>
+  <div class="scrolling-images--inner-mobile">
+    {% for block in section.blocks %}
+      <a
+        class="mobile-scrolling-images--logo"
+        {% if block.settings.link %}
+          href="{{ block.settings.link | escape }}"
+        {% endif %}
+      >
+        {% if block.settings.image %}
+          <div class="mobile-scrolling-images">
+            {% assign image = block.settings.image %}
+            {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
+            {%- render 'responsive-image', image: image, sizes: master_width -%}
+          </div>
+        {% endif %}
+      </a>
+    {%- endfor -%}
+  </div>
 </div>
 {% schema %}
 {
