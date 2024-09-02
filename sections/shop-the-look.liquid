@@ -6,6 +6,7 @@
   assign disable_top_spacing = section.settings.disable_top_spacing
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
   assign title = section.settings.title
+  assign section_link = section.settings.link
   assign image_1 = section.settings.image_1
   assign image_1_mobile = section.settings.image_1_mobile
   assign image_2 = section.settings.image_2
@@ -342,13 +343,11 @@
           {% for block in section.blocks %}
             {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
             {% if hotspot_product.featured_image %}
-              <a
-                href="{{ hotspot_product.url }}"
-                title="{{ hotspot_product.title | escape }}"
+              <div
                 class="shop-look-product-image_item"
               >
                 {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
-              </a>
+              </div>
             {% endif %}
           {% endfor %}
         </div>
@@ -357,7 +356,7 @@
             <div class="shop-look-info-title">{{ footer_title }}</div>
             <div class="shop-look-info-desc">{{ footer_description }}</div>
           </div>
-          <a href="/collections/all-lights" class="shop-look-info-icon">
+          <a href="{{section_link}}" class="shop-look-info-icon">
             {% render 'svg-icons' with 'custom-arrow-right' %}
           </a>
         </div>
@@ -404,6 +403,11 @@
       "id": "title",
       "label": "Header Title",
       "info": "Wrap your text."
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
     },
     {
       "type": "header",
