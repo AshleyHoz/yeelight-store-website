@@ -29,7 +29,6 @@
   assign button_5_text = section.settings.button_5_text
   assign footer_title = section.settings.footer_title
   assign footer_description = section.settings.footer_description
-  assing navigate_page  section.settings.navigate_page
 
   unless image_1_mobile
     assign image_1_mobile = image_1
@@ -48,7 +47,7 @@
   endunless
 -%}
 <shop-the-look class="shop-the-look section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
-  <a href="{{navigate_page}}" class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-row">
+  <a href="{{section_link}}" class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-row">
     <div class="small-12 custom-shop-look-column">
       {%- if title -%}
         <div class="shop-look-header--title">{{ title }}</div>
@@ -408,16 +407,6 @@
       "type": "url",
       "id": "link",
       "label": "Link"
-    },
-    {
-      "type": "header",
-      "content": "Navigate Page"
-    },
-    {
-      "id": "navigate_page",
-      "type": "text",
-      "label": "Navigate Page",
-      "info": "Leave the label blank to hide the icon."
     },
     {
       "type": "header",
