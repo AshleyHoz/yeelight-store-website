@@ -39,6 +39,9 @@
             {%- if block.settings.button_text != blank -%}
               {% render 'text-button', url: block.settings.button_link, title: block.settings.button_text %}
             {%- endif -%}
+            <div class="mobile-footer-social">
+              {%- render 'social-links', show_label: false -%}
+            </div>
           </div>
         </div>
       {% endif %}
@@ -201,7 +204,9 @@
         %}
       </div>
       <div class="small-12 medium-8">
-        {%- render 'social-links', show_label: false -%}
+        <div class="footer-social">
+          {%- render 'social-links', show_label: false -%}
+        </div>
         <div class="footer--powered-by">
           <p>
             &copy; {{ 'now' | date: '%Y' }}

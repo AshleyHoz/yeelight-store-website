@@ -389,12 +389,15 @@
 }
 
 .mobile-line,
-.mobile-location {
+.mobile-location,
+.mobile-footer--powered-by,
+.mobile-footer-social {
   display: none;
 }
 
 @media only screen and (max-width: 767px) {
-  .footer--powered-by p {
+  .footer--powered-by p,
+  .footer-social {
     display: none;
   }
 
@@ -409,7 +412,9 @@
 
   .mobile-line,
   .mobile-location,
-  .mobile-footer--powered-by {
+  .mobile-footer--powered-by,
+  .mobile-footer-social {
     display: block;
+    width: 100%;
   }
 }
