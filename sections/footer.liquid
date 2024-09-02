@@ -191,20 +191,18 @@
   </div>
   <div class="sub-footer">
     <div class="row sub-footer--row">
-      {% comment %} <div class="small-12 columns"><hr></div> {% endcomment %}
-      {% comment %}
-        <div class="small-12 medium-8 columns">
-          {% render 'localization',
-            id: 'FooterLocalization',
-            show_language_switcher: show_language_switcher,
-            show_currency_switcher: show_currency_switcher,
-            open_top: true
-          %}
-        </div>
-      {% endcomment %}
+      <div class="mobile-line"><hr></div>
+      <div class="mobile-location">
+        {% render 'localization',
+          id: 'FooterLocalization',
+          show_language_switcher: true,
+          show_currency_switcher: true,
+          open_top: true
+        %}
+      </div>
       <div class="small-12 medium-8">
         {%- render 'social-links', show_label: false -%}
-        <div>
+        <div class="footer--powered-by">
           <p>
             &copy; {{ 'now' | date: '%Y' }}
             {{ shop.name }}, {{ copyright_text }}
@@ -227,6 +225,13 @@
             {%- endunless -%}
           </div>
         {%- endif -%}
+      </div>
+      <div class="mobile-footer--powered-by">
+        <p>
+          &copy; {{ 'now' | date: '%Y' }}
+          {{ shop.name }}, {{ copyright_text }}
+          {{ powered_by_link }}
+        </p>
       </div>
     </div>
   </div>
