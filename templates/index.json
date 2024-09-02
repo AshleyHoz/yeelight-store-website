@@ -233,7 +233,7 @@
         "product_LP69Mb"
       ],
       "settings": {
-        "title": "Illuminate Your Villa with <span>Brilliance<\/span>",
+        "title": "Illuminate Your Villa with Brilliance",
         "footer_title": "Outdoor",
         "footer_description": "Special Page",
         "button_1_icon": "custom-hallween",
@@ -252,10 +252,8 @@
         "button_4_text": "Birthday",
         "image_4": "shopify:\/\/shop_images\/Command_Center.jpg",
         "image_4_mobile": "shopify:\/\/shop_images\/Skylight03.png",
-        "button_5_icon": "custom-party",
-        "button_5_text": "Party",
-        "image_5": "shopify:\/\/shop_images\/Perfermance_Boost.jpg",
-        "image_5_mobile": "shopify:\/\/shop_images\/Skylight09.png",
+        "button_5_icon": "",
+        "button_5_text": "",
         "full_width": false,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
