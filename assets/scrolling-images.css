@@ -140,6 +140,6 @@
   }
 
   .mobile-scrolling-images--logo {
-    width: clac(50% - 6px);
+    width: calc(50% - 6px);
   }
 }
