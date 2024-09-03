@@ -33,8 +33,6 @@
   display: block;
 } */
 @media only screen and (min-width: 768px) {
-  /* .shop-the-look--mobile, */
-  .shop-look-flickity-viewport,
   .mobile-height-image {
     display: none;
   }
@@ -448,6 +446,10 @@
   position: absolute;
   left: 0;
   cursor: pointer;
+}
+
+.slideshow_inner a {
+  display: block;
 }
 
 .shop-the-look--area {
