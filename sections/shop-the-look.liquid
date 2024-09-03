@@ -140,7 +140,7 @@
             </div>
           </div>
         {%- endif -%}
-        <div class="slideshow_inner">
+        <a href="{{section_link}}" class="slideshow_inner">
           {% comment %}
             {%- if request.user_agent contains 'Mobile' -%}
               <figure class="shop-the-look--area shop-the-look--mobile shop-the-look--full-width-{{ full_width }}">
@@ -201,7 +201,7 @@
             {% endfor %}
           </figure>
           {% comment %} {%- endif -%} {% endcomment %}
-        </div>
+        </a>
         {% comment %}
           {%- if request.user_agent contains 'Mobile' -%}
             <div class="shop-look-flickity-viewport shop-the-look--mobile">
