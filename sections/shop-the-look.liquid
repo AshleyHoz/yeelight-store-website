@@ -148,8 +148,8 @@
                 class="thb-hotspot pin-white"
                 style="left: {{- block.settings.x_position | append: '%' -}}; top: {{- block.settings.y_position | append: '%' -}};"
                 data-product-handle="{{ hotspot_product.handle }}"
-                {{ block.shopify_attributes }}
               >
+                {% comment %} {{ block.shopify_attributes }} {% endcomment %}
                 <div class="thb-hotspot-content thb-pulsate">
                   {%- unless hotspot_product == empty -%}
                     <div class="loading-overlay">
