@@ -1,1 +1,53 @@
-{"sections":{"main":{"type":"main-page","settings":{}},"image_with_text_overlay_EHXcMN":{"type":"image-with-text-overlay","blocks":{"heading_GeKdfB":{"type":"heading","settings":{"text":"Customer Reviews","heading_size":"h1-xlarge"}},"text_wVYNFz":{"type":"text","settings":{"text":"<p>Here, you can find an array of reviews from customers who have chosen our products. Discover their insights, learn from their experiences and understand why Yeelight is their preferred choice. Your trust is paramount to us, and we are proud to share the reflections of our satisfied customers.<\/p>","description_size":"medium"}},"button_tif9wp":{"type":"button","settings":{"button_text":"Shop Now","button_link":"","button_color":"accent"}}},"block_order":["heading_GeKdfB","text_wVYNFz","button_tif9wp"],"settings":{"image_parallax":false,"desktop_height":"desktop-height-650","mobile_height":"mobile-height-500","full_width":true,"content_width":"medium","content_position":"bottom-center","text_alignment":"center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30,"disable_top_spacing":false,"disable_bottom_spacing":false}}},"order":["main","image_with_text_overlay_EHXcMN"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "image_with_text_overlay_EHXcMN": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_GeKdfB": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer Reviews",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GeKdfB"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TopicBackground-1.png",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "content_width": "medium",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_EHXcMN"
+  ]
+}

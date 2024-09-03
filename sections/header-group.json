@@ -50,6 +50,7 @@
         "acca6658-bd49-4cc7-be9a-c02394ef4917",
         "888fc484-50e5-4566-bad6-41e835d00d5f"
       ],
+      "disabled": true,
       "settings": {
         "announcement_bar": true,
         "announcement_bar_homepage_only": true,
