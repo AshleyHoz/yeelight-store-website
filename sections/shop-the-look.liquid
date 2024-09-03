@@ -141,45 +141,45 @@
           </div>
         {%- endif -%}
         <div class="slideshow_inner">
-          <a href="{{ section_link }}">
-            <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
-              {% for block in section.blocks %}
-                {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
-                <quick-view
-                  class="thb-hotspot pin-white"
-                  style="left: {{- block.settings.x_position | append: '%' -}}; top: {{- block.settings.y_position | append: '%' -}};"
-                  data-product-handle="{{ hotspot_product.handle }}"
-                  {{ block.shopify_attributes }}
-                >
-                  <div class="thb-hotspot-content thb-pulsate">
-                    {%- unless hotspot_product == empty -%}
-                      <div class="loading-overlay">
-                        {% render 'svg-icons' with 'thb-loading' %}
+          {% comment %} <a href="{{ section_link }}"> {% endcomment %}
+          <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
+            {% for block in section.blocks %}
+              {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
+              <quick-view
+                class="thb-hotspot pin-white"
+                style="left: {{- block.settings.x_position | append: '%' -}}; top: {{- block.settings.y_position | append: '%' -}};"
+                data-product-handle="{{ hotspot_product.handle }}"
+                {{ block.shopify_attributes }}
+              >
+                <div class="thb-hotspot-content thb-pulsate">
+                  {%- unless hotspot_product == empty -%}
+                    <div class="loading-overlay">
+                      {% render 'svg-icons' with 'thb-loading' %}
+                    </div>
+                    <div class="thb-hotspot-arrow"></div>
+                    <div class="thb-hotspot-bubble">
+                      {% if hotspot_product.featured_image %}
+                        <a
+                          href="{{ hotspot_product.url }}"
+                          title="{{ hotspot_product.title | escape }}"
+                          class="thb-hotspot-product-image"
+                        >
+                          {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
+                        </a>
+                      {% endif %}
+                      <div class="thb-hotspot-product-content">
+                        <div class="thb-hotspot-product-title">{{ hotspot_product.title }}</div>
+                        {% render 'product-price', product: hotspot_product %}
+                        {% assign text_button_title = 'sections.shop_the_look.view_product' | t %}
+                        {% render 'text-button', url: hotspot_product.url, title: text_button_title %}
                       </div>
-                      <div class="thb-hotspot-arrow"></div>
-                      <div class="thb-hotspot-bubble">
-                        {% if hotspot_product.featured_image %}
-                          <a
-                            href="{{ hotspot_product.url }}"
-                            title="{{ hotspot_product.title | escape }}"
-                            class="thb-hotspot-product-image"
-                          >
-                            {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
-                          </a>
-                        {% endif %}
-                        <div class="thb-hotspot-product-content">
-                          <div class="thb-hotspot-product-title">{{ hotspot_product.title }}</div>
-                          {% render 'product-price', product: hotspot_product %}
-                          {% assign text_button_title = 'sections.shop_the_look.view_product' | t %}
-                          {% render 'text-button', url: hotspot_product.url, title: text_button_title %}
-                        </div>
-                      </div>
-                    {%- endunless -%}
-                  </div>
-                </quick-view>
-              {% endfor %}
-            </figure>
-          </a>
+                    </div>
+                  {%- endunless -%}
+                </div>
+              </quick-view>
+            {% endfor %}
+          </figure>
+          {% comment %} </a> {% endcomment %}
         </div>
         <div class="shop-look-flickity-viewport shop-the-look--desktop">
           <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
