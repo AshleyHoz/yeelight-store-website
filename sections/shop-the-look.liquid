@@ -141,7 +141,6 @@
           </div>
         {%- endif -%}
         <div class="slideshow_inner">
-          {% comment %} <a href="{{ section_link }}"> {% endcomment %}
           <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
             {% for block in section.blocks %}
               {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
@@ -179,10 +178,9 @@
               </quick-view>
             {% endfor %}
           </figure>
-          {% comment %} </a> {% endcomment %}
         </div>
         <div class="shop-look-flickity-viewport shop-the-look--desktop">
-          <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+          <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {%- if image_1 -%}
               {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
               {% render 'responsive-image', image: image_1, sizes: master_width %}
@@ -191,8 +189,8 @@
                 {{ 'lifestyle-1' | placeholder_svg_tag }}
               </div>
             {%- endif -%}
-          </div>
-          <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+          </a>
+          <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {%- if image_2 -%}
               {% assign master_width = image_2.src.width | append: 'x' | append: image_2.src.height %}
               {% render 'responsive-image', image: image_2, sizes: master_width %}
@@ -201,8 +199,8 @@
                 {{ 'lifestyle-1' | placeholder_svg_tag }}
               </div>
             {%- endif -%}
-          </div>
-          <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+          </a>
+          <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {%- if image_3 -%}
               {% assign master_width = image_3.src.width | append: 'x' | append: image_3.src.height %}
               {% render 'responsive-image', image: image_3, sizes: master_width %}
@@ -211,8 +209,8 @@
                 {{ 'lifestyle-1' | placeholder_svg_tag }}
               </div>
             {%- endif -%}
-          </div>
-          <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+          </a>
+          <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {%- if image_4 -%}
               {% assign master_width = image_4.src.width | append: 'x' | append: image_4.src.height %}
               {% render 'responsive-image', image: image_4, sizes: master_width %}
@@ -221,8 +219,8 @@
                 {{ 'lifestyle-1' | placeholder_svg_tag }}
               </div>
             {%- endif -%}
-          </div>
-          <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+          </a>
+          <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {%- if image_5 -%}
               {% assign master_width = image_5.src.width | append: 'x' | append: image_5.src.height %}
               {% render 'responsive-image', image: image_5, sizes: master_width %}
@@ -231,7 +229,7 @@
                 {{ 'lifestyle-1' | placeholder_svg_tag }}
               </div>
             {%- endif -%}
-          </div>
+          </a>
         </div>
         {% comment %} {%- endif -%} {% endcomment %}
       </slide-show>
