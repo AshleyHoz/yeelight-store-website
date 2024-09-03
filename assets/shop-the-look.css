@@ -407,6 +407,9 @@
   object-fit: cover;
   border-radius: calc(var(--block-border-radius, 16px) / 2);
 }
+.shop-the-look .thb-hotspot-product-content {
+  text-align: left;
+}
 .shop-the-look .thb-hotspot-product-content .thb-hotspot-product-title {
   font-size: 0.875rem;
   line-height: 1.375rem;
