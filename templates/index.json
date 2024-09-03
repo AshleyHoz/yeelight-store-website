@@ -234,6 +234,7 @@
       ],
       "settings": {
         "title": "Illuminate Your Villa with Brilliance",
+        "link": "shopify:\/\/pages\/topic-1",
         "footer_title": "Outdoor",
         "footer_description": "Special Page",
         "button_1_icon": "custom-hallween",
@@ -289,6 +290,7 @@
       ],
       "settings": {
         "title": "Stylish Lighting for Your <span>Living Room<\/span>",
+        "link": "",
         "footer_title": "Living room",
         "footer_description": "Special Page",
         "button_1_icon": "custom-movie",
@@ -337,6 +339,7 @@
       ],
       "settings": {
         "title": "Epic <span>Gaming<\/span> Atmosphere",
+        "link": "",
         "footer_title": "Game Room",
         "footer_description": "Special Page",
         "button_1_icon": "custom-game",
