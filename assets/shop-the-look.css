@@ -479,17 +479,6 @@
     margin-bottom: 15px;
   }
 
-  .shop-look-buttons_item {
-    color: #fff;
-    font-size: 12px;
-    font-weight: 500;
-    text-transform: capitalize;
-    background: #ffffff1a;
-    cursor: pointer;
-    position: relative;
-    transition: color 0.3s;
-  }
-
   .shop-look-buttons_item-content {
     position: relative;
     display: flex;
@@ -574,6 +563,11 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     flex: auto;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background: transparent;
+    min-width: calc(50% - 4px);
   }
 
   .shop-look-buttons_item.active {
@@ -610,5 +604,9 @@
     background: #ffffff1a;
     -webkit-backdrop-filter: blur(50px);
     backdrop-filter: blur(50px);
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
   }
 }
