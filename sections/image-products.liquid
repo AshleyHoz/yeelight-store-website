@@ -1,0 +1,50 @@
+{{ 'image-products.css' | asset_url | stylesheet_tag }}
+{{ 'product-grid.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign section_title = section.settings.title
+-%}
+
+<div class="image-products">
+  <div class="row">
+    {% render 'section-header', section_heading: section_title %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image Products",
+  "tag": "section",
+  "class": "section-image-products",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Header Title",
+      "info": "Wrap your text."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product_handle",
+          "label": "Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shop the look",
+      "blocks": [
+        {
+          "type": "product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

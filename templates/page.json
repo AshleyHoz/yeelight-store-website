@@ -1,19 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "image_with_text_overlay_EHXcMN": {
       "type": "image-with-text-overlay",
@@ -26,11 +25,9 @@
           }
         }
       },
-      "block_order": [
-        "heading_GeKdfB"
-      ],
+      "block_order": ["heading_GeKdfB"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TopicBackground-1.png",
+        "image": "shopify://shop_images/TopicBackground-1.png",
         "image_parallax": false,
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
@@ -46,7 +43,7 @@
       }
     },
     "custom_liquid_4Fk7Mk": {
-      "type": "custom-liquid",
+      "type": "image-products",
       "settings": {
         "custom_liquid": ""
       }
@@ -59,7 +56,7 @@
         "full_width": false,
         "video_controls": true,
         "video": "",
-        "video_hosted": "shopify:\/\/files\/videos\/Yeelight Cube Smart Lamp 2.mp4",
+        "video_hosted": "shopify://files/videos/Yeelight Cube Smart Lamp 2.mp4",
         "overlay_color": "#000000",
         "overlay_opacity": 25,
         "disable_top_spacing": false,
@@ -70,7 +67,7 @@
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_video_slider_cyaCJt": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-video-slider\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-video-slider/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "show-by-tag": false,
             "layout": "classic",
@@ -91,11 +88,8 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_video_slider_cyaCJt"
-      ],
-      "settings": {
-      }
+      "block_order": ["loox_reviews_loox_video_slider_cyaCJt"],
+      "settings": {}
     },
     "collapsible_content_W8TzMd": {
       "type": "collapsible-content",
@@ -156,7 +150,7 @@
       "settings": {
         "heading": "Collapsible content",
         "marker_style": "style1",
-        "description": "<p>Add a short description for this section<\/p>",
+        "description": "<p>Add a short description for this section</p>",
         "color_bg": "transparent",
         "color_heading": "#1a1c1d",
         "marker_color": "#FD6262",
@@ -226,7 +220,7 @@
       "settings": {
         "heading": "Collapsible content",
         "marker_style": "style1",
-        "description": "<p>Add a short description for this section<\/p>",
+        "description": "<p>Add a short description for this section</p>",
         "color_bg": "transparent",
         "color_heading": "#1a1c1d",
         "marker_color": "#FD6262",
@@ -244,45 +238,40 @@
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/IconFree.png",
+            "image": "shopify://shop_images/IconFree.png",
             "heading": "Free",
-            "text": "<p>Worldwide shipping<\/p>"
+            "text": "<p>Worldwide shipping</p>"
           }
         },
         "icon_GGAFrM": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/IconShield.png",
+            "image": "shopify://shop_images/IconShield.png",
             "heading": "30 Day",
-            "text": "<p>Money Back Guarantee<\/p>"
+            "text": "<p>Money Back Guarantee</p>"
           }
         },
         "icon_UmKN3b": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/IconCorn.png",
+            "image": "shopify://shop_images/IconCorn.png",
             "heading": "Lifetime",
-            "text": "<p>Customer Support<\/p>"
+            "text": "<p>Customer Support</p>"
           }
         },
         "icon_tf9XBa": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/IconService.png",
+            "image": "shopify://shop_images/IconService.png",
             "heading": "1 Year",
-            "text": "<p>warranty<\/p>"
+            "text": "<p>warranty</p>"
           }
         }
       },
-      "block_order": [
-        "icon_839NiY",
-        "icon_GGAFrM",
-        "icon_UmKN3b",
-        "icon_tf9XBa"
-      ],
+      "block_order": ["icon_839NiY", "icon_GGAFrM", "icon_UmKN3b", "icon_tf9XBa"],
       "settings": {
         "heading": "Why Choose Us",
         "text_alignment": "center",
