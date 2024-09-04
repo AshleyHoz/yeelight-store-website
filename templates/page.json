@@ -44,10 +44,17 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "custom_liquid_4Fk7Mk": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_overlay_EHXcMN"
+    "image_with_text_overlay_EHXcMN",
+    "custom_liquid_4Fk7Mk"
   ]
 }
