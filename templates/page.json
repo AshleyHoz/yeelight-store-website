@@ -66,35 +66,33 @@
         "disable_bottom_spacing": false
       }
     },
-    "17254341218a0013df": {
+    "17254343215895ce76": {
       "type": "apps",
       "blocks": {
-        "loox_reviews_loox_card_carousel_section_f6PhRA": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "loox_reviews_loox_video_slider_cyaCJt": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-video-slider\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "maxWidth": 1100,
-            "borderRadius": 8,
-            "itemsPerView": 4,
-            "mobileItemsPerView": 1,
-            "maxNumberOfCharacters": 100,
-            "imageRatio": "0.72",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "itemBackgroundColor": "#ffffff",
-            "starsColor": "",
-            "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#FFFFFF",
-            "arrows_iconColor": "#9A9A9A",
-            "shadow": "offset-dark",
-            "border_active": false,
-            "border_width": 2,
-            "border_color": "#000000",
-            "productIds": ""
+            "show-by-tag": false,
+            "layout": "classic",
+            "shadow": "",
+            "show-rating": true,
+            "show-reviewer-name": true,
+            "hide-arrows-mobile": true,
+            "auto-play": true,
+            "show-border": false,
+            "border-width": 1,
+            "border-radius": 16,
+            "text-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "play-button-color": "",
+            "shadow-color": "",
+            "product-id": ""
           }
         }
       },
       "block_order": [
-        "loox_reviews_loox_card_carousel_section_f6PhRA"
+        "loox_reviews_loox_video_slider_cyaCJt"
       ],
       "settings": {
       }
@@ -105,6 +103,6 @@
     "image_with_text_overlay_EHXcMN",
     "custom_liquid_4Fk7Mk",
     "background_video_dY4YJx",
-    "17254341218a0013df"
+    "17254343215895ce76"
   ]
 }
