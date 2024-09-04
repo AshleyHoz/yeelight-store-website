@@ -97,78 +97,142 @@
       "settings": {
       }
     },
-    "media_with_tabs_wzVcEw": {
-      "type": "media-with-tabs",
+    "collapsible_content_W8TzMd": {
+      "type": "collapsible-content",
       "blocks": {
-        "badge_KfQm9G": {
-          "type": "badge",
+        "collapsible_tab_K746fM": {
+          "type": "collapsible_tab",
           "settings": {
-            "text": "Badge heading",
-            "color_bg": "#3f72e5",
-            "color_text": "#ffffff"
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
           }
         },
-        "heading_EBWMRR": {
-          "type": "heading",
+        "collapsible_tab_wRRhTW": {
+          "type": "collapsible_tab",
           "settings": {
-            "text": "Media with tabs",
-            "heading_size": "h3"
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
           }
         },
-        "text_6DYRLz": {
-          "type": "text",
+        "collapsible_tab_QaPGQ3": {
+          "type": "collapsible_tab",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
           }
         },
-        "tab_P7dfF6": {
-          "type": "tab",
+        "collapsible_tab_NXHrcd": {
+          "type": "collapsible_tab",
           "settings": {
-            "use_video": false,
-            "heading_icon": "ruler",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
-            "video_autoplay": true
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
           }
         },
-        "tab_q78gMV": {
-          "type": "tab",
+        "collapsible_tab_iTA3Cw": {
+          "type": "collapsible_tab",
           "settings": {
-            "use_video": false,
-            "heading_icon": "ruler",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
-            "video_autoplay": true
-          }
-        },
-        "tab_w4tVBh": {
-          "type": "tab",
-          "settings": {
-            "use_video": false,
-            "heading_icon": "ruler",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
-            "video_autoplay": true
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "badge_KfQm9G",
-        "heading_EBWMRR",
-        "text_6DYRLz",
-        "tab_P7dfF6",
-        "tab_q78gMV",
-        "tab_w4tVBh"
+        "collapsible_tab_K746fM",
+        "collapsible_tab_wRRhTW",
+        "collapsible_tab_QaPGQ3",
+        "collapsible_tab_NXHrcd",
+        "collapsible_tab_iTA3Cw"
       ],
       "settings": {
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-500",
-        "height": "adapt",
-        "desktop_layout": "image_first",
-        "color_bg": "#746461",
-        "color_text": "#ffffff",
-        "color_link": "#ffffff",
-        "color_border": "#827471",
+        "heading": "Collapsible content",
+        "marker_style": "style1",
+        "description": "<p>Add a short description for this section<\/p>",
+        "color_bg": "transparent",
+        "color_heading": "#1a1c1d",
+        "marker_color": "#FD6262",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "color_border": "#DADCE0",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "collapsible_content_FfnG4N": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_Q3NbpK": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_9q3bXp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_x3cEiV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Ttjp9q": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_t6ef3L": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_Q3NbpK",
+        "collapsible_tab_9q3bXp",
+        "collapsible_tab_x3cEiV",
+        "collapsible_tab_Ttjp9q",
+        "collapsible_tab_t6ef3L"
+      ],
+      "settings": {
+        "heading": "Collapsible content",
+        "marker_style": "style1",
+        "description": "<p>Add a short description for this section<\/p>",
+        "color_bg": "transparent",
+        "color_heading": "#1a1c1d",
+        "marker_color": "#FD6262",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "color_border": "#DADCE0",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -180,6 +244,7 @@
     "custom_liquid_4Fk7Mk",
     "background_video_dY4YJx",
     "17254343215895ce76",
-    "media_with_tabs_wzVcEw"
+    "collapsible_content_W8TzMd",
+    "collapsible_content_FfnG4N"
   ]
 }
