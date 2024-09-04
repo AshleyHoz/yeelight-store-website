@@ -244,7 +244,8 @@
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "heading": "Heading",
+            "image": "shopify:\/\/shop_images\/IconFree.png",
+            "heading": "HeadingF",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
@@ -263,18 +264,27 @@
             "heading": "Heading",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
+        },
+        "icon_GGAFrM": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "Heading",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
         }
       },
       "block_order": [
         "icon_839NiY",
         "icon_UmKN3b",
-        "icon_tf9XBa"
+        "icon_tf9XBa",
+        "icon_GGAFrM"
       ],
       "settings": {
         "heading": "Featured Collection",
         "text_alignment": "left",
         "icon_position": "left",
-        "icon_size": "large",
+        "icon_size": "medium",
         "heading_size": "large",
         "mobile_swipe": true,
         "color_bg": "transparent",
