@@ -13,6 +13,7 @@
 
 .image-products .image-products--img {
   border-radius: 30px;
+  max-width: calc(50% + 24px);
 }
 
 .mobile-cover-img {
