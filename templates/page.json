@@ -96,6 +96,82 @@
       ],
       "settings": {
       }
+    },
+    "media_with_tabs_wzVcEw": {
+      "type": "media-with-tabs",
+      "blocks": {
+        "badge_KfQm9G": {
+          "type": "badge",
+          "settings": {
+            "text": "Badge heading",
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
+          }
+        },
+        "heading_EBWMRR": {
+          "type": "heading",
+          "settings": {
+            "text": "Media with tabs",
+            "heading_size": "h3"
+          }
+        },
+        "text_6DYRLz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "tab_P7dfF6": {
+          "type": "tab",
+          "settings": {
+            "use_video": false,
+            "heading_icon": "ruler",
+            "heading": "Tab",
+            "description": "Add a short description for this tab",
+            "video_autoplay": true
+          }
+        },
+        "tab_q78gMV": {
+          "type": "tab",
+          "settings": {
+            "use_video": false,
+            "heading_icon": "ruler",
+            "heading": "Tab",
+            "description": "Add a short description for this tab",
+            "video_autoplay": true
+          }
+        },
+        "tab_w4tVBh": {
+          "type": "tab",
+          "settings": {
+            "use_video": false,
+            "heading_icon": "ruler",
+            "heading": "Tab",
+            "description": "Add a short description for this tab",
+            "video_autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "badge_KfQm9G",
+        "heading_EBWMRR",
+        "text_6DYRLz",
+        "tab_P7dfF6",
+        "tab_q78gMV",
+        "tab_w4tVBh"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "height": "adapt",
+        "desktop_layout": "image_first",
+        "color_bg": "#746461",
+        "color_text": "#ffffff",
+        "color_link": "#ffffff",
+        "color_border": "#827471",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -103,6 +179,7 @@
     "image_with_text_overlay_EHXcMN",
     "custom_liquid_4Fk7Mk",
     "background_video_dY4YJx",
-    "17254343215895ce76"
+    "17254343215895ce76",
+    "media_with_tabs_wzVcEw"
   ]
 }
