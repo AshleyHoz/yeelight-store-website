@@ -2,11 +2,33 @@
 {{ 'product-grid.css' | asset_url | stylesheet_tag }}
 {%- liquid
   assign section_title = section.settings.title
+  assign conver_image = section.settings.image
+  assign mobile_cover_image = section.settings.image_mobile
+  assign section_reverse = section.settings.reverse
 -%}
 
 <div class="image-products">
   <div class="row">
     {% render 'section-header', section_heading: section_title %}
+    <div class="image-products-container {{section_reverse}}">
+      <div class="image-products--img">
+        <div class="mobile-cover-img">
+          {% assign master_width = mobile_cover_image.src.width | append: 'x' | append: mobile_cover_image.src.height %}
+          {% render 'responsive-image', image: mobile_cover_image, sizes: master_width %}
+        </div>
+        <div class="cover-img">
+          {% assign master_width = conver_image.src.width | append: 'x' | append: conver_image.src.height %}
+          {% render 'responsive-image', image: conver_image, sizes: master_width %}
+        </div>
+      </div>
+      <div class="image-products--product">
+        {% for block in section.blocks %}
+          <div class="product-item">
+            {% render 'product-card', product_card_product: block.settings.product %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </div>
 
@@ -21,6 +43,34 @@
       "id": "title",
       "label": "Header Title",
       "info": "Wrap your text."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1280 x 650 px .jpg recommended."
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Mobile image",
+      "info": "750 x 800 px .jpg recommended. Default image is used if none is selected. To position the hotspots precisely, switch to mobile mode."
+    },
+    {
+      "type": "select",
+      "id": "reverse",
+      "options": [
+        {
+          "value": "row",
+          "label": "Right"
+        },
+        {
+          "value": "row-reverse",
+          "label": "Left"
+        }
+      ],
+      "default": "row",
+      "label": "Product Position"
     }
   ],
   "blocks": [
@@ -30,7 +80,7 @@
       "settings": [
         {
           "type": "product",
-          "id": "product_handle",
+          "id": "product",
           "label": "Product"
         }
       ]
