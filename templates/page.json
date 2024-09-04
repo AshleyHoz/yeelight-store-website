@@ -245,45 +245,48 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify:\/\/shop_images\/IconFree.png",
-            "heading": "HeadingF",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "icon_UmKN3b": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "heading": "Heading",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "icon_tf9XBa": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "heading": "Heading",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "heading": "Free",
+            "text": "<p>Worldwide shipping<\/p>"
           }
         },
         "icon_GGAFrM": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "heading": "Heading",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/IconShield.png",
+            "heading": "30 Day",
+            "text": "<p>Money Back Guarantee<\/p>"
+          }
+        },
+        "icon_UmKN3b": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/IconCorn.png",
+            "heading": "Lifetime",
+            "text": "<p>Customer Support<\/p>"
+          }
+        },
+        "icon_tf9XBa": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/IconService.png",
+            "heading": "1 Year",
+            "text": "<p>warranty<\/p>"
           }
         }
       },
       "block_order": [
         "icon_839NiY",
+        "icon_GGAFrM",
         "icon_UmKN3b",
-        "icon_tf9XBa",
-        "icon_GGAFrM"
+        "icon_tf9XBa"
       ],
       "settings": {
         "heading": "Featured Collection",
         "text_alignment": "left",
-        "icon_position": "left",
+        "icon_position": "right",
         "icon_size": "medium",
         "heading_size": "large",
         "mobile_swipe": true,
