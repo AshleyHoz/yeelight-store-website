@@ -47,8 +47,41 @@
     },
     "custom_liquid_4Fk7Mk": {
       "type": "image-products",
+      "blocks": {
+        "product_nmh8jV": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        },
+        "product_Qger9E": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-smart-cube"
+          }
+        },
+        "product_wG8iCm": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_BTfM4U": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-gu10-smart-bulb"
+          }
+        }
+      },
+      "block_order": [
+        "product_nmh8jV",
+        "product_Qger9E",
+        "product_wG8iCm",
+        "product_BTfM4U"
+      ],
       "settings": {
-        "title": "Illuminate Your Villa with Brilliance"
+        "title": "Illuminate Your Villa with Brilliance",
+        "reverse": "row"
       }
     },
     "background_video_dY4YJx": {
