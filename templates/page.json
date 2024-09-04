@@ -236,6 +236,53 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "text_with_icons_LiHffF": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_839NiY": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "Heading",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "icon_UmKN3b": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "Heading",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "icon_tf9XBa": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "Heading",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_839NiY",
+        "icon_UmKN3b",
+        "icon_tf9XBa"
+      ],
+      "settings": {
+        "heading": "Featured Collection",
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "transparent",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -245,6 +292,7 @@
     "background_video_dY4YJx",
     "17254343215895ce76",
     "collapsible_content_W8TzMd",
-    "collapsible_content_FfnG4N"
+    "collapsible_content_FfnG4N",
+    "text_with_icons_LiHffF"
   ]
 }
