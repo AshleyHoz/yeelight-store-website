@@ -275,8 +275,8 @@
         "color_text": "#ffffff",
         "color_link": "#ffffff",
         "color_border": "#ffffff",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "collapsible_content_FfnG4N": {
