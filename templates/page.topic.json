@@ -286,7 +286,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Do you ship overseas?",
-            "open": false,
+            "open": true,
             "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
             "page": ""
           }
@@ -295,7 +295,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "How long will it take to get my orders?",
-            "open": false,
+            "open": true,
             "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days.<br\/>Delivery details will be provided in your confirmation email.<\/p>",
             "page": ""
           }
