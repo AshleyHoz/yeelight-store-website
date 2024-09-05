@@ -470,10 +470,10 @@
         "disable_bottom_spacing": false
       }
     },
-    "custom_liquid_CwC9mL": {
+    "image_multicolumn_logos_Kw6aGG": {
       "type": "image-multicolumn-logos",
       "blocks": {
-        "column_Rygefn": {
+        "column_hmri3E": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Overseas01.png",
@@ -485,7 +485,7 @@
             "link": ""
           }
         },
-        "column_KwQMMF": {
+        "column_J6rMfP": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Overseas02.png",
@@ -497,7 +497,7 @@
             "link": ""
           }
         },
-        "column_bhYHEt": {
+        "column_mwJB4Q": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Overseas03.png",
@@ -509,7 +509,7 @@
             "link": ""
           }
         },
-        "column_bJEm86": {
+        "column_CDzWUA": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Overseas04.png",
@@ -523,27 +523,27 @@
         }
       },
       "block_order": [
-        "column_Rygefn",
-        "column_KwQMMF",
-        "column_bhYHEt",
-        "column_bJEm86"
+        "column_hmri3E",
+        "column_J6rMfP",
+        "column_mwJB4Q",
+        "column_CDzWUA"
       ],
       "settings": {
         "heading": "Our Reach",
         "image": "shopify:\/\/shop_images\/OverseasBg.png",
         "marker_style": "style1",
-        "description": "",
+        "description": "<p>Add a short description for this section<\/p>",
         "columns_desktop": 4,
         "mobile_swipe": false,
         "image_ratio": "adapt",
         "text_alignment": "center",
         "heading_size": "h5",
         "color_heading": "#1a1c1d",
-        "marker_color": "#fd6262",
+        "marker_color": "#FD6262",
         "color_text": "#2c2d2e",
         "color_links": "#2c2d2e",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "logo_list_RWbxLf": {
@@ -831,7 +831,7 @@
     "collection_list_7U8MXe",
     "text_with_icons_MqACi7",
     "image_text_logo_XX38Ra",
-    "custom_liquid_CwC9mL",
+    "image_multicolumn_logos_Kw6aGG",
     "logo_list_RWbxLf",
     "rich_text_Q8UQ7e",
     "1711998083986c24cc",
