@@ -270,10 +270,10 @@
         "mobile_height": "mobile-height-500",
         "height": "adapt",
         "desktop_layout": "image_first",
-        "color_bg": "#746461",
+        "color_bg": "#121212",
         "color_text": "#ffffff",
         "color_link": "#ffffff",
-        "color_border": "#827471",
+        "color_border": "#ffffff",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
