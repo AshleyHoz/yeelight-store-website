@@ -9,13 +9,6 @@
   padding-bottom: 40px;
 }
 
-.image-products .section-header .section-header--title {
-  font-size: 40px;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: capitalize;
-}
-
 .image-products .image-products-container {
   display: flex;
   justify-content: space-between;
@@ -74,13 +67,6 @@
 
   .image-products .section-header {
     padding-bottom: 16px;
-  }
-
-  .image-products .section-header .section-header--title {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
   }
 
   .mobile-cover-img {

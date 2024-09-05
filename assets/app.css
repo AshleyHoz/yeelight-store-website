@@ -5466,3 +5466,40 @@ input[type='radio'],
   top: auto;
   bottom: -20%;
 }
+.section-header--content {
+  width: 100%;
+  text-align: center;
+}
+.section-header--title {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.section-header--title > span {
+  background: linear-gradient(
+    108deg,
+    #46d3ff 0.14%,
+    #6178ff 24.02%,
+    #a750ff 39.05%,
+    #ff1ec0 56.82%,
+    #ff784b 77.82%,
+    #ffce51 95.45%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-header--title {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+}
