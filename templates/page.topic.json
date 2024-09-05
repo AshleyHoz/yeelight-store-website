@@ -285,45 +285,45 @@
         "collapsible_tab_nreN7t": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Do you ship overseas?",
             "open": false,
-            "content": "",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_YzpmTF": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How long will it take to get my orders?",
             "open": false,
-            "content": "",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days.<br\/>Delivery details will be provided in your confirmation email.<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_KhjgHF": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Why am I not able to use the referral code I have?",
             "open": false,
-            "content": "",
+            "content": "<p>Why am I not able to use the referral code I have?<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_mG8qNc": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "I forgot to use my discount code during the purchase. Can I refund the difference?",
             "open": false,
-            "content": "",
+            "content": "<p>I forgot to use my discount code during the purchase. Can I refund the difference?<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_BjMVhm": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Why my order was canceled?",
             "open": false,
-            "content": "",
+            "content": "<p>Why my order was canceled?<\/p>",
             "page": ""
           }
         }
@@ -342,7 +342,7 @@
         "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#ffffff",
         "marker_color": "#fd6262",
-        "color_text": "#FFFFFF",
+        "color_text": "#ffffff",
         "color_links": "#2c2d2e",
         "color_border": "#dadce0",
         "disable_top_spacing": true,
