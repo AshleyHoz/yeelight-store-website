@@ -35,10 +35,6 @@
   .text-with-icons__inner {
     grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
   }
-
-  .text-with-icons .section-header {
-    margin-bottom: 40px;
-  }
 }
 @media only screen and (min-width: 768px) {
   .text-with-icons.icon-columns-2 .text-with-icons__inner {
@@ -200,10 +196,6 @@
 
   .text-with-icons.swipe-on-mobile .text-with-icons__inner::-webkit-scrollbar {
     display: none;
-  }
-
-  .text-with-icons .section-header {
-    margin-bottom: 24px;
   }
 
   .text-with-icons__block {

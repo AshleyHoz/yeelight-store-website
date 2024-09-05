@@ -7,7 +7,7 @@
 .section-header--content {
   width: 100%;
 }
-.section-header {
+.featured-collection .section-header {
   padding: 0;
 }
 .featured-collection__inner {

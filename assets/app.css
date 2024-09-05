@@ -5290,7 +5290,7 @@ input[type='radio'],
 }
 
 .section-header {
-  padding: 0 0 30px;
+  padding: 0 0 40px;
   display: flex;
   flex-direction: column;
 }
@@ -5302,9 +5302,7 @@ input[type='radio'],
     grid-gap: 30px;
   }
 }
-.section-header--title {
-  margin-bottom: 10px;
-}
+
 .section-header--title:only-child {
   margin-bottom: 0;
 }
@@ -5466,6 +5464,9 @@ input[type='radio'],
   top: auto;
   bottom: -20%;
 }
+.section-header {
+  padding-bottom: 40px;
+}
 .section-header--content {
   width: 100%;
   text-align: center;
@@ -5494,6 +5495,9 @@ input[type='radio'],
 }
 
 @media only screen and (max-width: 767px) {
+  .section-header {
+    padding-bottom: 24px;
+  }
   .section-header--title {
     text-align: center;
     color: #fff;

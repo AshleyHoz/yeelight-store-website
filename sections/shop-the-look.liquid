@@ -50,7 +50,7 @@
   <div class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-row">
     <div class="small-12 custom-shop-look-column">
       {%- if title -%}
-        <div class="shop-look-header--title">{{ title }}</div>
+        {% render 'section-header', section_heading: title %}
       {%- endif -%}
       {% comment %}
         {%- if button_1_text and button_2_text and button_3_text and button_4_text and button_5_text -%}
