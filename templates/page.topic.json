@@ -226,8 +226,7 @@
         "tab_iAjBpe": {
           "type": "tab",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image-dropdown-1_3_1724738191174-1724738472.jpg",
-            "use_video": false,
+            "use_video": true,
             "video_hosted": "shopify:\/\/files\/videos\/alf1.mp4",
             "heading_icon": "ruler",
             "heading": "Tab",
@@ -238,7 +237,7 @@
         "tab_CYQ3rn": {
           "type": "tab",
           "settings": {
-            "use_video": false,
+            "use_video": true,
             "video_hosted": "shopify:\/\/files\/videos\/goldstar-1.mp4",
             "heading_icon": "ruler",
             "heading": "Tab",
@@ -249,7 +248,7 @@
         "tab_a8dTgJ": {
           "type": "tab",
           "settings": {
-            "use_video": false,
+            "use_video": true,
             "video_hosted": "shopify:\/\/files\/videos\/Yeelight Cabinet Light.mp4",
             "heading_icon": "ruler",
             "heading": "Tab",
