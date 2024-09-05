@@ -12,42 +12,6 @@
     "slideshow_AaGJwH": {
       "type": "slideshow",
       "blocks": {
-        "slide_HmWpzr": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-new.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/banner-M.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "badge_text": "",
-            "subheading": "",
-            "heading": "Yeelight Cube Smart Lamp",
-            "heading_size": "h2",
-            "content": "Customizable ARGB Table Lamp with Magnetic Modular Design",
-            "description_size": "medium",
-            "content_position": "middle-left",
-            "text_alignment": "left",
-            "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
-            "color_slidebg_opacity": 0,
-            "color_slidebg_blur": 0,
-            "color_text": "#fdfdfd",
-            "color_badge_bg": "#ffffff",
-            "color_badge_text": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "",
-            "button_1_text": "Shop Now",
-            "button_1_color": "white",
-            "button_1_link": "shopify:\/\/products\/yeelight-smart-cube",
-            "use_text_button_1": false,
-            "button_2_text": "",
-            "button_2_color": "white",
-            "button_2_link": "",
-            "use_text_button_2": true
-          }
-        },
         "slide_B9biA3": {
           "type": "slide",
           "settings": {
@@ -155,7 +119,6 @@
         }
       },
       "block_order": [
-        "slide_HmWpzr",
         "slide_B9biA3",
         "slide_Apj7XN",
         "slide_E8nF4j"
@@ -682,66 +645,6 @@
         "marker_color": "#fd6262"
       }
     },
-    "multicolumn_WygXNb": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_VwffB9": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Crafted with Precision",
-            "text": "<p>Yeelight's accessories are meticulously crafted with precision and care, enhancing your smart home setup with elegance and sophistication.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_NfczMg": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Uncompromising Quality",
-            "text": "<p>Experience luxury with Yeelight's premium accessories, crafted from the finest materials for exceptional durability and performance.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_4KKLUw": {
-          "type": "column",
-          "settings": {
-            "image_full_width": false,
-            "image_link": "",
-            "title": "Personalized Elegance",
-            "text": "<p>Express your style with Yeelight's upgrades, designed to complement your smart bulbs and fixtures. Elevate your smart home with innovation and style.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_VwffB9",
-        "column_NfczMg",
-        "column_4KKLUw"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "|Level Up Your Gaming Experience|",
-        "marker_style": "style2",
-        "description": "<p>Immerse yourself in the ultimate gaming experience with Yeelight's state-of-the-art smart lighting solutions. Elevate your gaming setup with dynamic lighting effects that synchronize seamlessly with your gameplay, creating an electrifying atmosphere that brings every virtual world to life.<\/p>",
-        "columns_desktop": 4,
-        "mobile_swipe": false,
-        "image_ratio": "adapt",
-        "text_alignment": "center",
-        "heading_size": "h3",
-        "color_heading": "#1a1c1d",
-        "marker_color": "#3f72e5",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
     "rich_text_Q8UQ7e": {
       "type": "rich-text",
       "blocks": {
@@ -799,158 +702,6 @@
         "loox_reviews_loox_video_slider_y63DVW"
       ],
       "settings": {
-      }
-    },
-    "promotion_blocks_NpxCRX": {
-      "type": "promotion-blocks",
-      "blocks": {
-        "promotion_bEV3Qj": {
-          "type": "promotion",
-          "settings": {
-            "title": "Promotion heading",
-            "button_text": "Explore",
-            "button_link": ""
-          }
-        },
-        "promotion_LWaA8N": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/make_use_of.png",
-            "title": "Yeelight's new products will strengthen its integration with the new smart home standard, which is a bonus and helps keep Yeelight at the topo'smart lighting game.",
-            "button_text": "Explore",
-            "button_link": "https:\/\/www.makeuseof.com\/yeelight-cube-review\/"
-          }
-        },
-        "promotion_Y6ewhy": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/techradar-logo_logotyp.us.svg",
-            "title": "The Yeelight Cube makes it super easy to add smart lighting to the desk or wherever else you need it. The lights can be added in modules, and you can even design patterns and colors for your setup.",
-            "button_text": "Explore",
-            "button_link": "https:\/\/global.techradar.com\/da-dk\/reviews\/yeelight-cube-er-lanceret"
-          }
-        },
-        "promotion_VD6w3B": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/android_Central.png",
-            "title": "This Matter-enabled modular smart light is unlike anything I've used before. It's safe to say that the Yeelight Cube is the best ambientlighting product if you care about customizability.",
-            "button_text": "Explore",
-            "button_link": "https:\/\/www.androidcentral.com\/accessories\/smart-home\/yeelight-cube-review"
-          }
-        }
-      },
-      "block_order": [
-        "promotion_bEV3Qj",
-        "promotion_LWaA8N",
-        "promotion_Y6ewhy",
-        "promotion_VD6w3B"
-      ],
-      "disabled": true,
-      "settings": {
-        "mobile_swipe": true,
-        "image_ratio": "adapt",
-        "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_link": "#3f72e5",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "gallery_LGBiNY": {
-      "type": "gallery",
-      "blocks": {
-        "image_z43Naq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_8631.jpg",
-            "enable_gallery_video": false,
-            "enable_hover_play": false,
-            "subheading": "",
-            "title": "",
-            "marker_style": "style1",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "",
-            "marker_color": "#fd6262"
-          }
-        },
-        "image_RrUUNU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_8634.jpg",
-            "enable_gallery_video": false,
-            "enable_hover_play": false,
-            "subheading": "",
-            "title": "",
-            "marker_style": "style1",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "",
-            "marker_color": "#fd6262"
-          }
-        },
-        "image_T8BAhg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_8633.jpg",
-            "enable_gallery_video": false,
-            "enable_hover_play": false,
-            "subheading": "",
-            "title": "",
-            "marker_style": "style1",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "",
-            "marker_color": "#fd6262"
-          }
-        },
-        "image_wdytLT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_628733eb-126b-4d4f-9cc8-4de1ce6bbe68.jpg",
-            "enable_gallery_video": false,
-            "enable_hover_play": false,
-            "subheading": "",
-            "title": "",
-            "marker_style": "style1",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "use_text_button": false,
-            "block_link": "",
-            "marker_color": "#fd6262"
-          }
-        }
-      },
-      "block_order": [
-        "image_z43Naq",
-        "image_RrUUNU",
-        "image_T8BAhg",
-        "image_wdytLT"
-      ],
-      "disabled": true,
-      "settings": {
-        "columns_desktop": 4,
-        "full_width": false,
-        "mobile_swipe": false,
-        "image_ratio": "portrait",
-        "content_position": "bottom-left",
-        "text_alignment": "left",
-        "column_spacing": "small",
-        "heading_size": "h2",
-        "description_size": "medium",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
       }
     },
     "scrolling_images_ijGKLL": {
@@ -1069,12 +820,6 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
-    },
-    "custom_liquid_eTafiM": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-interactivity@latest\/dist\/lottie-interactivity.min.js\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@dotlottie\/player-component@latest\/dist\/dotlottie-player.mjs\" type=\"module\"><\/script>\n<script src=\"https:\/\/unpkg.com\/@lottiefiles\/lottie-player@latest\/dist\/lottie-player.js\"><\/script>"
-      }
     }
   },
   "order": [
@@ -1088,12 +833,8 @@
     "custom_liquid_8YjDef",
     "custom_liquid_CwC9mL",
     "logo_list_RWbxLf",
-    "multicolumn_WygXNb",
     "rich_text_Q8UQ7e",
     "1711998083986c24cc",
-    "promotion_blocks_NpxCRX",
-    "gallery_LGBiNY",
-    "scrolling_images_ijGKLL",
-    "custom_liquid_eTafiM"
+    "scrolling_images_ijGKLL"
   ]
 }
