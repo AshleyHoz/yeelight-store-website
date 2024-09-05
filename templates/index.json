@@ -410,10 +410,10 @@
         "disable_bottom_spacing": true
       }
     },
-    "custom_liquid_8YjDef": {
+    "image_text_logo_XX38Ra": {
       "type": "image-text-logo",
       "blocks": {
-        "logo_Et8Lha": {
+        "logo_9qi8pF": {
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
@@ -421,7 +421,7 @@
             "link": ""
           }
         },
-        "logo_C6LWgp": {
+        "logo_hwNLBf": {
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
@@ -429,7 +429,7 @@
             "link": ""
           }
         },
-        "logo_Vtn34L": {
+        "logo_BFPqA8": {
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
@@ -437,7 +437,7 @@
             "link": ""
           }
         },
-        "logo_DfbNEY": {
+        "logo_QKhtAG": {
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
@@ -445,7 +445,7 @@
             "link": ""
           }
         },
-        "logo_NLQ8Pd": {
+        "logo_yeHcyH": {
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
@@ -455,19 +455,19 @@
         }
       },
       "block_order": [
-        "logo_Et8Lha",
-        "logo_C6LWgp",
-        "logo_Vtn34L",
-        "logo_DfbNEY",
-        "logo_NLQ8Pd"
+        "logo_9qi8pF",
+        "logo_hwNLBf",
+        "logo_BFPqA8",
+        "logo_QKhtAG",
+        "logo_yeHcyH"
       ],
       "settings": {
         "heading": "Exquisite Design",
         "description": "<p>Yeelight smart lighting has been awarded 20 international design awards, including iF Design Award, reddot Award, IDEA, and Good Design Award.<\/p>",
         "image": "shopify:\/\/shop_images\/DesignBg.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "custom_liquid_CwC9mL": {
@@ -830,7 +830,7 @@
     "shop_the_look_CermnV",
     "collection_list_7U8MXe",
     "text_with_icons_MqACi7",
-    "custom_liquid_8YjDef",
+    "image_text_logo_XX38Ra",
     "custom_liquid_CwC9mL",
     "logo_list_RWbxLf",
     "rich_text_Q8UQ7e",
