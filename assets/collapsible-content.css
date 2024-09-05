@@ -56,8 +56,8 @@
   position: absolute;
   top: 50%;
   right: 0;
-  height: 20px;
-  width: 14px;
+  height: auto;
+  width: 28px;
   z-index: 5;
   margin-top: -10px;
   will-change: transform;
