@@ -25,8 +25,7 @@
 
 .image-products .image-products--img {
   border-radius: 30px;
-  width: 50%;
-  height: 100%;
+  width: 75%;
   overflow: hidden;
 }
 
@@ -39,10 +38,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 24px;
-}
-
-.image-products--product .product-card {
-  height: 100%;
 }
 
 .product-item {
