@@ -856,7 +856,7 @@ code,
   display: flex;
   flex-flow: row wrap;
 }
-.row .row {
+/* .row .row {
   margin-right: -0.25rem;
   margin-left: -0.25rem;
 }
@@ -871,7 +871,7 @@ code,
     margin-right: -0.9375rem;
     margin-left: -0.9375rem;
   }
-}
+} */
 .row .row.collapse {
   margin-right: 0;
   margin-left: 0;
