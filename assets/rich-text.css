@@ -67,3 +67,17 @@
 .rich-text.text-width-grid .rich-text__inner {
   max-width: 1440px;
 }
+
+.rich-text__inner h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width: 768px) {
+  .rich-text__inner h3 {
+    font-size: 24px;
+  }
+}
