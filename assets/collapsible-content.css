@@ -124,7 +124,7 @@
 
 @media only screen and (max-width: 767px) {
   .section-collapsible-title-content {
-    padding: 40px 16px;
+    padding: 40px 0;
   }
   .collapsible-content {
     padding: 24px;
