@@ -34,14 +34,14 @@
       class="list-collections section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"
       style="--overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}; --var-collection-list-columns:{{ columns_desktop }}; --collection-text-color: {{ text_color }}"
     >
-      <div class="custom-collection-list-header">
+      {%- if section_heading -%}
         {%- render 'section-header',
           section_heading: section_heading,
           section_description: section_description,
           marker_color: marker_color,
           marker_style: marker_style
         -%}
-      </div>
+      {%- endif -%}
       <{{ tag }} class="collection-grid collection-grid__{{ collection_layout }} {{ carousel_class }}{% if mobile_swipe %} swipe-on-mobile{% endif %} mobile-columns--{{ columns_mobile | default: 1 }}">
         {%- if collections.count > 0 -%}
           {%- for collection in collections -%}
