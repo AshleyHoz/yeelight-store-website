@@ -2,7 +2,7 @@
   padding: 60px;
 }
 
-.accordion summary span svg {
+.collapsible-content .accordion summary span svg {
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
@@ -48,7 +48,7 @@
   color: var(--color-heading, #1a1c1d);
   cursor: pointer;
 }
-.accordion summary span {
+.collapsible-content .accordion summary span {
   display: inline-flex;
   align-items: center;
   transform-origin: center;
@@ -64,7 +64,7 @@
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
-.accordion summary span svg {
+.collapsible-content .accordion summary span svg {
   transform: rotateX(180deg);
 }
 [dir='rtl'] .accordion summary {
@@ -74,7 +74,7 @@
   right: auto;
   left: 0;
 }
-.accordion summary::-webkit-details-marker {
+.collapsible-content .accordion summary::-webkit-details-marker {
   display: none;
 }
 .collapsible-content .accordion {
