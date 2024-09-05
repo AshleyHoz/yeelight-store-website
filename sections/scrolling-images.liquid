@@ -15,7 +15,7 @@
   id="scrolling-images-{{ section.id }}"
 >
   {%- if title -%}
-    <div class="scrolling-images-header--title">{{ title }}</div>
+    {% render 'section-header', section_heading: title %}
   {%- endif -%}
   <div
     class="scrolling-images--inner scrolling-images--{{ image_alignment }} direction-{{ direction }} scrolling-images--spacing-{{ column_spacing }}"

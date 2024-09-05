@@ -21,6 +21,10 @@
   padding: 100px 0;
 }
 
+.image-text-logo .section-header {
+  padding-bottom: 0;
+}
+
 .image-text-logo .section-max-width {
   max-width: 70%;
   margin: 0 auto;

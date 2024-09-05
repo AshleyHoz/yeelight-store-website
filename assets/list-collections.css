@@ -221,10 +221,6 @@
   padding: 100px 0;
 }
 
-.custom-collection-list-header {
-  margin-bottom: 40px;
-}
-
 .custom-collection-card--title {
   width: 60%;
   height: 100%;
@@ -277,10 +273,6 @@
 @media only screen and (max-width: 767px) {
   .custom-collection-list--row {
     padding: 40px 16px 16px;
-  }
-
-  .custom-collection-list-header {
-    margin-bottom: 16px;
   }
 
   .custom-collection-list-column {

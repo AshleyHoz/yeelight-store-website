@@ -8,7 +8,7 @@
   background-size: cover;
   overflow: hidden;
   background: #121212;
-  padding-bottom: 160px;
+  padding: 40px 160px;
 }
 .scrolling-images--inner {
   display: flex;
@@ -90,20 +90,6 @@
   }
 }
 
-.scrolling-images-header--title {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  padding: 40px 0;
-  color: #fff;
-  font-family: Poppins;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: capitalize;
-}
-
 .scrolling-images--inner-mobile {
   display: none;
 }
@@ -114,17 +100,7 @@
     background-size: cover;
     overflow: hidden;
     background: #121212;
-    padding: 40px 16px;
-  }
-
-  .scrolling-images-header--title {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
-    margin-bottom: 24px;
-    padding: 0;
+    padding: 40px 0;
   }
 
   .scrolling-images--inner {

@@ -36,7 +36,7 @@
 }
 
 .image-multicolumn-logos .image-multicolumn_container .section-header {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .image-multicolumn-logos .image-multicolumn_container .section-header .section-header--title {
@@ -163,7 +163,7 @@
   }
 
   .image-multicolumn-logos .image-multicolumn_container .section-header {
-    margin-bottom: 24px;
+    padding-bottom: 24px;
   }
 
   .image-multicolumn-logos .custom-multicolumn--items {

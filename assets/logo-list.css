@@ -36,7 +36,6 @@
   .logo-list--inner {
     grid-gap: 24px;
     grid-template-columns: repeat(var(--logo-columns), 1fr);
-    margin-top: 40px;
   }
 }
 
@@ -116,7 +115,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 12px;
-    margin-top: 24px;
   }
 
   .logo-list--inner.swipe-on-mobile::-webkit-scrollbar {
