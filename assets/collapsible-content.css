@@ -52,6 +52,7 @@
   will-change: transform;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  margin-left: 0;
 }
 .collapsible-content .accordion summary span svg {
   transform: rotateX(180deg);
@@ -132,6 +133,10 @@
 
   .accordion summary {
     padding-bottom: 8px;
+  }
+
+  .collapse-content--title {
+    margin-right: 16px;
   }
 }
 .collapsible-content .accordion:first-child {
