@@ -249,7 +249,7 @@
   margin: 0 0 6px 6px;
 }
 .variations .product-form__input--block input[type='radio'] + label {
-  box-shadow: 0 0 0 1px var(--color-form-border) inset;
+  box-shadow: 0 0 0 1px #1a1a1a inset;
 }
 .variations .product-form__input--block input[type='radio']:checked + label {
   z-index: 5;
@@ -1237,8 +1237,8 @@
 
 .accordion {
   display: block;
-  border-top: 1px solid var(--color-border, #dadce0);
-  border-bottom: 1px solid var(--color-border, #dadce0);
+  border-top: 1px solid #1a1a1a;
+  border-bottom: 1px solid #1a1a1a;
   margin-bottom: 25px;
 }
 .accordion + .accordion {
