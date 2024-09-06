@@ -123,6 +123,7 @@
       "settings": {
         "title": "",
         "image": "shopify:\/\/shop_images\/OverseasRedesign.png",
+        "image_mobile": "shopify:\/\/shop_images\/OverseasRedesignMobile.png",
         "reverse": "row-reverse"
       }
     },
