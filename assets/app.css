@@ -5494,6 +5494,11 @@ input[type='radio'],
   -webkit-text-fill-color: transparent;
 }
 
+.section-header--description p {
+  margin-top: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 @media only screen and (max-width: 767px) {
   .section-header {
     padding-bottom: 24px;
