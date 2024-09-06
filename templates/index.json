@@ -196,7 +196,7 @@
         "product_LP69Mb"
       ],
       "settings": {
-        "title": "Illuminate Your Villa with Brilliance",
+        "title": "Illuminate Your Villa with <span>Brilliance<\/span>",
         "link": "shopify:\/\/pages\/topic-1",
         "footer_title": "Outdoor",
         "footer_description": "Special Page",
@@ -252,7 +252,7 @@
         "product_y3gmjA"
       ],
       "settings": {
-        "title": "Stylish Lighting for Your Living Room",
+        "title": "Stylish Lighting for Your <span>Living Room<\/span>",
         "link": "shopify:\/\/pages\/topic-2",
         "footer_title": "Living room",
         "footer_description": "Special Page",
@@ -301,7 +301,7 @@
         "product_3Y3bwR"
       ],
       "settings": {
-        "title": "Epic Gaming Atmosphere",
+        "title": "Epic <span>Gaming<\/span> Atmosphere",
         "link": "shopify:\/\/pages\/topic-3",
         "footer_title": "Game Room",
         "footer_description": "Special Page",
