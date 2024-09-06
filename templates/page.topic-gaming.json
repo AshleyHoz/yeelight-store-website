@@ -21,7 +21,7 @@
         "heading_GeKdfB": {
           "type": "heading",
           "settings": {
-            "text": "Customer Reviews",
+            "text": "Epic Gaming Atmosphere",
             "heading_size": "h2"
           }
         }
@@ -30,7 +30,7 @@
         "heading_GeKdfB"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TopicBackground-1.png",
+        "image": "shopify:\/\/shop_images\/TopicBackground-3.png",
         "image_parallax": false,
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
