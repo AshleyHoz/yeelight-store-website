@@ -230,10 +230,10 @@
           "settings": {
             "use_video": true,
             "video_hosted": "shopify:\/\/files\/videos\/alf1.mp4",
-            "heading_icon": "ruler",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
-            "video_autoplay": true
+            "heading_icon": "none",
+            "heading": "Curtain Lights",
+            "description": "",
+            "video_autoplay": false
           }
         },
         "tab_CYQ3rn": {
@@ -241,10 +241,10 @@
           "settings": {
             "use_video": true,
             "video_hosted": "shopify:\/\/files\/videos\/goldstar-1.mp4",
-            "heading_icon": "ruler",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
-            "video_autoplay": true
+            "heading_icon": "none",
+            "heading": "Permanent Outdoor Lights",
+            "description": "",
+            "video_autoplay": false
           }
         },
         "tab_a8dTgJ": {
@@ -252,10 +252,10 @@
           "settings": {
             "use_video": true,
             "video_hosted": "shopify:\/\/files\/videos\/Yeelight Cabinet Light.mp4",
-            "heading_icon": "ruler",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
-            "video_autoplay": true
+            "heading_icon": "none",
+            "heading": "Christmas String Lights",
+            "description": "",
+            "video_autoplay": false
           }
         }
       },
