@@ -81,7 +81,7 @@
         "logo_height_range_mobile": 41,
         "style": "style1",
         "header_shadow": "header--shadow-small",
-        "menu": "main-menu",
+        "menu": "yeelight-new",
         "transparent_header": false,
         "mobile_secondary_menu": "",
         "show_social_links": true,
