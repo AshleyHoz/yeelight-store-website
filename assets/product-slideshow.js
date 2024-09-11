@@ -1,9 +1,9 @@
 /**
  *  @class
- *  @function ShopTheLook
+ *  @function ProductSlideShow
  */
 if (!customElements.get('product-slide-show')) {
-  class ShopTheLook extends HTMLElement {
+  class ProductSlideShow extends HTMLElement {
     constructor(e) {
       super();
       this.addEventListener('click', this.onChangeBackground);
@@ -45,5 +45,5 @@ if (!customElements.get('product-slide-show')) {
     }
     connectedCallback() {}
   }
-  customElements.define('shop-the-look', ShopTheLook);
+  customElements.define('product-slide-show', ProductSlideShow);
 }
