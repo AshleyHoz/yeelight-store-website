@@ -142,6 +142,8 @@
         "slide_Re8Uxn": {
           "type": "slide",
           "settings": {
+            "button_icon": "",
+            "button_text": "Independence Day",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -175,6 +177,8 @@
         "slide_Hyb3Yi": {
           "type": "slide",
           "settings": {
+            "button_icon": "",
+            "button_text": "Christmas",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -208,6 +212,8 @@
         "slide_UqXJwU": {
           "type": "slide",
           "settings": {
+            "button_icon": "",
+            "button_text": "Halloween",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -241,6 +247,8 @@
         "slide_r4cLYH": {
           "type": "slide",
           "settings": {
+            "button_icon": "",
+            "button_text": "Proposal",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -274,6 +282,8 @@
         "slide_idmXF7": {
           "type": "slide",
           "settings": {
+            "button_icon": "",
+            "button_text": "Daily Use",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -313,6 +323,7 @@
         "slide_idmXF7"
       ],
       "settings": {
+        "title": "Yeelight Permanent Outdoor Lights",
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
         "full_width": false,
