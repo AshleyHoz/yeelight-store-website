@@ -1,3 +1,7 @@
+.product-slide-show {
+  padding: 80px 0;
+}
+
 .product-slide-show .slideshow__slide-content:after,
 .product-slide-show .slideshow--full-width-false {
   isolation: isolate;
@@ -16,9 +20,12 @@
 }
 
 .product-slide-show .slideshow {
-  display: flex;
+  /* display: flex; */
   overflow: visible;
   background: rgba(var(--color-body-rgb), 0.03);
+}
+.product-slide-show .slideshow_inner {
+  display: flex;
 }
 .product-slide-show .slideshow__slide {
   display: flex;
