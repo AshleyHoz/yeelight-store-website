@@ -17,7 +17,7 @@
 
 .product-slide-show .slideshow {
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   background: rgba(var(--color-body-rgb), 0.03);
 }
 .product-slide-show .slideshow__slide {
