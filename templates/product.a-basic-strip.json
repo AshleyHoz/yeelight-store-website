@@ -346,7 +346,7 @@
         "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_2.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Moblie_2.jpg",
         "full_width": true,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
