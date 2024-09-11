@@ -492,10 +492,12 @@
 
 .product-slide-show .slideshow__slide .slideshow__slide-bg {
   transform: scale(0.95);
+  opacity: 0.8;
 }
 
 .product-slide-show .slideshow__slide.is-selected .slideshow__slide-bg {
   transform: scale(1.05);
+  opacity: 1;
 }
 
 .product-slideshow-buttons-container {
