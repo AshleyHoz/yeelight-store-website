@@ -17,6 +17,7 @@ if (!customElements.get('product-slide-show')) {
       button1.classList.add('active');
     }
     onChangeBackground(e) {
+      console.log(e);
       if (
         e.target.className === 'product-slideshow-buttons_item-content' ||
         e.target.parentNode.className === 'product-slideshow-buttons_item-content'
