@@ -142,6 +142,7 @@
         "slide_Re8Uxn": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/AuroraBanner01.jpg",
             "button_icon": "",
             "button_text": "Independence Day",
             "slide_link": "",
@@ -162,7 +163,7 @@
             "color_badge_bg": "#3f72e5",
             "color_badge_text": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 70,
+            "overlay_opacity": 0,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
             "button_1_text": "",
             "button_1_color": "accent",
@@ -177,6 +178,7 @@
         "slide_Hyb3Yi": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/AuroraBanner02.jpg",
             "button_icon": "",
             "button_text": "Christmas",
             "slide_link": "",
@@ -212,6 +214,7 @@
         "slide_UqXJwU": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/AuroraBanner03.jpg",
             "button_icon": "",
             "button_text": "Halloween",
             "slide_link": "",
@@ -247,6 +250,7 @@
         "slide_r4cLYH": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/AuroraBanner04.jpg",
             "button_icon": "",
             "button_text": "Proposal",
             "slide_link": "",
@@ -282,6 +286,7 @@
         "slide_idmXF7": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/AuroraBanner05.jpg",
             "button_icon": "",
             "button_text": "Daily Use",
             "slide_link": "",
@@ -324,8 +329,8 @@
       ],
       "settings": {
         "title": "Yeelight Permanent Outdoor Lights",
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-500",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
         "full_width": false,
         "autoplay": false,
         "autoplay_length": 5,
