@@ -343,14 +343,16 @@
     "single_image_3kkr3Y": {
       "type": "single-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_2.jpg",
         "full_width": true,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -359,6 +361,7 @@
     "single_image_bNVALU": {
       "type": "single-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -367,6 +370,7 @@
     "single_image_YFNLfJ": {
       "type": "single-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -375,6 +379,7 @@
     "single_image_UwbPnd": {
       "type": "single-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -383,6 +388,7 @@
     "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -391,6 +397,7 @@
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -399,6 +406,7 @@
     "single_image_N6MW93": {
       "type": "single-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_9.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -407,6 +415,7 @@
     "single_image_JH8XXF": {
       "type": "single-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -415,6 +424,7 @@
     "single_image_WdwpPN": {
       "type": "single-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_11.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
