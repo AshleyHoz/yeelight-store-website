@@ -2,9 +2,11 @@
  *  @class
  *  @function ProductSlideShow
  */
-if (!customElements.get('product-slide-show')) {
+if (!customElements.get('product-slideshow')) {
   class ProductSlideShow extends HTMLElement {
     constructor(e) {
+      console.log(123);
+
       super();
       this.addEventListener('click', this.onChangeBackground);
       const currentEle = this.getElementsByClassName('product-slideshow-buttons-bg')[0];
@@ -45,5 +47,5 @@ if (!customElements.get('product-slide-show')) {
     }
     connectedCallback() {}
   }
-  customElements.define('product-slide-show', ProductSlideShow);
+  customElements.define('product-slideshow', ProductSlideShow);
 }

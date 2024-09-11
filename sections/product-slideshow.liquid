@@ -46,8 +46,8 @@
     assign preload = true
   endif
 -%}
-<product-slide-show>
-  <div class="product-slide-show row {% if full_width %} full-width-row{% endif %}">
+<product-slideshow>
+  <div class="product-slideshow row {% if full_width %} full-width-row{% endif %}">
     <div class="small-12 columns">
       {%- if section_title -%}
         {% render 'section-header', section_heading: section_title %}
@@ -322,7 +322,9 @@
       </slide-show>
     </div>
   </div>
-</product-slide-show>
+</product-slideshow>
+<script src="{{ 'product-slideshow.js' | asset_url }}" defer="defer"></script>
+
 {% schema %}
 {
   "name": "Product Slideshow",
