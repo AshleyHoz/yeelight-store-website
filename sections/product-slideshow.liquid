@@ -207,7 +207,7 @@
                 {{ video | video_tag: autoplay: autoplay, loop: true, controls: false, muted: true }}
               </div>
             {%- endif -%}
-            <div class="slideshow__slide-overlay" style="background: {{ block.settings.overlay_gradient }}"></div>
+            {% comment %} <div class="slideshow__slide-overlay" style="background: {{ block.settings.overlay_gradient }}"></div> {% endcomment %}
             {% if block.settings.badge_text != blank %}
               <div class="slideshow__slide-inner content-{{ content_position }} content-has-bg--{{ has_visible_bg }}">
                 <div class="slideshow__slide-content">
