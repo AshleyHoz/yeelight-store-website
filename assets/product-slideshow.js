@@ -2,7 +2,7 @@
  *  @class
  *  @function ShopTheLook
  */
-if (!customElements.get('shop-the-look')) {
+if (!customElements.get('product-slide-show')) {
   class ShopTheLook extends HTMLElement {
     constructor(e) {
       super();
