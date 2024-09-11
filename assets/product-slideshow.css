@@ -473,3 +473,123 @@
     display: block;
   }
 }
+
+.product-slideshow-buttons-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.product-slideshow-buttons-container-inner {
+  display: inline-block;
+}
+
+.product-slideshow-buttons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.product-slideshow-buttons-bg {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100px;
+  background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
+  transition: transform 0.3s ease;
+  z-index: 0;
+  /* width: 150px;
+    height: 50px; */
+}
+
+.product-slideshow-buttons_item {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  background: #ffffff1a;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s;
+  list-style: none;
+}
+
+.product-slideshow-buttons_item-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  z-index: 1;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  padding: 14px 24px;
+}
+
+.product-slideshow-buttons_item:hover .product-slideshow-buttons_item-content {
+  opacity: 1;
+}
+
+.product-slideshow-buttons_item.active .product-slideshow-buttons_item-content {
+  opacity: 1;
+}
+
+/* @media only screen and (max-width: 767px) {
+  .product-slideshow-buttons-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .product-slideshow-buttons-container-inner {
+    width: 100%;
+  }
+
+  .product-slideshow-buttons {
+    border-radius: 0;
+    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .product-slideshow-buttons-bg {
+    display: none;
+  }
+
+  .product-slideshow-buttons_item-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    z-index: 1;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    padding: 8px 18px;
+  }
+
+  .product-slideshow-buttons_item {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    flex: auto;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background: transparent;
+    min-width: calc(50% - 4px);
+  }
+
+  .product-slideshow-buttons_item.active {
+    border: 1px solid transparent;
+    background-image: linear-gradient(#000000, #000000),
+      linear-gradient(51deg, #ff7c51 0%, #d749af 34.02%, #566cec 66.82%, #4ab1f1 87.82%);
+    background-clip: padding-box, border-box;
+    background-size: 100%, 100%;
+  }
+} */
