@@ -905,13 +905,13 @@ code,
   padding-left: 0.25rem;
   min-width: 0;
 }
-@media print, screen and (min-width: 48em) {
+/* @media print, screen and (min-width: 48em) {
   .column,
   .columns {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem;
   }
-}
+} */
 
 .column.row.row,
 .row.row.columns {
