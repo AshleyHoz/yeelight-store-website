@@ -197,7 +197,7 @@
         "product_LP69Mb"
       ],
       "settings": {
-        "title": "Illuminate Your Villa with <span>Brilliance<\/span>",
+        "title": "Illuminate Your Villa with Brilliance",
         "link": "shopify:\/\/pages\/topic-1",
         "footer_title": "Outdoor",
         "footer_description": "Special Page",
@@ -386,7 +386,7 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify:\/\/shop_images\/IconShield.png",
-            "heading": "2 Year",
+            "heading": "1 Year",
             "text": "<p>warranty<\/p>"
           }
         }
