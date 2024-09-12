@@ -145,7 +145,6 @@
             "image": "shopify:\/\/shop_images\/AuroraBanner01.jpg",
             "button_icon": "",
             "button_text": "Independence Day",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraBannerMobile01.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -182,7 +181,6 @@
             "image": "shopify:\/\/shop_images\/AuroraBanner02.jpg",
             "button_icon": "",
             "button_text": "Christmas",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraBannerMobile02.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -219,7 +217,6 @@
             "image": "shopify:\/\/shop_images\/AuroraBanner03.jpg",
             "button_icon": "",
             "button_text": "Halloween",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraBannerMobile03.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -256,7 +253,6 @@
             "image": "shopify:\/\/shop_images\/AuroraBanner04.jpg",
             "button_icon": "",
             "button_text": "Proposal",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraBannerMobile04.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -293,7 +289,6 @@
             "image": "shopify:\/\/shop_images\/AuroraBanner05.jpg",
             "button_icon": "",
             "button_text": "Daily Use",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraBannerMobile05.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -348,7 +343,7 @@
     "single_image_3kkr3Y": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_2.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_1.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Moblie_2.jpg",
         "full_width": true,
         "disable_top_spacing": false,
@@ -358,7 +353,7 @@
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_3.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_2.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Moblie_4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -368,7 +363,7 @@
     "single_image_bNVALU": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_4.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_3.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Moblie_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -378,7 +373,7 @@
     "single_image_YFNLfJ": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_5.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_4.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Moblie_6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -388,7 +383,7 @@
     "single_image_UwbPnd": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_6.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_5.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Moblie_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -398,7 +393,7 @@
     "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_7.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_6.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Moblie_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -408,7 +403,7 @@
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_8.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_7.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Moblie_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -418,7 +413,7 @@
     "single_image_N6MW93": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_9.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_8.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Moblie_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -428,7 +423,7 @@
     "single_image_JH8XXF": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_10.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_9.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Moblie_9.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -438,11 +433,38 @@
     "single_image_WdwpPN": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_11.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_10.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Mobile_11.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
+      }
+    },
+    "single_image_FGkhTr": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_11.jpg",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "single_image_m6jW4L": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_12.jpg",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "single_image_wA9Aty": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_13.jpg",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "media_with_tabs_GFrrk4": {
@@ -598,6 +620,9 @@
     "single_image_N6MW93",
     "single_image_JH8XXF",
     "single_image_WdwpPN",
+    "single_image_FGkhTr",
+    "single_image_m6jW4L",
+    "single_image_wA9Aty",
     "media_with_tabs_GFrrk4",
     "rich_text_6mPtPi",
     "1712003137212dc6f8",
