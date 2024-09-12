@@ -81,51 +81,10 @@
         "product_BTfM4U"
       ],
       "settings": {
-        "title": "Illuminate Your Villa with <span>Brilliance<\/span>",
-        "image": "shopify:\/\/shop_images\/OverseasRedesign.png",
-        "image_mobile": "shopify:\/\/shop_images\/OverseasRedesignMobile.png",
+        "title": "Illuminate Your Villa with Brilliance",
+        "image": "shopify:\/\/shop_images\/TopicProductBannerRoom.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/TopicProductBannerMobileRoom.jpg",
         "reverse": "row"
-      }
-    },
-    "image_products_g9y4fJ": {
-      "type": "image-products",
-      "blocks": {
-        "product_A7cKdJ": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-candela-lamp"
-          }
-        },
-        "product_3qYUbM": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-beam-rgbic-light-bar"
-          }
-        },
-        "product_jPfdJp": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-led-light-strip-1s-6-56ft"
-          }
-        },
-        "product_8h8D8i": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-obsid-rgbic-light-strip"
-          }
-        }
-      },
-      "block_order": [
-        "product_A7cKdJ",
-        "product_3qYUbM",
-        "product_jPfdJp",
-        "product_8h8D8i"
-      ],
-      "settings": {
-        "title": "",
-        "image": "shopify:\/\/shop_images\/OverseasRedesign.png",
-        "image_mobile": "shopify:\/\/shop_images\/OverseasRedesignMobile.png",
-        "reverse": "row-reverse"
       }
     },
     "background_video_dY4YJx": {
@@ -417,7 +376,6 @@
     "main",
     "image_with_text_overlay_EHXcMN",
     "custom_liquid_4Fk7Mk",
-    "image_products_g9y4fJ",
     "background_video_dY4YJx",
     "rich_text_Wf7KbW",
     "17254343215895ce76",
