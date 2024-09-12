@@ -144,7 +144,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/AuroraStripBanner01.jpg",
             "button_icon": "",
-            "button_text": "Independence Day",
+            "button_text": "Living Room",
             "mobile_image": "shopify:\/\/shop_images\/AuroraStripBannerMobile01.jpg",
             "slide_link": "",
             "video_background": false,
@@ -181,7 +181,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/AuroraStripBanner02.jpg",
             "button_icon": "",
-            "button_text": "Christmas",
+            "button_text": "Bed Room",
             "mobile_image": "shopify:\/\/shop_images\/AuroraStripBannerMobile03.jpg",
             "slide_link": "",
             "video_background": false,
@@ -218,7 +218,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/AuroraStripBanner03.jpg",
             "button_icon": "",
-            "button_text": "Halloween",
+            "button_text": "Gaming Room",
             "mobile_image": "shopify:\/\/shop_images\/AuroraStripBannerMobile02.jpg",
             "slide_link": "",
             "video_background": false,
@@ -257,7 +257,7 @@
         "slide_UqXJwU"
       ],
       "settings": {
-        "title": "Yeelight Permanent Outdoor Lights",
+        "title": "Yeelight <span>RGBIC LED<\/span> Basic Strip Lights",
         "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-auto",
         "full_width": false,
