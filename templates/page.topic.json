@@ -40,8 +40,8 @@
         "content_position": "bottom-center",
         "text_alignment": "center",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30,
+        "overlay_color": "rgba(0,0,0,0)",
+        "overlay_opacity": 0,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
