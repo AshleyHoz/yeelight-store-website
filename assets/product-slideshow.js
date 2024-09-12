@@ -49,3 +49,10 @@ if (!customElements.get('product-slideshow')) {
   }
   customElements.define('product-slideshow', ProductSlideShow);
 }
+window.addEventListener('load', () => {
+  document.addEventListener('shopify:section:load', function (event) {
+    const section = event.target;
+    console.log('Section loaded:', section);
+  });
+});
+console.log('? load哈哈哈');
