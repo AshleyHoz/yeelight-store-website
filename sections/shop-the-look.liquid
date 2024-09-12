@@ -96,6 +96,18 @@
             <div class="shop-look-buttons-container-inner">
               <div class="shop-look-buttons flickity-custom-dots">
                 <div class="shop-look-buttons-bg"></div>
+                {% comment %}
+                  {%- for block in section.blocks -%}
+                    {% if block.settings.button_text != blank %}
+                      <li class="shop-look-buttons_item" data-img="{{block.settings.image}}" onclick="onChangeBackground">
+                        <div class="shop-look-buttons_item-content">
+                          {% render 'svg-icons' with block.settings.button_icon %}
+                          <span>{{ block.settings.button_text }}</span>
+                        </div>
+                      </li>
+                    {% endif %}
+                  {%- endfor -%}
+                {% endcomment %}
                 {% if button_1_text != blank %}
                   <li class="shop-look-buttons_item" data-img="{{image_1}}" onclick="onChangeBackground">
                     <div class="shop-look-buttons_item-content">
@@ -181,9 +193,43 @@
         </div>
         <div class="shop-look-flickity-viewport shop-the-look--desktop">
           <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-            {%- if image_1 -%}
+            {% comment %}
+              {%- if image_1 -%}
               {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
               {% render 'responsive-image', image: image_1, sizes: master_width %}
+            {% endcomment %}
+
+            {%- if image_1 -%}
+              {%- liquid
+                assign image = image_1
+                assign master_width = image.src.width | append: 'x' | append: image.src.height
+
+                assign class = ''
+                if image_1_mobile
+                  assign class = 'slideshow-image--desktop'
+                endif
+              -%}
+              <img
+                data-src="{{ image | image_url }}"
+                class="lazyload {{ class }}"
+                width="{{ image.src.width }}"
+                height="{{ image.src.height }}"
+                alt="{{ image.alt }}"
+              >
+            {%- endif -%}
+            {%- if image_1_mobile -%}
+              {%- liquid
+                assign image = image_1_mobile
+                assign master_width = image.src.width | append: 'x' | append: image.src.height
+              -%}
+              <img
+                data-src="{{ image | image_url }}"
+                class="lazyload slideshow-image--mobile"
+                width="{{ image.src.width }}"
+                height="{{ image.src.height }}"
+                alt="{{ image.alt }}"
+              >
+              {% comment %} {%- endif -%} {% endcomment %}
             {%- else -%}
               <div class="thb-placeholder">
                 {{ 'lifestyle-1' | placeholder_svg_tag }}

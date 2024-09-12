@@ -439,6 +439,10 @@
   z-index: 10;
 }
 
+.shop-the-look .slideshow-image--mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 767px) {
   .shop-the-look {
     display: block;
@@ -579,5 +583,13 @@
     top: 0;
     left: 0;
     transform: none;
+  }
+
+  .shop-the-look .slideshow-image--desktop {
+    display: none;
+  }
+
+  .shop-the-look .slideshow-image--mobile {
+    display: block;
   }
 }
