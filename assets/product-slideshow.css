@@ -565,57 +565,64 @@
   opacity: 1;
 }
 
-/* @media only screen and (max-width: 767px) {
+.slideshow__slide-title {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-product-slideshow {
+    padding: 24px 0 80px;
+  }
+
+  .section-product-slideshow .section-header {
+    padding-bottom: 32px;
+  }
+  .section-product-slideshow .section-header--title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+  }
+
   .product-slideshow-buttons-container {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-
-  .product-slideshow-buttons-container-inner {
-    width: 100%;
-  }
-
-  .product-slideshow-buttons {
-    border-radius: 0;
-    gap: 8px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .product-slideshow-buttons-bg {
     display: none;
   }
 
-  .product-slideshow-buttons_item-content {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    z-index: 1;
-    opacity: 0.6;
-    width: 100%;
+  .section-product-slideshow .slideshow_inner {
+    height: 220px;
+  }
+
+  .section-product-slideshow .slideshow .flickity-viewport {
+    position: absolute;
+    top: 0;
+  }
+
+  .section-product-slideshow .slideshow__slide-bg {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: calc(100% - 12px);
     height: 100%;
-    padding: 8px 18px;
-  }
-
-  .product-slideshow-buttons_item {
+    z-index: 0;
+    background: var(--bg-body, #f5f5f5);
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    flex: auto;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 500;
-    background: transparent;
-    min-width: calc(50% - 4px);
+    overflow: hidden;
   }
 
-  .product-slideshow-buttons_item.active {
-    border: 1px solid transparent;
-    background-image: linear-gradient(#000000, #000000),
-      linear-gradient(51deg, #ff7c51 0%, #d749af 34.02%, #566cec 66.82%, #4ab1f1 87.82%);
-    background-clip: padding-box, border-box;
-    background-size: 100%, 100%;
+  .section-product-slideshow .slideshow__slide-title {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
   }
-} */
+
+  .section-product-slideshow .slideshow__slide {
+    width: 90%;
+    height: 90%;
+  }
+}
