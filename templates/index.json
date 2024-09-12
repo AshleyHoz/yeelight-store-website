@@ -15,7 +15,7 @@
         "slide_B9biA3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-test_01.png",
+            "image": "shopify:\/\/shop_images\/HomeBanner01.jpg",
             "mobile_image": "shopify:\/\/shop_images\/f6914cc574aa2eb6913da83a0a65a64a.jpg",
             "slide_link": "shopify:\/\/collections\/all-lights",
             "video_background": false,
@@ -124,7 +124,7 @@
         "slide_E8nF4j"
       ],
       "settings": {
-        "desktop_height": "desktop-height-650",
+        "desktop_height": "desktop-height-750",
         "mobile_height": "mobile-height-500",
         "full_width": true,
         "autoplay": true,
