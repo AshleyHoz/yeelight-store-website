@@ -81,9 +81,9 @@
         "product_BTfM4U"
       ],
       "settings": {
-        "title": "Illuminate Your Villa with <span>Brilliance<\/span>",
-        "image": "shopify:\/\/shop_images\/OverseasRedesign.png",
-        "image_mobile": "shopify:\/\/shop_images\/OverseasRedesignMobile.png",
+        "title": "Illuminate Your Villa with Brilliance",
+        "image": "shopify:\/\/shop_images\/TopicProductBannerGame01.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/TopicProductBannerMobileGame01.jpg",
         "reverse": "row"
       }
     },
@@ -123,8 +123,8 @@
       ],
       "settings": {
         "title": "",
-        "image": "shopify:\/\/shop_images\/OverseasRedesign.png",
-        "image_mobile": "shopify:\/\/shop_images\/OverseasRedesignMobile.png",
+        "image": "shopify:\/\/shop_images\/TopicProductBannerGame02.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/TopicProductBannerMobileGame02.jpg",
         "reverse": "row-reverse"
       }
     },
