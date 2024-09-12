@@ -365,7 +365,7 @@
         "icon_aBKTbt": {
           "type": "icon",
           "settings": {
-            "icon": "star",
+            "icon": "none",
             "image": "shopify:\/\/shop_images\/IconFree.png",
             "heading": "Free",
             "text": "<p>Worldwide shipping<\/p>"
@@ -374,7 +374,7 @@
         "icon_GFyYAm": {
           "type": "icon",
           "settings": {
-            "icon": "plane",
+            "icon": "none",
             "image": "shopify:\/\/shop_images\/IconCorn.png",
             "heading": "30 Day",
             "text": "<p>Money Back Guarantee<\/p>"
@@ -383,7 +383,7 @@
         "icon_RFQH79": {
           "type": "icon",
           "settings": {
-            "icon": "chat_bubble",
+            "icon": "none",
             "image": "shopify:\/\/shop_images\/IconService.png",
             "heading": "Lifetime",
             "text": "<p>Customer Support<\/p>"
@@ -392,7 +392,7 @@
         "icon_h6xJ9e": {
           "type": "icon",
           "settings": {
-            "icon": "ruler",
+            "icon": "none",
             "image": "shopify:\/\/shop_images\/IconShield.png",
             "heading": "1 Year",
             "text": "<p>warranty<\/p>"
