@@ -142,9 +142,10 @@
         "slide_Re8Uxn": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraBanner01.jpg",
+            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner01.jpg",
             "button_icon": "",
             "button_text": "Independence Day",
+            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile01.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -178,9 +179,10 @@
         "slide_Hyb3Yi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraBanner02.jpg",
+            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner02.jpg",
             "button_icon": "",
             "button_text": "Christmas",
+            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile02.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -214,9 +216,10 @@
         "slide_UqXJwU": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraBanner03.jpg",
+            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner03.jpg",
             "button_icon": "",
             "button_text": "Halloween",
+            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile03.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -250,9 +253,10 @@
         "slide_r4cLYH": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraBanner04.jpg",
+            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner04.jpg",
             "button_icon": "",
             "button_text": "Proposal",
+            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile04.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -286,9 +290,10 @@
         "slide_idmXF7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraBanner05.jpg",
+            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner05.jpg",
             "button_icon": "",
             "button_text": "Daily Use",
+            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile05.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
