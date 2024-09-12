@@ -1,5 +1,6 @@
-{{- 'product-slideshow.css' | asset_url | stylesheet_tag -}}
+{{ 'product-slideshow.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'slideshow.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'product-slideshow.js' | asset_url }}" async></script>
 
 {%- liquid
   assign desktop_height = section.settings.desktop_height
@@ -325,7 +326,6 @@
     </div>
   </div>
 </product-slideshow>
-<script src="{{ 'product-slideshow.js' | asset_url }}" defer></script>
 
 {% schema %}
 {
