@@ -30,7 +30,8 @@
         "heading_GeKdfB"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TopicBackground-1.png",
+        "image": "shopify:\/\/shop_images\/TopicBannerOutdoor.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/TopicBannerMobileOutdoor.jpg",
         "image_parallax": false,
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
