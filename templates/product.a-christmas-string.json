@@ -144,7 +144,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/AuroraStripBanner01.jpg",
             "button_icon": "",
-            "button_text": "Living Room",
+            "button_text": "",
             "mobile_image": "shopify:\/\/shop_images\/AuroraStripBannerMobile01.jpg",
             "slide_link": "",
             "video_background": false,
@@ -257,7 +257,7 @@
         "slide_UqXJwU"
       ],
       "settings": {
-        "title": "Yeelight <span>RGBIC LED<\/span> Basic Strip Lights",
+        "title": "Yeelight RGBIC LED Basic Strip Lights",
         "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-auto",
         "full_width": false,
