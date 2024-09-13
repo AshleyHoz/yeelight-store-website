@@ -2333,6 +2333,6 @@ h6,
   background: var(--solid-button-background, var(--color-accent));
 }
 
-.single-add-to-cart-button--text {
+.product-form .single-add-to-cart-button--text {
   color: #fff;
 }
