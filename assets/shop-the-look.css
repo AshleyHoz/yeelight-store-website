@@ -593,11 +593,7 @@
   }
 
   .shop-look-buttons_item.active {
-    border: 1px solid transparent;
-    background-image: linear-gradient(#000000, #000000),
-      linear-gradient(51deg, #ff7c51 0%, #d749af 34.02%, #566cec 66.82%, #4ab1f1 87.82%);
-    background-clip: padding-box, border-box;
-    background-size: 100%, 100%;
+    border: 1px solid #fff;
   }
 
   .shop-look_img {

@@ -130,10 +130,10 @@
   /* .product-card-spacing-medium .products.row {
     margin: 0 -10px;
   } */
-  .product-card-spacing-medium .products.row .columns,
+  /* .product-card-spacing-medium .products.row .columns,
   .product-card-spacing-medium .products.row .column {
     padding: 0 10px;
-  }
+  } */
   /* .product-card-spacing-medium .products.row .product-card {
     margin-bottom: 20px;
     min-height: calc(100% - 20px);
@@ -601,6 +601,7 @@
 }
 .sidebar-container .products.collection.row {
   padding: 0;
+  gap: 20px;
 }
 
 .star-rating {

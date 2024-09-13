@@ -2179,10 +2179,6 @@ table.no-borders tfoot td:first-child {
 .side-panel.search-drawer .side-panel-inner {
   height: 100%;
 }
-.side-panel.search-drawer .side-panel-header div {
-  height: 70px;
-  padding: 10px 0;
-}
 .side-panel.search-drawer .searchform {
   width: 100%;
   padding-right: 20px;
@@ -2200,7 +2196,7 @@ table.no-borders tfoot td:first-child {
   display: none;
   position: relative;
   flex: 1;
-  height: calc(100% - 70px);
+  height: calc(100% - 85px);
 }
 .side-panel.search-drawer .side-panel-content--has-tabs.active {
   display: flex;
@@ -2296,7 +2292,8 @@ table.no-borders tfoot td:first-child {
   left: 0;
   z-index: 35;
   background: var(--color-drawer-bg, #fff);
-  padding: 0 30px;
+  padding: 16px;
+  border-bottom: 1px solid #1a1a1a;
 }
 .side-panel-header .h6 {
   margin: 0;
@@ -2317,9 +2314,9 @@ table.no-borders tfoot td:first-child {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  padding: 23px 0;
-  border-bottom: 1px solid var(--color-border, #dadce0);
+  padding: 16px 0;
 }
+
 .side-panel-close {
   cursor: pointer;
 }
@@ -2331,14 +2328,14 @@ table.no-borders tfoot td:first-child {
   padding: 0;
 }
 .side-panel-content.side-panel-content--has-tabs .side-panel-content--inner {
-  padding: 0px 30px 25px;
+  padding: 16px;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 100%;
 }
 .side-panel-content--tabs {
   display: flex;
-  padding: 25px 30px;
+  padding: 16px;
 }
 .side-panel-content--tabs button {
   display: inline-flex;
