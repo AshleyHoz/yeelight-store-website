@@ -180,9 +180,14 @@
                       {% endif %}
                       <div class="thb-hotspot-product-content">
                         <div class="thb-hotspot-product-title">{{ hotspot_product.title }}</div>
-                        {% render 'product-price', product: hotspot_product %}
-                        {% assign text_button_title = 'sections.shop_the_look.view_product' | t %}
-                        {% render 'text-button', url: hotspot_product.url, title: text_button_title %}
+                        <div class="thb-hotspot-product-pricebox">
+                          {% render 'product-price', product: hotspot_product %}
+                          {% comment %}
+                            {% assign text_button_title = 'sections.shop_the_look.view_product' | t %}
+                            {% render 'text-button', url: hotspot_product.url, title: text_button_title %}
+                          {% endcomment %}
+                          <a class="thb-hotspot-product-view" href="{{ hotspot_product.url }}">View</a>
+                        </div>
                       </div>
                     </div>
                   {%- endunless -%}
