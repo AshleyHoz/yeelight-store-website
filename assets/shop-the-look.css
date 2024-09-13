@@ -13,7 +13,7 @@
 .shop-the-look--area {
   box-shadow: var(--block-shadows);
   border-radius: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* border: 1px solid rgba(255, 255, 255, 0.1); */
 }
 
 .shop-the-look {
@@ -428,6 +428,7 @@
   height: 100%;
   position: absolute;
   left: 0;
+  top: 0;
   cursor: pointer;
   pointer-events: none;
   z-index: 1;
