@@ -181,7 +181,6 @@
                     endif
                   -%}
                   {%- render 'responsive-image', image: image, sizes: width, class: class, priority: priority -%}
-                  <div class="slideshow__slide-title">{{ block.settings.button_text }}</div>
                 {%- else -%}
                   {%- assign index = forloop.index | modulo: 2 | plus: 1 -%}
                   {{ 'lifestyle-' | append: index | placeholder_svg_tag: 'placeholder_svg_tag' }}
@@ -199,6 +198,7 @@
                     priority: priority
                   -%}
                 {%- endif -%}
+                <div class="slideshow__slide-title">{{ block.settings.button_text }}</div>
               </div>
               {%- if block.settings.video_background -%}
                 {%- liquid
