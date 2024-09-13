@@ -2196,7 +2196,7 @@ table.no-borders tfoot td:first-child {
   display: none;
   position: relative;
   flex: 1;
-  height: calc(100% - 85px);
+  height: calc(100% - 115px);
 }
 .side-panel.search-drawer .side-panel-content--has-tabs.active {
   display: flex;
@@ -2292,7 +2292,7 @@ table.no-borders tfoot td:first-child {
   left: 0;
   z-index: 35;
   background: var(--color-drawer-bg, #fff);
-  padding: 16px;
+  padding: 30px 16px;
   border-bottom: 1px solid #1a1a1a;
 }
 .side-panel-header .h6 {
