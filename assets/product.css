@@ -2328,7 +2328,7 @@ h6,
   fill: var(--color-body, #2c2d2e);
 }
 
-.single-add-to-cart-button {
+.product-form .single-add-to-cart-button {
   color: #fff;
   background: var(--solid-button-background, var(--color-accent));
 }
