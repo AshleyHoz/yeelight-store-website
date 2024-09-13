@@ -81,7 +81,8 @@
 @media screen and (hover: hover) {
   .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):hover,
   .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):focus {
-    background: var(--solid-button-background-hover, var(--color-accent));
+    background: linear-gradient(103deg, #111bff, #fd119e), #ffffff1a;
+    opacity: 0.95;
     color: var(--solid-button-label, #fff);
   }
 }
