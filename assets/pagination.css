@@ -30,6 +30,7 @@
   display: inline-flex;
   vertical-align: middle;
   color: var(--color-accent);
+  cursor: pointer;
 }
 .page-numbers span.prev,
 .page-numbers span.next {
@@ -92,5 +93,5 @@
   content: none;
 }
 .page-numbers .current:after {
-  background: #1a1a1a;
+  background: #fff;
 }
