@@ -282,8 +282,8 @@
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Christmas_String_PC_2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Christmas_String_M_2.jpg",
+        "image": "shopify:\/\/shop_images\/Christmas_String_PC-2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Christmas_String_M-2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
