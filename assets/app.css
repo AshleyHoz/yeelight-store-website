@@ -2599,8 +2599,8 @@ scroll-shadow > * {
 }
 
 @media only screen and (min-width: 768px) {
-  .desktop-height-750 {
-    min-height: 750px;
+  .desktop-height-800 {
+    min-height: 800px;
   }
 }
 
@@ -2924,7 +2924,7 @@ h6,
 }
 
 .header-section {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 50;
@@ -2950,6 +2950,7 @@ h6,
   background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
   opacity: 1;
   transition: opacity 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
+  backdrop-filter: blur(40px);
 }
 @media only screen and (min-width: 768px) {
   .header {

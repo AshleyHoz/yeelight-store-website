@@ -1,19 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "image_with_text_overlay_EHXcMN": {
       "type": "image-with-text-overlay",
@@ -26,14 +25,12 @@
           }
         }
       },
-      "block_order": [
-        "heading_GeKdfB"
-      ],
+      "block_order": ["heading_GeKdfB"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TopicBannerGame.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/TopicBannerMobileGame.jpg",
+        "image": "shopify://shop_images/TopicBannerGame.jpg",
+        "mobile_image": "shopify://shop_images/TopicBannerMobileGame.jpg",
         "image_parallax": false,
-        "desktop_height": "desktop-height-750",
+        "desktop_height": "desktop-height-800",
         "mobile_height": "mobile-height-500",
         "full_width": true,
         "content_width": "medium",
@@ -74,16 +71,11 @@
           }
         }
       },
-      "block_order": [
-        "product_nmh8jV",
-        "product_Qger9E",
-        "product_wG8iCm",
-        "product_BTfM4U"
-      ],
+      "block_order": ["product_nmh8jV", "product_Qger9E", "product_wG8iCm", "product_BTfM4U"],
       "settings": {
-        "title": "<span>Power Your Play<\/span> in Every Gaming World",
-        "image": "shopify:\/\/shop_images\/TopicProductBannerGame01.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/TopicProductBannerMobileGame01.jpg",
+        "title": "<span>Power Your Play</span> in Every Gaming World",
+        "image": "shopify://shop_images/TopicProductBannerGame01.jpg",
+        "image_mobile": "shopify://shop_images/TopicProductBannerMobileGame01.jpg",
         "reverse": "row"
       }
     },
@@ -115,16 +107,11 @@
           }
         }
       },
-      "block_order": [
-        "product_A7cKdJ",
-        "product_3qYUbM",
-        "product_jPfdJp",
-        "product_8h8D8i"
-      ],
+      "block_order": ["product_A7cKdJ", "product_3qYUbM", "product_jPfdJp", "product_8h8D8i"],
       "settings": {
         "title": "",
-        "image": "shopify:\/\/shop_images\/TopicProductBannerGame02.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/TopicProductBannerMobileGame02.jpg",
+        "image": "shopify://shop_images/TopicProductBannerGame02.jpg",
+        "image_mobile": "shopify://shop_images/TopicProductBannerMobileGame02.jpg",
         "reverse": "row-reverse"
       }
     },
@@ -136,7 +123,7 @@
         "full_width": false,
         "video_controls": true,
         "video": "",
-        "video_hosted": "shopify:\/\/files\/videos\/Yeelight Cube Smart Lamp 2.mp4",
+        "video_hosted": "shopify://files/videos/Yeelight Cube Smart Lamp 2.mp4",
         "overlay_color": "#000000",
         "overlay_opacity": 25,
         "disable_top_spacing": false,
@@ -156,9 +143,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_fkRMKm"
-      ],
+      "block_order": ["heading_fkRMKm"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -175,7 +160,7 @@
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_video_slider_cyaCJt": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-video-slider\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-video-slider/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "show-by-tag": false,
             "layout": "classic",
@@ -196,11 +181,8 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_video_slider_cyaCJt"
-      ],
-      "settings": {
-      }
+      "block_order": ["loox_reviews_loox_video_slider_cyaCJt"],
+      "settings": {}
     },
     "media_with_tabs_dVM767": {
       "type": "media-with-tabs",
@@ -223,14 +205,14 @@
         "text_NLDnb7": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
           }
         },
         "tab_iAjBpe": {
           "type": "tab",
           "settings": {
             "use_video": true,
-            "video_hosted": "shopify:\/\/files\/videos\/alf1.mp4",
+            "video_hosted": "shopify://files/videos/alf1.mp4",
             "heading_icon": "none",
             "heading": "Curtain Lights",
             "description": "",
@@ -241,7 +223,7 @@
           "type": "tab",
           "settings": {
             "use_video": true,
-            "video_hosted": "shopify:\/\/files\/videos\/goldstar-1.mp4",
+            "video_hosted": "shopify://files/videos/goldstar-1.mp4",
             "heading_icon": "none",
             "heading": "Permanent Outdoor Lights",
             "description": "",
@@ -252,7 +234,7 @@
           "type": "tab",
           "settings": {
             "use_video": true,
-            "video_hosted": "shopify:\/\/files\/videos\/Yeelight Cabinet Light.mp4",
+            "video_hosted": "shopify://files/videos/Yeelight Cabinet Light.mp4",
             "heading_icon": "none",
             "heading": "Christmas String Lights",
             "description": "",
@@ -260,14 +242,7 @@
           }
         }
       },
-      "block_order": [
-        "badge_tRYgzk",
-        "heading_G98kFA",
-        "text_NLDnb7",
-        "tab_iAjBpe",
-        "tab_CYQ3rn",
-        "tab_a8dTgJ"
-      ],
+      "block_order": ["badge_tRYgzk", "heading_G98kFA", "text_NLDnb7", "tab_iAjBpe", "tab_CYQ3rn", "tab_a8dTgJ"],
       "settings": {
         "heading": "Quick installation method",
         "desktop_height": "desktop-height-650",
@@ -290,7 +265,7 @@
           "settings": {
             "heading": "Do you ship overseas?",
             "open": true,
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>",
             "page": ""
           }
         },
@@ -299,7 +274,7 @@
           "settings": {
             "heading": "How long will it take to get my orders?",
             "open": true,
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days.<br\/>Delivery details will be provided in your confirmation email.<\/p>",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days.<br/>Delivery details will be provided in your confirmation email.</p>",
             "page": ""
           }
         },
@@ -308,7 +283,7 @@
           "settings": {
             "heading": "Why am I not able to use the referral code I have?",
             "open": false,
-            "content": "<p>Why am I not able to use the referral code I have?<\/p>",
+            "content": "<p>Why am I not able to use the referral code I have?</p>",
             "page": ""
           }
         },
@@ -317,7 +292,7 @@
           "settings": {
             "heading": "I forgot to use my discount code during the purchase. Can I refund the difference?",
             "open": false,
-            "content": "<p>I forgot to use my discount code during the purchase. Can I refund the difference?<\/p>",
+            "content": "<p>I forgot to use my discount code during the purchase. Can I refund the difference?</p>",
             "page": ""
           }
         },
@@ -326,7 +301,7 @@
           "settings": {
             "heading": "Why my order was canceled?",
             "open": false,
-            "content": "<p>Why my order was canceled?<\/p>",
+            "content": "<p>Why my order was canceled?</p>",
             "page": ""
           }
         }
@@ -359,45 +334,40 @@
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/IconFree.png",
+            "image": "shopify://shop_images/IconFree.png",
             "heading": "Free",
-            "text": "<p>Worldwide shipping<\/p>"
+            "text": "<p>Worldwide shipping</p>"
           }
         },
         "icon_GGAFrM": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/IconShield.png",
+            "image": "shopify://shop_images/IconShield.png",
             "heading": "30 Day",
-            "text": "<p>Money Back Guarantee<\/p>"
+            "text": "<p>Money Back Guarantee</p>"
           }
         },
         "icon_UmKN3b": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/IconCorn.png",
+            "image": "shopify://shop_images/IconCorn.png",
             "heading": "Lifetime",
-            "text": "<p>Customer Support<\/p>"
+            "text": "<p>Customer Support</p>"
           }
         },
         "icon_tf9XBa": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/IconService.png",
+            "image": "shopify://shop_images/IconService.png",
             "heading": "1 Year",
-            "text": "<p>warranty<\/p>"
+            "text": "<p>warranty</p>"
           }
         }
       },
-      "block_order": [
-        "icon_839NiY",
-        "icon_GGAFrM",
-        "icon_UmKN3b",
-        "icon_tf9XBa"
-      ],
+      "block_order": ["icon_839NiY", "icon_GGAFrM", "icon_UmKN3b", "icon_tf9XBa"],
       "settings": {
         "heading": "Why Choose Us",
         "text_alignment": "center",

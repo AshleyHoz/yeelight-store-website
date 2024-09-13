@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "16479477632637c9a7": {
@@ -76,12 +76,9 @@
           }
         }
       },
-      "block_order": [
-        "534e99f5-02bc-40e2-8b45-d397dbc78de9",
-        "4ad53021-5b75-4f08-929a-764c9b314b5a"
-      ],
+      "block_order": ["534e99f5-02bc-40e2-8b45-d397dbc78de9", "4ad53021-5b75-4f08-929a-764c9b314b5a"],
       "settings": {
-        "desktop_height": "desktop-height-750",
+        "desktop_height": "desktop-height-800",
         "mobile_height": "mobile-height-500",
         "full_width": true,
         "autoplay": false,
@@ -132,14 +129,11 @@
           }
         }
       },
-      "block_order": [
-        "1b2c1f86-963a-463a-bb30-7e4f456ccd82",
-        "81f582b2-06f4-422b-824f-08fad93e291b"
-      ],
+      "block_order": ["1b2c1f86-963a-463a-bb30-7e4f456ccd82", "81f582b2-06f4-422b-824f-08fad93e291b"],
       "settings": {
         "heading": "NEW ARRIVALS",
         "marker_style": "style1",
-        "description": "<p>Beyond mere adornment, these pieces are made to make you feel good.<\/p>",
+        "description": "<p>Beyond mere adornment, these pieces are made to make you feel good.</p>",
         "product_limit": 8,
         "columns_desktop": 4,
         "show_progress_bar": true,
@@ -158,7 +152,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "BESPOKE ENGAGEMENT RINGS",
-            "text": "<p>Looking to get the perfect engagement ring? Browse hundreds of ring styles find the perfect engagement ring today.<\/p>",
+            "text": "<p>Looking to get the perfect engagement ring? Browse hundreds of ring styles find the perfect engagement ring today.</p>",
             "link_label": "Browse Rings",
             "link": ""
           }
@@ -170,7 +164,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "DANGLE & DROP EARRINGS",
-            "text": "<p>These are simple enough for everyday wear and an iconic symbol you’ll want to show off for years to come.<\/p>",
+            "text": "<p>These are simple enough for everyday wear and an iconic symbol you’ll want to show off for years to come.</p>",
             "link_label": "Browse Earrings",
             "link": ""
           }
@@ -450,7 +444,7 @@
         "template--18092558516542__fccf014a-f382-42d7-8bba-d68816d841c2-16782013595bdfd183-2": {
           "type": "text",
           "settings": {
-            "text": "<p>When choosing timeless jewelry, it is important to consider factors such as design, quality, and materials to ensure that the piece will withstand the test of time and retain its value and beauty for years to come.<\/p>",
+            "text": "<p>When choosing timeless jewelry, it is important to consider factors such as design, quality, and materials to ensure that the piece will withstand the test of time and retain its value and beauty for years to come.</p>",
             "size": "text-size-regular"
           }
         }
@@ -674,7 +668,7 @@
         "heading": "THE |DIAMONDS ARE REAL| BUT THE MAGIC IS IN YOUR EYES",
         "marker_style": "style1",
         "heading_size": "h2",
-        "description": "<p>Luxury jewelry is a high-end category of jewelry that is often made of precious metals and gems, and is known for its exceptional craftsmanship and quality. This type of jewelry is often associated with elegance and status.<\/p>",
+        "description": "<p>Luxury jewelry is a high-end category of jewelry that is often made of precious metals and gems, and is known for its exceptional craftsmanship and quality. This type of jewelry is often associated with elegance and status.</p>",
         "badge_text": "Custom Design",
         "image_position": "text_first",
         "desktop_height": "desktop-height-550",
@@ -743,7 +737,7 @@
       "settings": {
         "heading": "LATEST NEWS",
         "marker_style": "style1",
-        "description": "<p>Beyond mere adornment, these pieces are made to make you feel good.<\/p>",
+        "description": "<p>Beyond mere adornment, these pieces are made to make you feel good.</p>",
         "blog": "news",
         "post_limit": 3,
         "columns_desktop": 3,
@@ -864,7 +858,7 @@
             "icon": "ruler",
             "image": "",
             "heading": "FREE SHIPPING",
-            "text": "<p>We are happy to offer international shipping for a flat rate of $40.<\/p>"
+            "text": "<p>We are happy to offer international shipping for a flat rate of $40.</p>"
           }
         },
         "template--18092558516542__aed8d8de-5b18-4f9a-b47c-c791458ce1e7-16782946191cc2a430-1": {
@@ -873,7 +867,7 @@
             "icon": "ruler",
             "image": "",
             "heading": "GIFT PACKAGE",
-            "text": "<p>Pair text with an image to focus on your chosen product.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product.</p>"
           }
         },
         "template--18092558516542__aed8d8de-5b18-4f9a-b47c-c791458ce1e7-16782946191cc2a430-2": {
@@ -882,7 +876,7 @@
             "icon": "ruler",
             "image": "",
             "heading": "EASY RETURNS",
-            "text": "<p>Pair text with an image to focus on your chosen product.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product.</p>"
           }
         },
         "8819ac50-53b9-4d87-8324-f3759114e43e": {
@@ -891,7 +885,7 @@
             "icon": "ruler",
             "image": "",
             "heading": "ONE YEAR WARRANTY",
-            "text": "<p>Pair text with an image to focus on your chosen product.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product.</p>"
           }
         }
       },

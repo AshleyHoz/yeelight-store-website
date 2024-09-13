@@ -141,7 +141,7 @@
                     </div>
                   </div>
                 </modal-dialog>
-					      <script src="{{ 'modal-dialog.js' | asset_url }}" defer="defer"></script>
+                <script src="{{ 'modal-dialog.js' | asset_url }}" defer="defer"></script>
               {% when 'space' %}
                 <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
             {%- endcase -%}
@@ -164,7 +164,7 @@
 {% schema %}
 {
   "name": "Background video",
-	"class": "section-background-video",
+  "class": "section-background-video",
   "settings": [
     {
       "type": "select",
@@ -188,8 +188,8 @@
           "label": "650px"
         },
         {
-          "value": "desktop-height-750",
-          "label": "750px"
+          "value": "desktop-height-800",
+          "label": "800px"
         },
         {
           "value": "desktop-height-full",
