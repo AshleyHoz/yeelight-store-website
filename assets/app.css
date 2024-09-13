@@ -2950,6 +2950,19 @@ h6,
   background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
   opacity: 1;
   transition: opacity 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
+}
+
+.header.is-sticky:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.60);
+  opacity: 1;
+  transition: opacity 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
   backdrop-filter: blur(40px);
 }
 @media only screen and (min-width: 768px) {
@@ -2982,6 +2995,10 @@ h6,
 }
 .header.is-sticky .header--inner:before {
   opacity: 0;
+}
+
+.header.is-sticky {
+
 }
 .header.transparent--true {
   position: absolute;
