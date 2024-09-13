@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "8ba47ba3-de7f-4f0a-b30d-6f2a540748c3": {
@@ -148,7 +157,7 @@
         "template--19142480036152__eb9559ad-0a35-4f46-a460-1309a19389d3-16843317298fdf372d-2": {
           "type": "text",
           "settings": {
-            "text": "<p>An electric friendship fueled by adventure! We connected with a longtime supporter and filmmaker Ben Moon and his partner Sophie Kuller to chat EV progression and share a day on the Oregon Coast.</p>",
+            "text": "<p>An electric friendship fueled by adventure! We connected with a longtime supporter and filmmaker Ben Moon and his partner Sophie Kuller to chat EV progression and share a day on the Oregon Coast.<\/p>",
             "size": "text-size-regular"
           }
         }
@@ -185,7 +194,13 @@
         "marker_style": "style1",
         "description": "",
         "heading_size": "small",
-        "collection_list": ["mountain-bikes", "city-bikes", "bike-parts", "accessories", "clothing"],
+        "collection_list": [
+          "mountain-bikes",
+          "city-bikes",
+          "bike-parts",
+          "accessories",
+          "clothing"
+        ],
         "image_ratio": "adapt",
         "collection_layout": "grid",
         "style": "style1",
@@ -280,7 +295,12 @@
     },
     "04ba00fb-2984-448d-a9ad-b1c89bd382c5": {
       "type": "single-image",
-      "settings": { "image": "", "full_width": false, "disable_top_spacing": true, "disable_bottom_spacing": true }
+      "settings": {
+        "image": "",
+        "full_width": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
     },
     "9d46a5b7-92c2-49f6-a5a1-393771bc04cb": {
       "type": "rich-text",
@@ -297,7 +317,7 @@
         "template--19142480036152__9d46a5b7-92c2-49f6-a5a1-393771bc04cb-1684740889ca5682ac-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Each frame size is paired with the wheel size that best fits the rider and sets them up for optimal efficiency and power transfer. It's simply logical to pair 29\" wheels with larger bikes, and more proportional, better-fitting 27.5\" wheels for smaller bikes.</p>",
+            "text": "<p>Each frame size is paired with the wheel size that best fits the rider and sets them up for optimal efficiency and power transfer. It's simply logical to pair 29\" wheels with larger bikes, and more proportional, better-fitting 27.5\" wheels for smaller bikes.<\/p>",
             "size": "text-size-regular"
           }
         }
@@ -464,7 +484,11 @@
       "blocks": {
         "91cf36fe-2e4b-42fd-ba15-04372724bfb3": {
           "type": "badge",
-          "settings": { "text": "Ride Young", "color_bg": "#3b3b40", "color_text": "#ffffff" }
+          "settings": {
+            "text": "Ride Young",
+            "color_bg": "#3b3b40",
+            "color_text": "#ffffff"
+          }
         },
         "template--19142480036152__7085818e-cdf3-4500-a153-4b60b7aad842-1684740889ca5682ac-1": {
           "type": "heading",
@@ -506,23 +530,48 @@
       "blocks": {
         "template--19142480036152__dd18e03f-7347-4ef4-b4d5-0d605ad1ea3a-168467537077e20546-0": {
           "type": "image",
-          "settings": { "image": "", "link": "", "heading": "", "text": "" }
+          "settings": {
+            "image": "",
+            "link": "",
+            "heading": "",
+            "text": ""
+          }
         },
         "template--19142480036152__dd18e03f-7347-4ef4-b4d5-0d605ad1ea3a-168467537077e20546-1": {
           "type": "image",
-          "settings": { "image": "", "link": "", "heading": "", "text": "" }
+          "settings": {
+            "image": "",
+            "link": "",
+            "heading": "",
+            "text": ""
+          }
         },
         "template--19142480036152__dd18e03f-7347-4ef4-b4d5-0d605ad1ea3a-168467537077e20546-2": {
           "type": "image",
-          "settings": { "image": "", "link": "", "heading": "", "text": "" }
+          "settings": {
+            "image": "",
+            "link": "",
+            "heading": "",
+            "text": ""
+          }
         },
         "template--19142480036152__dd18e03f-7347-4ef4-b4d5-0d605ad1ea3a-168467537077e20546-3": {
           "type": "image",
-          "settings": { "image": "", "link": "", "heading": "", "text": "" }
+          "settings": {
+            "image": "",
+            "link": "",
+            "heading": "",
+            "text": ""
+          }
         },
         "template--19142480036152__dd18e03f-7347-4ef4-b4d5-0d605ad1ea3a-168467537077e20546-4": {
           "type": "image",
-          "settings": { "image": "", "link": "", "heading": "", "text": "" }
+          "settings": {
+            "image": "",
+            "link": "",
+            "heading": "",
+            "text": ""
+          }
         }
       },
       "block_order": [
@@ -547,7 +596,9 @@
       "blocks": {
         "template--19142480036152__1d74eab1-7864-46c6-9442-11604b7dce18-1684740889ca5682ac-0": {
           "type": "subheading",
-          "settings": { "text": "Who we are" }
+          "settings": {
+            "text": "Who we are"
+          }
         },
         "template--19142480036152__1d74eab1-7864-46c6-9442-11604b7dce18-1684740889ca5682ac-1": {
           "type": "heading",
@@ -560,7 +611,10 @@
         },
         "template--19142480036152__1d74eab1-7864-46c6-9442-11604b7dce18-1684740889ca5682ac-3": {
           "type": "button",
-          "settings": { "link_label": "Our Story", "link": "#" }
+          "settings": {
+            "link_label": "Our Story",
+            "link": "#"
+          }
         }
       },
       "block_order": [
@@ -590,7 +644,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -602,7 +656,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -614,7 +668,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -647,16 +701,21 @@
       "blocks": {
         "template--19142480036152__936d25c7-099f-4a91-a61c-ec8b65a57221-168475120447f83232-0": {
           "type": "subheading",
-          "settings": { "text": "SHOW YOUR SPIRIT" }
+          "settings": {
+            "text": "SHOW YOUR SPIRIT"
+          }
         },
         "template--19142480036152__936d25c7-099f-4a91-a61c-ec8b65a57221-168475120447f83232-1": {
           "type": "heading",
-          "settings": { "text": "The Journey Matters More Than The Destination", "heading_size": "h2" }
+          "settings": {
+            "text": "The Journey Matters More Than The Destination",
+            "heading_size": "h2"
+          }
         },
         "template--19142480036152__936d25c7-099f-4a91-a61c-ec8b65a57221-168475120447f83232-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "description_size": "small"
           }
         }
@@ -671,7 +730,7 @@
         "mobile_height": "mobile-height-500",
         "full_width": true,
         "video_controls": false,
-        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "overlay_color": "#000000",
         "overlay_opacity": 25,
         "disable_top_spacing": true,

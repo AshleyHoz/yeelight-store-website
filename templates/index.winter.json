@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "8ba47ba3-de7f-4f0a-b30d-6f2a540748c3": {
@@ -104,7 +113,9 @@
         "d07c1654-8a0a-454c-96cd-e18103e56f47",
         "template--17993467625754__8ba47ba3-de7f-4f0a-b30d-6f2a540748c3-16787035832bb7b6a4-1"
       ],
-      "custom_css": [".slideshow__slide h1 {font-size: 72px; line-height: 78px;}"],
+      "custom_css": [
+        ".slideshow__slide h1 {font-size: 72px; line-height: 78px;}"
+      ],
       "settings": {
         "desktop_height": "desktop-height-800",
         "mobile_height": "mobile-height-500",
@@ -122,15 +133,27 @@
       "blocks": {
         "template--14745674514490__28187bbf-105a-4bc5-ac2b-a88efe04d8ab-text-1": {
           "type": "text",
-          "settings": { "text": "Returns extended to 30 days", "link": "", "outline_text": false }
+          "settings": {
+            "text": "Returns extended to 30 days",
+            "link": "",
+            "outline_text": false
+          }
         },
         "template--14745674514490__28187bbf-105a-4bc5-ac2b-a88efe04d8ab-text-2": {
           "type": "text",
-          "settings": { "text": "Returns extended to 30 days", "link": "", "outline_text": false }
+          "settings": {
+            "text": "Returns extended to 30 days",
+            "link": "",
+            "outline_text": false
+          }
         },
         "template--14745674514490__28187bbf-105a-4bc5-ac2b-a88efe04d8ab-text-3": {
           "type": "text",
-          "settings": { "text": "Returns extended to 30 days", "link": "", "outline_text": false }
+          "settings": {
+            "text": "Returns extended to 30 days",
+            "link": "",
+            "outline_text": false
+          }
         }
       },
       "block_order": [
@@ -138,7 +161,9 @@
         "template--14745674514490__28187bbf-105a-4bc5-ac2b-a88efe04d8ab-text-2",
         "template--14745674514490__28187bbf-105a-4bc5-ac2b-a88efe04d8ab-text-3"
       ],
-      "custom_css": [".scrolling-text--inner {font-weight: 400; padding: 12px 0;}"],
+      "custom_css": [
+        ".scrolling-text--inner {font-weight: 400; padding: 12px 0;}"
+      ],
       "settings": {
         "height": "height-auto",
         "full_width": true,
@@ -160,7 +185,12 @@
     },
     "8670c6b1-68f6-405f-bfff-2c6ff1e89099": {
       "type": "spacer",
-      "settings": { "spacer_mobile": 0, "spacer_desktop": 0, "border_separator": true, "border_separator_full": true }
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
     },
     "fe53684d-3653-4c6c-a359-eb749f580c02": {
       "type": "featured-collection",
@@ -220,7 +250,9 @@
       "blocks": {
         "template--14745674514490__50869643-808d-4b41-87b2-5da7d5d99d8d-subheading-1": {
           "type": "subheading",
-          "settings": { "text": "Add a tagline" }
+          "settings": {
+            "text": "Add a tagline"
+          }
         },
         "template--14745674514490__50869643-808d-4b41-87b2-5da7d5d99d8d-heading-1": {
           "type": "heading",
@@ -234,7 +266,7 @@
         "template--14745674514490__50869643-808d-4b41-87b2-5da7d5d99d8d-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
@@ -245,7 +277,7 @@
       ],
       "settings": {
         "use_video": false,
-        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -267,7 +299,13 @@
         "marker_style": "style1",
         "description": "",
         "heading_size": "small",
-        "collection_list": ["under-500", "under-400", "under-300", "under-200", "under-100"],
+        "collection_list": [
+          "under-500",
+          "under-400",
+          "under-300",
+          "under-200",
+          "under-100"
+        ],
         "image_ratio": "adapt",
         "collection_layout": "grid",
         "style": "style2",
@@ -352,7 +390,11 @@
       "blocks": {
         "6ed33b2e-032f-41d3-bd1e-6a270926fa09": {
           "type": "badge",
-          "settings": { "text": "To cozy up to someone", "color_bg": "#f3f4fa", "color_text": "#35393d" }
+          "settings": {
+            "text": "To cozy up to someone",
+            "color_bg": "#f3f4fa",
+            "color_text": "#35393d"
+          }
         },
         "template--14745674514490__842e70dc-0df5-46bf-ac61-37929d2a0df3-heading-1": {
           "type": "heading",
@@ -527,7 +569,11 @@
       "blocks": {
         "7ef7e8b3-ec02-4e18-97c4-1af036e409d8": {
           "type": "badge",
-          "settings": { "text": "Enjoy the winter", "color_bg": "#55c39b", "color_text": "#ffffff" }
+          "settings": {
+            "text": "Enjoy the winter",
+            "color_bg": "#55c39b",
+            "color_text": "#ffffff"
+          }
         },
         "template--14745674514490__f7e763ff-136d-4d11-aaec-ad61a8725b43-heading-1": {
           "type": "heading",
@@ -569,23 +615,43 @@
       "blocks": {
         "template--14745674514490__4f8e85d1-58b2-43fb-962f-fa57b08269bb-image-1": {
           "type": "image",
-          "settings": { "link": "#", "heading": "", "text": "" }
+          "settings": {
+            "link": "#",
+            "heading": "",
+            "text": ""
+          }
         },
         "template--14745674514490__4f8e85d1-58b2-43fb-962f-fa57b08269bb-image-2": {
           "type": "image",
-          "settings": { "link": "#", "heading": "", "text": "" }
+          "settings": {
+            "link": "#",
+            "heading": "",
+            "text": ""
+          }
         },
         "template--14745674514490__4f8e85d1-58b2-43fb-962f-fa57b08269bb-image-3": {
           "type": "image",
-          "settings": { "link": "#", "heading": "", "text": "" }
+          "settings": {
+            "link": "#",
+            "heading": "",
+            "text": ""
+          }
         },
         "template--14745674514490__4f8e85d1-58b2-43fb-962f-fa57b08269bb-image-4": {
           "type": "image",
-          "settings": { "link": "#", "heading": "", "text": "" }
+          "settings": {
+            "link": "#",
+            "heading": "",
+            "text": ""
+          }
         },
         "template--14745674514490__4f8e85d1-58b2-43fb-962f-fa57b08269bb-image-5": {
           "type": "image",
-          "settings": { "link": "#", "heading": "", "text": "" }
+          "settings": {
+            "link": "#",
+            "heading": "",
+            "text": ""
+          }
         }
       },
       "block_order": [
@@ -610,7 +676,9 @@
       "blocks": {
         "template--14745674514490__f9d5048b-d075-46d8-8988-645690df5ebd-subheading-1": {
           "type": "subheading",
-          "settings": { "text": "Snowed in" }
+          "settings": {
+            "text": "Snowed in"
+          }
         },
         "template--14745674514490__f9d5048b-d075-46d8-8988-645690df5ebd-heading-1": {
           "type": "heading",
@@ -624,11 +692,21 @@
         "template--14745674514490__f9d5048b-d075-46d8-8988-645690df5ebd-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>What’s better than one cozy jacket? Two! Meet the reversible fleece, with plush sherpa on one side and water-resistant quilted fabric on the other. Both sides feature an easy, full snap closure.</p>"
+            "text": "<p>What’s better than one cozy jacket? Two! Meet the reversible fleece, with plush sherpa on one side and water-resistant quilted fabric on the other. Both sides feature an easy, full snap closure.<\/p>"
           }
         },
-        "325a824a-f14d-4b03-b176-0d46f31b046b": { "type": "space", "settings": { "height": 14 } },
-        "45562c04-766a-46d2-843b-feab6aeb67be": { "type": "button", "settings": { "button_text": "Learn more" } }
+        "325a824a-f14d-4b03-b176-0d46f31b046b": {
+          "type": "space",
+          "settings": {
+            "height": 14
+          }
+        },
+        "45562c04-766a-46d2-843b-feab6aeb67be": {
+          "type": "button",
+          "settings": {
+            "button_text": "Learn more"
+          }
+        }
       },
       "block_order": [
         "template--14745674514490__f9d5048b-d075-46d8-8988-645690df5ebd-subheading-1",
@@ -710,7 +788,7 @@
       "settings": {
         "heading": "From the |journal|",
         "marker_style": "style1",
-        "description": "<p>Add a short description for your brand news</p>",
+        "description": "<p>Add a short description for your brand news<\/p>",
         "blog": "news",
         "post_limit": 3,
         "columns_desktop": 3,
