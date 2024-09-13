@@ -388,6 +388,10 @@
 }
 .shop-the-look .thb-hotspot-product-content {
   text-align: left;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .shop-the-look .thb-hotspot-product-content .thb-hotspot-product-title {
   color: #fff;
@@ -407,8 +411,20 @@
   justify-content: space-between;
 }
 
+.thb-hotspot-product-pricebox .price .custom-amount-ins {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  text-transform: capitalize;
+}
+
+.thb-hotspot-product-pricebox .amount .custom-amount-del {
+  display: none;
+}
+
 .thb-hotspot-product-view {
-  padding: 0px 14px;
+  padding: 4px 12px;
   border-radius: 33px;
   background: linear-gradient(94deg, #cb3afb 0%, #ff501a 100%), linear-gradient(103deg, #d911fd 0%, #6011ff 100%),
     var(--20, rgba(255, 255, 255, 0.2));
