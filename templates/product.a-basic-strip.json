@@ -342,7 +342,7 @@
     "single_image_N6MW93": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Basic_Light_Strip_PC_9.jpg",
+        "image": "shopify:\/\/shop_images\/basic-strip-install.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Basic_Light_Strip_Moblie_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
