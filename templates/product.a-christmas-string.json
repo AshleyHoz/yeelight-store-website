@@ -139,50 +139,13 @@
     "product_slideshow_ahQAiP": {
       "type": "product-slideshow",
       "blocks": {
-        "slide_Re8Uxn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraStripBanner01.jpg",
-            "button_icon": "",
-            "button_text": "",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraStripBannerMobile01.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "badge_text": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
-            "color_slidebg_opacity": 0,
-            "color_slidebg_blur": 0,
-            "color_text": "#2c2d2e",
-            "color_badge_bg": "#3f72e5",
-            "color_badge_text": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "",
-            "button_1_color": "accent",
-            "button_1_link": "",
-            "use_text_button_1": false,
-            "button_2_text": "",
-            "button_2_color": "white",
-            "button_2_link": "",
-            "use_text_button_2": false
-          }
-        },
         "slide_Hyb3Yi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraStripBanner02.jpg",
+            "image": "shopify:\/\/shop_images\/Christmas_String_Banner.jpg",
             "button_icon": "",
-            "button_text": "Bed Room",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraStripBannerMobile03.jpg",
+            "button_text": "Christmas",
+            "mobile_image": "shopify:\/\/shop_images\/Christmas_String_Banner_M.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -216,10 +179,10 @@
         "slide_UqXJwU": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraStripBanner03.jpg",
+            "image": "shopify:\/\/shop_images\/Valentine_Banner.jpg",
             "button_icon": "",
             "button_text": "Gaming Room",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraStripBannerMobile02.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Valentine_Banner_M.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -252,7 +215,6 @@
         }
       },
       "block_order": [
-        "slide_Re8Uxn",
         "slide_Hyb3Yi",
         "slide_UqXJwU"
       ],
