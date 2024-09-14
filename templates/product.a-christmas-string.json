@@ -75,7 +75,18 @@
         },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "collapsible_tab_4CgJDK": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "open": false,
+            "content": "<ul><li><strong>20+ Pre-Set Lighting Effects for More Than Christmas<\/strong><\/li><\/ul><p>Yeelight Christmas string lights feature over 20 lighting effects that can easily transform your home into a holiday wonderland. Perfect for Christmas, Halloween, or any festive celebration, the lights create a magical atmosphere indoors or out.<\/p><ul><li><strong>Individually Controllable RGBIC LEDs<\/strong><\/li><\/ul><p>Customize each LED with 16 million colors for endless creativity. The individually controllable LEDs allow you to design custom color schemes and dynamic effects, perfect for decking out your tree, doorposts, or garden.<\/p><ul><li><strong>Music Sync Mode for Party Fun<\/strong><\/li><\/ul><p>Sync your smart Christmas lightswith the rhythm of your music. These lights respond to sound in real-time, adding an interactive element to your holiday parties or family gatherings.<\/p><ul><li><strong>Weatherproof and Durable Design<\/strong><\/li><\/ul><p>Built for both indoor and outdoor use, these lights are IP44 waterproof and can operate in temperatures ranging from -4°F to 140°F. Whether on your Christmas tree or lining your garden, they are made to withstand the elements all season long.<\/p><ul><li><strong>Smart App Control for Easy Customization<\/strong><\/li><\/ul><p>Control your lights effortlessly through the Yeelight app. With Bluetooth connectivity, you can adjust colors, switch lighting modes, and create personalized effects from your phone, making decorating for the holidays easier than ever.<\/p><ul><li><strong>Seamless Integration with Yeelight Ecosystem<\/strong><\/li><\/ul><p>Combine these Christmas string lights with other Yeelight products, like permanent outdoor lights and curtain lights, to create an immersive lighting experience for any holiday or celebration.<\/p>",
+            "page": "",
+            "custom_liquid": ""
           }
         },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
@@ -120,6 +131,7 @@
         "quantity",
         "buy_buttons",
         "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "collapsible_tab_4CgJDK",
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
         "d56924f2-0137-4e3b-8c33-49b1f28391c6",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
@@ -431,12 +443,12 @@
         "heading": "FAQ",
         "marker_style": "style1",
         "description": "",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#1a1c1d",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "color_text": "#2c2d2e",
         "color_links": "#2c2d2e",
-        "color_border": "#DADCE0",
+        "color_border": "#dadce0",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
