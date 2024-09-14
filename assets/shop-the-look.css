@@ -455,6 +455,7 @@
 .shop-look_slide {
   border-radius: 30px;
   overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .shop-look_slideshow--container {
