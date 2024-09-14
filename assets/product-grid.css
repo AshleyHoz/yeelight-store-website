@@ -714,11 +714,11 @@
   margin-top: 4px;
 }
 
-.product-recommendations--items {
+.product-recommendations .product-recommendations--items {
   margin: 0;
   gap: 20px;
 }
-.product-recommendations--items .product-column {
+.product-recommendations .product-recommendations--items .product-column {
   width: calc(25% - 20px);
 }
 
