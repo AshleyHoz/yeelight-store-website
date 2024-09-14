@@ -714,6 +714,19 @@
   margin-top: 4px;
 }
 
+.product-recommendations .product-recommendations-items {
+  margin: 0;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+.product-recommendations .product-recommendations-items .product-column {
+  width: calc(25% - 20px);
+}
+
 @media only screen and (max-width: 767px) {
   .sidebar-container .products.collection.row {
     padding: 0;
@@ -807,5 +820,12 @@
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+  }
+
+  .product-recommendations .product-recommendations-items {
+    gap: 12px;
+  }
+  .product-recommendations .product-recommendations-items .product-column {
+    width: calc(50% - 6px);
   }
 }

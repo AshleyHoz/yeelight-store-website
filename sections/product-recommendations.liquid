@@ -37,8 +37,8 @@
         {% render 'section-header', section_heading: section_heading, section_description: section_description %}
         <ul class="products row no-padding product-recommendations-items">
           {% for recommendation in recommendations.products %}
-            {% comment %} {{ columns_class }} {% endcomment %}
-            <li class="columns product-column">
+            {% comment %} {{ columns_class }} columns {% endcomment %}
+            <li class="product-column">
               {% render 'product-card', product_card_product: recommendation %}
             </li>
           {% endfor %}
