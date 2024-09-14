@@ -273,6 +273,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -282,6 +283,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_3.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -291,6 +293,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_4.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -300,7 +303,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_5.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_4.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -310,7 +313,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_6.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_5.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -320,7 +323,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_7.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M6.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -330,7 +333,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_8.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_7.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -340,7 +343,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_9.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_8.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_9.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -350,7 +353,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_10.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_9.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -360,7 +363,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_11.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_10.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
