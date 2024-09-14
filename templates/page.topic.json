@@ -231,7 +231,7 @@
       "settings": {
         "heading": "Quick installation method",
         "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-400",
+        "mobile_height": "mobile-height-300",
         "height": "adapt",
         "desktop_layout": "image_first",
         "color_bg": "#121212",
