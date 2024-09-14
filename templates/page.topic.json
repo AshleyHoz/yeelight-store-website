@@ -166,6 +166,7 @@
       "blocks": {
         "badge_tRYgzk": {
           "type": "badge",
+          "disabled": true,
           "settings": {
             "text": "Badge heading",
             "color_bg": "#3f72e5",
