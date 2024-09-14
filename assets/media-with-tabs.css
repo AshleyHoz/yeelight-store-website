@@ -21,21 +21,21 @@
 }
 
 .media-with-tabs {
-  display: grid;
-  grid-auto-flow: dense;
+  display: flex;
+  /* grid-auto-flow: dense; */
   background: var(--color-bg);
   color: var(--color-text);
   overflow: hidden;
 }
 @media only screen and (min-width: 768px) {
   .media-with-tabs {
-    grid-template-areas: 'media content';
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-areas: 'media content';
+    grid-template-columns: 1fr 1fr; */
   }
 }
 @media only screen and (min-width: 768px) {
   .media-with-tabs.text_first {
-    grid-template-areas: 'content media';
+    /* grid-template-areas: 'content media'; */
   }
 }
 .media-with-tabs--transparent-true {
@@ -53,18 +53,20 @@
 }
 .media-with-tabs--content {
   padding: 25px;
+  width: 40%;
 }
 @media only screen and (min-width: 768px) {
   .media-with-tabs--content {
-    padding: 45px;
-    grid-area: content;
+    padding: 30px;
+    /* grid-area: content; */
   }
 }
-@media only screen and (min-width: 768px) {
-  .media-with-tabs--media {
-    grid-area: media;
-  }
+/* @media only screen and (min-width: 768px) { */
+.media-with-tabs--media {
+  /* grid-area: media; */
+  width: 100%;
 }
+/* } */
 .media-with-tabs--media .carousel__slide {
   width: 100%;
 }
@@ -174,5 +176,14 @@
 @media only screen and (max-width: 767px) {
   .section-media-with-tabs {
     padding: 40px 0;
+  }
+
+  .media-with-tabs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .media-with-tabs--content {
+    width: 100%;
   }
 }
