@@ -186,4 +186,14 @@
   .media-with-tabs--content {
     width: 100%;
   }
+
+  .media-with-tabs--tab {
+    padding: 12px;
+  }
+
+  .media-with-tabs--button {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 116%;
+  }
 }
