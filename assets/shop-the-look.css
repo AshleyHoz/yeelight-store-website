@@ -345,6 +345,7 @@
   opacity: 0;
   transform: translateY(20px);
   pointer-events: none;
+  display: none;
 }
 .shop-the-look .thb-hotspot-arrow:before {
   content: '';
@@ -357,7 +358,7 @@
 }
 .shop-the-look .thb-hotspot-bubble {
   position: absolute;
-  top: calc(100% + 21px);
+  top: 100%;
   left: 50%;
   padding: 8px;
   background: transparent;
@@ -455,7 +456,7 @@
 .shop-look_slide {
   border-radius: 30px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .shop-look_slideshow--container {

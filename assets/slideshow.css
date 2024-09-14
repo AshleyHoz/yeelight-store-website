@@ -17,7 +17,6 @@
 
 .slideshow {
   display: flex;
-  overflow: hidden;
   background: rgba(var(--color-body-rgb), 0.03);
 }
 .slideshow__slide {
