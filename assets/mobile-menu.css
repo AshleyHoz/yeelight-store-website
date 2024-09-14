@@ -178,12 +178,12 @@
   top: 0;
   left: 0;
   z-index: 10;
-  background: var(--color-header-bg, #var --bg-body, #fff);
   transform: translateX(100%);
   margin-left: 0;
   list-style: none;
   padding: 0 15px;
   visibility: hidden;
+  background: #000000;
 }
 [dir='rtl'] .mobile-menu .sub-menu {
   transform: translateX(-100%);
