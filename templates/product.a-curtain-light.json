@@ -142,7 +142,7 @@
         "slide_Re8Uxn": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner01.jpg",
+            "image": "shopify:\/\/shop_images\/Curtain_KV_PC_1.jpg",
             "button_icon": "",
             "button_text": "Independence Day",
             "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile01.jpg",
@@ -179,7 +179,7 @@
         "slide_Hyb3Yi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner02.jpg",
+            "image": "shopify:\/\/shop_images\/Curtain_KV_PC_2.jpg",
             "button_icon": "",
             "button_text": "Christmas",
             "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile02.jpg",
@@ -216,84 +216,10 @@
         "slide_UqXJwU": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner03.jpg",
+            "image": "shopify:\/\/shop_images\/Curtain_KV_PC_3.jpg",
             "button_icon": "",
             "button_text": "Halloween",
             "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile03.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "badge_text": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
-            "color_slidebg_opacity": 0,
-            "color_slidebg_blur": 20,
-            "color_text": "#2c2d2e",
-            "color_badge_bg": "#3f72e5",
-            "color_badge_text": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "",
-            "button_1_color": "accent",
-            "button_1_link": "",
-            "use_text_button_1": false,
-            "button_2_text": "",
-            "button_2_color": "white",
-            "button_2_link": "",
-            "use_text_button_2": false
-          }
-        },
-        "slide_r4cLYH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner04.jpg",
-            "button_icon": "",
-            "button_text": "Proposal",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile04.jpg",
-            "slide_link": "",
-            "video_background": false,
-            "badge_text": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
-            "color_slidebg_opacity": 0,
-            "color_slidebg_blur": 20,
-            "color_text": "#2c2d2e",
-            "color_badge_bg": "#3f72e5",
-            "color_badge_text": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "",
-            "button_1_color": "accent",
-            "button_1_link": "",
-            "use_text_button_1": false,
-            "button_2_text": "",
-            "button_2_color": "white",
-            "button_2_link": "",
-            "use_text_button_2": false
-          }
-        },
-        "slide_idmXF7": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner05.jpg",
-            "button_icon": "",
-            "button_text": "Daily Use",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile05.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -328,9 +254,7 @@
       "block_order": [
         "slide_Re8Uxn",
         "slide_Hyb3Yi",
-        "slide_UqXJwU",
-        "slide_r4cLYH",
-        "slide_idmXF7"
+        "slide_UqXJwU"
       ],
       "settings": {
         "title": "Yeelight Permanent Outdoor Lights",
@@ -348,7 +272,7 @@
     "single_image_3kkr3Y": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_1.jpg",
+        "image": "shopify:\/\/shop_images\/Curtain_light_PC_2.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Permanent-M_1.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -358,7 +282,7 @@
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC2.jpg",
+        "image": "shopify:\/\/shop_images\/Curtain_light_PC_3.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Permanent-M2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -368,7 +292,7 @@
     "single_image_bNVALU": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_3.jpg",
+        "image": "shopify:\/\/shop_images\/Curtain_light_PC_4.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Permanent-M_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -378,7 +302,7 @@
     "single_image_YFNLfJ": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_4.jpg",
+        "image": "shopify:\/\/shop_images\/Curtain_light_PC_5.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Permanent-M_4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -388,7 +312,7 @@
     "single_image_UwbPnd": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_5.jpg",
+        "image": "shopify:\/\/shop_images\/Curtain_light_PC_6.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Permanent-M_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -398,7 +322,7 @@
     "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC6.jpg",
+        "image": "shopify:\/\/shop_images\/Curtain_light_PC_7.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Permanent-M6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -408,7 +332,7 @@
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_7.jpg",
+        "image": "shopify:\/\/shop_images\/Curtain_light_PC_8.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Permanent-M_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -418,7 +342,7 @@
     "single_image_N6MW93": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_8.jpg",
+        "image": "shopify:\/\/shop_images\/Curtain_light_PC_9.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Permanent-M_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -428,7 +352,7 @@
     "single_image_JH8XXF": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_9.jpg",
+        "image": "shopify:\/\/shop_images\/Curtain_light_PC_10.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Permanent-M_9.jpg",
         "full_width": true,
         "disable_top_spacing": true,
@@ -438,38 +362,8 @@
     "single_image_WdwpPN": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_10.jpg",
+        "image": "shopify:\/\/shop_images\/Curtain_light_PC_11.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Permanent-M_10.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "single_image_FGkhTr": {
-      "type": "single-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Permanent_Light_PC11.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_11.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "single_image_m6jW4L": {
-      "type": "single-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Permanent_Light_PC12.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_12.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "single_image_wA9Aty": {
-      "type": "single-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Permanent_Light_PC13.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_13.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -628,9 +522,6 @@
     "single_image_N6MW93",
     "single_image_JH8XXF",
     "single_image_WdwpPN",
-    "single_image_FGkhTr",
-    "single_image_m6jW4L",
-    "single_image_wA9Aty",
     "media_with_tabs_GFrrk4",
     "rich_text_6mPtPi",
     "1712003137212dc6f8",
