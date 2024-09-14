@@ -715,6 +715,11 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .sidebar-container .products.collection.row {
+    padding: 0;
+    gap: 12px;
+  }
+
   .product-card {
     display: flex;
     flex-direction: column;
