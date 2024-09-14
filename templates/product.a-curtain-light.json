@@ -273,7 +273,6 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_1.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -283,7 +282,6 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_3.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -293,7 +291,6 @@
       "type": "single-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Curtain_light_PC_4.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
