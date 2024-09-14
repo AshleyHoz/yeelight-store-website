@@ -75,7 +75,18 @@
         },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "collapsible_tab_nbFtx9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "open": true,
+            "content": "<ul><li><strong>20+ Lighting Effects for Every Occasion<\/strong><\/li><\/ul><p>Effortlessly switch between over 20 preset lighting effects tailored for holidays, parties, or daily use. Whether it's Halloween, Christmas, or a family gathering, these permanent outdoor lights transform your house into the perfect setting.<\/p><ul><li><strong>High-Brightness RGBIC LEDs<\/strong><\/li><\/ul><p>Each meter of lights contains two high-lumen LEDs, offering 16 million colors to create vivid displays. Seamlessly switch between vibrant RGB lighting and a warm 3000K white for more intimate settings.<\/p><ul><li><strong>Smart App Control with Customization<\/strong> <\/li><\/ul><p>Connect to the Yeelight app via Bluetooth for intuitive control. Personalize each LED, create custom dynamic effects, adjust speed, and even sync the lights to music for an immersive experience.<\/p><ul><li><strong>Durable and Weather-Resistant Design<\/strong> <\/li><\/ul><p>Built to withstand the elements, these lights feature IP67 waterproofing and can operate in temperatures from -4°F to 140°F. Their durable design makes them ideal for year-round outdoor use.<\/p><ul><li><strong>Easy Installation for Long-Term Use<\/strong> <\/li><\/ul><p>Designed for quick and secure installation, the adhesive backing and buckles ensure a firm hold on eaves. With its subtle white color, the strip blends seamlessly into most surfaces for a hidden look.<\/p><ul><li><strong>Seamless Integration with Yeelight Ecosystem<\/strong><\/li><\/ul><p>Combine these permanent lights with other Yeelight products, like curtain lights and string lights, to create an immersive lighting experience for any holiday or celebration.<\/p>",
+            "page": "",
+            "custom_liquid": ""
           }
         },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
@@ -120,6 +131,7 @@
         "quantity",
         "buy_buttons",
         "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "collapsible_tab_nbFtx9",
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
         "d56924f2-0137-4e3b-8c33-49b1f28391c6",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
@@ -635,12 +647,12 @@
         "heading": "FAQ",
         "marker_style": "style1",
         "description": "",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#1a1c1d",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "color_text": "#2c2d2e",
         "color_links": "#2c2d2e",
-        "color_border": "#DADCE0",
+        "color_border": "#dadce0",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
