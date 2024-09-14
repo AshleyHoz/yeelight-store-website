@@ -144,7 +144,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Curtain_KV_PC_1.jpg",
             "button_icon": "",
-            "button_text": "Independence Day",
+            "button_text": "Outdoor",
             "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile01.jpg",
             "slide_link": "",
             "video_background": false,
@@ -181,7 +181,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Curtain_KV_PC_2.jpg",
             "button_icon": "",
-            "button_text": "Christmas",
+            "button_text": "Gaming",
             "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile02.jpg",
             "slide_link": "",
             "video_background": false,
@@ -218,7 +218,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Curtain_KV_PC_3.jpg",
             "button_icon": "",
-            "button_text": "Halloween",
+            "button_text": "Indoor",
             "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile03.jpg",
             "slide_link": "",
             "video_background": false,
