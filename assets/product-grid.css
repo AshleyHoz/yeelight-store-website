@@ -822,6 +822,11 @@
     text-transform: capitalize;
   }
 
+  .product-card-cover {
+    padding: 12px;
+    border-radius: 12px;
+  }
+
   .product-recommendations .product-recommendations-items {
     gap: 12px;
   }
