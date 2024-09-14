@@ -351,15 +351,15 @@
         "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_1.jpg",
         "image_mobile": "shopify:\/\/shop_images\/Permanent-M_1.jpg",
         "full_width": true,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_2.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Permanent-M2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -398,8 +398,8 @@
     "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_6.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_6.jpg",
+        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC6.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Permanent-M6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
