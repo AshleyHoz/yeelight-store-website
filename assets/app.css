@@ -5501,6 +5501,14 @@ input[type='radio'],
   color: rgba(255, 255, 255, 0.6);
 }
 
+.product-recommendations .product-recommendations--items {
+  margin: 0;
+  gap: 20px;
+}
+.product-recommendations .product-recommendations--items .product-column {
+  width: calc(25% - 20px);
+}
+
 @media only screen and (max-width: 767px) {
   .section-header {
     padding-bottom: 24px;
