@@ -53,7 +53,7 @@
               <ul
                 id="product-grid"
                 data-id="{{ section.id }}"
-                class="products collection row small-up-2 medium-up-{{ columns_desktop }} pagination--{{ pagination_type }}{% if collection.products.size == 0 %} collection--empty{%- endif -%} product-items"
+                class="products collection row small-up-2 product-items medium-up-{{ columns_desktop }} pagination--{{ pagination_type }}{% if collection.products.size == 0 %} collection--empty{%- endif -%}"
               >
                 {%- if collection.products.size == 0 -%}
                   <div class="collection-empty">

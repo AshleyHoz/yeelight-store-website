@@ -69,19 +69,7 @@
     letter-spacing: 0.24px;
     margin: 0 auto;
     width: 120px;
-    border: 1px solid transparent;
-    background-image: linear-gradient(#000000, #000000),
-      linear-gradient(
-        108deg,
-        #46d3ff 0.14%,
-        #6178ff 24.02%,
-        #a750ff 39.05%,
-        #ff1ec0 56.82%,
-        #ff784b 87.82%,
-        #ffce51 95.45%
-      );
-    background-clip: padding-box, border-box;
-    background-size: 100%, 100%;
+    border: 1px solid #fff;
   }
 }
 .featured-collection .products.row {
