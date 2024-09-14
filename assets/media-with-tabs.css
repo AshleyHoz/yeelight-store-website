@@ -178,10 +178,6 @@
     padding: 40px 0;
   }
 
-  .media-with-tabs--media {
-    height: 300px;
-  }
-
   .media-with-tabs {
     display: flex;
     flex-wrap: wrap;
