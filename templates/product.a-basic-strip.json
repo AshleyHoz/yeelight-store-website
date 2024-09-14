@@ -75,7 +75,18 @@
         },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "collapsible_tab_d9RVkP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "open": false,
+            "content": "<ul><li><strong>20+ Pre-Set Lighting Effects<\/strong><\/li><\/ul><p>Offer over 20 pre-set lighting effects to match any mood or occasion. Whether it's for movie nights, parties, or casual ambiance, the lights can easily transform your space.<\/p><ul><li><strong>Independent Controlled LEDs with 16 Million Colors<\/strong><\/li><\/ul><p>Create your own lighting designs by individually controlling LEDs on the strip. With access to 16 million colors, you can customize the ambiance for gaming, home theaters, or simple room decorations.<\/p><ul><li><strong>Smart App Control for Maximum Flexibility<\/strong><\/li><\/ul><p>Connect via Bluetooth to the Yeelight app to adjust colors and set dynamic effects. With smart control at your fingertips, you can switch between modes, dim the lights, or design your own dynamic scenes.<\/p><ul><li><strong>Music Flow for Enhanced Entertainment<\/strong><\/li><\/ul><p>Turn any room into an immersive space by syncing your <strong>LED strip lights<\/strong> with your favorite music. The lights respond to the beat in real-time, perfect for parties, gaming sessions, or setting the mood for movie marathons.<\/p><ul><li><strong>Discreet Installation for Seamless Integration<\/strong><\/li><\/ul><p>Easily install these strip lights behind TVs, cabinets, or along ceilings for a hidden, ambient lighting performance. The adhesive backing makes installation quick and hassle-free, blending seamlessly into your home.<\/p><ul><li><strong>Compatible with Yeelight Ecosystem<\/strong><\/li><\/ul><p>Integrate these RGBIC LED strip lights with other Yeelight products for a fully synchronized smart home experience. Whether combined with string lights or curtain lights, they enhance any occation setup.<\/p>",
+            "page": "",
+            "custom_liquid": ""
           }
         },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
@@ -120,6 +131,7 @@
         "quantity",
         "buy_buttons",
         "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "collapsible_tab_d9RVkP",
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
         "d56924f2-0137-4e3b-8c33-49b1f28391c6",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
@@ -536,12 +548,12 @@
         "heading": "FAQ",
         "marker_style": "style1",
         "description": "",
-        "color_bg": "transparent",
+        "color_bg": "rgba(0,0,0,0)",
         "color_heading": "#1a1c1d",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "color_text": "#2c2d2e",
         "color_links": "#2c2d2e",
-        "color_border": "#DADCE0",
+        "color_border": "#dadce0",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
