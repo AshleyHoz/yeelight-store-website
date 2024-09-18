@@ -52,25 +52,25 @@
         "product_nmh8jV": {
           "type": "product",
           "settings": {
-            "product": "yeelight-smart-led-lamp-d2"
+            "product": "a-yeelight-curtain-lights"
           }
         },
         "product_Qger9E": {
           "type": "product",
           "settings": {
-            "product": "yeelight-smart-cube"
+            "product": "a-yeelight-christmas-string-lights"
           }
         },
         "product_wG8iCm": {
           "type": "product",
           "settings": {
-            "product": "yeelight-candela-lamp"
+            "product": "yeelight-rgbic-led-basic-strip-lights"
           }
         },
         "product_BTfM4U": {
           "type": "product",
           "settings": {
-            "product": "yeelight-gu10-smart-bulb"
+            "product": "yeelight-candela-lamp"
           }
         }
       },
@@ -81,7 +81,7 @@
         "product_BTfM4U"
       ],
       "settings": {
-        "title": "<span>Elevate the Indoors<\/span> in Every Moment",
+        "title": "Elevate the Indoors in Every Moment",
         "image": "shopify:\/\/shop_images\/TopicProductBannerRoom.jpg",
         "image_mobile": "shopify:\/\/shop_images\/TopicProductBannerMobileRoom.jpg",
         "reverse": "row"
@@ -89,6 +89,7 @@
     },
     "background_video_dY4YJx": {
       "type": "background-video",
+      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
@@ -118,6 +119,7 @@
       "block_order": [
         "heading_fkRMKm"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -158,6 +160,7 @@
       "block_order": [
         "loox_reviews_loox_video_slider_cyaCJt"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -227,6 +230,7 @@
         "tab_CYQ3rn",
         "tab_a8dTgJ"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Quick installation method",
         "desktop_height": "desktop-height-650",
@@ -297,6 +301,7 @@
         "collapsible_tab_mG8qNc",
         "collapsible_tab_BjMVhm"
       ],
+      "disabled": true,
       "settings": {
         "heading": "FAQ",
         "marker_style": "style1",
