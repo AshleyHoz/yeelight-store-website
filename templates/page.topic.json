@@ -89,16 +89,14 @@
     },
     "background_video_dY4YJx": {
       "type": "background-video",
-      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
         "full_width": false,
         "video_controls": true,
-        "video": "",
-        "video_hosted": "shopify:\/\/files\/videos\/Yeelight Cube Smart Lamp 2.mp4",
+        "video": "https:\/\/youtu.be\/Sq0umd4-o0I?si=BoqlOZuPLnZj4vzf",
         "overlay_color": "#000000",
-        "overlay_opacity": 25,
+        "overlay_opacity": 0,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
