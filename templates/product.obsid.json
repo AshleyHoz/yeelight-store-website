@@ -100,7 +100,7 @@
           "settings": {
             "heading": "Warranty",
             "open": false,
-            "content": "<p>We offer 2 Year Warranty on all Yeelight Products.<\/p>",
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.<\/p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -150,6 +150,7 @@
         "logo_FMrgMj": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/matter_1.png",
             "link": ""
           }
@@ -157,6 +158,7 @@
         "logo_mKzWBz": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/Apple_Home_78be6963-c410-44d0-81c3-cfdd347a2e05.jpg",
             "link": ""
           }
@@ -164,6 +166,7 @@
         "logo_rr3cCK": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/Google_home.png",
             "link": ""
           }
@@ -171,6 +174,7 @@
         "logo_9t6hpM": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/work_with_alexa.png",
             "link": ""
           }
@@ -178,6 +182,7 @@
         "logo_btcrht": {
           "type": "logo",
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/5.png",
             "link": ""
           }
@@ -186,6 +191,7 @@
           "type": "logo",
           "disabled": true,
           "settings": {
+            "logo_heading": "Logo list",
             "image": "shopify:\/\/shop_images\/Yeelight_icon_8597e696-15e6-4b2f-84c1-6cb3e99e7f84.jpg",
             "link": ""
           }
