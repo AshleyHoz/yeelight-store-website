@@ -388,7 +388,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I creater a larger scale patterns scenes? Such as work with 2 or more sets of product for vivid lighting effects?",
-            "open": true,
+            "open": false,
             "content": "<p>Yes, it is supported. Our current static pattern library includes many two-piece and three-piece patterns. You can set them up on different curtain lights to create a complete picture. We will also continuously upgrade and offer more dynamic and static combined lighting effects in the future.<\/p>",
             "page": ""
           }
@@ -397,7 +397,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "How many preset decor themes provided or pattern combinations for a more festive or personalized atmosphere?",
-            "open": true,
+            "open": false,
             "content": "<p>Currently, there are over 20 dynamic preset lighting effects and over 170 static preset patterns. We will continue to update and add more in the future.<\/p>",
             "page": ""
           }
@@ -406,7 +406,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "What's the connected method?",
-            "open": true,
+            "open": false,
             "content": "<p>Smart control via the Yeelight APP is achieved through Bluetooth connection.<\/p>",
             "page": ""
           }
@@ -415,7 +415,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I DIY the canvas by myself?",
-            "open": true,
+            "open": false,
             "content": "<p>Yes. The curtain lights consist of 475 LEDs arranged in a 19x25 grid, with each LED individually controllable. This creates a canvas where you can design any patterns, text, dynamic effects, colors, and more.<\/p>",
             "page": ""
           }
@@ -424,7 +424,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Are Yeelight Curtain Lights energy-efficient?",
-            "open": true,
+            "open": false,
             "content": "",
             "page": ""
           }
@@ -433,7 +433,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I use Yeelight Curtain Lights outdoors?",
-            "open": true,
+            "open": false,
             "content": "<p>Yes, the curtain lights have an IP65 waterproof rating and can operate at a maximum temperature of 60°C (140°F) and a minimum temperature of -20°C (-4°F).<\/p>",
             "page": ""
           }
@@ -442,7 +442,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Are the Yeelight Curtain Lights compatible with other Yeelight products?",
-            "open": true,
+            "open": false,
             "content": "<p>Currently, the curtain lights do not support direct group control with other products. However, different products have similar lighting effects, so you can set the same lighting effects on each product individually to achieve a coordinated overall effect.<\/p>",
             "page": ""
           }
@@ -451,7 +451,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "How do I install Yeelight Curtain Lights?",
-            "open": true,
+            "open": false,
             "content": "<p>There are three installation methods depending on the location: you can hang the curtain lights directly on curtain hooks, use 3M tape to stick them to the wall, or use non-marking nails for installation. Please refer to our installation video for details.<\/p>",
             "page": ""
           }
@@ -460,7 +460,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I change the direction of the patterns?",
-            "open": true,
+            "open": false,
             "content": "<p>Yes. You can flip the pattern using the app. For example, if you have installed the curtain lights indoors but want to view them from the outside, you can simply flip the pattern.<\/p>",
             "page": ""
           }
