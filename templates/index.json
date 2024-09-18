@@ -294,7 +294,7 @@
         "product_rxfqJq": {
           "type": "product",
           "settings": {
-            "product_handle": "yeelight-obsid-rgbic-light-strip",
+            "product_handle": "yeelight-rgbic-led-basic-strip-lights",
             "x_position": 25,
             "y_position": 20,
             "x_position_mobile": 7,
@@ -304,20 +304,31 @@
         "product_3Y3bwR": {
           "type": "product",
           "settings": {
-            "product_handle": "yeelight-beam-rgbic-light-bar",
+            "product_handle": "a-yeelight-curtain-lights",
             "x_position": 76,
             "y_position": 57,
             "x_position_mobile": 61,
             "y_position_mobile": 30
           }
+        },
+        "product_FArRic": {
+          "type": "product",
+          "settings": {
+            "product_handle": "yeelight-obsid-rgbic-light-strip",
+            "x_position": 23,
+            "y_position": 76,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
         }
       },
       "block_order": [
         "product_rxfqJq",
-        "product_3Y3bwR"
+        "product_3Y3bwR",
+        "product_FArRic"
       ],
       "settings": {
-        "title": "<span>Power Your Play<\/span> in Every Gaming World",
+        "title": "Power Your Play in Every Gaming World",
         "link": "shopify:\/\/pages\/topic-3",
         "footer_title": "Game Room",
         "footer_description": "Special Page",
