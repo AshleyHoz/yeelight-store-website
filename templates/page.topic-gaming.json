@@ -52,25 +52,25 @@
         "product_nmh8jV": {
           "type": "product",
           "settings": {
-            "product": "yeelight-smart-led-lamp-d2"
+            "product": "a-yeelight-curtain-lights"
           }
         },
         "product_Qger9E": {
           "type": "product",
           "settings": {
-            "product": "yeelight-smart-cube"
+            "product": "yeelight-smart-cube-kit"
           }
         },
         "product_wG8iCm": {
           "type": "product",
           "settings": {
-            "product": "yeelight-candela-lamp"
+            "product": "yeelight-beam-rgbic-light-bar"
           }
         },
         "product_BTfM4U": {
           "type": "product",
           "settings": {
-            "product": "yeelight-gu10-smart-bulb"
+            "product": "yeelight-obsid-rgbic-light-strip"
           }
         }
       },
@@ -81,7 +81,7 @@
         "product_BTfM4U"
       ],
       "settings": {
-        "title": "<span>Power Your Play<\/span> in Every Gaming World",
+        "title": "Power Your Play in Every Gaming World",
         "image": "shopify:\/\/shop_images\/TopicProductBannerGame01.jpg",
         "image_mobile": "shopify:\/\/shop_images\/TopicProductBannerMobileGame01.jpg",
         "reverse": "row"
@@ -93,25 +93,25 @@
         "product_A7cKdJ": {
           "type": "product",
           "settings": {
-            "product": "yeelight-candela-lamp"
+            "product": "yeelight-smart-led-lamp-d2"
           }
         },
         "product_3qYUbM": {
           "type": "product",
           "settings": {
-            "product": "yeelight-beam-rgbic-light-bar"
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
           }
         },
         "product_jPfdJp": {
           "type": "product",
           "settings": {
-            "product": "yeelight-led-light-strip-1s-6-56ft"
+            "product": "yeelight-obsid-rgbic-light-strip"
           }
         },
         "product_8h8D8i": {
           "type": "product",
           "settings": {
-            "product": "yeelight-obsid-rgbic-light-strip"
+            "product": "yeelight-rgbic-led-basic-strip-lights"
           }
         }
       },
@@ -268,6 +268,7 @@
         "tab_CYQ3rn",
         "tab_a8dTgJ"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Quick installation method",
         "desktop_height": "desktop-height-650",
@@ -338,6 +339,7 @@
         "collapsible_tab_mG8qNc",
         "collapsible_tab_BjMVhm"
       ],
+      "disabled": true,
       "settings": {
         "heading": "FAQ",
         "marker_style": "style1",
