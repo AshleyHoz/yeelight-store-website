@@ -52,25 +52,25 @@
         "product_nmh8jV": {
           "type": "product",
           "settings": {
-            "product": "yeelight-smart-led-lamp-d2"
+            "product": "yeelight-permanent-outdoor-lights"
           }
         },
         "product_Qger9E": {
           "type": "product",
           "settings": {
-            "product": "yeelight-smart-cube"
+            "product": "a-yeelight-curtain-lights"
           }
         },
         "product_wG8iCm": {
           "type": "product",
           "settings": {
-            "product": "yeelight-candela-lamp"
+            "product": "a-yeelight-christmas-string-lights"
           }
         },
         "product_BTfM4U": {
           "type": "product",
           "settings": {
-            "product": "yeelight-gu10-smart-bulb"
+            "product": "yeelight-rgbic-led-basic-strip-lights"
           }
         }
       },
@@ -81,7 +81,7 @@
         "product_BTfM4U"
       ],
       "settings": {
-        "title": "<span>Transform the Outdoors<\/span> for Every Occasion",
+        "title": "Transform the Outdoors for Every Occasion",
         "image": "shopify:\/\/shop_images\/TopicProductBannerOutdoor.jpg",
         "image_mobile": "shopify:\/\/shop_images\/TopicProductBannerMobileOutdoor.jpg",
         "reverse": "row"
