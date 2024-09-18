@@ -36,7 +36,7 @@
     "color_header_border": "rgba(0,0,0,0)",
     "solid_button_background": "#2c2d2e",
     "solid_button_label": "#ffffff",
-    "color_price": "#2c2d2e",
+    "color_price": "#ffffff",
     "color_price_discounted": "#0050a8",
     "color_footer_text": "#DADCE0",
     "color_footer_link": "#aaaeb6",
@@ -393,5 +393,10 @@
 
       ]
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".cart-drawer .button.accent {background: linear-gradient(103deg, #111bff 0%, #fd119e 100%), linear-gradient(97deg, #ff7c51 0%, #d749af 30%, #566cec 70%, #4ab1f1 100%); color: #ffffff;}"
+    ]
   }
 }
