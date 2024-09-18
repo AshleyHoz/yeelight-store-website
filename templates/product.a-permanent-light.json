@@ -494,7 +494,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "What is the length of extension pack?",
-            "open": true,
+            "open": false,
             "content": "<p>The length is 16.7ft\/5m. For customers who purchase the 50ft or 100ft pack, extension pack can be freely combined based on installation needs, but the maximum extension is 150ft. Therefore, customers who have already purchased the 150ft pack cannot purchase additional extension pack.<\/p>",
             "page": ""
           }
@@ -503,7 +503,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Is it cuttable?",
-            "open": true,
+            "open": false,
             "content": "<p>Cutting is not supported, but there are 3 available lengths: 50ft, 100ft, and 150ft, along with a 16.7ft extension pack that can be freely combined.<\/p>",
             "page": ""
           }
@@ -512,7 +512,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "What is the extent of waterproofing?",
-            "open": true,
+            "open": false,
             "content": "<p>Adapter IP44, Control Box IP65, Light string IP67<\/p>",
             "page": ""
           }
@@ -521,7 +521,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "What does the package contain? how many hooks are in? are there any other hanging materials to be included with the string lights?",
-            "open": true,
+            "open": false,
             "content": "<ul><li>50ft：Power adapter x1；Control box x1；String light x3；Buckle x15；VHB Tapes x9；<\/li><li>100ft：Power adapter x1；Control box x1；String light x6；Buckle x30；VHB Tapes x18；Extension line 11.8ft x1<\/li><li>150ft：Power adapter x1；Control box x1；String light x9；Buckle x45；VHB Tapes x36；Extension line 11.8ft x2<\/li><li>The lights are secured with 3M tape and buckles, no hooks are needed.<\/li><\/ul>",
             "page": ""
           }
@@ -530,7 +530,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Do they work in winter?",
-            "open": true,
+            "open": false,
             "content": "<p>Yes, the product can operate at a maximum temperature of 60°C (140°F) and a minimum temperature of -20°C (-4°F).<\/p>",
             "page": ""
           }
@@ -539,7 +539,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "If I move are they resusable?",
-            "open": true,
+            "open": false,
             "content": "<p>It can be reused, but after reinstallation, the adhesive strength of the 3M tape will decrease, so it's recommended to have extra tape on hand.<\/p>",
             "page": ""
           }
@@ -548,7 +548,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Does it cost a lot of run it?",
-            "open": true,
+            "open": false,
             "content": "",
             "page": ""
           }
@@ -557,7 +557,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Do the lights come in 1 long run? or are they in connectable sections?",
-            "open": true,
+            "open": false,
             "content": "<p>They in connectable sections, with each string light measuring 5m\/16.7ft in length, and they are connected by waterproof connectors.<\/p>",
             "page": ""
           }
@@ -566,7 +566,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "How do I control Yeelight Permanent Outdoor Lights?",
-            "open": true,
+            "open": false,
             "content": "<p>It connects via Bluetooth and can be smartly controlled using the Yeelight APP. The control box also allows for simple operations like turning the lights on\/off and switching lighting effects. However, please note that the lighting effects switched by the control box are not synchronized with the APP.<\/p>",
             "page": ""
           }
@@ -575,7 +575,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I integrate Yeelight Permanent Outdoor Lights with other Yeelight products?",
-            "open": true,
+            "open": false,
             "content": "<p>Currently, the permanent outdoor lights do not support direct group control with other products. However, each product has similar lighting effects, so you can switch to the same lighting effect on each product individually to achieve a coordinated overall effect.<\/p>",
             "page": ""
           }
@@ -584,7 +584,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I customize the colors and effects of Yeelight Permanent Outdoor Lights?",
-            "open": true,
+            "open": false,
             "content": "<p>Yes, the Yeelight permanent outdoor lights are RGBICW, with each LED having an independent chip for control. This allows for high customization, enabling you to set the color of each individual bulb and switch between various dynamic effects such as flashing, breathing, and stacking.<\/p>",
             "page": ""
           }
@@ -593,7 +593,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Do I need a professional installation team for the installation?",
-            "open": true,
+            "open": false,
             "content": "<p>You can choose to install it yourself, please refer to the installation video for detailed steps. Alternatively, you can contact a professional for installation services, such as scheduling through <a href=\"http:\/\/angi.com\" target=\"_blank\">angi.com<\/a>.<\/p>",
             "page": ""
           }
@@ -602,7 +602,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "What if the eaves where I want to install are not continuous?",
-            "open": true,
+            "open": false,
             "content": "<p>You can use the extension cable to span across eaves, the length of the extension cable is 11.8ft\/3.6m. One piece is included in the 100ft pack and two pieces are included in the 150ft pack (not included in the 50ft pack). You can connect the extension cable between two sections of string lights to bridge discontinuous eaves or other areas where lights are not needed.<\/p>",
             "page": ""
           }
@@ -611,7 +611,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Where should the control box and power adapter installed?",
-            "open": true,
+            "open": false,
             "content": "<p>It is recommended to put the adapter and control box indoors, such as in a garage. Additionally, the control box should be placed in a relatively open area without obstructions to prevent weak signal reception.<\/p>",
             "page": ""
           }
@@ -620,7 +620,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Is the 3M adhesive secure, and is there a possibility of it falling off?",
-            "open": true,
+            "open": false,
             "content": "<p>The 3M tape is very strong, but please refer to the installation video before starting. After the initial application, press down for at least 5 seconds. Once the 3M tape has been applied for more than 3 days, it will be very difficult to remove. Additionally, the package includes mounting buckles with screws for more secure installation, and extra 3M tape is provided as a backup in case you need to reapply it.<\/p>",
             "page": ""
           }
