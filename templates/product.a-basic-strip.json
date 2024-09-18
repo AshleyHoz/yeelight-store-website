@@ -466,7 +466,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "How do I control Yeelight LED Strip Lights?",
-            "open": true,
+            "open": false,
             "content": "<p>It connects via Bluetooth and can be smartly controlled using the Yeelight APP. The control box also allows for simple operations like turning the lights on\/off and switching lighting effects. However, please note that the lighting effects switched by the control box are not synchronized with the APP.<\/p>",
             "page": ""
           }
@@ -475,7 +475,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I customize the colors and effects of Yeelight LED Strip Lights?",
-            "open": true,
+            "open": false,
             "content": "<p>Yes. The Yeelight APP includes over 20 preset lighting effects. Additionally, this light strip is RGBIC, with each chip controlling 6 LEDs, allowing for a high degree of customization.<\/p>",
             "page": ""
           }
@@ -484,7 +484,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Are Yeelight RGBIC LED Strip Lights easy to install?",
-            "open": true,
+            "open": false,
             "content": "<p>This product is very easy to install. The light strip comes with adhesive backing, so you can simply stick it to your desired location. Please watch the instructional video before installation.<\/p>",
             "page": ""
           }
@@ -511,7 +511,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I cut the extra length of Yeelight RGBIC LED Strip Lights?",
-            "open": true,
+            "open": false,
             "content": "<p>You can cut the light strip at the copper wire sections. Before cutting, make sure to watch the installation guide video to avoid cutting in the wrong place, which could cause the light strip to become ineffective. Please note that after cutting, the lighting effects in the APP will still display according to the original length.<\/p>",
             "page": ""
           }
@@ -520,7 +520,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I use Yeelight RGBIC LED Strip Lights outdoors?",
-            "open": true,
+            "open": false,
             "content": "<p>Currently, the light strip do not support direct group control with other products. However, different products have similar lighting effects, so you can set the same lighting effects on each product individually to achieve a coordinated overall effect.<\/p>",
             "page": ""
           }
@@ -529,7 +529,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Do Yeelight RGBIC LED Strip Lights work with other Yeelight smart products?",
-            "open": true,
+            "open": false,
             "content": "<p>Currently, the light strip do not support direct group control with other products. However, different products have similar lighting effects, so you can set the same lighting effects on each product individually to achieve a coordinated overall effect.<\/p>",
             "page": ""
           }
