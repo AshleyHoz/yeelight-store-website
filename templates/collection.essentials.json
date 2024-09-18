@@ -20,7 +20,7 @@
         "heading_HhgdPq": {
           "type": "heading",
           "settings": {
-            "text": "Smart Bulbs",
+            "text": "Essentials",
             "heading_size": "h1"
           }
         },
@@ -78,6 +78,7 @@
         "heading_3bnbf7",
         "text_Tbm49x"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "grid",
         "text_position": "left",
@@ -202,6 +203,7 @@
         "collapsible_tab_7cwwGG",
         "collapsible_tab_LnkaJU"
       ],
+      "disabled": true,
       "settings": {
         "heading": "|FAQ|",
         "marker_style": "style1",
