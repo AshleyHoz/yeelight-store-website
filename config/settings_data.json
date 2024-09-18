@@ -396,7 +396,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".cart-drawer .button.accent {background: linear-gradient(103deg, #111bff 0%, #fd119e 100%), linear-gradient(97deg, #ff7c51 0%, #d749af 30%, #566cec 70%, #4ab1f1 100%); color: #ffffff;}"
+      ".cart-drawer .button.accent {background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);}"
     ]
   }
 }
