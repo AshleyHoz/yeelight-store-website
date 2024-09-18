@@ -103,12 +103,6 @@
         "settings": {
           "allowed_templates": ""
         }
-      },
-      "13672250894428551832": {
-        "type": "shopify:\/\/apps\/qikify-slide-cart\/blocks\/app-embed\/39da5d6e-3e04-4687-bc69-e23fafb93294",
-        "disabled": false,
-        "settings": {
-        }
       }
     }
   },
