@@ -162,9 +162,9 @@
         "product_Gycbkt": {
           "type": "product",
           "settings": {
-            "product_handle": "yeelight-monitor-light-bar-pro-flagship-edition",
-            "x_position": 55,
-            "y_position": 22,
+            "product_handle": "yeelight-permanent-outdoor-lights",
+            "x_position": 25,
+            "y_position": 35,
             "x_position_mobile": 42,
             "y_position_mobile": 30
           }
@@ -172,9 +172,9 @@
         "product_pRzYba": {
           "type": "product",
           "settings": {
-            "product_handle": "yeelight-smart-cube-kit",
-            "x_position": 49,
-            "y_position": 71,
+            "product_handle": "a-yeelight-curtain-lights",
+            "x_position": 65,
+            "y_position": 45,
             "x_position_mobile": 31,
             "y_position_mobile": 65
           }
@@ -182,9 +182,9 @@
         "product_LP69Mb": {
           "type": "product",
           "settings": {
-            "product_handle": "yeelight-beam-rgbic-light-bar",
-            "x_position": 89,
-            "y_position": 52,
+            "product_handle": "a-yeelight-christmas-string-lights",
+            "x_position": 38,
+            "y_position": 71,
             "x_position_mobile": 84,
             "y_position_mobile": 52
           }
@@ -196,7 +196,7 @@
         "product_LP69Mb"
       ],
       "settings": {
-        "title": "<span>Transform the Outdoors<\/span> for Every Occasion",
+        "title": "Transform the Outdoors for Every Occasion",
         "link": "shopify:\/\/pages\/topic-1",
         "footer_title": "Outdoor",
         "footer_description": "Special Page",
@@ -229,9 +229,9 @@
         "product_PaLJwT": {
           "type": "product",
           "settings": {
-            "product_handle": "yeelight-monitor-light-bar-pro-flagship-edition",
-            "x_position": 45,
-            "y_position": 27,
+            "product_handle": "yeelight-rgbic-led-basic-strip-lights",
+            "x_position": 48,
+            "y_position": 26,
             "x_position_mobile": 50,
             "y_position_mobile": 40
           }
@@ -239,20 +239,31 @@
         "product_y3gmjA": {
           "type": "product",
           "settings": {
-            "product_handle": "yeelight-beam-rgbic-light-bar",
+            "product_handle": "a-yeelight-christmas-string-lights",
             "x_position": 67,
             "y_position": 45,
             "x_position_mobile": 70,
             "y_position_mobile": 60
           }
+        },
+        "product_yNmiLw": {
+          "type": "product",
+          "settings": {
+            "product_handle": "a-yeelight-curtain-lights",
+            "x_position": 33,
+            "y_position": 57,
+            "x_position_mobile": 20,
+            "y_position_mobile": 20
+          }
         }
       },
       "block_order": [
         "product_PaLJwT",
-        "product_y3gmjA"
+        "product_y3gmjA",
+        "product_yNmiLw"
       ],
       "settings": {
-        "title": "<span>Elevate the Indoors<\/span> in Every Moment",
+        "title": "Elevate the Indoors in Every Moment",
         "link": "shopify:\/\/pages\/topic-2",
         "footer_title": "Living room",
         "footer_description": "Special Page",
