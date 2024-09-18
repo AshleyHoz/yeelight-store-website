@@ -89,6 +89,7 @@
     },
     "background_video_dY4YJx": {
       "type": "background-video",
+      "disabled": true,
       "settings": {
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
@@ -118,6 +119,7 @@
       "block_order": [
         "heading_fkRMKm"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -158,6 +160,7 @@
       "block_order": [
         "loox_reviews_loox_video_slider_cyaCJt"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -249,8 +252,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Do you ship overseas?",
-            "open": true,
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>",
+            "open": false,
+            "content": "<p>Currently, we ship to the following countries:<\/p><ul><li><strong>North America: <\/strong>United States, Canada and Mexico. (Except for remote areas such as Alaska and Hawaii; overseas addresses such as Puerto Rico and Guam; APO\/FPO military addresses.)<\/li><li><strong>Europe:<\/strong> Austria, Belgium, Bulgaria, Czech Republic, Denmark(Except for the Faroe Islands, Greenland), Finland, France(Except for the Overseas territories and departments), Germany, Greece, Hungary, Ireland, Italy (Except for the Livigno and Campione d’Italia), Netherlands(Except for the Overseas territories), Norway, Poland, Portugal, Romania, Spain(Except for the Ceuta\/Melilla, Canary Islands), Sweden, Turkey, and the United Kingdom(Except for the British Indian Ocean Territory, British Virgin Islands, etc.).<\/li><li><strong>Asia:<\/strong> United Arab Emirates, Israel, South Korea, Malaysia, Saudi Arabia, Thailand, Kuwait, Vietnam, Turkey, Singapore<\/li><li><strong>Oceania:<\/strong> Australia, New Zealand<\/li><li><strong>South America:<\/strong> Brazil, Qatar<\/li><\/ul>",
             "page": ""
           }
         },
@@ -258,35 +261,17 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "How long will it take to get my orders?",
-            "open": true,
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days.<br\/>Delivery details will be provided in your confirmation email.<\/p>",
+            "open": false,
+            "content": "<p>The product will be shipped <strong>48 hours <\/strong>after purchase in the working days, and the overseas delivery will take around <strong>7-15 business days<\/strong>. Delivery delays can occasionally occur.<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_KhjgHF": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Why am I not able to use the referral code I have?",
+            "heading": "Does the item come with free shipping?",
             "open": false,
-            "content": "<p>Why am I not able to use the referral code I have?<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_mG8qNc": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "I forgot to use my discount code during the purchase. Can I refund the difference?",
-            "open": false,
-            "content": "<p>I forgot to use my discount code during the purchase. Can I refund the difference?<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_BjMVhm": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Why my order was canceled?",
-            "open": false,
-            "content": "<p>Why my order was canceled?<\/p>",
+            "content": "<p>Free express shipping service is provided by Yeelight.<\/p>",
             "page": ""
           }
         }
@@ -294,9 +279,7 @@
       "block_order": [
         "collapsible_tab_nreN7t",
         "collapsible_tab_YzpmTF",
-        "collapsible_tab_KhjgHF",
-        "collapsible_tab_mG8qNc",
-        "collapsible_tab_BjMVhm"
+        "collapsible_tab_KhjgHF"
       ],
       "settings": {
         "heading": "FAQ",
