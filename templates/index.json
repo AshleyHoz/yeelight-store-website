@@ -124,14 +124,14 @@
         "slide_E8nF4j"
       ],
       "settings": {
-        "desktop_height": "desktop-height-800",
-        "mobile_height": "mobile-height-500",
+        "desktop_height": "desktop-height-image",
+        "mobile_height": "mobile-height-image",
         "full_width": true,
         "autoplay": true,
         "autoplay_length": 5,
         "transition": "slide",
         "controls": "arrows",
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
