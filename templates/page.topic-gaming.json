@@ -159,6 +159,7 @@
       "block_order": [
         "heading_fkRMKm"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -199,6 +200,7 @@
       "block_order": [
         "loox_reviews_loox_video_slider_cyaCJt"
       ],
+      "disabled": true,
       "settings": {
       }
     },
