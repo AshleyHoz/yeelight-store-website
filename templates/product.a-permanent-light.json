@@ -660,69 +660,47 @@
     "media_with_tabs_GFrrk4": {
       "type": "media-with-tabs",
       "blocks": {
-        "badge_BxbJGA": {
-          "type": "badge",
-          "settings": {
-            "text": "Badge heading",
-            "color_bg": "#3f72e5",
-            "color_text": "#ffffff"
-          }
-        },
-        "heading_CGGGA3": {
-          "type": "heading",
-          "settings": {
-            "text": "Media with tabs",
-            "heading_size": "h3"
-          }
-        },
-        "text_rcPdh9": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
         "tab_GfgtkE": {
           "type": "tab",
           "settings": {
-            "use_video": false,
-            "heading_icon": "ruler",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "use_video": true,
+            "video_hosted": "shopify:\/\/files\/videos\/Waterproof.mp4",
+            "heading_icon": "washing",
+            "heading": "IP67 Waterproof Test",
+            "description": "Remains fully operational after 30 mins submerging in water. Capable of withstanding extreme heavy rain.",
             "video_autoplay": true
           }
         },
         "tab_bpHEwN": {
           "type": "tab",
           "settings": {
-            "use_video": false,
-            "heading_icon": "ruler",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "use_video": true,
+            "video_hosted": "shopify:\/\/files\/videos\/Temperature.mp4",
+            "heading_icon": "snowflake",
+            "heading": "High & Low Temperature Test",
+            "description": "Remains fully functional after being frozen in a refrigerator and baked in an oven. Can be used in temperatures ranging from -4°F to 140°F.",
             "video_autoplay": true
           }
         },
         "tab_hBBVUP": {
           "type": "tab",
           "settings": {
-            "use_video": false,
-            "heading_icon": "ruler",
-            "heading": "Tab",
-            "description": "Add a short description for this tab",
+            "use_video": true,
+            "video_hosted": "shopify:\/\/files\/videos\/Adhesive.mp4",
+            "heading_icon": "leather",
+            "heading": "Adhesive Strength Test",
+            "description": "The single light head can support a more than 2lb object. It resists falling off with long-term use.",
             "video_autoplay": true
           }
         }
       },
       "block_order": [
-        "badge_BxbJGA",
-        "heading_CGGGA3",
-        "text_rcPdh9",
         "tab_GfgtkE",
         "tab_bpHEwN",
         "tab_hBBVUP"
       ],
-      "disabled": true,
       "settings": {
-        "heading": "",
+        "heading": "Product Testing Videos",
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
         "height": "adapt",
