@@ -549,7 +549,7 @@
           "settings": {
             "heading": "Does it cost a lot of run it?",
             "open": false,
-            "content": "",
+            "content": "<p>For the 150ft version, if used for 3 hours per day at a rate of 11¢\/kWh, the estimated annual electricity cost is $9.<\/p>",
             "page": ""
           }
         },
