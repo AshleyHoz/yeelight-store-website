@@ -425,7 +425,7 @@
           "settings": {
             "heading": "Are Yeelight Curtain Lights energy-efficient?",
             "open": false,
-            "content": "",
+            "content": "<p>If used for 3 hours per day at a rate of 11¢\/kWh, the estimated annual electricity cost is $3.<\/p>",
             "page": ""
           }
         },
