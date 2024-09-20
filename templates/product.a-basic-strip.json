@@ -494,7 +494,7 @@
           "settings": {
             "heading": "Are Yeelight RGBIC LED Strip Lights energy-efficient?",
             "open": false,
-            "content": "",
+            "content": "<p>For the 66ft version, if used for 3 hours per day at a rate of 11¢\/kWh, the estimated annual electricity cost is $3.<\/p>",
             "page": ""
           }
         },
@@ -520,7 +520,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I use Yeelight RGBIC LED Strip Lights outdoors?",
-            "open": true,
+            "open": false,
             "content": "<p>No. The waterproof rating is IP20, which only supports indoor use. Please avoid exposure to water.<\/p>",
             "page": ""
           }
