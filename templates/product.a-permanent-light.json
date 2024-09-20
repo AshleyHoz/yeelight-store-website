@@ -621,7 +621,7 @@
           "settings": {
             "heading": "Is the 3M adhesive secure, and is there a possibility of it falling off?",
             "open": false,
-            "content": "<p>The 3M tape is very strong, but please refer to the installation video before starting. After the initial application, press down for at least 5 seconds. Once the 3M tape has been applied for more than 3 days, it will be very difficult to remove. Additionally, the package includes mounting buckles with screws for more secure installation, and extra 3M tape is provided as a backup in case you need to reapply it.<\/p>",
+            "content": "<p>The 3M tape is very strong, but please refer to the installation video before starting. After the initial application, press down for at least 10 seconds. Once the 3M tape has been applied for more than 3 days, it will be very difficult to remove. Additionally, the package includes mounting buckles with screws for more secure installation, and extra 3M tape is provided as a backup in case you need to reapply it.<\/p>",
             "page": ""
           }
         }
