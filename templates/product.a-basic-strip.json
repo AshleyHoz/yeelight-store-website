@@ -520,8 +520,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Can I use Yeelight RGBIC LED Strip Lights outdoors?",
-            "open": false,
-            "content": "<p>Currently, the light strip do not support direct group control with other products. However, different products have similar lighting effects, so you can set the same lighting effects on each product individually to achieve a coordinated overall effect.<\/p>",
+            "open": true,
+            "content": "<p>No. The waterproof rating is IP20, which only supports indoor use. Please avoid exposure to water.<\/p>",
             "page": ""
           }
         },
