@@ -2538,7 +2538,7 @@ scroll-shadow > * {
   .mobile-height-200 {
     min-height: 200px;
   }
-  
+
   .mobile-height-400 {
     min-height: 400px;
   }
@@ -5517,4 +5517,13 @@ input[type='radio'],
     line-height: normal;
     text-transform: capitalize;
   }
+}
+
+#looxReviews iframe #btn.lx-bt.lx-primar.header-btn {
+  color: #ffffff;
+  border: 1px solid #8a8a8a;
+}
+
+#looxReviews iframe .menu #btn-menu svg path {
+  stroke:  #fff;
 }
