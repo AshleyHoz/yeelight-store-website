@@ -1,26 +1,24 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {
-      }
+      "settings": {}
     },
     "main-product": {
       "type": "main-product",
       "blocks": {
         "2b609eea-6cce-4efe-b447-c5560de1d797": {
           "type": "label",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -29,14 +27,14 @@
           }
         },
         "loox_reviews_loox_rating_9g3aA7": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 16,
             "pattern": "",
             "hideText": false,
             "alignment": "",
             "layout": "",
-            "textColor": "#000000",
+            "textColor": "#ffffff",
             "starColor": "#ff9529",
             "showAllReviews": false,
             "looxOpenFloatingWidget": false,
@@ -45,8 +43,7 @@
         },
         "separator_qJEjWC": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -63,8 +60,7 @@
         },
         "quantity": {
           "type": "quantity",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -78,7 +74,7 @@
           "settings": {
             "heading": "Shipping",
             "open": false,
-            "content": "<p>Order will typically be processed within 24 hours. <\/p><p><strong>Estimated Shipping Time:<\/strong><\/p><ul><li>USA:3-7 Business Days<\/li><li>Europe: 7-10 Business Days<\/li><\/ul>",
+            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA:3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
             "page": "",
             "custom_liquid": ""
           }
@@ -88,20 +84,18 @@
           "settings": {
             "heading": "Warranty",
             "open": false,
-            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.<\/p>",
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.</p>",
             "page": "",
             "custom_liquid": ""
           }
         },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
-          "settings": {
-          }
+          "settings": {}
         },
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
           "type": "complementary",
@@ -151,16 +145,13 @@
         "text_m74TmP": {
           "type": "text",
           "settings": {
-            "text": "<p>Task lighting - for reading, cooking, car tanks<\/p>",
+            "text": "<p>Task lighting - for reading, cooking, car tanks</p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
         }
       },
-      "block_order": [
-        "heading_VLRYEb",
-        "text_m74TmP"
-      ],
+      "block_order": ["heading_VLRYEb", "text_m74TmP"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -176,8 +167,8 @@
     "single_image_XWnBgX": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_1686633192.png",
-        "image_mobile": "shopify:\/\/shop_images\/Yeelight_Ultra-Thin_Cabinet_Light-Mobile_09_a7a7f150-2f39-4e3d-b7ba-9b585c7c7c42.jpg",
+        "image": "shopify://shop_images/Frame_1686633192.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Ultra-Thin_Cabinet_Light-Mobile_09_a7a7f150-2f39-4e3d-b7ba-9b585c7c7c42.jpg",
         "full_width": false,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -191,7 +182,7 @@
         "description": "",
         "full_width": false,
         "video": "",
-        "video_hosted": "shopify:\/\/files\/videos\/Yeelight Cabinet Light.mp4",
+        "video_hosted": "shopify://files/videos/Yeelight Cabinet Light.mp4",
         "video_autoplay": true,
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
@@ -212,11 +203,9 @@
           }
         }
       },
-      "block_order": [
-        "heading_48yCex"
-      ],
+      "block_order": ["heading_48yCex"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3_1aa27fdf-0ac2-40ac-a547-166c457b815a.png",
+        "image": "shopify://shop_images/3_1aa27fdf-0ac2-40ac-a547-166c457b815a.png",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -248,16 +237,13 @@
         "text_KPGNjR": {
           "type": "text",
           "settings": {
-            "text": "<p>Adjust to any brightness level to your comfort.<\/p>"
+            "text": "<p>Adjust to any brightness level to your comfort.</p>"
           }
         }
       },
-      "block_order": [
-        "heading_KEVgGg",
-        "text_KPGNjR"
-      ],
+      "block_order": ["heading_KEVgGg", "text_KPGNjR"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2_df5f5a66-527a-48b1-b888-49d20975657a.png",
+        "image": "shopify://shop_images/2_df5f5a66-527a-48b1-b888-49d20975657a.png",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -289,16 +275,13 @@
         "text_gjML7W": {
           "type": "text",
           "settings": {
-            "text": "<p>Widely applied neutral light, suits every occasion.<\/p>"
+            "text": "<p>Widely applied neutral light, suits every occasion.</p>"
           }
         }
       },
-      "block_order": [
-        "heading_ApQJta",
-        "text_gjML7W"
-      ],
+      "block_order": ["heading_ApQJta", "text_gjML7W"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/f05fda099e52d22720ed3da6d63976aa_3a065c8e-094c-4bd0-883f-e00452dcd496.png",
+        "image": "shopify://shop_images/f05fda099e52d22720ed3da6d63976aa_3a065c8e-094c-4bd0-883f-e00452dcd496.png",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -330,16 +313,13 @@
         "text_KkVz98": {
           "type": "text",
           "settings": {
-            "text": "<p>Maximum sensing range 9.8\". Lit when you arearound, less disturbance, more convenience.<\/p>"
+            "text": "<p>Maximum sensing range 9.8\". Lit when you arearound, less disturbance, more convenience.</p>"
           }
         }
       },
-      "block_order": [
-        "heading_tXFyCk",
-        "text_KkVz98"
-      ],
+      "block_order": ["heading_tXFyCk", "text_KkVz98"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/cabinet_light-3.jpg",
+        "image": "shopify://shop_images/cabinet_light-3.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -371,16 +351,13 @@
         "text_PXkxLL": {
           "type": "text",
           "settings": {
-            "text": "<p>0.27\" ultra-thin design, invisible under cabinets.<\/p>"
+            "text": "<p>0.27\" ultra-thin design, invisible under cabinets.</p>"
           }
         }
       },
-      "block_order": [
-        "heading_kJNeh9",
-        "text_PXkxLL"
-      ],
+      "block_order": ["heading_kJNeh9", "text_PXkxLL"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/f05fda099e52d22720ed3da6d63976aa_aa203824-18e1-4780-9d01-b6c452e1a271.png",
+        "image": "shopify://shop_images/f05fda099e52d22720ed3da6d63976aa_aa203824-18e1-4780-9d01-b6c452e1a271.png",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -412,16 +389,13 @@
         "text_UF3LxX": {
           "type": "text",
           "settings": {
-            "text": "<p>*Lit 3 times\/day on motion sensor modeAt maximum brightness<\/p>"
+            "text": "<p>*Lit 3 times/day on motion sensor modeAt maximum brightness</p>"
           }
         }
       },
-      "block_order": [
-        "heading_fwk76H",
-        "text_UF3LxX"
-      ],
+      "block_order": ["heading_fwk76H", "text_UF3LxX"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/06.png",
+        "image": "shopify://shop_images/06.png",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -451,11 +425,9 @@
           }
         }
       },
-      "block_order": [
-        "heading_gfEpbh"
-      ],
+      "block_order": ["heading_gfEpbh"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pic.png",
+        "image": "shopify://shop_images/pic.png",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -487,16 +459,13 @@
         "text_3hgbzQ": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>For metal surfaces: Directly attach the light<\/li><li>For other surfaces: Stick on adhesive metal plates,then attach the light<br\/><\/li><\/ul>"
+            "text": "<ul><li>For metal surfaces: Directly attach the light</li><li>For other surfaces: Stick on adhesive metal plates,then attach the light<br/></li></ul>"
           }
         }
       },
-      "block_order": [
-        "heading_Mn93de",
-        "text_3hgbzQ"
-      ],
+      "block_order": ["heading_Mn93de", "text_3hgbzQ"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_1686633177.png",
+        "image": "shopify://shop_images/Frame_1686633177.png",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -521,7 +490,7 @@
           "settings": {
             "tab_label": "Description",
             "icon": "none",
-            "text": "<ul><li>Dimmable | Rechargeable | Motion & Light Sensing<\/li><li>Task lighting - for reading, cooking, car tanks<\/li><li>Night Lights - for bedrooms, stairs<\/li><li>Slim at 0.27'' - concealing under cabinets<\/li><li>Balanced neutral light - 4000k temperature<\/li><li>Snap-on installation - magnetic base with adhesive metal plates<\/li><\/ul>",
+            "text": "<ul><li>Dimmable | Rechargeable | Motion & Light Sensing</li><li>Task lighting - for reading, cooking, car tanks</li><li>Night Lights - for bedrooms, stairs</li><li>Slim at 0.27'' - concealing under cabinets</li><li>Balanced neutral light - 4000k temperature</li><li>Snap-on installation - magnetic base with adhesive metal plates</li></ul>",
             "text_columns": "1",
             "page": ""
           }
@@ -532,16 +501,13 @@
           "settings": {
             "tab_label": "Specifications",
             "icon": "none",
-            "text": "<ul><li><strong>Name<\/strong>: Yeelight Candela Lamp<\/li><li><strong>Model No.<\/strong>: YLFWD-0019<\/li><li><strong>Dimensions:<\/strong> 72.5*72.5*195mm<\/li><li><strong>Weight:<\/strong> 410 土10g<\/li><li><strong>Brightness Adjustment<\/strong>: 1%-100%<\/li><li><strong>Power<\/strong>: 5w<\/li><li><strong>Battery<\/strong>:Polymer lithium battery 3.7V 2500mAh<\/li><li><strong>Working Temperature<\/strong>: -10-40°C<\/li><\/ul><p><\/p>",
+            "text": "<ul><li><strong>Name</strong>: Yeelight Candela Lamp</li><li><strong>Model No.</strong>: YLFWD-0019</li><li><strong>Dimensions:</strong> 72.5*72.5*195mm</li><li><strong>Weight:</strong> 410 土10g</li><li><strong>Brightness Adjustment</strong>: 1%-100%</li><li><strong>Power</strong>: 5w</li><li><strong>Battery</strong>:Polymer lithium battery 3.7V 2500mAh</li><li><strong>Working Temperature</strong>: -10-40°C</li></ul><p></p>",
             "text_columns": "1",
             "page": ""
           }
         }
       },
-      "block_order": [
-        "tab_zPhe9b",
-        "tab_RkmYzT"
-      ],
+      "block_order": ["tab_zPhe9b", "tab_RkmYzT"],
       "settings": {
         "heading": "Tech Spec",
         "marker_style": "style1",
@@ -570,9 +536,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_WVbABB"
-      ],
+      "block_order": ["heading_WVbABB"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -589,7 +553,7 @@
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_dynamic_section_c8aEVF": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -600,17 +564,14 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_c8aEVF"
-      ],
-      "settings": {
-      }
+      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
+      "settings": {}
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
-        "description": "<p>Combine your style with these products<\/p>",
+        "description": "<p>Combine your style with these products</p>",
         "mobile_swipe": true,
         "product_limit": 4,
         "columns_desktop": 4,

@@ -1,26 +1,24 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {
-      }
+      "settings": {}
     },
     "main-product": {
       "type": "main-product",
       "blocks": {
         "2b609eea-6cce-4efe-b447-c5560de1d797": {
           "type": "label",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -29,14 +27,14 @@
           }
         },
         "loox_reviews_loox_rating_9g3aA7": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 16,
             "pattern": "",
             "hideText": false,
             "alignment": "",
             "layout": "",
-            "textColor": "#000000",
+            "textColor": "#ffffff",
             "starColor": "#ff9529",
             "showAllReviews": false,
             "looxOpenFloatingWidget": false,
@@ -45,8 +43,7 @@
         },
         "separator_qJEjWC": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -63,8 +60,7 @@
         },
         "quantity": {
           "type": "quantity",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -78,7 +74,7 @@
           "settings": {
             "heading": "Shipping",
             "open": false,
-            "content": "<p>Order will typically be processed within 24 hours. <\/p><p><strong>Estimated Shipping Time:<\/strong><\/p><ul><li>USA:3-7 Business Days<\/li><li>Europe: 7-10 Business Days<\/li><\/ul>",
+            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA:3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
             "page": "",
             "custom_liquid": ""
           }
@@ -88,20 +84,18 @@
           "settings": {
             "heading": "Warranty",
             "open": false,
-            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.<\/p>",
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.</p>",
             "page": "",
             "custom_liquid": ""
           }
         },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
-          "settings": {
-          }
+          "settings": {}
         },
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
           "type": "complementary",
@@ -149,9 +143,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_rarUBL"
-      ],
+      "block_order": ["heading_rarUBL"],
       "disabled": true,
       "settings": {
         "text_width": "medium",
@@ -307,14 +299,7 @@
           }
         }
       },
-      "block_order": [
-        "media_XEbbe4",
-        "media_dm44Uw",
-        "media_9XWkJx",
-        "media_CfLQHm",
-        "media_KaaBW9",
-        "media_kX3JTG"
-      ],
+      "block_order": ["media_XEbbe4", "media_dm44Uw", "media_9XWkJx", "media_CfLQHm", "media_KaaBW9", "media_kX3JTG"],
       "disabled": true,
       "settings": {
         "desktop_height": 300,
@@ -331,8 +316,8 @@
       "type": "single-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_candela_lamp-pc_6.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/02.jpg",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-pc_6.jpg",
+        "image_mobile": "shopify://shop_images/02.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -353,16 +338,13 @@
         "text_TJMAaC": {
           "type": "text",
           "settings": {
-            "text": "<p>1800K warm light, cast a gentle glow & uplift your mood<\/p>"
+            "text": "<p>1800K warm light, cast a gentle glow & uplift your mood</p>"
           }
         }
       },
-      "block_order": [
-        "heading_48yCex",
-        "text_TJMAaC"
-      ],
+      "block_order": ["heading_48yCex", "text_TJMAaC"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_candela_lamp-pc_1.jpg",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-pc_1.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -394,16 +376,13 @@
         "text_KPGNjR": {
           "type": "text",
           "settings": {
-            "text": "<p>Flickering charm for romance, steady light for focused tasks<\/p>"
+            "text": "<p>Flickering charm for romance, steady light for focused tasks</p>"
           }
         }
       },
-      "block_order": [
-        "heading_KEVgGg",
-        "text_KPGNjR"
-      ],
+      "block_order": ["heading_KEVgGg", "text_KPGNjR"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/tuya.png",
+        "image": "shopify://shop_images/tuya.png",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -435,16 +414,13 @@
         "text_gjML7W": {
           "type": "text",
           "settings": {
-            "text": "<p>Adjust with a Twist! Rotate the lamp body for the desired brightness<\/p>"
+            "text": "<p>Adjust with a Twist! Rotate the lamp body for the desired brightness</p>"
           }
         }
       },
-      "block_order": [
-        "heading_ApQJta",
-        "text_gjML7W"
-      ],
+      "block_order": ["heading_ApQJta", "text_gjML7W"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_candela_lamp-pc_3.jpg",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-pc_3.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -476,16 +452,13 @@
         "text_UF3LxX": {
           "type": "text",
           "settings": {
-            "text": "<p>Stay cozy for <strong>100 hours<\/strong> with a 2500mAh rechargeable battery<\/p>"
+            "text": "<p>Stay cozy for <strong>100 hours</strong> with a 2500mAh rechargeable battery</p>"
           }
         }
       },
-      "block_order": [
-        "heading_fwk76H",
-        "text_UF3LxX"
-      ],
+      "block_order": ["heading_fwk76H", "text_UF3LxX"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Frame_1686633148_1_-tuya.png",
+        "image": "shopify://shop_images/Frame_1686633148_1_-tuya.png",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -517,16 +490,13 @@
         "text_t3WW9r": {
           "type": "text",
           "settings": {
-            "text": "<p>Indoor coziness or outdoor adventures, take the ambiance along<\/p>"
+            "text": "<p>Indoor coziness or outdoor adventures, take the ambiance along</p>"
           }
         }
       },
-      "block_order": [
-        "heading_EdVQtP",
-        "text_t3WW9r"
-      ],
+      "block_order": ["heading_EdVQtP", "text_t3WW9r"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_candela_lamp-pc_5.jpg",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-pc_5.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -558,16 +528,13 @@
         "text_PXkxLL": {
           "type": "text",
           "settings": {
-            "text": "<p>A stylish decor piece, perfect for any cherished occasion<\/p>"
+            "text": "<p>A stylish decor piece, perfect for any cherished occasion</p>"
           }
         }
       },
-      "block_order": [
-        "heading_kJNeh9",
-        "text_PXkxLL"
-      ],
+      "block_order": ["heading_kJNeh9", "text_PXkxLL"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/yeelight_candela_lamp-pc_8.jpg",
+        "image": "shopify://shop_images/yeelight_candela_lamp-pc_8.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -599,17 +566,14 @@
         "text_KkVz98": {
           "type": "text",
           "settings": {
-            "text": "<p>Indoor coziness or outdoor adventures, take the ambiance along<\/p>"
+            "text": "<p>Indoor coziness or outdoor adventures, take the ambiance along</p>"
           }
         }
       },
-      "block_order": [
-        "heading_tXFyCk",
-        "text_KkVz98"
-      ],
+      "block_order": ["heading_tXFyCk", "text_KkVz98"],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/2_-tuya.png",
+        "image": "shopify://shop_images/2_-tuya.png",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -634,7 +598,7 @@
           "settings": {
             "tab_label": "Description",
             "icon": "none",
-            "text": "<ul><li>Dimmable by simple rotating the lamp base<\/li><li>A candle-shape table lamp designed to wow<\/li><li>A perfect add-on to your house and atmosphere<\/li><li>Built-in 2500mAh battery to allow up to 8-hour continuous use on a single charge<\/li><li>Portable enough for both indoor and outdoor use<\/li><li>Type-C rechargeable<\/li><\/ul>",
+            "text": "<ul><li>Dimmable by simple rotating the lamp base</li><li>A candle-shape table lamp designed to wow</li><li>A perfect add-on to your house and atmosphere</li><li>Built-in 2500mAh battery to allow up to 8-hour continuous use on a single charge</li><li>Portable enough for both indoor and outdoor use</li><li>Type-C rechargeable</li></ul>",
             "text_columns": "1",
             "page": ""
           }
@@ -644,16 +608,13 @@
           "settings": {
             "tab_label": "Specifications",
             "icon": "none",
-            "text": "<ul><li><strong>Name<\/strong>: Yeelight Candela Lamp<\/li><li><strong>Model No.<\/strong>: YLFWD-0019<\/li><li><strong>Dimensions:<\/strong> 72.5*72.5*195mm<\/li><li><strong>Weight:<\/strong> 410 土10g<\/li><li><strong>Brightness Adjustment<\/strong>: 1%-100%<\/li><li><strong>Power<\/strong>: 5w<\/li><li><strong>Battery<\/strong>:Polymer lithium battery 3.7V 2500mAh<\/li><li><strong>Working Temperature<\/strong>: -10-40°C<\/li><\/ul><p><\/p>",
+            "text": "<ul><li><strong>Name</strong>: Yeelight Candela Lamp</li><li><strong>Model No.</strong>: YLFWD-0019</li><li><strong>Dimensions:</strong> 72.5*72.5*195mm</li><li><strong>Weight:</strong> 410 土10g</li><li><strong>Brightness Adjustment</strong>: 1%-100%</li><li><strong>Power</strong>: 5w</li><li><strong>Battery</strong>:Polymer lithium battery 3.7V 2500mAh</li><li><strong>Working Temperature</strong>: -10-40°C</li></ul><p></p>",
             "text_columns": "1",
             "page": ""
           }
         }
       },
-      "block_order": [
-        "tab_zPhe9b",
-        "tab_RkmYzT"
-      ],
+      "block_order": ["tab_zPhe9b", "tab_RkmYzT"],
       "settings": {
         "heading": "Tech Spec",
         "marker_style": "style1",
@@ -682,9 +643,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_WVbABB"
-      ],
+      "block_order": ["heading_WVbABB"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -701,7 +660,7 @@
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_dynamic_section_c8aEVF": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -712,17 +671,14 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_c8aEVF"
-      ],
-      "settings": {
-      }
+      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
+      "settings": {}
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
-        "description": "<p>Combine your style with these products<\/p>",
+        "description": "<p>Combine your style with these products</p>",
         "mobile_swipe": true,
         "product_limit": 4,
         "columns_desktop": 4,

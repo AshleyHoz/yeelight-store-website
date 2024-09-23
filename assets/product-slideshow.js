@@ -5,8 +5,6 @@
 if (!customElements.get('product-slideshow')) {
   class ProductSlideShow extends HTMLElement {
     constructor(e) {
-      console.log(123);
-
       super();
       this.addEventListener('click', this.onChangeBackground);
       const currentEle = this.getElementsByClassName('product-slideshow-buttons-bg')[0];
@@ -19,7 +17,6 @@ if (!customElements.get('product-slideshow')) {
       button1.classList.add('active');
     }
     onChangeBackground(e) {
-      console.log(e);
       if (
         e.target.className === 'product-slideshow-buttons_item-content' ||
         e.target.parentNode.className === 'product-slideshow-buttons_item-content'
@@ -55,4 +52,3 @@ window.addEventListener('load', () => {
     console.log('Section loaded:', section);
   });
 });
-console.log('? load哈哈哈');

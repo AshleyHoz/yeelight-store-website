@@ -1,26 +1,24 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {
-      }
+      "settings": {}
     },
     "main-product": {
       "type": "main-product",
       "blocks": {
         "2b609eea-6cce-4efe-b447-c5560de1d797": {
           "type": "label",
-          "settings": {
-          }
+          "settings": {}
         },
         "e431a79e-9c7b-4a53-a79a-0cb918617ecf": {
           "type": "text",
@@ -36,14 +34,14 @@
           }
         },
         "loox_reviews_loox_rating_A93c7t": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 16,
             "pattern": "",
             "hideText": false,
             "alignment": "",
             "layout": "",
-            "textColor": "",
+            "textColor": "#ffffff",
             "starColor": "",
             "showAllReviews": false,
             "looxOpenFloatingWidget": false,
@@ -52,8 +50,7 @@
         },
         "separator_tjPXyF": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -70,8 +67,7 @@
         },
         "quantity": {
           "type": "quantity",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -82,15 +78,14 @@
         },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
             "open": false,
-            "content": "<p>Order will typically be processed within 24 hours.<\/p><p><strong>Estimated Shipping Time:<\/strong><\/p><ul><li>USA: 3-7 Business Days<\/li><li>Europe: 7-10 Business Days<\/li><\/ul>",
+            "content": "<p>Order will typically be processed within 24 hours.</p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA: 3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
             "page": "",
             "custom_liquid": ""
           }
@@ -100,15 +95,14 @@
           "settings": {
             "heading": "Warranty",
             "open": false,
-            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.<\/p>",
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.</p>",
             "page": "",
             "custom_liquid": ""
           }
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
-          "settings": {
-          }
+          "settings": {}
         },
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
           "type": "complementary",
@@ -159,16 +153,13 @@
         "1662374339c00286b1-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Smart on Eye Care, Packed with Fun!<\/p>",
+            "text": "<p>Smart on Eye Care, Packed with Fun!</p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
         }
       },
-      "block_order": [
-        "1662374339c00286b1-1",
-        "1662374339c00286b1-2"
-      ],
+      "block_order": ["1662374339c00286b1-1", "1662374339c00286b1-2"],
       "disabled": true,
       "settings": {
         "text_width": "xlarge",
@@ -188,7 +179,7 @@
         "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-0": {
           "type": "media",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sync_with.png",
+            "image": "shopify://shop_images/sync_with.png",
             "slide_link": "",
             "use_video": false,
             "video_autoplay": true,
@@ -212,7 +203,7 @@
         "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-1": {
           "type": "media",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eye_care.png",
+            "image": "shopify://shop_images/eye_care.png",
             "slide_link": "",
             "use_video": false,
             "video_autoplay": true,
@@ -236,7 +227,7 @@
         "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-2": {
           "type": "media",
           "settings": {
-            "image": "shopify:\/\/shop_images\/16m.png",
+            "image": "shopify://shop_images/16m.png",
             "slide_link": "",
             "use_video": false,
             "video_autoplay": true,
@@ -260,7 +251,7 @@
         "52402f74-ffbf-4ff7-96b3-6c6c30568c45": {
           "type": "media",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smart_control_2c90a143-47d0-4e1c-9b96-3191474ff716.png",
+            "image": "shopify://shop_images/smart_control_2c90a143-47d0-4e1c-9b96-3191474ff716.png",
             "slide_link": "",
             "use_video": false,
             "video_autoplay": true,
@@ -284,7 +275,7 @@
         "3595a460-057e-4e41-aab6-3ced52f76ef3": {
           "type": "media",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tunable_White_Stepless_Dimming.png",
+            "image": "shopify://shop_images/Tunable_White_Stepless_Dimming.png",
             "slide_link": "",
             "use_video": false,
             "video_autoplay": true,
@@ -308,7 +299,7 @@
         "media_8ng6Mz": {
           "type": "media",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Physical_Remote_Easy_Control.png",
+            "image": "shopify://shop_images/Physical_Remote_Easy_Control.png",
             "slide_link": "",
             "use_video": false,
             "video_autoplay": true,
@@ -365,16 +356,13 @@
         "text_AX79GB": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Inside Wallet<\/li><li>On Luggage<\/li><li>Attached to Pets<\/li><li>On Keychain<\/li><\/ul>"
+            "text": "<ul><li>Inside Wallet</li><li>On Luggage</li><li>Attached to Pets</li><li>On Keychain</li></ul>"
           }
         }
       },
-      "block_order": [
-        "heading_BjnpPb",
-        "text_AX79GB"
-      ],
+      "block_order": ["heading_BjnpPb", "text_AX79GB"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/yeetag_1_3b773881-41e3-4e9d-9ca8-3c75c225d249.jpg",
+        "image": "shopify://shop_images/yeetag_1_3b773881-41e3-4e9d-9ca8-3c75c225d249.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": false,
@@ -406,16 +394,13 @@
         "text_86ppUe": {
           "type": "text",
           "settings": {
-            "text": "<p>Via Find My network and Bluetooth coverage, Yeetag enables tracking from an unlimited distance<\/p>"
+            "text": "<p>Via Find My network and Bluetooth coverage, Yeetag enables tracking from an unlimited distance</p>"
           }
         }
       },
-      "block_order": [
-        "heading_HhVWrL",
-        "text_86ppUe"
-      ],
+      "block_order": ["heading_HhVWrL", "text_86ppUe"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/yeetag_2_a8e2d38a-c3af-4870-9fbe-15f643706287.jpg",
+        "image": "shopify://shop_images/yeetag_2_a8e2d38a-c3af-4870-9fbe-15f643706287.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": false,
@@ -447,16 +432,13 @@
         "text_KNLNVH": {
           "type": "text",
           "settings": {
-            "text": "<p>Play sound with a 100 dB speaker for quick locating<\/p>"
+            "text": "<p>Play sound with a 100 dB speaker for quick locating</p>"
           }
         }
       },
-      "block_order": [
-        "heading_DNH8pV",
-        "text_KNLNVH"
-      ],
+      "block_order": ["heading_DNH8pV", "text_KNLNVH"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/yeetag_3_dacd90df-3c51-4c97-b08f-60e08f7735ed.jpg",
+        "image": "shopify://shop_images/yeetag_3_dacd90df-3c51-4c97-b08f-60e08f7735ed.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -492,12 +474,9 @@
           }
         }
       },
-      "block_order": [
-        "heading_nYHh8d",
-        "text_jLLzCn"
-      ],
+      "block_order": ["heading_nYHh8d", "text_jLLzCn"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/yeetag0702_a67639af-5757-4412-96b7-3c8b5317ab7e.jpg",
+        "image": "shopify://shop_images/yeetag0702_a67639af-5757-4412-96b7-3c8b5317ab7e.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -529,18 +508,15 @@
         "text_fYYLWG": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair with \"<strong>Find My<\/strong>\" for instant lost alerts if items go missing<\/p>"
+            "text": "<p>Pair with \"<strong>Find My</strong>\" for instant lost alerts if items go missing</p>"
           }
         }
       },
-      "block_order": [
-        "heading_WMp8Qx",
-        "text_fYYLWG"
-      ],
+      "block_order": ["heading_WMp8Qx", "text_fYYLWG"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/yeetag_5_f9984256-13ab-4273-a0e6-cde90bb09528.jpg",
+        "image": "shopify://shop_images/yeetag_5_f9984256-13ab-4273-a0e6-cde90bb09528.jpg",
         "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -570,16 +546,13 @@
         "text_aDJmbN": {
           "type": "text",
           "settings": {
-            "text": "<p>Portable keychain loop for easy carrying<\/p>"
+            "text": "<p>Portable keychain loop for easy carrying</p>"
           }
         }
       },
-      "block_order": [
-        "heading_fz4bUw",
-        "text_aDJmbN"
-      ],
+      "block_order": ["heading_fz4bUw", "text_aDJmbN"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/yeetag_6_f4bc318a-7ea0-46a3-b720-bf30e1eae604.jpg",
+        "image": "shopify://shop_images/yeetag_6_f4bc318a-7ea0-46a3-b720-bf30e1eae604.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": true,
@@ -599,7 +572,7 @@
     "single_image_GiXwdg": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/yeetag_7_022b2bed-9687-4817-a92a-c11c5e6d2239.jpg",
+        "image": "shopify://shop_images/yeetag_7_022b2bed-9687-4817-a92a-c11c5e6d2239.jpg",
         "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
@@ -613,7 +586,7 @@
           "settings": {
             "tab_label": "Specifications",
             "icon": "clipboard",
-            "text": "<p><strong>Name: <\/strong>Yeelight LED Screen Light Bar Pro<br\/><strong>Model No.:<\/strong> YLTD003<br\/>Dimensions: 37mm*37mm*9mm<\/p><p>Shape material: PC+ABS+leather<\/p><p>Cell specification: CR2032 non-rechargeable button battery<\/p><p>APP interface: BLE 5.0 \/ iOS14.3 and above<\/p><p>Operating Frequency Range: 2402MHz – 2480MHz<\/p><p>Power: -20 to +10dBm<br\/><\/p>",
+            "text": "<p><strong>Name: </strong>Yeelight LED Screen Light Bar Pro<br/><strong>Model No.:</strong> YLTD003<br/>Dimensions: 37mm*37mm*9mm</p><p>Shape material: PC+ABS+leather</p><p>Cell specification: CR2032 non-rechargeable button battery</p><p>APP interface: BLE 5.0 / iOS14.3 and above</p><p>Operating Frequency Range: 2402MHz – 2480MHz</p><p>Power: -20 to +10dBm<br/></p>",
             "text_columns": "1",
             "page": ""
           }
@@ -623,16 +596,13 @@
           "settings": {
             "tab_label": "Package Contents",
             "icon": "box",
-            "text": "<ul><li>Monitor Light Bar×1<\/li><li>Switch Knob×1<\/li><li>Adapter×1<\/li><li>User Manual×1<\/li><li>Power Cable×1<\/li><\/ul>",
+            "text": "<ul><li>Monitor Light Bar×1</li><li>Switch Knob×1</li><li>Adapter×1</li><li>User Manual×1</li><li>Power Cable×1</li></ul>",
             "text_columns": "1",
             "page": ""
           }
         }
       },
-      "block_order": [
-        "aab3af59-da6e-4438-a635-b38db53647da",
-        "897d66ee-eae4-44c6-9c00-1c378b662056"
-      ],
+      "block_order": ["aab3af59-da6e-4438-a635-b38db53647da", "897d66ee-eae4-44c6-9c00-1c378b662056"],
       "disabled": true,
       "settings": {
         "heading": "Tech Specs",
@@ -662,9 +632,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_qTp7zQ"
-      ],
+      "block_order": ["heading_qTp7zQ"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -681,7 +649,7 @@
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_dynamic_section_bNPXU4": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -692,17 +660,14 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_bNPXU4"
-      ],
-      "settings": {
-      }
+      "block_order": ["loox_reviews_loox_dynamic_section_bNPXU4"],
+      "settings": {}
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
-        "description": "<p>Combine your style with these products<\/p>",
+        "description": "<p>Combine your style with these products</p>",
         "mobile_swipe": true,
         "product_limit": 4,
         "columns_desktop": 4,

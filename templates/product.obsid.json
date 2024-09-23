@@ -1,26 +1,24 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {
-      }
+      "settings": {}
     },
     "main-product": {
       "type": "main-product",
       "blocks": {
         "2b609eea-6cce-4efe-b447-c5560de1d797": {
           "type": "label",
-          "settings": {
-          }
+          "settings": {}
         },
         "e431a79e-9c7b-4a53-a79a-0cb918617ecf": {
           "type": "text",
@@ -36,14 +34,14 @@
           }
         },
         "loox_reviews_loox_rating_PWP9zC": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 16,
             "pattern": "",
             "hideText": false,
             "alignment": "",
             "layout": "",
-            "textColor": "",
+            "textColor": "#ffffff",
             "starColor": "",
             "showAllReviews": false,
             "looxOpenFloatingWidget": false,
@@ -52,8 +50,7 @@
         },
         "separator_aqVeU3": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -70,8 +67,7 @@
         },
         "quantity": {
           "type": "quantity",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -82,15 +78,14 @@
         },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
             "open": false,
-            "content": "<p>Order will typically be processed within 24 hours.<\/p><p><strong>Estimated Shipping Time:<\/strong><\/p><ul><li>USA: 3-7 Business Days<\/li><li>Europe: 7-10 Business Days<\/li><\/ul>",
+            "content": "<p>Order will typically be processed within 24 hours.</p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA: 3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
             "page": "",
             "custom_liquid": ""
           }
@@ -100,15 +95,14 @@
           "settings": {
             "heading": "Warranty",
             "open": false,
-            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.<\/p>",
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.</p>",
             "page": "",
             "custom_liquid": ""
           }
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
-          "settings": {
-          }
+          "settings": {}
         },
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
           "type": "complementary",
@@ -151,7 +145,7 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify:\/\/shop_images\/matter_1.png",
+            "image": "shopify://shop_images/matter_1.png",
             "link": ""
           }
         },
@@ -159,7 +153,7 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify:\/\/shop_images\/Apple_Home_78be6963-c410-44d0-81c3-cfdd347a2e05.jpg",
+            "image": "shopify://shop_images/Apple_Home_78be6963-c410-44d0-81c3-cfdd347a2e05.jpg",
             "link": ""
           }
         },
@@ -167,7 +161,7 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify:\/\/shop_images\/Google_home.png",
+            "image": "shopify://shop_images/Google_home.png",
             "link": ""
           }
         },
@@ -175,7 +169,7 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify:\/\/shop_images\/work_with_alexa.png",
+            "image": "shopify://shop_images/work_with_alexa.png",
             "link": ""
           }
         },
@@ -183,7 +177,7 @@
           "type": "logo",
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify:\/\/shop_images\/5.png",
+            "image": "shopify://shop_images/5.png",
             "link": ""
           }
         },
@@ -192,19 +186,12 @@
           "disabled": true,
           "settings": {
             "logo_heading": "Logo list",
-            "image": "shopify:\/\/shop_images\/Yeelight_icon_8597e696-15e6-4b2f-84c1-6cb3e99e7f84.jpg",
+            "image": "shopify://shop_images/Yeelight_icon_8597e696-15e6-4b2f-84c1-6cb3e99e7f84.jpg",
             "link": ""
           }
         }
       },
-      "block_order": [
-        "logo_FMrgMj",
-        "logo_mKzWBz",
-        "logo_rr3cCK",
-        "logo_9t6hpM",
-        "logo_btcrht",
-        "logo_hKhNTW"
-      ],
+      "block_order": ["logo_FMrgMj", "logo_mKzWBz", "logo_rr3cCK", "logo_9t6hpM", "logo_btcrht", "logo_hKhNTW"],
       "settings": {
         "heading": "Works with",
         "marker_style": "style1",
@@ -231,19 +218,16 @@
         "text_6KQqH3": {
           "type": "text",
           "settings": {
-            "text": "<p>Shine to Play: 16M Colors Silky Addressable, Pixel Graffiti, Accurate Sync<\/p><p><\/p><p><\/p>",
+            "text": "<p>Shine to Play: 16M Colors Silky Addressable, Pixel Graffiti, Accurate Sync</p><p></p><p></p>",
             "description_size": "medium"
           }
         }
       },
-      "block_order": [
-        "heading_6qw9jH",
-        "text_6KQqH3"
-      ],
+      "block_order": ["heading_6qw9jH", "text_6KQqH3"],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/kv.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/beam-kv-M.jpg",
+        "image": "shopify://shop_images/kv.jpg",
+        "mobile_image": "shopify://shop_images/beam-kv-M.jpg",
         "image_parallax": false,
         "desktop_height": "desktop-height-800",
         "mobile_height": "mobile-height-500",
@@ -273,16 +257,13 @@
         "text_qarJzg": {
           "type": "text",
           "settings": {
-            "text": "<p>Shine to Play: 16M Colors Silky Addressable, Pixel Graffiti, Accurate Sync<\/p>",
+            "text": "<p>Shine to Play: 16M Colors Silky Addressable, Pixel Graffiti, Accurate Sync</p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
         }
       },
-      "block_order": [
-        "1662374339c00286b1-1",
-        "text_qarJzg"
-      ],
+      "block_order": ["1662374339c00286b1-1", "text_qarJzg"],
       "settings": {
         "text_width": "xlarge",
         "text_position": "center",
@@ -301,7 +282,7 @@
         "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-0": {
           "type": "media",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_4852bada-0489-4b22-8edd-1105004a993a.jpg",
+            "image": "shopify://shop_images/2_4852bada-0489-4b22-8edd-1105004a993a.jpg",
             "slide_link": "",
             "use_video": false,
             "video_autoplay": true,
@@ -325,7 +306,7 @@
         "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-1": {
           "type": "media",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_f08d11c4-747a-4b3d-bffd-40ecfb785a3f.jpg",
+            "image": "shopify://shop_images/4_f08d11c4-747a-4b3d-bffd-40ecfb785a3f.jpg",
             "slide_link": "",
             "use_video": false,
             "video_autoplay": true,
@@ -349,7 +330,7 @@
         "template--17918041391386__3a444c86-680e-4deb-b870-63aec684439f-16768955574efec445-2": {
           "type": "media",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_3ecd2471-cf4d-4a3e-9ee8-83c10f7c1ed8.jpg",
+            "image": "shopify://shop_images/1_3ecd2471-cf4d-4a3e-9ee8-83c10f7c1ed8.jpg",
             "slide_link": "",
             "use_video": false,
             "video_autoplay": true,
@@ -373,7 +354,7 @@
         "52402f74-ffbf-4ff7-96b3-6c6c30568c45": {
           "type": "media",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7_2525b168-730c-4676-b404-c45455f32fc3.jpg",
+            "image": "shopify://shop_images/7_2525b168-730c-4676-b404-c45455f32fc3.jpg",
             "slide_link": "",
             "use_video": false,
             "video_autoplay": true,
@@ -397,7 +378,7 @@
         "3595a460-057e-4e41-aab6-3ced52f76ef3": {
           "type": "media",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_3650ec94-3e71-4349-979a-729445145868.jpg",
+            "image": "shopify://shop_images/6_3650ec94-3e71-4349-979a-729445145868.jpg",
             "slide_link": "",
             "use_video": false,
             "video_autoplay": true,
@@ -443,7 +424,7 @@
         "image_XTr4xK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8_94a75560-8d49-4618-a4de-d0b4067187c2.jpg",
+            "image": "shopify://shop_images/8_94a75560-8d49-4618-a4de-d0b4067187c2.jpg",
             "title": "Cozy Home Setting",
             "heading_size": "h3",
             "heading_position": "top",
@@ -456,7 +437,7 @@
         "image_t6GaXK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8_db1eb324-67c8-4835-be8b-5f9c7789201b.jpg",
+            "image": "shopify://shop_images/8_db1eb324-67c8-4835-be8b-5f9c7789201b.jpg",
             "title": "Party Mode",
             "heading_size": "h3",
             "heading_position": "top",
@@ -467,15 +448,12 @@
           }
         }
       },
-      "block_order": [
-        "image_XTr4xK",
-        "image_t6GaXK"
-      ],
+      "block_order": ["image_XTr4xK", "image_t6GaXK"],
       "settings": {
-        "heading": "Vivid\/Cozy, Switch with a Tap",
+        "heading": "Vivid/Cozy, Switch with a Tap",
         "marker_style": "style1",
         "heading_size": "h3",
-        "description": "<p>Tunable whites for daily ease, colors to comfy in an instant.<\/p>",
+        "description": "<p>Tunable whites for daily ease, colors to comfy in an instant.</p>",
         "badge_text": "Comparison",
         "image_position": "image_top",
         "desktop_height": "desktop-height-650",
@@ -504,16 +482,13 @@
         "text_AX79GB": {
           "type": "text",
           "settings": {
-            "text": "<p>Blend that unique color theme for your vibe<\/p>"
+            "text": "<p>Blend that unique color theme for your vibe</p>"
           }
         }
       },
-      "block_order": [
-        "heading_BjnpPb",
-        "text_AX79GB"
-      ],
+      "block_order": ["heading_BjnpPb", "text_AX79GB"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/4_ef7ec7e1-8c90-4906-bc80-bbbecdabffc4.jpg",
+        "image": "shopify://shop_images/4_ef7ec7e1-8c90-4906-bc80-bbbecdabffc4.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": false,
@@ -545,16 +520,13 @@
         "text_86ppUe": {
           "type": "text",
           "settings": {
-            "text": "<p>Charcoal base color, concealing on any dark gadgets<\/p>"
+            "text": "<p>Charcoal base color, concealing on any dark gadgets</p>"
           }
         }
       },
-      "block_order": [
-        "heading_HhVWrL",
-        "text_86ppUe"
-      ],
+      "block_order": ["heading_HhVWrL", "text_86ppUe"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/5_0cb59001-098e-4aa2-b2b8-11d156843724.jpg",
+        "image": "shopify://shop_images/5_0cb59001-098e-4aa2-b2b8-11d156843724.jpg",
         "use_video": false,
         "video": "",
         "video_autoplay": false,
@@ -586,19 +558,16 @@
         "text_KNLNVH": {
           "type": "text",
           "settings": {
-            "text": "<p>Effortless smart control via Matter<\/p><p>Supports Apple Home, Google Home, Alexa, Samsung SmartThings and beyond!<\/p>"
+            "text": "<p>Effortless smart control via Matter</p><p>Supports Apple Home, Google Home, Alexa, Samsung SmartThings and beyond!</p>"
           }
         }
       },
-      "block_order": [
-        "heading_DNH8pV",
-        "text_KNLNVH"
-      ],
+      "block_order": ["heading_DNH8pV", "text_KNLNVH"],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/3_8227b5be-bfd6-4913-84bd-fbbea46656ce.jpg",
+        "image": "shopify://shop_images/3_8227b5be-bfd6-4913-84bd-fbbea46656ce.jpg",
         "use_video": false,
-        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -619,28 +588,25 @@
         "box_XMkrib": {
           "type": "box",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6-2.jpg",
+            "image": "shopify://shop_images/6-2.jpg",
             "image_link": "",
             "open": false,
             "heading": "Extendable to 16.4 ft",
-            "text": "<p>Pair text with an image to focus on your chosen image<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen image</p>"
           }
         },
         "box_bgMC9H": {
           "type": "box",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6-1_65967a9b-1797-4947-93b5-f554bdd62501.jpg",
+            "image": "shopify://shop_images/6-1_65967a9b-1797-4947-93b5-f554bdd62501.jpg",
             "image_link": "",
             "open": false,
             "heading": "Trimmable on each light bead",
-            "text": "<p>Pair text with an image to focus on your chosen image<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen image</p>"
           }
         }
       },
-      "block_order": [
-        "box_XMkrib",
-        "box_bgMC9H"
-      ],
+      "block_order": ["box_XMkrib", "box_bgMC9H"],
       "settings": {
         "heading": "Tailor Length to Your Need",
         "marker_style": "style1",
@@ -674,16 +640,13 @@
         "text_iTQAfq": {
           "type": "text",
           "settings": {
-            "text": "<p>Effortless smart control via Matter, Apple Home, Google Home, Alexa, Samsung SmartThings and beyond!<\/p>",
+            "text": "<p>Effortless smart control via Matter, Apple Home, Google Home, Alexa, Samsung SmartThings and beyond!</p>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
         }
       },
-      "block_order": [
-        "heading_9dHedU",
-        "text_iTQAfq"
-      ],
+      "block_order": ["heading_9dHedU", "text_iTQAfq"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -699,8 +662,8 @@
     "single_image_bdbTEm": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/obsid_strip_light-pc.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/obsid_strip_light-m.jpg",
+        "image": "shopify://shop_images/obsid_strip_light-pc.jpg",
+        "image_mobile": "shopify://shop_images/obsid_strip_light-m.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -714,7 +677,7 @@
           "settings": {
             "tab_label": "Specifications",
             "icon": "clipboard",
-            "text": "<ul><li><strong>Model No<\/strong>.: YLFWD-0025<\/li><li><strong>TA<\/strong>: 25°C<\/li><li><strong>Power Factor<\/strong>: 0.7<\/li><li><strong>Rated input<\/strong>: 12V =-- 0.6A,7W(2m); 2V =-= 1.35A,16W(5m)<\/li><li><strong>Rated input (with adapter)<\/strong>: 100-240V~50\/60Hz0.095A8.5W(2m); 100-240V~50\/60Hz0.22A20W(5m)<\/li><li><strong>Wireless Connection<\/strong>: Wi-FilEEE 802.11 b\/g\/n 2.4GHz; Bluetooth 5.0 Bluetooth Low Energy<\/li><li><strong>Compatiable with<\/strong>: Android 7.0 & iOS 16.2 or above<\/li><\/ul>",
+            "text": "<ul><li><strong>Model No</strong>.: YLFWD-0025</li><li><strong>TA</strong>: 25°C</li><li><strong>Power Factor</strong>: 0.7</li><li><strong>Rated input</strong>: 12V =-- 0.6A,7W(2m); 2V =-= 1.35A,16W(5m)</li><li><strong>Rated input (with adapter)</strong>: 100-240V~50/60Hz0.095A8.5W(2m); 100-240V~50/60Hz0.22A20W(5m)</li><li><strong>Wireless Connection</strong>: Wi-FilEEE 802.11 b/g/n 2.4GHz; Bluetooth 5.0 Bluetooth Low Energy</li><li><strong>Compatiable with</strong>: Android 7.0 & iOS 16.2 or above</li></ul>",
             "text_columns": "1",
             "page": ""
           }
@@ -725,16 +688,13 @@
           "settings": {
             "tab_label": "Package Contents",
             "icon": "box",
-            "text": "<ul><li>Smart Lamp×2<\/li><li>Adapter×1<\/li><li>Headphone Holder×1<\/li><li>User Manual×1<\/li><li>Power Cable×1<\/li><\/ul>",
+            "text": "<ul><li>Smart Lamp×2</li><li>Adapter×1</li><li>Headphone Holder×1</li><li>User Manual×1</li><li>Power Cable×1</li></ul>",
             "text_columns": "1",
             "page": ""
           }
         }
       },
-      "block_order": [
-        "aab3af59-da6e-4438-a635-b38db53647da",
-        "897d66ee-eae4-44c6-9c00-1c378b662056"
-      ],
+      "block_order": ["aab3af59-da6e-4438-a635-b38db53647da", "897d66ee-eae4-44c6-9c00-1c378b662056"],
       "settings": {
         "heading": "Tech Specs",
         "marker_style": "style1",
@@ -820,7 +780,7 @@
       "settings": {
         "heading": "FAQ",
         "marker_style": "style1",
-        "description": "<p>Collapsible content description<\/p>",
+        "description": "<p>Collapsible content description</p>",
         "color_bg": "#3f72e5",
         "color_heading": "#ffffff",
         "marker_color": "#fd6262",
@@ -844,9 +804,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_3L7t4N"
-      ],
+      "block_order": ["heading_3L7t4N"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -863,7 +821,7 @@
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_dynamic_section_bNPXU4": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -874,17 +832,14 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_bNPXU4"
-      ],
-      "settings": {
-      }
+      "block_order": ["loox_reviews_loox_dynamic_section_bNPXU4"],
+      "settings": {}
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
-        "description": "<p>Combine your style with these products<\/p>",
+        "description": "<p>Combine your style with these products</p>",
         "mobile_swipe": true,
         "product_limit": 4,
         "columns_desktop": 4,

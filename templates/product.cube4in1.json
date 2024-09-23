@@ -1,26 +1,24 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {
-      }
+      "settings": {}
     },
     "main-product": {
       "type": "main-product",
       "blocks": {
         "2b609eea-6cce-4efe-b447-c5560de1d797": {
           "type": "label",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -29,14 +27,14 @@
           }
         },
         "loox_reviews_loox_rating_9g3aA7": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 16,
             "pattern": "",
             "hideText": false,
             "alignment": "",
             "layout": "",
-            "textColor": "#000000",
+            "textColor": "#ffffff",
             "starColor": "#ff9529",
             "showAllReviews": false,
             "looxOpenFloatingWidget": false,
@@ -45,8 +43,7 @@
         },
         "separator_qJEjWC": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -63,8 +60,7 @@
         },
         "quantity": {
           "type": "quantity",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -75,15 +71,14 @@
         },
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping",
             "open": false,
-            "content": "<p>Order will typically be processed within 24 hours. <\/p><p><strong>Estimated Shipping Time:<\/strong><\/p><ul><li>USA: 3-7 Business Days<\/li><li>Europe: 7-10 Business Days<\/li><\/ul>",
+            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA: 3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
             "page": "",
             "custom_liquid": ""
           }
@@ -93,15 +88,14 @@
           "settings": {
             "heading": "Warranty",
             "open": false,
-            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.<\/p>",
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.</p>",
             "page": "",
             "custom_liquid": ""
           }
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
-          "settings": {
-          }
+          "settings": {}
         },
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
           "type": "complementary",
@@ -139,8 +133,8 @@
     "single_image_3kkr3Y": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Cube_4-Matrix_pack_KV.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Cube_4_Matrix_Pack_M_01_1.jpg",
+        "image": "shopify://shop_images/Yeelight_Cube_4-Matrix_pack_KV.jpg",
+        "image_mobile": "shopify://shop_images/Cube_4_Matrix_Pack_M_01_1.jpg",
         "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
@@ -149,8 +143,8 @@
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Cube_4-Matrix_pack_1.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Cube_4_Matrix_Pack_M_01_2.jpg",
+        "image": "shopify://shop_images/Yeelight_Cube_4-Matrix_pack_1.jpg",
+        "image_mobile": "shopify://shop_images/Cube_4_Matrix_Pack_M_01_2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -159,8 +153,8 @@
     "single_image_bNVALU": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Cube_4-Matrix_pack_2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Cube_4_Matrix_Pack_M_01_3.jpg",
+        "image": "shopify://shop_images/Yeelight_Cube_4-Matrix_pack_2.jpg",
+        "image_mobile": "shopify://shop_images/Cube_4_Matrix_Pack_M_01_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -169,8 +163,8 @@
     "single_image_48mLdL": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Cube_4-Matrix_pack_3.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Cube_4_Matrix_Pack_M_01_4.jpg",
+        "image": "shopify://shop_images/Yeelight_Cube_4-Matrix_pack_3.jpg",
+        "image_mobile": "shopify://shop_images/Cube_4_Matrix_Pack_M_01_4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -179,8 +173,8 @@
     "single_image_YFNLfJ": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Cube_4-Matrix_pack_4.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Cube_4_Matrix_Pack_M_01_5.jpg",
+        "image": "shopify://shop_images/Yeelight_Cube_4-Matrix_pack_4.jpg",
+        "image_mobile": "shopify://shop_images/Cube_4_Matrix_Pack_M_01_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -189,8 +183,8 @@
     "single_image_UwbPnd": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Cube_4-Matrix_pack_5.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Cube_4_Matrix_Pack_M_01_6.jpg",
+        "image": "shopify://shop_images/Yeelight_Cube_4-Matrix_pack_5.jpg",
+        "image_mobile": "shopify://shop_images/Cube_4_Matrix_Pack_M_01_6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -199,8 +193,8 @@
     "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Cube_4-Matrix_pack_6.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Cube_4_Matrix_Pack_M_01_7.jpg",
+        "image": "shopify://shop_images/Yeelight_Cube_4-Matrix_pack_6.jpg",
+        "image_mobile": "shopify://shop_images/Cube_4_Matrix_Pack_M_01_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -209,8 +203,8 @@
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Cube_4-Matrix_pack_7.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Cube_4_Matrix_Pack_M_01_8.jpg",
+        "image": "shopify://shop_images/Yeelight_Cube_4-Matrix_pack_7.jpg",
+        "image_mobile": "shopify://shop_images/Cube_4_Matrix_Pack_M_01_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -219,8 +213,8 @@
     "single_image_N6MW93": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Cube_4-Matrix_pack_8.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Cube_4_Matrix_Pack_M_01_9.jpg",
+        "image": "shopify://shop_images/Yeelight_Cube_4-Matrix_pack_8.jpg",
+        "image_mobile": "shopify://shop_images/Cube_4_Matrix_Pack_M_01_9.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -229,8 +223,8 @@
     "single_image_JH8XXF": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Cube_4-Matrix_pack_9.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Cube_4_Matrix_Pack_M_01_10.jpg",
+        "image": "shopify://shop_images/Yeelight_Cube_4-Matrix_pack_9.jpg",
+        "image_mobile": "shopify://shop_images/Cube_4_Matrix_Pack_M_01_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -244,7 +238,7 @@
           "settings": {
             "tab_label": "Description",
             "icon": "none",
-            "text": "<ul><li>Dimmable by simple rotating the lamp base<\/li><li>A candle-shape table lamp designed to wow<\/li><li>A perfect add-on to your house and atmosphere<\/li><li>Built-in 2500mAh battery to allow up to 8-hour continuous use on a single charge<\/li><li>Portable enough for both indoor and outdoor use<\/li><li>Type-C rechargeable<\/li><\/ul>",
+            "text": "<ul><li>Dimmable by simple rotating the lamp base</li><li>A candle-shape table lamp designed to wow</li><li>A perfect add-on to your house and atmosphere</li><li>Built-in 2500mAh battery to allow up to 8-hour continuous use on a single charge</li><li>Portable enough for both indoor and outdoor use</li><li>Type-C rechargeable</li></ul>",
             "text_columns": "1",
             "page": ""
           }
@@ -254,16 +248,13 @@
           "settings": {
             "tab_label": "Specifications",
             "icon": "none",
-            "text": "<ul><li>Yeelight Candela Lamp<\/li><li><strong>Model No.<\/strong>: YLFWD-0019<\/li><li><strong>Dimensions:<\/strong> 72.5*72.5*195mm<\/li><li><strong>Weight:<\/strong> 410 土10g<\/li><li><strong>Brightness Adjustment<\/strong>: 1%-100%<\/li><li><strong>Power<\/strong>: 5w<\/li><li><strong>Battery<\/strong>:Polymer lithium battery 3.7V 2500mAh<\/li><li><strong>Working Temperature<\/strong>: -10-40°C<\/li><\/ul><p><\/p>",
+            "text": "<ul><li>Yeelight Candela Lamp</li><li><strong>Model No.</strong>: YLFWD-0019</li><li><strong>Dimensions:</strong> 72.5*72.5*195mm</li><li><strong>Weight:</strong> 410 土10g</li><li><strong>Brightness Adjustment</strong>: 1%-100%</li><li><strong>Power</strong>: 5w</li><li><strong>Battery</strong>:Polymer lithium battery 3.7V 2500mAh</li><li><strong>Working Temperature</strong>: -10-40°C</li></ul><p></p>",
             "text_columns": "1",
             "page": ""
           }
         }
       },
-      "block_order": [
-        "tab_zPhe9b",
-        "tab_RkmYzT"
-      ],
+      "block_order": ["tab_zPhe9b", "tab_RkmYzT"],
       "disabled": true,
       "settings": {
         "heading": "Tech Spec",
@@ -293,9 +284,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_HR4q6J"
-      ],
+      "block_order": ["heading_HR4q6J"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -312,7 +301,7 @@
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_dynamic_section_c8aEVF": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -323,17 +312,14 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_c8aEVF"
-      ],
-      "settings": {
-      }
+      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
+      "settings": {}
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
-        "description": "<p>Combine your style with these products<\/p>",
+        "description": "<p>Combine your style with these products</p>",
         "mobile_swipe": true,
         "product_limit": 4,
         "columns_desktop": 4,
