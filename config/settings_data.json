@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "heading_font": "inter_n6",
@@ -45,11 +45,11 @@
     "block_shadows": true,
     "section_spacing_mobile": 20,
     "section_spacing_desktop": 40,
-    "social_facebook_link": "https:\/\/www.facebook.com\/yeelight.global",
-    "social_twitter_link": "https:\/\/twitter.com\/Yeelight",
-    "social_instagram_link": "https:\/\/www.instagram.com\/yeelightofficial\/",
-    "social_tiktok_link": "https:\/\/tiktok.com\/@yeelight_global",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCLWw82HL2N9v6oEe58Zs-QA",
+    "social_facebook_link": "https://www.facebook.com/yeelight.global",
+    "social_twitter_link": "https://twitter.com/Yeelight",
+    "social_instagram_link": "https://www.instagram.com/yeelightofficial/",
+    "social_tiktok_link": "https://tiktok.com/@yeelight_global",
+    "social_youtube_link": "https://www.youtube.com/channel/UCLWw82HL2N9v6oEe58Zs-QA",
     "product_card_spacing": "medium",
     "product_content_alignment": "center",
     "product_price_position": "after-product-title",
@@ -77,28 +77,22 @@
     "search_product_collection_limit": 3,
     "email_terms_conditions_enable": true,
     "lazy_loading": false,
-    "favicon": "shopify:\/\/shop_images\/Fun_favicon.png",
-    "search_product_list": [
-
-    ],
-    "content_for_index": [
-
-    ],
+    "favicon": "shopify://shop_images/Fun_favicon.png",
+    "search_product_list": [],
+    "content_for_index": [],
     "blocks": {
       "11532412952436166569": {
-        "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-inject\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "3667842014806057753": {
-        "type": "shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/app-embed\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+        "type": "shopify://apps/one-click-upsell-zipify-ocu/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
         "disabled": false,
         "settings": {
           "allowed_templates": ""
@@ -146,12 +140,8 @@
       "search_menu": "",
       "search_product_collection": "all",
       "search_product_collection_limit": 3,
-      "search_product_list": [
-
-      ],
-      "content_for_index": [
-
-      ]
+      "search_product_list": [],
+      "content_for_index": []
     },
     "Emerald": {
       "heading_font": "itc_stepp_n7",
@@ -202,12 +192,8 @@
       "search_product_collection": "all",
       "search_product_collection_limit": 8,
       "lazy_loading": true,
-      "search_product_list": [
-
-      ],
-      "content_for_index": [
-
-      ]
+      "search_product_list": [],
+      "content_for_index": []
     },
     "Poochy": {
       "heading_font": "itc_clearface_n7",
@@ -266,12 +252,8 @@
       "search_menu": "search",
       "search_product_collection": "all",
       "search_product_collection_limit": 3,
-      "search_product_list": [
-
-      ],
-      "content_for_index": [
-
-      ]
+      "search_product_list": [],
+      "content_for_index": []
     },
     "Velocite": {
       "heading_font": "inter_n5",
@@ -326,12 +308,8 @@
       "search_menu": "",
       "search_product_collection": "all",
       "search_product_collection_limit": 3,
-      "search_product_list": [
-
-      ],
-      "content_for_index": [
-
-      ]
+      "search_product_list": [],
+      "content_for_index": []
     },
     "Winter": {
       "heading_font": "dm_sans_n5",
@@ -380,17 +358,11 @@
       "color_swatches": "",
       "search_product_collection": "all",
       "search_product_collection_limit": 3,
-      "search_product_list": [
-
-      ],
-      "content_for_index": [
-
-      ]
+      "search_product_list": [],
+      "content_for_index": []
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      ".cart-drawer .button.accent {background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);}"
-    ]
+    "custom_css": []
   }
 }
