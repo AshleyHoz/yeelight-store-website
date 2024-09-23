@@ -29,7 +29,7 @@
           }
         },
         "loox_reviews_loox_rating_9g3aA7": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 16,
             "pattern": "",
@@ -84,7 +84,7 @@
           "settings": {
             "heading": "Description",
             "open": false,
-            "content": "<ul><li><strong>20+ Lighting Effects for Every Occasion<\/strong><\/li><\/ul><p>Effortlessly switch between over 20 preset lighting effects tailored for holidays, parties, or daily use. Whether it's Halloween, Christmas, or a family gathering, these permanent outdoor lights transform your house into the perfect setting.<\/p><ul><li><strong>High-Brightness RGBIC LEDs<\/strong><\/li><\/ul><p>Each meter of lights contains two high-lumen LEDs, offering 16 million colors to create vivid displays. Seamlessly switch between vibrant RGB lighting and a warm 3000K white for more intimate settings.<\/p><ul><li><strong>Smart App Control with Customization<\/strong> <\/li><\/ul><p>Connect to the Yeelight app via Bluetooth for intuitive control. Personalize each LED, create custom dynamic effects, adjust speed, and even sync the lights to music for an immersive experience.<\/p><ul><li><strong>Durable and Weather-Resistant Design<\/strong> <\/li><\/ul><p>Built to withstand the elements, these lights feature IP67 waterproofing and can operate in temperatures from -4°F to 140°F. Their durable design makes them ideal for year-round outdoor use.<\/p><ul><li><strong>Easy Installation for Long-Term Use<\/strong> <\/li><\/ul><p>Designed for quick and secure installation, the adhesive backing and buckles ensure a firm hold on eaves. With its subtle white color, the strip blends seamlessly into most surfaces for a hidden look.<\/p><ul><li><strong>Seamless Integration with Yeelight Ecosystem<\/strong><\/li><\/ul><p>Combine these permanent lights with other Yeelight products, like curtain lights and string lights, to create an immersive lighting experience for any holiday or celebration.<\/p>",
+            "content": "<ul><li><strong>20+ Lighting Effects for Every Occasion</strong></li></ul><p>Effortlessly switch between over 20 preset lighting effects tailored for holidays, parties, or daily use. Whether it's Halloween, Christmas, or a family gathering, these permanent outdoor lights transform your house into the perfect setting.</p><ul><li><strong>High-Brightness RGBIC LEDs</strong></li></ul><p>Each meter of lights contains two high-lumen LEDs, offering 16 million colors to create vivid displays. Seamlessly switch between vibrant RGB lighting and a warm 3000K white for more intimate settings.</p><ul><li><strong>Smart App Control with Customization</strong> </li></ul><p>Connect to the Yeelight app via Bluetooth for intuitive control. Personalize each LED, create custom dynamic effects, adjust speed, and even sync the lights to music for an immersive experience.</p><ul><li><strong>Durable and Weather-Resistant Design</strong> </li></ul><p>Built to withstand the elements, these lights feature IP67 waterproofing and can operate in temperatures from -4°F to 140°F. Their durable design makes them ideal for year-round outdoor use.</p><ul><li><strong>Easy Installation for Long-Term Use</strong> </li></ul><p>Designed for quick and secure installation, the adhesive backing and buckles ensure a firm hold on eaves. With its subtle white color, the strip blends seamlessly into most surfaces for a hidden look.</p><ul><li><strong>Seamless Integration with Yeelight Ecosystem</strong></li></ul><p>Combine these permanent lights with other Yeelight products, like curtain lights and string lights, to create an immersive lighting experience for any holiday or celebration.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -94,7 +94,7 @@
           "settings": {
             "heading": "Shipping",
             "open": false,
-            "content": "<p>Order will typically be processed within 24 hours. <\/p><p><strong>Estimated Shipping Time:<\/strong><\/p><ul><li>USA: 3-7 Business Days<\/li><li>Europe: 7-10 Business Days<\/li><\/ul>",
+            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA: 3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
             "page": "",
             "custom_liquid": ""
           }
@@ -104,7 +104,7 @@
           "settings": {
             "heading": "Warranty",
             "open": false,
-            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.<\/p>",
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -154,10 +154,10 @@
         "slide_Re8Uxn": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner01.jpg",
+            "image": "shopify://shop_images/AuroraOutdoorBanner01.jpg",
             "button_icon": "",
             "button_text": "Independence Day",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile01.jpg",
+            "mobile_image": "shopify://shop_images/AuroraOutdoorBannerMobile01.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -191,10 +191,10 @@
         "slide_Hyb3Yi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner02.jpg",
+            "image": "shopify://shop_images/AuroraOutdoorBanner02.jpg",
             "button_icon": "",
             "button_text": "Halloween",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile02.jpg",
+            "mobile_image": "shopify://shop_images/AuroraOutdoorBannerMobile02.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -228,10 +228,10 @@
         "slide_r4cLYH": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner04.jpg",
+            "image": "shopify://shop_images/AuroraOutdoorBanner04.jpg",
             "button_icon": "",
             "button_text": "Christmas",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile04.jpg",
+            "mobile_image": "shopify://shop_images/AuroraOutdoorBannerMobile04.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -265,10 +265,10 @@
         "slide_UqXJwU": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner03.jpg",
+            "image": "shopify://shop_images/AuroraOutdoorBanner03.jpg",
             "button_icon": "",
             "button_text": "Valentine",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile03.jpg",
+            "mobile_image": "shopify://shop_images/AuroraOutdoorBannerMobile03.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -302,10 +302,10 @@
         "slide_idmXF7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AuroraOutdoorBanner05.jpg",
+            "image": "shopify://shop_images/AuroraOutdoorBanner05.jpg",
             "button_icon": "",
             "button_text": "Daily Use",
-            "mobile_image": "shopify:\/\/shop_images\/AuroraOutdoorBannerMobile05.jpg",
+            "mobile_image": "shopify://shop_images/AuroraOutdoorBannerMobile05.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -357,11 +357,25 @@
         "disable_bottom_spacing": false
       }
     },
+    "background_video_KqMFCN": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "video_controls": true,
+        "video": "https://youtu.be/Nn6d2igqJGc?si=aLmUuNv0UJmMTBuD",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "single_image_3kkr3Y": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_1.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_1.jpg",
+        "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_1.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_1.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -370,8 +384,8 @@
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M2.jpg",
+        "image": "shopify://shop_images/Yeelight_Permanent_Light_PC2.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -380,8 +394,8 @@
     "single_image_bNVALU": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_3.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_3.jpg",
+        "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_3.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -390,8 +404,8 @@
     "single_image_YFNLfJ": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_4.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_4.jpg",
+        "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_4.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -400,8 +414,8 @@
     "single_image_UwbPnd": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_5.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_5.jpg",
+        "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_5.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -410,8 +424,8 @@
     "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC6.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M6.jpg",
+        "image": "shopify://shop_images/Yeelight_Permanent_Light_PC6.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -420,8 +434,8 @@
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_7.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_7.jpg",
+        "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_7.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -430,8 +444,8 @@
     "single_image_N6MW93": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_8.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_8.jpg",
+        "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_8.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -440,8 +454,8 @@
     "single_image_JH8XXF": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_9.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_9.jpg",
+        "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_9.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_9.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -450,8 +464,8 @@
     "single_image_WdwpPN": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yeelight_Permanent_Light_PC_10.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_10.jpg",
+        "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_10.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -460,8 +474,8 @@
     "single_image_FGkhTr": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Permanent_Light_PC11.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_11.jpg",
+        "image": "shopify://shop_images/Permanent_Light_PC11.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_11.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -470,8 +484,8 @@
     "single_image_m6jW4L": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Permanent_Light_PC12.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_12.jpg",
+        "image": "shopify://shop_images/Permanent_Light_PC12.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_12.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -480,8 +494,8 @@
     "single_image_wA9Aty": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Permanent_Light_PC13.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Permanent-M_13.jpg",
+        "image": "shopify://shop_images/Permanent_Light_PC13.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_13.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -495,7 +509,7 @@
           "settings": {
             "heading": "What is the length of extension pack?",
             "open": false,
-            "content": "<p>The length is 16.7ft\/5m. For customers who purchase the 50ft or 100ft pack, extension pack can be freely combined based on installation needs, but the maximum extension is 150ft. Therefore, customers who have already purchased the 150ft pack cannot purchase additional extension pack.<\/p>",
+            "content": "<p>The length is 16.7ft/5m. For customers who purchase the 50ft or 100ft pack, extension pack can be freely combined based on installation needs, but the maximum extension is 150ft. Therefore, customers who have already purchased the 150ft pack cannot purchase additional extension pack.</p>",
             "page": ""
           }
         },
@@ -504,7 +518,7 @@
           "settings": {
             "heading": "Is it cuttable?",
             "open": false,
-            "content": "<p>Cutting is not supported, but there are 3 available lengths: 50ft, 100ft, and 150ft, along with a 16.7ft extension pack that can be freely combined.<\/p>",
+            "content": "<p>Cutting is not supported, but there are 3 available lengths: 50ft, 100ft, and 150ft, along with a 16.7ft extension pack that can be freely combined.</p>",
             "page": ""
           }
         },
@@ -513,7 +527,7 @@
           "settings": {
             "heading": "What is the extent of waterproofing?",
             "open": false,
-            "content": "<p>Adapter IP44, Control Box IP65, Light string IP67<\/p>",
+            "content": "<p>Adapter IP44, Control Box IP65, Light string IP67</p>",
             "page": ""
           }
         },
@@ -522,7 +536,7 @@
           "settings": {
             "heading": "What does the package contain? how many hooks are in? are there any other hanging materials to be included with the string lights?",
             "open": false,
-            "content": "<ul><li>50ft：Power adapter x1；Control box x1；String light x3；Buckle x15；VHB Tapes x9；<\/li><li>100ft：Power adapter x1；Control box x1；String light x6；Buckle x30；VHB Tapes x18；Extension line 11.8ft x1<\/li><li>150ft：Power adapter x1；Control box x1；String light x9；Buckle x45；VHB Tapes x36；Extension line 11.8ft x2<\/li><li>The lights are secured with 3M tape and buckles, no hooks are needed.<\/li><\/ul>",
+            "content": "<ul><li>50ft：Power adapter x1；Control box x1；String light x3；Buckle x15；VHB Tapes x9；</li><li>100ft：Power adapter x1；Control box x1；String light x6；Buckle x30；VHB Tapes x18；Extension line 11.8ft x1</li><li>150ft：Power adapter x1；Control box x1；String light x9；Buckle x45；VHB Tapes x36；Extension line 11.8ft x2</li><li>The lights are secured with 3M tape and buckles, no hooks are needed.</li></ul>",
             "page": ""
           }
         },
@@ -531,7 +545,7 @@
           "settings": {
             "heading": "Do they work in winter?",
             "open": false,
-            "content": "<p>Yes, the product can operate at a maximum temperature of 60°C (140°F) and a minimum temperature of -20°C (-4°F).<\/p>",
+            "content": "<p>Yes, the product can operate at a maximum temperature of 60°C (140°F) and a minimum temperature of -20°C (-4°F).</p>",
             "page": ""
           }
         },
@@ -540,7 +554,7 @@
           "settings": {
             "heading": "If I move are they resusable?",
             "open": false,
-            "content": "<p>It can be reused, but after reinstallation, the adhesive strength of the 3M tape will decrease, so it's recommended to have extra tape on hand.<\/p>",
+            "content": "<p>It can be reused, but after reinstallation, the adhesive strength of the 3M tape will decrease, so it's recommended to have extra tape on hand.</p>",
             "page": ""
           }
         },
@@ -549,7 +563,7 @@
           "settings": {
             "heading": "Does it cost a lot of run it?",
             "open": false,
-            "content": "<p>For the 150ft version, if used for 3 hours per day at a rate of 11¢\/kWh, the estimated annual electricity cost is $9.<\/p>",
+            "content": "<p>For the 150ft version, if used for 3 hours per day at a rate of 11¢/kWh, the estimated annual electricity cost is $9.</p>",
             "page": ""
           }
         },
@@ -558,7 +572,7 @@
           "settings": {
             "heading": "Do the lights come in 1 long run? or are they in connectable sections?",
             "open": false,
-            "content": "<p>They in connectable sections, with each string light measuring 5m\/16.7ft in length, and they are connected by waterproof connectors.<\/p>",
+            "content": "<p>They in connectable sections, with each string light measuring 5m/16.7ft in length, and they are connected by waterproof connectors.</p>",
             "page": ""
           }
         },
@@ -567,7 +581,7 @@
           "settings": {
             "heading": "How do I control Yeelight Permanent Outdoor Lights?",
             "open": false,
-            "content": "<p>It connects via Bluetooth and can be smartly controlled using the Yeelight APP. The control box also allows for simple operations like turning the lights on\/off and switching lighting effects. However, please note that the lighting effects switched by the control box are not synchronized with the APP.<\/p>",
+            "content": "<p>It connects via Bluetooth and can be smartly controlled using the Yeelight APP. The control box also allows for simple operations like turning the lights on/off and switching lighting effects. However, please note that the lighting effects switched by the control box are not synchronized with the APP.</p>",
             "page": ""
           }
         },
@@ -576,7 +590,7 @@
           "settings": {
             "heading": "Can I integrate Yeelight Permanent Outdoor Lights with other Yeelight products?",
             "open": false,
-            "content": "<p>Currently, the permanent outdoor lights do not support direct group control with other products. However, each product has similar lighting effects, so you can switch to the same lighting effect on each product individually to achieve a coordinated overall effect.<\/p>",
+            "content": "<p>Currently, the permanent outdoor lights do not support direct group control with other products. However, each product has similar lighting effects, so you can switch to the same lighting effect on each product individually to achieve a coordinated overall effect.</p>",
             "page": ""
           }
         },
@@ -585,7 +599,7 @@
           "settings": {
             "heading": "Can I customize the colors and effects of Yeelight Permanent Outdoor Lights?",
             "open": false,
-            "content": "<p>Yes, the Yeelight permanent outdoor lights are RGBICW, with each LED having an independent chip for control. This allows for high customization, enabling you to set the color of each individual bulb and switch between various dynamic effects such as flashing, breathing, and stacking.<\/p>",
+            "content": "<p>Yes, the Yeelight permanent outdoor lights are RGBICW, with each LED having an independent chip for control. This allows for high customization, enabling you to set the color of each individual bulb and switch between various dynamic effects such as flashing, breathing, and stacking.</p>",
             "page": ""
           }
         },
@@ -594,7 +608,7 @@
           "settings": {
             "heading": "Do I need a professional installation team for the installation?",
             "open": false,
-            "content": "<p>You can choose to install it yourself, please refer to the installation video for detailed steps. Alternatively, you can contact a professional for installation services, such as scheduling through <a href=\"http:\/\/angi.com\" target=\"_blank\">angi.com<\/a>.<\/p>",
+            "content": "<p>You can choose to install it yourself, please refer to the installation video for detailed steps. Alternatively, you can contact a professional for installation services, such as scheduling through <a href=\"http://angi.com\" target=\"_blank\">angi.com</a>.</p>",
             "page": ""
           }
         },
@@ -603,7 +617,7 @@
           "settings": {
             "heading": "What if the eaves where I want to install are not continuous?",
             "open": false,
-            "content": "<p>You can use the extension cable to span across eaves, the length of the extension cable is 11.8ft\/3.6m. One piece is included in the 100ft pack and two pieces are included in the 150ft pack (not included in the 50ft pack). You can connect the extension cable between two sections of string lights to bridge discontinuous eaves or other areas where lights are not needed.<\/p>",
+            "content": "<p>You can use the extension cable to span across eaves, the length of the extension cable is 11.8ft/3.6m. One piece is included in the 100ft pack and two pieces are included in the 150ft pack (not included in the 50ft pack). You can connect the extension cable between two sections of string lights to bridge discontinuous eaves or other areas where lights are not needed.</p>",
             "page": ""
           }
         },
@@ -612,7 +626,7 @@
           "settings": {
             "heading": "Where should the control box and power adapter installed?",
             "open": false,
-            "content": "<p>It is recommended to put the adapter and control box indoors, such as in a garage. Additionally, the control box should be placed in a relatively open area without obstructions to prevent weak signal reception.<\/p>",
+            "content": "<p>It is recommended to put the adapter and control box indoors, such as in a garage. Additionally, the control box should be placed in a relatively open area without obstructions to prevent weak signal reception.</p>",
             "page": ""
           }
         },
@@ -621,7 +635,7 @@
           "settings": {
             "heading": "Is the 3M adhesive secure, and is there a possibility of it falling off?",
             "open": false,
-            "content": "<p>The 3M tape is very strong, but please refer to the installation video before starting. After the initial application, press down for at least 10 seconds. Once the 3M tape has been applied for more than 3 days, it will be very difficult to remove. Additionally, the package includes mounting buckles with screws for more secure installation, and extra 3M tape is provided as a backup in case you need to reapply it.<\/p>",
+            "content": "<p>The 3M tape is very strong, but please refer to the installation video before starting. After the initial application, press down for at least 10 seconds. Once the 3M tape has been applied for more than 3 days, it will be very difficult to remove. Additionally, the package includes mounting buckles with screws for more secure installation, and extra 3M tape is provided as a backup in case you need to reapply it.</p>",
             "page": ""
           }
         }
@@ -664,7 +678,7 @@
           "type": "tab",
           "settings": {
             "use_video": true,
-            "video_hosted": "shopify:\/\/files\/videos\/Waterproof.mp4",
+            "video_hosted": "shopify://files/videos/Waterproof.mp4",
             "heading_icon": "washing",
             "heading": "IP67 Waterproof Test",
             "description": "Remains fully operational after 30 mins submerging in water. Capable of withstanding extreme heavy rain.",
@@ -675,7 +689,7 @@
           "type": "tab",
           "settings": {
             "use_video": true,
-            "video_hosted": "shopify:\/\/files\/videos\/Temperature.mp4",
+            "video_hosted": "shopify://files/videos/Temperature.mp4",
             "heading_icon": "snowflake",
             "heading": "High & Low Temperature Test",
             "description": "Remains fully functional after being frozen in a refrigerator and baked in an oven. Can be used in temperatures ranging from -4°F to 140°F.",
@@ -686,7 +700,7 @@
           "type": "tab",
           "settings": {
             "use_video": true,
-            "video_hosted": "shopify:\/\/files\/videos\/Adhesive.mp4",
+            "video_hosted": "shopify://files/videos/Adhesive.mp4",
             "heading_icon": "leather",
             "heading": "Adhesive Strength Test",
             "description": "The single light head can support a more than 2lb object. It resists falling off with long-term use.",
@@ -745,7 +759,7 @@
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_dynamic_section_c8aEVF": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -766,7 +780,7 @@
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
-        "description": "<p>Combine your style with these products<\/p>",
+        "description": "<p>Combine your style with these products</p>",
         "mobile_swipe": true,
         "product_limit": 4,
         "columns_desktop": 4,
@@ -779,6 +793,7 @@
     "breadcrumbs",
     "main-product",
     "product_slideshow_ahQAiP",
+    "background_video_KqMFCN",
     "single_image_3kkr3Y",
     "single_image_8Areip",
     "single_image_bNVALU",
