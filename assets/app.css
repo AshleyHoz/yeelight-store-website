@@ -5523,11 +5523,13 @@ input[type='radio'],
   }
 }
 
+.lx-btn,
 #looxReviews #looxReviewsFrame .minimal-header #write.header-btn {
-  color: #ffffff!important;
-  border: 1px solid #8a8a8a!important;
+  color: #ffffff !important;
+  border: 1px solid #8a8a8a !important;
 }
 
+nav.menu,
 #looxReviews #looxReviewsFrame .minimal-header .menu #btn-menu svg path {
-  stroke: #fff!important;
+  stroke: #fff !important;
 }
