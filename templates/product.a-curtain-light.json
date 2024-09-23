@@ -29,7 +29,7 @@
           }
         },
         "loox_reviews_loox_rating_9g3aA7": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "contentSize": 16,
             "pattern": "",
@@ -84,7 +84,7 @@
           "settings": {
             "heading": "Description",
             "open": false,
-            "content": "<ul><li><strong>20+ Lighting Effects and 170+ Patterns<\/strong><\/li><\/ul><p>Choose from over 20 dynamic lighting effects and 170+ static patterns to create the perfect atmosphere. From holiday decorations to casual room decor for gaming, movies and music, these curtain lights add ambiance to any space.<\/p><ul><li><strong>RGBIC  & Free DIY<\/strong><\/li><\/ul><p>Customize your lighting experience with individual control of each of the 475 LEDs across the 5x6.5 ft canvas. Whether it's crafting a one-of-a-kind look for a holiday or personalizing your space, these lights offer endless DIY possibilities.<\/p><ul><li><strong>Smart App Control and Music Sync<\/strong><\/li><\/ul><p>Easily control your curtain lights through the Yeelight app via Bluetooth. Enjoy dynamic light shows with Music Flow, which syncs lighting effects with your music, bringing an interactive experience to parties or live streaming.<\/p><ul><li><strong>Durable and Waterproof for Indoor and Outdoor Use<\/strong><\/li><\/ul><p>Featuring IP65 waterproofing, these curtain lights are perfect for both indoor and outdoor settings. Their wide operating temperature range makes them reliable for year-round use, from bedroom decor to outdoor events.<\/p><ul><li><strong>Effortless Installation<\/strong><\/li><\/ul><p>Set up your curtain lights in minutes with multiple installation options, including hooks, 3M tapes, or non-marking nails. Whether used as a backdrop for a bedroom wall or a dramatic window decoration, the lights are easy to install and versatile for different settings.<\/p><ul><li><strong>Seamless Integration with Yeelight Ecosystem<\/strong><\/li><\/ul><p>Combine these permanent lights with other Yeelight products, like permanent outdoor lights and string lights, to create an immersive lighting experience for any holiday or celebration.<\/p>",
+            "content": "<ul><li><strong>20+ Lighting Effects and 170+ Patterns</strong></li></ul><p>Choose from over 20 dynamic lighting effects and 170+ static patterns to create the perfect atmosphere. From holiday decorations to casual room decor for gaming, movies and music, these curtain lights add ambiance to any space.</p><ul><li><strong>RGBIC  & Free DIY</strong></li></ul><p>Customize your lighting experience with individual control of each of the 475 LEDs across the 5x6.5 ft canvas. Whether it's crafting a one-of-a-kind look for a holiday or personalizing your space, these lights offer endless DIY possibilities.</p><ul><li><strong>Smart App Control and Music Sync</strong></li></ul><p>Easily control your curtain lights through the Yeelight app via Bluetooth. Enjoy dynamic light shows with Music Flow, which syncs lighting effects with your music, bringing an interactive experience to parties or live streaming.</p><ul><li><strong>Durable and Waterproof for Indoor and Outdoor Use</strong></li></ul><p>Featuring IP65 waterproofing, these curtain lights are perfect for both indoor and outdoor settings. Their wide operating temperature range makes them reliable for year-round use, from bedroom decor to outdoor events.</p><ul><li><strong>Effortless Installation</strong></li></ul><p>Set up your curtain lights in minutes with multiple installation options, including hooks, 3M tapes, or non-marking nails. Whether used as a backdrop for a bedroom wall or a dramatic window decoration, the lights are easy to install and versatile for different settings.</p><ul><li><strong>Seamless Integration with Yeelight Ecosystem</strong></li></ul><p>Combine these permanent lights with other Yeelight products, like permanent outdoor lights and string lights, to create an immersive lighting experience for any holiday or celebration.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -94,7 +94,7 @@
           "settings": {
             "heading": "Shipping",
             "open": false,
-            "content": "<p>Order will typically be processed within 24 hours. <\/p><p><strong>Estimated Shipping Time:<\/strong><\/p><ul><li>USA: 3-7 Business Days<\/li><li>Europe: 7-10 Business Days<\/li><\/ul>",
+            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA: 3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
             "page": "",
             "custom_liquid": ""
           }
@@ -104,7 +104,7 @@
           "settings": {
             "heading": "Warranty",
             "open": false,
-            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.<\/p>",
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -154,10 +154,10 @@
         "slide_Re8Uxn": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Curtain_KV_PC_1.jpg",
+            "image": "shopify://shop_images/Curtain_KV_PC_1.jpg",
             "button_icon": "",
             "button_text": "Outdoor",
-            "mobile_image": "shopify:\/\/shop_images\/Curtain_KV_M_1.jpg",
+            "mobile_image": "shopify://shop_images/Curtain_KV_M_1.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -191,10 +191,10 @@
         "slide_Hyb3Yi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Curtain_KV_PC_2.jpg",
+            "image": "shopify://shop_images/Curtain_KV_PC_2.jpg",
             "button_icon": "",
             "button_text": "Gaming",
-            "mobile_image": "shopify:\/\/shop_images\/Curtain_KV_M_2.jpg",
+            "mobile_image": "shopify://shop_images/Curtain_KV_M_2.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -228,10 +228,10 @@
         "slide_UqXJwU": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Curtain_KV_PC_3.jpg",
+            "image": "shopify://shop_images/Curtain_KV_PC_3.jpg",
             "button_icon": "",
             "button_text": "Indoor",
-            "mobile_image": "shopify:\/\/shop_images\/Curtain_KV_M_3.jpg",
+            "mobile_image": "shopify://shop_images/Curtain_KV_M_3.jpg",
             "slide_link": "",
             "video_background": false,
             "badge_text": "",
@@ -281,11 +281,25 @@
         "disable_bottom_spacing": false
       }
     },
+    "background_video_74YGUb": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "video_controls": true,
+        "video": "https://youtu.be/Nn6d2igqJGc?si=aLmUuNv0UJmMTBuD",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "single_image_3kkr3Y": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Curtain_light_PC_2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_2.jpg",
+        "image": "shopify://shop_images/Curtain_light_PC_2.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_M_2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -294,8 +308,8 @@
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Curtain_light_PC_3.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_3.jpg",
+        "image": "shopify://shop_images/Curtain_light_PC_3.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_M_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -304,8 +318,8 @@
     "single_image_bNVALU": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Curtain_light_PC_4.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_4.jpg",
+        "image": "shopify://shop_images/Curtain_light_PC_4.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_M_4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -314,8 +328,8 @@
     "single_image_YFNLfJ": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Curtain_light_PC_5.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_5.jpg",
+        "image": "shopify://shop_images/Curtain_light_PC_5.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_M_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -324,8 +338,8 @@
     "single_image_UwbPnd": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Curtain_light_PC_6.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_6.jpg",
+        "image": "shopify://shop_images/Curtain_light_PC_6.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_M_6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -334,8 +348,8 @@
     "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Curtain_light_PC_7.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_7.jpg",
+        "image": "shopify://shop_images/Curtain_light_PC_7.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_M_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -344,8 +358,8 @@
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Curtain_light_PC_8.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_8.jpg",
+        "image": "shopify://shop_images/Curtain_light_PC_8.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_M_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -354,8 +368,8 @@
     "single_image_N6MW93": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Curtain_light_PC_9.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_9.jpg",
+        "image": "shopify://shop_images/Curtain_light_PC_9.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_M_9.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -364,8 +378,8 @@
     "single_image_JH8XXF": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Curtain_light_PC_10.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_10.jpg",
+        "image": "shopify://shop_images/Curtain_light_PC_10.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_M_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -374,8 +388,8 @@
     "single_image_WdwpPN": {
       "type": "single-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Curtain_light_PC_11.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Curtain_light_M_10.jpg",
+        "image": "shopify://shop_images/Curtain_light_PC_11.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_M_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -389,7 +403,7 @@
           "settings": {
             "heading": "Can I creater a larger scale patterns scenes? Such as work with 2 or more sets of product for vivid lighting effects?",
             "open": false,
-            "content": "<p>Yes, it is supported. Our current static pattern library includes many two-piece and three-piece patterns. You can set them up on different curtain lights to create a complete picture. We will also continuously upgrade and offer more dynamic and static combined lighting effects in the future.<\/p>",
+            "content": "<p>Yes, it is supported. Our current static pattern library includes many two-piece and three-piece patterns. You can set them up on different curtain lights to create a complete picture. We will also continuously upgrade and offer more dynamic and static combined lighting effects in the future.</p>",
             "page": ""
           }
         },
@@ -398,7 +412,7 @@
           "settings": {
             "heading": "How many preset decor themes provided or pattern combinations for a more festive or personalized atmosphere?",
             "open": false,
-            "content": "<p>Currently, there are over 20 dynamic preset lighting effects and over 170 static preset patterns. We will continue to update and add more in the future.<\/p>",
+            "content": "<p>Currently, there are over 20 dynamic preset lighting effects and over 170 static preset patterns. We will continue to update and add more in the future.</p>",
             "page": ""
           }
         },
@@ -407,7 +421,7 @@
           "settings": {
             "heading": "What's the connected method?",
             "open": false,
-            "content": "<p>Smart control via the Yeelight APP is achieved through Bluetooth connection.<\/p>",
+            "content": "<p>Smart control via the Yeelight APP is achieved through Bluetooth connection.</p>",
             "page": ""
           }
         },
@@ -416,7 +430,7 @@
           "settings": {
             "heading": "Can I DIY the canvas by myself?",
             "open": false,
-            "content": "<p>Yes. The curtain lights consist of 475 LEDs arranged in a 19x25 grid, with each LED individually controllable. This creates a canvas where you can design any patterns, text, dynamic effects, colors, and more.<\/p>",
+            "content": "<p>Yes. The curtain lights consist of 475 LEDs arranged in a 19x25 grid, with each LED individually controllable. This creates a canvas where you can design any patterns, text, dynamic effects, colors, and more.</p>",
             "page": ""
           }
         },
@@ -425,7 +439,7 @@
           "settings": {
             "heading": "Are Yeelight Curtain Lights energy-efficient?",
             "open": false,
-            "content": "<p>If used for 3 hours per day at a rate of 11¢\/kWh, the estimated annual electricity cost is $3.<\/p>",
+            "content": "<p>If used for 3 hours per day at a rate of 11¢/kWh, the estimated annual electricity cost is $3.</p>",
             "page": ""
           }
         },
@@ -434,7 +448,7 @@
           "settings": {
             "heading": "Can I use Yeelight Curtain Lights outdoors?",
             "open": false,
-            "content": "<p>Yes, the curtain lights have an IP65 waterproof rating and can operate at a maximum temperature of 60°C (140°F) and a minimum temperature of -20°C (-4°F).<\/p>",
+            "content": "<p>Yes, the curtain lights have an IP65 waterproof rating and can operate at a maximum temperature of 60°C (140°F) and a minimum temperature of -20°C (-4°F).</p>",
             "page": ""
           }
         },
@@ -443,7 +457,7 @@
           "settings": {
             "heading": "Are the Yeelight Curtain Lights compatible with other Yeelight products?",
             "open": false,
-            "content": "<p>Currently, the curtain lights do not support direct group control with other products. However, different products have similar lighting effects, so you can set the same lighting effects on each product individually to achieve a coordinated overall effect.<\/p>",
+            "content": "<p>Currently, the curtain lights do not support direct group control with other products. However, different products have similar lighting effects, so you can set the same lighting effects on each product individually to achieve a coordinated overall effect.</p>",
             "page": ""
           }
         },
@@ -452,7 +466,7 @@
           "settings": {
             "heading": "How do I install Yeelight Curtain Lights?",
             "open": false,
-            "content": "<p>There are three installation methods depending on the location: you can hang the curtain lights directly on curtain hooks, use 3M tape to stick them to the wall, or use non-marking nails for installation. Please refer to our installation video for details.<\/p>",
+            "content": "<p>There are three installation methods depending on the location: you can hang the curtain lights directly on curtain hooks, use 3M tape to stick them to the wall, or use non-marking nails for installation. Please refer to our installation video for details.</p>",
             "page": ""
           }
         },
@@ -461,7 +475,7 @@
           "settings": {
             "heading": "Can I change the direction of the patterns?",
             "open": false,
-            "content": "<p>Yes. You can flip the pattern using the app. For example, if you have installed the curtain lights indoors but want to view them from the outside, you can simply flip the pattern.<\/p>",
+            "content": "<p>Yes. You can flip the pattern using the app. For example, if you have installed the curtain lights indoors but want to view them from the outside, you can simply flip the pattern.</p>",
             "page": ""
           }
         }
@@ -512,7 +526,7 @@
         "text_rcPdh9": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
           }
         },
         "tab_GfgtkE": {
@@ -601,7 +615,7 @@
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_dynamic_section_c8aEVF": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -622,7 +636,7 @@
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
-        "description": "<p>Combine your style with these products<\/p>",
+        "description": "<p>Combine your style with these products</p>",
         "mobile_swipe": true,
         "product_limit": 4,
         "columns_desktop": 4,
@@ -635,6 +649,7 @@
     "breadcrumbs",
     "main-product",
     "product_slideshow_ahQAiP",
+    "background_video_74YGUb",
     "single_image_3kkr3Y",
     "single_image_8Areip",
     "single_image_bNVALU",
