@@ -317,3 +317,7 @@
 .product-card-small:hover .product-card-small--add-to-cart-button {
   transform: translateY(0%);
 }
+
+.proceed-to-checkout .checkout-button {
+  background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
+}
