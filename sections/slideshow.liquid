@@ -135,7 +135,7 @@
               {%- endif -%}
             </div>
           {%- endif -%}
-          <div class="slideshow__slide-bg">
+          <a href="{{ block.settings.slide_link }}" class="slideshow__slide-bg">
             {%- if block.settings.image -%}
               {%- liquid
                 assign image = block.settings.image
@@ -167,7 +167,7 @@
                 priority: priority
               -%}
             {%- endif -%}
-          </div>
+          </a>
           {%- if block.settings.video_background -%}
             {%- liquid
               assign video = block.settings.video_hosted
@@ -176,9 +176,14 @@
                 assign autoplay = true
               endif
             -%}
-            <div class="slideshow__slide-video-bg" data-provider="hosted" data-video-id="{{ video.id }}">
+            <a
+              href="{{ block.settings.slide_link }}"
+              class="slideshow__slide-video-bg"
+              data-provider="hosted"
+              data-video-id="{{ video.id }}"
+            >
               {{ video | video_tag: autoplay: autoplay, loop: true, controls: false, muted: true }}
-            </div>
+            </a>
           {%- endif -%}
           {% comment %} <div class="slideshow__slide-overlay" style="background: {{ block.settings.overlay_gradient }}"></div> {% endcomment %}
           <div class="slideshow__slide-inner content-{{ content_position }} content-has-bg--{{ has_visible_bg }}">
