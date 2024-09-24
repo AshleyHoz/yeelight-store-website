@@ -253,7 +253,7 @@
         "video": "https://youtu.be/2YdfNOy6C3s?si=35IRjpdjbdbZx3R1",
         "video_autoplay": true,
         "aspect_ratio": "16-9",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -584,7 +584,7 @@
             "aggregated": false,
             "limit": 20,
             "hide_thumbnails": false,
-            "maxwidth": 1080,
+            "maxwidth": 1440,
             "is_sample": true
           }
         }
