@@ -209,13 +209,13 @@
   align-items: center;
   align-self: stretch;
   color: var(--color-accent);
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   text-transform: capitalize;
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
   margin: 0 20px 20px;
   cursor: pointer;
   transition: background 0.5s ease;
@@ -823,8 +823,7 @@
   }
 
   .product-card-cover {
-    padding: 12px;
-    border-radius: 12px;
+    display: none;
   }
 
   .product-recommendations .product-recommendations-items {

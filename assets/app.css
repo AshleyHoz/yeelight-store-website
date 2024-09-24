@@ -4460,7 +4460,7 @@ select.resize-select {
 .quantity {
   display: inline-flex;
   position: relative;
-  border: 1px solid #1a1a1a;
+  border: 1px solid #2a2a2a;
   padding: 0 32px;
   border-radius: var(--input-border-radius, 6px);
   -webkit-touch-callout: none;
@@ -4479,6 +4479,7 @@ select.resize-select {
   font-weight: 400;
   margin: 0;
   outline: 0;
+  color: #fff;
 }
 .no-js .quantity .qty {
   width: 50px;
@@ -4528,14 +4529,14 @@ select.resize-select {
   -ms-user-select: none;
   user-select: none;
 }
-.quantity .minus svg,
+/* .quantity .minus svg,
 .quantity .plus svg {
   opacity: 0.8;
 }
 .quantity .minus:hover svg,
 .quantity .plus:hover svg {
   opacity: 1;
-}
+} */
 .no-js .quantity .minus,
 .no-js .quantity .plus {
   display: none;
@@ -4544,10 +4545,10 @@ select.resize-select {
 .quantity .plus.disabled {
   cursor: not-allowed;
 }
-.quantity .minus.disabled svg,
+/* .quantity .minus.disabled svg,
 .quantity .plus.disabled svg {
   opacity: 0.6;
-}
+} */
 .quantity .plus {
   top: 0;
   left: auto;
