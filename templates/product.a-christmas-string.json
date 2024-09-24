@@ -1,24 +1,26 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {}
+      "settings": {
+      }
     },
     "main-product": {
       "type": "main-product",
       "blocks": {
         "2b609eea-6cce-4efe-b447-c5560de1d797": {
           "type": "label",
-          "settings": {}
+          "settings": {
+          }
         },
         "title": {
           "type": "title",
@@ -43,7 +45,8 @@
         },
         "separator_qJEjWC": {
           "type": "separator",
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -60,7 +63,8 @@
         },
         "quantity": {
           "type": "quantity",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -72,7 +76,8 @@
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "collapsible_tab_4CgJDK": {
           "type": "collapsible_tab",
@@ -106,7 +111,8 @@
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
-          "settings": {}
+          "settings": {
+          }
         },
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
           "type": "complementary",
@@ -220,7 +226,10 @@
           }
         }
       },
-      "block_order": ["slide_Hyb3Yi", "slide_UqXJwU"],
+      "block_order": [
+        "slide_Hyb3Yi",
+        "slide_UqXJwU"
+      ],
       "settings": {
         "title": "Yeelight RGBIC LED Basic Strip Lights",
         "desktop_height": "desktop-height-auto",
@@ -240,14 +249,17 @@
         "button_z88WC8": {
           "type": "button",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         }
       },
-      "block_order": ["button_z88WC8"],
+      "block_order": [
+        "button_z88WC8"
+      ],
       "settings": {
-        "desktop_height": "desktop-height-650",
+        "desktop_height": "desktop-height-800",
         "mobile_height": "mobile-height-500",
-        "full_width": true,
+        "full_width": false,
         "video_controls": true,
         "video": "https://youtu.be/2YdfNOy6C3s?si=35IRjpdjbdbZx3R1",
         "overlay_color": "#000000",
@@ -521,7 +533,14 @@
           }
         }
       },
-      "block_order": ["badge_BxbJGA", "heading_CGGGA3", "text_rcPdh9", "tab_GfgtkE", "tab_bpHEwN", "tab_hBBVUP"],
+      "block_order": [
+        "badge_BxbJGA",
+        "heading_CGGGA3",
+        "text_rcPdh9",
+        "tab_GfgtkE",
+        "tab_bpHEwN",
+        "tab_hBBVUP"
+      ],
       "disabled": true,
       "settings": {
         "heading": "",
@@ -550,7 +569,9 @@
           }
         }
       },
-      "block_order": ["heading_HR4q6J"],
+      "block_order": [
+        "heading_HR4q6J"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -578,8 +599,11 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
-      "settings": {}
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
+      "settings": {
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
