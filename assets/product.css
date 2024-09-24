@@ -250,11 +250,13 @@
   margin: 0 0 6px 6px;
 }
 .variations .product-form__input--block input[type='radio'] + label {
-  box-shadow: 0 0 0 1px #1a1a1a inset;
+  box-shadow: 0 0 0 1px #2a2a2a inset;
 }
 .variations .product-form__input--block input[type='radio']:checked + label {
   z-index: 5;
-  box-shadow: 0 0 0 1px var(--color-body, #2c2d2e) inset;
+  box-shadow: 0 0 0 1px #ffffff inset;
+  background: #ffffff;
+  color: #000000;
 }
 .variations .product-form__input--block input[type='radio']:focus-visible + label {
   box-shadow: 0 0 0 2px #015ecc;
