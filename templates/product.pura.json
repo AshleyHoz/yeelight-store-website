@@ -136,75 +136,10 @@
         "enable_video_looping": false
       }
     },
-    "logo_list_QURVem": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_QDULPp": {
-          "type": "logo",
-          "settings": {
-            "logo_heading": "Logo list",
-            "image": "shopify://shop_images/Apple_Home_78be6963-c410-44d0-81c3-cfdd347a2e05.jpg",
-            "link": ""
-          }
-        },
-        "logo_87B7BL": {
-          "type": "logo",
-          "settings": {
-            "logo_heading": "Logo list",
-            "image": "shopify://shop_images/Google_home.png",
-            "link": ""
-          }
-        },
-        "logo_tc8EaN": {
-          "type": "logo",
-          "settings": {
-            "logo_heading": "Logo list",
-            "image": "shopify://shop_images/work_with_alexa.png",
-            "link": ""
-          }
-        },
-        "logo_fLaQEK": {
-          "type": "logo",
-          "settings": {
-            "logo_heading": "Logo list",
-            "image": "shopify://shop_images/5.png",
-            "link": ""
-          }
-        },
-        "logo_FhtayD": {
-          "type": "logo",
-          "settings": {
-            "logo_heading": "Logo list",
-            "image": "shopify://shop_images/yeelight_icon_2.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_QDULPp",
-        "logo_87B7BL",
-        "logo_tc8EaN",
-        "logo_fLaQEK",
-        "logo_FhtayD"
-      ],
-      "settings": {
-        "heading": "",
-        "marker_style": "style1",
-        "description": "",
-        "columns": 6,
-        "mobile_swipe": true,
-        "center_align": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false,
-        "color_logo_bg": "#ffffff",
-        "marker_color": "#fd6262"
-      }
-    },
     "single_image_3kkr3Y": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/yeelight_beam_light_bar_RGBIC_3.jpg",
-        "image_mobile": "shopify://shop_images/Beam_yeelight_1.jpg",
+        "image": "shopify://shop_images/pura_monitor_light_bar-KV.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -213,8 +148,7 @@
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/yeelight_beam_rgbic_light_bar_8.jpg",
-        "image_mobile": "shopify://shop_images/yeelight_beam_light_bar_2.jpg",
+        "image": "shopify://shop_images/pura_monitor_light_bar-KSP.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -223,8 +157,7 @@
     "single_image_bNVALU": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/yeelight_beam_rgbic_light_bar_7.jpg",
-        "image_mobile": "shopify://shop_images/yeelight_beam_light_bar_3.jpg",
+        "image": "shopify://shop_images/pura_monitor_light_bar-_1.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -233,8 +166,7 @@
     "single_image_YFNLfJ": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/yeelight_beam_rgbic_light_bar_6.jpg",
-        "image_mobile": "shopify://shop_images/yeelight_beam_light_bar_4.jpg",
+        "image": "shopify://shop_images/pura_monitor_light_bar-_2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -243,8 +175,7 @@
     "single_image_UwbPnd": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/yeelight_beam_rgbic_light_bar_5.jpg",
-        "image_mobile": "shopify://shop_images/yeelight_beam_light_bar_5.jpg",
+        "image": "shopify://shop_images/pura_monitor_light_bar-_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -253,8 +184,7 @@
     "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/yeelight_beam_rgbic_light_bar_4.jpg",
-        "image_mobile": "shopify://shop_images/yeelight_beam_light_bar_6.jpg",
+        "image": "shopify://shop_images/pura_monitor_light_bar-_4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -263,8 +193,7 @@
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/Beam-PC.jpg",
-        "image_mobile": "shopify://shop_images/Beam-Mobile_550a5713-496e-4bc1-8e62-88463f402400.jpg",
+        "image": "shopify://shop_images/pura_monitor_light_bar-_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -273,8 +202,7 @@
     "single_image_N6MW93": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/yeelight_beam_rgbic_light_bar_2.jpg",
-        "image_mobile": "shopify://shop_images/yeelight_beam_light_bar_8.jpg",
+        "image": "shopify://shop_images/pura_monitor_light_bar-_6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -283,8 +211,7 @@
     "single_image_JH8XXF": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/yeelight_beam_light_bar_RGBIC_1.jpg",
-        "image_mobile": "shopify://shop_images/Beam_yeelight_3.jpg",
+        "image": "shopify://shop_images/pura_monitor_light_bar-_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -293,8 +220,7 @@
     "single_image_WdwpPN": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/yeelight_beam_rgbic_light_bar_10.jpg",
-        "image_mobile": "shopify://shop_images/yeelight_beam_light_bar_10.jpg",
+        "image": "shopify://shop_images/pura_monitor_light_bar-_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -409,7 +335,6 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "logo_list_QURVem",
     "single_image_3kkr3Y",
     "single_image_8Areip",
     "single_image_bNVALU",
