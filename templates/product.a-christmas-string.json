@@ -257,9 +257,9 @@
         "button_z88WC8"
       ],
       "settings": {
-        "desktop_height": "desktop-height-800",
+        "desktop_height": "desktop-height-1000",
         "mobile_height": "mobile-height-500",
-        "full_width": false,
+        "full_width": true,
         "video_controls": true,
         "video": "https://youtu.be/2YdfNOy6C3s?si=35IRjpdjbdbZx3R1",
         "overlay_color": "#000000",
