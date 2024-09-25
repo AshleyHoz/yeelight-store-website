@@ -680,8 +680,8 @@
             "border-radius": 16,
             "text-color": "#ffffff",
             "rating-icon-color": "",
-            "border-color": "",
-            "play-button-color": "",
+            "border-color": "#2a2a2a",
+            "play-button-color": "#ffffff",
             "shadow-color": "",
             "product-id": ""
           }
