@@ -229,7 +229,8 @@
   border-radius: var(--input-border-radius, 6px);
   padding: 5px 15px;
   margin: 0 6px 6px 0;
-  font-size: 0.8125rem;
+  font-size: 13px;
+  font-weight: normal;
   cursor: pointer;
   overflow: hidden;
 }
@@ -237,7 +238,12 @@
   margin: 0 0 6px 6px;
 }
 .variations .product-form__input--block input[type='radio'] + label {
-  box-shadow: 0 0 0 1px #2a2a2a inset;
+  box-shadow: 0 0 0 1px #333333 inset;
+  background: #333333;
+}
+.variations .product-form__input--block input[type='radio'] + label:hover {
+  box-shadow: 0 0 0 1px #333333 inset;
+  background: #1a1a1a;
 }
 .variations .product-form__input--block input[type='radio']:checked + label {
   z-index: 5;
@@ -394,11 +400,11 @@
   width: 100%;
   align-items: center;
   font-weight: var(--font-body-medium-weight, 500);
-  font-size: 0.8125rem;
+  font-size: 16px;
   margin-bottom: 9px;
+  font-weight: 500;
 }
 .form__label__value {
-  font-weight: 400;
   text-transform: none;
   margin-right: 20px;
   padding-left: 2px;
