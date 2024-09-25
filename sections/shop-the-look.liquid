@@ -198,260 +198,261 @@
         </div>
         <div class="shop-look-flickity-viewport shop-the-look--desktop">
           {%- if image_1 -%}
-          <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-            {% comment %}
+            <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+              {% comment %}
+                {%- if image_1 -%}
+                {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
+                {% render 'responsive-image', image: image_1, sizes: master_width %}
+              {% endcomment %}
+
               {%- if image_1 -%}
-              {% assign master_width = image_1.src.width | append: 'x' | append: image_1.src.height %}
-              {% render 'responsive-image', image: image_1, sizes: master_width %}
-            {% endcomment %}
+                {%- liquid
+                  assign image = image_1
 
-            {%- if image_1 -%}
-              {%- liquid
-                assign image = image_1
-
-                assign class = ''
-                if image_1_mobile
-                  assign class = 'slideshow-image--desktop'
-                endif
-              -%}
-              <img
-                data-src="{{ image | image_url }}"
-                class="lazyload {{ class }}"
-                width="{{ image.src.width }}"
-                height="{{ image.src.height }}"
-                alt="{{ image.alt }}"
-              >
-              {% comment %}
-                {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {% endcomment %}
-            {%- endif -%}
-            {%- if image_1_mobile -%}
-              {%- liquid
-                assign image = image_1_mobile
-              -%}
-              <img
-                data-src="{{ image | image_url }}"
-                class="lazyload slideshow-image--mobile"
-                width="{{ image.src.width }}"
-                height="{{ image.src.height }}"
-                alt="{{ image.alt }}"
-              >
-              {% comment %}
-                {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {% endcomment %}
-            {%- endif -%}
-          </a>
+                  assign class = ''
+                  if image_1_mobile
+                    assign class = 'slideshow-image--desktop'
+                  endif
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload {{ class }}"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+                {% comment %}
+                  {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {% endcomment %}
+              {%- endif -%}
+              {%- if image_1_mobile -%}
+                {%- liquid
+                  assign image = image_1_mobile
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload slideshow-image--mobile"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+                {% comment %}
+                  {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {% endcomment %}
+              {%- endif -%}
+            </a>
           {%- endif -%}
           {%- if image_2 -%}
-          <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-            {% comment %}
+            <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+              {% comment %}
+                {%- if image_2 -%}
+                  {% assign master_width = image_2.src.width | append: 'x' | append: image_2.src.height %}
+                  {% render 'responsive-image', image: image_2, sizes: master_width %}
+                {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {%- endif -%}
+              {% endcomment %}
+
               {%- if image_2 -%}
-                {% assign master_width = image_2.src.width | append: 'x' | append: image_2.src.height %}
-                {% render 'responsive-image', image: image_2, sizes: master_width %}
-              {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
+                {%- liquid
+                  assign image = image_2
+
+                  assign class = ''
+                  if image_2_mobile
+                    assign class = 'slideshow-image--desktop'
+                  endif
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload {{ class }}"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+                {% comment %}
+                  {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {% endcomment %}
               {%- endif -%}
-            {% endcomment %}
-
-            {%- if image_2 -%}
-              {%- liquid
-                assign image = image_2
-
-                assign class = ''
-                if image_2_mobile
-                  assign class = 'slideshow-image--desktop'
-                endif
-              -%}
-              <img
-                data-src="{{ image | image_url }}"
-                class="lazyload {{ class }}"
-                width="{{ image.src.width }}"
-                height="{{ image.src.height }}"
-                alt="{{ image.alt }}"
-              >
-              {% comment %}
-                {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {% endcomment %}
-            {%- endif -%}
-            {%- if image_2_mobile -%}
-              {%- liquid
-                assign image = image_2_mobile
-              -%}
-              <img
-                data-src="{{ image | image_url }}"
-                class="lazyload slideshow-image--mobile"
-                width="{{ image.src.width }}"
-                height="{{ image.src.height }}"
-                alt="{{ image.alt }}"
-              >
-              {% comment %}
-                {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {% endcomment %}
-            {%- endif -%}
-          </a>
+              {%- if image_2_mobile -%}
+                {%- liquid
+                  assign image = image_2_mobile
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload slideshow-image--mobile"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+                {% comment %}
+                  {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {% endcomment %}
+              {%- endif -%}
+            </a>
+          {%- endif -%}
           {%- if image_3 -%}
-          <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-            {% comment %}
+            <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+              {% comment %}
+                {%- if image_3 -%}
+                {% assign master_width = image_3.src.width | append: 'x' | append: image_3.src.height %}
+                {% render 'responsive-image', image: image_3, sizes: master_width %}
+              {% endcomment %}
               {%- if image_3 -%}
-              {% assign master_width = image_3.src.width | append: 'x' | append: image_3.src.height %}
-              {% render 'responsive-image', image: image_3, sizes: master_width %}
-            {% endcomment %}
-            {%- if image_3 -%}
-              {%- liquid
-                assign image = image_3
+                {%- liquid
+                  assign image = image_3
 
-                assign class = ''
-                if image_3_mobile
-                  assign class = 'slideshow-image--desktop'
-                endif
-              -%}
-              <img
-                data-src="{{ image | image_url }}"
-                class="lazyload {{ class }}"
-                width="{{ image.src.width }}"
-                height="{{ image.src.height }}"
-                alt="{{ image.alt }}"
-              >
-              {% comment %}
-                {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {% endcomment %}
-            {%- endif -%}
-            {%- if image_3_mobile -%}
-              {%- liquid
-                assign image = image_3_mobile
-              -%}
-              <img
-                data-src="{{ image | image_url }}"
-                class="lazyload slideshow-image--mobile"
-                width="{{ image.src.width }}"
-                height="{{ image.src.height }}"
-                alt="{{ image.alt }}"
-              >
-              {% comment %}
-                {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {% endcomment %}
-            {%- endif -%}
-          </a>
+                  assign class = ''
+                  if image_3_mobile
+                    assign class = 'slideshow-image--desktop'
+                  endif
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload {{ class }}"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+                {% comment %}
+                  {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {% endcomment %}
+              {%- endif -%}
+              {%- if image_3_mobile -%}
+                {%- liquid
+                  assign image = image_3_mobile
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload slideshow-image--mobile"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+                {% comment %}
+                  {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {% endcomment %}
+              {%- endif -%}
+            </a>
           {%- endif -%}
           {%- if image_4 -%}
-          <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-            {% comment %}
+            <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+              {% comment %}
+                {%- if image_4 -%}
+                {% assign master_width = image_4.src.width | append: 'x' | append: image_4.src.height %}
+                {% render 'responsive-image', image: image_4, sizes: master_width %}
+              {% endcomment %}
               {%- if image_4 -%}
-              {% assign master_width = image_4.src.width | append: 'x' | append: image_4.src.height %}
-              {% render 'responsive-image', image: image_4, sizes: master_width %}
-            {% endcomment %}
-            {%- if image_4 -%}
-              {%- liquid
-                assign image = image_4
+                {%- liquid
+                  assign image = image_4
 
-                assign class = ''
-                if image_4_mobile
-                  assign class = 'slideshow-image--desktop'
-                endif
-              -%}
-              <img
-                data-src="{{ image | image_url }}"
-                class="lazyload {{ class }}"
-                width="{{ image.src.width }}"
-                height="{{ image.src.height }}"
-                alt="{{ image.alt }}"
-              >
-              {% comment %}
-                {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {% endcomment %}
-            {%- endif -%}
-            {%- if image_4_mobile -%}
-              {%- liquid
-                assign image = image_4_mobile
-              -%}
-              <img
-                data-src="{{ image | image_url }}"
-                class="lazyload slideshow-image--mobile"
-                width="{{ image.src.width }}"
-                height="{{ image.src.height }}"
-                alt="{{ image.alt }}"
-              >
-              {% comment %}
-                {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {% endcomment %}
-            {%- endif -%}
-          </a>
+                  assign class = ''
+                  if image_4_mobile
+                    assign class = 'slideshow-image--desktop'
+                  endif
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload {{ class }}"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+                {% comment %}
+                  {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {% endcomment %}
+              {%- endif -%}
+              {%- if image_4_mobile -%}
+                {%- liquid
+                  assign image = image_4_mobile
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload slideshow-image--mobile"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+                {% comment %}
+                  {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {% endcomment %}
+              {%- endif -%}
+            </a>
           {%- endif -%}
           {%- if image_5 -%}
-          <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-            {% comment %}
+            <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+              {% comment %}
+                {%- if image_5 -%}
+                {% assign master_width = image_5.src.width | append: 'x' | append: image_5.src.height %}
+                {% render 'responsive-image', image: image_5, sizes: master_width %}
+              {% endcomment %}
               {%- if image_5 -%}
-              {% assign master_width = image_5.src.width | append: 'x' | append: image_5.src.height %}
-              {% render 'responsive-image', image: image_5, sizes: master_width %}
-            {% endcomment %}
-            {%- if image_5 -%}
-              {%- liquid
-                assign image = image_5
+                {%- liquid
+                  assign image = image_5
 
-                assign class = ''
-                if image_5_mobile
-                  assign class = 'slideshow-image--desktop'
-                endif
-              -%}
-              <img
-                data-src="{{ image | image_url }}"
-                class="lazyload {{ class }}"
-                width="{{ image.src.width }}"
-                height="{{ image.src.height }}"
-                alt="{{ image.alt }}"
-              >
-              {% comment %}
-                {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {% endcomment %}
-            {%- endif -%}
-            {%- if image_5_mobile -%}
-              {%- liquid
-                assign image = image_5_mobile
-              -%}
-              <img
-                data-src="{{ image | image_url }}"
-                class="lazyload slideshow-image--mobile"
-                width="{{ image.src.width }}"
-                height="{{ image.src.height }}"
-                alt="{{ image.alt }}"
-              >
-              {% comment %}
-                {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'lifestyle-1' | placeholder_svg_tag }}
-                </div>
-              {% endcomment %}
-            {%- endif -%}
-          </a>
+                  assign class = ''
+                  if image_5_mobile
+                    assign class = 'slideshow-image--desktop'
+                  endif
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload {{ class }}"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+                {% comment %}
+                  {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {% endcomment %}
+              {%- endif -%}
+              {%- if image_5_mobile -%}
+                {%- liquid
+                  assign image = image_5_mobile
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload slideshow-image--mobile"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+                {% comment %}
+                  {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {% endcomment %}
+              {%- endif -%}
+            </a>
           {%- endif -%}
         </div>
         {% comment %} {%- endif -%} {% endcomment %}
