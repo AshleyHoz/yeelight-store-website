@@ -140,8 +140,9 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/monitor_light_bar_lite-KV.jpg",
+        "image_mobile": "shopify://shop_images/Pura_lite_Monitor_Light_Bar_1.jpg",
         "full_width": true,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
@@ -149,6 +150,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/monitor_light_bar_lite-KSP.jpg",
+        "image_mobile": "shopify://shop_images/Pura_lite_Monitor_Light_Bar_2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -158,6 +160,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/monitor_light_bar_lite_1.jpg",
+        "image_mobile": "shopify://shop_images/Pura_lite_Monitor_Light_Bar_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -167,6 +170,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/monitor_light_bar_lite_2.jpg",
+        "image_mobile": "shopify://shop_images/Pura_lite_Monitor_Light_Bar_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -176,6 +180,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/monitor_light_bar_lite_3.jpg",
+        "image_mobile": "shopify://shop_images/Pura_lite_Monitor_Light_Bar_6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -185,6 +190,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/monitor_light_bar_lite_4.jpg",
+        "image_mobile": "shopify://shop_images/Pura_lite_Monitor_Light_Bar_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -194,15 +200,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/monitor_light_bar_lite_5.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "single_image_N6MW93": {
-      "type": "single-image",
-      "settings": {
-        "image": "shopify://shop_images/monitor_light_bar_lite_6.jpg",
+        "image_mobile": "shopify://shop_images/Pura_lite_Monitor_Light_Bar_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -212,6 +210,17 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/monitor_light_bar_lite_7.jpg",
+        "image_mobile": "shopify://shop_images/Pura_lite_Monitor_Light_Bar_4.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_N6MW93": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/monitor_light_bar_lite_6.jpg",
+        "image_mobile": "shopify://shop_images/Pura_lite_Monitor_Light_Bar_9.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -329,11 +338,11 @@
     "single_image_3kkr3Y",
     "single_image_8Areip",
     "single_image_bNVALU",
+    "single_image_JH8XXF",
     "single_image_YFNLfJ",
     "single_image_UwbPnd",
     "single_image_FC7Fnr",
     "single_image_UpVXxB",
-    "single_image_JH8XXF",
     "single_image_N6MW93",
     "tabbed_content_8ir4a4",
     "rich_text_6mPtPi",
