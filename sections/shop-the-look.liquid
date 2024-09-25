@@ -197,6 +197,7 @@
           </figure>
         </div>
         <div class="shop-look-flickity-viewport shop-the-look--desktop">
+          {%- if image_1 -%}
           <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {% comment %}
               {%- if image_1 -%}
@@ -246,6 +247,8 @@
               {% endcomment %}
             {%- endif -%}
           </a>
+          {%- endif -%}
+          {%- if image_2 -%}
           <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {% comment %}
               {%- if image_2 -%}
@@ -300,6 +303,7 @@
               {% endcomment %}
             {%- endif -%}
           </a>
+          {%- if image_3 -%}
           <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {% comment %}
               {%- if image_3 -%}
@@ -348,6 +352,8 @@
               {% endcomment %}
             {%- endif -%}
           </a>
+          {%- endif -%}
+          {%- if image_4 -%}
           <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {% comment %}
               {%- if image_4 -%}
@@ -396,6 +402,8 @@
               {% endcomment %}
             {%- endif -%}
           </a>
+          {%- endif -%}
+          {%- if image_5 -%}
           <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
             {% comment %}
               {%- if image_5 -%}
@@ -444,6 +452,7 @@
               {% endcomment %}
             {%- endif -%}
           </a>
+          {%- endif -%}
         </div>
         {% comment %} {%- endif -%} {% endcomment %}
       </slide-show>
