@@ -140,8 +140,9 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/Pura_Monitor_Light_Bar_Pro-KV.jpg",
+        "image_mobile": "shopify://shop_images/Pura_Pro_Monitor_LIght_Bar_1.jpg",
         "full_width": true,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
@@ -149,6 +150,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/Pura_Monitor_Light_Bar_Pro-KSP.jpg",
+        "image_mobile": "shopify://shop_images/Pura_Pro_Monitor_LIght_Bar_2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -158,6 +160,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/Pura_Monitor_Light_Bar_Pro-_1.jpg",
+        "image_mobile": "shopify://shop_images/Pura_Pro_Monitor_LIght_Bar_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -167,6 +170,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/Pura_Monitor_Light_Bar_Pro-_2.jpg",
+        "image_mobile": "shopify://shop_images/Pura_Pro_Monitor_LIght_Bar_4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -176,6 +180,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/Pura_Monitor_Light_Bar_Pro-_3.jpg",
+        "image_mobile": "shopify://shop_images/Pura_Pro_Monitor_LIght_Bar_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -185,6 +190,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/Pura_Monitor_Light_Bar_Pro-_4.jpg",
+        "image_mobile": "shopify://shop_images/Pura_Pro_Monitor_LIght_Bar_6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -194,6 +200,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/Pura_Monitor_Light_Bar_Pro-_5.jpg",
+        "image_mobile": "shopify://shop_images/Pura_Pro_Monitor_LIght_Bar_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -203,6 +210,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/Pura_Monitor_Light_Bar_Pro-08.jpg",
+        "image_mobile": "shopify://shop_images/Pura_Pro_Monitor_LIght_Bar_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -212,6 +220,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/Pura_Monitor_Light_Bar_Pro-_7.jpg",
+        "image_mobile": "shopify://shop_images/Pura_Pro_Monitor_LIght_Bar_9.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -221,6 +230,7 @@
       "type": "single-image",
       "settings": {
         "image": "shopify://shop_images/Pura_Monitor_Light_Bar_Pro-8.jpg",
+        "image_mobile": "shopify://shop_images/Pura_Pro_Monitor_LIght_Bar_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
