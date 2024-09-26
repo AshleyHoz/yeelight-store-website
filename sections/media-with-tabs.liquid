@@ -56,7 +56,7 @@
                 {%- elsif image != blank -%}
                   {%- liquid
                     assign small_height = image.src.height | times: '690' | divided_by: image.src.width
-                    assign mid_height = image.src.height | times: '1280' | divided_by: image.src.width
+                    assign mid_height = image.src.height | times: '1440' | divided_by: image.src.width
                     assign master_width = image.src.width | append: 'x' | append: image.src.height
                     assign width = '690x' | append: small_height | append: ',' | append: '1280x' | append: mid_height | append: ',' | append: master_width
                     assign priority = 'auto'

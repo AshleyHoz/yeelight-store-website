@@ -9,7 +9,6 @@ if (!customElements.get('product-slideshow')) {
       this.addEventListener('click', this.onChangeBackground);
       const currentEle = this.getElementsByClassName('product-slideshow-buttons-bg')[0];
       const button1 = this.getElementsByClassName('product-slideshow-buttons_item')[0];
-      console.log(currentEle);
 
       if (!currentEle) return;
       currentEle.style.width = button1.offsetWidth + 'px';
@@ -46,9 +45,3 @@ if (!customElements.get('product-slideshow')) {
   }
   customElements.define('product-slideshow', ProductSlideShow);
 }
-window.addEventListener('load', () => {
-  document.addEventListener('shopify:section:load', function (event) {
-    const section = event.target;
-    console.log('Section loaded:', section);
-  });
-});

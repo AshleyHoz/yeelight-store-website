@@ -21,7 +21,6 @@ window.addEventListener('load', () => {
     }
 
     let looxReviewsFrame = document.getElementById('looxReviewsFrame');
-    console.log(looxReviewsFrame);
 
     looxReviewsFrame.body.getElementById('write').color = '#ffffff';
     looxReviewsFrame.body.getElementByTagName('path').stroke = '#ffffff';
