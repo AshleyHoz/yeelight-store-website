@@ -7,6 +7,7 @@ if (!customElements.get('shop-the-look')) {
     constructor(e) {
       super();
       this.addEventListener('click', this.onChangeBackground);
+      this.addEventListener('touchmove', this.onChangeBackground);
       const currentEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
       const button1 = this.getElementsByClassName('shop-look-buttons_item')[0];
       if (!currentEle) return;
@@ -15,6 +16,8 @@ if (!customElements.get('shop-the-look')) {
       button1.classList.add('active');
     }
     onChangeBackground(e) {
+      console.log(e);
+
       if (
         e.target.className === 'shop-look-buttons_item-content' ||
         e.target.parentNode.className === 'shop-look-buttons_item-content'
