@@ -15,18 +15,11 @@ if (!customElements.get('shop-the-look')) {
       button1.classList.add('active');
     }
     onChangeBackground(e) {
-      // if (
-      //   e.target.className === 'shop-look-buttons_item-content' ||
-      //   e.target.parentNode.className === 'shop-look-buttons_item-content'
-      // ) {
       const coverEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
       const currentEle = this.getElementsByClassName('shop-look-buttons_item is-selected')[0];
       console.log(currentEle);
-
-      // e.target.className === 'shop-look-buttons_item-content' ? e.target : e.target.parentNode;
       const containerEle = this.getElementsByClassName('shop-look-buttons')[0];
       const buttonsEle = this.getElementsByClassName('shop-look-buttons_item');
-      // const buttonItemEle = currentEle.parentNode;
       const currentRect = currentEle.getBoundingClientRect();
       const containerRect = containerEle.getBoundingClientRect();
       const offSetX = currentRect.left - containerRect.left;
@@ -40,7 +33,6 @@ if (!customElements.get('shop-the-look')) {
         buttonsEle[i].classList.remove('active');
       }
       currentEle.classList.add('active');
-      // }
     }
     connectedCallback() {}
   }
