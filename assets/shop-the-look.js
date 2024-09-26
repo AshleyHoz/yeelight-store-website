@@ -17,7 +17,6 @@ if (!customElements.get('shop-the-look')) {
     onChangeBackground(e) {
       const coverEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
       const currentEle = this.getElementsByClassName('shop-look-buttons_item is-selected')[0];
-      console.log(currentEle);
       const containerEle = this.getElementsByClassName('shop-look-buttons')[0];
       const buttonsEle = this.getElementsByClassName('shop-look-buttons_item');
       const currentRect = currentEle.getBoundingClientRect();
