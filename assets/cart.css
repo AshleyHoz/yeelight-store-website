@@ -323,7 +323,9 @@
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
 }
 
-:host([page-type='cart_page']) .accelerated-checkout-button {
+shop-pay-wallet-button,
+shopify-paypal-button,
+shopify-google-pay-button {
   border-radius: var(--button-border-radius, 6px) !important;
-  overflow: hidden;
+  overflow: hidden !important;
 }
