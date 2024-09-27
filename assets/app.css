@@ -5526,6 +5526,11 @@ input[type='radio'],
     line-height: normal;
     text-transform: capitalize;
   }
+
+  .side-panel {
+    width: 100%;
+    border-radius: none;
+  }
 }
 
 .lx-btn,

@@ -318,7 +318,8 @@
   transform: translateY(0%);
 }
 
-.proceed-to-checkout .checkout-button {
+.proceed-to-checkout .checkout-button,
+.proceed-to-checkout .checkout-button:hover {
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
 }
 
