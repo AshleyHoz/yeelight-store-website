@@ -2052,7 +2052,7 @@ table.no-borders thead {
 }
 table.no-borders thead th {
   padding: 18px 0;
-  border-bottom: 1px solid var(--color-border, #dadce0);
+  border-bottom: 1px solid #2a2a2a;
 }
 table.no-borders thead th:last-child {
   text-align: right;
@@ -2293,7 +2293,7 @@ table.no-borders tfoot td:first-child {
   z-index: 35;
   background: var(--color-drawer-bg, #fff);
   padding: 30px 16px;
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid #2a2a2a;
 }
 .side-panel-header .h6 {
   margin: 0;
@@ -4777,7 +4777,7 @@ select.resize-select {
 }
 
 .cart-drawer .side-panel-footer {
-  border-top: 1px solid var(--color-border, #dadce0);
+  border-top: 1px solid #2a2a2a;
   font-size: 0.9375rem;
   position: relative;
 }

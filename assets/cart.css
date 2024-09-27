@@ -155,7 +155,7 @@
 }
 
 .thb-cart-collaterals {
-  border: 1px solid var(--color-border, #dadce0);
+  border: 1px solid #2a2a2a;
   padding: 30px;
   margin-bottom: 40px;
 }
@@ -320,4 +320,9 @@
 
 .proceed-to-checkout .checkout-button {
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
+}
+
+.proceed-to-checkout .additional-checkout-buttons .accelerated-checkout-button {
+  border-radius: var(--button-border-radius, 6px) !important;
+  overflow: hidden;
 }
