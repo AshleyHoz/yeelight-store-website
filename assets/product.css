@@ -2343,3 +2343,15 @@ h6,
 .product-form .single-add-to-cart-button--text {
   color: #fff;
 }
+
+.product-information .product-price-container .price .custom-amount-ins {
+  font-size: 26px;
+}
+
+.product-information .product-price-container .price .custom-amount-del {
+  font-size: 20px;
+}
+
+.product-information .product-price-container .badge {
+  font-size: 16px;
+}
