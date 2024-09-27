@@ -322,7 +322,7 @@
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
 }
 
-.proceed-to-checkout .additional-checkout-buttons .accelerated-checkout-button {
+:host([page-type='cart_page']) .accelerated-checkout-button {
   border-radius: var(--button-border-radius, 6px) !important;
   overflow: hidden;
 }
