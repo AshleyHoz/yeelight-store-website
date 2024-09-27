@@ -2346,6 +2346,7 @@ h6,
 
 .product-information .product-price-container .price .custom-amount-ins {
   font-size: 26px;
+  margin-right: 8px;
 }
 
 .product-information .product-price-container .price .custom-amount-del {
