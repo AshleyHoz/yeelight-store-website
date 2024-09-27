@@ -159,9 +159,9 @@
   padding: 30px;
   margin-bottom: 40px;
 }
-.thb-cart-collaterals .additional-checkout-buttons {
+/* .thb-cart-collaterals .additional-checkout-buttons {
   margin-top: 10px;
-}
+} */
 .thb-cart-collaterals .cart-policy-text {
   margin-bottom: 0;
 }
@@ -321,9 +321,5 @@
 .proceed-to-checkout .checkout-button,
 .proceed-to-checkout .checkout-button:hover {
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
-}
-
-:host([page-type='cart_page']) .accelerated-checkout-button {
-  border-radius: var(--button-border-radius, 6px) !important;
-  overflow: hidden !important;
+  border-radius: 4px;
 }
