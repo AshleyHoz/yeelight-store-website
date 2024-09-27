@@ -5529,7 +5529,7 @@ input[type='radio'],
 
   .side-panel {
     width: 100%;
-    border-radius: none;
+    border-radius: unset;
   }
 }
 
