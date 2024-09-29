@@ -903,4 +903,11 @@
     padding: 0 12px 12px;
     display: block;
   }
+
+  .image-product-halloween-shop {
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+    padding: 12px;
+  }
 }
