@@ -126,4 +126,8 @@
   .product-item {
     width: calc(50% - 8px);
   }
+
+  .image-product-halloween-hand {
+    display: none;
+  }
 }

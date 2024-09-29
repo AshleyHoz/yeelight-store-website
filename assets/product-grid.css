@@ -184,6 +184,9 @@
   border-radius: 25px;
   position: relative;
 }
+.product-card-halloween-true {
+  background: rgba(0, 0, 0, 0.4);
+}
 .carousel .product-card {
   margin-bottom: 0;
 }
@@ -738,6 +741,10 @@
   cursor: pointer;
 }
 
+.halloween-shop-container-mobile {
+  display: none;
+}
+
 .image-product-halloween-shop {
   width: 100%;
   border-radius: 14px;
@@ -885,5 +892,14 @@
   }
   .product-recommendations .product-recommendations-items .product-column {
     width: calc(50% - 6px);
+  }
+
+  .halloween-shop-container {
+    display: none;
+  }
+
+  .halloween-shop-container-mobile {
+    cursor: pointer;
+    padding: 0 12px 12px;
   }
 }
