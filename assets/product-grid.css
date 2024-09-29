@@ -745,8 +745,7 @@
   padding: 16px;
 }
 
-.halloween-shop,
-.halloween-shop-hover {
+.halloween-shop {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -773,7 +772,9 @@
 
 .halloween-shop-container:hover .halloween-shop-hand,
 .halloween-shop-container:hover .halloween-shop-hover {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .halloween-shop-container:hover .halloween-shop {
