@@ -67,8 +67,8 @@
 
 .image-product-halloween-hand {
   position: absolute;
-  top: 40%;
-  left: 0;
+  top: 35%;
+  left: -35px;
 }
 
 @media only screen and (min-width: 768px) {

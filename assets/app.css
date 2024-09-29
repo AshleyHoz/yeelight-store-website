@@ -5321,20 +5321,7 @@ input[type='radio'],
 .section-header--title:only-child {
   margin-bottom: 0;
 }
-.section-header--title > span {
-  background: linear-gradient(
-    108deg,
-    #46d3ff 0.14%,
-    #6178ff 24.02%,
-    #a750ff 39.05%,
-    #ff1ec0 56.82%,
-    #ff784b 77.82%,
-    #ffce51 95.45%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .section-header--description {
   font-size: 0.9375rem;
 }
@@ -5509,6 +5496,10 @@ input[type='radio'],
   -webkit-text-fill-color: transparent;
 }
 
+.image-product-halloween-header-true .section-header--title > span {
+  color: #8aff00;
+}
+
 .section-header--description p {
   margin-top: 24px;
   color: rgba(255, 255, 255, 0.6);
@@ -5531,15 +5522,4 @@ input[type='radio'],
     width: 100%;
     border-radius: unset;
   }
-}
-
-.lx-btn,
-#looxReviews #looxReviewsFrame .minimal-header #write.header-btn {
-  color: #ffffff !important;
-  border: 1px solid #8a8a8a !important;
-}
-
-nav.menu,
-#looxReviews #looxReviewsFrame .minimal-header .menu #btn-menu svg path {
-  stroke: #fff !important;
 }

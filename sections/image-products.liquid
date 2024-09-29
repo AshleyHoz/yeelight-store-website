@@ -18,7 +18,9 @@
   {%- endif -%}
 
   <div class="row image-product-row">
-    {% render 'section-header', section_heading: section_title %}
+    <div class="image-product-halloween-header-{{ settings.halloween_flag}}">
+      {% render 'section-header', section_heading: section_title %}
+    </div>
     <div class="image-products-container {{section_reverse}}">
       {%- if settings.halloween_flag -%}
         <div class="image-product-halloween-hand">
