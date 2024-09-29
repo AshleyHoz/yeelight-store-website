@@ -1,5 +1,6 @@
 .image-products {
   padding-top: 60px;
+  position: relative;
 }
 
 .image-products .section-header {
@@ -14,6 +15,7 @@
   justify-content: space-between;
   flex-wrap: nowrap;
   gap: 24px;
+  position: relative;
 }
 
 .image-products .image-products--img {
@@ -48,6 +50,25 @@
 
 .product-item {
   width: calc(50% - 12px);
+}
+
+.image-product-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.image-product-row {
+  z-index: 2;
+}
+
+.image-product-halloween-hand {
+  position: absolute;
+  top: 40%;
+  left: 0;
 }
 
 @media only screen and (min-width: 768px) {

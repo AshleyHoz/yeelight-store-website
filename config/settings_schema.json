@@ -4,8 +4,8 @@
     "theme_name": "Vision",
     "theme_author": "Fuel Themes",
     "theme_version": "3.0.0",
-    "theme_documentation_url": "https:\/\/documentation.fuelthemes.net\/article-categories\/vision\/",
-    "theme_support_url": "https:\/\/fuelthemes.net\/contact\/"
+    "theme_documentation_url": "https://documentation.fuelthemes.net/article-categories/vision/",
+    "theme_support_url": "https://fuelthemes.net/contact/"
   },
   {
     "name": "Typography",
@@ -19,7 +19,7 @@
         "label": "Heading font",
         "id": "heading_font",
         "default": "archivo_narrow_n4",
-        "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+        "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
       },
       {
         "type": "range",
@@ -55,7 +55,7 @@
         "label": "Body font",
         "id": "body_font",
         "default": "archivo_narrow_n4",
-        "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+        "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
       },
       {
         "type": "range",
@@ -508,55 +508,55 @@
         "type": "text",
         "id": "social_facebook_link",
         "label": "Facebook",
-        "info": "https:\/\/facebook.com\/shopify"
+        "info": "https://facebook.com/shopify"
       },
       {
         "type": "text",
         "id": "social_twitter_link",
         "label": "X (formerly Twitter)",
-        "info": "https:\/\/x.com\/shopify"
+        "info": "https://x.com/shopify"
       },
       {
         "type": "text",
         "id": "social_instagram_link",
         "label": "Instagram",
-        "info": "https:\/\/instagram.com\/shopify"
+        "info": "https://instagram.com/shopify"
       },
       {
         "type": "text",
         "id": "social_pinterest_link",
         "label": "Pinterest",
-        "info": "https:\/\/pinterest.com\/shopify"
+        "info": "https://pinterest.com/shopify"
       },
       {
         "type": "text",
         "id": "social_tiktok_link",
         "label": "TikTok",
-        "info": "https:\/\/tiktok.com\/@shopify"
+        "info": "https://tiktok.com/@shopify"
       },
       {
         "type": "text",
         "id": "social_youtube_link",
         "label": "Youtube",
-        "info": "https:\/\/youtube.com\/shopify"
+        "info": "https://youtube.com/shopify"
       },
       {
         "type": "text",
         "id": "social_vimeo_link",
         "label": "Vimeo",
-        "info": "https:\/\/vimeo.com\/shopify"
+        "info": "https://vimeo.com/shopify"
       },
       {
         "type": "text",
         "id": "social_linkedin_link",
         "label": "Linkedin",
-        "info": "https:\/\/linkedin.com\/company\/shopify"
+        "info": "https://linkedin.com/company/shopify"
       },
       {
         "type": "text",
         "id": "social_wechat_link",
         "label": "WeChat",
-        "info": "https:\/\/wechat.com\/shopify"
+        "info": "https://wechat.com/shopify"
       },
       {
         "type": "header",
@@ -713,7 +713,7 @@
         "type": "checkbox",
         "id": "show_products_rating",
         "label": "Show product rating",
-        "info": "To display a rating, add a product rating app. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn\/sections#featured-collection-show-product-rating)",
+        "info": "To display a rating, add a product rating app. [Learn more](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)",
         "default": true
       },
       {
@@ -986,11 +986,11 @@
     "settings": [
       {
         "type": "paragraph",
-        "content": "Add swatch image files to your store's [files area](\/admin\/settings\/files). Make sure the file names match the names of your color variants, replacing spaces and special characters with hyphens. For example, a variant called Burly Wood would need a file named 'burly-wood.png'."
+        "content": "Add swatch image files to your store's [files area](/admin/settings/files). Make sure the file names match the names of your color variants, replacing spaces and special characters with hyphens. For example, a variant called Burly Wood would need a file named 'burly-wood.png'."
       },
       {
         "type": "paragraph",
-        "content": "[Learn more about color swatches.](https:\/\/documentation.fuelthemes.net\/kb\/how-do-i-set-up-product-variant-swatches\/)"
+        "content": "[Learn more about color swatches.](https://documentation.fuelthemes.net/kb/how-do-i-set-up-product-variant-swatches/)"
       },
       {
         "type": "select",
@@ -1215,6 +1215,17 @@
         "id": "favicon",
         "label": "Select favicon image",
         "info": "Will be scaled down to 32 x 32px"
+      }
+    ]
+  },
+  {
+    "name": "Activity",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "halloween_flag",
+        "label": "Enable halloween css",
+        "default": false
       }
     ]
   }

@@ -728,6 +728,10 @@
   width: calc(25% - 20px);
 }
 
+.image-product-halloween-shop-hover {
+  display: none;
+}
+
 @media only screen and (max-width: 767px) {
   .sidebar-container .products.collection.row {
     padding: 0;
@@ -832,5 +836,13 @@
   }
   .product-recommendations .product-recommendations-items .product-column {
     width: calc(50% - 6px);
+  }
+
+  .halloween-shop-container:hover .image-product-halloween-shop {
+    display: none;
+  }
+
+  .halloween-shop-container:hover .image-product-halloween-shop-hover {
+    display: block;
   }
 }

@@ -5,12 +5,26 @@
   assign conver_image = section.settings.image
   assign mobile_cover_image = section.settings.image_mobile
   assign section_reverse = section.settings.reverse
+  assign background_image = section.settings.background_image
 -%}
 
 <div class="image-products">
-  <div class="row">
+  {%- if settings.halloween_flag -%}
+    <div class="image-product-bg">
+      {%- if background_image -%}
+        {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  <div class="row image-product-row">
     {% render 'section-header', section_heading: section_title %}
     <div class="image-products-container {{section_reverse}}">
+      {%- if settings.halloween_flag -%}
+        <div class="image-product-halloween-hand">
+          {%- render 'svg-icons' with 'custom-halloween-hand' -%}
+        </div>
+      {%- endif -%}
       <div class="image-products--img">
         <div class="mobile-cover-img">
           {% assign master_width = mobile_cover_image.src.width | append: 'x' | append: mobile_cover_image.src.height %}
@@ -70,6 +84,16 @@
       ],
       "default": "row-regular",
       "label": "Product Position"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_mobile",
+      "label": "Mobile Background image (optional)"
     }
   ],
   "blocks": [
