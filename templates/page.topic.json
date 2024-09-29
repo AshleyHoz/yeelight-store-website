@@ -84,7 +84,8 @@
         "title": "Transform the Outdoors for Every Occasion",
         "image": "shopify://shop_images/TopicProductBannerOutdoor.jpg",
         "image_mobile": "shopify://shop_images/TopicProductBannerMobileOutdoor.jpg",
-        "reverse": "row"
+        "reverse": "row",
+        "background_image": "shopify://shop_images/HalloweenBg1.png"
       }
     },
     "video_eWFAYi": {
@@ -97,7 +98,7 @@
         "video": "https://youtu.be/Sq0umd4-o0I?si=BoqlOZuPLnZj4vzf",
         "video_autoplay": false,
         "aspect_ratio": "16-9",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
