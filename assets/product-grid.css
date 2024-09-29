@@ -730,14 +730,18 @@
 
 .halloween-shop-container {
   padding: 0 16px 16px;
+  cursor: pointer;
 }
 
 .image-product-halloween-shop,
 .image-product-halloween-shop-hover {
   width: 100%;
-  text-align: center;
   border-radius: 14px;
   position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-product-halloween-shop {
