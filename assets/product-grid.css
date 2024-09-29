@@ -896,6 +896,7 @@
   .product-card .badge-halloween-true {
     background: transparent;
     border-radius: unset;
+    width: 42px;
   }
 
   .product-card .badge-halloween-true .halloween-shop-hand-mobile {
