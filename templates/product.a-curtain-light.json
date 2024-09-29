@@ -432,6 +432,16 @@
         "disable_bottom_spacing": true
       }
     },
+    "single_image_N6MW93": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/Curtain_light_PC_9.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_M_9.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
@@ -455,16 +465,6 @@
         "marker_color": "#FD6262",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
-      }
-    },
-    "single_image_N6MW93": {
-      "type": "single-image",
-      "settings": {
-        "image": "shopify://shop_images/Curtain_light_PC_9.jpg",
-        "image_mobile": "shopify://shop_images/Curtain_light_M_9.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
       }
     },
     "single_image_JH8XXF": {
@@ -748,9 +748,9 @@
     "single_image_YFNLfJ",
     "single_image_UwbPnd",
     "single_image_FC7Fnr",
+    "single_image_N6MW93",
     "single_image_UpVXxB",
     "video_GFtEKx",
-    "single_image_N6MW93",
     "single_image_JH8XXF",
     "single_image_WdwpPN",
     "collapsible_content_gAKjQX",
