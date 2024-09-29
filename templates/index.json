@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/Halloween_Promotion_3.jpg",
             "mobile_image": "shopify://shop_images/Halloween_Promotion_Banner_3.jpg",
-            "slide_link": "shopify://pages/topic-1",
+            "slide_link": "shopify://collections/all-lights",
             "video_background": false,
             "badge_text": "",
             "subheading": "",
@@ -133,7 +133,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "color_slidebg": "transparent",
+            "color_slidebg": "rgba(0,0,0,0)",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 0,
             "color_text": "#2c2d2e",
