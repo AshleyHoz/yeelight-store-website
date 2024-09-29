@@ -348,6 +348,21 @@
         "disable_bottom_spacing": true
       }
     },
+    "video_8FbAbK": {
+      "type": "video",
+      "settings": {
+        "heading": "How to Use",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
+        "video": "https://youtu.be/GxV31-E1Q0Y?si=S1-PCtPGiWSYDBuT",
+        "video_autoplay": false,
+        "aspect_ratio": "16-9",
+        "marker_color": "#FD6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "single_image_WdwpPN": {
       "type": "single-image",
       "settings": {
@@ -622,6 +637,7 @@
     "single_image_UpVXxB",
     "single_image_N6MW93",
     "single_image_JH8XXF",
+    "video_8FbAbK",
     "single_image_WdwpPN",
     "single_image_iJ4abG",
     "collapsible_content_BG6nHm",
