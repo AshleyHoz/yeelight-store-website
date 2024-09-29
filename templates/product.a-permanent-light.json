@@ -357,18 +357,19 @@
         "disable_bottom_spacing": false
       }
     },
-    "background_video_KqMFCN": {
-      "type": "background-video",
+    "video_K8WbyV": {
+      "type": "video",
       "settings": {
-        "desktop_height": "desktop-height-1000",
-        "mobile_height": "mobile-height-500",
-        "full_width": true,
-        "video_controls": true,
+        "heading": "",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
         "video": "https://youtu.be/Nn6d2igqJGc?si=aLmUuNv0UJmMTBuD",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "video_autoplay": true,
+        "aspect_ratio": "16-9",
+        "marker_color": "#FD6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "single_image_3kkr3Y": {
@@ -479,6 +480,21 @@
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
+      }
+    },
+    "video_64QYQy": {
+      "type": "video",
+      "settings": {
+        "heading": "How to Use",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
+        "video": "https://youtu.be/t7QUKF34r1g?si=ox0nXaWCwQDqvm0U",
+        "video_autoplay": false,
+        "aspect_ratio": "16-9",
+        "marker_color": "#FD6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "single_image_m6jW4L": {
@@ -793,7 +809,7 @@
     "breadcrumbs",
     "main-product",
     "product_slideshow_ahQAiP",
-    "background_video_KqMFCN",
+    "video_K8WbyV",
     "single_image_3kkr3Y",
     "single_image_8Areip",
     "single_image_bNVALU",
@@ -805,6 +821,7 @@
     "single_image_JH8XXF",
     "single_image_WdwpPN",
     "single_image_FGkhTr",
+    "video_64QYQy",
     "single_image_m6jW4L",
     "single_image_wA9Aty",
     "collapsible_content_FHcELA",
