@@ -220,13 +220,15 @@
     {%- if settings.halloween_flag -%}
       <div class="halloween-shop-container">
         <div class="image-product-halloween-shop">
-          {%- render 'svg-icons' with 'custom-halloween-shop' -%}
-        </div>
-        <div class="image-product-halloween-shop-hover">
           <span class="halloween-shop-hand">
             {%- render 'svg-icons' with 'custom-halloween-shop-hand' -%}
           </span>
-          {%- render 'svg-icons' with 'custom-halloween-shop-hover' -%}
+          <div class="halloween-shop">
+            {%- render 'svg-icons' with 'custom-halloween-shop' -%}
+          </div>
+          <div class="halloween-shop-hover">
+            {%- render 'svg-icons' with 'custom-halloween-shop-hover' -%}
+          </div>
         </div>
       </div>
     {%- else -%}

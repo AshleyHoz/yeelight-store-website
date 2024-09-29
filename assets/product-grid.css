@@ -733,12 +733,11 @@
   cursor: pointer;
 }
 
-.image-product-halloween-shop,
-.image-product-halloween-shop-hover {
+.image-product-halloween-shop {
   width: 100%;
   border-radius: 14px;
   position: relative;
-  padding: 10px;
+  padding: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -748,26 +747,28 @@
   background: linear-gradient(0deg, #fe772d 0%, #fe772d 100%), linear-gradient(100deg, #fe772d 0%, #fe772d 100%);
 }
 
-.image-product-halloween-shop-hover {
+.halloween-shop-container:hover .image-product-halloween-shop {
   background: linear-gradient(0deg, #ff4800 0%, #ff4800 100%), var(----Dark, rgba(255, 255, 255, 0.1));
 }
 
-.image-product-halloween-shop-hover .halloween-shop-hand {
+.image-product-halloween-shop .halloween-shop-hand {
   position: absolute;
-  top: 0;
+  top: 8px;
   left: 0;
 }
 
-.image-product-halloween-shop-hover {
+.image-product-halloween-shop .halloween-shop-hand,
+.image-product-halloween-shop .halloween-shop-hover {
   display: none;
 }
 
-.halloween-shop-container:hover .image-product-halloween-shop {
-  display: none;
-}
-
-.halloween-shop-container:hover .image-product-halloween-shop-hover {
+.image-product-halloween-shop:hover .halloween-shop-hand,
+.image-product-halloween-shop:hover .halloween-shop-hover {
   display: block;
+}
+
+.halloween-shop-container:hover .halloween-shop {
+  display: none;
 }
 
 @media only screen and (max-width: 767px) {
