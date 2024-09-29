@@ -728,6 +728,11 @@
   width: calc(25% - 20px);
 }
 
+.image-product-halloween-header-true {
+  text-align: center;
+  width: 100%;
+}
+
 .halloween-shop-container {
   padding: 0 16px 16px;
   cursor: pointer;
@@ -738,6 +743,10 @@
   border-radius: 14px;
   position: relative;
   padding: 16px;
+}
+
+.halloween-shop,
+.halloween-shop-hover {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -762,8 +771,8 @@
   display: none;
 }
 
-.image-product-halloween-shop:hover .halloween-shop-hand,
-.image-product-halloween-shop:hover .halloween-shop-hover {
+.halloween-shop-container:hover .halloween-shop-hand,
+.halloween-shop-container:hover .halloween-shop-hover {
   display: block;
 }
 

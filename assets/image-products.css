@@ -63,6 +63,7 @@
 
 .image-product-row {
   z-index: 2;
+  position: relative;
 }
 
 .image-product-halloween-hand {
