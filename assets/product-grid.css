@@ -372,6 +372,9 @@
   text-transform: capitalize;
 }
 
+.product-card .badge-halloween-true .badge-title {
+  line-height: 12px;
+}
 .product-card .badge-halloween-true .badge-title,
 .product-card .badge-halloween-true .badge-percent {
   color: #000000;
@@ -923,6 +926,10 @@
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+  }
+
+  .product-card .badge-halloween-true .badge-title {
+    line-height: 12px;
   }
 
   .product-card .badge-halloween-true .badge-title,
