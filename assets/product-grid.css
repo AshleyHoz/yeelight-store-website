@@ -839,6 +839,10 @@
     position: relative;
   }
 
+  .product-card-halloween-true {
+    background: rgba(0, 0, 0, 0.4);
+  }
+
   .product-card .product-card-info {
     padding: 12px;
   }
@@ -899,7 +903,7 @@
   .product-card .badge-halloween-true {
     background: transparent;
     border-radius: unset;
-    width: 42px;
+    width: 45px;
   }
 
   .product-card .badge-halloween-true .halloween-shop-hand-mobile {

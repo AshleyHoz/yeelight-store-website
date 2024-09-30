@@ -77,6 +77,11 @@
 @media only screen and (max-width: 767px) {
   .video-section-container {
     padding: 16px 0;
+    background: #090538;
+  }
+
+  .image-products .image-product-bg {
+    display: none;
   }
 
   .video-section-container .video-section-inner {
