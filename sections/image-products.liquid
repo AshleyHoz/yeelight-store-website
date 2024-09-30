@@ -6,6 +6,7 @@
   assign mobile_cover_image = section.settings.image_mobile
   assign section_reverse = section.settings.reverse
   assign background_image = section.settings.background_image
+  assign halloween_hand_flag = section.settings.halloween_hand_flag
 -%}
 
 <div class="image-products">
@@ -22,7 +23,7 @@
       {% render 'section-header', section_heading: section_title %}
     </div>
     <div class="image-products-container {{section_reverse}}">
-      {%- if settings.halloween_flag -%}
+      {%- if settings.halloween_flag and halloween_hand_flag -%}
         <div class="image-product-halloween-hand">
           {%- render 'svg-icons' with 'custom-halloween-hand' -%}
         </div>
@@ -96,6 +97,12 @@
       "type": "image_picker",
       "id": "background_image_mobile",
       "label": "Mobile Background image (optional)"
+    },
+    {
+      "type": "checkbox",
+      "id": "halloween_hand_flag",
+      "default": false,
+      "label": "Show Halloween Hand"
     }
   ],
   "blocks": [
