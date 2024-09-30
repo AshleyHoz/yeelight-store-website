@@ -81,7 +81,7 @@
         "product_BTfM4U"
       ],
       "settings": {
-        "title": "Transform the Outdoors for <span>Every Occasion</span>",
+        "title": "Transform the Outdoors for Every Occasion",
         "image": "shopify://shop_images/TopicProductBannerOutdoor.jpg",
         "image_mobile": "shopify://shop_images/TopicProductBannerMobileOutdoor.jpg",
         "reverse": "row",
@@ -99,8 +99,8 @@
         "video_autoplay": false,
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "rich_text_Wf7KbW": {
