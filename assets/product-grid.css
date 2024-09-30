@@ -798,7 +798,10 @@
   left: 0;
 }
 
-.image-product-halloween-shop .halloween-shop-hand,
+.image-product-halloween-shop .halloween-shop-hand {
+  opacity: 0;
+}
+
 .image-product-halloween-shop .halloween-shop-hover {
   display: none;
 }
@@ -808,6 +811,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 1;
 }
 
 .halloween-shop-container:hover .halloween-shop {
@@ -906,7 +910,7 @@
   }
 
   .product-card .badge-halloween .halloween-shop-hand {
-    display: none;
+    opacity: 0;
   }
 
   .product-card .badge .badge-title {
