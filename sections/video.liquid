@@ -15,7 +15,7 @@
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
   assign background_image = section.settings.background_image
 -%}
-<div class="row {% if full_width %} full-width-row-full{% endif %} video-section-container">
+<div class="{% if full_width %} row full-width-row-full{% endif %} video-section-container">
   {%- if settings.halloween_flag -%}
     <div class="image-product-bg">
       {%- if background_image -%}
@@ -24,7 +24,7 @@
     </div>
   {%- endif -%}
 
-  <div class="small-12 columns video-section-inner">
+  <div class="{% if settings.halloween_flag %} row  video-section-inner {% else %} small-12 columns {% endif %}">
     <div class="video-section section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
       <div class="video-section--inner">
         {% render 'section-header',

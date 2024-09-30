@@ -14,6 +14,11 @@
 
 .video-section-container .video-section-inner {
   z-index: 2;
+  position: relative;
+  display: block;
+  border-radius: 30px;
+  border: 11px solid #3a3760;
+  overflow: hidden;
 }
 
 .full-width-row-full .video-section--inner {
