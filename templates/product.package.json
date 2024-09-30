@@ -52,8 +52,8 @@
           "type": "shopify://apps/biscuits-bundles/blocks/biscuits-bundle-form/9e9ff1bd-2cba-468f-b59f-a1ff63f6efe9",
           "settings": {
             "text_color": "#ffffff",
-            "card_color": "#ffffff",
-            "input_type": "rectangle",
+            "card_color": "#D3D3D3",
+            "input_type": "pill",
             "input_text_color": "#121212",
             "input_color": "#ffffff",
             "display_shadow": true,
@@ -63,15 +63,15 @@
             "card_padding": 10,
             "grid_gap": 10,
             "border_color": "#e1e1e1",
-            "border_radius": 6,
+            "border_radius": 10,
             "highlight_type": "outline",
             "selected_text_color": "#121212",
-            "selected_color": "#848484",
-            "border_thickness": 1,
+            "selected_color": "#FFAA47",
+            "border_thickness": 3,
             "divider_color": "#e1e1e1",
-            "important_color": "#ffffff",
-            "padding_top": 32,
-            "padding_bottom": 32,
+            "important_color": "#FFFFFF",
+            "padding_top": 6,
+            "padding_bottom": 6,
             "custom_css": "#shopify-block-{{block.id}} {}",
             "custom_js": "document.addEventListener('DOMContentLoaded', function() { });"
           }
@@ -91,6 +91,7 @@
         },
         "quantity": {
           "type": "quantity",
+          "disabled": true,
           "settings": {
           }
         },
@@ -374,7 +375,7 @@
         "slide_XAm3LF"
       ],
       "settings": {
-        "title": "Yeelight RGBIC LED Basic Strip Lights",
+        "title": "Yeelight Holiday Lightshow Package",
         "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-auto",
         "full_width": false,
