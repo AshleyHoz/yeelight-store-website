@@ -16,9 +16,19 @@
   z-index: 2;
   position: relative;
   display: block;
+}
+
+.video-section-container .video-section-inner .video-section {
   border-radius: 30px;
   border: 11px solid #3a3760;
   overflow: hidden;
+}
+
+.video-section-container .video-section--inner_halloween-skull {
+  position: absolute;
+  bottom: -23px;
+  right: -35px;
+  z-index: 3;
 }
 
 .full-width-row-full .video-section--inner {
@@ -70,10 +80,17 @@
   }
 
   .video-section-container .video-section-inner {
+    margin: 0 16px;
+    padding: 0;
+  }
+
+  .video-section-container .video-section-inner .video-section {
     border-radius: 12px;
     border: 2px solid #3a3760;
     overflow: hidden;
-    margin: 0 16px;
-    padding: 0;
+  }
+
+  .video-section--inner_halloween-skull {
+    display: none;
   }
 }
