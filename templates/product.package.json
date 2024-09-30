@@ -72,7 +72,7 @@
             "important_color": "#ffffff",
             "padding_top": 6,
             "padding_bottom": 6,
-            "custom_css": "#shopify-block-{{block.id}} {}\n#shopify-block-biscuits_bundles_biscuits_bundle_form_xUiKWq .biscuits-bundle-step__title, .biscuits-bundle-step__number{\nfont-size:18px;\n}",
+            "custom_css": "#shopify-block-{{block.id}} {}\n#shopify-block-biscuits_bundles_biscuits_bundle_form_xUiKWq .biscuits-bundle-step__title{\nfont-size:18px;\n}\n\n#shopify-block-biscuits_bundles_biscuits_bundle_form_xUiKWq .biscuits-bundle-step__number{\ndisplay:none;\n}",
             "custom_js": "document.addEventListener('DOMContentLoaded', function() { });"
           }
         },
