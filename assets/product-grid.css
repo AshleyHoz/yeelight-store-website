@@ -337,8 +337,8 @@
   border-radius: unset;
 }
 
-.product-card .badge-halloween .halloween-shop-hand,
-.product-card .badge-halloween .halloween-shop-hand-mobile {
+.product-card .badge-halloween .halloween-shop-badge,
+.product-card .badge-halloween .halloween-shop-badge-mobile {
   position: absolute;
   top: 0;
   left: 0;
@@ -347,7 +347,7 @@
   z-index: 1;
 }
 
-.product-card .badge-halloween .halloween-shop-hand-mobile {
+.product-card .badge-halloween .halloween-shop-badge-mobile {
   display: none;
 }
 
@@ -811,6 +811,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.halloween-shop-container:hover .halloween-shop-hand {
   opacity: 1;
 }
 
@@ -905,12 +908,12 @@
     width: 45px;
   }
 
-  .product-card .badge-halloween .halloween-shop-hand-mobile {
+  .product-card .badge-halloween .halloween-shop-badge-mobile {
     display: block;
   }
 
-  .product-card .badge-halloween .halloween-shop-hand {
-    opacity: 0;
+  .product-card .badge-halloween .halloween-shop-badge {
+    display: none;
   }
 
   .product-card .badge .badge-title {
