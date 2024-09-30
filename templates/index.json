@@ -177,7 +177,7 @@
 
       ],
       "settings": {
-        "heading": "What's Popular Now",
+        "heading": "What's <span>Popular</span> Now",
         "marker_style": "style1",
         "description": "",
         "collection": "all-lights",
@@ -232,7 +232,7 @@
         "product_LP69Mb"
       ],
       "settings": {
-        "title": "Transform the Outdoors for Every Occasion",
+        "title": "Transform the Outdoors for <span>Every Occasion</span>",
         "link": "shopify://pages/topic-1",
         "footer_title": "Outdoor",
         "footer_description": "Special Page",
@@ -299,7 +299,7 @@
         "product_yNmiLw"
       ],
       "settings": {
-        "title": "Elevate the Indoors in Every Moment",
+        "title": "Elevate the Indoors in <span>Every Moment</span>",
         "link": "shopify://pages/topic-2",
         "footer_title": "Living room",
         "footer_description": "Special Page",
@@ -364,7 +364,7 @@
         "product_FArRic"
       ],
       "settings": {
-        "title": "Power Your Play in Every Gaming World",
+        "title": "<span>Power Your Play</span> in Every Gaming World",
         "link": "shopify://pages/topic-3",
         "footer_title": "Game Room",
         "footer_description": "Special Page",
