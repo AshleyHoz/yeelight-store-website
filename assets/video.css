@@ -18,7 +18,7 @@
   display: block;
 }
 
-.video-section-container .video-section-inner .video-section {
+.video-section-container-halloween .video-section-inner .video-section {
   border-radius: 30px;
   border: 11px solid #3a3760;
   overflow: hidden;
@@ -77,6 +77,9 @@
 @media only screen and (max-width: 767px) {
   .video-section-container {
     padding: 16px 0;
+  }
+
+  .video-section-container-halloween {
     background: #090538;
   }
 
@@ -89,7 +92,7 @@
     padding: 0;
   }
 
-  .video-section-container .video-section-inner .video-section {
+  .video-section-container-halloween .video-section-inner .video-section {
     border-radius: 12px;
     border: 2px solid #3a3760;
     overflow: hidden;
