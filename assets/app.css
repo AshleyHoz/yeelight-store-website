@@ -5496,7 +5496,7 @@ input[type='radio'],
   -webkit-text-fill-color: transparent;
 }
 
-.image-product-halloween-header-true .section-header--title > span {
+.image-product-halloween-header .section-header--title > span {
   color: #8aff00;
   background: none;
   -webkit-text-fill-color: #8aff00;
