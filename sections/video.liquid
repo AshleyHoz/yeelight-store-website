@@ -19,9 +19,19 @@
 <div class="{% if full_width %} row full-width-row-full{% endif %} {% if settings.halloween_flag and halloween_skull_flag %} video-section-container video-section-container-halloween{% endif %}">
   {%- if settings.halloween_flag and halloween_skull_flag -%}
     <div class="image-product-bg">
-      {%- if background_image -%}
-        {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-      {%- endif -%}
+      {% comment %}
+        {%- if background_image -%}
+          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+        {%- endif -%}
+      {% endcomment %}
+      <div class="image-product-bg-icons">
+        <div class="ic-bat">
+          {%- render 'svg-icons' with 'custom-halloween-bat' -%}
+        </div>
+        <div class="ic-spider-web-large">
+          {%- render 'svg-icons' with 'custom-halloween-spider-web-large' -%}
+        </div>
+      </div>
     </div>
   {%- endif -%}
 

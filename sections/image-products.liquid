@@ -12,9 +12,22 @@
 <div class="image-products">
   {%- if settings.halloween_flag -%}
     <div class="image-product-bg">
-      {%- if background_image -%}
-        {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-      {%- endif -%}
+      {% comment %}
+        {%- if background_image -%}
+          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+        {%- endif -%}
+      {% endcomment %}
+      <div class="image-product-bg-icons">
+        <div class="ic-moon">
+          {%- render 'svg-icons' with 'custom-halloween-moon' -%}
+        </div>
+        <div class="ic-spider-web-small">
+          {%- render 'svg-icons' with 'custom-halloween-spider-web-small' -%}
+        </div>
+        <div class="ic-ghost">
+          {%- render 'svg-icons' with 'custom-halloween-ghost' -%}
+        </div>
+      </div>
     </div>
   {%- endif -%}
 

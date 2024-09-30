@@ -59,11 +59,36 @@
   top: 0;
   left: 0;
   z-index: 1;
+  background: #090538;
 }
 
 .image-product-bg img {
   width: 100%;
   height: 100%;
+}
+
+.image-product-bg-icons {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.image-product-bg-icons .ic-moon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-product-bg-icons .ic-spider-web-small {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.image-product-bg-icons .ic-ghost {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .image-product-row {
