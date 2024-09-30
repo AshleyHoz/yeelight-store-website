@@ -52,7 +52,7 @@
           "type": "shopify://apps/biscuits-bundles/blocks/biscuits-bundle-form/9e9ff1bd-2cba-468f-b59f-a1ff63f6efe9",
           "settings": {
             "text_color": "#ffffff",
-            "card_color": "#D3D3D3",
+            "card_color": "#000000",
             "input_type": "pill",
             "input_text_color": "#121212",
             "input_color": "#ffffff",
@@ -65,7 +65,7 @@
             "border_color": "#e1e1e1",
             "border_radius": 10,
             "highlight_type": "outline",
-            "selected_text_color": "#121212",
+            "selected_text_color": "#FFFFFF",
             "selected_color": "#FFAA47",
             "border_thickness": 3,
             "divider_color": "#e1e1e1",
@@ -113,7 +113,7 @@
           "settings": {
             "heading": "Description",
             "open": false,
-            "content": "<ul><li><strong>20+ Pre-Set Lighting Effects</strong></li></ul><p>Offer over 20 pre-set lighting effects to match any mood or occasion. Whether it's for movie nights, parties, or casual ambiance, the lights can easily transform your space.</p><ul><li><strong>Independent Controlled LEDs with 16 Million Colors</strong></li></ul><p>Create your own lighting designs by individually controlling LEDs on the strip. With access to 16 million colors, you can customize the ambiance for gaming, home theaters, or simple room decorations.</p><ul><li><strong>Smart App Control for Maximum Flexibility</strong></li></ul><p>Connect via Bluetooth to the Yeelight app to adjust colors and set dynamic effects. With smart control at your fingertips, you can switch between modes, dim the lights, or design your own dynamic scenes.</p><ul><li><strong>Music Flow for Enhanced Entertainment</strong></li></ul><p>Turn any room into an immersive space by syncing your <strong>LED strip lights</strong> with your favorite music. The lights respond to the beat in real-time, perfect for parties, gaming sessions, or setting the mood for movie marathons.</p><ul><li><strong>Discreet Installation for Seamless Integration</strong></li></ul><p>Easily install these strip lights behind TVs, cabinets, or along ceilings for a hidden, ambient lighting performance. The adhesive backing makes installation quick and hassle-free, blending seamlessly into your home.</p><ul><li><strong>Compatible with Yeelight Ecosystem</strong></li></ul><p>Integrate these RGBIC LED strip lights with other Yeelight products for a fully synchronized smart home experience. Whether combined with string lights or curtain lights, they enhance any occation setup.</p>",
+            "content": "<ul><li><strong>Festive Scenes, Enhanced!<br/></strong>20+ overall light scenes and 100+ curtain light patterns to elevate any festive, party, or entertainment experience.</li><li><strong>Colors, Personalized!<br/></strong>RGBIC with 16 million colors and individual chip control for endless color combination.</li><li><strong>Control, Simplified!<br/></strong>Bluetooth-enabled smart Yeelight App control for effortless lighting management.</li><li><strong>Creativity, Unleashed!<br/></strong>Fully customizable scenes for maximum playability and fun.</li><li><strong>Music Flow, Lights Dance!<br/></strong>Dynamic music flows where lights dance with the beat, enhancing your audio experience.</li></ul>",
             "page": "",
             "custom_liquid": ""
           }
