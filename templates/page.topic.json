@@ -81,9 +81,9 @@
         "product_BTfM4U"
       ],
       "settings": {
-        "title": "Transform the Outdoors for <span>Every Occasion</span>",
-        "image": "shopify://shop_images/TopicProductBannerOutdoor.jpg",
-        "image_mobile": "shopify://shop_images/TopicProductBannerMobileOutdoor.jpg",
+        "title": "Transform the Outdoors for Every Occasion",
+        "image": "shopify://shop_images/TopicOutdoorHalloween.png",
+        "image_mobile": "shopify://shop_images/TopicOutdoorHalloweenMobile.png",
         "reverse": "row",
         "background_image": "shopify://shop_images/HalloweenBg1.png",
         "halloween_hand_flag": true
