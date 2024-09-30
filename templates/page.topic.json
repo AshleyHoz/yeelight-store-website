@@ -81,11 +81,12 @@
         "product_BTfM4U"
       ],
       "settings": {
-        "title": "Transform the Outdoors for <span>Every Occasion</span>",
+        "title": "Transform the Outdoors for Every Occasion",
         "image": "shopify://shop_images/TopicProductBannerOutdoor.jpg",
         "image_mobile": "shopify://shop_images/TopicProductBannerMobileOutdoor.jpg",
         "reverse": "row",
-        "background_image": "shopify://shop_images/HalloweenBg1.png"
+        "background_image": "shopify://shop_images/HalloweenBg1.png",
+        "halloween_hand_flag": true
       }
     },
     "video_eWFAYi": {
@@ -101,7 +102,8 @@
         "marker_color": "#fd6262",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "background_image": "shopify://shop_images/HalloweenBg2.png"
+        "background_image": "shopify://shop_images/HalloweenBg2.png",
+        "halloween_skull_flag": false
       }
     },
     "rich_text_Wf7KbW": {
