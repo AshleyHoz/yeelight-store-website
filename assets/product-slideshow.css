@@ -632,4 +632,8 @@
     width: 90%;
     height: 90%;
   }
+
+  .section-product-slideshow {
+    display: none;
+  }
 }
