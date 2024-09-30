@@ -254,8 +254,9 @@
         "video_autoplay": true,
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "halloween_skull_flag": false
       }
     },
     "single_image_3kkr3Y": {
@@ -358,9 +359,10 @@
         "video": "https://youtu.be/GxV31-E1Q0Y?si=S1-PCtPGiWSYDBuT",
         "video_autoplay": false,
         "aspect_ratio": "16-9",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false
       }
     },
     "single_image_WdwpPN": {
