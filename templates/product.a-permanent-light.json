@@ -365,7 +365,7 @@
         "description": "",
         "full_width": false,
         "video": "https://youtu.be/Nn6d2igqJGc?si=aLmUuNv0UJmMTBuD",
-        "video_autoplay": false,
+        "video_autoplay": true,
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
         "disable_top_spacing": false,
