@@ -365,11 +365,12 @@
         "description": "",
         "full_width": false,
         "video": "https://youtu.be/Nn6d2igqJGc?si=aLmUuNv0UJmMTBuD",
-        "video_autoplay": true,
+        "video_autoplay": false,
         "aspect_ratio": "16-9",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false
       }
     },
     "single_image_3kkr3Y": {
@@ -492,9 +493,10 @@
         "video": "https://youtu.be/t7QUKF34r1g?si=ox0nXaWCwQDqvm0U",
         "video_autoplay": false,
         "aspect_ratio": "16-9",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false
       }
     },
     "single_image_m6jW4L": {
