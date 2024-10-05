@@ -765,10 +765,12 @@
 .halloween-shop-container {
   padding: 0 16px 16px;
   cursor: pointer;
+  display: block;
 }
 
 .halloween-shop-container-mobile {
   display: none;
+  display: block;
 }
 
 .image-product-halloween-shop {

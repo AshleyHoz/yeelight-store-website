@@ -218,7 +218,11 @@
       </div>
     </div>
     {%- if settings.halloween_flag -%}
-      <div class="halloween-shop-container">
+      <a
+        href="{{ product_card_product.url | within: collection }}"
+        title="{{ product_card_product.title | escape }}"
+        class="halloween-shop-container"
+      >
         <div class="image-product-halloween-shop">
           <span class="halloween-shop-hand">
             {%- render 'svg-icons' with 'custom-halloween-shop-hand' -%}
@@ -230,8 +234,12 @@
             {%- render 'svg-icons' with 'custom-halloween-shop-hover' -%}
           </div>
         </div>
-      </div>
-      <div class="halloween-shop-container-mobile">
+      </a>
+      <a
+        href="{{ product_card_product.url | within: collection }}"
+        title="{{ product_card_product.title | escape }}"
+        class="halloween-shop-container-mobile"
+      >
         <div class="image-product-halloween-shop">
           {% comment %}
             <span class="halloween-shop-hand">
@@ -245,7 +253,7 @@
             {%- render 'svg-icons' with 'custom-halloween-shop-hover-mobile' -%}
           </div>
         </div>
-      </div>
+      </a>
     {%- else -%}
       <a
         href="{{ product_card_product.url | within: collection }}"
