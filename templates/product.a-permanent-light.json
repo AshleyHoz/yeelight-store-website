@@ -700,7 +700,7 @@
             "heading_icon": "washing",
             "heading": "IP67 Waterproof Test",
             "description": "Remains fully operational after 30 mins submerging in water. Capable of withstanding extreme heavy rain.",
-            "video_autoplay": true
+            "video_autoplay": false
           }
         },
         "tab_bpHEwN": {
@@ -711,7 +711,7 @@
             "heading_icon": "snowflake",
             "heading": "High & Low Temperature Test",
             "description": "Remains fully functional after being frozen in a refrigerator and baked in an oven. Can be used in temperatures ranging from -4°F to 140°F.",
-            "video_autoplay": true
+            "video_autoplay": false
           }
         },
         "tab_hBBVUP": {
@@ -722,7 +722,7 @@
             "heading_icon": "leather",
             "heading": "Adhesive Strength Test",
             "description": "The single light head can support a more than 2lb object. It resists falling off with long-term use.",
-            "video_autoplay": true
+            "video_autoplay": false
           }
         }
       },
