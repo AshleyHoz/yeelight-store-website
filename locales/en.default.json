@@ -22,7 +22,7 @@
       "save": "Save",
       "free_shipping": {
         "spend_more_for_free_shipping_html": "Spend <span>{{ amount }}</span> more for FREE shipping.",
-        "free_shipping_applied_at_checkout": "Fast & Free Shipping"
+        "free_shipping_applied_at_checkout": "FREE shipping will be applied at checkout"
       }
     },
     "meta": {
@@ -236,7 +236,7 @@
       "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
       "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
-      "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
+      "taxes_and_shipping_at_checkout": "Fast & Free Shipping",
       "headings": {
         "product": "Product",
         "price": "Price",
