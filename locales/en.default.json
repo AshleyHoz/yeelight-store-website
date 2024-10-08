@@ -233,7 +233,7 @@
       "ready": "Ready to find your new favorite products?",
       "cart_error": "There was an error while updating your cart. Please try again.",
       "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
-      "taxes_and_shipping_policy_at_checkout_html": "Fast & Free <a href=\"{{ link }}\">shipping</a>",
+      "taxes_and_shipping_policy_at_checkout_html": "Fast & Free <a href=\"{{ link }}\">Shipping</a>",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
       "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
       "taxes_and_shipping_at_checkout": "Fast & Free Shipping",
