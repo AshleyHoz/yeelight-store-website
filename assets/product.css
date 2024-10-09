@@ -2358,22 +2358,22 @@ h6,
 }
 
 .section-product-white {
-  background: var(--color-product-bg);
+  background: var(--color-body);
 }
 
 /* .section-product-white
   .product-gallery-container
   .product-thumbnail-container
   .product-thumbnail.is-initial-selected:after {
-  box-shadow: inset 0 0 0 1px var(--color-product-bg), inset 0 0 0 3px var(--color-product-bg);
+  box-shadow: inset 0 0 0 1px var(--color-body), inset 0 0 0 3px var(--color-body);
 } */
 
 .section-product-white scroll-shadow {
   display: inline-block;
   width: 100%;
   --scroll-shadow-size: 20;
-  --scroll-shadow-top: linear-gradient(rgba(var(--color-product-bg), 1), rgba(var(--color-product-bg), 0));
-  --scroll-shadow-bottom: linear-gradient(rgba(var(--color-product-bg), 0), rgba(var(--color-product-bg), 1));
-  --scroll-shadow-left: linear-gradient(90deg, rgba(var(--color-product-bg), 1), rgba(var(--color-product-bg), 0));
-  --scroll-shadow-right: linear-gradient(90deg, rgba(var(--color-product-bg), 0), rgba(var(--color-product-bg), 1));
+  --scroll-shadow-top: linear-gradient(rgba(var(--color-body), 1), rgba(var(--color-body), 0));
+  --scroll-shadow-bottom: linear-gradient(rgba(var(--color-body), 0), rgba(var(--color-body), 1));
+  --scroll-shadow-left: linear-gradient(90deg, rgba(var(--color-body), 1), rgba(var(--color-body), 0));
+  --scroll-shadow-right: linear-gradient(90deg, rgba(var(--color-body), 0), rgba(var(--color-body), 1));
 }
