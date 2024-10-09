@@ -1230,25 +1230,26 @@
     ]
   },
   {
-    "type": "products theme",
-    "content": "Product detail & Cart theme"
-  },
-  {
-    "type": "color",
-    "id": "product_background",
-    "label": "Product background",
-    "default": "#ffffff"
-  },
-  {
-    "type": "color",
-    "id": "product_font_color",
-    "label": "Product font color",
-    "default": "#2C2D2E"
-  },
-  {
-    "type": "color",
-    "id": "product_border_color",
-    "label": "Product border color",
-    "default": "#DADCE0"
+    "name": "Product details & Cart theme",
+    "settings": [
+      {
+        "type": "color",
+        "id": "product_background",
+        "label": "Product background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "product_font_color",
+        "label": "Product font color",
+        "default": "#2C2D2E"
+      },
+      {
+        "type": "color",
+        "id": "product_border_color",
+        "label": "Product border color",
+        "default": "#DADCE0"
+      }
+    ]
   }
 ]
