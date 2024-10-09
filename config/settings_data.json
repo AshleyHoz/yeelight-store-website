@@ -79,6 +79,7 @@
     "lazy_loading": false,
     "favicon": "shopify://shop_images/Fun_favicon.png",
     "halloween_flag": true,
+    "product_opposite_theme": true,
     "product_background": "#ffffff",
     "product_font_color": "#2C2D2E",
     "product_border_color": "#DADCE0",
