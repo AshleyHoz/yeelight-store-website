@@ -2377,3 +2377,8 @@ h6,
   /* --scroll-shadow-left: linear-gradient(90deg, rgba(var(--color-product-bg), 1), rgba(var(--color-product-bg), 0));
   --scroll-shadow-right: linear-gradient(90deg, rgba(var(--color-product-bg), 0), rgba(var(--color-product-bg), 1)); */
 }
+
+.section-product-white .thb-product-detail .product-title,
+.section-product-white .variations .product-form__input {
+  color: var(--color-product-font);
+}
