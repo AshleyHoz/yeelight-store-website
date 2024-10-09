@@ -2374,6 +2374,6 @@ h6,
   --scroll-shadow-size: 20;
   --scroll-shadow-top: linear-gradient(0deg, rgba(253, 253, 253, 0) 0%, #fdfdfd 100%);
   --scroll-shadow-bottom: linear-gradient(180deg, rgba(253, 253, 253, 0) 0%, #fdfdfd 100%);
-  --scroll-shadow-left: linear-gradient(90deg, rgba(var(--color-product-bg), 1), rgba(var(--color-product-bg), 0));
-  --scroll-shadow-right: linear-gradient(90deg, rgba(var(--color-product-bg), 0), rgba(var(--color-product-bg), 1));
+  /* --scroll-shadow-left: linear-gradient(90deg, rgba(var(--color-product-bg), 1), rgba(var(--color-product-bg), 0));
+  --scroll-shadow-right: linear-gradient(90deg, rgba(var(--color-product-bg), 0), rgba(var(--color-product-bg), 1)); */
 }
