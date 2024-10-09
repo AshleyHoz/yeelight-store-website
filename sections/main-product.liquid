@@ -42,16 +42,18 @@
 <div
   class="thb-product-detail product {% if settings.product_opposite_theme %} section-product-white{% endif %}"
   style="
-    --color-body:{% if settings.product_opposite_theme %} {{settings.color_body}}
-                      {%- else -%}
-                      {{settings.product_background}};
-    {% endif %}
     --color-body-rgb:{% if settings.product_opposite_theme %} {{settings.color_body}}
                       {%- else -%}
                       {{settings.product_background}};
     {% endif %}
   "
 >
+  {% comment %}
+    --color-body:{% if settings.product_opposite_theme %} {{settings.color_body}}
+                      {%- else -%}
+                      {{settings.product_background}};
+    {% endif %}
+  {% endcomment %}
   <div class="row">
     <div class="small-12 columns">
       <div class="product-grid-container">
