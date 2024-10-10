@@ -6,7 +6,7 @@
     assign shadow_class = 'has-shadow--' | append: settings.block_shadows
   -%}
   <div
-    class="side-panel cart-drawer {{ shadow_class }} {% if settings.product_opposite_theme %} section-cart-white{% endif %}"
+    class="side-panel cart-drawer {{ shadow_class }} {% if settings.product_opposite_theme %} section-cart-white{% endif %} {% if settings.halloween_flag %} cart-halloween{% endif %}"
     id="Cart-Drawer"
     tabindex="-1"
   >
@@ -267,7 +267,10 @@
               <button type="button" class="order-note-toggle" id="order-note-toggle" aria-controls="mini-cart-note">
                 {{ 'general.cart_drawer.add_order_note' | t }}
               </button>
-              <div class="order-note-toggle__content" id="mini-cart-note">
+              <div
+                class="order-note-toggle__content "
+                id="mini-cart-note"
+              >
                 <label for="mini-cart__notes">{{ 'general.cart_drawer.add_order_note' | t }}</label>
                 <textarea name="note" id="mini-cart__notes" rows="5">{{ cart.note }}</textarea>
                 <button class="button full">

@@ -5327,6 +5327,18 @@ input[type='radio'],
   stroke: var(--color-product-font);
 }
 
+.cart-halloween .cart-drawer-buttons a,
+.cart-halloween .order-note-toggle__content button {
+  border-radius: 25px;
+  border: 1px solid #fe772d;
+  background: rgba(254, 119, 45, 0.1);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #fe772d;
+}
+
 .thb-full-menu .sub-menu {
   transition: all 0.25s ease;
 }
