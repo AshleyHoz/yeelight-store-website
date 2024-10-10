@@ -324,6 +324,10 @@
   border-radius: 4px;
 }
 
+.cart__dynamic-checkout-buttons {
+  margin-top: 10px;
+}
+
 .section-main-cart-white {
   width: 100%;
 }
