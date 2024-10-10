@@ -67,7 +67,7 @@
             "border_radius": 20,
             "highlight_type": "outline",
             "selected_text_color": "#2c2d2e",
-            "selected_color": "#ffffff",
+            "selected_color": "#DADCE0",
             "border_thickness": 1,
             "divider_color": "#DADCE0",
             "important_color": "#1a1c1d",
