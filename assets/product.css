@@ -2420,7 +2420,8 @@ h6,
 
 .section-product-white hr,
 .section-product-white .quantity,
-.section-product-white .accordion {
+.section-product-white .accordion,
+.section-product-white .product-card-small {
   border-color: var(--color-product-border);
 }
 

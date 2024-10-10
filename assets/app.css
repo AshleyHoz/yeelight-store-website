@@ -5274,7 +5274,8 @@ input[type='radio'],
 .section-cart-white .side-panel-header,
 .section-cart-white .quantity,
 .section-cart-white .side-panel-footer,
-.section-cart-white .order-note-toggle__content textarea {
+.section-cart-white .order-note-toggle__content textarea,
+.section-cart-white .product-card-small {
   border-color: #d3d3d3;
 }
 
