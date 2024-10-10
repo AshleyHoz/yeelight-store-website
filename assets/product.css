@@ -2393,7 +2393,9 @@ h6,
   fill: var(--color-product-font);
 }
 
-.section-product-white .quantity svg path {
+.section-product-white .quantity svg path,
+.section-product-white .flickity-nav svg path,
+.section-product-white .thb-product-detail .product-single__media-zoom svg path {
   stroke: var(--color-product-font);
 }
 
@@ -2423,6 +2425,11 @@ h6,
   box-shadow: 0 0 0 1px var(--color-product-border) inset;
   color: var(--color-product-font);
   background: transparent;
+}
+
+.section-product-white .flickity-nav,
+.section-product-white .thb-product-detail .product-single__media-zoom {
+  background: var(--color-product-bg);
 }
 
 .product-form .single-add-to-cart-halloween {
