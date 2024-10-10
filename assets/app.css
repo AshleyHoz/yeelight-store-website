@@ -5273,7 +5273,8 @@ input[type='radio'],
 }
 .section-cart-white .side-panel-header,
 .section-cart-white .quantity,
-.section-cart-white .side-panel-footer {
+.section-cart-white .side-panel-footer,
+.section-cart-white .order-note-toggle__content textarea {
   border-color: #d3d3d3;
 }
 
@@ -5296,7 +5297,9 @@ input[type='radio'],
 .section-cart-white .price .unit-price,
 .section-cart-white .cart-drawer-footer a,
 .section-cart-white .cart-drawer-footer .price,
-.section-cart-white .cart-drawer-footer .order-note-toggle {
+.section-cart-white .cart-drawer-footer .order-note-toggle,
+.section-cart-white .order-note-toggle__content,
+.section-cart-white .order-note-toggle__content textarea {
   color: var(--color-product-font);
 }
 
