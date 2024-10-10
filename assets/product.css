@@ -2385,18 +2385,24 @@ h6,
 .section-product-white .variations .product-form__input--block input[type='radio']:checked + label,
 .section-product-white .accordion .accordion__content,
 .section-product-white .quantity .qty,
-.section-product-white .share-article label {
+.section-product-white .share-article label,
+.section-product-white .product-card-small--link,
+.section-product-white .product-card-small--add-to-cart-button,
+.section-product-white .complementary-products--heading,
+.section-product-white .product-short-description {
   color: var(--color-product-font);
 }
 
-.section-product-white .share-article svg path {
+.section-product-white .share-article svg path,
+.section-product-white .product-card-small--add-to-cart-icon svg path {
   fill: var(--color-product-font);
 }
 
 .section-product-white .quantity svg path,
 .section-product-white .flickity-nav svg path,
 .section-product-white .product-single__media-zoom svg path,
-.section-product-white .accordion summary span svg path {
+.section-product-white .accordion summary span svg path,
+.section-product-white .product-card-small--add-to-cart-icon .loading-overlay svg circle {
   stroke: var(--color-product-font);
 }
 
