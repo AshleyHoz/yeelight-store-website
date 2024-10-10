@@ -351,7 +351,8 @@
   border-color: var(--color-product-border);
 }
 
-.section-main-cart-white svg path,
+.section-main-cart-white .quantity svg path,
+.section-main-cart-white .thb-cart-form--continue svg path,
 .section-main-cart-white .loading-overlay svg circle {
   stroke: var(--color-product-font);
 }
