@@ -5300,7 +5300,8 @@ input[type='radio'],
 .section-cart-white .cart-drawer-footer .price,
 .section-cart-white .cart-drawer-footer .order-note-toggle,
 .section-cart-white .order-note-toggle__content label,
-.section-cart-white .order-note-toggle__content textarea {
+.section-cart-white .order-note-toggle__content textarea,
+.section-cart-white .complementary-products--heading {
   color: var(--color-product-font);
 }
 
