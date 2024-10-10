@@ -1,6 +1,11 @@
 {
   "sections": {
-    "breadcrumbs": { "type": "breadcrumbs", "settings": {} },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "enable_opposite_theme": true
+      }
+    },
     "main-product": {
       "type": "main-product",
       "blocks": {
