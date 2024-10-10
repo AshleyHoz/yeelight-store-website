@@ -2383,12 +2383,26 @@ h6,
 .section-product-white .form__label,
 .section-product-white .price .custom-amount-ins,
 .section-product-white .variations .product-form__input--block input[type='radio']:checked + label,
-.section-product-white .accordion .accordion__content {
+.section-product-white .accordion .accordion__content,
+.section-product-white .quantity .qty,
+.section-product-white .share-article label {
   color: var(--color-product-font);
+}
+
+.section-product-white .share-article svg path {
+  fill: var(--color-product-font);
+}
+
+.section-product-white .quantity svg path {
+  stroke: var(--color-product-font);
 }
 
 .section-product-white .accordion summary {
   color: #1a1c1d;
+}
+
+.section-product-white .shopify-payment-button .shopify-payment-button__more-options {
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .section-product-white .price .custom-amount-del {
@@ -2407,6 +2421,6 @@ h6,
 
 .section-product-white .variations .product-form__input--block input[type='radio'] + label {
   box-shadow: 0 0 0 1px var(--color-product-border) inset;
-  color: #2c2d2e;
+  color: var(--color-product-font);
   background: transparent;
 }
