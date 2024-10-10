@@ -2429,9 +2429,14 @@ h6,
   border-radius: 25px;
   border: 1px solid #fe772d;
   background: rgba(254, 119, 45, 0.1);
-  color: #fe772d;
   text-align: center;
   font-size: 15px;
   font-weight: 500;
   line-height: 15px;
+}
+.product-form .single-add-to-cart-button:hover {
+  background: rgba(254, 119, 45, 0.1);
+}
+.product-form .single-add-to-cart-button--text {
+  color: #fe772d;
 }
