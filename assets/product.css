@@ -2416,11 +2416,22 @@ h6,
 }
 
 .section-product-white .variations .product-form__input--block input[type='radio']:checked + label {
-  box-shadow: 0 0 0 1px #000 inset;
+  box-shadow: 0 0 0 2px #000 inset;
 }
 
 .section-product-white .variations .product-form__input--block input[type='radio'] + label {
   box-shadow: 0 0 0 1px var(--color-product-border) inset;
   color: var(--color-product-font);
   background: transparent;
+}
+
+.product-form .single-add-to-cart-halloween {
+  border-radius: 25px;
+  border: 1px solid #fe772d;
+  background: rgba(254, 119, 45, 0.1);
+  color: #fe772d;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
 }
