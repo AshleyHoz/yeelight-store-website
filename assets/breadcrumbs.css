@@ -50,3 +50,12 @@
 .breadcrumbs a {
   text-underline-offset: 3px;
 }
+
+.section-breadcrumbs-white {
+  width: 100%;
+  background: var(--color-product-bg);
+}
+
+.section-breadcrumbs-white .breadcrumbs {
+  color: var(--color-product-font);
+}
