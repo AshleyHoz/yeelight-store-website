@@ -1224,7 +1224,7 @@
       {
         "type": "checkbox",
         "id": "halloween_flag",
-        "label": "Enable halloween css",
+        "label": "Enable halloween css globally",
         "default": false
       }
     ]
@@ -1235,7 +1235,7 @@
       {
         "type": "checkbox",
         "id": "product_opposite_theme",
-        "label": "Enable product opposite css",
+        "label": "Enable product opposite css globally",
         "default": true
       },
       {
