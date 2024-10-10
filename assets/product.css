@@ -2378,7 +2378,35 @@ h6,
   --scroll-shadow-right: linear-gradient(90deg, rgba(var(--color-product-bg), 0), rgba(var(--color-product-bg), 1)); */
 }
 
-.section-product-white .thb-product-detail .product-title,
-.section-product-white .variations .product-form__input {
+.section-product-white .product-title,
+.section-product-white .variations .product-form__input,
+.section-product-white .form__label,
+.section-product-white .price .custom-amount-ins,
+.section-product-white .variations .product-form__input--block input[type='radio']:checked + label,
+.section-product-white .accordion .accordion__content {
   color: var(--color-product-font);
+}
+
+.section-product-white .accordion summary {
+  color: #1a1c1d;
+}
+
+.section-product-white .price .custom-amount-del {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.section-product-white hr,
+.section-product-white .quantity,
+.section-product-white .accordion {
+  border-color: var(--color-product-border);
+}
+
+.section-product-white .variations .product-form__input--block input[type='radio']:checked + label {
+  box-shadow: 0 0 0 1px #000 inset;
+}
+
+.section-product-white .variations .product-form__input--block input[type='radio'] + label {
+  box-shadow: 0 0 0 1px var(--color-product-border) inset;
+  color: var(--color-body);
+  background: transparent;
 }
