@@ -5307,9 +5307,14 @@ input[type='radio'],
   --scroll-shadow-right: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
+.section-cart-white .product-card-small--add-to-cart-icon svg path {
+  fill: var(--color-product-font);
+}
+
 .section-cart-white .side-panel-close svg path,
 .section-cart-white .quantity .minus svg path,
-.section-cart-white .quantity .plus svg path {
+.section-cart-white .quantity .plus svg path,
+.section-cart-white .product-card-small--add-to-cart-icon .loading-overlay svg circle {
   stroke: var(--color-product-font);
 }
 
