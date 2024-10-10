@@ -7,24 +7,6 @@
 * made to this file may be overwritten.
 * ------------------------------------------------------------
 */
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "breadcrumbs": {
@@ -38,7 +20,8 @@
       "blocks": {
         "2b609eea-6cce-4efe-b447-c5560de1d797": {
           "type": "label",
-          "settings": {}
+          "settings": {
+          }
         },
         "title": {
           "type": "title",
@@ -63,7 +46,8 @@
         },
         "separator_qJEjWC": {
           "type": "separator",
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -80,7 +64,8 @@
         },
         "quantity": {
           "type": "quantity",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -92,7 +77,8 @@
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "collapsible_tab_d9RVkP": {
           "type": "collapsible_tab",
@@ -126,7 +112,8 @@
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
-          "settings": {}
+          "settings": {
+          }
         },
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
           "type": "complementary",
@@ -277,7 +264,11 @@
           }
         }
       },
-      "block_order": ["slide_Re8Uxn", "slide_Hyb3Yi", "slide_UqXJwU"],
+      "block_order": [
+        "slide_Re8Uxn",
+        "slide_Hyb3Yi",
+        "slide_UqXJwU"
+      ],
       "settings": {
         "title": "Yeelight <span>RGBIC LED</span> Basic Strip Lights",
         "desktop_height": "desktop-height-auto",
@@ -361,6 +352,34 @@
         "disable_bottom_spacing": true
       }
     },
+    "rich_text_6mPtPi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HR4q6J": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer Reviews",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HR4q6J"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
     "single_image_N6MW93": {
       "type": "single-image",
       "settings": {
@@ -381,9 +400,10 @@
         "video": "https://youtu.be/LvgBNeMYv4o?si=6NDs5BOVvHb0swZ0",
         "video_autoplay": false,
         "aspect_ratio": "16-9",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false
       }
     },
     "single_image_JH8XXF": {
@@ -461,7 +481,14 @@
           }
         }
       },
-      "block_order": ["badge_BxbJGA", "heading_CGGGA3", "text_rcPdh9", "tab_GfgtkE", "tab_bpHEwN", "tab_hBBVUP"],
+      "block_order": [
+        "badge_BxbJGA",
+        "heading_CGGGA3",
+        "text_rcPdh9",
+        "tab_GfgtkE",
+        "tab_bpHEwN",
+        "tab_hBBVUP"
+      ],
       "disabled": true,
       "settings": {
         "heading": "",
@@ -577,32 +604,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "rich_text_6mPtPi": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_HR4q6J": {
-          "type": "heading",
-          "settings": {
-            "text": "Customer Reviews",
-            "marker_style": "style1",
-            "size": "h3",
-            "marker_color": "#fd6262"
-          }
-        }
-      },
-      "block_order": ["heading_HR4q6J"],
-      "settings": {
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#1a1c1d",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
     "1712003137212dc6f8": {
       "type": "apps",
       "blocks": {
@@ -618,8 +619,11 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
-      "settings": {}
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
+      "settings": {
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
@@ -645,14 +649,14 @@
     "single_image_UwbPnd",
     "single_image_FC7Fnr",
     "single_image_UpVXxB",
+    "rich_text_6mPtPi",
+    "1712003137212dc6f8",
     "single_image_N6MW93",
     "video_qXUwNk",
     "single_image_JH8XXF",
     "single_image_WdwpPN",
     "media_with_tabs_GFrrk4",
     "collapsible_content_DDeyr7",
-    "rich_text_6mPtPi",
-    "1712003137212dc6f8",
     "product-recommendations"
   ]
 }
