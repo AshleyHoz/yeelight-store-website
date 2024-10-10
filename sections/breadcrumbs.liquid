@@ -1,5 +1,5 @@
 {{- 'breadcrumbs.css' | asset_url | stylesheet_tag -}}
-<div class=" {% if settings.product_opposite_theme %} section-breadcrumbs-white{% endif %}">
+<div class=" {% if settings.product_opposite_theme and section.settings.enable_opposite_theme %} section-breadcrumbs-white{% endif %}">
   <div class="row">
     <div class="small-12 columns">
       <scroll-shadow>
@@ -68,6 +68,14 @@
 {% schema %}
 {
   "name": "Breadcrumbs",
-  "class": "breadcrumbs-section"
+  "class": "breadcrumbs-section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_opposite_theme",
+      "default": false,
+      "label": "Enable opposite theme"
+    }
+  ]
 }
 {% endschema %}

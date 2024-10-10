@@ -56,6 +56,7 @@
   background: var(--color-product-bg);
 }
 
-.section-breadcrumbs-white .breadcrumbs {
+.section-breadcrumbs-white .breadcrumbs,
+.section-breadcrumbs-white .breadcrumbs a {
   color: var(--color-product-font);
 }
