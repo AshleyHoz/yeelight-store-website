@@ -2396,7 +2396,7 @@ h6,
 .section-product-white .quantity svg path,
 .section-product-white .flickity-nav svg path,
 .section-product-white .product-single__media-zoom svg path,
-.section-product-white .accordion summary span svg {
+.section-product-white .accordion summary span svg path {
   stroke: var(--color-product-font);
 }
 
