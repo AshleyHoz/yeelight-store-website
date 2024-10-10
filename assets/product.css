@@ -2407,6 +2407,6 @@ h6,
 
 .section-product-white .variations .product-form__input--block input[type='radio'] + label {
   box-shadow: 0 0 0 1px var(--color-product-border) inset;
-  color: var(--color-body);
+  color: #2c2d2e;
   background: transparent;
 }
