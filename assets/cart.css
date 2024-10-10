@@ -323,3 +323,9 @@
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
   border-radius: 4px;
 }
+
+.section-main-cart-white {
+  width: 100%;
+  color: var(--color-product-font);
+  background: var(--color-product-bg);
+}
