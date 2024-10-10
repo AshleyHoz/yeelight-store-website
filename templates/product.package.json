@@ -1,21 +1,12 @@
 /*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "breadcrumbs": {
@@ -29,7 +20,8 @@
       "blocks": {
         "2b609eea-6cce-4efe-b447-c5560de1d797": {
           "type": "label",
-          "settings": {}
+          "settings": {
+          }
         },
         "title": {
           "type": "title",
@@ -54,30 +46,31 @@
         },
         "separator_qJEjWC": {
           "type": "separator",
-          "settings": {}
+          "settings": {
+          }
         },
         "biscuits_bundles_biscuits_bundle_form_xUiKWq": {
           "type": "shopify://apps/biscuits-bundles/blocks/biscuits-bundle-form/9e9ff1bd-2cba-468f-b59f-a1ff63f6efe9",
           "settings": {
-            "text_color": "#ffffff",
-            "card_color": "#2a2a2a",
+            "text_color": "#2c2d2e",
+            "card_color": "#ffffff",
             "input_type": "pill",
-            "input_text_color": "#ffffff",
-            "input_color": "#000000",
-            "display_shadow": true,
+            "input_text_color": "#2c2d2e",
+            "input_color": "#ffffff",
+            "display_shadow": false,
             "display_selection_count": true,
             "display_running_totals": true,
             "enable_product_links": false,
             "card_padding": 10,
-            "grid_gap": 0,
-            "border_color": "#000000",
+            "grid_gap": 10,
+            "border_color": "#DADCE0",
             "border_radius": 20,
             "highlight_type": "outline",
-            "selected_text_color": "#ffffff",
+            "selected_text_color": "#2c2d2e",
             "selected_color": "#ffffff",
-            "border_thickness": 2,
-            "divider_color": "#2a2a2a",
-            "important_color": "#ffffff",
+            "border_thickness": 1,
+            "divider_color": "#DADCE0",
+            "important_color": "#1a1c1d",
             "padding_top": 6,
             "padding_bottom": 6,
             "custom_css": "#shopify-block-{{block.id}} {}\n#shopify-block-biscuits_bundles_biscuits_bundle_form_xUiKWq .biscuits-bundle-step__title{\nfont-size:18px;\n}\n\n#shopify-block-biscuits_bundles_biscuits_bundle_form_xUiKWq .biscuits-bundle-step__number{\ndisplay:none;\n}\n\n#shopify-block-biscuits_bundles_biscuits_bundle_form_xUiKWq .biscuits--disabled{\nopacity:1!important;\n}",
@@ -100,7 +93,8 @@
         "quantity": {
           "type": "quantity",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -112,7 +106,8 @@
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "collapsible_tab_d9RVkP": {
           "type": "collapsible_tab",
@@ -146,7 +141,8 @@
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
-          "settings": {}
+          "settings": {
+          }
         },
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
           "type": "complementary",
@@ -372,7 +368,13 @@
           }
         }
       },
-      "block_order": ["slide_Re8Uxn", "slide_Hyb3Yi", "slide_UqXJwU", "slide_Ng8gt3", "slide_XAm3LF"],
+      "block_order": [
+        "slide_Re8Uxn",
+        "slide_Hyb3Yi",
+        "slide_UqXJwU",
+        "slide_Ng8gt3",
+        "slide_XAm3LF"
+      ],
       "settings": {
         "title": "Yeelight Holiday Lightshow Package",
         "desktop_height": "desktop-height-auto",
@@ -491,7 +493,14 @@
           }
         }
       },
-      "block_order": ["badge_BxbJGA", "heading_CGGGA3", "text_rcPdh9", "tab_GfgtkE", "tab_bpHEwN", "tab_hBBVUP"],
+      "block_order": [
+        "badge_BxbJGA",
+        "heading_CGGGA3",
+        "text_rcPdh9",
+        "tab_GfgtkE",
+        "tab_bpHEwN",
+        "tab_hBBVUP"
+      ],
       "disabled": true,
       "settings": {
         "heading": "",
@@ -633,7 +642,9 @@
           }
         }
       },
-      "block_order": ["heading_HR4q6J"],
+      "block_order": [
+        "heading_HR4q6J"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -661,8 +672,11 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
-      "settings": {}
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
