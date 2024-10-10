@@ -5267,7 +5267,8 @@ input[type='radio'],
 }
 
 .section-cart-white,
-.section-cart-white .side-panel-header {
+.section-cart-white .side-panel-header,
+.section-cart-white .order-note-toggle__content {
   background: var(--color-product-bg);
 }
 .section-cart-white .side-panel-header,
@@ -5290,7 +5291,12 @@ input[type='radio'],
 .section-cart-white .product-card-small--link,
 .section-cart-white .product-card-small--add-to-cart-button,
 .section-cart-white .price .custom-amount-ins,
-.section-cart-white .price .unit-price {
+.section-cart-white .price .unit-price,
+.section-cart-white .cart-drawer-footer,
+.section-cart-white .price .unit-price,
+.section-cart-white .cart-drawer-footer a,
+.section-cart-white .cart-drawer-footer .price,
+.section-cart-white .cart-drawer-footer .order-note-toggle {
   color: var(--color-product-font);
 }
 
