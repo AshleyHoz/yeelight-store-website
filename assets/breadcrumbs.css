@@ -14,9 +14,9 @@
   margin-top: 0;
 }
 
-.breadcrumbs-section + .section-template-header .template-header {
+/* .breadcrumbs-section + .section-template-header .template-header {
   padding-top: 15px;
-}
+} */
 
 .breadcrumbs-section scroll-shadow {
   width: 100%;
