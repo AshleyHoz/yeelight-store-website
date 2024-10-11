@@ -2405,7 +2405,8 @@ h6,
 .section-product-white .flickity-nav svg path,
 .section-product-white .product-single__media-zoom svg path,
 .section-product-white .accordion summary span svg path,
-.section-product-white .product-card-small--add-to-cart-icon .loading-overlay svg circle {
+.section-product-white .product-card-small--add-to-cart-icon .loading-overlay svg circle,
+.section-product-white .product-add-to-cart-sticky svg path {
   stroke: var(--color-product-font);
 }
 
