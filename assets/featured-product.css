@@ -64,7 +64,7 @@
   font-weight: var(--font-body-medium-weight, 500);
   letter-spacing: var(--button-letter-spacing, 0.02em);
   background: var(--solid-button-background, var(--color-accent));
-  color: var(--solid-button-label, #fff);
+  color: #ffffff;
   border: 0;
   border-radius: var(--button-border-radius, 6px);
   text-align: center;
@@ -83,7 +83,7 @@
   .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):focus {
     background: var(--solid-button-background-hover, var(--color-accent));
     opacity: 0.95;
-    color: var(--solid-button-label, #fff);
+    color: #ffffff;
   }
 }
 .shopify-payment-button__button.shopify-payment-button__button--branded .shopify-cleanslate div[role='button'] {
