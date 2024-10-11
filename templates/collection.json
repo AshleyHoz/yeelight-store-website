@@ -40,9 +40,10 @@
       ],
       "settings": {
         "image": "shopify://shop_images/All_Product_Banner.jpg",
+        "mobile_image": "shopify://shop_images/ALL_Product_M.jpg",
         "image_parallax": false,
         "desktop_height": "desktop-height-450",
-        "mobile_height": "mobile-height-500",
+        "mobile_height": "mobile-height-350",
         "full_width": true,
         "content_width": "medium",
         "content_position": "middle-center",
