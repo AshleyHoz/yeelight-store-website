@@ -2357,7 +2357,8 @@ h6,
   font-size: 16px;
 }
 
-.section-product-white {
+.section-product-white,
+.section-product-white .product-add-to-cart-sticky {
   background: var(--color-product-bg);
 }
 
@@ -2389,7 +2390,9 @@ h6,
 .section-product-white .product-card-small--link,
 .section-product-white .product-card-small--add-to-cart-button,
 .section-product-white .complementary-products--heading,
-.section-product-white .product-short-description {
+.section-product-white .product-short-description,
+.section-product-white .product-add-to-cart-sticky,
+.section-product-white .product-add-to-cart-sticky button {
   color: var(--color-product-font);
 }
 
