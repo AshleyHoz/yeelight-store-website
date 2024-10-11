@@ -12,6 +12,7 @@
     "breadcrumbs": {
       "type": "breadcrumbs",
       "settings": {
+        "enable_opposite_theme": false
       }
     },
     "image_with_text_overlay_8jXp9g": {
@@ -19,7 +20,6 @@
       "blocks": {
         "heading_HhgdPq": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "text": "All Lights",
             "heading_size": "h1"
@@ -39,15 +39,15 @@
         "text_HhPXHD"
       ],
       "settings": {
-        "image": "shopify://shop_images/Halloween_Promotion_3.jpg",
+        "image": "shopify://shop_images/All_Product_Banner.jpg",
         "mobile_image": "shopify://shop_images/Halloween_Promotion_Banner_3.jpg",
         "image_parallax": false,
-        "desktop_height": "desktop-height-650",
+        "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-500",
         "full_width": true,
         "content_width": "medium",
         "content_position": "middle-center",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
