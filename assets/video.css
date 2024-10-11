@@ -55,6 +55,21 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.video-section-inner-container {
+  display: block;
+}
+
+.video-section-inner-container .video-section {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.full-width-row-full .video-section {
+  border-radius: unset;
+  overflow: auto;
+}
+
 @media only screen and (min-width: 768px) {
   .full-width-row-full .video-section--inner {
     padding: 0 50px;
