@@ -40,7 +40,6 @@
       ],
       "settings": {
         "image": "shopify://shop_images/All_Product_Banner.jpg",
-        "mobile_image": "shopify://shop_images/Halloween_Promotion_Banner_3.jpg",
         "image_parallax": false,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-500",
