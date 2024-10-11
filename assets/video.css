@@ -63,11 +63,13 @@
 .video-section-inner-container .video-section {
   border-radius: 20px;
   overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .full-width-row-full .video-section {
   border-radius: unset;
   overflow: auto;
+  border: none;
 }
 
 @media only screen and (min-width: 768px) {
