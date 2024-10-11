@@ -87,7 +87,7 @@
           "settings": {
             "image": "shopify://shop_images/Halloween_Promotion_1.jpg",
             "mobile_image": "shopify://shop_images/Halloween_Promotion_Banner_1.jpg",
-            "slide_link": "shopify://products/yeelight-curtain-lights",
+            "slide_link": "shopify://products/a-yeelight-curtain-lights",
             "video_background": false,
             "badge_text": "",
             "subheading": "",
@@ -208,7 +208,7 @@
         "product_pRzYba": {
           "type": "product",
           "settings": {
-            "product_handle": "yeelight-curtain-lights",
+            "product_handle": "a-yeelight-curtain-lights",
             "x_position": 65,
             "y_position": 45,
             "x_position_mobile": 31,
@@ -285,7 +285,7 @@
         "product_yNmiLw": {
           "type": "product",
           "settings": {
-            "product_handle": "yeelight-curtain-lights",
+            "product_handle": "a-yeelight-curtain-lights",
             "x_position": 33,
             "y_position": 57,
             "x_position_mobile": 20,
@@ -340,7 +340,7 @@
         "product_3Y3bwR": {
           "type": "product",
           "settings": {
-            "product_handle": "yeelight-curtain-lights",
+            "product_handle": "a-yeelight-curtain-lights",
             "x_position": 76,
             "y_position": 57,
             "x_position_mobile": 61,
