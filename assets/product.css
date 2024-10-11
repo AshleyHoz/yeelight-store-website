@@ -76,7 +76,7 @@
   font-size: 0.9375rem;
   font-weight: var(--font-body-medium-weight, 500);
   letter-spacing: var(--button-letter-spacing, 0.02em);
-  background: linear-gradient(103deg, #111bff, #fd119e), #ffffff1a;
+  background: #ffffff1a;
   color: var(--solid-button-label, #fff);
   border: 0;
   border-radius: var(--button-border-radius, 6px);
@@ -94,7 +94,7 @@
 @media screen and (hover: hover) {
   .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):hover,
   .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):focus {
-    background: linear-gradient(103deg, #111bff, #fd119e), #ffffff1a;
+    background: #ffffff1a;
     opacity: 0.95;
     color: var(--solid-button-label, #fff);
   }
