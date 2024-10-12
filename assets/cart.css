@@ -360,3 +360,9 @@
 .section-main-cart-white .loading-overlay svg circle {
   stroke: var(--color-product-font);
 }
+
+.section-main-cart-white .field label {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
