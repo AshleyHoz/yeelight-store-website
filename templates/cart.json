@@ -23,7 +23,8 @@
         "show_subcollections": true,
         "color_subcollection_bg": "#ffffff",
         "color_subcollection_text": "#2c2d2e",
-        "display_description": true
+        "display_description": true,
+        "enable_opposite_theme": true
       }
     },
     "main-cart": {
