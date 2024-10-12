@@ -2460,5 +2460,8 @@ h6,
 
 .product-form .single-add-to-cart-button:hover {
   background: #fe772d;
+}
+
+.product-form .single-add-to-cart-button:hover .single-add-to-cart-button--text {
   color: #ffffff;
 }
