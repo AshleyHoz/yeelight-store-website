@@ -2453,9 +2453,12 @@ h6,
   font-weight: 500;
   line-height: 15px;
 }
-.product-form .single-add-to-cart-button:hover {
-  background: rgba(254, 119, 45, 0.1);
-}
+
 .product-form .single-add-to-cart-button--text {
   color: #fe772d;
+}
+
+.product-form .single-add-to-cart-button:hover {
+  background: #fe772d;
+  color: #ffffff;
 }

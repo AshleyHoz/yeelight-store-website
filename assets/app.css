@@ -5341,6 +5341,11 @@ input[type='radio'],
   color: #fe772d;
 }
 
+.cart-halloween .order-note-toggle__content button:hover {
+  background: #fe772d;
+  color: #ffffff;
+}
+
 .thb-full-menu .sub-menu {
   transition: all 0.25s ease;
 }
