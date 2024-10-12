@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -22,7 +22,7 @@
         "show_collection_description": true,
         "show_subcollections": true,
         "color_subcollection_bg": "#ffffff",
-        "color_subcollection_text": "#2C2D2E",
+        "color_subcollection_text": "#2c2d2e",
         "display_description": true
       }
     },
@@ -40,7 +40,7 @@
         "mobile_swipe": true,
         "product_limit": 4,
         "columns_desktop": 4,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     }
