@@ -209,7 +209,18 @@
   margin-right: 7px;
   width: 14px;
   height: 14px;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.facets .thb-filter-content input[type='checkbox'],
+.facets .thb-filter-content input[type='radio'] {
+  margin-right: 7px;
+  width: 14px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.facets .thb-filter-content input[type='checkbox']:checked {
+  background: #4cd41a;
 }
 [dir='rtl'] .facets .thb-filter-content input[type='checkbox'],
 [dir='rtl'] .facets .thb-filter-content input[type='radio'] {

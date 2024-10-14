@@ -4329,9 +4329,6 @@ select.resize-select {
 .custom-checkbox[type='checkbox']:checked {
   background: var(--color-accent);
 }
-.custom-checkbox-switch[type='checkbox']:checked {
-  background: #4cd41a;
-}
 .custom-checkbox[type='checkbox']:checked:after {
   transform: translateX(24px);
 }
