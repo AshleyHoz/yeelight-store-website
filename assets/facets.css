@@ -361,7 +361,7 @@
   position: relative;
 }
 .price_range .price_slider_amount__single .field-currency {
-  font-size: 0.8125rem;
+  font-size: 14px;
   position: absolute;
   display: flex;
   align-items: center;
