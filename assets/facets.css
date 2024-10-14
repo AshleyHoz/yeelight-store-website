@@ -211,15 +211,7 @@
   height: 14px;
   background: rgba(255, 255, 255, 0.2);
 }
-
-.facets .thb-filter-content input[type='checkbox'],
-.facets .thb-filter-content input[type='radio'] {
-  margin-right: 7px;
-  width: 14px;
-  height: 14px;
-  background: rgba(255, 255, 255, 0.2);
-}
-.facets .thb-filter-content input[type='checkbox']:checked {
+.facets .custom-checkbox-switch[type='checkbox']:checked {
   background: #4cd41a;
 }
 [dir='rtl'] .facets .thb-filter-content input[type='checkbox'],
@@ -344,13 +336,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.5;
   top: 0;
   left: 0;
   width: 30px;
   height: 100%;
   text-align: center;
-  color: #fff;
 }
 .price_range .price_slider_amount__single input {
   padding-left: 30px;
