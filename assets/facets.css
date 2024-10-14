@@ -211,10 +211,26 @@
   height: 14px;
 }
 .facets .custom-filter-checkbox[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   background: transparent;
+  border: 1px solid #767676;
 }
-.facets .custom-filter-checkbox:disabled {
+.facets .custom-filter-checkbox[type='checkbox']:disabled {
   background: #3b3b3b;
+}
+.facets .custom-checkbox-switch[type='checkbox']:checked {
+  background: #0075ff;
+  position: relative;
+}
+.facets .custom-checkbox-switch[type='checkbox']:checked::before {
+  content: '✔';
+  position: absolute;
+  top: 0;
+  left: 2px;
+  font-size: 16px;
+  color: #ffffff;
 }
 .facets .custom-checkbox-switch[type='checkbox'] {
   background: rgba(255, 255, 255, 0.2);
