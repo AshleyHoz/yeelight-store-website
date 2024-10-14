@@ -154,7 +154,10 @@
 .facets .thb-filter {
   width: 100%;
   position: relative;
-  border-bottom: 1px solid var(--color-border, #dadce0);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.facets__wrapper collapsible-row:last-child .thb-filter {
+  border-bottom: none;
 }
 .facets .thb-filter-title {
   letter-spacing: -0.02em;
@@ -206,6 +209,7 @@
   margin-right: 7px;
   width: 14px;
   height: 14px;
+  background: transparent;
 }
 [dir='rtl'] .facets .thb-filter-content input[type='checkbox'],
 [dir='rtl'] .facets .thb-filter-content input[type='radio'] {
@@ -300,6 +304,11 @@
   padding: 11px 13px;
   flex: 1;
   width: 0;
+  border-radius: 6px;
+  border: 1px solid #4a4a4a;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
 }
 .price_range .price_slider_amount input:-moz-placeholder {
   color: rgba(var(--color-body-rgb), 0.3);
@@ -330,6 +339,7 @@
   width: 30px;
   height: 100%;
   text-align: center;
+  color: #fff;
 }
 .price_range .price_slider_amount__single input {
   padding-left: 30px;
@@ -352,7 +362,7 @@
 .price_slider .noUi-base,
 .price_slider .noUi-connects {
   height: 4px;
-  background: var(--color-border, #dadce0);
+  background: rgba(255, 255, 255, 0.2);
   position: relative;
   margin-bottom: 25px;
   border-radius: 2px;
