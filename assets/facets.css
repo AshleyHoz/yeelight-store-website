@@ -209,6 +209,14 @@
   margin-right: 7px;
   width: 14px;
   height: 14px;
+}
+.facets .custom-filter-checkbox[type='checkbox'] {
+  background: transparent;
+}
+.facets .custom-filter-checkbox:disabled {
+  background: #3b3b3b;
+}
+.facets .custom-checkbox-switch[type='checkbox'] {
   background: rgba(255, 255, 255, 0.2);
 }
 .facets .custom-checkbox-switch[type='checkbox']:checked {
