@@ -2392,7 +2392,8 @@ h6,
 .section-product-white .complementary-products--heading,
 .section-product-white .product-short-description,
 .section-product-white .product-add-to-cart-sticky,
-.section-product-white .product-add-to-cart-sticky button {
+.section-product-white .product-add-to-cart-sticky button,
+.section-product-white .product--text {
   color: var(--color-product-font);
 }
 
