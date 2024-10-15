@@ -26,6 +26,9 @@
 .shop-the-look--area img {
   width: 100%;
 }
+.shop-the-look .slideshow {
+  background: transparent;
+}
 /* .shop-the-look--full-width-false {
   overflow: hidden;
 } */
