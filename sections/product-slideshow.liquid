@@ -141,7 +141,7 @@
                     -%}
                     <img
                       data-src="{{ image | image_url }}"
-                      class="lazyload {{ class }}{% unless settings.lazy_loading %} no-blur{% endunless %}"
+                      class=" {{ class }}{% unless settings.lazy_loading %} no-blur{% endunless %}"
                       width="{{ image.src.width }}"
                       height="{{ image.src.height }}"
                       alt="{{ image.alt }}"
@@ -158,7 +158,7 @@
                     -%}
                     <img
                       data-src="{{ image | image_url }}"
-                      class="lazyload slideshow-image--mobile{% unless settings.lazy_loading %} no-blur{% endunless %}"
+                      class=" slideshow-image--mobile{% unless settings.lazy_loading %} no-blur{% endunless %}"
                       width="{{ image.src.width }}"
                       height="{{ image.src.height }}"
                       alt="{{ image.alt }}"

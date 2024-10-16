@@ -589,8 +589,7 @@
     display: none;
   }
 
-  .section-product-slideshow .slideshow_inner,
-  .section-product-slideshow .slideshow__slide {
+  .section-product-slideshow .slideshow_inner {
     height: 220px;
   }
 
