@@ -593,6 +593,10 @@
     height: 220px;
   }
 
+  .section-product-slideshow .slideshow__slide {
+    height: 220px;
+  }
+
   .section-product-slideshow .slideshow .flickity-viewport {
     position: absolute;
     top: 0;
