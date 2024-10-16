@@ -10,7 +10,7 @@
     {%- when 'text' -%}
       {%- if block.settings.link != blank -%}
         <a
-          href="{{section.settings.link}}"
+          href="{{block.settings.link}}"
           class="product--text {{ block.settings.text_style }} {%if block.settings.text_type == 'type_file'%}product--text-file{% endif %}"
           {{ block.shopify_attributes }}
           target="_blank"
