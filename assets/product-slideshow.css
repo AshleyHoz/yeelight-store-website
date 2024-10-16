@@ -634,6 +634,6 @@
   }
 
   .section-product-slideshow {
-    display: none;
+    display: block;
   }
 }
