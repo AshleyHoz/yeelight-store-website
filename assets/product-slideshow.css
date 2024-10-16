@@ -631,6 +631,7 @@
   .section-product-slideshow .slideshow__slide {
     width: 90%;
     height: 90%;
+    height: 220px !important;
   }
 
   .section-product-slideshow {
