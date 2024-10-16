@@ -2381,7 +2381,7 @@ table.no-borders tfoot td:first-child {
 }
 .side-panel-content--search-footer {
   padding: 25px 30px;
-  border-top: 1px solid var(--color-border, #dadce0);
+  border-top: 1px solid #2a2a2a;
   margin-top: auto;
 }
 .side-panel-content .button {
