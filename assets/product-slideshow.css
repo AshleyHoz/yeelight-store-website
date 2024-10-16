@@ -590,6 +590,7 @@
   }
 
   .section-product-slideshow .slideshow_inner {
+    width: 350px;
     height: 220px;
   }
 
@@ -631,7 +632,6 @@
   .section-product-slideshow .slideshow__slide {
     width: 90%;
     height: 90%;
-    height: 220px !important;
   }
 
   .section-product-slideshow {
