@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -121,6 +121,15 @@
             "block_heading": "Pairs well with",
             "product_list_limit": 3
           }
+        },
+        "text_PBYMnA": {
+          "type": "text",
+          "settings": {
+            "text": "Product manual (PDF)",
+            "link": "https://cdn.shopify.com/s/files/1/0744/6849/1548/files/Manual-Yeelight_Permanent_Light-15M.pdf?v=1729046143",
+            "text_type": "type_file",
+            "text_style": "style_vendor"
+          }
         }
       },
       "block_order": [
@@ -136,7 +145,8 @@
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
         "d56924f2-0137-4e3b-8c33-49b1f28391c6",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
-        "fc6da228-45eb-4a6e-aa68-d6ec477bec34"
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34",
+        "text_PBYMnA"
       ],
       "settings": {
         "enable_sticky_add_to_cart": true,
@@ -502,6 +512,27 @@
         "disable_bottom_spacing": true
       }
     },
+    "1712003137212dc6f8": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_c8aEVF": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
+      "settings": {
+      }
+    },
     "single_image_FGkhTr": {
       "type": "single-image",
       "settings": {
@@ -772,27 +803,6 @@
         "color_border": "#827471",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
-      }
-    },
-    "1712003137212dc6f8": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_section_c8aEVF": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "limit": 20,
-            "hide_thumbnails": false,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_c8aEVF"
-      ],
-      "settings": {
       }
     },
     "product-recommendations": {
