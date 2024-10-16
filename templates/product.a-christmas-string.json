@@ -265,7 +265,7 @@
         "video_autoplay": true,
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "halloween_skull_flag": false
       }
