@@ -121,6 +121,15 @@
             "block_heading": "Pairs well with",
             "product_list_limit": 3
           }
+        },
+        "text_xWKqKX": {
+          "type": "text",
+          "settings": {
+            "text": "Product manual (PDF)",
+            "link": "https://cdn.shopify.com/s/files/1/0744/6849/1548/files/Manual-Yeelight_Christmas_String_Light-20M.pdf?v=1729046145",
+            "text_type": "type_file",
+            "text_style": "style_vendor"
+          }
         }
       },
       "block_order": [
@@ -136,7 +145,8 @@
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
         "d56924f2-0137-4e3b-8c33-49b1f28391c6",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
-        "fc6da228-45eb-4a6e-aa68-d6ec477bec34"
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34",
+        "text_xWKqKX"
       ],
       "settings": {
         "enable_sticky_add_to_cart": true,
