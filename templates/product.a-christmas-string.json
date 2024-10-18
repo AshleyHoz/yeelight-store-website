@@ -244,7 +244,7 @@
       "settings": {
         "title": "Yeelight RGBIC LED Basic Strip Lights",
         "desktop_height": "desktop-height-auto",
-        "mobile_height": "mobile-height-image",
+        "mobile_height": "mobile-height-auto",
         "full_width": false,
         "autoplay": false,
         "autoplay_length": 5,
