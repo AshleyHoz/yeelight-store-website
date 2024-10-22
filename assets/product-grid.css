@@ -1014,6 +1014,7 @@
     width: 44px;
     height: 34px;
     border-radius: 8px;
+    padding: 0;
   }
 
   .product-card--add-to-cart-button .product-card--add-to-cart-text svg {
