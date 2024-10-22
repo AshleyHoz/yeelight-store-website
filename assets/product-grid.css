@@ -507,6 +507,7 @@
 
 .product-card--add-to-cart-button-wrapper {
   margin-top: 0;
+  margin-right: 10px;
 }
 .product-card--add-to-cart-button .spinner {
   position: absolute;
@@ -788,6 +789,7 @@
 
 .halloween-shop-container {
   cursor: pointer;
+  width: 100%;
 }
 
 .halloween-shop-container-mobile {
