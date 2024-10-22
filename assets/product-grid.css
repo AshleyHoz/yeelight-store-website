@@ -500,6 +500,8 @@
   border-radius: 14px;
   border: 1px solid #fe772d;
   background: rgba(254, 119, 45, 0.1) !important;
+  height: auto;
+  padding: 9px 0;
 }
 .product-card--add-to-cart-button:hover {
   background: #ff4800 !important;
