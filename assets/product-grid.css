@@ -205,9 +205,13 @@
   overflow: hidden;
   height: 100%;
 }
+.product-card .product-opt-wrapper {
+  padding: 16px 30px;
+  display: flex;
+  align-items: center;
+}
 .product-card .product-card-view {
   display: flex;
-  padding: 16px 30px;
   justify-content: center;
   align-items: center;
   align-self: stretch;
@@ -762,8 +766,11 @@
   width: calc(25% - 20px);
 }
 
-.halloween-shop-container {
+.product-card .product-opt-wrapper-halloween {
   padding: 0 16px 16px;
+}
+
+.halloween-shop-container {
   cursor: pointer;
 }
 
@@ -875,8 +882,11 @@
     text-transform: capitalize;
   }
 
-  .product-card .product-card-view {
+  .product-card .product-opt-wrapper {
     padding: 8px 4px;
+  }
+
+  .product-card .product-card-view {
     color: #fff;
     font-size: 12px;
     font-weight: 400;
@@ -954,13 +964,16 @@
     width: calc(50% - 6px);
   }
 
+  .product-card .product-opt-wrapper-halloween {
+    padding: 0 12px 12px;
+  }
+
   .halloween-shop-container {
     display: none;
   }
 
   .halloween-shop-container-mobile {
     cursor: pointer;
-    padding: 0 12px 12px;
     display: block;
   }
 
