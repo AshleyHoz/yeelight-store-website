@@ -501,7 +501,9 @@
   border-radius: 14px;
   border: 1px solid #fe772d;
   background: rgba(254, 119, 45, 0.1) !important;
-  padding: 9px 0;
+}
+.product-card--add-to-cart-button .ic-cart-halloween,
+.product-card--add-to-cart-button .ic-cart-halloween {
   display: flex;
   align-items: center;
   justify-content: center;
