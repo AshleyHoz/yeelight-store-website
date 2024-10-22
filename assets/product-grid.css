@@ -1012,4 +1012,9 @@
     height: 34px;
     border-radius: 8px;
   }
+
+  .product-card--add-to-cart-button-wrapper {
+    margin-top: 0;
+    margin-right: 6px;
+  }
 }
