@@ -496,11 +496,11 @@
   font-size: 0.8125rem;
   margin-top: 0 !important;
   width: 75px;
+  height: 50px;
   /* border-radius: calc(var(--block-border-radius, 16px) / 2); */
   border-radius: 14px;
   border: 1px solid #fe772d;
   background: rgba(254, 119, 45, 0.1) !important;
-  height: auto;
   padding: 9px 0;
 }
 .product-card--add-to-cart-button:hover {
@@ -802,7 +802,7 @@
   width: 100%;
   border-radius: 14px;
   position: relative;
-  padding: 16px;
+  padding: 12.5px 16px;
 }
 
 .halloween-shop {
