@@ -203,7 +203,7 @@
         -%}
         <div class="product-card--add-to-cart-button-wrapper">
           <{{ button_tag }}
-            class="product-card--add-to-cart-button{% if is_purchasable %} product-card--add-to-cart-button-simple{% endif %} button accent"
+            class="product-card--add-to-cart-button {% if is_purchasable %} product-card--add-to-cart-button-simple{% endif %} button accent"
             data-product-id="{{ product_card_product.selected_or_first_available_variant.id }}"
             data-product-handle="{{ product_card_product.handle }}"
             tabindex="-1"
@@ -212,8 +212,15 @@
             {% endif %}
           >
             {% render 'svg-icons' with 'thb-loading' %}
-            <span class="product-card--add-to-cart-text">{{ button_content }}</span>
-            {% render 'svg-icons' with 'custom-cart-halloween' %}
+            <span class="product-card--add-to-cart-text">
+              <div class="ic-cart-halloween">
+                {% render 'svg-icons' with 'custom-cart-halloween' %}
+              </div>
+              <div class="ic-cart">
+                {% render 'svg-icons' with 'custom-cart' %}
+              </div>
+              {% comment %} {{ button_content }} {% endcomment %}
+            </span>
           </{{ button_tag }}>
         </div>
       {%- endif -%}
@@ -224,9 +231,11 @@
           class="halloween-shop-container"
         >
           <div class="image-product-halloween-shop">
-            <span class="halloween-shop-hand">
-              {%- render 'svg-icons' with 'custom-halloween-shop-hand' -%}
-            </span>
+            {% comment %}
+              <span class="halloween-shop-hand">
+                {%- render 'svg-icons' with 'custom-halloween-shop-hand' -%}
+              </span>
+            {% endcomment %}
             <div class="halloween-shop">
               {%- render 'svg-icons' with 'custom-halloween-shop' -%}
             </div>
