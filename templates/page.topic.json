@@ -52,12 +52,33 @@
         "product_peqag6": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_qAnrKb": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_rqy9gx": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_P6BFVN": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-rgbic-led-basic-strip-lights"
           }
         }
       },
       "block_order": [
-        "product_peqag6"
+        "product_peqag6",
+        "product_qAnrKb",
+        "product_rqy9gx",
+        "product_P6BFVN"
       ],
       "settings": {
         "title": "",
