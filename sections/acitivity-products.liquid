@@ -1,22 +1,23 @@
 {{ 'acitivity-products.css' | asset_url | stylesheet_tag }}
 {{ 'product-grid.css' | asset_url | stylesheet_tag }}
 {%- liquid
-  assign section_title = section.settings.title
-  assign conver_image = section.settings.image
-  assign mobile_cover_image = section.settings.image_mobile
-  assign section_reverse = section.settings.reverse
   assign background_image = section.settings.background_image
-  assign halloween_hand_flag = section.settings.halloween_hand_flag
+  assign background_image_mobile = section.settings.background_image_mobile
 -%}
 
 <div class="acitivity-products {% if settings.halloween_flag  %} activity-products-halloween {% endif %}">
   <div class="acitivity-products--img">
-    {%- render 'svg-icons' with 'custom-halloween-moon' -%}
     <div class="mobile-cover-img">
-      {%- render 'svg-icons' with 'custom-activity-halloween-mobile' -%}
+      {%- if background_image_mobile -%}
+        {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
+      {%- endif -%}
+      {% comment %} {%- render 'svg-icons' with 'custom-activity-halloween-mobile' -%} {% endcomment %}
     </div>
     <div class="cover-img">
-      {%- render 'svg-icons' with 'custom-activity-halloween' -%}
+      {%- if background_image -%}
+        {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+      {%- endif -%}
+      {% comment %} {%- render 'svg-icons' with 'custom-activity-halloween' -%} {% endcomment %}
     </div>
   </div>
   <div class="row activity-products-row">
