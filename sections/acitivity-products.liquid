@@ -1,4 +1,4 @@
-{{ 'acitivity-image-products.css' | asset_url | stylesheet_tag }}
+{{ 'acitivity-products.css' | asset_url | stylesheet_tag }}
 {{ 'product-grid.css' | asset_url | stylesheet_tag }}
 {%- liquid
   assign section_title = section.settings.title
@@ -9,7 +9,7 @@
   assign halloween_hand_flag = section.settings.halloween_hand_flag
 -%}
 
-<div class="acitivity-image-products">
+<div class="acitivity-products">
   {%- if settings.halloween_flag -%}
     <div class="image-product-bg">
       {% comment %}
@@ -35,13 +35,13 @@
     <div class="{% if settings.halloween_flag %} image-product-halloween-header{% endif %} image-product-header">
       {% render 'section-header', section_heading: section_title %}
     </div>
-    <div class="acitivity-image-products-container {{section_reverse}}">
+    <div class="acitivity-products-container {{section_reverse}}">
       {%- if settings.halloween_flag and halloween_hand_flag -%}
         <div class="image-product-halloween-hand">
           {%- render 'svg-icons' with 'custom-halloween-hand' -%}
         </div>
       {%- endif -%}
-      <div class="acitivity-image-products--img">
+      <div class="acitivity-products--img">
         <div class="mobile-cover-img">
           {% assign master_width = mobile_cover_image.src.width | append: 'x' | append: mobile_cover_image.src.height %}
           {% render 'responsive-image', image: mobile_cover_image, sizes: master_width %}
@@ -51,7 +51,7 @@
           {% render 'responsive-image', image: conver_image, sizes: master_width %}
         </div>
       </div>
-      <div class="acitivity-image-products--product">
+      <div class="acitivity-products--product">
         {% for block in section.blocks %}
           <div class="product-item">
             {% render 'product-card', product_card_product: block.settings.product %}
@@ -65,7 +65,7 @@
 {% schema %}
 {
   "name": "Image Products",
-  "class": "section-acitivity-image-products",
+  "class": "section-acitivity-products",
   "settings": [
     {
       "type": "text",
