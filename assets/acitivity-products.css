@@ -1,0 +1,23 @@
+.activity-products-row {
+  position: relative;
+}
+
+.acitivity-products--img {
+  position: absolute;
+  top: 30px;
+  margin: 0 auto;
+}
+
+.acitivity-products--img .mobile-cover-img {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .acitivity-products--img .mobile-cover-img {
+    display: block;
+  }
+
+  .acitivity-products--img .cover-img {
+    display: none;
+  }
+}

@@ -10,55 +10,65 @@
 -%}
 
 <div class="acitivity-products">
-  {%- if settings.halloween_flag -%}
-    <div class="image-product-bg">
-      {% comment %}
-        {%- if background_image -%}
-          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-        {%- endif -%}
-      {% endcomment %}
-      <div class="image-product-bg-icons">
-        <div class="ic-moon">
-          {%- render 'svg-icons' with 'custom-halloween-moon' -%}
-        </div>
-        <div class="ic-spider-web-small">
-          {%- render 'svg-icons' with 'custom-halloween-spider-web-small' -%}
-        </div>
-        <div class="ic-ghost">
-          {%- render 'svg-icons' with 'custom-halloween-ghost' -%}
+  {% comment %}
+    {%- if settings.halloween_flag -%}
+      <div class="image-product-bg">
+          {%- if background_image -%}
+            {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+          {%- endif -%}
+        <div class="image-product-bg-icons">
+          <div class="ic-moon">
+            {%- render 'svg-icons' with 'custom-halloween-moon' -%}
+          </div>
+          <div class="ic-spider-web-small">
+            {%- render 'svg-icons' with 'custom-halloween-spider-web-small' -%}
+          </div>
+          <div class="ic-ghost">
+            {%- render 'svg-icons' with 'custom-halloween-ghost' -%}
+          </div>
         </div>
       </div>
-    </div>
-  {%- endif -%}
+    {%- endif -%}
+  {% endcomment %}
 
-  <div class="row image-product-row">
-    <div class="{% if settings.halloween_flag %} image-product-halloween-header{% endif %} image-product-header">
-      {% render 'section-header', section_heading: section_title %}
-    </div>
-    <div class="acitivity-products-container {{section_reverse}}">
+  <div class="row activity-products-row">
+    {% comment %}
+      <div class="{% if settings.halloween_flag %} image-product-halloween-header{% endif %} image-product-header">
+        {% render 'section-header', section_heading: section_title %}
+      </div>
+    {% endcomment %}
+    {% comment %} <div class="acitivity-products-container {{section_reverse}}"> {% endcomment %}
+    {% comment %}
       {%- if settings.halloween_flag and halloween_hand_flag -%}
         <div class="image-product-halloween-hand">
           {%- render 'svg-icons' with 'custom-halloween-hand' -%}
         </div>
       {%- endif -%}
-      <div class="acitivity-products--img">
-        <div class="mobile-cover-img">
-          {% assign master_width = mobile_cover_image.src.width | append: 'x' | append: mobile_cover_image.src.height %}
-          {% render 'responsive-image', image: mobile_cover_image, sizes: master_width %}
-        </div>
-        <div class="cover-img">
-          {% assign master_width = conver_image.src.width | append: 'x' | append: conver_image.src.height %}
-          {% render 'responsive-image', image: conver_image, sizes: master_width %}
-        </div>
+    {% endcomment %}
+    <div class="acitivity-products--img">
+      <div class="mobile-cover-img">
+        {%- render 'svg-icons' with 'custom-activity-halloween-mobile' -%}
       </div>
-      <div class="acitivity-products--product">
-        {% for block in section.blocks %}
-          <div class="product-item">
-            {% render 'product-card', product_card_product: block.settings.product %}
-          </div>
-        {% endfor %}
+      <div class="cover-img">
+        {%- render 'svg-icons' with 'custom-activity-halloween' -%}
       </div>
     </div>
+    <div class="acitivity-products--img2">
+      <div class="mobile-cover-img">
+        {%- render 'svg-icons' with 'custom-halloween-moon' -%}
+      </div>
+      <div class="cover-img">
+        {%- render 'svg-icons' with 'custom-halloween-moon' -%}
+      </div>
+    </div>
+    <div class="acitivity-products--product">
+      {% for block in section.blocks %}
+        <div class="product-item">
+          {% render 'product-card', product_card_product: block.settings.product %}
+        </div>
+      {% endfor %}
+    </div>
+    {% comment %} </div> {% endcomment %}
   </div>
 </div>
 
