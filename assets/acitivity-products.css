@@ -1,5 +1,6 @@
 .activity-products-row {
   position: relative;
+  background: #090538;
 }
 
 .acitivity-products--img {
@@ -17,6 +18,7 @@
   gap: 24px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .activity-products-row .acitivity-products--product .product-item {
