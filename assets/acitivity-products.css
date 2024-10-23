@@ -9,7 +9,9 @@
 .acitivity-products--img {
   position: absolute;
   top: 30px;
-  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
   max-width: 1750px;
 }
 
