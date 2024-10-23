@@ -119,7 +119,7 @@
 
 @media only screen and (max-width: 767px) {
   .image-products {
-    padding: 0;
+    padding: 40px 0;
     background: #090538;
   }
 
