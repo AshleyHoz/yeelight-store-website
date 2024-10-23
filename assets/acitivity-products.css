@@ -12,6 +12,10 @@
   display: none;
 }
 
+.activity-products-row .acitivity-products--product {
+  margin-top: 820px;
+}
+
 @media only screen and (max-width: 767px) {
   .acitivity-products--img .mobile-cover-img {
     display: block;
