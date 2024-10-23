@@ -9,7 +9,7 @@
   assign halloween_hand_flag = section.settings.halloween_hand_flag
 -%}
 
-<div class="acitivity-products">
+<div class="acitivity-products {% if settings.halloween_flag  %} activity-products-halloween {% endif %}">
   {% comment %}
     {%- if settings.halloween_flag -%}
       <div class="image-product-bg">

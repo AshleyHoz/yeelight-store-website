@@ -1,6 +1,9 @@
 .acitivity-products {
-  background: #090538;
   position: relative;
+}
+
+.activity-products-halloween {
+  background: #090538;
 }
 
 .acitivity-products--img {
