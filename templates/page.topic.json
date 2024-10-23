@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -30,10 +30,10 @@
         "heading_GeKdfB"
       ],
       "settings": {
-        "image": "shopify://shop_images/TopicOutdoorBg.png",
-        "mobile_image": "shopify://shop_images/TopicOutdoorBgMobile.png",
+        "image": "shopify://shop_images/TopicOutdoorHalloweenBg.png",
+        "mobile_image": "shopify://shop_images/TopicOutdoorHalloweenBgMobile.png",
         "image_parallax": false,
-        "desktop_height": "desktop-height-650",
+        "desktop_height": "desktop-height-550",
         "mobile_height": "mobile-height-500",
         "full_width": true,
         "content_width": "medium",
