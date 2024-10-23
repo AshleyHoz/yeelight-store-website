@@ -30,7 +30,15 @@
       </div>
     {%- endif -%}
   {% endcomment %}
-
+  <div class="acitivity-products--img">
+    {%- render 'svg-icons' with 'custom-activity-halloween' -%}
+    <div class="mobile-cover-img">
+      {%- render 'svg-icons' with 'custom-activity-halloween-mobile' -%}
+    </div>
+    <div class="cover-img">
+      {%- render 'svg-icons' with 'custom-activity-halloween' -%}
+    </div>
+  </div>
   <div class="row activity-products-row">
     {% comment %}
       <div class="{% if settings.halloween_flag %} image-product-halloween-header{% endif %} image-product-header">
@@ -45,16 +53,7 @@
         </div>
       {%- endif -%}
     {% endcomment %}
-    <div class="acitivity-products--img">
-      {%- render 'svg-icons' with 'custom-activity-halloween' -%}
 
-      <div class="mobile-cover-img">
-        {%- render 'svg-icons' with 'custom-activity-halloween-mobile' -%}
-      </div>
-      <div class="cover-img">
-        {%- render 'svg-icons' with 'custom-activity-halloween' -%}
-      </div>
-    </div>
     <div class="acitivity-products--product">
       {% for block in section.blocks %}
         <div class="product-item">

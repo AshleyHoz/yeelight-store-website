@@ -1,8 +1,5 @@
 .acitivity-products {
   background: #090538;
-}
-
-.activity-products-row {
   position: relative;
 }
 
@@ -10,6 +7,7 @@
   position: absolute;
   top: 30px;
   margin: 0 auto;
+  max-width: 1750px;
 }
 
 .acitivity-products--img .mobile-cover-img {
