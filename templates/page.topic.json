@@ -46,6 +46,25 @@
         "disable_bottom_spacing": false
       }
     },
+    "acitivity_products_fXpX3E": {
+      "type": "acitivity-products",
+      "blocks": {
+        "product_peqag6": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_peqag6"
+      ],
+      "settings": {
+        "title": "",
+        "reverse": "row-regular",
+        "halloween_hand_flag": false
+      }
+    },
     "custom_liquid_4Fk7Mk": {
       "type": "image-products",
       "blocks": {
@@ -80,8 +99,9 @@
         "product_wG8iCm",
         "product_BTfM4U"
       ],
+      "disabled": true,
       "settings": {
-        "title": "Transform the Outdoors for <span>Every Occasion</span>",
+        "title": "Transform the Outdoors for Every Occasion",
         "image": "shopify://shop_images/TopicOutdoorHalloween.png",
         "image_mobile": "shopify://shop_images/TopicOutdoorHalloweenMobile.png",
         "reverse": "row",
@@ -363,6 +383,7 @@
   "order": [
     "main",
     "image_with_text_overlay_EHXcMN",
+    "acitivity_products_fXpX3E",
     "custom_liquid_4Fk7Mk",
     "video_eWFAYi",
     "rich_text_Wf7KbW",
