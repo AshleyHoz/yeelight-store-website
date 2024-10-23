@@ -10,26 +10,6 @@
 -%}
 
 <div class="acitivity-products {% if settings.halloween_flag  %} activity-products-halloween {% endif %}">
-  {% comment %}
-    {%- if settings.halloween_flag -%}
-      <div class="image-product-bg">
-          {%- if background_image -%}
-            {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-          {%- endif -%}
-        <div class="image-product-bg-icons">
-          <div class="ic-moon">
-            {%- render 'svg-icons' with 'custom-halloween-moon' -%}
-          </div>
-          <div class="ic-spider-web-small">
-            {%- render 'svg-icons' with 'custom-halloween-spider-web-small' -%}
-          </div>
-          <div class="ic-ghost">
-            {%- render 'svg-icons' with 'custom-halloween-ghost' -%}
-          </div>
-        </div>
-      </div>
-    {%- endif -%}
-  {% endcomment %}
   <div class="acitivity-products--img">
     {%- render 'svg-icons' with 'custom-halloween-moon' -%}
     <div class="mobile-cover-img">
@@ -40,20 +20,6 @@
     </div>
   </div>
   <div class="row activity-products-row">
-    {% comment %}
-      <div class="{% if settings.halloween_flag %} image-product-halloween-header{% endif %} image-product-header">
-        {% render 'section-header', section_heading: section_title %}
-      </div>
-    {% endcomment %}
-    {% comment %} <div class="acitivity-products-container {{section_reverse}}"> {% endcomment %}
-    {% comment %}
-      {%- if settings.halloween_flag and halloween_hand_flag -%}
-        <div class="image-product-halloween-hand">
-          {%- render 'svg-icons' with 'custom-halloween-hand' -%}
-        </div>
-      {%- endif -%}
-    {% endcomment %}
-
     <div class="acitivity-products--product">
       {% for block in section.blocks %}
         <div class="product-item">
@@ -61,7 +27,6 @@
         </div>
       {% endfor %}
     </div>
-    {% comment %} </div> {% endcomment %}
   </div>
 </div>
 
