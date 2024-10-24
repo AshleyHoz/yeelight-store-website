@@ -30,10 +30,10 @@
         "heading_GeKdfB"
       ],
       "settings": {
-        "image": "shopify://shop_images/TopicOutdoorHalloweenBg.png",
+        "image": "shopify://shop_images/TopicOutdoorBg.png",
         "mobile_image": "shopify://shop_images/TopicOutdoorHalloweenBgMobile.png",
         "image_parallax": false,
-        "desktop_height": "desktop-height-550",
+        "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
         "full_width": true,
         "content_width": "medium",
@@ -80,6 +80,7 @@
         "product_rqy9gx",
         "product_P6BFVN"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "image": "shopify://shop_images/TopicOutdoorHalloweenInfo.png",
@@ -124,7 +125,6 @@
         "product_wG8iCm",
         "product_BTfM4U"
       ],
-      "disabled": true,
       "settings": {
         "title": "Transform the Outdoors for Every Occasion",
         "image": "shopify://shop_images/TopicOutdoorHalloween.png",
