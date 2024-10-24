@@ -2474,6 +2474,16 @@ h6,
   background: var(--color-product-bg);
 }
 
+.section-product-white .flickity-page-dots .dot.is-selected {
+  background: #2c2d2e;
+  opacity: 1;
+}
+
+.section-product-white .flickity-page-dots .dot {
+  background: #2c2d2e;
+  opacity: 0.2;
+}
+
 .product-form .single-add-to-cart-halloween {
   border-radius: 25px;
   border: 1px solid #fe772d;

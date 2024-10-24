@@ -5120,11 +5120,12 @@ https://flickity.metafizzy.co
   height: 4px;
   background: rgba(255, 255, 255, 1);
 }
-/* @media (hover: hover) {
+
+@media (hover: hover) {
   .flickity-page-dots .dot:hover {
     opacity: 1;
   }
-} */
+}
 .flickity-page-dots.dot-style--logos {
   display: inline-flex;
   align-items: center;
