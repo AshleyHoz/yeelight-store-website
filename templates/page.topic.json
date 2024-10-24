@@ -82,6 +82,8 @@
       ],
       "settings": {
         "title": "",
+        "image": "shopify://shop_images/TopicOutdoorHalloweenInfo.png",
+        "image_mobile": "shopify://shop_images/TopicOutdoorHalloweenInfoMobile.png",
         "reverse": "row-regular",
         "background_image": "shopify://shop_images/TopicOutdoorCoverHalloween.png",
         "background_image_mobile": "shopify://shop_images/TopicOutdoorCoverHalloweenMobile.png",
