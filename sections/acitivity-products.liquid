@@ -8,20 +8,30 @@
 -%}
 
 <div class="acitivity-products {% if settings.halloween_flag  %} activity-products-halloween {% endif %}">
-  <div class="acitivity-products--img">
-    <div class="mobile-cover-img">
-      {%- if background_image_mobile -%}
-        {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
-      {%- endif -%}
+  <div class="acitivity-products-bg">
+    <div class="acitivity-products-bg-icons">
+      <div class="ic-spider-left">
+        {%- render 'svg-icons-custom' with 'custom-halloween-spider-part-left' -%}
+      </div>
+      <div class="ic-spider-right">
+        {%- render 'svg-icons-custom' with 'custom-halloween-spider-part-right' -%}
+      </div>
+      <div class="ic-ghost">
+        {%- render 'svg-icons-custom' with 'custom-halloween-ghost' -%}
+      </div>
+      <div class="acitivity-products--img">
+        <div class="mobile-cover-img">
+          {%- if background_image_mobile -%}
+            {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
+          {%- endif -%}
+        </div>
+        <div class="cover-img">
+          {%- if background_image -%}
+            {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+          {%- endif -%}
+        </div>
+      </div>
     </div>
-    <div class="cover-img">
-      {%- if background_image -%}
-        {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-      {%- endif -%}
-    </div>
-  </div>
-  <div class="acitivity-products--icon">
-    {%- render 'svg-icons-custom' with 'custom-halloween-spider-part' -%}
   </div>
   <div class="row activity-products-row">
     <div class="acitivity-products--product">

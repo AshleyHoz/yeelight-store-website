@@ -6,6 +6,22 @@
   background: #090538;
 }
 
+.acitivity-products-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #090538;
+}
+
+.acitivity-products-bg-icons {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
 .acitivity-products--img {
   position: absolute;
   top: 30px;
@@ -15,10 +31,22 @@
   max-width: 1750px;
 }
 
-.acitivity-products--icon {
+.acitivity-products-bg-icons .ic-spider-left {
+  position: absolute;
+  left: 0;
+  bottom: 120px;
+}
+
+.acitivity-products-bg-icons .ic-spider-right {
   position: absolute;
   right: 0;
   top: 650px;
+}
+
+.acitivity-products-bg-icons .ic-ghost {
+  position: absolute;
+  left: 0;
+  bottom: 200px;
 }
 
 .acitivity-products--info {
