@@ -21,13 +21,18 @@
   top: 650px;
 }
 
+.acitivity-products--info {
+  width: 100%;
+  margin: 60px 0;
+}
+
 .acitivity-products--img .mobile-cover-img,
 .acitivity-products--info .mobile-info-img {
   display: none;
 }
 
-.acitivity-products--info {
-  width: 100%;
+.acitivity-products--info .info-img {
+  width: 60%;
 }
 
 .acitivity-products--info .info-img,
