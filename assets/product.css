@@ -2218,6 +2218,10 @@ h6,
     flex: 0 0 100%;
     max-width: 100%;
   }
+
+  .product-image-container scroll-shadow {
+    display: none;
+  }
 }
 
 .product-card-small {
@@ -2490,4 +2494,10 @@ h6,
 
 .product-form .single-add-to-cart-button:hover .single-add-to-cart-button--text {
   color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .product-image-container scroll-shadow {
+    display: none;
+  }
 }

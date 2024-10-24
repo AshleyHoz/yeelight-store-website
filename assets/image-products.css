@@ -158,8 +158,8 @@
     gap: 12px;
   }
 
-  .product-item {
-    width: calc(50% - 8px);
+  .image-products .product-item {
+    width: calc(50% - 6px);
   }
 
   .image-product-halloween-hand {
