@@ -31,7 +31,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/TopicOutdoorBg.png",
-        "mobile_image": "shopify://shop_images/TopicOutdoorHalloweenBgMobile.png",
+        "mobile_image": "shopify://shop_images/TopicOutdoorBgMobile.png",
         "image_parallax": false,
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-500",
