@@ -31,10 +31,6 @@
   display: none;
 }
 
-.acitivity-products--info .info-img {
-  width: 60%;
-}
-
 .acitivity-products--info .info-img,
 .acitivity-products--info .mobile-info-img {
   width: 100%;
@@ -44,6 +40,10 @@
 .acitivity-products--info .info-img img,
 .acitivity-products--info .mobile-info-img img {
   margin: 0 auto;
+}
+
+.acitivity-products--info .info-img {
+  width: 60%;
 }
 
 .activity-products-row .acitivity-products--product {
