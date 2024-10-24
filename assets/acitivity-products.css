@@ -49,6 +49,10 @@
   bottom: 200px;
 }
 
+.activity-products-row {
+  z-index: 2;
+}
+
 .acitivity-products--info {
   width: 100%;
   margin: 60px 0;
@@ -80,7 +84,6 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  z-index: 2;
 }
 
 .activity-products-row .acitivity-products--product .product-item {
