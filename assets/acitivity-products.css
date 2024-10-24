@@ -50,6 +50,7 @@
 }
 
 .activity-products-row {
+  position: relative;
   z-index: 2;
 }
 
