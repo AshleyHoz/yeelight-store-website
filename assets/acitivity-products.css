@@ -15,6 +15,12 @@
   max-width: 1750px;
 }
 
+.acitivity-products--icon {
+  position: absolute;
+  right: 0;
+  top: 600px;
+}
+
 .acitivity-products--img .mobile-cover-img {
   display: none;
 }
