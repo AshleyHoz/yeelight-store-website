@@ -89,12 +89,11 @@
 
 .activity-products-row .acitivity-products--product .product-item {
   width: calc(25% - 24px);
-  height: 100%;
 }
 
 @media only screen and (max-width: 767px) {
   .activity-products-row {
-    padding-top: 250px;
+    padding-top: 270px;
   }
 
   .activity-products-row .acitivity-products--product {
