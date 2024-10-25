@@ -1,0 +1,827 @@
+{{ 'shop-the-look-slider.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'product.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'slideshow.js' | asset_url }}" defer="defer"></script>
+{%- liquid
+  assign full_width = section.settings.full_width
+  assign disable_top_spacing = section.settings.disable_top_spacing
+  assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+  assign title = section.settings.title
+  assign section_link = section.settings.link
+  assign footer_title = section.settings.footer_title
+  assign footer_description = section.settings.footer_description
+-%}
+<shop-the-look-slider class="shop-the-look-slider section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+  <div class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-row">
+    <div class="small-12 custom-shop-look-column">
+      {%- if title -%}
+        {% render 'section-header', section_heading: title %}
+      {%- endif -%}
+      {% comment %}
+        {%- if button_1_text and button_2_text and button_3_text and button_4_text and button_5_text -%}
+          <div class="shop-look-buttons">
+            {% assign buttons = '{'
+              | append: "'text': {{button_1_text}}, 'icon': {{button_1_icon}}"
+              | append: '},{'
+              | append: "'text': {{button_2_text}}, 'icon': {{button_2_icon}}"
+              | append: '},{'
+              | append: "'text': {{button_3_text}}, 'icon': {{button_3_icon}}"
+              | append: '},{'
+              | append: "'text': {{button_4_text}}, 'icon': {{button_4_icon}}"
+              | append: '},{'
+              | append: "'text': {{button_5_text}}, 'icon': {{button_5_icon}}"
+              | append: '}'
+              | split: '},{'
+            %}
+            {% assign buttons = buttons | map: 'strip' %}
+            {% for item in buttons %}
+              {% assign button_hash = item | split: ',' %}
+              {{ button_hash }}
+              <li class="shop-look-buttons_item" onclick="onChangeBackground">
+                {% render 'svg-icons' with {{ button_hash[0] | split: ":" | last | strip }} %}
+                {{ button_hash[1] | split: ':' | last | strip }}
+              </li>
+            {% endfor %}
+          </div>
+        {%- endif -%}
+      {% endcomment %}
+      <slide-show
+        class="slideshow main-slideshow slideshow--full-width-true carousel transition--fade desktop-height-image shop-look_slideshow--container"
+        data-autoplay="{{ false }}"
+        data-transition="fade"
+        data-fade="{{ true }}"
+      >
+        {% comment %}
+          {%- if button_1_text != blank
+            or button_2_text != blank
+            or button_3_text != blank
+            or button_4_text != blank
+            or button_5_text != blank
+          -%}
+        {% endcomment %}
+        <div class="shop-look-buttons-container">
+          <div class="shop-look-buttons-container-inner">
+            <div class="shop-look-buttons flickity-custom-dots">
+              <div class="shop-look-buttons-bg"></div>
+              {%- for block in section.blocks -%}
+                {% if block.settings.button_text != blank %}
+                  <li
+                    class="product-slideshow-buttons_item"
+                    data-img="{{block.settings.image}}"
+                    onclick="onChangeBackground"
+                  >
+                    <div class="product-slideshow-buttons_item-content">
+                      {% render 'svg-icons' with block.settings.button_icon %}
+                      <span>{{ block.settings.button_text }}</span>
+                    </div>
+                  </li>
+                {% endif %}
+              {%- endfor -%}
+              {% comment %}
+                {%- for block in section.blocks -%}
+                  {% if block.settings.button_text != blank %}
+                    <li class="shop-look-buttons_item" data-img="{{block.settings.image}}" onclick="onChangeBackground">
+                      <div class="shop-look-buttons_item-content">
+                        {% render 'svg-icons' with block.settings.button_icon %}
+                        <span>{{ block.settings.button_text }}</span>
+                      </div>
+                    </li>
+                  {% endif %}
+                {%- endfor -%}
+              {% endcomment %}
+              {% comment %}
+                {% if button_1_text != blank %}
+                  <li class="shop-look-buttons_item" data-img="{{image_1}}" onclick="onChangeBackground">
+                    <div class="shop-look-buttons_item-content">
+                      {% render 'svg-icons' with button_1_icon %}
+                      <span>{{ button_1_text }}</span>
+                    </div>
+                  </li>
+                {% endif %}
+                {% if button_2_text != blank %}
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
+                    <div class="shop-look-buttons_item-content">
+                      {% render 'svg-icons' with button_2_icon %}
+                      <span>{{ button_2_text }}</span>
+                    </div>
+                  </li>
+                {% endif %}
+                {% if button_3_text != blank %}
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
+                    <div class="shop-look-buttons_item-content">
+                      {% render 'svg-icons' with button_3_icon %}
+                      <span>{{ button_3_text }}</span>
+                    </div>
+                  </li>
+                {% endif %}
+                {% if button_4_text != blank %}
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
+                    <div class="shop-look-buttons_item-content">
+                      {% render 'svg-icons' with button_4_icon %}
+                      <span>{{ button_4_text }}</span>
+                    </div>
+                  </li>
+                {% endif %}
+                {% if button_5_text != blank %}
+                  <li class="shop-look-buttons_item" onclick="onChangeBackground">
+                    <div class="shop-look-buttons_item-content">
+                      {% render 'svg-icons' with button_5_icon %}
+                      <span>{{ button_5_text }}</span>
+                    </div>
+                  </li>
+                {% endif %}
+              {% endcomment %}
+            </div>
+          </div>
+        </div>
+        {% comment %} {%- endif -%} {% endcomment %}
+        <div class="slideshow_inner">
+          <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
+            {% comment %} {% for block in section.blocks %} {% endcomment %}
+            {% if section.blocks[0] %}
+              {%- assign hotspot_product_1 = all_products[block.settings.product_handle_1] -%}
+              <quick-view
+                class="thb-hotspot pin-white"
+                style="left: {{- block.settings.x_position_1 | append: '%' -}}; top: {{- block.settings.y_position_1 | append: '%' -}};"
+                data-product-handle="{{ hotspot_product_1.handle }}"
+              >
+                <div class="thb-hotspot-content thb-pulsate">
+                  {%- unless hotspot_product_1 == empty -%}
+                    <div class="loading-overlay">
+                      {% render 'svg-icons' with 'thb-loading' %}
+                    </div>
+                    <div class="thb-hotspot-arrow"></div>
+                    <div class="thb-hotspot-bubble"></div>
+                    {% if hotspot_product_1.featured_image %}
+                      <a
+                        href="{{ hotspot_product_1.url }}"
+                        title="{{ hotspot_product_1.title | escape }}"
+                        class="thb-hotspot-product-image"
+                      >
+                        {%- render 'responsive-image', image: hotspot_product_1.featured_image, sizes: '150x0' -%}
+                      </a>
+                    {% endif %}
+                    <div class="thb-hotspot-product-content">
+                      <div class="thb-hotspot-product-title">{{ hotspot_product_1.title }}</div>
+                      <div class="thb-hotspot-product-pricebox">
+                        {% render 'product-price', product: hotspot_product_1 %}
+                        <a class="thb-hotspot-product-view" href="{{ hotspot_product_1.url }}">View</a>
+                      </div>
+                    </div>
+                  {%- endunless -%}
+                </div>
+              </quick-view>
+              {%- assign hotspot_product_2 = all_products[block.settings.product_handle_2] -%}
+              <quick-view
+                class="thb-hotspot pin-white"
+                style="left: {{- block.settings.x_position_2 | append: '%' -}}; top: {{- block.settings.y_position_2 | append: '%' -}};"
+                data-product-handle="{{ hotspot_product_2.handle }}"
+              >
+                <div class="thb-hotspot-content thb-pulsate">
+                  {%- unless hotspot_product_2 == empty -%}
+                    <div class="loading-overlay">
+                      {% render 'svg-icons' with 'thb-loading' %}
+                    </div>
+                    <div class="thb-hotspot-arrow"></div>
+                    <div class="thb-hotspot-bubble"></div>
+                    {% if hotspot_product_2.featured_image %}
+                      <a
+                        href="{{ hotspot_product_2.url }}"
+                        title="{{ hotspot_product_2.title | escape }}"
+                        class="thb-hotspot-product-image"
+                      >
+                        {%- render 'responsive-image', image: hotspot_product_2.featured_image, sizes: '150x0' -%}
+                      </a>
+                    {% endif %}
+                    <div class="thb-hotspot-product-content">
+                      <div class="thb-hotspot-product-title">{{ hotspot_product_2.title }}</div>
+                      <div class="thb-hotspot-product-pricebox">
+                        {% render 'product-price', product: hotspot_product_2 %}
+                        <a class="thb-hotspot-product-view" href="{{ hotspot_product_2.url }}">View</a>
+                      </div>
+                    </div>
+                  {%- endunless -%}
+                </div>
+              </quick-view>
+              {%- assign hotspot_product_3 = all_products[block.settings.product_handle_3] -%}
+              <quick-view
+                class="thb-hotspot pin-white"
+                style="left: {{- block.settings.x_position_3 | append: '%' -}}; top: {{- block.settings.y_position_3 | append: '%' -}};"
+                data-product-handle="{{ hotspot_product_3.handle }}"
+              >
+                <div class="thb-hotspot-content thb-pulsate">
+                  {%- unless hotspot_product_3 == empty -%}
+                    <div class="loading-overlay">
+                      {% render 'svg-icons' with 'thb-loading' %}
+                    </div>
+                    <div class="thb-hotspot-arrow"></div>
+                    <div class="thb-hotspot-bubble"></div>
+                    {% if hotspot_product_3.featured_image %}
+                      <a
+                        href="{{ hotspot_product_3.url }}"
+                        title="{{ hotspot_product_3.title | escape }}"
+                        class="thb-hotspot-product-image"
+                      >
+                        {%- render 'responsive-image', image: hotspot_product_3.featured_image, sizes: '150x0' -%}
+                      </a>
+                    {% endif %}
+                    <div class="thb-hotspot-product-content">
+                      <div class="thb-hotspot-product-title">{{ hotspot_product_3.title }}</div>
+                      <div class="thb-hotspot-product-pricebox">
+                        {% render 'product-price', product: hotspot_product_3 %}
+                        <a class="thb-hotspot-product-view" href="{{ hotspot_product_3.url }}">View</a>
+                      </div>
+                    </div>
+                  {%- endunless -%}
+                </div>
+              </quick-view>
+            {% endif %}
+
+            {% comment %}
+              {%- assign hotspot_product_1 = all_products[block.settings.product_handle] -%}
+              <quick-view
+                class="thb-hotspot pin-white"
+                style="left: {{- block.settings.x_position | append: '%' -}}; top: {{- block.settings.y_position | append: '%' -}};"
+                data-product-handle="{{ hotspot_product_1.handle }}"
+              >
+                {% comment %} {{ block.shopify_attributes }} {% endcomment %}
+                <div class="thb-hotspot-content thb-pulsate">
+                  {%- unless hotspot_product_1 == empty -%}
+                    <div class="loading-overlay">
+                      {% render 'svg-icons' with 'thb-loading' %}
+                    </div>
+                    <div class="thb-hotspot-arrow"></div>
+                    <div class="thb-hotspot-bubble">
+                      {% if hotspot_product_1.featured_image %}
+                        <a
+                          href="{{ hotspot_product_1.url }}"
+                          title="{{ hotspot_product_1.title | escape }}"
+                          class="thb-hotspot-product-image"
+                        >
+                          {%- render 'responsive-image', image: hotspot_product_1.featured_image, sizes: '150x0' -%}
+                        </a>
+                      {% endif %}
+                      <div class="thb-hotspot-product-content">
+                        <div class="thb-hotspot-product-title">{{ hotspot_product_1.title }}</div>
+                        <div class="thb-hotspot-product-pricebox">
+                          {% render 'product-price', product: hotspot_product_1 %}
+                          {% comment %}
+                            {% assign text_button_title = 'sections.shop_the_look.view_product' | t %}
+                            {% render 'text-button', url: hotspot_product_1.url, title: text_button_title %}
+                          {% endcomment %}
+                          <a class="thb-hotspot-product-view" href="{{ hotspot_product_1.url }}">View</a>
+                        </div>
+                      </div>
+                    </div>
+                  {%- endunless -%}
+                </div>
+              </quick-view>
+            {% endcomment %}
+            {% comment %} {% endfor %} {% endcomment %}
+          </figure>
+        </div>
+        <div class="shop-look-flickity-viewport shop-the-look--desktop">
+          {% for block in section.blocks %}
+            {%- if block.image -%}
+              <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+                {%- if block.image -%}
+                  {%- liquid
+                    assign image = block.image
+
+                    assign class = ''
+                    if block.image_mobile
+                      assign class = 'slideshow-image--desktop'
+                    endif
+                  -%}
+                  <img
+                    data-src="{{ image | image_url }}"
+                    class="lazyload {{ class }}"
+                    width="{{ image.src.width }}"
+                    height="{{ image.src.height }}"
+                    alt="{{ image.alt }}"
+                  >
+                {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {%- endif -%}
+                {%- if block.image_mobile -%}
+                  {%- liquid
+                    assign image = block.image_mobile
+                  -%}
+                  <img
+                    data-src="{{ image | image_url }}"
+                    class="lazyload slideshow-image--mobile"
+                    width="{{ image.src.width }}"
+                    height="{{ image.src.height }}"
+                    alt="{{ image.alt }}"
+                  >
+                {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {%- endif -%}
+              </a>
+            {%- endif -%}
+          {% endfor %}
+
+          {% comment %}
+            {%- if image_1 -%}
+              <a
+                href="{{section_link}}"
+                class="slideshow__slide carousel__slide desktop-height-image shop-look_slide"
+              ></a>
+              {%- if image_1 -%}
+                {%- liquid
+                  assign image = image_1
+
+                  assign class = ''
+                  if image_1_mobile
+                    assign class = 'slideshow-image--desktop'
+                  endif
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload {{ class }}"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+              {%- else -%}
+                <div class="thb-placeholder">
+                  {{ 'lifestyle-1' | placeholder_svg_tag }}
+                </div>
+              {%- endif -%}
+              {%- if image_1_mobile -%}
+                {%- liquid
+                  assign image = image_1_mobile
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload slideshow-image--mobile"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+              {%- else -%}
+                <div class="thb-placeholder">
+                  {{ 'lifestyle-1' | placeholder_svg_tag }}
+                </div>
+              {%- endif -%}
+              </a>
+            {%- endif -%}
+            {%- if image_2 -%}
+              <a
+                href="{{section_link}}"
+                class="slideshow__slide carousel__slide desktop-height-image shop-look_slide"
+              ></a>
+              {%- if image_2 -%}
+                {%- liquid
+                  assign image = image_2
+
+                  assign class = ''
+                  if image_2_mobile
+                    assign class = 'slideshow-image--desktop'
+                  endif
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload {{ class }}"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+              {%- else -%}
+                <div class="thb-placeholder">
+                  {{ 'lifestyle-1' | placeholder_svg_tag }}
+                </div>
+              {%- endif -%}
+              {%- if image_2_mobile -%}
+                {%- liquid
+                  assign image = image_2_mobile
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload slideshow-image--mobile"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+              {%- else -%}
+                <div class="thb-placeholder">
+                  {{ 'lifestyle-1' | placeholder_svg_tag }}
+                </div>
+              {%- endif -%}
+              </a>
+            {%- endif -%}
+            {%- if image_3 -%}
+              <a
+                href="{{section_link}}"
+                class="slideshow__slide carousel__slide desktop-height-image shop-look_slide"
+              ></a>
+              {%- if image_3 -%}
+                {%- liquid
+                  assign image = image_3
+
+                  assign class = ''
+                  if image_3_mobile
+                    assign class = 'slideshow-image--desktop'
+                  endif
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload {{ class }}"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+              {%- else -%}
+                <div class="thb-placeholder">
+                  {{ 'lifestyle-1' | placeholder_svg_tag }}
+                </div>
+              {%- endif -%}
+              {%- if image_3_mobile -%}
+                {%- liquid
+                  assign image = image_3_mobile
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload slideshow-image--mobile"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+              {%- else -%}
+                <div class="thb-placeholder">
+                  {{ 'lifestyle-1' | placeholder_svg_tag }}
+                </div>
+              {%- endif -%}
+              </a>
+            {%- endif -%}
+            {%- if image_4 -%}
+              <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+                {%- if image_4 -%}
+                  {%- liquid
+                    assign image = image_4
+
+                    assign class = ''
+                    if image_4_mobile
+                      assign class = 'slideshow-image--desktop'
+                    endif
+                  -%}
+                  <img
+                    data-src="{{ image | image_url }}"
+                    class="lazyload {{ class }}"
+                    width="{{ image.src.width }}"
+                    height="{{ image.src.height }}"
+                    alt="{{ image.alt }}"
+                  >
+                {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {%- endif -%}
+                {%- if image_4_mobile -%}
+                  {%- liquid
+                    assign image = image_4_mobile
+                  -%}
+                  <img
+                    data-src="{{ image | image_url }}"
+                    class="lazyload slideshow-image--mobile"
+                    width="{{ image.src.width }}"
+                    height="{{ image.src.height }}"
+                    alt="{{ image.alt }}"
+                  >
+                {%- else -%}
+                  <div class="thb-placeholder">
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  </div>
+                {%- endif -%}
+              </a>
+            {%- endif -%}
+            {%- if image_5 -%}
+              <a
+                href="{{section_link}}"
+                class="slideshow__slide carousel__slide desktop-height-image shop-look_slide"
+              ></a>
+              {%- if image_5 -%}
+                {%- liquid
+                  assign image = image_5
+
+                  assign class = ''
+                  if image_5_mobile
+                    assign class = 'slideshow-image--desktop'
+                  endif
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload {{ class }}"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+              {%- else -%}
+                <div class="thb-placeholder">
+                  {{ 'lifestyle-1' | placeholder_svg_tag }}
+                </div>
+              {%- endif -%}
+              {%- if image_5_mobile -%}
+                {%- liquid
+                  assign image = image_5_mobile
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload slideshow-image--mobile"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+              {%- else -%}
+                <div class="thb-placeholder">
+                  {{ 'lifestyle-1' | placeholder_svg_tag }}
+                </div>
+              {%- endif -%}
+              </a>
+            {%- endif -%}
+          {% endcomment %}
+        </div>
+      </slide-show>
+      <div class="shop-look-product-list">
+        <a href="{{section_link}}" class="shop-look-product-images">
+          {% for block in section.blocks %}
+            {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
+            {% if hotspot_product.featured_image %}
+              <div
+                class="shop-look-product-image_item"
+              >
+                {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </a>
+        <a href="{{section_link}}" class="shop-look-info">
+          <div class="shop-look-info-left">
+            <div class="shop-look-info-title">{{ footer_title }}</div>
+            <div class="shop-look-info-desc">{{ footer_description }}</div>
+          </div>
+          <div class="shop-look-info-icon">
+            {% render 'svg-icons' with 'custom-arrow-right' %}
+          </div>
+          <div class="mobile-shop-look-info-icon">
+            {% render 'svg-icons' with 'custom-arrow-right-color' %}
+          </div>
+        </a>
+      </div>
+    </div>
+    {% comment %}
+      <div class="custom-product-list">
+        {% for block in section.blocks %}
+      {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
+          <div class="custom-product-card">
+            {% if hotspot_product.featured_image %}
+            <a href="{{ hotspot_product.url }}" title="{{ hotspot_product.title | escape }}" class="thb-hotspot-product-image">
+            {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
+            </a>
+            {% endif %}
+            <div class="thb-hotspot-product-content custom-product-content">
+              <div class="thb-hotspot-product-title">{{ hotspot_product.title }}</div>
+                {% render 'product-price', product: hotspot_product %}
+                {% assign text_button_title = 'sections.shop_the_look.view_product' | t %}
+                {% render 'text-button', url: hotspot_product.url, title: text_button_title %}
+              </div>
+            </div>
+          {% endfor %}
+          <lottie-player src="{{ 'lottie-loading.json' | asset_url }}" background="transparent" speed="1" style="width: 60px; height: 60px;" loop autoplay></lottie-player >
+      </div>
+    {% endcomment %}
+  </div>
+</shop-the-look-slider>
+<script src="{{ 'shop-the-look-slider.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+{
+  "name": "Shop the look slider",
+  "class": "section-shop-the-look-slider",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Learn more about how to set up the [shop the look section](https://documentation.fuelthemes.net/kb/how-to-set-up-shop-the-look-section-in-vision/)"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Header Title",
+      "info": "Wrap your text."
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Footer Info"
+    },
+    {
+      "id": "footer_title",
+      "type": "text",
+      "label": "Title",
+      "info": "Leave the label blank to hide the icon."
+    },
+    {
+      "id": "footer_description",
+      "type": "text",
+      "label": "Description",
+      "info": "Leave the label blank to hide the icon."
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Make section full width",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_top_spacing",
+      "default": false,
+      "label": "Remove top spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_bottom_spacing",
+      "default": false,
+      "label": "Remove bottom spacing"
+    }
+  ],
+  "max_blocks": 5,
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Button"
+        },
+        {
+          "id": "button_icon",
+          "type": "text",
+          "label": "Icon",
+          "info": "Leave the label blank to hide the icon."
+        },
+        {
+          "id": "button_text",
+          "type": "text",
+          "label": "Button Text",
+          "info": "Wrap your text."
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1440 x 650 px .jpg recommended."
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Mobile image",
+          "info": "750 x 800 px .jpg recommended. Default image is used if none is selected. To position the hotspots precisely, switch to mobile mode."
+        },
+        {
+          "type": "header",
+          "content": "Product 1"
+        },
+        {
+          "type": "product",
+          "id": "product_handle_1",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "x_position_1",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal",
+          "default": 20,
+          "info": "Horizontal position of the hot spot"
+        },
+        {
+          "type": "range",
+          "id": "y_position_1",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical",
+          "default": 20,
+          "info": "Vertical position of the hot spot"
+        },
+        {
+          "type": "header",
+          "content": "Product 2"
+        },
+        {
+          "type": "product",
+          "id": "product_handle_2",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "x_position_2",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal",
+          "default": 20,
+          "info": "Horizontal position of the hot spot"
+        },
+        {
+          "type": "range",
+          "id": "y_position_2",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical",
+          "default": 20,
+          "info": "Vertical position of the hot spot"
+        },
+        {
+          "type": "header",
+          "content": "Product 3"
+        },
+        {
+          "type": "product",
+          "id": "product_handle_3",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "x_position_3",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal",
+          "default": 20,
+          "info": "Horizontal position of the hot spot"
+        },
+        {
+          "type": "range",
+          "id": "y_position_3",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical",
+          "default": 20,
+          "info": "Vertical position of the hot spot"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shop the look slider",
+      "blocks": [
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+{% comment %}
+  {
+    "type": "header",
+    "content": "Mobile position"
+  },
+  {
+    "type": "range",
+    "id": "x_position_mobile",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "unit": "%",
+    "label": "Horizontal",
+    "default": 20,
+    "info": "Horizontal position of the hot spot on mobile screens"
+  },
+  {
+    "type": "range",
+    "id": "y_position_mobile",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "unit": "%",
+    "label": "Vertical",
+    "default": 20,
+    "info": "Vertical position of the hot spot on mobile screens"
+  }
+{% endcomment %}
