@@ -5307,7 +5307,7 @@ input[type='radio'],
 }
 
 .section-cart-white .price .custom-amount-del {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
 }
 .section-cart-white scroll-shadow {
   display: inline-block;
