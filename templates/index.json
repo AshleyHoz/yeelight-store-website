@@ -886,11 +886,45 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "shop_the_look_slider_4EBHbg": {
+      "type": "shop-the-look-slider",
+      "blocks": {
+        "slide_KmXyGD": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "",
+            "button_text": "",
+            "product_handle_1": "",
+            "x_position_1": 20,
+            "y_position_1": 20,
+            "product_handle_2": "",
+            "x_position_2": 20,
+            "y_position_2": 20,
+            "product_handle_3": "",
+            "x_position_3": 20,
+            "y_position_3": 20
+          }
+        }
+      },
+      "block_order": [
+        "slide_KmXyGD"
+      ],
+      "settings": {
+        "title": "",
+        "link": "",
+        "footer_title": "",
+        "footer_description": "",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
     "slideshow_AaGJwH",
     "featured_collection_M8HqE3",
+    "shop_the_look_slider_4EBHbg",
     "shop_the_look_94Y4Bx",
     "shop_the_look_QgXkXQ",
     "shop_the_look_CermnV",
