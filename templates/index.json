@@ -198,8 +198,10 @@
         "slide_KmXyGD": {
           "type": "slide",
           "settings": {
-            "button_icon": "",
-            "button_text": "",
+            "button_icon": "custom-halloween",
+            "button_text": "Halloween",
+            "image": "shopify://shop_images/HomeTopicOutdoor-halloween.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-halloween.jpg",
             "product_handle_1": "",
             "x_position_1": 20,
             "y_position_1": 20,
@@ -260,12 +262,35 @@
             "x_position_mobile_3": 20,
             "y_position_mobile_3": 20
           }
+        },
+        "slide_dfKGLU": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "",
+            "button_text": "",
+            "product_handle_1": "",
+            "x_position_1": 20,
+            "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "",
+            "x_position_2": 20,
+            "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "",
+            "x_position_3": 20,
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
+          }
         }
       },
       "block_order": [
         "slide_KmXyGD",
         "slide_QQaB4A",
-        "slide_nCkgHt"
+        "slide_nCkgHt",
+        "slide_dfKGLU"
       ],
       "settings": {
         "title": "Transform the Outdoors for Every Occasion",
