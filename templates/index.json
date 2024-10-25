@@ -192,122 +192,6 @@
         "disable_bottom_spacing": true
       }
     },
-    "shop_the_look_slider_4EBHbg": {
-      "type": "shop-the-look-slider",
-      "blocks": {
-        "slide_KmXyGD": {
-          "type": "slide",
-          "settings": {
-            "button_icon": "custom-halloween",
-            "button_text": "Halloween",
-            "image": "shopify://shop_images/HomeTopicOutdoor-halloween.jpg",
-            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-halloween.jpg",
-            "product_handle_1": "yeelight-permanent-outdoor-lights",
-            "x_position_1": 20,
-            "y_position_1": 20,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "product_handle_2": "a-yeelight-christmas-string-lights",
-            "x_position_2": 20,
-            "y_position_2": 20,
-            "x_position_mobile_2": 20,
-            "y_position_mobile_2": 20,
-            "product_handle_3": "a-yeelight-curtain-lights",
-            "x_position_3": 20,
-            "y_position_3": 20,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 20
-          }
-        },
-        "slide_QQaB4A": {
-          "type": "slide",
-          "settings": {
-            "button_icon": "custom-christmas",
-            "button_text": "Christmas",
-            "image": "shopify://shop_images/HomeTopicOutdoor-christmas.jpg",
-            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-christmas.jpg",
-            "product_handle_1": "yeelight-permanent-outdoor-lights",
-            "x_position_1": 20,
-            "y_position_1": 20,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "product_handle_2": "a-yeelight-christmas-string-lights",
-            "x_position_2": 20,
-            "y_position_2": 20,
-            "x_position_mobile_2": 20,
-            "y_position_mobile_2": 20,
-            "product_handle_3": "a-yeelight-curtain-lights",
-            "x_position_3": 20,
-            "y_position_3": 20,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 20
-          }
-        },
-        "slide_nCkgHt": {
-          "type": "slide",
-          "settings": {
-            "button_icon": "custom-warm",
-            "button_text": "Warm",
-            "image": "shopify://shop_images/HomeTopicOutdoor-warm.jpg",
-            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-warm.jpg",
-            "product_handle_1": "yeelight-permanent-outdoor-lights",
-            "x_position_1": 20,
-            "y_position_1": 20,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "product_handle_2": "a-yeelight-christmas-string-lights",
-            "x_position_2": 20,
-            "y_position_2": 20,
-            "x_position_mobile_2": 20,
-            "y_position_mobile_2": 20,
-            "product_handle_3": "a-yeelight-curtain-lights",
-            "x_position_3": 20,
-            "y_position_3": 20,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 20
-          }
-        },
-        "slide_dfKGLU": {
-          "type": "slide",
-          "settings": {
-            "button_icon": "custom-party",
-            "button_text": "Party",
-            "image": "shopify://shop_images/HomeTopicOutdoor-party.jpg",
-            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-party.jpg",
-            "product_handle_1": "yeelight-permanent-outdoor-lights",
-            "x_position_1": 20,
-            "y_position_1": 20,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "product_handle_2": "a-yeelight-christmas-string-lights",
-            "x_position_2": 20,
-            "y_position_2": 20,
-            "x_position_mobile_2": 20,
-            "y_position_mobile_2": 20,
-            "product_handle_3": "a-yeelight-curtain-lights",
-            "x_position_3": 20,
-            "y_position_3": 20,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 20
-          }
-        }
-      },
-      "block_order": [
-        "slide_KmXyGD",
-        "slide_QQaB4A",
-        "slide_nCkgHt",
-        "slide_dfKGLU"
-      ],
-      "settings": {
-        "title": "Transform the Outdoors for Every Occasion",
-        "link": "shopify://pages/topic-1",
-        "footer_title": "",
-        "footer_description": "",
-        "full_width": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "shop_the_look_94Y4Bx": {
       "type": "shop-the-look",
       "blocks": {
@@ -501,6 +385,122 @@
         "full_width": false,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
+      }
+    },
+    "shop_the_look_slider_4EBHbg": {
+      "type": "shop-the-look-slider",
+      "blocks": {
+        "slide_KmXyGD": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-halloween",
+            "button_text": "Halloween",
+            "image": "shopify://shop_images/HomeTopicOutdoor-halloween.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-halloween.jpg",
+            "product_handle_1": "yeelight-permanent-outdoor-lights",
+            "x_position_1": 20,
+            "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "a-yeelight-christmas-string-lights",
+            "x_position_2": 20,
+            "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "a-yeelight-curtain-lights",
+            "x_position_3": 20,
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
+          }
+        },
+        "slide_QQaB4A": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-christmas",
+            "button_text": "Christmas",
+            "image": "shopify://shop_images/HomeTopicOutdoor-christmas.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-christmas.jpg",
+            "product_handle_1": "yeelight-permanent-outdoor-lights",
+            "x_position_1": 20,
+            "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "a-yeelight-christmas-string-lights",
+            "x_position_2": 20,
+            "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "a-yeelight-curtain-lights",
+            "x_position_3": 20,
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
+          }
+        },
+        "slide_nCkgHt": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-warm",
+            "button_text": "Warm",
+            "image": "shopify://shop_images/HomeTopicOutdoor-warm.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-warm.jpg",
+            "product_handle_1": "yeelight-permanent-outdoor-lights",
+            "x_position_1": 20,
+            "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "a-yeelight-christmas-string-lights",
+            "x_position_2": 20,
+            "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "a-yeelight-curtain-lights",
+            "x_position_3": 20,
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
+          }
+        },
+        "slide_dfKGLU": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-party",
+            "button_text": "Party",
+            "image": "shopify://shop_images/HomeTopicOutdoor-party.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-party.jpg",
+            "product_handle_1": "yeelight-permanent-outdoor-lights",
+            "x_position_1": 20,
+            "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "a-yeelight-christmas-string-lights",
+            "x_position_2": 20,
+            "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "a-yeelight-curtain-lights",
+            "x_position_3": 20,
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
+          }
+        }
+      },
+      "block_order": [
+        "slide_KmXyGD",
+        "slide_QQaB4A",
+        "slide_nCkgHt",
+        "slide_dfKGLU"
+      ],
+      "settings": {
+        "title": "Transform the Outdoors for Every Occasion",
+        "link": "shopify://pages/topic-1",
+        "footer_title": "",
+        "footer_description": "",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "collection_list_7U8MXe": {
@@ -1007,10 +1007,10 @@
   "order": [
     "slideshow_AaGJwH",
     "featured_collection_M8HqE3",
-    "shop_the_look_slider_4EBHbg",
     "shop_the_look_94Y4Bx",
     "shop_the_look_QgXkXQ",
     "shop_the_look_CermnV",
+    "shop_the_look_slider_4EBHbg",
     "collection_list_7U8MXe",
     "text_with_icons_MqACi7",
     "image_text_logo_XX38Ra",
