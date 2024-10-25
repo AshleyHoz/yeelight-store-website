@@ -151,17 +151,23 @@
 
 .shop-the-look-slider .section-header,
 .shop-the-look-slider .shop-the-look-slider--view {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.shop-the-look-slider .shop-the-look-slider--view {
+  display: flex;
+  justify-content: center;
 }
 
 .shop-the-look-slider .shop-the-look-slider--link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 450px;
+  width: 320px;
   border-radius: 52px;
   background: linear-gradient(100deg, #0871ff 0%, #e70bb3 49.91%, #ff8f03 100%);
   backdrop-filter: blur(20px);
+  padding: 12px;
 }
 
 .shop-the-look-slider .shop-the-look-slider--link span {
