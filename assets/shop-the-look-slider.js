@@ -7,11 +7,11 @@ if (!customElements.get('shop-the-look-slider')) {
     constructor(e) {
       super();
       this.addEventListener('click', this.onChangeBackground);
-      const currentEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
+      const coverEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
       const button1 = this.getElementsByClassName('shop-look-buttons_item')[0];
-      if (!currentEle) return;
-      currentEle.style.width = button1.offsetWidth + 'px';
-      currentEle.style.height = button1.offsetHeight + 'px';
+      if (!coverEle) return;
+      coverEle.style.width = button1.offsetWidth + 'px';
+      coverEle.style.height = button1.offsetHeight * 0.5 + 'px';
       button1.classList.add('active');
     }
     onChangeBackground(e) {
@@ -25,8 +25,8 @@ if (!customElements.get('shop-the-look-slider')) {
       coverEle.style.width = currentEle.offsetWidth + 'px';
       coverEle.style.height = currentEle.offsetHeight + 'px';
       coverEle.style.position = 'absolute';
-      coverEle.style.top = 0;
-      coverEle.style.left = 0;
+      coverEle.style.top = '25%';
+      coverEle.style.left = '50%';
       coverEle.style.transform = 'translateX(' + offSetX + 'px)';
       for (let i = 0; i < buttonsEle.length; i++) {
         buttonsEle[i].classList.remove('active');

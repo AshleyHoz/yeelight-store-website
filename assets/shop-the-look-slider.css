@@ -207,7 +207,8 @@
   font-size: 14px;
   font-weight: 500;
   text-transform: capitalize;
-  background: #ffffff1a;
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(15px);
   cursor: pointer;
   position: relative;
   transition: color 0.3s;
@@ -233,7 +234,8 @@
   top: 0;
   left: 0;
   border-radius: 100px;
-  background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
+  background: #000;
+  /* background: linear-gradient(103deg, #111bff 0%, #fd119e 100%); */
   transition: transform 0.3s ease;
   z-index: 0;
   /* width: 150px;
