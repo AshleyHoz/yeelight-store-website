@@ -203,12 +203,18 @@
             "product_handle_1": "",
             "x_position_1": 20,
             "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
             "product_handle_2": "",
             "x_position_2": 20,
             "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
             "product_handle_3": "",
             "x_position_3": 20,
-            "y_position_3": 20
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
           }
         },
         "slide_QQaB4A": {
@@ -219,12 +225,18 @@
             "product_handle_1": "",
             "x_position_1": 20,
             "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
             "product_handle_2": "",
             "x_position_2": 20,
             "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
             "product_handle_3": "",
             "x_position_3": 20,
-            "y_position_3": 20
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
           }
         },
         "slide_nCkgHt": {
@@ -235,12 +247,18 @@
             "product_handle_1": "",
             "x_position_1": 20,
             "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
             "product_handle_2": "",
             "x_position_2": 20,
             "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
             "product_handle_3": "",
             "x_position_3": 20,
-            "y_position_3": 20
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
           }
         }
       },
@@ -251,7 +269,7 @@
       ],
       "settings": {
         "title": "Transform the Outdoors for Every Occasion",
-        "link": "",
+        "link": "shopify://pages/topic-1",
         "footer_title": "",
         "footer_description": "",
         "full_width": false,
