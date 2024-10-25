@@ -33,11 +33,11 @@
               {%- for block in section.blocks -%}
                 {% if block.settings.button_text != blank %}
                   <li
-                    class="product-slideshow-buttons_item"
+                    class="shop-look-buttons_item"
                     data-img="{{block.settings.image}}"
                     onclick="onChangeBackground"
                   >
-                    <div class="product-slideshow-buttons_item-content">
+                    <div class="shop-look-buttons_item-content">
                       {% render 'svg-icons' with block.settings.button_icon %}
                       <span>{{ block.settings.button_text }}</span>
                     </div>

@@ -183,6 +183,10 @@
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .shop-look-buttons-container-inner {
@@ -464,6 +468,7 @@
 
 .shop-look_slideshow--container {
   display: block;
+  position: relative;
 }
 
 .slideshow_inner {
