@@ -29,7 +29,7 @@
         <div class="shop-look-buttons-container">
           <div class="shop-look-buttons-container-inner">
             <div class="shop-look-buttons flickity-custom-dots">
-              <div class="shop-look-buttons-bg"></div>
+              {% comment %} <div class="shop-look-buttons-bg"></div> {% endcomment %}
               {%- for block in section.blocks -%}
                 {% if block.settings.button_text != blank %}
                   <li
