@@ -203,6 +203,7 @@
   background: #ffffff29;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
+  padding: 10px;
 }
 
 .shop-look-buttons_item {
@@ -214,7 +215,6 @@
   position: relative;
   transition: color 0.3s;
   list-style: none;
-  padding: 10px;
 }
 
 .shop-look-buttons_item-content {
