@@ -492,7 +492,8 @@
 .product-card-quickview.loading .loading-overlay {
   opacity: 1;
 }
-.product-card--add-to-cart-button {
+.product-card--add-to-cart-button,
+.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a {
   font-size: 0.8125rem;
   margin-top: 0 !important;
   width: 75px;
@@ -503,13 +504,8 @@
   background: rgba(254, 119, 45, 0.1) !important;
 }
 
-.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a {
-  border-radius: 14px;
-  border: 1px solid #fe772d;
-  background: rgba(254, 119, 45, 0.1) !important;
-}
-
-.product-card--add-to-cart-button:hover {
+.product-card--add-to-cart-button:hover,
+.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a:hover {
   background: #ff4800 !important;
 }
 
