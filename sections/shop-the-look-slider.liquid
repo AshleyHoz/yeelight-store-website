@@ -38,7 +38,12 @@
                     onclick="onChangeBackground"
                   >
                     <div class="shop-look-slider-buttons_item-content">
-                      {% render 'svg-icons' with block.settings.button_icon %}
+                      <span class="shop-look-slider-buttons_item-icon">
+                        {% render 'svg-icons-custom' with block.settings.button_icon %}
+                      </span>
+                      <span class="shop-look-slider-buttons_item-icon-color">
+                        {% render 'svg-icons-custom' with block.settings.button_icon + '-color' %}
+                      </span>
                       <span>{{ block.settings.button_text }}</span>
                     </div>
                   </li>
