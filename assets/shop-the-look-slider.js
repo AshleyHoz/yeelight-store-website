@@ -8,6 +8,8 @@ if (!customElements.get('shop-the-look-slider')) {
       super();
       console.log(123);
       this.addEventListener('click', this.onChangeBackground);
+      console.log(456);
+
       // const coverEle = this.getElementsByClassName('shop-look-slider-buttons-bg')[0];
       const button1 = this.getElementsByClassName('shop-look-slider-buttons_item')[0];
 
