@@ -27,34 +27,36 @@
         data-fade="{{ true }}"
       >
         <div class="shop-look-slider-buttons-container">
-          <div class="shop-look-slider-buttons-container-inner shop-look-slider-buttons flickity-custom-dots">
-            {% comment %} <div class="shop-look-slider-buttons-bg"></div> {% endcomment %}
-            {%- for block in section.blocks -%}
-              {% if block.settings.button_text != blank %}
-                <li
-                  class="shop-look-slider-buttons_item"
-                  data-img="{{block.settings.image}}"
-                  onclick="onChangeBackground"
-                >
-                  <div class="shop-look-slider-buttons_item-content">
-                    <span class="shop-look-slider-buttons_item-icon">
-                      {% render 'svg-icons-custom' with block.settings.button_icon %}
-                    </span>
-                    <span class="shop-look-slider-buttons_item-icon-color">
-                      {% assign icon = block.settings.button_icon %}
-                      {% assign icon = icon | append: '-color' %}
-                      {% render 'svg-icons-custom' with icon %}
-                    </span>
-                    <span class="shop-look-slider-buttons_item-text">{{ block.settings.button_text }}</span>
-                    <span class="shop-look-slider-buttons_item-text-color">
-                      {% assign text = block.settings.button_icon %}
-                      {% assign text = text | append: '-text-color' %}
-                      {% render 'svg-icons-custom' with text %}
-                    </span>
-                  </div>
-                </li>
-              {% endif %}
-            {%- endfor -%}
+          <div class="shop-look-slider-buttons-container-inner">
+            <div class=" shop-look-slider-buttons flickity-custom-dots">
+              {% comment %} <div class="shop-look-slider-buttons-bg"></div> {% endcomment %}
+              {%- for block in section.blocks -%}
+                {% if block.settings.button_text != blank %}
+                  <li
+                    class="shop-look-slider-buttons_item"
+                    data-img="{{block.settings.image}}"
+                    onclick="onChangeBackground"
+                  >
+                    <div class="shop-look-slider-buttons_item-content">
+                      <span class="shop-look-slider-buttons_item-icon">
+                        {% render 'svg-icons-custom' with block.settings.button_icon %}
+                      </span>
+                      <span class="shop-look-slider-buttons_item-icon-color">
+                        {% assign icon = block.settings.button_icon %}
+                        {% assign icon = icon | append: '-color' %}
+                        {% render 'svg-icons-custom' with icon %}
+                      </span>
+                      <span class="shop-look-slider-buttons_item-text">{{ block.settings.button_text }}</span>
+                      <span class="shop-look-slider-buttons_item-text-color">
+                        {% assign text = block.settings.button_icon %}
+                        {% assign text = text | append: '-text-color' %}
+                        {% render 'svg-icons-custom' with text %}
+                      </span>
+                    </div>
+                  </li>
+                {% endif %}
+              {%- endfor -%}
+            </div>
           </div>
         </div>
         <div class="slideshow_inner">
@@ -200,14 +202,14 @@
         </div>
         <div class="shop-look-slider-flickity-viewport shop-the-look--desktop">
           {% for block in section.blocks %}
-            {%- if block.setting.image -%}
+            {%- if block.settings.image -%}
               <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-                {%- if block.setting.image -%}
+                {%- if block.settings.image -%}
                   {%- liquid
-                    assign image = block.setting.image
+                    assign image = block.settings.image
 
                     assign class = ''
-                    if block.setting.image_mobile
+                    if block.settings.image_mobile
                       assign class = 'slideshow-image--desktop'
                     endif
                   -%}
@@ -223,9 +225,9 @@
                     {{ 'lifestyle-1' | placeholder_svg_tag }}
                   </div>
                 {%- endif -%}
-                {%- if block.setting.image_mobile -%}
+                {%- if block.settings.image_mobile -%}
                   {%- liquid
-                    assign image = block.setting.image_mobile
+                    assign image = block.settings.image_mobile
                   -%}
                   <img
                     data-src="{{ image | image_url }}"
