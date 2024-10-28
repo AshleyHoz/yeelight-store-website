@@ -107,7 +107,7 @@
                   {%- assign hotspot_product_1 = all_products[block.settings.product_handle_1] -%}
                   <quick-view
                     class="thb-hotspot pin-white"
-                    style="left: {{- block.settings.x_position_1 | append: '%' -}}; top: {{- block.settings.y_position_1 | append: '%' -}};"
+                    style="left: {{- block.settings.x_position_1 | append: '%' -}}; top: {{- block.settings.y_position_1 | append: '%' -}};width:100%;height:{{ block.settings.image.src.height }}"
                     data-product-handle="{{ hotspot_product_1.handle }}"
                   >
                     <div class="thb-hotspot-content thb-pulsate">
