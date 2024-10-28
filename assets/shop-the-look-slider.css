@@ -214,6 +214,7 @@
   position: relative;
   transition: color 0.3s;
   list-style: none;
+  padding: 10px;
 }
 
 .shop-look-buttons_item-content {
@@ -227,6 +228,7 @@
   width: 100%;
   height: 100%;
   padding: 14px 24px;
+  background: transparent;
 }
 
 .shop-look-buttons-bg {
@@ -453,6 +455,10 @@
 
 .mobile-shop-look-info-icon {
   display: none;
+}
+
+.shop-look-buttons_item.active {
+  background: #000;
 }
 
 .shop-look-buttons_item.active .shop-look-buttons_item-content {
