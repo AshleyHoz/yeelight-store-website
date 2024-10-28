@@ -184,9 +184,10 @@
   text-align: center;
   margin-bottom: 30px;
   position: absolute;
-  bottom: 28px;
+  bottom: -58px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
 }
 
 .shop-look-slider-buttons-container-inner {
