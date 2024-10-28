@@ -498,9 +498,12 @@
   width: 75px;
   height: 50px;
   /* border-radius: calc(var(--block-border-radius, 16px) / 2); */
+  border-radius: 14px;
+  border: 1px solid #fe772d;
+  background: rgba(254, 119, 45, 0.1) !important;
 }
 
-.product-card--add-to-cart-button-halloween {
+.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a {
   border-radius: 14px;
   border: 1px solid #fe772d;
   background: rgba(254, 119, 45, 0.1) !important;
@@ -537,13 +540,16 @@
   align-items: center;
   justify-content: center;
 }
-.product-card--add-to-cart-button .product-card--add-to-cart-text .ic-cart {
+.product-card--add-to-cart-button .product-card--add-to-cart-text .ic-cart,
+.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper .ic-cart {
   display: none;
 }
-.product-card--add-to-cart-button:hover .ic-cart {
+.product-card--add-to-cart-button:hover .ic-cart,
+.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper .ic-cart {
   display: flex;
 }
-.product-card--add-to-cart-button:hover .ic-cart-halloween {
+.product-card--add-to-cart-button:hover .ic-cart-halloween,
+.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper .ic-cart-halloween {
   display: none;
 }
 

@@ -203,7 +203,7 @@
         -%}
         <div class="product-card--add-to-cart-button-wrapper">
           <{{ button_tag }}
-            class="product-card--add-to-cart-button {% if is_purchasable %} product-card--add-to-cart-button-simple{% endif %} button accent {% if settings.halloween_flag %} product-card--add-to-cart-button-halloween{% endif %}"
+            class="product-card--add-to-cart-button {% if is_purchasable %} product-card--add-to-cart-button-simple{% endif %} button accent"
             data-product-id="{{ product_card_product.selected_or_first_available_variant.id }}"
             data-product-handle="{{ product_card_product.handle }}"
             tabindex="-1"
