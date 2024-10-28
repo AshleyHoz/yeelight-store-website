@@ -31,6 +31,7 @@ if (!customElements.get('shop-the-look-slider')) {
       // coverEle.style.left = '50%';
       // coverEle.style.transform = 'translateX(' + offSetX + 'px)';
       console.log(currentEle);
+      console.log(buttonsEle);
 
       for (let i = 0; i < buttonsEle.length; i++) {
         buttonsEle[i].classList.remove('active');
