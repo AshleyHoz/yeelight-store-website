@@ -9,8 +9,8 @@
   assign section_link = section.settings.link
 -%}
 <shop-the-look-slider class="shop-the-look-slider section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
-  <div class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-row">
-    <div class="small-12 custom-shop-look-column">
+  <div class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-slider-row">
+    <div class="small-12 custom-shop-look-slider-column">
       {%- if title -%}
         {% render 'section-header', section_heading: title %}
       {%- endif -%}
@@ -26,18 +26,18 @@
         data-transition="fade"
         data-fade="{{ true }}"
       >
-        <div class="shop-look-buttons-container">
-          <div class="shop-look-buttons-container-inner">
-            <div class="shop-look-buttons flickity-custom-dots">
-              {% comment %} <div class="shop-look-buttons-bg"></div> {% endcomment %}
+        <div class="shop-look-slider-buttons-container">
+          <div class="shop-look-slider-buttons-container-inner">
+            <div class="shop-look-slider-buttons flickity-custom-dots">
+              {% comment %} <div class="shop-look-slider-buttons-bg"></div> {% endcomment %}
               {%- for block in section.blocks -%}
                 {% if block.settings.button_text != blank %}
                   <li
-                    class="shop-look-buttons_item"
+                    class="shop-look-slider-buttons_item"
                     data-img="{{block.settings.image}}"
                     onclick="onChangeBackground"
                   >
-                    <div class="shop-look-buttons_item-content">
+                    <div class="shop-look-slider-buttons_item-content">
                       {% render 'svg-icons' with block.settings.button_icon %}
                       <span>{{ block.settings.button_text }}</span>
                     </div>
@@ -188,7 +188,7 @@
             {% endcomment %}
           </figure>
         </div>
-        <div class="shop-look-flickity-viewport shop-the-look--desktop">
+        <div class="shop-look-slider-flickity-viewport shop-the-look--desktop">
           {% for block in section.blocks %}
             {%- if block.image -%}
               <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
