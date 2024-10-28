@@ -7,11 +7,11 @@ if (!customElements.get('shop-the-look-slider')) {
     constructor(e) {
       super();
       this.addEventListener('click', this.onChangeBackground);
-      const coverEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
+      // const coverEle = this.getElementsByClassName('shop-look-buttons-bg')[0];
       const button1 = this.getElementsByClassName('shop-look-buttons_item')[0];
-      if (!coverEle) return;
-      coverEle.style.width = button1.offsetWidth + 'px';
-      coverEle.style.height = button1.offsetHeight * 0.5 + 'px';
+      // if (!coverEle) return;
+      // coverEle.style.width = button1.offsetWidth + 'px';
+      // coverEle.style.height = button1.offsetHeight * 0.5 + 'px';
       button1.classList.add('active');
     }
     onChangeBackground(e) {
