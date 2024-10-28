@@ -547,7 +547,7 @@
   display: flex;
 }
 .product-card--add-to-cart-button:hover .ic-cart-halloween,
-.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a .ic-cart-halloween {
+.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a:hover .ic-cart-halloween {
   display: none;
 }
 
