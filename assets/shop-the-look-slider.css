@@ -10,19 +10,29 @@
   border-radius: var(--block-border-radius, 16px);
 }
 
+.shop-the-look-slider-hotspot,
+.shop-the-look-slider-hotspot-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .shop-the-look--area {
   box-shadow: var(--block-shadows);
   border-radius: 30px;
   /* border: 1px solid rgba(255, 255, 255, 0.1); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .shop-the-look-slider {
   display: block;
   padding: 100px 0 40px;
 }
-.shop-the-look--area {
-  position: relative;
-}
+
 .shop-the-look--area img {
   width: 100%;
 }
