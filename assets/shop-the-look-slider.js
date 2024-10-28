@@ -9,9 +9,11 @@ if (!customElements.get('shop-the-look-slider')) {
       console.log(123);
       this.addEventListener('click', this.onChangeBackground);
       console.log(456);
+      console.log(this.onChangeBackground);
 
       // const coverEle = this.getElementsByClassName('shop-look-slider-buttons-bg')[0];
       const button1 = this.getElementsByClassName('shop-look-slider-buttons_item')[0];
+      console.log(button1);
 
       // if (!coverEle) return;
       // coverEle.style.width = button1.offsetWidth + 'px';
