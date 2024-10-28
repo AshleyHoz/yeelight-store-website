@@ -71,14 +71,14 @@
                       assign class = 'slideshow-image--desktop'
                     endif
                   -%}
+                  <img
+                    data-src="{{ image | image_url }}"
+                    class="lazyload {{ class }}"
+                    width="{{ image.src.width }}"
+                    height="{{ image.src.height }}"
+                    alt="{{ image.alt }}"
+                  >
                   <div class="shop-the-look-slider-hotspot">
-                    <img
-                      data-src="{{ image | image_url }}"
-                      class="lazyload {{ class }}"
-                      width="{{ image.src.width }}"
-                      height="{{ image.src.height }}"
-                      alt="{{ image.alt }}"
-                    >
                     <figure
                       class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}"
                     >
