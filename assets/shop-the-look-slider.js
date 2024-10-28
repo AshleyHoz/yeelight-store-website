@@ -9,6 +9,8 @@ if (!customElements.get('shop-the-look-slider')) {
       this.addEventListener('click', this.onChangeBackground);
       // const coverEle = this.getElementsByClassName('shop-look-slider-buttons-bg')[0];
       const button1 = this.getElementsByClassName('shop-look-slider-buttons_item')[0];
+      console.log(button1);
+
       // if (!coverEle) return;
       // coverEle.style.width = button1.offsetWidth + 'px';
       // coverEle.style.height = button1.offsetHeight * 0.5 + 'px';
@@ -28,6 +30,8 @@ if (!customElements.get('shop-the-look-slider')) {
       // coverEle.style.top = '25%';
       // coverEle.style.left = '50%';
       // coverEle.style.transform = 'translateX(' + offSetX + 'px)';
+      console.log(currentEle);
+
       for (let i = 0; i < buttonsEle.length; i++) {
         buttonsEle[i].classList.remove('active');
       }
