@@ -458,8 +458,8 @@
   display: none;
 }
 
-.shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-icon,
-.shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-text {
+.shop-look-slider-buttons_item .shop-look-slider-buttons_item-icon,
+.shop-look-slider-buttons_item .shop-look-slider-buttons_item-text {
   display: flex;
   align-items: center;
   justify-content: center;
