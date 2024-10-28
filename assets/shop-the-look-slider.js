@@ -15,19 +15,19 @@ if (!customElements.get('shop-the-look-slider')) {
       button1.classList.add('active');
     }
     onChangeBackground(e) {
-      const coverEle = this.getElementsByClassName('shop-look-slider-buttons-bg')[0];
+      // const coverEle = this.getElementsByClassName('shop-look-slider-buttons-bg')[0];
       const currentEle = this.getElementsByClassName('shop-look-slider-buttons_item is-selected')[0];
-      const containerEle = this.getElementsByClassName('shop-look-slider-buttons')[0];
+      // const containerEle = this.getElementsByClassName('shop-look-slider-buttons')[0];
       const buttonsEle = this.getElementsByClassName('shop-look-slider-buttons_item');
-      const currentRect = currentEle.getBoundingClientRect();
-      const containerRect = containerEle.getBoundingClientRect();
-      const offSetX = currentRect.left - containerRect.left;
-      coverEle.style.width = currentEle.offsetWidth + 'px';
-      coverEle.style.height = currentEle.offsetHeight + 'px';
-      coverEle.style.position = 'absolute';
-      coverEle.style.top = '25%';
-      coverEle.style.left = '50%';
-      coverEle.style.transform = 'translateX(' + offSetX + 'px)';
+      // const currentRect = currentEle.getBoundingClientRect();
+      // const containerRect = containerEle.getBoundingClientRect();
+      // const offSetX = currentRect.left - containerRect.left;
+      // coverEle.style.width = currentEle.offsetWidth + 'px';
+      // coverEle.style.height = currentEle.offsetHeight + 'px';
+      // coverEle.style.position = 'absolute';
+      // coverEle.style.top = '25%';
+      // coverEle.style.left = '50%';
+      // coverEle.style.transform = 'translateX(' + offSetX + 'px)';
       for (let i = 0; i < buttonsEle.length; i++) {
         buttonsEle[i].classList.remove('active');
       }
