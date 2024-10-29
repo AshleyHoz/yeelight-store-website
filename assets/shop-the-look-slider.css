@@ -21,11 +21,7 @@
   box-shadow: var(--block-shadows);
   border-radius: 30px;
   /* border: 1px solid rgba(255, 255, 255, 0.1); */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  position: relative;
 }
 
 .shop-the-look-slider {
@@ -59,13 +55,16 @@
   .shop-look-slider-flickity-viewport,
   .desktop-height-image {
     display: block;
-    position: relative;
-  }
-
-  .shop-the-look--area-wrapper {
-    position: relative;
   }
 }
+.shop-look-slider-flickity-viewport {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .shop-the-look--desktop .thb-placeholder {
   height: 600px;
 }
