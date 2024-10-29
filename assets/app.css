@@ -4770,6 +4770,24 @@ select.resize-select {
   }
 }
 
+.cart-drawer {
+  width: 50vw;
+  max-width: 50vw;
+}
+
+.cart-drawer .slide-panel-drawer-wrapper {
+  display: flex;
+}
+
+.cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left,
+.cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--right {
+  width: 50%;
+}
+
+.cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left {
+  border-right: 1px solid #d3d3d3;
+}
+
 .cart-drawer .side-panel-content {
   overflow-y: scroll;
   display: flex;
