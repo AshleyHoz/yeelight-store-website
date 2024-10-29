@@ -564,8 +564,7 @@
     width: 100%;
     text-align: center;
     margin-bottom: 15px;
-    position: absolute;
-    bottom: -140px;
+    position: relative;
   }
 
   .shop-look-slider-buttons_item-content {
