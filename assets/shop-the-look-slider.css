@@ -17,6 +17,16 @@
   height: 100%;
 }
 
+.mobile-height-image {
+  display: none;
+}
+
+.shop-look-slider--desktop,
+.shop-look-slider-flickity-viewport,
+.desktop-height-image {
+  display: block;
+}
+
 .shop-the-look-slider--area {
   width: 100%;
   height: 100%;
@@ -46,11 +56,6 @@
 /* .shop-the-look--mobile {
   display: block;
 } */
-@media only screen and (min-width: 768px) {
-  .mobile-height-image {
-    display: none;
-  }
-}
 .shop-the-look--mobile .thb-placeholder {
   height: 500px;
 }
@@ -66,14 +71,6 @@
   width: 100%;
   height: 100%;
   z-index: 10;
-}
-
-@media only screen and (min-width: 768px) {
-  .shop-look-slider--desktop,
-  .shop-look-slider-flickity-viewport,
-  .desktop-height-image {
-    display: block;
-  }
 }
 
 .shop-look-slider--desktop .thb-placeholder {
