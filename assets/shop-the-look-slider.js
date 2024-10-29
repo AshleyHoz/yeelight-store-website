@@ -17,6 +17,8 @@ if (!customElements.get('shop-the-look-slider')) {
       hotpotsEle[0].classList.add('is-selected');
 
       const removeEle = document.getElementsByClassName('shop-look-slider-buttons-container')[0];
+      console.log(document.getElementsByClassName('shop-look-slider-buttons-container'));
+
       const parentEle = removeEle.parentNode;
       parentEle.removeChild(removeEle);
       parentEle.appendChild(removeEle);
