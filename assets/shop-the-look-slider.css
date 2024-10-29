@@ -498,11 +498,6 @@
   border-radius: 100px;
 }
 
-.shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-content,
-.shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-content-color {
-  opacity: 1;
-}
-
 .shop-look-slider-buttons_item .shop-look-slider-buttons_item-icon,
 .shop-look-slider-buttons_item .shop-look-slider-buttons_item-text,
 .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-icon-color,
@@ -573,7 +568,6 @@
 
   .shop-look-slider-buttons_item-content,
   .shop-look-slider-buttons_item-content-color {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
