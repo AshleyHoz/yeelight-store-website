@@ -59,9 +59,9 @@
             </div>
           </div>
         </div>
-        <a href="{{section_link}}" class="shop-look-slider-flickity-viewport shop-the-look--desktop">
+        <div class="shop-look-slider-flickity-viewport shop-the-look--desktop">
           {% for block in section.blocks %}
-            <div class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
+            <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
               {%- if block.settings.image -%}
                 {%- liquid
                   assign image = block.settings.image
@@ -98,7 +98,7 @@
                   {{ 'lifestyle-1' | placeholder_svg_tag }}
                 </div>
               {%- endif -%}
-            </div>
+            </a>
             {% if forloop.index == 1 %}
               {{ forloop.index }}
               {{ block.settings.slide_index }}
@@ -213,7 +213,7 @@
               </figure>
             {% endif %}
           {% endfor %}
-        </a>
+        </div>
       </slide-show>
     </div>
   </div>
