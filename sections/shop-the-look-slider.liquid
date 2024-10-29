@@ -112,7 +112,7 @@
               class="shop-the-look-slider--area shop-look-slider--desktop shop-the-look--full-width-{{ full_width }}"
             >
               {%- assign hotspot_product_1 = all_products[block.settings.product_handle_1] -%}
-              {% if hotspot_product_1 %}
+              {% if hotspot_product_1 != empty %}
                 <quick-view
                   class="thb-hotspot pin-white"
                   style="left: {{- block.settings.x_position_1 | append: '%' -}}; top: {{- block.settings.y_position_1 | append: '%' -}}"
@@ -147,7 +147,7 @@
                 </quick-view>
               {% endif %}
               {%- assign hotspot_product_2 = all_products[block.settings.product_handle_2] -%}
-              {% if hotspot_product_2 %}
+              {% if hotspot_product_2 != empty %}
                 <quick-view
                   class="thb-hotspot pin-white"
                   style="left: {{- block.settings.x_position_2 | append: '%' -}}; top: {{- block.settings.y_position_2 | append: '%' -}};"
@@ -182,7 +182,7 @@
                 </quick-view>
               {% endif %}
               {%- assign hotspot_product_3 = all_products[block.settings.product_handle_3] -%}
-              {% if hotspot_product_3 %}
+              {% if hotspot_product_3 != empty %}
                 <quick-view
                   class="thb-hotspot pin-white"
                   style="left: {{- block.settings.x_position_3 | append: '%' -}}; top: {{- block.settings.y_position_3 | append: '%' -}};"
