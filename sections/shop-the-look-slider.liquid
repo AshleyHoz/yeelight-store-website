@@ -101,122 +101,123 @@
                   {{ 'lifestyle-1' | placeholder_svg_tag }}
                 </div>
               {%- endif -%}
-              {% comment %} {% if forloop.index == 1 %} {% endcomment %}
-              {% comment %}
-                {{ forloop.index }}
-                {{ block.settings.slide_index }}
-              {% endcomment %}
-              <figure
-                class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}"
-              >
-                {%- assign hotspot_product_1 = all_products[block.settings.product_handle_1] -%}
-                {% if hotspot_product_1 %}
-                  <quick-view
-                    class="thb-hotspot pin-white"
-                    style="left: {{- block.settings.x_position_1 | append: '%' -}}; top: {{- block.settings.y_position_1 | append: '%' -}}"
-                    data-product-handle="{{ hotspot_product_1.handle }}"
-                  >
-                    <div class="thb-hotspot-content thb-pulsate">
-                      {%- unless hotspot_product_1 == empty -%}
-                        <div class="loading-overlay">
-                          {% render 'svg-icons' with 'thb-loading' %}
-                        </div>
-                        <div class="thb-hotspot-arrow"></div>
-                        <div class="thb-hotspot-bubble">
-                          {% if hotspot_product_1.featured_image %}
-                            <a
-                              href="{{ hotspot_product_1.url }}"
-                              title="{{ hotspot_product_1.title | escape }}"
-                              class="thb-hotspot-product-image"
-                            >
-                              {%- render 'responsive-image', image: hotspot_product_1.featured_image, sizes: '150x0' -%}
-                            </a>
-                          {% endif %}
-                          <div class="thb-hotspot-product-content">
-                            <div class="thb-hotspot-product-title">{{ hotspot_product_1.title }}</div>
-                            <div class="thb-hotspot-product-pricebox">
-                              {% render 'product-price', product: hotspot_product_1 %}
-                              <a class="thb-hotspot-product-view" href="{{ hotspot_product_1.url }}">View</a>
-                            </div>
-                          </div>
-                        </div>
-                      {%- endunless -%}
-                    </div>
-                  </quick-view>
-                {% endif %}
-                {%- assign hotspot_product_2 = all_products[block.settings.product_handle_2] -%}
-                {% if hotspot_product_2 %}
-                  <quick-view
-                    class="thb-hotspot pin-white"
-                    style="left: {{- block.settings.x_position_2 | append: '%' -}}; top: {{- block.settings.y_position_2 | append: '%' -}};"
-                    data-product-handle="{{ hotspot_product_2.handle }}"
-                  >
-                    <div class="thb-hotspot-content thb-pulsate">
-                      {%- unless hotspot_product_2 == empty -%}
-                        <div class="loading-overlay">
-                          {% render 'svg-icons' with 'thb-loading' %}
-                        </div>
-                        <div class="thb-hotspot-arrow"></div>
-                        <div class="thb-hotspot-bubble">
-                          {% if hotspot_product_2.featured_image %}
-                            <a
-                              href="{{ hotspot_product_2.url }}"
-                              title="{{ hotspot_product_2.title | escape }}"
-                              class="thb-hotspot-product-image"
-                            >
-                              {%- render 'responsive-image', image: hotspot_product_2.featured_image, sizes: '150x0' -%}
-                            </a>
-                          {% endif %}
-                          <div class="thb-hotspot-product-content">
-                            <div class="thb-hotspot-product-title">{{ hotspot_product_2.title }}</div>
-                            <div class="thb-hotspot-product-pricebox">
-                              {% render 'product-price', product: hotspot_product_2 %}
-                              <a class="thb-hotspot-product-view" href="{{ hotspot_product_2.url }}">View</a>
-                            </div>
-                          </div>
-                        </div>
-                      {%- endunless -%}
-                    </div>
-                  </quick-view>
-                {% endif %}
-                {%- assign hotspot_product_3 = all_products[block.settings.product_handle_3] -%}
-                {% if hotspot_product_3 %}
-                  <quick-view
-                    class="thb-hotspot pin-white"
-                    style="left: {{- block.settings.x_position_3 | append: '%' -}}; top: {{- block.settings.y_position_3 | append: '%' -}};"
-                    data-product-handle="{{ hotspot_product_3.handle }}"
-                  >
-                    <div class="thb-hotspot-content thb-pulsate">
-                      {%- unless hotspot_product_3 == empty -%}
-                        <div class="loading-overlay">
-                          {% render 'svg-icons' with 'thb-loading' %}
-                        </div>
-                        <div class="thb-hotspot-arrow"></div>
-                        <div class="thb-hotspot-bubble">
-                          {% if hotspot_product_3.featured_image %}
-                            <a
-                              href="{{ hotspot_product_3.url }}"
-                              title="{{ hotspot_product_3.title | escape }}"
-                              class="thb-hotspot-product-image"
-                            >
-                              {%- render 'responsive-image', image: hotspot_product_3.featured_image, sizes: '150x0' -%}
-                            </a>
-                          {% endif %}
-                          <div class="thb-hotspot-product-content">
-                            <div class="thb-hotspot-product-title">{{ hotspot_product_3.title }}</div>
-                            <div class="thb-hotspot-product-pricebox">
-                              {% render 'product-price', product: hotspot_product_3 %}
-                              <a class="thb-hotspot-product-view" href="{{ hotspot_product_3.url }}">View</a>
-                            </div>
-                          </div>
-                        </div>
-                      {%- endunless -%}
-                    </div>
-                  </quick-view>
-                {% endif %}
-              </figure>
-              {% comment %} {% endif %} {% endcomment %}
             </a>
+
+            {% comment %} {% if forloop.index == 1 %} {% endcomment %}
+            {% comment %}
+              {{ forloop.index }}
+              {{ block.settings.slide_index }}
+            {% endcomment %}
+            <figure
+              class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}"
+            >
+              {%- assign hotspot_product_1 = all_products[block.settings.product_handle_1] -%}
+              {% if hotspot_product_1 %}
+                <quick-view
+                  class="thb-hotspot pin-white"
+                  style="left: {{- block.settings.x_position_1 | append: '%' -}}; top: {{- block.settings.y_position_1 | append: '%' -}}"
+                  data-product-handle="{{ hotspot_product_1.handle }}"
+                >
+                  <div class="thb-hotspot-content thb-pulsate">
+                    {%- unless hotspot_product_1 == empty -%}
+                      <div class="loading-overlay">
+                        {% render 'svg-icons' with 'thb-loading' %}
+                      </div>
+                      <div class="thb-hotspot-arrow"></div>
+                      <div class="thb-hotspot-bubble">
+                        {% if hotspot_product_1.featured_image %}
+                          <a
+                            href="{{ hotspot_product_1.url }}"
+                            title="{{ hotspot_product_1.title | escape }}"
+                            class="thb-hotspot-product-image"
+                          >
+                            {%- render 'responsive-image', image: hotspot_product_1.featured_image, sizes: '150x0' -%}
+                          </a>
+                        {% endif %}
+                        <div class="thb-hotspot-product-content">
+                          <div class="thb-hotspot-product-title">{{ hotspot_product_1.title }}</div>
+                          <div class="thb-hotspot-product-pricebox">
+                            {% render 'product-price', product: hotspot_product_1 %}
+                            <a class="thb-hotspot-product-view" href="{{ hotspot_product_1.url }}">View</a>
+                          </div>
+                        </div>
+                      </div>
+                    {%- endunless -%}
+                  </div>
+                </quick-view>
+              {% endif %}
+              {%- assign hotspot_product_2 = all_products[block.settings.product_handle_2] -%}
+              {% if hotspot_product_2 %}
+                <quick-view
+                  class="thb-hotspot pin-white"
+                  style="left: {{- block.settings.x_position_2 | append: '%' -}}; top: {{- block.settings.y_position_2 | append: '%' -}};"
+                  data-product-handle="{{ hotspot_product_2.handle }}"
+                >
+                  <div class="thb-hotspot-content thb-pulsate">
+                    {%- unless hotspot_product_2 == empty -%}
+                      <div class="loading-overlay">
+                        {% render 'svg-icons' with 'thb-loading' %}
+                      </div>
+                      <div class="thb-hotspot-arrow"></div>
+                      <div class="thb-hotspot-bubble">
+                        {% if hotspot_product_2.featured_image %}
+                          <a
+                            href="{{ hotspot_product_2.url }}"
+                            title="{{ hotspot_product_2.title | escape }}"
+                            class="thb-hotspot-product-image"
+                          >
+                            {%- render 'responsive-image', image: hotspot_product_2.featured_image, sizes: '150x0' -%}
+                          </a>
+                        {% endif %}
+                        <div class="thb-hotspot-product-content">
+                          <div class="thb-hotspot-product-title">{{ hotspot_product_2.title }}</div>
+                          <div class="thb-hotspot-product-pricebox">
+                            {% render 'product-price', product: hotspot_product_2 %}
+                            <a class="thb-hotspot-product-view" href="{{ hotspot_product_2.url }}">View</a>
+                          </div>
+                        </div>
+                      </div>
+                    {%- endunless -%}
+                  </div>
+                </quick-view>
+              {% endif %}
+              {%- assign hotspot_product_3 = all_products[block.settings.product_handle_3] -%}
+              {% if hotspot_product_3 %}
+                <quick-view
+                  class="thb-hotspot pin-white"
+                  style="left: {{- block.settings.x_position_3 | append: '%' -}}; top: {{- block.settings.y_position_3 | append: '%' -}};"
+                  data-product-handle="{{ hotspot_product_3.handle }}"
+                >
+                  <div class="thb-hotspot-content thb-pulsate">
+                    {%- unless hotspot_product_3 == empty -%}
+                      <div class="loading-overlay">
+                        {% render 'svg-icons' with 'thb-loading' %}
+                      </div>
+                      <div class="thb-hotspot-arrow"></div>
+                      <div class="thb-hotspot-bubble">
+                        {% if hotspot_product_3.featured_image %}
+                          <a
+                            href="{{ hotspot_product_3.url }}"
+                            title="{{ hotspot_product_3.title | escape }}"
+                            class="thb-hotspot-product-image"
+                          >
+                            {%- render 'responsive-image', image: hotspot_product_3.featured_image, sizes: '150x0' -%}
+                          </a>
+                        {% endif %}
+                        <div class="thb-hotspot-product-content">
+                          <div class="thb-hotspot-product-title">{{ hotspot_product_3.title }}</div>
+                          <div class="thb-hotspot-product-pricebox">
+                            {% render 'product-price', product: hotspot_product_3 %}
+                            <a class="thb-hotspot-product-view" href="{{ hotspot_product_3.url }}">View</a>
+                          </div>
+                        </div>
+                      </div>
+                    {%- endunless -%}
+                  </div>
+                </quick-view>
+              {% endif %}
+            </figure>
+            {% comment %} {% endif %} {% endcomment %}
           {% endfor %}
         </div>
       </slide-show>
