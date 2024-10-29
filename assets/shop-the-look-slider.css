@@ -546,11 +546,6 @@
   z-index: 1;
 }
 
-.shop-the-look-slider .slideshow-image--mobile,
-.shop-the-look-slider .shop-look-slider-buttons-container-mobile {
-  display: none;
-}
-
 @media only screen and (max-width: 767px) {
   .shop-the-look-slider {
     display: block;
@@ -737,13 +732,5 @@
 
   .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-content {
     opacity: 1;
-  }
-
-  .shop-the-look-slider .shop-look-slider-buttons-container-mobile {
-    display: block;
-  }
-
-  .shop-the-look-slider .shop-look-slider-buttons-container {
-    display: none;
   }
 }
