@@ -15,6 +15,11 @@ if (!customElements.get('shop-the-look-slider')) {
       button1.classList.add('active');
       const hotpotsEle = this.getElementsByClassName('shop-the-look-slider--area');
       hotpotsEle[0].classList.add('is-selected');
+
+      const removeEle = document.getElementsByClassName('shop-look-slider-buttons-container')[0];
+      const parentEle = removeEle.parentNode;
+      parentEle.removeChild(removeEle);
+      parentEle.appendChild(removeEle);
     }
     onChangeBackground(e) {
       console.log('e', e);
