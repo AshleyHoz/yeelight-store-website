@@ -50,19 +50,22 @@
 .desktop-height-image {
   display: none;
 } */
-@media only screen and (min-width: 768px) {
-  .shop-the-look--desktop,
-  .shop-look-slider-flickity-viewport,
-  .desktop-height-image {
-    display: block;
-  }
-}
+
 .shop-look-slider-flickity-viewport {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 10;
+}
+
+@media only screen and (min-width: 768px) {
+  .shop-the-look--desktop,
+  .shop-look-slider-flickity-viewport,
+  .desktop-height-image {
+    display: block;
+  }
 }
 
 .shop-the-look--desktop .thb-placeholder {
@@ -201,7 +204,7 @@
   bottom: -65px;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 2;
+  z-index: 30;
 }
 
 .shop-look-slider-buttons-container-inner {

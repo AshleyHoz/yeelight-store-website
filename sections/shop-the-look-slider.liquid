@@ -99,6 +99,8 @@
                 </div>
               {%- endif -%}
             </a>
+            {{ forloop.index }}: {{ block }}
+
             {% if forloop.index == 1 %}
               {{ forloop.index }}
               {{ block.settings.slide_index }}
