@@ -730,7 +730,7 @@
     opacity: 1;
   }
 
-  .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-content-color {
+  .shop-look-slider-buttons_item .shop-look-slider-buttons_item-content-color {
     display: none;
   }
 }
