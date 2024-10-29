@@ -242,7 +242,8 @@
   background: transparent;
 }
 
-.shop-look-slider-buttons_item-content {
+.shop-look-slider-buttons_item-content,
+.shop-look-slider-buttons_item-content-color {
   position: relative;
   display: flex;
   justify-content: center;
@@ -254,6 +255,9 @@
   height: 100%;
   padding: 5px 24px;
   background: transparent;
+  position: absolute;
+  top: 0;
+  left: 10px;
 }
 
 .shop-look-slider-buttons-bg {
