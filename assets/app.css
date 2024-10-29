@@ -2234,7 +2234,7 @@ table.no-borders tfoot td:first-child {
   margin: 0;
   opacity: 0;
   pointer-events: none;
-  z-index: 9999999999;
+  z-index: 100;
 }
 @media only screen and (min-width: 1068px) {
   .side-panel.product-drawer {
@@ -4775,6 +4775,7 @@ select.resize-select {
 .cart-drawer {
   width: 60vw;
   max-width: 60vw;
+  z-index: 55;
 }
 
 .cart-drawer .slide-panel-drawer-wrapper {
@@ -5288,10 +5289,6 @@ input[type='radio'],
 
 .cart-drawer .button.accent {
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
-}
-
-.cart-drawer {
-  z-index: 2147483647;
 }
 
 .section-cart-white,
