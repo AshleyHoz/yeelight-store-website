@@ -35,7 +35,6 @@
     -%}
     <a href="{{ product_small.url }}" title="{{ product_small.title | escape }}" class="product-card-small--link">
       {{- product_title -}}
-      {{ product_small.options }}
     </a>
     <div class="product-card-small--add-to-cart">
       {% render 'product-price', product: product_small %}
