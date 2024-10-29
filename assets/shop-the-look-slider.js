@@ -16,12 +16,14 @@ if (!customElements.get('shop-the-look-slider')) {
       const hotpotsEle = this.getElementsByClassName('shop-the-look-slider--area');
       hotpotsEle[0].classList.add('is-selected');
 
-      const removeEle = document.getElementsByClassName('shop-look-slider-buttons-container')[0];
+      const removeEles = document.getElementsByClassName('shop-look-slider-buttons-container');
       console.log(document.getElementsByClassName('shop-look-slider-buttons-container'));
-
-      const parentEle = removeEle.parentNode;
-      parentEle.removeChild(removeEle);
-      parentEle.appendChild(removeEle);
+      for (let i = 0; i < removeEles.length; i++) {
+        const removeEle = removeEles[i];
+        const parentEle = removeEle.parentNode;
+        parentEle.removeChild(removeEle);
+        parentEle.appendChild(removeEle);
+      }
     }
     onChangeBackground(e) {
       console.log('e', e);
