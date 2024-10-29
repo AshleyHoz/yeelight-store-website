@@ -2136,6 +2136,9 @@ table.no-borders tfoot td:first-child {
   vertical-align: middle;
   margin-right: 6px;
   width: 10px;
+}
+
+.discounts__discount svg {
   fill: #000000;
 }
 
