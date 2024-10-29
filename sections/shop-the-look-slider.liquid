@@ -59,7 +59,7 @@
             </div>
           </div>
         </div>
-        <div class="shop-look-slider-flickity-viewport shop-the-look--desktop">
+        <div class="shop-look-slider-flickity-viewport shop-look-slider--desktop">
           {% for block in section.blocks %}
             <a
               href="{{section_link}}"
@@ -109,7 +109,7 @@
               {{ block.settings.slide_index }}
             {% endcomment %}
             <figure
-              class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}"
+              class="shop-the-look-slider--area shop-look-slider--desktop shop-the-look--full-width-{{ full_width }}"
             >
               {%- assign hotspot_product_1 = all_products[block.settings.product_handle_1] -%}
               {% if hotspot_product_1 %}

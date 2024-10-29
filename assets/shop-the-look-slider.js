@@ -13,6 +13,8 @@ if (!customElements.get('shop-the-look-slider')) {
       // coverEle.style.width = button1.offsetWidth + 'px';
       // coverEle.style.height = button1.offsetHeight * 0.5 + 'px';
       button1.classList.add('active');
+      const hotpotsEle = this.getElementsByClassName('shop-the-look-slider--area');
+      hotpotsEle[0].classList.add('is-selected');
     }
     onChangeBackground(e) {
       console.log('e', e);
@@ -21,6 +23,8 @@ if (!customElements.get('shop-the-look-slider')) {
       const currentEle = this.getElementsByClassName('shop-look-slider-buttons_item is-selected')[0];
       // const containerEle = this.getElementsByClassName('shop-look-slider-buttons')[0];
       const buttonsEle = this.getElementsByClassName('shop-look-slider-buttons_item');
+      const index = Array.from(buttonsEle).indexOf(currentEle);
+      console.log(index);
       // const currentRect = currentEle.getBoundingClientRect();
       // const containerRect = containerEle.getBoundingClientRect();
       // const offSetX = currentRect.left - containerRect.left;
@@ -30,13 +34,17 @@ if (!customElements.get('shop-the-look-slider')) {
       // coverEle.style.top = '25%';
       // coverEle.style.left = '50%';
       // coverEle.style.transform = 'translateX(' + offSetX + 'px)';
-      console.log(currentEle);
-      console.log(buttonsEle);
 
       for (let i = 0; i < buttonsEle.length; i++) {
         buttonsEle[i].classList.remove('active');
       }
       currentEle.classList.add('active');
+
+      const hotpotsEle = this.getElementsByClassName('shop-the-look-slider--area');
+      for (let i = 0; i < hotpotsEle.length; i++) {
+        hotpotsEle[i].classList.remove('is-selected');
+      }
+      hotpotsEle[index].classList.add('is-selected');
     }
     connectedCallback() {}
   }
