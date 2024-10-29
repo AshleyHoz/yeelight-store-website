@@ -12,7 +12,6 @@
 >
   <div class="product-card-small--image">
     <a href="{{ product_small.url }}" title="{{ product_small.title | escape }}" class="product-cart-small--image-link">
-      {{ product_small }}
       {% if product_small.featured_image %}
         {%- render 'responsive-image', image: product_small.featured_image, sizes: '200x0' -%}
       {% else %}
@@ -36,6 +35,7 @@
     -%}
     <a href="{{ product_small.url }}" title="{{ product_small.title | escape }}" class="product-card-small--link">
       {{- product_title -}}
+      {{ product_small.options }}
     </a>
     <div class="product-card-small--add-to-cart">
       {% render 'product-price', product: product_small %}
