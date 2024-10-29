@@ -604,6 +604,46 @@
         "disable_bottom_spacing": true
       }
     },
+    "shop_the_look_slider_rFbmyG": {
+      "type": "shop-the-look-slider",
+      "blocks": {
+        "slide_4qH4Nh": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "",
+            "button_text": "",
+            "product_handle_1": "",
+            "x_position_1": 20,
+            "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "",
+            "x_position_2": 20,
+            "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "",
+            "x_position_3": 20,
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20,
+            "slide_index": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_4qH4Nh"
+      ],
+      "settings": {
+        "title": "Power Your Play in Every Gaming World",
+        "link": "shopify://pages/topic-3",
+        "footer_title": "",
+        "footer_description": "",
+        "full_width": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "collection_list_7U8MXe": {
       "type": "collection-list",
       "settings": {
@@ -1113,6 +1153,7 @@
     "shop_the_look_CermnV",
     "shop_the_look_slider_4EBHbg",
     "shop_the_look_slider_33yC6m",
+    "shop_the_look_slider_rFbmyG",
     "collection_list_7U8MXe",
     "text_with_icons_MqACi7",
     "image_text_logo_XX38Ra",
