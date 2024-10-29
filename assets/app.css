@@ -4812,7 +4812,8 @@ select.resize-select {
 }
 
 .slide-panel-drawer-wrapper--right .cart-drawer-footer,
-.slide-panel-drawer-wrapper--right {
+.slide-panel-drawer-wrapper--right,
+.side-panel-footer {
   padding: 25px 30px;
 }
 .cart-drawer-footer .cart-policy-text {
