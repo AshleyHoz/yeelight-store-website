@@ -30,7 +30,7 @@
           <div class="shop-look-slider-buttons-container-inner">
             <div class=" shop-look-slider-buttons flickity-custom-dots">
               {%- for block in section.blocks -%}
-                {% if block.settings.button_icon != blank and block.settings.button_text != blank %}
+                {% if block.settings.button_text != blank %}
                   <li
                     class="shop-look-slider-buttons_item"
                     data-img="{{block.settings.image}}"
