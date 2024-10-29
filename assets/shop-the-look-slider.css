@@ -707,7 +707,9 @@
   .shop-the-look-slider .slideshow-image--mobile,
   .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-icon,
   .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-text {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .shop-the-look-slider--view {
