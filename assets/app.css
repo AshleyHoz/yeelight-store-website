@@ -4650,6 +4650,12 @@ select.resize-select {
   display: none;
 }
 
+.product-card-small--add-to-cart .price .unit-price {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
 .product-cart-item {
   display: flex;
   width: 100%;
