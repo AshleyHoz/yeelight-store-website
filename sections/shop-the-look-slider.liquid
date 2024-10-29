@@ -151,21 +151,22 @@
                           {% render 'svg-icons' with 'thb-loading' %}
                         </div>
                         <div class="thb-hotspot-arrow"></div>
-                        <div class="thb-hotspot-bubble"></div>
-                        {% if hotspot_product_2.featured_image %}
-                          <a
-                            href="{{ hotspot_product_2.url }}"
-                            title="{{ hotspot_product_2.title | escape }}"
-                            class="thb-hotspot-product-image"
-                          >
-                            {%- render 'responsive-image', image: hotspot_product_2.featured_image, sizes: '150x0' -%}
-                          </a>
-                        {% endif %}
-                        <div class="thb-hotspot-product-content">
-                          <div class="thb-hotspot-product-title">{{ hotspot_product_2.title }}</div>
-                          <div class="thb-hotspot-product-pricebox">
-                            {% render 'product-price', product: hotspot_product_2 %}
-                            <a class="thb-hotspot-product-view" href="{{ hotspot_product_2.url }}">View</a>
+                        <div class="thb-hotspot-bubble">
+                          {% if hotspot_product_2.featured_image %}
+                            <a
+                              href="{{ hotspot_product_2.url }}"
+                              title="{{ hotspot_product_2.title | escape }}"
+                              class="thb-hotspot-product-image"
+                            >
+                              {%- render 'responsive-image', image: hotspot_product_2.featured_image, sizes: '150x0' -%}
+                            </a>
+                          {% endif %}
+                          <div class="thb-hotspot-product-content">
+                            <div class="thb-hotspot-product-title">{{ hotspot_product_2.title }}</div>
+                            <div class="thb-hotspot-product-pricebox">
+                              {% render 'product-price', product: hotspot_product_2 %}
+                              <a class="thb-hotspot-product-view" href="{{ hotspot_product_2.url }}">View</a>
+                            </div>
                           </div>
                         </div>
                       {%- endunless -%}
@@ -183,21 +184,22 @@
                           {% render 'svg-icons' with 'thb-loading' %}
                         </div>
                         <div class="thb-hotspot-arrow"></div>
-                        <div class="thb-hotspot-bubble"></div>
-                        {% if hotspot_product_3.featured_image %}
-                          <a
-                            href="{{ hotspot_product_3.url }}"
-                            title="{{ hotspot_product_3.title | escape }}"
-                            class="thb-hotspot-product-image"
-                          >
-                            {%- render 'responsive-image', image: hotspot_product_3.featured_image, sizes: '150x0' -%}
-                          </a>
-                        {% endif %}
-                        <div class="thb-hotspot-product-content">
-                          <div class="thb-hotspot-product-title">{{ hotspot_product_3.title }}</div>
-                          <div class="thb-hotspot-product-pricebox">
-                            {% render 'product-price', product: hotspot_product_3 %}
-                            <a class="thb-hotspot-product-view" href="{{ hotspot_product_3.url }}">View</a>
+                        <div class="thb-hotspot-bubble">
+                          {% if hotspot_product_3.featured_image %}
+                            <a
+                              href="{{ hotspot_product_3.url }}"
+                              title="{{ hotspot_product_3.title | escape }}"
+                              class="thb-hotspot-product-image"
+                            >
+                              {%- render 'responsive-image', image: hotspot_product_3.featured_image, sizes: '150x0' -%}
+                            </a>
+                          {% endif %}
+                          <div class="thb-hotspot-product-content">
+                            <div class="thb-hotspot-product-title">{{ hotspot_product_3.title }}</div>
+                            <div class="thb-hotspot-product-pricebox">
+                              {% render 'product-price', product: hotspot_product_3 %}
+                              <a class="thb-hotspot-product-view" href="{{ hotspot_product_3.url }}">View</a>
+                            </div>
                           </div>
                         </div>
                       {%- endunless -%}
