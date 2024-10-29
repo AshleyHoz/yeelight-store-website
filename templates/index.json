@@ -513,7 +513,57 @@
     "shop_the_look_slider_33yC6m": {
       "type": "shop-the-look-slider",
       "blocks": {
+        "slide_GcLTeG": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-christmas",
+            "button_text": "Christmas",
+            "image": "shopify://shop_images/HomeTopicRoom-christmas.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicRoomMobine-christmas.jpg",
+            "product_handle_1": "",
+            "x_position_1": 20,
+            "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "",
+            "x_position_2": 20,
+            "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "",
+            "x_position_3": 20,
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20,
+            "slide_index": ""
+          }
+        },
         "slide_6VMDww": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-valentine",
+            "button_text": "Valentine's Day",
+            "image": "shopify://shop_images/HomeTopicRoom-valentine.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicRoomMobine-valentine.jpg",
+            "product_handle_1": "",
+            "x_position_1": 20,
+            "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "",
+            "x_position_2": 20,
+            "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "",
+            "x_position_3": 20,
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20,
+            "slide_index": ""
+          }
+        },
+        "slide_nMwfm4": {
           "type": "slide",
           "settings": {
             "button_icon": "",
@@ -538,7 +588,9 @@
         }
       },
       "block_order": [
-        "slide_6VMDww"
+        "slide_GcLTeG",
+        "slide_6VMDww",
+        "slide_nMwfm4"
       ],
       "settings": {
         "title": "Elevate the Indoors in Every Moment",
