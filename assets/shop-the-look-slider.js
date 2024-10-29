@@ -17,7 +17,6 @@ if (!customElements.get('shop-the-look-slider')) {
       hotpotsEle[0].classList.add('is-selected');
 
       const removeEles = document.getElementsByClassName('shop-look-slider-buttons-container');
-      console.log(document.getElementsByClassName('shop-look-slider-buttons-container'));
       for (let i = 0; i < removeEles.length; i++) {
         const removeEle = removeEles[i];
         const parentEle = removeEle.parentNode;
@@ -26,8 +25,6 @@ if (!customElements.get('shop-the-look-slider')) {
       }
     }
     onChangeBackground(e) {
-      console.log('e', e);
-
       // const coverEle = this.getElementsByClassName('shop-look-slider-buttons-bg')[0];
       const currentEle = this.getElementsByClassName('shop-look-slider-buttons_item is-selected')[0];
       // const containerEle = this.getElementsByClassName('shop-look-slider-buttons')[0];
