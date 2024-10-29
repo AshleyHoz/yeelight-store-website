@@ -2138,7 +2138,7 @@ table.no-borders tfoot td:first-child {
   width: 10px;
 }
 
-.discounts__discount svg {
+.discounts__discount svg path {
   fill: #000000;
 }
 
