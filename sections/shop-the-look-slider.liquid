@@ -59,7 +59,7 @@
             </div>
           </div>
         </div>
-        <div class="shop-look-slider-flickity-viewport shop-the-look--desktop">
+        <a href="{{section_link}}" class="shop-look-slider-flickity-viewport shop-the-look--desktop">
           {% for block in section.blocks %}
             <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
               {%- if block.settings.image -%}
@@ -99,9 +99,9 @@
                 </div>
               {%- endif -%}
             </a>
-            {{ forloop.index }}
-            {{ block.settings.slide_index }}
             {% if forloop.index == block.settings.slide_index %}
+              {{ forloop.index }}
+              {{ block.settings.slide_index }}
               <figure
                 class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}"
               >
@@ -213,7 +213,7 @@
               </figure>
             {% endif %}
           {% endfor %}
-        </div>
+        </a>
       </slide-show>
     </div>
   </div>
