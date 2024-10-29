@@ -5721,4 +5721,8 @@ input[type='radio'],
   .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--right {
     display: none;
   }
+
+  .slide-panel-drawer-wrapper .product-card-small {
+    margin-bottom: 10px;
+  }
 }
