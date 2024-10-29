@@ -715,7 +715,8 @@
   }
 
   .shop-the-look-slider .shop-the-look-slider--link {
-    padding: 8px;
+    padding: 10px;
+    width: 310px;
   }
 
   .shop-the-look-slider .shop-the-look-slider--link span {
