@@ -2130,11 +2130,13 @@ table.no-borders tfoot td:first-child {
 }
 .discounts__discount {
   margin-bottom: 5px;
+  color: #000000;
 }
 .discounts__discount svg {
   vertical-align: middle;
   margin-right: 6px;
   width: 10px;
+  fill: #000000;
 }
 
 .side-panel {
@@ -4771,12 +4773,14 @@ select.resize-select {
 }
 
 .cart-drawer {
-  width: 50vw;
-  max-width: 50vw;
+  width: 60vw;
+  max-width: 60vw;
 }
 
 .cart-drawer .slide-panel-drawer-wrapper {
   display: flex;
+  width: 100%;
+  overflow-x: auto;
 }
 
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left,
@@ -4792,6 +4796,7 @@ select.resize-select {
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
+  height: calc(100% - 196px);
 }
 
 .cart-drawer .side-panel-footer {
@@ -4806,7 +4811,8 @@ select.resize-select {
   margin: 0;
 }
 
-.cart-drawer-footer {
+.slide-panel-drawer-wrapper--right .cart-drawer-footer,
+.slide-panel-drawer-wrapper--right {
   padding: 25px 30px;
 }
 .cart-drawer-footer .cart-policy-text {
