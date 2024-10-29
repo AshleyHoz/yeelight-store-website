@@ -517,10 +517,11 @@
   width: 100%;
 }
 
-.shop-look_slide {
+.shop-look-slider_slide {
   border-radius: 30px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
 }
 
 .shop-look_slideshow--container {
@@ -668,7 +669,7 @@
     height: 100%;
   }
 
-  .shop-look_slide {
+  .shop-look-slider_slide {
     border-radius: 12px 12px 0 0;
   }
 
