@@ -255,9 +255,6 @@
   height: 100%;
   padding: 5px 24px;
   background: transparent;
-  position: absolute;
-  top: 0;
-  left: 10px;
 }
 
 .shop-look-slider-buttons-bg {
@@ -509,15 +506,15 @@
 }
 
 .shop-look-slider-buttons_item-content-color {
-  opacity: 0;
+  display: none;
 }
 
 .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-content-color {
-  opacity: 1;
+  display: flex;
 }
 
 .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-content {
-  opacity: 0;
+  display: none;
 }
 
 .shop-look_img {
@@ -697,12 +694,11 @@
 
   .shop-the-look-slider .slideshow-image--desktop,
   .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-content-color {
-    opacity: 0;
+    display: none;
   }
 
   .shop-the-look-slider .slideshow-image--mobile,
   .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-content {
-    opacity: 1;
     display: flex;
     align-items: center;
     justify-content: center;
