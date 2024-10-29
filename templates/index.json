@@ -610,8 +610,35 @@
         "slide_4qH4Nh": {
           "type": "slide",
           "settings": {
-            "button_icon": "",
-            "button_text": "",
+            "button_icon": "custom-interstellar",
+            "button_text": "Interstellar",
+            "image": "shopify://shop_images/HomeTopicGame-interstellar.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicGameMobile-interstellar.jpg",
+            "product_handle_1": "",
+            "x_position_1": 20,
+            "y_position_1": 20,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "",
+            "x_position_2": 20,
+            "y_position_2": 20,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "",
+            "x_position_3": 20,
+            "y_position_3": 20,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20,
+            "slide_index": ""
+          }
+        },
+        "slide_6haFVF": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-game",
+            "button_text": "Game",
+            "image": "shopify://shop_images/HomeTopicGame-game.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicGameMobile-game.jpg",
             "product_handle_1": "",
             "x_position_1": 20,
             "y_position_1": 20,
@@ -632,7 +659,8 @@
         }
       },
       "block_order": [
-        "slide_4qH4Nh"
+        "slide_4qH4Nh",
+        "slide_6haFVF"
       ],
       "settings": {
         "title": "Power Your Play in Every Gaming World",
