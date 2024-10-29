@@ -699,14 +699,14 @@
   }
 
   .shop-the-look-slider .slideshow-image--desktop,
-  .shop-look-slider-buttons_item .shop-look-slider-buttons_item-icon-color,
-  .shop-look-slider-buttons_item .shop-look-slider-buttons_item-text-color {
+  .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-icon-color,
+  .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-text-color {
     display: none;
   }
 
   .shop-the-look-slider .slideshow-image--mobile,
-  .shop-look-slider-buttons_item .shop-look-slider-buttons_item-icon,
-  .shop-look-slider-buttons_item .shop-look-slider-buttons_item-text {
+  .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-icon,
+  .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-text {
     display: block;
   }
 
