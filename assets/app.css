@@ -2224,7 +2224,6 @@ table.no-borders tfoot td:first-child {
   background: transparent;
 }
 .side-panel.product-drawer {
-  z-index: 92;
   width: auto;
   left: 10px;
   right: 10px;
@@ -2235,6 +2234,7 @@ table.no-borders tfoot td:first-child {
   margin: 0;
   opacity: 0;
   pointer-events: none;
+  z-index: 9999999999;
 }
 @media only screen and (min-width: 1068px) {
   .side-panel.product-drawer {
@@ -4828,6 +4828,8 @@ select.resize-select {
 
 .cart-drawer .complementary-products {
   margin-top: auto;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .cart-drawer .product-cart-item {
@@ -5353,6 +5355,40 @@ input[type='radio'],
 .section-cart-white .quantity .plus svg path,
 .section-cart-white .product-card-small--add-to-cart-icon .loading-overlay svg circle {
   stroke: var(--color-product-font);
+}
+
+.section-cart-white .complementary-products--heading {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.slide-panel-drawer-wrapper--right .complementary-products--inner {
+  overflow: hidden;
+  display: flex;
+  gap: 10px;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+}
+
+.slide-panel-drawer-wrapper--right .product-card-small {
+  width: 100%;
+  display: flex;
+  padding: 0;
+  border: none;
+}
+
+.slide-panel-drawer-wrapper--right .product-card-small--image {
+  width: 96px;
+  height: 96px;
+  margin-right: 25px;
+}
+
+.slide-panel-drawer-wrapper--right .product-card-small--link {
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22.5px;
 }
 
 .cart-halloween .cart-drawer-buttons a,
