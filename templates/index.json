@@ -556,10 +556,10 @@
             "x_position_mobile_2": 20,
             "y_position_mobile_2": 20,
             "product_handle_3": "",
-            "x_position_3": 20,
-            "y_position_3": 20,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 20,
+            "x_position_3": 0,
+            "y_position_3": 0,
+            "x_position_mobile_3": 0,
+            "y_position_mobile_3": 0,
             "slide_index": ""
           }
         },
