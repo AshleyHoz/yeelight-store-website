@@ -213,6 +213,38 @@
           </div>
         </div>
       </slide-show>
+      <div class="shop-look-slider-buttons-container-mobile">
+        <div class="shop-look-slider-buttons-container-inner">
+          <div class=" shop-look-slider-buttons flickity-custom-dots">
+            {%- for block in section.blocks -%}
+              {% if block.settings.button_text != blank %}
+                <li
+                  class="shop-look-slider-buttons_item"
+                  data-img="{{block.settings.image}}"
+                  onclick="onChangeBackground"
+                >
+                  <div class="shop-look-slider-buttons_item-content">
+                    <span class="shop-look-slider-buttons_item-icon">
+                      {% render 'svg-icons-custom' with block.settings.button_icon %}
+                    </span>
+                    <span class="shop-look-slider-buttons_item-icon-color">
+                      {% assign icon = block.settings.button_icon %}
+                      {% assign icon = icon | append: '-color' %}
+                      {% render 'svg-icons-custom' with icon %}
+                    </span>
+                    <span class="shop-look-slider-buttons_item-text">{{ block.settings.button_text }}</span>
+                    <span class="shop-look-slider-buttons_item-text-color">
+                      {% assign text = block.settings.button_icon %}
+                      {% assign text = text | append: '-text-color' %}
+                      {% render 'svg-icons-custom' with text %}
+                    </span>
+                  </div>
+                </li>
+              {% endif %}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </shop-the-look-slider>
