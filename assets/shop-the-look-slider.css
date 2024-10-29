@@ -729,4 +729,8 @@
   .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-content {
     opacity: 1;
   }
+
+  .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-content-color {
+    display: none;
+  }
 }
