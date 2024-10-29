@@ -566,8 +566,10 @@
         "slide_nMwfm4": {
           "type": "slide",
           "settings": {
-            "button_icon": "",
-            "button_text": "",
+            "button_icon": "custom-birthday",
+            "button_text": "Birthday",
+            "image": "shopify://shop_images/HomeTopicRoom-birthday.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicRoomMobine-birthday.jpg",
             "product_handle_1": "",
             "x_position_1": 20,
             "y_position_1": 20,
