@@ -99,8 +99,8 @@
                 </div>
               {%- endif -%}
             </a>
-            {% comment %} {{ forloop.index }} {% endcomment %}
-            {% comment %} {{ block.settings.slide_index }} {% endcomment %}
+            {{ forloop.index }}
+            {{ block.settings.slide_index }}
             {% if forloop.index == block.settings.slide_index %}
               <figure
                 class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}"
