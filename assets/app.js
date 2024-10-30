@@ -384,9 +384,9 @@ if (!customElements.get('product-card-small')) {
       console.log(e.target.name);
 
       if (e.target.name !== 'add') return;
-      this.addToCart(e.target.dataset.product);
+      this.addToCart(e.target.dataset.id);
     }
-    addToCart(product) {
+    addToCart(productId) {
       console.log(123);
 
       this.button.classList.add('loading');
@@ -404,7 +404,7 @@ if (!customElements.get('product-card-small')) {
       };
 
       let formData = new FormData(this.form);
-      formData.append('id', product ? product.selected_or_first_available_variant.id || this.id : this.id);
+      formData.append('id', productId || this.id);
       formData.append('quantity', 1);
       formData.append(
         'sections',
