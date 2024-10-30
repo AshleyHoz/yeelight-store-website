@@ -38,46 +38,56 @@
     </a>
     <div class="product-card-small--add-to-cart">
       {% render 'product-price', product: product_small %}
-      {% if is_purchasable %}
-        <button class="product-card-small--add-to-cart-button">
-          <span class="product-card-small--add-to-cart-icon">
-            {%- render 'svg-icons' with 'thb-add-to-cart' -%}
-            <span class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</span></span
-          >
-          <span class="product-card-small--add-to-cart-text">{{ 'products.product.add_to_cart' | t }}</span>
-        </button>
-      {% else %}
-        <quick-view class="product-card-small--add-to-cart-button" data-product-handle="{{ product_small.handle }}"
-          ><span class="product-card-small--add-to-cart-icon">
-            {%- render 'svg-icons' with 'thb-add-to-cart' -%}
-            <span class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</span></span
-          >
-          <span class="product-card-small--add-to-cart-text">
-            {{ 'products.product.choose_options' | t -}}
-          </span></quick-view
-        >
-      {% endif %}
-      {% comment %} {% if product_small.variants.size > 1 %} {% endcomment %}
-      <h4>SKU: {{ product_small.selected_or_first_available_variant.sku }}</h4>
-      {% comment %} {% else %} {% endcomment %}
-      <h4>SKU: {{ product_small.variants.first.sku }}</h4>
-      {% comment %} {% endif %} {% endcomment %}
-      <select name="id">
-        {% for variant in product_small.variants %}
-          <option
-            value="{{ variant.id }}"
-            {% if forloop.first %}
-              selected
-            {% endif %}
-          >
-            {{ variant.title }}
-          </option>
-        {% endfor %}
-      </select>
-      <form action="/cart/add" method="post">
-        <input type="hidden" name="id" value="{{ product_small.variants.first.id }}">
-        <button type="submit">Add to Cart</button>
-      </form>
+      {% comment %}
+        {% if is_purchasable %}
+          <button class="product-card-small--add-to-cart-button">
+            <span class="product-card-small--add-to-cart-icon">
+              {%- render 'svg-icons' with 'thb-add-to-cart' -%}
+              <span class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</span></span
+            >
+            <span class="product-card-small--add-to-cart-text">{{ 'products.product.add_to_cart' | t }}</span>
+          </button>
+        {% else %}
+          <quick-view class="product-card-small--add-to-cart-button" data-product-handle="{{ product_small.handle }}"
+            ><span class="product-card-small--add-to-cart-icon">
+              {%- render 'svg-icons' with 'thb-add-to-cart' -%}
+              <span class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</span></span
+            >
+            <span class="product-card-small--add-to-cart-text">
+              {{ 'products.product.choose_options' | t -}}
+            </span>
+            </quick-view>
+        {% endif %}
+      {% endcomment %}
+      <div>
+        <div>
+          {% assign variant = product_small.variants[0] %}
+          {{ variant.title }}
+        </div>
+      </div>
+      {% comment %}
+        <select name="id">
+          {% for variant in product_small.variants %}
+            <option
+              value="{{ variant.id }}"
+              {% if forloop.first %}
+                selected
+              {% endif %}
+            >
+              {{ variant.title }}
+            </option>
+          {% endfor %}
+        </select>
+      {% endcomment %}
+      {%- assign product_form_id = 'product-form-' | append: product_small.variants.first.id -%}
+      <button
+        type="submit"
+        name="add"
+        id="AddToCartSticky"
+        form="{{ product_form_id }}"
+      >
+        Add to Cart
+      </button>
     </div>
   </div>
 </product-card-small>
