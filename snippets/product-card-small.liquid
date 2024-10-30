@@ -87,11 +87,12 @@
           id="AddToCart"
           form="{{ product_form_id }}"
           class="single-add-to-cart-button button accent  single-add-to-cart-halloween"
+          onclick="quickAdd(event, this)"
         >
           {{ 'products.product.add_to_cart' | t }}
         </button>
 
-        <button class="product-card-small--add-to-cart-button">
+        <button onclick="quickAdd(event, this)">
           <span class="product-card-small--add-to-cart-icon">
             {%- render 'svg-icons' with 'thb-add-to-cart' -%}
             <span class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</span></span
@@ -107,6 +108,7 @@
             id="AddToCart"
             form="{{ product_form_id }}"
             class="single-add-to-cart-button button accent  single-add-to-cart-halloween"
+            onclick="quickAdd(event, this)"
           >
             {{ 'products.product.add_to_cart' | t }}
           </button>
@@ -120,7 +122,7 @@
           {% if product_small.selected_or_first_available_variant.available == false %}
             disabled
           {% endif %}
-          onclick="addToCart(event, this)"
+          onclick="quickAdd(event, this)"
         >
           <span class="single-add-to-cart-button--text">
             {%- liquid
