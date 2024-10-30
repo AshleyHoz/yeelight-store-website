@@ -6,6 +6,7 @@
   assign disable_top_spacing = section.settings.disable_top_spacing
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
   assign title = section.settings.title
+  assign view_title = section.settings.view_title
   assign section_link = section.settings.link
 -%}
 <shop-the-look-slider class="shop-the-look-slider section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
@@ -16,7 +17,7 @@
       {%- endif -%}
       <div class="shop-the-look-slider--view">
         <a href="{{ section_link }}" class="shop-the-look-slider--link">
-          <span> Grab the Special Bundle Now </span>
+          <span> {{ view_title }} </span>
           {% render 'svg-icons-custom' with 'custom-arrow-right-circle' %}
         </a>
       </div>
@@ -233,6 +234,12 @@
       "type": "text",
       "id": "title",
       "label": "Header Title",
+      "info": "Wrap your text."
+    },
+    {
+      "type": "text",
+      "id": "view_title",
+      "label": "View Title",
       "info": "Wrap your text."
     },
     {
