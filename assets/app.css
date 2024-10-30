@@ -4671,6 +4671,10 @@ select.resize-select {
 }
 
 .slide-panel-drawer-wrapper .product-card-small--info-add-to-cart {
+  display: block;
+}
+
+.slide-panel-drawer-wrapper .product-card-small--info-add-to-cart {
   color: rgba(0, 0, 0, 0.6);
   font-size: 12px;
   font-weight: 400;
