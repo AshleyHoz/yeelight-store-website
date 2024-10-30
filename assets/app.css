@@ -5713,7 +5713,7 @@ input[type='radio'],
   height: auto;
 }
 
-.slide-panel-drawer-wrapper .product-card-small--info-add-to-cart button:hover {
+.slide-panel-drawer-wrapper .product-card-small--info-add-to-cart .button.accent:hover {
   background: #fe772d;
   color: #ffffff;
 }
