@@ -59,8 +59,11 @@
       {% endif %}
     </div>
     <div class="product-card-small--info-add-to-cart">
-      {% assign variant = product_small.variants[0] %}
-      {{ variant.title }}
+      {% if is_purchasable == false %}
+        {% assign variant = product_small.variants[0] %}
+        {{ variant.title }}
+      {% endif %}
+
       {% comment %}
         <select name="id">
           {% for variant in product_small.variants %}
