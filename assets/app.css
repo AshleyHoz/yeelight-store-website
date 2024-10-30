@@ -4708,6 +4708,14 @@ select.resize-select {
   color: #ffffff;
 }
 
+.slide-panel-drawer-wrapper .product-card-small--link {
+  margin-bottom: 5px;
+}
+
+.slide-panel-drawer-wrapper .product-card-small--info-cart-price {
+  margin-top: 2px;
+}
+
 .product-cart-item {
   display: flex;
   width: 100%;
