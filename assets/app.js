@@ -347,10 +347,12 @@ if (!customElements.get('product-card-small')) {
       super();
 
       this.quick_add_enabled = this.classList.contains('quick-add-to-card--true');
+      console.log(this.classList.contains('quick-add-to-card--true'));
+
       this.button = this.querySelector('button');
       this.id = this.dataset.id;
       this.url = this.dataset.url;
-      this.addEventListener('click', this.addCart());
+      this.addEventListener('click', this.addCart.bind(this));
     }
     connectedCallback() {
       if (this.quick_add_enabled) {
