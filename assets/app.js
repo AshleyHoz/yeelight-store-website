@@ -350,7 +350,7 @@ if (!customElements.get('product-card-small')) {
       this.button = this.querySelector('button');
       this.id = this.dataset.id;
       this.url = this.dataset.url;
-      this.button.addEventListener('click');
+      this.button.addEventListener('click', this.addCart());
     }
     connectedCallback() {
       if (this.quick_add_enabled) {
