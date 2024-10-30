@@ -91,6 +91,14 @@
           {{ 'products.product.add_to_cart' | t }}
         </button>
 
+        <button class="product-card-small--add-to-cart-button">
+          <span class="product-card-small--add-to-cart-icon">
+            {%- render 'svg-icons' with 'thb-add-to-cart' -%}
+            <span class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</span></span
+          >
+          <span class="product-card-small--add-to-cart-text">{{ 'products.product.add_to_cart' | t }}</span>
+        </button>
+
         <form action="/cart/add" method="post">
           <input type="hidden" name="AddToCart" value="{{ product_small.variants.first.id }}">
           <button
