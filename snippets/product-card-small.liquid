@@ -91,6 +91,19 @@
           {{ 'products.product.add_to_cart' | t }}
         </button>
 
+        <form action="/cart/add" method="post">
+          <input type="hidden" name="id" value="{{ product_small.variants.first.id }}">
+          <button
+            type="submit"
+            name="add"
+            id="AddToCart"
+            form="{{ product_form_id }}"
+            class="single-add-to-cart-button button accent  single-add-to-cart-halloween"
+          >
+            {{ 'products.product.add_to_cart' | t }}
+          </button>
+        </form>
+
         <button
           type="submit"
           name="add"
