@@ -5703,13 +5703,14 @@ input[type='radio'],
 .slide-panel-drawer-wrapper .product-card-small--info-add-to-cart button {
   border-radius: 25px;
   border: 1px solid #fe772d;
-  background: rgba(254, 119, 45, 0.1) !important;
+  background: rgba(254, 119, 45, 0.1);
   color: #fe772d;
   text-align: center;
   font-size: 12px;
   font-weight: 500;
   line-height: 15px;
-  padding: 4px 10px;
+  padding: 5px 10px;
+  height: auto;
 }
 
 .slide-panel-drawer-wrapper .product-card-small--info-add-to-cart button:hover {
