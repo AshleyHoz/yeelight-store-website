@@ -347,8 +347,6 @@ if (!customElements.get('product-card-small')) {
       super();
 
       this.quick_add_enabled = this.classList.contains('quick-add-to-card--true');
-      console.log(this.classList.contains('quick-add-to-card--true'));
-
       this.button = this.querySelector('button');
       this.id = this.dataset.id;
       this.url = this.dataset.url;
@@ -383,9 +381,11 @@ if (!customElements.get('product-card-small')) {
     }
     addCart(e) {
       console.log(e);
+      if (e.target.name !== 'add') return;
+      addToCart(e.target.dataset.product);
     }
 
-    addToCart() {
+    addToCart(product) {
       console.log(123);
 
       this.button.classList.add('loading');
@@ -403,9 +403,7 @@ if (!customElements.get('product-card-small')) {
       };
 
       let formData = new FormData(this.form);
-      console.log(formData);
-
-      formData.append('id', this.id);
+      formData.append('id', product ? product.variants.first.id : this.id);
       formData.append('quantity', 1);
       formData.append(
         'sections',
