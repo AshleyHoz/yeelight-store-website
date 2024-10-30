@@ -57,11 +57,11 @@
           </span></quick-view
         >
       {% endif %}
-      {% if product_small.variants.size > 1 %}
-        <h4>SKU: {{ product_small.selected_or_first_available_variant.sku }}</h4>
-      {% else %}
-        <h4>SKU: {{ product_small.variants.first.sku }}</h4>
-      {% endif %}
+      {% comment %} {% if product_small.variants.size > 1 %} {% endcomment %}
+      <h4>SKU: {{ product_small.selected_or_first_available_variant.sku }}</h4>
+      {% comment %} {% else %} {% endcomment %}
+      <h4>SKU: {{ product_small.variants.first.sku }}</h4>
+      {% comment %} {% endif %} {% endcomment %}
     </div>
   </div>
 </product-card-small>
