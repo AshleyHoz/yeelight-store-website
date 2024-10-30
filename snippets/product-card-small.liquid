@@ -79,7 +79,7 @@
         </select>
       {% endcomment %}
       <div class="product-card-small--info-cart-price">
-        <div class="product-price">{{ product_small.variants.first.price | money_with_currency }}</div>
+        <div class="product-price">{{ product_small.variants.first.price | money }}</div>
         <button
           type="submit"
           name="add"
