@@ -348,6 +348,8 @@ if (!customElements.get('product-card-small')) {
 
       this.quick_add_enabled = this.classList.contains('quick-add-to-card--true');
       this.button = this.querySelector('button');
+      console.log(321);
+
       this.id = this.dataset.id;
       this.url = this.dataset.url;
     }
