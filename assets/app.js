@@ -346,7 +346,7 @@ if (!customElements.get('product-card-small')) {
     constructor() {
       super();
 
-      this.quick_add_enabled = this.classList.contains('quick-add-to-card--true');
+      this.quick_add_enabled = true; //this.classList.contains('quick-add-to-card--true');
       this.button = this.querySelector('button');
       console.log(321);
 
