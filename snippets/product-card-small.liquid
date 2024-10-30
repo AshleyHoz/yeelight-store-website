@@ -78,7 +78,7 @@
           {% endfor %}
         </select>
       {% endcomment %}
-      <div class="product-card-small--info-cart-price">
+      <div class="product-card-small--info-cart-price quick-add-to-card--true">
         <div class="product-price">{{ product_small.variants.first.price | money_with_currency }}</div>
         {%- assign product_form_id = 'product-form-' | append: product_small.variants.first.id -%}
         <button
