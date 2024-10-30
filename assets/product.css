@@ -2511,6 +2511,10 @@ h6,
   color: #ffffff;
 }
 
+.slide-panel-drawer-wrapper .product-card-small--add-to-cart .product-card-small--add-to-cart-button {
+  display: none;
+}
+
 @media only screen and (max-width: 767px) {
   .product-image-container scroll-shadow {
     display: none;
