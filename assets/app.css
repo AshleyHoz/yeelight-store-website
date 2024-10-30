@@ -4691,12 +4691,12 @@ select.resize-select {
   border-radius: 25px;
   border: 1px solid #fe772d;
   background: rgba(254, 119, 45, 0.1);
-  color: #FE772D;
-text-align: center;
-font-size: 12px;
-font-weight: 500;
-line-height: 15px; 
-padding: 4px 10px;
+  color: #fe772d;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  padding: 4px 10px;
 }
 
 .slide-panel-drawer-wrapper .product-card-small--info-add-to-cart button:hover {
