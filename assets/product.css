@@ -2317,6 +2317,11 @@ h6,
 .product-card-small:hover .price {
   transform: translateY(-100%);
 }
+
+.slide-panel-drawer-wrapper .product-card-small:hover .price {
+  transform: translateY(0);
+}
+
 .product-card-small:hover .product-card-small--add-to-cart-button {
   transform: translateY(0%);
 }
