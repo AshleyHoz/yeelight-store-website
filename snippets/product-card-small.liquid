@@ -82,18 +82,23 @@
         <div class="product-price">
           {{ product_small.variants.first.price | money }}
           <span class="price">
-            {%- if product_small.original_line_price != product_small.final_line_price -%}
-              <del
-                ><span class="amount">{{ product_small.original_line_price | money }}</span></del
-              >
-              <ins
-                ><span class="amount">{{ product_small.final_line_price | money }}</span></ins
-              >
-            {%- else -%}
-              <ins
-                ><span class="amount">{{ product_small.original_line_price | money }}</span></ins
-              >
-            {%- endif -%}
+            <del
+              ><span class="amount custom-amount-del">{{ product_small.compare_at_price | money }}</span></del
+            >
+            {% comment %}
+              {%- if product_small.original_line_price != product_small.final_line_price -%}
+                <del
+                  ><span class="amount">{{ product_small.original_line_price | money }}</span></del
+                >
+                <ins
+                  ><span class="amount">{{ product_small.final_line_price | money }}</span></ins
+                >
+              {%- else -%}
+                <ins
+                  ><span class="amount">{{ product_small.original_line_price | money }}</span></ins
+                >
+              {%- endif -%}
+            {% endcomment %}
           </span>
         </div>
         <button
