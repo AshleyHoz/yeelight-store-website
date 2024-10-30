@@ -380,15 +380,10 @@ if (!customElements.get('product-card-small')) {
       ];
     }
     addCart(e) {
-      console.log(e);
-      console.log(e.target.name);
-
       if (e.target.name !== 'add') return;
       this.addToCart(e.target.dataset.id);
     }
     addToCart(productId) {
-      console.log(123);
-
       this.button.classList.add('loading');
       if (!this.quick_add_enabled) {
         // quick view
