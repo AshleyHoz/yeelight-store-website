@@ -88,7 +88,7 @@
           form="{{ product_form_id }}"
           class="single-add-to-cart-button button accent  single-add-to-cart-halloween"
           data-product="{{product_small}}"
-          onclick="addToCart(event, this)"
+          onclick="addCart"
         >
           {{ 'products.product.add_to_cart' | t }}
         </button>
@@ -102,7 +102,7 @@
             disabled
           {% endif %}
           data-product="{{product_small}}"
-          onclick="addToCart(event, this)"
+          onclick="addCart"
         >
           <span class="single-add-to-cart-button--text">
             {%- liquid

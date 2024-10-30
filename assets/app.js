@@ -347,10 +347,7 @@ if (!customElements.get('product-card-small')) {
       super();
 
       this.quick_add_enabled = this.classList.contains('quick-add-to-card--true');
-      console.log(this.quick_add_enabled);
-
       this.button = this.querySelector('button');
-
       this.id = this.dataset.id;
       this.url = this.dataset.url;
     }
@@ -380,6 +377,9 @@ if (!customElements.get('product-card-small')) {
           selector: '.thb-item-count',
         },
       ];
+    }
+    addCart(e) {
+      console.log(e);
     }
 
     addToCart() {
