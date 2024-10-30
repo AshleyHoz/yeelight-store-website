@@ -381,10 +381,11 @@ if (!customElements.get('product-card-small')) {
     }
     addCart(e) {
       console.log(e);
-      if (e.target.name !== 'add') return;
-      addToCart(e.target.dataset.product);
-    }
+      console.log(e.target.name);
 
+      if (e.target.name !== 'add') return;
+      this.addToCart(e.target.dataset.product);
+    }
     addToCart(product) {
       console.log(123);
 
