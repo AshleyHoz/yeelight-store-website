@@ -62,6 +62,22 @@
       {% comment %} {% else %} {% endcomment %}
       <h4>SKU: {{ product_small.variants.first.sku }}</h4>
       {% comment %} {% endif %} {% endcomment %}
+      <select name="id">
+        {% for variant in product_small.variants %}
+          <option
+            value="{{ variant.id }}"
+            {% if forloop.first %}
+              selected
+            {% endif %}
+          >
+            {{ variant.title }}
+          </option>
+        {% endfor %}
+      </select>
+      <form action="/cart/add" method="post">
+        <input type="hidden" name="id" value="{{ product_small.variants.first.id }}">
+        <button type="submit">Add to Cart</button>
+      </form>
     </div>
   </div>
 </product-card-small>
