@@ -5726,6 +5726,10 @@ input[type='radio'],
   margin-top: 25px;
 }
 
+.slide-panel-drawer-wrapper .product-card-small--info-cart-price .product-line-price {
+  color: #2c2d2e;
+}
+
 .slide-panel-drawer-wrapper .product-card-small--info {
   display: flex;
   flex-direction: column;
