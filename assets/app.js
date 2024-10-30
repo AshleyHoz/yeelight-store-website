@@ -404,10 +404,7 @@ if (!customElements.get('product-card-small')) {
       };
 
       let formData = new FormData(this.form);
-      formData.append(
-        'id',
-        product ? product.variants.first.id || product.selected_or_first_available_variant.id || this.id : this.id
-      );
+      formData.append('id', product ? product.selected_or_first_available_variant.id || this.id : this.id);
       formData.append('quantity', 1);
       formData.append(
         'sections',
