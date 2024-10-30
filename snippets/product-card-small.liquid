@@ -57,33 +57,33 @@
           </span>
         </quick-view>
       {% endif %}
-      <div class="product-card-small--info-add-to-cart">
-        {% assign variant = product_small.variants[0] %}
-        {{ variant.title }}
-        {% comment %}
-          <select name="id">
-            {% for variant in product_small.variants %}
-              <option
-                value="{{ variant.id }}"
-                {% if forloop.first %}
-                  selected
-                {% endif %}
-              >
-                {{ variant.title }}
-              </option>
-            {% endfor %}
-          </select>
-        {% endcomment %}
-        {%- assign product_form_id = 'product-form-' | append: product_small.variants.first.id -%}
-        <button
-          type="submit"
-          name="add"
-          id="AddToCartSticky"
-          form="{{ product_form_id }}"
-        >
-          {{ 'products.product.add_to_cart' | t }}
-        </button>
-      </div>
+    </div>
+    <div class="product-card-small--info-add-to-cart">
+      {% assign variant = product_small.variants[0] %}
+      {{ variant.title }}
+      {% comment %}
+        <select name="id">
+          {% for variant in product_small.variants %}
+            <option
+              value="{{ variant.id }}"
+              {% if forloop.first %}
+                selected
+              {% endif %}
+            >
+              {{ variant.title }}
+            </option>
+          {% endfor %}
+        </select>
+      {% endcomment %}
+      {%- assign product_form_id = 'product-form-' | append: product_small.variants.first.id -%}
+      <button
+        type="submit"
+        name="add"
+        id="AddToCartSticky"
+        form="{{ product_form_id }}"
+      >
+        {{ 'products.product.add_to_cart' | t }}
+      </button>
     </div>
   </div>
 </product-card-small>
