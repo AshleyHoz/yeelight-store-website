@@ -4661,6 +4661,11 @@ select.resize-select {
   line-height: 24px;
 }
 
+.slide-panel-drawer-wrapper .product-card-small--add-to-cart h4{
+  color: #000;
+}
+
+
 .product-cart-item {
   display: flex;
   width: 100%;
