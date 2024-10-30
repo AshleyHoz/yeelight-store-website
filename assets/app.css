@@ -4671,10 +4671,37 @@ select.resize-select {
 }
 
 .slide-panel-drawer-wrapper .product-card-small--info-add-to-cart {
-  color: #000000;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.slide-panel-drawer-wrapper .product-card-small--info-add-to-cart .product-card-small--info-cart-price {
+  color: #2c2d2e;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.slide-panel-drawer-wrapper .product-card-small--info-add-to-cart button {
+  border-radius: 25px;
+  border: 1px solid #fe772d;
+  background: rgba(254, 119, 45, 0.1);
+  color: #FE772D;
+text-align: center;
+font-size: 12px;
+font-weight: 500;
+line-height: 15px; 
+padding: 4px 10px;
+}
+
+.slide-panel-drawer-wrapper .product-card-small--info-add-to-cart button:hover {
+  background: #fe772d;
+  color: #ffffff;
 }
 
 .product-cart-item {

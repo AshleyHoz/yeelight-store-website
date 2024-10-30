@@ -78,15 +78,18 @@
           {% endfor %}
         </select>
       {% endcomment %}
-      {%- assign product_form_id = 'product-form-' | append: product_small.variants.first.id -%}
-      <button
-        type="submit"
-        name="add"
-        id="AddToCartSticky"
-        form="{{ product_form_id }}"
-      >
-        {{ 'products.product.add_to_cart' | t }}
-      </button>
+      <div class="product-card-small--info-cart-price">
+        <div class="product-price">{{ product_small.variants.first.unit_price }}</div>
+        {%- assign product_form_id = 'product-form-' | append: product_small.variants.first.id -%}
+        <button
+          type="submit"
+          name="add"
+          id="AddToCartSticky"
+          form="{{ product_form_id }}"
+        >
+          {{ 'products.product.add_to_cart' | t }}
+        </button>
+      </div>
     </div>
   </div>
 </product-card-small>
