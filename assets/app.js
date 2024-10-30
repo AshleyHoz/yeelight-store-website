@@ -348,7 +348,6 @@ if (!customElements.get('product-card-small')) {
 
       this.quick_add_enabled = true; //this.classList.contains('quick-add-to-card--true');
       this.button = this.querySelector('button');
-      console.log(321);
 
       this.id = this.dataset.id;
       this.url = this.dataset.url;
@@ -399,6 +398,7 @@ if (!customElements.get('product-card-small')) {
       };
 
       let formData = new FormData(this.form);
+      console.log(formData);
 
       formData.append('id', this.id);
       formData.append('quantity', 1);
