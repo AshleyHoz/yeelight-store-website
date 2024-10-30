@@ -250,6 +250,13 @@
 .product-card-small--info .price {
   font-size: inherit;
 }
+
+.product-card-small--info-add-to-cart {
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .product-card-small--link {
   display: block;
   font-size: calc(var(--font-product-title-scale, 1) * 0.875rem);
