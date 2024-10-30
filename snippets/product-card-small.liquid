@@ -90,6 +90,34 @@
         >
           {{ 'products.product.add_to_cart' | t }}
         </button>
+
+        <button
+          type="submit"
+          name="add"
+          id="AddToCart"
+          class="single-add-to-cart-button button accent {% unless product_small.selected_or_first_available_variant.available %}sold-out{% endunless %} {% if settings.halloween_flag %}single-add-to-cart-halloween{% endif %}"
+          {% if product_small.selected_or_first_available_variant.available == false %}
+            disabled
+          {% endif %}
+        >
+          <span class="single-add-to-cart-button--text">
+            {%- liquid
+              if product_small.selected_or_first_available_variant.available == false
+                assign button_content = 'products.product.sold_out' | t
+              else
+                if product_template == 'pre-order'
+                  assign button_content = 'products.product.pre_order' | t
+                else
+                  assign button_content = 'products.product.add_to_cart' | t
+                endif
+              endif
+            -%}
+            {{- button_content -}}
+          </span>
+          <span class="loading-overlay">
+            {% render 'svg-icons' with 'thb-loading' %}
+          </span>
+        </button>
       </div>
     </div>
   </div>
