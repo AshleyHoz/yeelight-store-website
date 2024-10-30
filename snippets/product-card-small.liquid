@@ -112,6 +112,7 @@
           {% if product_small.selected_or_first_available_variant.available == false %}
             disabled
           {% endif %}
+          onclick="addToCart(event, this)"
         >
           <span class="single-add-to-cart-button--text">
             {%- liquid
