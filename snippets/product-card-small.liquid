@@ -81,10 +81,13 @@
       <div class="product-card-small--info-cart-price">
         <div class="product-price">
           {{ product_small.selected_or_first_available_variant.price | money }}
-          <span class="product-line-price">
-            {{ product_small.selected_or_first_available_variant.price | money }}
-            {{ product_small.selected_or_first_available_variant.compare_at_price | money }}
-          </span>
+          {% if product_small.selected_or_first_available_variant.price
+              == product_small.selected_or_first_available_variant.compare_at_price
+          %}
+            <span class="product-line-price">
+              {{ product_small.selected_or_first_available_variant.compare_at_price | money }}
+            </span>
+          {% endif %}
         </div>
         <button
           type="submit"

@@ -5728,6 +5728,7 @@ input[type='radio'],
 
 .slide-panel-drawer-wrapper .product-card-small--info-cart-price .product-line-price {
   color: #2c2d2e;
+  opacity: 0.6;
 }
 
 .slide-panel-drawer-wrapper .product-card-small--info {
