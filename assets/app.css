@@ -4791,9 +4791,11 @@ select.resize-select {
   overflow: hidden;
 }
 
-.cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left,
+.cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left {
+  width: 60%;
+}
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--right {
-  width: 50%;
+  width: 40%;
 }
 
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left {
