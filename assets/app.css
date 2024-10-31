@@ -5335,10 +5335,13 @@ input[type='radio'],
 .section-cart-white .cart-drawer-footer .order-note-toggle,
 .section-cart-white .order-note-toggle__content label,
 .section-cart-white .order-note-toggle__content textarea,
-.section-cart-white .complementary-products--heading {
+.section-cart-white .complementary-products--heading,
+.section-main-cart-white .price .custom-amount-del,
+.section-main-cart-white .price .custom-amount-ins {
   color: var(--color-product-font);
 }
 
+.section-main-cart-white .price .custom-amount-del,
 .section-cart-white .price .custom-amount-del {
   opacity: 0.6;
 }
