@@ -87,13 +87,13 @@
                       </div>
                       <div class="thb-hotspot-arrow"></div>
                       <div class="thb-hotspot-bubble">
-                        {% if hotspot_product_1.featured_image %}
+                        {% if hotspot_product_1.images[1] %}
                           <a
                             href="{{ hotspot_product_1.url }}"
                             title="{{ hotspot_product_1.title | escape }}"
                             class="thb-hotspot-product-image"
                           >
-                            {%- render 'responsive-image', image: hotspot_product_1.featured_image, sizes: '150x0' -%}
+                            {%- render 'responsive-image', image: hotspot_product_1.images[1], sizes: '150x0' -%}
                           </a>
                         {% endif %}
                         <div class="thb-hotspot-product-content">
@@ -122,13 +122,13 @@
                       </div>
                       <div class="thb-hotspot-arrow"></div>
                       <div class="thb-hotspot-bubble">
-                        {% if hotspot_product_2.featured_image %}
+                        {% if hotspot_product_2.images[1] %}
                           <a
                             href="{{ hotspot_product_2.url }}"
                             title="{{ hotspot_product_2.title | escape }}"
                             class="thb-hotspot-product-image"
                           >
-                            {%- render 'responsive-image', image: hotspot_product_2.featured_image, sizes: '150x0' -%}
+                            {%- render 'responsive-image', image: hotspot_product_2.images[1], sizes: '150x0' -%}
                           </a>
                         {% endif %}
                         <div class="thb-hotspot-product-content">
@@ -157,13 +157,13 @@
                       </div>
                       <div class="thb-hotspot-arrow"></div>
                       <div class="thb-hotspot-bubble">
-                        {% if hotspot_product_3.featured_image %}
+                        {% if hotspot_product_3.images[1] %}
                           <a
                             href="{{ hotspot_product_3.url }}"
                             title="{{ hotspot_product_3.title | escape }}"
                             class="thb-hotspot-product-image"
                           >
-                            {%- render 'responsive-image', image: hotspot_product_3.featured_image, sizes: '150x0' -%}
+                            {%- render 'responsive-image', image: hotspot_product_3.images[1], sizes: '150x0' -%}
                           </a>
                         {% endif %}
                         <div class="thb-hotspot-product-content">
