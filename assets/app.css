@@ -4809,10 +4809,6 @@ select.resize-select {
   width: 40%;
 }
 
-.cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--right.hide-width {
-  width: 0;
-}
-
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left {
   border-right: 1px solid #d3d3d3;
 }
