@@ -52,30 +52,6 @@
                       <a href="{{ item.url }}" title="{{ item.product.title | escape }}" class="cart-product-link">
                         {{- item.product.title -}}
                       </a>
-                      <span class="price">
-                        {%- if item.original_line_price != item.final_line_price -%}
-                          <del
-                            ><span class="amount custom-amount-del">{{ item.original_line_price | money }}</span></del
-                          >
-                          <ins
-                            ><span class="amount custom-amount-ins">{{ item.final_line_price | money }}</span></ins
-                          >
-                        {%- else -%}
-                          <ins
-                            ><span class="amount custom-amount-ins">{{ item.original_line_price | money }}</span></ins
-                          >
-                        {%- endif -%}
-                        {%- if item.variant.available and item.unit_price_measurement -%}
-                          <small class="unit-price">
-                            {{ item.variant.unit_price | money }}
-                            <span class="unit-price-separator">/</span>
-                            {%- if item.variant.unit_price_measurement.reference_value != 1 -%}
-                              {{- item.variant.unit_price_measurement.reference_value -}}
-                            {%- endif -%}
-                            {{ item.variant.unit_price_measurement.reference_unit }}
-                          </small>
-                        {%- endif -%}
-                      </span>
                       {% if item.selling_plan_allocation %}
                         <div class="properties">
                           <span class="selling-plan">{{ item.selling_plan_allocation.selling_plan.name }}</span>
@@ -115,6 +91,30 @@
                           {%- endfor -%}
                         </ul>
                       {%- endif -%}
+                      <span class="price">
+                        {%- if item.original_line_price != item.final_line_price -%}
+                          <del
+                            ><span class="amount custom-amount-del">{{ item.original_line_price | money }}</span></del
+                          >
+                          <ins
+                            ><span class="amount custom-amount-ins">{{ item.final_line_price | money }}</span></ins
+                          >
+                        {%- else -%}
+                          <ins
+                            ><span class="amount custom-amount-ins">{{ item.original_line_price | money }}</span></ins
+                          >
+                        {%- endif -%}
+                        {%- if item.variant.available and item.unit_price_measurement -%}
+                          <small class="unit-price">
+                            {{ item.variant.unit_price | money }}
+                            <span class="unit-price-separator">/</span>
+                            {%- if item.variant.unit_price_measurement.reference_value != 1 -%}
+                              {{- item.variant.unit_price_measurement.reference_value -}}
+                            {%- endif -%}
+                            {{ item.variant.unit_price_measurement.reference_unit }}
+                          </small>
+                        {%- endif -%}
+                      </span>
                       <quantity-selector class="quantity cart-update small-qty" data-id="{{ item.key | escape }}">
                         <button
                           class="minus"
