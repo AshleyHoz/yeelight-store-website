@@ -4794,8 +4794,9 @@ select.resize-select {
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left {
   width: 60%;
 }
+
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left.full-width {
-  width: 60%;
+  width: 100%;
 }
 
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--right {
@@ -5407,6 +5408,13 @@ input[type='radio'],
 
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-recommend--mobile {
   display: none;
+}
+
+.cart-drawer
+  .slide-panel-drawer-wrapper
+  .slide-panel-drawer-wrapper--left.full-width
+  .slide-panel-drawer-recommend--mobile {
+  display: block;
 }
 
 .cart-halloween .cart-drawer-buttons a,
