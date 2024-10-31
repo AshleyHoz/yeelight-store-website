@@ -79,47 +79,51 @@
         </select>
       {% endcomment %}
       <div class="product-card-small--info-cart-price">
-        <div class="product-price">
-          {{ product_small.variants.first.price | money }}
-          <span class="product-line-price">
-            {%- if product_small.original_line_price != product_small.final_line_price -%}
-              <del
-                ><span class="amount">{{ product_small.original_line_price | money }}</span></del
-              >
-              <ins
-                ><span class="amount">{{ product_small.final_line_price | money }}</span></ins
-              >
-            {%- else -%}
-              <ins
-                ><span class="amount">{{ product_small.original_line_price | money }}</span></ins
-              >
-            {%- endif -%}
-          </span>
-          <span class="price">
-            {%- if product_smalloriginal_line_price != product_smallfinal_line_price -%}
-              <del
-                ><span class="amount custom-amount-del">{{ product_smalloriginal_line_price | money }}</span></del
-              >
-              <ins
-                ><span class="amount custom-amount-ins">{{ product_smallfinal_line_price | money }}</span></ins
-              >
-            {%- else -%}
-              <ins
-                ><span class="amount custom-amount-ins">{{ product_smalloriginal_line_price | money }}</span></ins
-              >
-            {%- endif -%}
-            {%- if product_smallvariant.available and product_smallunit_price_measurement -%}
-              <small class="unit-price">
-                {{ product_smallvariant.unit_price | money }}
-                <span class="unit-price-separator">/</span>
-                {%- if product_smallvariant.unit_price_measurement.reference_value != 1 -%}
-                  {{- product_smallvariant.unit_price_measurement.reference_value -}}
-                {%- endif -%}
-                {{ product_smallvariant.unit_price_measurement.reference_unit }}
-              </small>
-            {%- endif -%}
-          </span>
-        </div>
+        {% render 'product-price', product: product_small %}
+
+        {% comment %}
+          <div class="product-price">
+            {{ product_small.variants.first.price | money }}
+            <span class="product-line-price">
+              {%- if product_small.original_line_price != product_small.final_line_price -%}
+                <del
+                  ><span class="amount">{{ product_small.original_line_price | money }}</span></del
+                >
+                <ins
+                  ><span class="amount">{{ product_small.final_line_price | money }}</span></ins
+                >
+              {%- else -%}
+                <ins
+                  ><span class="amount">{{ product_small.original_line_price | money }}</span></ins
+                >
+              {%- endif -%}
+            </span>
+            <span class="price">
+              {%- if product_smalloriginal_line_price != product_smallfinal_line_price -%}
+                <del
+                  ><span class="amount custom-amount-del">{{ product_smalloriginal_line_price | money }}</span></del
+                >
+                <ins
+                  ><span class="amount custom-amount-ins">{{ product_smallfinal_line_price | money }}</span></ins
+                >
+              {%- else -%}
+                <ins
+                  ><span class="amount custom-amount-ins">{{ product_smalloriginal_line_price | money }}</span></ins
+                >
+              {%- endif -%}
+              {%- if product_smallvariant.available and product_smallunit_price_measurement -%}
+                <small class="unit-price">
+                  {{ product_smallvariant.unit_price | money }}
+                  <span class="unit-price-separator">/</span>
+                  {%- if product_smallvariant.unit_price_measurement.reference_value != 1 -%}
+                    {{- product_smallvariant.unit_price_measurement.reference_value -}}
+                  {%- endif -%}
+                  {{ product_smallvariant.unit_price_measurement.reference_unit }}
+                </small>
+              {%- endif -%}
+            </span>
+          </div>
+        {% endcomment %}
         <button
           type="submit"
           name="add"
