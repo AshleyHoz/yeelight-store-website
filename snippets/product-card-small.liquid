@@ -80,10 +80,12 @@
       {% endcomment %}
       <div class="product-card-small--info-cart-price">
         {% comment %} {% render 'product-price', product: product_small %} {% endcomment %}
-        {{ product_small.selected_or_first_available_variant.price }}
-        {{ product_small.price }}
-        {{ product_small.selected_or_first_available_variant.compare_at_price }}
-        {{ product_small.compare_at_price }}
+        {{ product_small.selected_or_first_available_variant.price | money }}
+        {{ product_small.price | money }}
+        {{ product_small.selected_or_first_available_variant.compare_at_price | money }}
+        {{ product_small.compare_at_price | money }}
+        {{ product_small.selected_or_first_available_variant.unit_price | money }}
+        {{ product_small.unit_price | money }}
         {% comment %}
           <div class="product-price">
             {{ product_small.variants.first.price | money }}
