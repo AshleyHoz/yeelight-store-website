@@ -381,11 +381,11 @@ if (!customElements.get('product-card-small')) {
     }
     addCart(e) {
       if (e.target.name !== 'add') return;
-      this.addToCart(e.target.dataset.id);
+      this.addToCart(e, e.target.dataset.id);
     }
-    addToCart(productId) {
+    addToCart(e, productId) {
       console.log(productId);
-      
+
       this.button.classList.add('loading');
       if (!this.quick_add_enabled) {
         // quick view
