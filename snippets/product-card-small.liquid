@@ -80,13 +80,10 @@
       {% endcomment %}
       <div class="product-card-small--info-cart-price">
         <div class="product-price">
-          {{ product_small.variants.first.price | money }}
+          {{ product_small.selected_or_first_available_variant.price | money }}
           <span class="product-line-price">
             {{ product_small.selected_or_first_available_variant.price | money }}
             {{ product_small.selected_or_first_available_variant.compare_at_price | money }}
-            2\
-            {{ product_small.variants.first.price | money }}
-            {{ product_small.variants.first.compare_at_price | money }}
           </span>
         </div>
         <button
@@ -95,7 +92,7 @@
           id="AddToCart"
           class="single-add-to-cart-button button accent  single-add-to-cart-halloween"
           data-product="{{product_small}}"
-          data-id="{{product_small.variants.first.id}}"
+          data-id="{{product_small.selected_or_first_available_variant.id}}"
           data-product-id="{{product_small.selected_or_first_available_variant.id}}"
           onclick="addCart"
         >
