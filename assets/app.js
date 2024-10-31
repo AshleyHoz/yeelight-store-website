@@ -384,8 +384,6 @@ if (!customElements.get('product-card-small')) {
       this.addToCart(e, e.target.dataset.id);
     }
     addToCart(e, productId) {
-      console.log(productId);
-
       this.button.classList.add('loading');
       if (!this.quick_add_enabled) {
         // quick view
