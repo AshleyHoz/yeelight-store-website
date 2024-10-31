@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="slide-panel-drawer-wrapper">
-        <div class="slide-panel-drawer-wrapper--left">
+        <div class="slide-panel-drawer-wrapper--left {% if cart.items.size == 0 %}full-width{% endif %}">
           <div class="side-panel-content">
             {%- if cart != empty -%}
               <div class="product-cart-item--container">
@@ -323,23 +323,25 @@
             </div>
           {%- endif -%}
         </div>
-        <div class="slide-panel-drawer-wrapper--right">
-          {%- if settings.cart_recommendations and cart != empty -%}
-            <product-recommendations
-              class="complementary-products"
-              data-url="{{ routes.product_recommendations_url }}?section_id=cart-drawer&product_id={{ cart.items[0].product_id }}&limit=4"
-            >
-              {% if recommendations.performed and recommendations.products_count > 0 %}
-                <div class="complementary-products--heading">{{ 'general.cart_drawer.you_may_also_like' | t }}</div>
-                <div class="complementary-products--inner">
-                  {% for recommendation in recommendations.products %}
-                    {% render 'product-card-small', product_small: recommendation %}
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </product-recommendations>
-          {%- endif -%}
-        </div>
+        {% if cart.items.size > 0 %}
+          <div class="slide-panel-drawer-wrapper--right">
+            {%- if settings.cart_recommendations and cart != empty -%}
+              <product-recommendations
+                class="complementary-products"
+                data-url="{{ routes.product_recommendations_url }}?section_id=cart-drawer&product_id={{ cart.items[0].product_id }}&limit=4"
+              >
+                {% if recommendations.performed and recommendations.products_count > 0 %}
+                  <div class="complementary-products--heading">{{ 'general.cart_drawer.you_may_also_like' | t }}</div>
+                  <div class="complementary-products--inner">
+                    {% for recommendation in recommendations.products %}
+                      {% render 'product-card-small', product_small: recommendation %}
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </product-recommendations>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
       </div>
     </div>
   </div>
