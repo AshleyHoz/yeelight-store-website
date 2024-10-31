@@ -1,1 +1,65 @@
-{"sections":{"breadcrumbs":{"type":"breadcrumbs","settings":{}},"main-article":{"type":"main-article","blocks":{"title":{"type":"title","settings":{}},"content":{"type":"content","settings":{}},"tags":{"type":"tags","settings":{}},"post_navigation":{"type":"post_navigation","settings":{}}},"block_order":["title","content","tags","post_navigation"],"settings":{"article_show_date":true,"article_show_author":true}}},"order":["breadcrumbs","main-article"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "enable_opposite_theme": false
+      }
+    },
+    "main-article": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "tags": {
+          "type": "tags",
+          "settings": {
+          }
+        },
+        "post_navigation": {
+          "type": "post_navigation",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content",
+        "tags",
+        "post_navigation"
+      ],
+      "custom_css": [
+        ".post-content h2 {font-size: 2rem; font-weight: 600; line-height: 1.375; overflow-wrap: normal; margin-top: 8px; margin-bottom: 8px;}",
+        ".post-content h3 {font-size: 1.5rem; font-weight: 500; line-height: 1.41666667; overflow-wrap: normal; margin-top: 8px; margin-bottom: 8px;}",
+        ".post-content p {font-size: 1.125rem; font-weight: 300; line-height: 1.77777778; overflow-wrap: normal; margin-top: 16px; margin-bottom: 16px;}"
+      ],
+      "settings": {
+        "article_show_date": true,
+        "article_show_author": true,
+        "article_show_nav": true,
+        "article_show_sharing": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-article"
+  ]
+}

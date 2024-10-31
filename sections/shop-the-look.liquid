@@ -73,7 +73,7 @@
               {% assign button_hash = item | split: ',' %}
               {{ button_hash }}
               <li class="shop-look-buttons_item" onclick="onChangeBackground">
-                {% render 'svg-icons' with {{ button_hash[0] | split: ":" | last | strip }} %}
+                {% render 'svg-icons-custom' with {{ button_hash[0] | split: ":" | last | strip }} %}
                 {{ button_hash[1] | split: ':' | last | strip }}
               </li>
             {% endfor %}
@@ -101,7 +101,7 @@
                     {% if block.settings.button_text != blank %}
                       <li class="shop-look-buttons_item" data-img="{{block.settings.image}}" onclick="onChangeBackground">
                         <div class="shop-look-buttons_item-content">
-                          {% render 'svg-icons' with block.settings.button_icon %}
+                          {% render 'svg-icons-custom' with block.settings.button_icon %}
                           <span>{{ block.settings.button_text }}</span>
                         </div>
                       </li>
@@ -111,7 +111,7 @@
                 {% if button_1_text != blank %}
                   <li class="shop-look-buttons_item" data-img="{{image_1}}" onclick="onChangeBackground">
                     <div class="shop-look-buttons_item-content">
-                      {% render 'svg-icons' with button_1_icon %}
+                      {% render 'svg-icons-custom' with button_1_icon %}
                       <span>{{ button_1_text }}</span>
                     </div>
                   </li>
@@ -119,7 +119,7 @@
                 {% if button_2_text != blank %}
                   <li class="shop-look-buttons_item" onclick="onChangeBackground">
                     <div class="shop-look-buttons_item-content">
-                      {% render 'svg-icons' with button_2_icon %}
+                      {% render 'svg-icons-custom' with button_2_icon %}
                       <span>{{ button_2_text }}</span>
                     </div>
                   </li>
@@ -127,7 +127,7 @@
                 {% if button_3_text != blank %}
                   <li class="shop-look-buttons_item" onclick="onChangeBackground">
                     <div class="shop-look-buttons_item-content">
-                      {% render 'svg-icons' with button_3_icon %}
+                      {% render 'svg-icons-custom' with button_3_icon %}
                       <span>{{ button_3_text }}</span>
                     </div>
                   </li>
@@ -135,7 +135,7 @@
                 {% if button_4_text != blank %}
                   <li class="shop-look-buttons_item" onclick="onChangeBackground">
                     <div class="shop-look-buttons_item-content">
-                      {% render 'svg-icons' with button_4_icon %}
+                      {% render 'svg-icons-custom' with button_4_icon %}
                       <span>{{ button_4_text }}</span>
                     </div>
                   </li>
@@ -143,7 +143,7 @@
                 {% if button_5_text != blank %}
                   <li class="shop-look-buttons_item" onclick="onChangeBackground">
                     <div class="shop-look-buttons_item-content">
-                      {% render 'svg-icons' with button_5_icon %}
+                      {% render 'svg-icons-custom' with button_5_icon %}
                       <span>{{ button_5_text }}</span>
                     </div>
                   </li>
@@ -165,7 +165,7 @@
                 <div class="thb-hotspot-content thb-pulsate">
                   {%- unless hotspot_product == empty -%}
                     <div class="loading-overlay">
-                      {% render 'svg-icons' with 'thb-loading' %}
+                      {% render 'svg-icons-custom' with 'thb-loading' %}
                     </div>
                     <div class="thb-hotspot-arrow"></div>
                     <div class="thb-hotspot-bubble">

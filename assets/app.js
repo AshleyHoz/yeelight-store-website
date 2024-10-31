@@ -10,7 +10,7 @@ if (typeof debounce === 'undefined') {
 var dispatchCustomEvent = function dispatchCustomEvent(eventName) {
   var data = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
   var detail = {
-    detail: data
+    detail: data,
   };
   var event = new CustomEvent(eventName, data ? detail : null);
   document.dispatchEvent(event);
@@ -27,7 +27,7 @@ if (!customElements.get('quantity-selector')) {
       this.input = this.querySelector('.qty');
       this.step = this.input.getAttribute('step');
       this.changeEvent = new Event('change', {
-        bubbles: true
+        bubbles: true,
       });
       // Create buttons
       this.subtract = this.querySelector('.minus');
@@ -50,11 +50,11 @@ if (!customElements.get('quantity-selector')) {
       if (isNaN(quantity)) quantity = 1;
 
       // Check for min & max
-      if (this.input.getAttribute('min') > (quantity + change)) {
+      if (this.input.getAttribute('min') > quantity + change) {
         return;
       }
       if (this.input.getAttribute('max')) {
-        if (this.input.getAttribute('max') < (quantity + change)) {
+        if (this.input.getAttribute('max') < quantity + change) {
           return;
         }
       }
@@ -92,12 +92,11 @@ if (!customElements.get('quantity-selector')) {
  *  @function ArrowSubMenu
  */
 class ArrowSubMenu {
-
   constructor(self) {
     this.submenu = self.parentNode.querySelector('.sub-menu');
     this.arrow = self;
     // Add functionality to buttons
-    self.addEventListener('click', (e) => this.toggle_submenu(e));
+    self.addEventListener('click', e => this.toggle_submenu(e));
   }
 
   toggle_submenu(e) {
@@ -106,7 +105,6 @@ class ArrowSubMenu {
 
     if (!submenu.classList.contains('active')) {
       submenu.classList.add('active');
-
     } else {
       submenu.classList.remove('active');
       this.arrow.blur();
@@ -114,7 +112,7 @@ class ArrowSubMenu {
   }
 }
 let arrows = document.querySelectorAll('.thb-arrow');
-arrows.forEach((arrow) => {
+arrows.forEach(arrow => {
   new ArrowSubMenu(arrow);
 });
 
@@ -170,7 +168,6 @@ if (!customElements.get('product-card')) {
             }
           }
         }
-
       };
       const mouseleave = function (e) {
         images.forEach((image, index) => {
@@ -182,27 +179,27 @@ if (!customElements.get('product-card')) {
       };
       if (image_container) {
         image_container.addEventListener('touchstart', mousemove, {
-          passive: true
+          passive: true,
         });
         image_container.addEventListener('touchmove', mousemove, {
-          passive: true
+          passive: true,
         });
         image_container.addEventListener('touchend', mouseleave, {
-          passive: true
+          passive: true,
         });
         image_container.addEventListener('mouseenter', mousemove, {
-          passive: true
+          passive: true,
         });
         image_container.addEventListener('mousemove', mousemove, {
-          passive: true
+          passive: true,
         });
         image_container.addEventListener('mouseleave', mouseleave, {
-          passive: true
+          passive: true,
         });
       }
 
       images.forEach(function (image) {
-        window.addEventListener('load', (event) => {
+        window.addEventListener('load', event => {
           lazySizes.loader.unveil(image);
         });
       });
@@ -212,13 +209,12 @@ if (!customElements.get('product-card')) {
         org_srcset = image ? image.dataset.srcset : '';
 
       swatch_list.forEach((swatch, index) => {
-        window.addEventListener('load', (event) => {
+        window.addEventListener('load', event => {
           let image = new Image();
           image.srcset = swatch.dataset.srcset;
           lazySizes.loader.unveil(image);
         });
         swatch.addEventListener('mouseover', function () {
-
           [].forEach.call(swatch_list, function (el) {
             el.classList.remove('active');
           });
@@ -254,32 +250,35 @@ if (!customElements.get('product-card')) {
         method: 'POST',
         headers: {
           'X-Requested-With': 'XMLHttpRequest',
-          'Accept': 'application/javascript'
-        }
+          Accept: 'application/javascript',
+        },
       };
 
       let formData = new FormData(this.form);
 
       formData.append('id', this.quick_add.dataset.productId);
       formData.append('quantity', 1);
-      formData.append('sections', this.getSectionsToRender().map((section) => section.section));
+      formData.append(
+        'sections',
+        this.getSectionsToRender().map(section => section.section)
+      );
       formData.append('sections_url', window.location.pathname);
 
       config.body = formData;
 
       fetch(`${theme.routes.cart_add_url}`, config)
-        .then((response) => response.json())
-        .then((response) => {
+        .then(response => response.json())
+        .then(response => {
           if (response.status) {
             return;
           }
           this.renderContents(response);
 
           dispatchCustomEvent('cart:item-added', {
-            product: response.hasOwnProperty('items') ? response.items[0] : response
+            product: response.hasOwnProperty('items') ? response.items[0] : response,
           });
         })
-        .catch((e) => {
+        .catch(e => {
           console.error(e);
         })
         .finally(() => {
@@ -290,28 +289,31 @@ if (!customElements.get('product-card')) {
       return false;
     }
     getSectionsToRender() {
-      return [{
-        id: 'Cart',
-        section: 'main-cart',
-        selector: '.thb-cart-form'
-      },
-      {
-        id: 'Cart-Drawer',
-        section: 'cart-drawer',
-        selector: '.cart-drawer'
-      },
-      {
-        id: 'cart-drawer-toggle',
-        section: 'cart-bubble',
-        selector: '.thb-item-count'
-      }];
+      return [
+        {
+          id: 'Cart',
+          section: 'main-cart',
+          selector: '.thb-cart-form',
+        },
+        {
+          id: 'Cart-Drawer',
+          section: 'cart-drawer',
+          selector: '.cart-drawer',
+        },
+        {
+          id: 'cart-drawer-toggle',
+          section: 'cart-bubble',
+          selector: '.thb-item-count',
+        },
+      ];
     }
     renderContents(parsedState) {
-      this.getSectionsToRender().forEach((section => {
+      this.getSectionsToRender().forEach(section => {
         if (!document.getElementById(section.id)) {
           return;
         }
-        const elementToReplace = document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
+        const elementToReplace =
+          document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
         elementToReplace.innerHTML = this.getSectionInnerHTML(parsedState.sections[section.section], section.selector);
         if (typeof CartDrawer !== 'undefined') {
           new CartDrawer();
@@ -319,8 +321,7 @@ if (!customElements.get('product-card')) {
         if (typeof Cart !== 'undefined') {
           new Cart().renderContents(parsedState);
         }
-      }));
-
+      });
 
       if (document.getElementById('Cart-Drawer')) {
         document.body.classList.add('open-cc');
@@ -328,12 +329,9 @@ if (!customElements.get('product-card')) {
 
         dispatchCustomEvent('cart-drawer:open');
       }
-
     }
     getSectionInnerHTML(html, selector = '.shopify-section') {
-      return new DOMParser()
-        .parseFromString(html, 'text/html')
-        .querySelector(selector).innerHTML;
+      return new DOMParser().parseFromString(html, 'text/html').querySelector(selector).innerHTML;
     }
   }
   customElements.define('product-card', ProductCard);
@@ -352,6 +350,7 @@ if (!customElements.get('product-card-small')) {
       this.button = this.querySelector('button');
       this.id = this.dataset.id;
       this.url = this.dataset.url;
+      this.addEventListener('click', this.addCart.bind(this));
     }
     connectedCallback() {
       if (this.quick_add_enabled) {
@@ -362,24 +361,29 @@ if (!customElements.get('product-card-small')) {
       this.button.addEventListener('click', this.addToCart.bind(this));
     }
     getSectionsToRender() {
-      return [{
-        id: 'Cart',
-        section: 'main-cart',
-        selector: '.thb-cart-form'
-      },
-      {
-        id: 'Cart-Drawer',
-        section: 'cart-drawer',
-        selector: '.cart-drawer'
-      },
-      {
-        id: 'cart-drawer-toggle',
-        section: 'cart-bubble',
-        selector: '.thb-item-count'
-      }];
+      return [
+        {
+          id: 'Cart',
+          section: 'main-cart',
+          selector: '.thb-cart-form',
+        },
+        {
+          id: 'Cart-Drawer',
+          section: 'cart-drawer',
+          selector: '.cart-drawer',
+        },
+        {
+          id: 'cart-drawer-toggle',
+          section: 'cart-bubble',
+          selector: '.thb-item-count',
+        },
+      ];
     }
-
-    addToCart() {
+    addCart(e) {
+      if (e.target.name !== 'add') return;
+      this.addToCart(e.target.dataset.id);
+    }
+    addToCart(productId) {
       this.button.classList.add('loading');
       if (!this.quick_add_enabled) {
         // quick view
@@ -390,22 +394,24 @@ if (!customElements.get('product-card-small')) {
         method: 'POST',
         headers: {
           'X-Requested-With': 'XMLHttpRequest',
-          'Accept': 'application/javascript'
-        }
+          Accept: 'application/javascript',
+        },
       };
 
       let formData = new FormData(this.form);
-
-      formData.append('id', this.id);
+      formData.append('id', productId || this.id);
       formData.append('quantity', 1);
-      formData.append('sections', this.getSectionsToRender().map((section) => section.section));
+      formData.append(
+        'sections',
+        this.getSectionsToRender().map(section => section.section)
+      );
       formData.append('sections_url', window.location.pathname);
 
       config.body = formData;
 
       fetch(`${theme.routes.cart_add_url}`, config)
-        .then((response) => response.json())
-        .then((response) => {
+        .then(response => response.json())
+        .then(response => {
           if (response.status) {
             return;
           }
@@ -413,10 +419,10 @@ if (!customElements.get('product-card-small')) {
           this.renderContents(response);
 
           dispatchCustomEvent('cart:item-added', {
-            product: response.hasOwnProperty('items') ? response.items[0] : response
+            product: response.hasOwnProperty('items') ? response.items[0] : response,
           });
         })
-        .catch((e) => {
+        .catch(e => {
           console.error(e);
         })
         .finally(() => {
@@ -425,11 +431,12 @@ if (!customElements.get('product-card-small')) {
         });
     }
     renderContents(parsedState) {
-      this.getSectionsToRender().forEach((section => {
+      this.getSectionsToRender().forEach(section => {
         if (!document.getElementById(section.id)) {
           return;
         }
-        const elementToReplace = document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
+        const elementToReplace =
+          document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
         elementToReplace.innerHTML = this.getSectionInnerHTML(parsedState.sections[section.section], section.selector);
 
         if (typeof CartDrawer !== 'undefined') {
@@ -438,7 +445,7 @@ if (!customElements.get('product-card-small')) {
         if (typeof Cart !== 'undefined') {
           new Cart().renderContents(parsedState);
         }
-      }));
+      });
       if (document.getElementById('Cart-Drawer')) {
         document.body.classList.add('open-cc');
         document.getElementById('Cart-Drawer').classList.add('active');
@@ -446,9 +453,7 @@ if (!customElements.get('product-card-small')) {
       }
     }
     getSectionInnerHTML(html, selector = '.shopify-section') {
-      return new DOMParser()
-        .parseFromString(html, 'text/html')
-        .querySelector(selector).innerHTML;
+      return new DOMParser().parseFromString(html, 'text/html').querySelector(selector).innerHTML;
     }
   }
   customElements.define('product-card-small', ProductCardSmall);
@@ -459,17 +464,16 @@ if (!customElements.get('product-card-small')) {
  *  @function PanelClose
  */
 class PanelClose extends HTMLElement {
-
   constructor() {
     super();
     let cc = document.querySelector('.click-capture');
 
     // Add functionality to buttons
-    this.addEventListener('click', (e) => this.close_panel(e));
-    document.addEventListener('keyup', (e) => {
+    this.addEventListener('click', e => this.close_panel(e));
+    document.addEventListener('keyup', e => {
       if (e.code) {
         if (e.code.toUpperCase() === 'ESCAPE') {
-          document.querySelectorAll('.side-panel').forEach((panel) => {
+          document.querySelectorAll('.side-panel').forEach(panel => {
             if (document.body.classList.contains('open-cc--product')) {
               document.body.classList.remove('open-cc--product');
 
@@ -487,7 +491,7 @@ class PanelClose extends HTMLElement {
         }
       }
     });
-    cc.addEventListener('click', (e) => {
+    cc.addEventListener('click', e => {
       let panel = document.querySelector('.side-panel.active');
       if (panel) {
         panel.classList.remove('active');
@@ -517,7 +521,6 @@ customElements.define('side-panel-close', PanelClose);
  *  @function CartDrawer
  */
 class CartDrawer {
-
   constructor() {
     this.container = document.getElementById('Cart-Drawer');
 
@@ -526,9 +529,8 @@ class CartDrawer {
     }
     let button = document.getElementById('cart-drawer-toggle');
 
-
     // Add functionality to buttons
-    button?.addEventListener('click', (e) => {
+    button?.addEventListener('click', e => {
       e.preventDefault();
       document.body.classList.add('open-cc');
       this.container.classList.add('active');
@@ -536,11 +538,11 @@ class CartDrawer {
       dispatchCustomEvent('cart-drawer:open');
     });
 
-    this.debouncedOnChange = debounce((event) => {
+    this.debouncedOnChange = debounce(event => {
       this.onChange(event);
     }, 300);
 
-    document.addEventListener('cart:refresh', (event) => {
+    document.addEventListener('cart:refresh', event => {
       this.refresh();
     });
 
@@ -559,8 +561,8 @@ class CartDrawer {
   removeProductEvent() {
     let removes = this.container.querySelectorAll('.remove');
 
-    removes.forEach((remove) => {
-      remove.addEventListener('click', (event) => {
+    removes.forEach(remove => {
+      remove.addEventListener('click', event => {
         this.updateQuantity(event.target.dataset.index, '0');
 
         event.preventDefault();
@@ -568,21 +570,21 @@ class CartDrawer {
     });
   }
   getSectionsToRender() {
-    return [{
-      id: 'Cart-Drawer',
-      section: 'cart-drawer',
-      selector: '.cart-drawer'
-    },
-    {
-      id: 'cart-drawer-toggle',
-      section: 'cart-bubble',
-      selector: '.thb-item-count'
-    }];
+    return [
+      {
+        id: 'Cart-Drawer',
+        section: 'cart-drawer',
+        selector: '.cart-drawer',
+      },
+      {
+        id: 'cart-drawer-toggle',
+        section: 'cart-bubble',
+        selector: '.thb-item-count',
+      },
+    ];
   }
   getSectionInnerHTML(html, selector) {
-    return new DOMParser()
-      .parseFromString(html, 'text/html')
-      .querySelector(selector).innerHTML;
+    return new DOMParser().parseFromString(html, 'text/html').querySelector(selector).innerHTML;
   }
   termsCheckbox() {
     let terms_checkbox = this.container.querySelector('#CartDrawerTerms'),
@@ -606,11 +608,11 @@ class CartDrawer {
       return;
     }
 
-    notes_toggle.addEventListener('click', (event) => {
+    notes_toggle.addEventListener('click', event => {
       notes_toggle.nextElementSibling.classList.add('active');
     });
-    notes_toggle.nextElementSibling.querySelectorAll('.button, .order-note-toggle__content-overlay').forEach((el) => {
-      el.addEventListener('click', (event) => {
+    notes_toggle.nextElementSibling.querySelectorAll('.button, .order-note-toggle__content-overlay').forEach(el => {
+      el.addEventListener('click', event => {
         notes_toggle.nextElementSibling.classList.remove('active');
         this.saveNotes();
       });
@@ -621,11 +623,11 @@ class CartDrawer {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Accept': `application/json`
+        Accept: `application/json`,
       },
       body: JSON.stringify({
-        'note': document.getElementById('mini-cart__notes').value
-      })
+        note: document.getElementById('mini-cart__notes').value,
+      }),
     });
   }
   updateQuantity(line, quantity) {
@@ -633,42 +635,46 @@ class CartDrawer {
     const body = JSON.stringify({
       line,
       quantity,
-      sections: this.getSectionsToRender().map((section) => section.section),
-      sections_url: window.location.pathname
+      sections: this.getSectionsToRender().map(section => section.section),
+      sections_url: window.location.pathname,
     });
 
     dispatchCustomEvent('line-item:change:start', {
-      quantity: quantity
+      quantity: quantity,
     });
     fetch(`${theme.routes.cart_change_url}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Accept': `application/json`
+        Accept: `application/json`,
       },
       ...{
-        body
-      }
+        body,
+      },
     })
-      .then((response) => {
+      .then(response => {
         return response.text();
       })
-      .then((state) => {
+      .then(state => {
         const parsedState = JSON.parse(state);
 
-        this.getSectionsToRender().forEach((section => {
-          const elementToReplace = document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
+        this.getSectionsToRender().forEach(section => {
+          const elementToReplace =
+            document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
 
           if (parsedState.sections) {
-            elementToReplace.innerHTML = this.getSectionInnerHTML(parsedState.sections[section.section], section.selector);
+            elementToReplace.innerHTML = this.getSectionInnerHTML(
+              parsedState.sections[section.section],
+              section.selector
+            );
           }
-        }));
+        });
         this.removeProductEvent();
         this.notesToggle();
         this.termsCheckbox();
         dispatchCustomEvent('line-item:change:end', {
           quantity: quantity,
-          cart: parsedState
+          cart: parsedState,
         });
         if (this.container.querySelector(`#CartDrawerItem-${line}`)) {
           this.container.querySelector(`#CartDrawerItem-${line}`).classList.remove('thb-loading');
@@ -678,17 +684,18 @@ class CartDrawer {
   refresh() {
     let sections = 'cart-drawer,cart-bubble';
     fetch(`${window.location.pathname}?sections=${sections}`)
-      .then((response) => {
+      .then(response => {
         return response.text();
       })
-      .then((state) => {
+      .then(state => {
         const parsedState = JSON.parse(state);
 
-        this.getSectionsToRender().forEach((section => {
-          const elementToReplace = document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
+        this.getSectionsToRender().forEach(section => {
+          const elementToReplace =
+            document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
 
           elementToReplace.innerHTML = this.getSectionInnerHTML(parsedState[section.section], section.selector);
-        }));
+        });
 
         this.removeProductEvent();
         this.notesToggle();
@@ -705,8 +712,8 @@ class FooterMenuToggle {
   constructor() {
     let _this = this;
     // resize on initial load
-    document.querySelectorAll(".thb-widget-title.collapsible").forEach((button) => {
-      button.addEventListener("click", (e) => {
+    document.querySelectorAll('.thb-widget-title.collapsible').forEach(button => {
+      button.addEventListener('click', e => {
         button.classList.toggle('active');
       });
     });
@@ -732,7 +739,9 @@ if (!customElements.get('custom-select')) {
       this.detailsements.button.addEventListener('focusout', this.closeSelector.bind(this));
       this.addEventListener('keyup', this.onContainerKeyUp.bind(this));
 
-      this.detailsements.panel.querySelectorAll('button').forEach(item => item.addEventListener('click', this.onItemClick.bind(this)));
+      this.detailsements.panel
+        .querySelectorAll('button')
+        .forEach(item => item.addEventListener('click', this.onItemClick.bind(this)));
     }
 
     hidePanel() {
@@ -765,7 +774,10 @@ if (!customElements.get('custom-select')) {
       this.classList.toggle('custom-select--active');
       if (this.classList.contains('custom-select--active')) {
         this.detailsements.button.focus();
-        this.detailsements.button.setAttribute('aria-expanded', (this.detailsements.button.getAttribute('aria-expanded') === 'false').toString());
+        this.detailsements.button.setAttribute(
+          'aria-expanded',
+          (this.detailsements.button.getAttribute('aria-expanded') === 'false').toString()
+        );
       } else {
         this.hidePanel();
       }
@@ -790,7 +802,7 @@ if (!customElements.get('localization-form')) {
       super();
       this.form = this.querySelector('form');
       this.inputs = this.form.querySelectorAll('input[name="locale_code"], input[name="country_code"]');
-      this.debouncedOnSubmit = debounce((event) => {
+      this.debouncedOnSubmit = debounce(event => {
         this.onSubmitHandler(event);
       }, 200);
       this.inputs.forEach(item => item.addEventListener('change', this.debouncedOnSubmit.bind(this)));
@@ -816,23 +828,21 @@ if (!customElements.get('side-panel-content-tabs')) {
     connectedCallback() {
       this.setupButtonObservers();
     }
-    disconnectedCallback() {
-
-    }
+    disconnectedCallback() {}
     setupButtonObservers() {
       this.buttons.forEach((item, i) => {
-        item.addEventListener('click', (e) => {
+        item.addEventListener('click', e => {
           this.toggleActiveClass(i);
         });
       });
     }
     toggleActiveClass(i) {
-      this.buttons.forEach((button) => {
+      this.buttons.forEach(button => {
         button.classList.remove('tab-active');
       });
       this.buttons[i].classList.add('tab-active');
 
-      this.panels.forEach((panel) => {
+      this.panels.forEach(panel => {
         panel.classList.remove('tab-active');
       });
       this.panels[i].classList.add('tab-active');
@@ -867,7 +877,7 @@ if (!customElements.get('collapsible-row')) {
       this.setListeners();
     }
     setListeners() {
-      this.querySelector('summary').addEventListener('click', (e) => this.onClick(e));
+      this.querySelector('summary').addEventListener('click', e => this.onClick(e));
     }
     instantClose() {
       this.tl.timeScale(10).reverse();
@@ -907,18 +917,21 @@ if (!customElements.get('collapsible-row')) {
       }
 
       // Start a WAAPI animation
-      this.animation = this.details.animate({
-        // Set the keyframes from the startHeight to endHeight
-        height: [startHeight, endHeight]
-      }, {
-        duration: 250,
-        easing: 'ease'
-      });
+      this.animation = this.details.animate(
+        {
+          // Set the keyframes from the startHeight to endHeight
+          height: [startHeight, endHeight],
+        },
+        {
+          duration: 250,
+          easing: 'ease',
+        }
+      );
 
       // When the animation is complete, call onAnimationFinish()
       this.animation.onfinish = () => this.onAnimationFinish(false);
       // If the animation is cancelled, isClosing variable is set to false
-      this.animation.oncancel = () => this.isClosing = false;
+      this.animation.oncancel = () => (this.isClosing = false);
     }
 
     open() {
@@ -945,17 +958,20 @@ if (!customElements.get('collapsible-row')) {
       }
 
       // Start a WAAPI animation
-      this.animation = this.details.animate({
-        // Set the keyframes from the startHeight to endHeight
-        height: [startHeight, endHeight]
-      }, {
-        duration: 400,
-        easing: 'ease-out'
-      });
+      this.animation = this.details.animate(
+        {
+          // Set the keyframes from the startHeight to endHeight
+          height: [startHeight, endHeight],
+        },
+        {
+          duration: 400,
+          easing: 'ease-out',
+        }
+      );
       // When the animation is complete, call onAnimationFinish()
       this.animation.onfinish = () => this.onAnimationFinish(true);
       // If the animation is cancelled, isExpanding variable is set to false
-      this.animation.oncancel = () => this.isExpanding = false;
+      this.animation.oncancel = () => (this.isExpanding = false);
     }
 
     onAnimationFinish(open) {
@@ -980,7 +996,6 @@ if (!customElements.get('collapsible-row')) {
 class ProductRecommendations extends HTMLElement {
   constructor() {
     super();
-
   }
   fetchProducts() {
     fetch(this.dataset.url)
@@ -995,7 +1010,6 @@ class ProductRecommendations extends HTMLElement {
         }
 
         this.classList.add('product-recommendations--loaded');
-
       })
       .catch(e => {
         console.error(e);
@@ -1024,7 +1038,6 @@ if (!customElements.get('quick-view')) {
 
       this.addEventListener('click', this.setupEventListener.bind(this));
       this.cc.addEventListener('click', this.setupCCEventListener.bind(this));
-
     }
     setupCCEventListener(e) {
       this.body.classList.remove('open-cc--product');
@@ -1033,7 +1046,6 @@ if (!customElements.get('quick-view')) {
       setTimeout(() => {
         this.drawer.querySelector('#Product-Drawer-Content').innerHTML = '';
       }, 260);
-
     }
     setupEventListener(e) {
       e.preventDefault();
@@ -1050,9 +1062,9 @@ if (!customElements.get('quick-view')) {
       }
       this.classList.add('loading');
       fetch(href, {
-        method: 'GET'
+        method: 'GET',
       })
-        .then((response) => {
+        .then(response => {
           this.classList.remove('loading');
           return response.text();
         })
@@ -1062,12 +1074,10 @@ if (!customElements.get('quick-view')) {
             .querySelector('#Product-Drawer-Content').innerHTML;
 
           this.renderQuickview(sectionInnerHTML, href, productHandle);
-
         });
     }
     renderQuickview(sectionInnerHTML, href, productHandle) {
       if (sectionInnerHTML) {
-
         this.drawer.querySelector('#Product-Drawer-Content').innerHTML = sectionInnerHTML;
 
         let js_files = this.drawer.querySelector('#Product-Drawer-Content').querySelectorAll('script');
@@ -1090,8 +1100,6 @@ if (!customElements.get('quick-view')) {
           }
         }, 300);
 
-
-
         this.body.classList.add('open-cc--product');
         this.drawer.classList.add('active');
 
@@ -1106,7 +1114,7 @@ if (!customElements.get('quick-view')) {
 
         dispatchCustomEvent('quick-view:open', {
           productUrl: href,
-          productHandle: productHandle
+          productHandle: productHandle,
         });
       }
     }
@@ -1119,7 +1127,6 @@ if (!customElements.get('quick-view')) {
  *  @function AnimatedMarkers
  */
 class AnimatedMarkers {
-
   constructor() {
     this.markers = document.querySelectorAll('.svg-marker path');
     this.animations_enabled = document.body.classList.contains('animations-true') && typeof gsap !== 'undefined';
@@ -1133,19 +1140,17 @@ class AnimatedMarkers {
       gsap.from(marker, {
         duration: 1,
         ease: 'power4.inOut',
-        drawSVG: "0%",
+        drawSVG: '0%',
         scrollTrigger: {
           trigger: marker,
           start: 'top 70%',
-          end: 'bottom 80%'
-        }
+          end: 'bottom 80%',
+        },
       });
     });
   }
-
 }
 document.addEventListener('DOMContentLoaded', () => {
-
   if (typeof CartDrawer !== 'undefined') {
     new CartDrawer();
   }

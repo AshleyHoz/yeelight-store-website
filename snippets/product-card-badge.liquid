@@ -11,10 +11,10 @@
   <div class="badge onsale {{ badge_position }} {% if settings.halloween_flag %} badge-halloween{% endif %}">
     {%- if settings.halloween_flag -%}
       <span class="halloween-shop-badge">
-        {%- render 'svg-icons-custom' with 'custom-halloween-badge' -%}
+        {%- render 'svg-icons-halloween' with 'custom-halloween-badge' -%}
       </span>
       <span class="halloween-shop-badge-mobile">
-        {%- render 'svg-icons-custom' with 'custom-halloween-badge-mobile' -%}
+        {%- render 'svg-icons-halloween' with 'custom-halloween-badge-mobile' -%}
       </span>
     {%- endif -%}
     <div class="badge-content">

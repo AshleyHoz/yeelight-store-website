@@ -6,17 +6,18 @@
   assign disable_top_spacing = section.settings.disable_top_spacing
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
   assign title = section.settings.title
+  assign view_title = section.settings.view_title
   assign section_link = section.settings.link
 -%}
 <shop-the-look-slider class="shop-the-look-slider section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
-  <div class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-row">
-    <div class="small-12 custom-shop-look-column">
+  <div class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-slider-row">
+    <div class="small-12 custom-shop-look-slider-column">
       {%- if title -%}
         {% render 'section-header', section_heading: title %}
       {%- endif -%}
       <div class="shop-the-look-slider--view">
         <a href="{{ section_link }}" class="shop-the-look-slider--link">
-          <span> Grab the Special Bundle Now </span>
+          <span> {{ view_title }} </span>
           {% render 'svg-icons-custom' with 'custom-arrow-right-circle' %}
         </a>
       </div>
@@ -26,35 +27,57 @@
         data-transition="fade"
         data-fade="{{ true }}"
       >
-        <div class="shop-look-buttons-container">
-          <div class="shop-look-buttons-container-inner">
-            <div class="shop-look-buttons flickity-custom-dots">
-              <div class="shop-look-buttons-bg"></div>
-              {%- for block in section.blocks -%}
-                {% if block.settings.button_text != blank %}
-                  <li
-                    class="shop-look-buttons_item"
-                    data-img="{{block.settings.image}}"
-                    onclick="onChangeBackground"
-                  >
-                    <div class="shop-look-buttons_item-content">
-                      {% render 'svg-icons' with block.settings.button_icon %}
-                      <span>{{ block.settings.button_text }}</span>
-                    </div>
-                  </li>
-                {% endif %}
-              {%- endfor -%}
-            </div>
-          </div>
-        </div>
-        <div class="slideshow_inner">
-          <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
-            {% for block in section.blocks %}
-              {% if section.blocks[0] %}
-                {%- assign hotspot_product_1 = all_products[block.settings.product_handle_1] -%}
+        <div class="shop-look-slider-flickity-viewport shop-look-slider--desktop">
+          {% for block in section.blocks %}
+            <a
+              href="{{section_link}}"
+              class="slideshow__slide carousel__slide desktop-height-image shop-look-slider_slide"
+            >
+              {%- if block.settings.image -%}
+                {%- liquid
+                  assign image = block.settings.image
+                  assign class = ''
+                  if block.settings.image_mobile
+                    assign class = 'slideshow-image--desktop'
+                  endif
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload {{ class }}"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+              {%- else -%}
+                <div class="thb-placeholder">
+                  {{ 'lifestyle-1' | placeholder_svg_tag }}
+                </div>
+              {%- endif -%}
+              {%- if block.settings.image_mobile -%}
+                {%- liquid
+                  assign image = block.settings.image_mobile
+                -%}
+                <img
+                  data-src="{{ image | image_url }}"
+                  class="lazyload slideshow-image--mobile"
+                  width="{{ image.src.width }}"
+                  height="{{ image.src.height }}"
+                  alt="{{ image.alt }}"
+                >
+              {%- else -%}
+                <div class="thb-placeholder">
+                  {{ 'lifestyle-1' | placeholder_svg_tag }}
+                </div>
+              {%- endif -%}
+            </a>
+            <figure
+              class="shop-the-look-slider--area shop-look-slider--desktop shop-the-look--full-width-{{ full_width }}"
+            >
+              {%- assign hotspot_product_1 = all_products[block.settings.product_handle_1] -%}
+              {% if hotspot_product_1 != empty %}
                 <quick-view
                   class="thb-hotspot pin-white"
-                  style="left: {{- block.settings.x_position_1 | append: '%' -}}; top: {{- block.settings.y_position_1 | append: '%' -}};"
+                  style="left: {{- block.settings.x_position_1 | append: '%' -}}; top: {{- block.settings.y_position_1 | append: '%' -}}"
                   data-product-handle="{{ hotspot_product_1.handle }}"
                 >
                   <div class="thb-hotspot-content thb-pulsate">
@@ -63,27 +86,30 @@
                         {% render 'svg-icons' with 'thb-loading' %}
                       </div>
                       <div class="thb-hotspot-arrow"></div>
-                      <div class="thb-hotspot-bubble"></div>
-                      {% if hotspot_product_1.featured_image %}
-                        <a
-                          href="{{ hotspot_product_1.url }}"
-                          title="{{ hotspot_product_1.title | escape }}"
-                          class="thb-hotspot-product-image"
-                        >
-                          {%- render 'responsive-image', image: hotspot_product_1.featured_image, sizes: '150x0' -%}
-                        </a>
-                      {% endif %}
-                      <div class="thb-hotspot-product-content">
-                        <div class="thb-hotspot-product-title">{{ hotspot_product_1.title }}</div>
-                        <div class="thb-hotspot-product-pricebox">
-                          {% render 'product-price', product: hotspot_product_1 %}
-                          <a class="thb-hotspot-product-view" href="{{ hotspot_product_1.url }}">View</a>
+                      <div class="thb-hotspot-bubble">
+                        {% if hotspot_product_1.featured_image %}
+                          <a
+                            href="{{ hotspot_product_1.url }}"
+                            title="{{ hotspot_product_1.title | escape }}"
+                            class="thb-hotspot-product-image"
+                          >
+                            {%- render 'responsive-image', image: hotspot_product_1.featured_image, sizes: '150x0' -%}
+                          </a>
+                        {% endif %}
+                        <div class="thb-hotspot-product-content">
+                          <div class="thb-hotspot-product-title">{{ hotspot_product_1.title }}</div>
+                          <div class="thb-hotspot-product-pricebox">
+                            {% render 'product-price', product: hotspot_product_1 %}
+                            <a class="thb-hotspot-product-view" href="{{ hotspot_product_1.url }}">View</a>
+                          </div>
                         </div>
                       </div>
                     {%- endunless -%}
                   </div>
                 </quick-view>
-                {%- assign hotspot_product_2 = all_products[block.settings.product_handle_2] -%}
+              {% endif %}
+              {%- assign hotspot_product_2 = all_products[block.settings.product_handle_2] -%}
+              {% if hotspot_product_2 != empty %}
                 <quick-view
                   class="thb-hotspot pin-white"
                   style="left: {{- block.settings.x_position_2 | append: '%' -}}; top: {{- block.settings.y_position_2 | append: '%' -}};"
@@ -95,27 +121,30 @@
                         {% render 'svg-icons' with 'thb-loading' %}
                       </div>
                       <div class="thb-hotspot-arrow"></div>
-                      <div class="thb-hotspot-bubble"></div>
-                      {% if hotspot_product_2.featured_image %}
-                        <a
-                          href="{{ hotspot_product_2.url }}"
-                          title="{{ hotspot_product_2.title | escape }}"
-                          class="thb-hotspot-product-image"
-                        >
-                          {%- render 'responsive-image', image: hotspot_product_2.featured_image, sizes: '150x0' -%}
-                        </a>
-                      {% endif %}
-                      <div class="thb-hotspot-product-content">
-                        <div class="thb-hotspot-product-title">{{ hotspot_product_2.title }}</div>
-                        <div class="thb-hotspot-product-pricebox">
-                          {% render 'product-price', product: hotspot_product_2 %}
-                          <a class="thb-hotspot-product-view" href="{{ hotspot_product_2.url }}">View</a>
+                      <div class="thb-hotspot-bubble">
+                        {% if hotspot_product_2.featured_image %}
+                          <a
+                            href="{{ hotspot_product_2.url }}"
+                            title="{{ hotspot_product_2.title | escape }}"
+                            class="thb-hotspot-product-image"
+                          >
+                            {%- render 'responsive-image', image: hotspot_product_2.featured_image, sizes: '150x0' -%}
+                          </a>
+                        {% endif %}
+                        <div class="thb-hotspot-product-content">
+                          <div class="thb-hotspot-product-title">{{ hotspot_product_2.title }}</div>
+                          <div class="thb-hotspot-product-pricebox">
+                            {% render 'product-price', product: hotspot_product_2 %}
+                            <a class="thb-hotspot-product-view" href="{{ hotspot_product_2.url }}">View</a>
+                          </div>
                         </div>
                       </div>
                     {%- endunless -%}
                   </div>
                 </quick-view>
-                {%- assign hotspot_product_3 = all_products[block.settings.product_handle_3] -%}
+              {% endif %}
+              {%- assign hotspot_product_3 = all_products[block.settings.product_handle_3] -%}
+              {% if hotspot_product_3 != empty %}
                 <quick-view
                   class="thb-hotspot pin-white"
                   style="left: {{- block.settings.x_position_3 | append: '%' -}}; top: {{- block.settings.y_position_3 | append: '%' -}};"
@@ -127,111 +156,65 @@
                         {% render 'svg-icons' with 'thb-loading' %}
                       </div>
                       <div class="thb-hotspot-arrow"></div>
-                      <div class="thb-hotspot-bubble"></div>
-                      {% if hotspot_product_3.featured_image %}
-                        <a
-                          href="{{ hotspot_product_3.url }}"
-                          title="{{ hotspot_product_3.title | escape }}"
-                          class="thb-hotspot-product-image"
-                        >
-                          {%- render 'responsive-image', image: hotspot_product_3.featured_image, sizes: '150x0' -%}
-                        </a>
-                      {% endif %}
-                      <div class="thb-hotspot-product-content">
-                        <div class="thb-hotspot-product-title">{{ hotspot_product_3.title }}</div>
-                        <div class="thb-hotspot-product-pricebox">
-                          {% render 'product-price', product: hotspot_product_3 %}
-                          <a class="thb-hotspot-product-view" href="{{ hotspot_product_3.url }}">View</a>
+                      <div class="thb-hotspot-bubble">
+                        {% if hotspot_product_3.featured_image %}
+                          <a
+                            href="{{ hotspot_product_3.url }}"
+                            title="{{ hotspot_product_3.title | escape }}"
+                            class="thb-hotspot-product-image"
+                          >
+                            {%- render 'responsive-image', image: hotspot_product_3.featured_image, sizes: '150x0' -%}
+                          </a>
+                        {% endif %}
+                        <div class="thb-hotspot-product-content">
+                          <div class="thb-hotspot-product-title">{{ hotspot_product_3.title }}</div>
+                          <div class="thb-hotspot-product-pricebox">
+                            {% render 'product-price', product: hotspot_product_3 %}
+                            <a class="thb-hotspot-product-view" href="{{ hotspot_product_3.url }}">View</a>
+                          </div>
                         </div>
                       </div>
                     {%- endunless -%}
                   </div>
                 </quick-view>
               {% endif %}
-            {% endfor %}
-
-            {% comment %}
-              {%- assign hotspot_product_1 = all_products[block.settings.product_handle] -%}
-              <quick-view
-                class="thb-hotspot pin-white"
-                style="left: {{- block.settings.x_position | append: '%' -}}; top: {{- block.settings.y_position | append: '%' -}};"
-                data-product-handle="{{ hotspot_product_1.handle }}"
-              >
-                {% comment %} {{ block.shopify_attributes }} {% endcomment %}
-                <div class="thb-hotspot-content thb-pulsate">
-                  {%- unless hotspot_product_1 == empty -%}
-                    <div class="loading-overlay">
-                      {% render 'svg-icons' with 'thb-loading' %}
-                    </div>
-                    <div class="thb-hotspot-arrow"></div>
-                    <div class="thb-hotspot-bubble">
-                      {% if hotspot_product_1.featured_image %}
-                        <a
-                          href="{{ hotspot_product_1.url }}"
-                          title="{{ hotspot_product_1.title | escape }}"
-                          class="thb-hotspot-product-image"
-                        >
-                          {%- render 'responsive-image', image: hotspot_product_1.featured_image, sizes: '150x0' -%}
-                        </a>
-                      {% endif %}
-                      <div class="thb-hotspot-product-content">
-                        <div class="thb-hotspot-product-title">{{ hotspot_product_1.title }}</div>
-                        <div class="thb-hotspot-product-pricebox">
-                          {% render 'product-price', product: hotspot_product_1 %}
-                          <a class="thb-hotspot-product-view" href="{{ hotspot_product_1.url }}">View</a>
-                        </div>
-                      </div>
-                    </div>
-                  {%- endunless -%}
-                </div>
-              {% comment %} </quick-view> {% endcomment %}
-            {% endcomment %}
-          </figure>
-        </div>
-        <div class="shop-look-flickity-viewport shop-the-look--desktop">
-          {% for block in section.blocks %}
-            {%- if block.image -%}
-              <a href="{{section_link}}" class="slideshow__slide carousel__slide desktop-height-image shop-look_slide">
-                {%- if block.image -%}
-                  {%- liquid
-                    assign image = block.image
-
-                    assign class = ''
-                    if block.image_mobile
-                      assign class = 'slideshow-image--desktop'
-                    endif
-                  -%}
-                  <img
-                    data-src="{{ image | image_url }}"
-                    class="lazyload {{ class }}"
-                    width="{{ image.src.width }}"
-                    height="{{ image.src.height }}"
-                    alt="{{ image.alt }}"
-                  >
-                {%- else -%}
-                  <div class="thb-placeholder">
-                    {{ 'lifestyle-1' | placeholder_svg_tag }}
-                  </div>
-                {%- endif -%}
-                {%- if block.image_mobile -%}
-                  {%- liquid
-                    assign image = block.image_mobile
-                  -%}
-                  <img
-                    data-src="{{ image | image_url }}"
-                    class="lazyload slideshow-image--mobile"
-                    width="{{ image.src.width }}"
-                    height="{{ image.src.height }}"
-                    alt="{{ image.alt }}"
-                  >
-                {%- else -%}
-                  <div class="thb-placeholder">
-                    {{ 'lifestyle-1' | placeholder_svg_tag }}
-                  </div>
-                {%- endif -%}
-              </a>
-            {%- endif -%}
+            </figure>
           {% endfor %}
+        </div>
+        <div class="shop-look-slider-buttons-container">
+          <div class="shop-look-slider-buttons-container-inner">
+            <div class=" shop-look-slider-buttons flickity-custom-dots">
+              {%- for block in section.blocks -%}
+                {% if block.settings.button_text != blank %}
+                  <li
+                    class="shop-look-slider-buttons_item"
+                    data-img="{{block.settings.image}}"
+                    onclick="onChangeBackground"
+                  >
+                    <div class="shop-look-slider-buttons_item-content">
+                      <span class="shop-look-slider-buttons_item-icon">
+                        {% render 'svg-icons-custom' with block.settings.button_icon %}
+                      </span>
+                      <span class="shop-look-slider-buttons_item-text">{{ block.settings.button_text }}</span>
+                    </div>
+
+                    <div class="shop-look-slider-buttons_item-content-color">
+                      <span class="shop-look-slider-buttons_item-icon-color">
+                        {% assign icon = block.settings.button_icon %}
+                        {% assign icon = icon | append: '-color' %}
+                        {% render 'svg-icons-custom' with icon %}
+                      </span>
+                      <span class="shop-look-slider-buttons_item-text-color">
+                        {% assign text = block.settings.button_icon %}
+                        {% assign text = text | append: '-text-color' %}
+                        {% render 'svg-icons-custom' with text %}
+                      </span>
+                    </div>
+                  </li>
+                {% endif %}
+              {%- endfor -%}
+            </div>
+          </div>
         </div>
       </slide-show>
     </div>
@@ -251,6 +234,12 @@
       "type": "text",
       "id": "title",
       "label": "Header Title",
+      "info": "Wrap your text."
+    },
+    {
+      "type": "text",
+      "id": "view_title",
+      "label": "View Title",
       "info": "Wrap your text."
     },
     {
@@ -513,6 +502,16 @@
           "label": "Vertical",
           "default": 20,
           "info": "Vertical position of the hot spot on mobile screens"
+        },
+        {
+          "type": "header",
+          "content": "Slide index"
+        },
+        {
+          "type": "text",
+          "id": "slide_index",
+          "label": "Slide Index",
+          "info": "Wrap your text."
         }
       ]
     }
