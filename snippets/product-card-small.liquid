@@ -12,7 +12,6 @@
 >
   <div class="product-card-small--image">
     <a href="{{ product_small.url }}" title="{{ product_small.title | escape }}" class="product-cart-small--image-link">
-      {%- render 'responsive-image', image: product_small.featured_image, sizes: '200x0' -%}
       {% if product_small.images[1] %}
         {%- render 'responsive-image', image: product_small.images[1], sizes: '200x0' -%}
       {% else %}
