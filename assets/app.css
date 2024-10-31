@@ -4782,7 +4782,7 @@ select.resize-select {
 .cart-drawer {
   width: 45vw;
   max-width: 45vw;
-  z-index: 55;
+  z-index: 9999999999;
 }
 
 .cart-drawer .slide-panel-drawer-wrapper {
@@ -5388,7 +5388,7 @@ input[type='radio'],
 .slide-panel-drawer-wrapper .product-card-small--image {
   width: 96px;
   height: 96px;
-  margin-right: 25px;
+  margin-right: 15px;
 }
 
 .slide-panel-drawer-wrapper .product-card-small--link {
@@ -5725,7 +5725,7 @@ input[type='radio'],
 }
 
 .slide-panel-drawer-wrapper .product-card-small--info-cart-price {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .slide-panel-drawer-wrapper .product-card-small--info-cart-price .product-line-price {

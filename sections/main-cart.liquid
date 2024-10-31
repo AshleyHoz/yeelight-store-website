@@ -170,14 +170,18 @@
                           <span class="price">
                             {%- if item.original_line_price != item.final_line_price -%}
                               <del
-                                ><span class="amount">{{ item.original_line_price | money }}</span></del
+                                ><span class="amount custom-amount-del">
+                                  {{- item.original_line_price | money -}}
+                                </span></del
                               >
                               <ins
-                                ><span class="amount">{{ item.final_line_price | money }}</span></ins
+                                ><span class="amount custom-amount-ins">{{ item.final_line_price | money }}</span></ins
                               >
                             {%- else -%}
                               <ins
-                                ><span class="amount">{{ item.original_line_price | money }}</span></ins
+                                ><span class="amount custom-amount-ins">
+                                  {{- item.original_line_price | money -}}
+                                </span></ins
                               >
                             {%- endif -%}
                             {%- if item.variant.available and item.unit_price_measurement -%}
