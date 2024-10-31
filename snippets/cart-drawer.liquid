@@ -194,7 +194,7 @@
               </div>
             {%- endif -%}
             <div class="slide-panel-drawer-recommend--mobile">
-              {%- if settings.cart_recommendations -%}
+              {%- if settings.cart_recommendations and cart != empty -%}
                 <product-recommendations
                   class="complementary-products"
                   data-url="{{ routes.product_recommendations_url }}?section_id=cart-drawer&product_id={{ cart.items[0].product_id }}&limit=4"

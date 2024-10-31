@@ -4881,10 +4881,6 @@ select.resize-select {
   color: var(--color-product-font);
 }
 
-.cart-drawer .slide-panel-drawer-wrapper--left.full-width .cart-drawer__empty-cart {
-  height: auto;
-}
-
 .cart-drawer-terms {
   margin-top: 10px;
 }
