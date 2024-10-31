@@ -5805,6 +5805,7 @@ input[type='radio'],
   }
 
   .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left {
+    width: 100%;
     border-right: none;
   }
 
