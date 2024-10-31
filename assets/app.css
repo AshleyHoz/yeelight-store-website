@@ -5740,6 +5740,12 @@ input[type='radio'],
   height: 100%;
 }
 
+.cart-drawer .price .custom-amount-ins,
+.cart-drawer .price .custom-amount-del,
+.cart-drawer .price .unit-price {
+  font-size: 15px;
+}
+
 @media only screen and (max-width: 767px) {
   .section-header {
     padding-bottom: 24px;
