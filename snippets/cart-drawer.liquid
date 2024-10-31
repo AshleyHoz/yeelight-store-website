@@ -33,8 +33,12 @@
                 {% for item in cart.items %}
                   <div class="product-cart-item" id="CartDrawerItem-{{ item.index | plus: 1 }}">
                     <div class="product-cart-item-image">
-                      {% if item.featured_image %}
-                        {%- render 'responsive-image', image: item.featured_image, sizes: '168x0', priority: 'low' -%}
+                      {% if item.product.images.size > 0 %}
+                        {%- render 'responsive-image',
+                          image: item.product.images[1],
+                          sizes: '168x0',
+                          priority: 'low'
+                        -%}
                       {% else %}
                         <div class="thb-placeholder" style="width: 100px;">
                           {{ 'product-1' | placeholder_svg_tag }}
