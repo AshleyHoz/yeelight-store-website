@@ -275,7 +275,7 @@
     height: 50px; */
 }
 
-.shop-look-slider-buttons_item:hover .shop-look-slider-buttons_item-icon {
+.shop-look-slider-buttons_item:hover .shop-look-slider-buttons_item-content {
   opacity: 1;
 }
 
@@ -561,7 +561,6 @@
     opacity: 0.6;
     width: 100%;
     height: 100%;
-    padding: 8px 18px;
   }
 
   .shop-look-slider-product-images {
