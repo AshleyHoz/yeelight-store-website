@@ -523,6 +523,7 @@ customElements.define('side-panel-close', PanelClose);
 class CartDrawer {
   constructor() {
     this.container = document.getElementById('Cart-Drawer');
+    console.log(this.container);
 
     if (!this.container) {
       return;
