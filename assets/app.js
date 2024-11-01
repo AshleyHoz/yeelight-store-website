@@ -531,8 +531,6 @@ class CartDrawer {
 
     // Add functionality to buttons
     button?.addEventListener('click', e => {
-      console.log(this.container);
-
       e.preventDefault();
       document.body.classList.add('open-cc');
       this.container.classList.add('active');
