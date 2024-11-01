@@ -700,6 +700,12 @@ class CartDrawer {
         this.removeProductEvent();
         this.notesToggle();
         this.termsCheckbox();
+
+        if (parsedState.items.size == 0) {
+          this.container.classList.add('left-full');
+        } else {
+          this.container.classList.remove('left-full');
+        }
       });
   }
 }
