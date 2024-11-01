@@ -195,15 +195,14 @@
                       <span class="shop-look-slider-buttons_item-icon">
                         {% render 'svg-icons-custom' with block.settings.button_icon %}
                       </span>
-                      <span class="shop-look-slider-buttons_item-text">{{ block.settings.button_text }}</span>
+                      <span class="shop-look-slider-buttons_item-icon-hover">
+                        {% assign icon = block.settings.button_icon %}
+                        {% assign icon = icon | append: '-hover' %}
+                        {% render 'svg-icons-custom' with block.settings.button_icon %}
+                      </span>
                     </div>
 
                     <div class="shop-look-slider-buttons_item-content-color">
-                      <span class="shop-look-slider-buttons_item-icon-color">
-                        {% assign icon = block.settings.button_icon %}
-                        {% assign icon = icon | append: '-color' %}
-                        {% render 'svg-icons-custom' with icon %}
-                      </span>
                       <span class="shop-look-slider-buttons_item-text-color">
                         {% assign text = block.settings.button_icon %}
                         {% assign text = text | append: '-text-color' %}
