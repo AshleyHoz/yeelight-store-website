@@ -5823,6 +5823,7 @@ input[type='radio'],
 
   .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left {
     width: 100%;
+    height: calc(100% - 195px);
     border-right: none;
   }
 
@@ -5831,7 +5832,7 @@ input[type='radio'],
   }
 
   .cart-drawer .slide-panel-drawer-wrapper .side-panel-content {
-    height: calc(100% - 195px);
+    height: 100%;
   }
 
   .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-recommend--mobile {
