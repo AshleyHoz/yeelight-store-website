@@ -1018,6 +1018,7 @@
     padding: 7px 12px;
   }
 
+  .product-opt-wrapper .product-card--add-to-cart-button-wrapper .button.accent,
   .product-card--add-to-cart-button {
     width: 44px;
     height: 34px;
@@ -1025,6 +1026,7 @@
     padding: 0;
   }
 
+  .product-opt-wrapper .product-card--add-to-cart-button-wrapper .button.accent svg,
   .product-card--add-to-cart-button .product-card--add-to-cart-text svg {
     width: 22px;
     height: 22px;
