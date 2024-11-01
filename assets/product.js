@@ -833,8 +833,6 @@ if (!customElements.get('product-form')) {
         ];
       }
       renderContents(parsedState) {
-        console.log('product red');
-
         this.getSectionsToRender().forEach(section => {
           if (!document.getElementById(section.id)) {
             return;

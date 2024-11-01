@@ -68,8 +68,6 @@ class Cart {
     return new DOMParser().parseFromString(html, 'text/html').querySelector(selector).innerHTML;
   }
   updateQuantity(line, quantity) {
-    console.log('cart qty');
-
     this.container.classList.add('cart-disabled');
     if (line) {
       this.container.querySelector(`#CartItem-${line}`).classList.add('loading');
@@ -116,8 +114,6 @@ class Cart {
       });
   }
   refresh() {
-    console.log('cart ref');
-
     this.container.classList.add('cart-disabled');
 
     let sections = 'main-cart';
@@ -167,8 +163,6 @@ class Cart {
     });
   }
   renderContents(parsedState, line, refresh) {
-    console.log('cart red');
-
     this.getSectionsToRender().forEach(section => {
       const elementToReplace =
         document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
