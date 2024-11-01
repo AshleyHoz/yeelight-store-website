@@ -32,8 +32,8 @@
                         <td class="product-name">
                           <div class="product-cart-item">
                             <div class="product-cart-item-image">
-                              {% if item.image %}
-                                {%- render 'responsive-image', image: item.image, sizes: '192x0' -%}
+                              {% if item.product.images.size > 0 %}
+                                {%- render 'responsive-image', image: item.product.images[1], sizes: '192x0' -%}
                               {% else %}
                                 <div class="thb-placeholder" style="width: 100px;">
                                   {{ 'product-1' | placeholder_svg_tag }}
@@ -170,14 +170,18 @@
                           <span class="price">
                             {%- if item.original_line_price != item.final_line_price -%}
                               <del
-                                ><span class="amount">{{ item.original_line_price | money }}</span></del
+                                ><span class="amount custom-amount-del">
+                                  {{- item.original_line_price | money -}}
+                                </span></del
                               >
                               <ins
-                                ><span class="amount">{{ item.final_line_price | money }}</span></ins
+                                ><span class="amount custom-amount-ins">{{ item.final_line_price | money }}</span></ins
                               >
                             {%- else -%}
                               <ins
-                                ><span class="amount">{{ item.original_line_price | money }}</span></ins
+                                ><span class="amount custom-amount-ins">
+                                  {{- item.original_line_price | money -}}
+                                </span></ins
                               >
                             {%- endif -%}
                             {%- if item.variant.available and item.unit_price_measurement -%}

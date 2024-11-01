@@ -169,13 +169,13 @@
                     </div>
                     <div class="thb-hotspot-arrow"></div>
                     <div class="thb-hotspot-bubble">
-                      {% if hotspot_product.featured_image %}
+                      {% if hotspot_product.images[1] %}
                         <a
                           href="{{ hotspot_product.url }}"
                           title="{{ hotspot_product.title | escape }}"
                           class="thb-hotspot-product-image"
                         >
-                          {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
+                          {%- render 'responsive-image', image: hotspot_product.images[1], sizes: '150x0' -%}
                         </a>
                       {% endif %}
                       <div class="thb-hotspot-product-content">
@@ -441,11 +441,11 @@
         <a href="{{section_link}}" class="shop-look-product-images">
           {% for block in section.blocks %}
             {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
-            {% if hotspot_product.featured_image %}
+            {% if hotspot_product.images[1] %}
               <div
                 class="shop-look-product-image_item"
               >
-                {%- render 'responsive-image', image: hotspot_product.featured_image, sizes: '150x0' -%}
+                {%- render 'responsive-image', image: hotspot_product.images[1], sizes: '150x0' -%}
               </div>
             {% endif %}
           {% endfor %}

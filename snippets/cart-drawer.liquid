@@ -6,7 +6,7 @@
     assign shadow_class = 'has-shadow--' | append: settings.block_shadows
   -%}
   <div
-    class="side-panel cart-drawer {{ shadow_class }} {% if settings.product_opposite_theme %} section-cart-white{% endif %} {% if settings.halloween_flag %} cart-halloween{% endif %}"
+    class="side-panel cart-drawer {{ shadow_class }} {% if settings.product_opposite_theme %} section-cart-white{% endif %} {% if settings.halloween_flag %} cart-halloween{% endif %} {% if cart.items.size == 0 %}left-full{% endif %}"
     id="Cart-Drawer"
     tabindex="-1"
   >
@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="slide-panel-drawer-wrapper">
-        <div class="slide-panel-drawer-wrapper--left">
+        <div class="slide-panel-drawer-wrapper--left {% if cart.items.size == 0 %}full-width{% endif %}">
           <div class="side-panel-content">
             {%- if cart != empty -%}
               <div class="product-cart-item--container">
@@ -33,8 +33,12 @@
                 {% for item in cart.items %}
                   <div class="product-cart-item" id="CartDrawerItem-{{ item.index | plus: 1 }}">
                     <div class="product-cart-item-image">
-                      {% if item.image %}
-                        {%- render 'responsive-image', image: item.image, sizes: '168x0', priority: 'low' -%}
+                      {% if item.product.images.size > 0 %}
+                        {%- render 'responsive-image',
+                          image: item.product.images[1],
+                          sizes: '168x0',
+                          priority: 'low'
+                        -%}
                       {% else %}
                         <div class="thb-placeholder" style="width: 100px;">
                           {{ 'product-1' | placeholder_svg_tag }}
@@ -48,30 +52,6 @@
                       <a href="{{ item.url }}" title="{{ item.product.title | escape }}" class="cart-product-link">
                         {{- item.product.title -}}
                       </a>
-                      <span class="price">
-                        {%- if item.original_line_price != item.final_line_price -%}
-                          <del
-                            ><span class="amount custom-amount-del">{{ item.original_line_price | money }}</span></del
-                          >
-                          <ins
-                            ><span class="amount custom-amount-ins">{{ item.final_line_price | money }}</span></ins
-                          >
-                        {%- else -%}
-                          <ins
-                            ><span class="amount custom-amount-ins">{{ item.original_line_price | money }}</span></ins
-                          >
-                        {%- endif -%}
-                        {%- if item.variant.available and item.unit_price_measurement -%}
-                          <small class="unit-price">
-                            {{ item.variant.unit_price | money }}
-                            <span class="unit-price-separator">/</span>
-                            {%- if item.variant.unit_price_measurement.reference_value != 1 -%}
-                              {{- item.variant.unit_price_measurement.reference_value -}}
-                            {%- endif -%}
-                            {{ item.variant.unit_price_measurement.reference_unit }}
-                          </small>
-                        {%- endif -%}
-                      </span>
                       {% if item.selling_plan_allocation %}
                         <div class="properties">
                           <span class="selling-plan">{{ item.selling_plan_allocation.selling_plan.name }}</span>
@@ -111,6 +91,30 @@
                           {%- endfor -%}
                         </ul>
                       {%- endif -%}
+                      <span class="price">
+                        {%- if item.original_line_price != item.final_line_price -%}
+                          <del
+                            ><span class="amount custom-amount-del">{{ item.original_line_price | money }}</span></del
+                          >
+                          <ins
+                            ><span class="amount custom-amount-ins">{{ item.final_line_price | money }}</span></ins
+                          >
+                        {%- else -%}
+                          <ins
+                            ><span class="amount custom-amount-ins">{{ item.original_line_price | money }}</span></ins
+                          >
+                        {%- endif -%}
+                        {%- if item.variant.available and item.unit_price_measurement -%}
+                          <small class="unit-price">
+                            {{ item.variant.unit_price | money }}
+                            <span class="unit-price-separator">/</span>
+                            {%- if item.variant.unit_price_measurement.reference_value != 1 -%}
+                              {{- item.variant.unit_price_measurement.reference_value -}}
+                            {%- endif -%}
+                            {{ item.variant.unit_price_measurement.reference_unit }}
+                          </small>
+                        {%- endif -%}
+                      </span>
                       <quantity-selector class="quantity cart-update small-qty" data-id="{{ item.key | escape }}">
                         <button
                           class="minus"
@@ -319,23 +323,25 @@
             </div>
           {%- endif -%}
         </div>
-        <div class="slide-panel-drawer-wrapper--right">
-          {%- if settings.cart_recommendations and cart != empty -%}
-            <product-recommendations
-              class="complementary-products"
-              data-url="{{ routes.product_recommendations_url }}?section_id=cart-drawer&product_id={{ cart.items[0].product_id }}&limit=4"
-            >
-              {% if recommendations.performed and recommendations.products_count > 0 %}
-                <div class="complementary-products--heading">{{ 'general.cart_drawer.you_may_also_like' | t }}</div>
-                <div class="complementary-products--inner">
-                  {% for recommendation in recommendations.products %}
-                    {% render 'product-card-small', product_small: recommendation %}
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </product-recommendations>
-          {%- endif -%}
-        </div>
+        {% if cart.items.size > 0 %}
+          <div class="slide-panel-drawer-wrapper--right">
+            {%- if settings.cart_recommendations and cart != empty -%}
+              <product-recommendations
+                class="complementary-products"
+                data-url="{{ routes.product_recommendations_url }}?section_id=cart-drawer&product_id={{ cart.items[0].product_id }}&limit=4"
+              >
+                {% if recommendations.performed and recommendations.products_count > 0 %}
+                  <div class="complementary-products--heading">{{ 'general.cart_drawer.you_may_also_like' | t }}</div>
+                  <div class="complementary-products--inner">
+                    {% for recommendation in recommendations.products %}
+                      {% render 'product-card-small', product_small: recommendation %}
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </product-recommendations>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
       </div>
     </div>
   </div>

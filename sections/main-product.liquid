@@ -12,8 +12,7 @@
 
   assign first_image = null
   assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src'
-  assign seconds = 5 | times: 24 | times: 60 | times: 60 
-
+  assign seconds = 5 | times: 24 | times: 60 | times: 60
 
   assign sizes = '345x345,610x610,1220x1220'
   if media_aspect_ratio == 'adapt'
@@ -188,7 +187,7 @@
               section: section,
               update_url: true,
               pickup: true,
-              first_image: first_image,
+              first_image: product.images[1],
               hide_variants: hide_variants
             -%}
           </div>
