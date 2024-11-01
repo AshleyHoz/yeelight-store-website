@@ -622,7 +622,7 @@
     text-transform: capitalize;
   }
 
-  .shop-look_slideshow--container-slider .flickity-viewport {
+  .shop-look_slideshow-slider--container .flickity-viewport {
     min-height: 280px;
   }
 
