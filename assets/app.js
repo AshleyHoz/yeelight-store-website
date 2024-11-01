@@ -700,6 +700,8 @@ class CartDrawer {
         this.removeProductEvent();
         this.notesToggle();
         this.termsCheckbox();
+        console.log(parsedState.items.size);
+
         if (parsedState.items.size == 0) {
           this.container.classList.add('left-full');
         } else {
