@@ -529,7 +529,7 @@
   position: relative;
 }
 
-.shop-look_slideshow--container {
+.shop-look_slideshow-slider--container {
   display: block;
   position: relative;
 }
@@ -622,8 +622,8 @@
     text-transform: capitalize;
   }
 
-  .shop-look_slideshow--container .flickity-viewport {
-    min-height: 220px;
+  .shop-look_slideshow--container-slider .flickity-viewport {
+    min-height: 280px;
   }
 
   .shop-the-look-slider--area,
