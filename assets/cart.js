@@ -3,7 +3,6 @@
  *  @function Cart
  */
 class Cart {
-
   constructor() {
     this.container = document.getElementById('Cart');
     this.setupEventListeners();
@@ -20,21 +19,21 @@ class Cart {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Accept': `application/json`
+        Accept: `application/json`,
       },
       body: JSON.stringify({
-        'note': document.getElementById('CartSpecialInstructions').value
-      })
+        note: document.getElementById('CartSpecialInstructions').value,
+      }),
     });
   }
   setupEventListeners() {
     this.removeProductEvent();
 
-    this.debouncedOnChange = debounce((event) => {
+    this.debouncedOnChange = debounce(event => {
       this.onChange(event);
     }, 300);
 
-    document.addEventListener('cart:refresh', (event) => {
+    document.addEventListener('cart:refresh', event => {
       this.refresh();
     });
 
@@ -43,16 +42,18 @@ class Cart {
     this.termsCheckbox();
   }
   getSectionsToRender() {
-    return [{
-      id: 'Cart',
-      section: 'main-cart',
-      selector: '.thb-cart-form'
-    },
-    {
-      id: 'cart-drawer-toggle',
-      section: 'cart-bubble',
-      selector: '.thb-item-count'
-    }];
+    return [
+      {
+        id: 'Cart',
+        section: 'main-cart',
+        selector: '.thb-cart-form',
+      },
+      {
+        id: 'cart-drawer-toggle',
+        section: 'cart-bubble',
+        selector: '.thb-item-count',
+      },
+    ];
   }
   displayErrors(line, message) {
     const lineItemError =
@@ -64,11 +65,10 @@ class Cart {
     }
   }
   getSectionInnerHTML(html, selector) {
-    return new DOMParser()
-      .parseFromString(html, 'text/html')
-      .querySelector(selector).innerHTML;
+    return new DOMParser().parseFromString(html, 'text/html').querySelector(selector).innerHTML;
   }
   updateQuantity(line, quantity) {
+    console.log('cart qty');
 
     this.container.classList.add('cart-disabled');
     if (line) {
@@ -78,26 +78,26 @@ class Cart {
     const body = JSON.stringify({
       line,
       quantity,
-      sections: this.getSectionsToRender().map((section) => section.section),
-      sections_url: window.location.pathname
+      sections: this.getSectionsToRender().map(section => section.section),
+      sections_url: window.location.pathname,
     });
     dispatchCustomEvent('line-item:change:start', {
-      quantity: quantity
+      quantity: quantity,
     });
     fetch(`${theme.routes.cart_change_url}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Accept': `application/json`
+        Accept: `application/json`,
       },
       ...{
-        body
-      }
+        body,
+      },
     })
-      .then((response) => {
+      .then(response => {
         return response.text();
       })
-      .then((state) => {
+      .then(state => {
         const parsedState = JSON.parse(state);
 
         if (parsedState.errors) {
@@ -111,22 +111,23 @@ class Cart {
 
         dispatchCustomEvent('line-item:change:end', {
           quantity: quantity,
-          cart: parsedState
+          cart: parsedState,
         });
       });
   }
   refresh() {
+    console.log('cart ref');
+
     this.container.classList.add('cart-disabled');
 
     let sections = 'main-cart';
 
     fetch(`${window.location.pathname}?sections=${sections}`)
-      .then((response) => {
+      .then(response => {
         return response.text();
       })
-      .then((state) => {
+      .then(state => {
         const parsedState = JSON.parse(state);
-
 
         if (parsedState.errors) {
           this.displayErrors(line, parsedState.errors);
@@ -157,8 +158,8 @@ class Cart {
   removeProductEvent() {
     let removes = this.container.querySelectorAll('.remove');
 
-    removes.forEach((remove) => {
-      remove.addEventListener('click', (event) => {
+    removes.forEach(remove => {
+      remove.addEventListener('click', event => {
         this.updateQuantity(event.target.dataset.index, '0');
 
         event.preventDefault();
@@ -166,8 +167,11 @@ class Cart {
     });
   }
   renderContents(parsedState, line, refresh) {
-    this.getSectionsToRender().forEach((section => {
-      const elementToReplace = document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
+    console.log('cart red');
+
+    this.getSectionsToRender().forEach(section => {
+      const elementToReplace =
+        document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
 
       if (refresh) {
         if (parsedState[section.section]) {
@@ -183,7 +187,7 @@ class Cart {
         this.container.querySelector(`#CartItem-${line}`).classList.remove('loading');
       }
       this.termsCheckbox();
-    }));
+    });
   }
 }
 window.addEventListener('load', () => {

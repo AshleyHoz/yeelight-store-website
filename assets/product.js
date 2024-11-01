@@ -1,5 +1,4 @@
 if (!customElements.get('variant-selects')) {
-
   /**
    *  @class
    *  @function VariantSelects
@@ -11,7 +10,7 @@ if (!customElements.get('variant-selects')) {
       this.updateUrl = this.dataset.updateUrl === 'true';
       this.isDisabledFeature = this.dataset.isDisabled;
       this.addEventListener('change', this.onVariantChange);
-      this.other = Array.from(document.querySelectorAll('variant-selects')).filter((selector) => {
+      this.other = Array.from(document.querySelectorAll('variant-selects')).filter(selector => {
         return selector != this;
       });
 
@@ -52,7 +51,7 @@ if (!customElements.get('variant-selects')) {
       this.updateOther();
       dispatchCustomEvent('product:variant-change', {
         variant: this.currentVariant,
-        sectionId: this.dataset.section
+        sectionId: this.dataset.section,
       });
     }
 
@@ -77,10 +76,12 @@ if (!customElements.get('variant-selects')) {
       });
     }
     updateMasterId() {
-      this.currentVariant = this.getVariantData().find((variant) => {
-        return !variant.options.map((option, index) => {
-          return this.options[index] === option;
-        }).includes(false);
+      this.currentVariant = this.getVariantData().find(variant => {
+        return !variant.options
+          .map((option, index) => {
+            return this.options[index] === option;
+          })
+          .includes(false);
       });
     }
 
@@ -111,17 +112,22 @@ if (!customElements.get('variant-selects')) {
 
       let thumbnails = this.productWrapper.querySelector('.product-thumbnail-container');
 
-      this.setActiveMedia(`#Slide-${this.dataset.section}-${this.currentVariant.featured_media.id}`, `#Thumb-${this.dataset.section}-${this.currentVariant.featured_media.id}`, this.productSlider, thumbnails);
+      this.setActiveMedia(
+        `#Slide-${this.dataset.section}-${this.currentVariant.featured_media.id}`,
+        `#Thumb-${this.dataset.section}-${this.currentVariant.featured_media.id}`,
+        this.productSlider,
+        thumbnails
+      );
     }
     setActiveMedia(mediaId, thumbId, productSlider, thumbnails) {
       let flkty = Flickity.data(productSlider),
         activeMedia = productSlider.querySelector(mediaId);
 
       if (flkty && this.hideVariants) {
-
-
         if (productSlider.querySelector('.product-images__slide.is-initial-selected')) {
-          productSlider.querySelector('.product-images__slide.is-initial-selected').classList.remove('is-initial-selected');
+          productSlider
+            .querySelector('.product-images__slide.is-initial-selected')
+            .classList.remove('is-initial-selected');
         }
         [].forEach.call(productSlider.querySelectorAll('.product-images__slide-item--variant'), function (el) {
           el.classList.remove('is-active');
@@ -148,11 +154,9 @@ if (!customElements.get('variant-selects')) {
 
         productSlider.reInit(this.imageSetIndex);
         productSlider.selectCell(mediaId);
-
       } else if (flkty) {
         productSlider.selectCell(mediaId);
       }
-
     }
 
     updateURL() {
@@ -167,13 +171,17 @@ if (!customElements.get('variant-selects')) {
     }
 
     updateVariantInput() {
-      const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #product-form-installment`);
-      productForms.forEach((productForm) => {
+      const productForms = document.querySelectorAll(
+        `#product-form-${this.dataset.section}, #product-form-installment`
+      );
+      productForms.forEach(productForm => {
         const input = productForm.querySelector('input[name="id"]');
         input.value = this.currentVariant.id;
-        input.dispatchEvent(new Event('change', {
-          bubbles: true
-        }));
+        input.dispatchEvent(
+          new Event('change', {
+            bubbles: true,
+          })
+        );
       });
     }
 
@@ -199,18 +207,25 @@ if (!customElements.get('variant-selects')) {
     }
 
     getSectionsToRender() {
-      return [`price-${this.dataset.section}`, `price-${this.dataset.section}--sticky`, `product-image-${this.dataset.section}--sticky`, `inventory-${this.dataset.section}`, `sku-${this.dataset.section}`, `quantity-${this.dataset.section}`];
+      return [
+        `price-${this.dataset.section}`,
+        `price-${this.dataset.section}--sticky`,
+        `product-image-${this.dataset.section}--sticky`,
+        `inventory-${this.dataset.section}`,
+        `sku-${this.dataset.section}`,
+        `quantity-${this.dataset.section}`,
+      ];
     }
 
     renderProductInfo() {
       let sections = this.getSectionsToRender();
 
       fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.section}`)
-        .then((response) => response.text())
-        .then((responseText) => {
+        .then(response => response.text())
+        .then(responseText => {
           const html = new DOMParser().parseFromString(responseText, 'text/html');
 
-          sections.forEach((id) => {
+          sections.forEach(id => {
             const destination = document.getElementById(id);
             const source = html.getElementById(id);
 
@@ -221,10 +236,8 @@ if (!customElements.get('variant-selects')) {
 
             if (price) price.classList.remove('visibility-hidden');
             if (price_fixed) price_fixed.classList.remove('visibility-hidden');
-
           });
           this.toggleAddButton(!this.currentVariant.available, window.theme.variantStrings.soldOut);
-
         });
     }
 
@@ -236,7 +249,7 @@ if (!customElements.get('variant-selects')) {
       const submitButtons = document.querySelectorAll('.single-add-to-cart-button');
 
       if (!submitButtons) return;
-      submitButtons.forEach((submitButton) => {
+      submitButtons.forEach(submitButton => {
         const submitButtonText = submitButton.querySelector('.single-add-to-cart-button--text');
 
         if (!submitButtonText) return;
@@ -253,7 +266,6 @@ if (!customElements.get('variant-selects')) {
           } else {
             submitButtonText.textContent = window.theme.variantStrings.addToCart;
           }
-
         }
       });
 
@@ -265,7 +277,7 @@ if (!customElements.get('variant-selects')) {
       const price = document.getElementById(`price-${this.dataset.section}`);
       const price_fixed = document.getElementById(`price-${this.dataset.section}--sticky`);
 
-      submitButtons.forEach((submitButton) => {
+      submitButtons.forEach(submitButton => {
         const submitButtonText = submitButton.querySelector('.single-add-to-cart-button--text');
         if (!submitButton) return;
         submitButtonText.textContent = window.theme.variantStrings.unavailable;
@@ -281,15 +293,13 @@ if (!customElements.get('variant-selects')) {
       }
       const variant_data = this.getVariantData();
 
-
       if (variant_data) {
-
         let selected_options = false;
         if (this.currentVariant) {
           selected_options = this.currentVariant.options.map((value, index) => {
             return {
               value,
-              index: `option${index + 1}`
+              index: `option${index + 1}`,
             };
           });
         } else {
@@ -299,13 +309,13 @@ if (!customElements.get('variant-selects')) {
           if (found_option) {
             selected_options = [
               {
-                "value": this.options[0],
-                "index": "option1"
+                value: this.options[0],
+                index: 'option1',
               },
               {
-                "value": found_option.option2,
-                "index": "option2"
-              }
+                value: found_option.option2,
+                index: 'option2',
+              },
             ];
           } else {
             return;
@@ -332,13 +342,16 @@ if (!customElements.get('variant-selects')) {
             }
           }
         });
-
       }
       return true;
     }
 
     getImageSetName(variant_name) {
-      return variant_name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '').replace(/^-/, '');
+      return variant_name
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/-$/, '')
+        .replace(/^-/, '');
     }
 
     setImageSet() {
@@ -347,7 +360,9 @@ if (!customElements.get('variant-selects')) {
       let dataSetEl = this.productSlider.querySelector('[data-set-name]');
       if (dataSetEl) {
         this.imageSetName = dataSetEl.dataset.setName;
-        this.imageSetIndex = this.querySelector('.product-form__input[data-handle="' + this.imageSetName + '"]').dataset.index;
+        this.imageSetIndex = this.querySelector(
+          '.product-form__input[data-handle="' + this.imageSetName + '"]'
+        ).dataset.index;
         this.dataset.imageSetIndex = this.imageSetIndex;
         this.setImageSetMedia();
       }
@@ -359,8 +374,12 @@ if (!customElements.get('variant-selects')) {
 
       let setValue = this.getImageSetName(this.currentVariant[this.imageSetIndex]);
       let group = this.imageSetName + '_' + setValue;
-      let selected_set_images = this.productWrapper.querySelectorAll(`.product-images__slide[data-set-name="${this.imageSetName}"]`),
-        selected_set_thumbs = this.productWrapper.querySelectorAll(`.product-thumbnail[data-set-name="${this.imageSetName}"]`);
+      let selected_set_images = this.productWrapper.querySelectorAll(
+          `.product-images__slide[data-set-name="${this.imageSetName}"]`
+        ),
+        selected_set_thumbs = this.productWrapper.querySelectorAll(
+          `.product-thumbnail[data-set-name="${this.imageSetName}"]`
+        );
 
       if (this.hideVariants) {
         // Product images
@@ -383,50 +402,55 @@ if (!customElements.get('variant-selects')) {
           thumb.classList.toggle('is-active', thumb.dataset.group === group);
         });
       }
-
     }
 
     createAvailableOptionsTree(variants, currentlySelectedValues) {
       // Reduce variant array into option availability tree
-      return variants.reduce((options, variant) => {
+      return variants.reduce(
+        (options, variant) => {
+          // Check each option group (e.g. option1, option2, option3) of the variant
+          Object.keys(options).forEach(index => {
+            if (variant[index] === null) return;
 
-        // Check each option group (e.g. option1, option2, option3) of the variant
-        Object.keys(options).forEach(index => {
+            let entry = options[index].find(option => option.value === variant[index]);
 
-          if (variant[index] === null) return;
+            if (typeof entry === 'undefined') {
+              // If option has yet to be added to the options tree, add it
+              entry = { value: variant[index], isUnavailable: true };
+              options[index].push(entry);
+            }
 
-          let entry = options[index].find(option => option.value === variant[index]);
+            const currentOption1 = currentlySelectedValues.find(({ value, index }) => index === 'option1');
+            const currentOption2 = currentlySelectedValues.find(({ value, index }) => index === 'option2');
 
-          if (typeof entry === 'undefined') {
-            // If option has yet to be added to the options tree, add it
-            entry = { value: variant[index], isUnavailable: true };
-            options[index].push(entry);
-          }
-
-          const currentOption1 = currentlySelectedValues.find(({ value, index }) => index === 'option1');
-          const currentOption2 = currentlySelectedValues.find(({ value, index }) => index === 'option2');
-
-          switch (index) {
-            case 'option1':
-              // Option1 inputs should always remain enabled based on all available variants
-              entry.isUnavailable = entry.isUnavailable && variant.available ? false : entry.isUnavailable;
-              break;
-            case 'option2':
-              // Option2 inputs should remain enabled based on available variants that match first option group
-              if (currentOption1 && variant.option1 === currentOption1.value) {
+            switch (index) {
+              case 'option1':
+                // Option1 inputs should always remain enabled based on all available variants
                 entry.isUnavailable = entry.isUnavailable && variant.available ? false : entry.isUnavailable;
-              }
-              break;
-            case 'option3':
-              // Option 3 inputs should remain enabled based on available variants that match first and second option group
-              if (currentOption1 && variant.option1 === currentOption1.value && currentOption2 && variant.option2 === currentOption2.value) {
-                entry.isUnavailable = entry.isUnavailable && variant.available ? false : entry.isUnavailable;
-              }
-          }
-        });
+                break;
+              case 'option2':
+                // Option2 inputs should remain enabled based on available variants that match first option group
+                if (currentOption1 && variant.option1 === currentOption1.value) {
+                  entry.isUnavailable = entry.isUnavailable && variant.available ? false : entry.isUnavailable;
+                }
+                break;
+              case 'option3':
+                // Option 3 inputs should remain enabled based on available variants that match first and second option group
+                if (
+                  currentOption1 &&
+                  variant.option1 === currentOption1.value &&
+                  currentOption2 &&
+                  variant.option2 === currentOption2.value
+                ) {
+                  entry.isUnavailable = entry.isUnavailable && variant.available ? false : entry.isUnavailable;
+                }
+            }
+          });
 
-        return options;
-      }, { option1: [], option2: [], option3: [] });
+          return options;
+        },
+        { option1: [], option2: [], option3: [] }
+      );
     }
 
     getVariantData() {
@@ -447,8 +471,8 @@ if (!customElements.get('variant-selects')) {
 
     updateOptions() {
       const fieldsets = Array.from(this.querySelectorAll('fieldset'));
-      this.options = fieldsets.map((fieldset) => {
-        return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
+      this.options = fieldsets.map(fieldset => {
+        return Array.from(fieldset.querySelectorAll('input')).find(radio => radio.checked).value;
       });
     }
   }
@@ -489,7 +513,7 @@ if (!customElements.get('product-slider')) {
         initialIndex: '.is-initial-selected',
         prevNextButtons: false,
         fade: false,
-        cellSelector: '.product-images__slide.is-active'
+        cellSelector: '.product-images__slide.is-active',
       };
     }
     init() {
@@ -504,7 +528,6 @@ if (!customElements.get('product-slider')) {
       this.setupProductGallery();
     }
     reInit(imageSetIndex) {
-
       this.flkty.destroy();
 
       this.setOptions();
@@ -522,10 +545,10 @@ if (!customElements.get('product-slider')) {
         let prev = this.prev_button.cloneNode(true);
         this.prev_button.parentNode.append(prev);
         this.prev_button.remove();
-        prev.addEventListener('click', (event) => {
+        prev.addEventListener('click', event => {
           this.flkty.previous();
         });
-        prev.addEventListener('keyup', (event) => {
+        prev.addEventListener('keyup', event => {
           this.flkty.previous();
           event.preventDefault();
         });
@@ -534,15 +557,15 @@ if (!customElements.get('product-slider')) {
         let next = this.next_button.cloneNode(true);
         this.next_button.parentNode.append(next);
         this.next_button.remove();
-        next.addEventListener('click', (event) => {
+        next.addEventListener('click', event => {
           this.flkty.next();
         });
-        next.addEventListener('keyup', (event) => {
+        next.addEventListener('keyup', event => {
           this.flkty.next();
           event.preventDefault();
         });
       }
-      this.video_containers.forEach((container) => {
+      this.video_containers.forEach(container => {
         container.querySelector('button').addEventListener('click', function () {
           container.setAttribute('hidden', '');
         });
@@ -550,8 +573,7 @@ if (!customElements.get('product-slider')) {
       this.flkty.on('settle', function (index) {
         _this.selectedIndex = index;
       });
-      this.flkty.on('change', (index) => {
-
+      this.flkty.on('change', index => {
         let previous_slide = this.flkty.cells[_this.selectedIndex].element,
           previous_media = previous_slide.querySelector('.product-single__media'),
           active_thumbs = Array.from(this.thumbnails).filter(element => element.classList.contains('is-active')),
@@ -571,30 +593,34 @@ if (!customElements.get('product-slider')) {
           active_thumb.parentElement.scrollTo({
             left: active_thumb.offsetLeft - windowHalfWidth + active_thumb.clientWidth / 2,
             top: active_thumb.offsetTop - windowHalfHeight + active_thumb.clientHeight / 2,
-            behavior: 'smooth'
+            behavior: 'smooth',
           });
         });
 
         // Stop previous video
         if (previous_media.classList.contains('product-single__media-external-video')) {
           if (previous_media.dataset.provider === 'youtube') {
-            previous_media.querySelector('iframe').contentWindow.postMessage(JSON.stringify({
-              event: "command",
-              func: "pauseVideo",
-              args: ""
-            }), "*");
+            previous_media.querySelector('iframe').contentWindow.postMessage(
+              JSON.stringify({
+                event: 'command',
+                func: 'pauseVideo',
+                args: '',
+              }),
+              '*'
+            );
           } else if (previous_media.dataset.provider === 'vimeo') {
-            previous_media.querySelector('iframe').contentWindow.postMessage(JSON.stringify({
-              method: "pause"
-            }), "*");
+            previous_media.querySelector('iframe').contentWindow.postMessage(
+              JSON.stringify({
+                method: 'pause',
+              }),
+              '*'
+            );
           }
           previous_media.querySelector('.product-single__media-external-video--play').removeAttribute('hidden');
         } else if (previous_media.classList.contains('product-single__media-native-video')) {
           previous_media.querySelector('video').pause();
         }
-
       });
-
 
       setTimeout(() => {
         let active_thumbs = Array.from(this.thumbnails).filter(element => element.clientWidth > 0);
@@ -604,7 +630,6 @@ if (!customElements.get('product-slider')) {
           });
         });
       });
-
     }
     thumbnailClick(thumbnail, index) {
       [].forEach.call(this.thumbnails, function (el) {
@@ -627,9 +652,11 @@ if (!customElements.get('product-slider')) {
       this.setEventListeners();
     }
     buildItems() {
-      this.activeImages = Array.from(this.querySelectorAll('.product-images__slide.is-active .product-single__media-image'));
+      this.activeImages = Array.from(
+        this.querySelectorAll('.product-images__slide.is-active .product-single__media-image')
+      );
 
-      return this.activeImages.map((item) => {
+      return this.activeImages.map(item => {
         let index = [].indexOf.call(item.parentNode.parentNode.children, item.parentNode);
 
         let activelink = item.querySelector('.product-single__media-zoom');
@@ -639,7 +666,7 @@ if (!customElements.get('product-slider')) {
           src: activelink.getAttribute('href'),
           msrc: activelink.dataset.msrc,
           w: activelink.dataset.w,
-          h: activelink.dataset.h
+          h: activelink.dataset.h,
         };
       });
     }
@@ -668,15 +695,14 @@ if (!customElements.get('product-slider')) {
           return {
             x: rect.left,
             y: rect.top + pageYScroll,
-            w: rect.width
+            w: rect.width,
           };
-        }
+        },
       };
 
-
-      this.links.forEach((link => {
-        link.addEventListener('click', (e) => this.zoomClick(e, link));
-      }));
+      this.links.forEach(link => {
+        link.addEventListener('click', e => this.zoomClick(e, link));
+      });
     }
     zoomClick(e, link) {
       this.items = this.buildItems();
@@ -687,7 +713,7 @@ if (!customElements.get('product-slider')) {
           pswp.listen('parseVerticalMargin', function (item) {
             item.vGap = {
               top: 50,
-              bottom: 50
+              bottom: 50,
             };
           });
         });
@@ -704,160 +730,168 @@ if (!customElements.get('product-slider')) {
  *  @function ProductForm
  */
 if (!customElements.get('product-form')) {
-  customElements.define('product-form', class ProductForm extends HTMLElement {
-    constructor() {
-      super();
-    }
-    connectedCallback() {
-      this.sticky = this.dataset.sticky;
-      this.form = document.getElementById(`product-form-${this.dataset.section}`);
-      this.form.querySelector('[name=id]').disabled = false;
-      if (!this.sticky) {
-        this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
+  customElements.define(
+    'product-form',
+    class ProductForm extends HTMLElement {
+      constructor() {
+        super();
       }
-      this.cartNotification = document.querySelector('cart-notification');
-      this.body = document.body;
-
-      this.hideErrors = this.dataset.hideErrors === 'true';
-    }
-    onSubmitHandler(evt) {
-      evt.preventDefault();
-
-      if (!this.form.reportValidity()) {
-        return;
-      }
-
-      const submitButtons = document.querySelectorAll('.single-add-to-cart-button');
-
-      submitButtons.forEach((submitButton) => {
-        if (submitButton.classList.contains('loading')) return;
-        submitButton.setAttribute('aria-disabled', true);
-        submitButton.classList.add('loading');
-      });
-
-      this.handleErrorMessage();
-
-
-      const config = {
-        method: 'POST',
-        headers: {
-          'X-Requested-With': 'XMLHttpRequest',
-          'Accept': 'application/javascript'
+      connectedCallback() {
+        this.sticky = this.dataset.sticky;
+        this.form = document.getElementById(`product-form-${this.dataset.section}`);
+        this.form.querySelector('[name=id]').disabled = false;
+        if (!this.sticky) {
+          this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
         }
-      };
+        this.cartNotification = document.querySelector('cart-notification');
+        this.body = document.body;
 
+        this.hideErrors = this.dataset.hideErrors === 'true';
+      }
+      onSubmitHandler(evt) {
+        evt.preventDefault();
 
-      let formData = new FormData(this.form);
-
-      formData.append('sections', this.getSectionsToRender().map((section) => section.section));
-      formData.append('sections_url', window.location.pathname);
-      config.body = formData;
-
-      fetch(`${theme.routes.cart_add_url}`, config)
-        .then((response) => response.json())
-        .then((response) => {
-          if (response.status) {
-            dispatchCustomEvent('product:variant-error', {
-              source: 'product-form',
-              productVariantId: formData.get('id'),
-              errors: response.description,
-              message: response.message
-            });
-            this.handleErrorMessage(response.description);
-            return;
-          }
-
-          this.renderContents(response);
-
-          dispatchCustomEvent('cart:item-added', {
-            product: response.hasOwnProperty('items') ? response.items[0] : response
-          });
-        })
-        .catch((e) => {
-          console.error(e);
-        })
-        .finally(() => {
-          submitButtons.forEach((submitButton) => {
-            submitButton.classList.remove('loading');
-            submitButton.removeAttribute('aria-disabled');
-          });
-        });
-    }
-
-    getSectionsToRender() {
-      return [{
-        id: 'Cart',
-        section: 'main-cart',
-        selector: '.thb-cart-form'
-      },
-      {
-        id: 'Cart-Drawer',
-        section: 'cart-drawer',
-        selector: '.cart-drawer'
-      },
-      {
-        id: 'cart-drawer-toggle',
-        section: 'cart-bubble',
-        selector: '.thb-item-count'
-      }];
-    }
-    renderContents(parsedState) {
-      this.getSectionsToRender().forEach((section => {
-        if (!document.getElementById(section.id)) {
+        if (!this.form.reportValidity()) {
           return;
         }
-        const elementToReplace = document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
-        elementToReplace.innerHTML = this.getSectionInnerHTML(parsedState.sections[section.section], section.selector);
 
-        if (typeof CartDrawer !== 'undefined') {
-          new CartDrawer();
-        }
-        if (typeof Cart !== 'undefined') {
-          new Cart().renderContents(parsedState);
-        }
-      }));
+        const submitButtons = document.querySelectorAll('.single-add-to-cart-button');
 
+        submitButtons.forEach(submitButton => {
+          if (submitButton.classList.contains('loading')) return;
+          submitButton.setAttribute('aria-disabled', true);
+          submitButton.classList.add('loading');
+        });
 
+        this.handleErrorMessage();
 
-      let product_drawer = document.getElementById('Product-Drawer'),
-        search_drawer = document.getElementById('Search-Drawer');
+        const config = {
+          method: 'POST',
+          headers: {
+            'X-Requested-With': 'XMLHttpRequest',
+            Accept: 'application/javascript',
+          },
+        };
 
-      if (search_drawer.classList.contains('active')) {
-        search_drawer.classList.remove('active');
+        let formData = new FormData(this.form);
+
+        formData.append(
+          'sections',
+          this.getSectionsToRender().map(section => section.section)
+        );
+        formData.append('sections_url', window.location.pathname);
+        config.body = formData;
+
+        fetch(`${theme.routes.cart_add_url}`, config)
+          .then(response => response.json())
+          .then(response => {
+            if (response.status) {
+              dispatchCustomEvent('product:variant-error', {
+                source: 'product-form',
+                productVariantId: formData.get('id'),
+                errors: response.description,
+                message: response.message,
+              });
+              this.handleErrorMessage(response.description);
+              return;
+            }
+
+            this.renderContents(response);
+
+            dispatchCustomEvent('cart:item-added', {
+              product: response.hasOwnProperty('items') ? response.items[0] : response,
+            });
+          })
+          .catch(e => {
+            console.error(e);
+          })
+          .finally(() => {
+            submitButtons.forEach(submitButton => {
+              submitButton.classList.remove('loading');
+              submitButton.removeAttribute('aria-disabled');
+            });
+          });
       }
-      if (product_drawer && product_drawer.contains(this)) {
-        product_drawer.classList.remove('active');
-        this.body.classList.remove('open-cc--product');
-        if (document.getElementById('Cart-Drawer')) {
+
+      getSectionsToRender() {
+        return [
+          {
+            id: 'Cart',
+            section: 'main-cart',
+            selector: '.thb-cart-form',
+          },
+          {
+            id: 'Cart-Drawer',
+            section: 'cart-drawer',
+            selector: '.cart-drawer',
+          },
+          {
+            id: 'cart-drawer-toggle',
+            section: 'cart-bubble',
+            selector: '.thb-item-count',
+          },
+        ];
+      }
+      renderContents(parsedState) {
+        console.log('product red');
+
+        this.getSectionsToRender().forEach(section => {
+          if (!document.getElementById(section.id)) {
+            return;
+          }
+          const elementToReplace =
+            document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
+          elementToReplace.innerHTML = this.getSectionInnerHTML(
+            parsedState.sections[section.section],
+            section.selector
+          );
+
+          if (typeof CartDrawer !== 'undefined') {
+            new CartDrawer();
+          }
+          if (typeof Cart !== 'undefined') {
+            new Cart().renderContents(parsedState);
+          }
+        });
+
+        let product_drawer = document.getElementById('Product-Drawer'),
+          search_drawer = document.getElementById('Search-Drawer');
+
+        if (search_drawer.classList.contains('active')) {
+          search_drawer.classList.remove('active');
+        }
+        if (product_drawer && product_drawer.contains(this)) {
+          product_drawer.classList.remove('active');
+          this.body.classList.remove('open-cc--product');
+          if (document.getElementById('Cart-Drawer')) {
+            this.body.classList.add('open-cc');
+            document.getElementById('Cart-Drawer').classList.add('active');
+          }
+        } else if (document.getElementById('Cart-Drawer')) {
           this.body.classList.add('open-cc');
           document.getElementById('Cart-Drawer').classList.add('active');
+          dispatchCustomEvent('cart-drawer:open');
         }
-      } else if (document.getElementById('Cart-Drawer')) {
-        this.body.classList.add('open-cc');
-        document.getElementById('Cart-Drawer').classList.add('active');
-        dispatchCustomEvent('cart-drawer:open');
+      }
+      getSectionInnerHTML(html, selector = '.shopify-section') {
+        return new DOMParser().parseFromString(html, 'text/html').querySelector(selector).innerHTML;
+      }
+      handleErrorMessage(errorMessage = false) {
+        if (this.hideErrors) return;
+        this.errorMessageWrapper =
+          this.errorMessageWrapper || this.querySelector('.product-form__error-message-wrapper');
+        if (!this.errorMessageWrapper) return;
+        this.errorMessage = this.errorMessage || this.errorMessageWrapper.querySelector('.product-form__error-message');
+
+        this.errorMessageWrapper.toggleAttribute('hidden', !errorMessage);
+
+        if (errorMessage) {
+          this.errorMessage.textContent = errorMessage;
+        }
       }
     }
-    getSectionInnerHTML(html, selector = '.shopify-section') {
-      return new DOMParser()
-        .parseFromString(html, 'text/html')
-        .querySelector(selector).innerHTML;
-    }
-    handleErrorMessage(errorMessage = false) {
-      if (this.hideErrors) return;
-      this.errorMessageWrapper = this.errorMessageWrapper || this.querySelector('.product-form__error-message-wrapper');
-      if (!this.errorMessageWrapper) return;
-      this.errorMessage = this.errorMessage || this.errorMessageWrapper.querySelector('.product-form__error-message');
-
-      this.errorMessageWrapper.toggleAttribute('hidden', !errorMessage);
-
-      if (errorMessage) {
-        this.errorMessage.textContent = errorMessage;
-      }
-    }
-  });
+  );
 }
-
 
 /**
  *  @class
@@ -887,18 +921,24 @@ if (!customElements.get('product-add-to-cart-sticky')) {
           },
           onReverseComplete: () => {
             button.classList.remove('sticky-open');
-          }
+          },
         });
 
-        tl
-          .set(content, {
+        tl.set(
+          content,
+          {
             display: 'block',
-            height: 'auto'
-          }, 'start')
-          .from(content, {
+            height: 'auto',
+          },
+          'start'
+        ).from(
+          content,
+          {
             height: 0,
-            duration: 0.25
-          }, 'start+=0.001');
+            duration: 0.25,
+          },
+          'start+=0.001'
+        );
 
         button.addEventListener('click', function () {
           tl.reversed() ? tl.play() : tl.reverse();
@@ -911,34 +951,36 @@ if (!customElements.get('product-add-to-cart-sticky')) {
           return false;
         });
       }
-
     }
     setupObservers() {
       let _this = this,
-        observer = new IntersectionObserver(function (entries) {
-          entries.forEach((entry) => {
-            if (entry.target === footer) {
-              if (entry.intersectionRatio > 0) {
-                _this.classList.remove('sticky--visible');
-              } else if (entry.intersectionRatio == 0 && _this.formPassed) {
-                _this.classList.add('sticky--visible');
+        observer = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(entry => {
+              if (entry.target === footer) {
+                if (entry.intersectionRatio > 0) {
+                  _this.classList.remove('sticky--visible');
+                } else if (entry.intersectionRatio == 0 && _this.formPassed) {
+                  _this.classList.add('sticky--visible');
+                }
               }
-            }
-            if (entry.target === form) {
-              let boundingRect = form.getBoundingClientRect();
+              if (entry.target === form) {
+                let boundingRect = form.getBoundingClientRect();
 
-              if (entry.intersectionRatio === 0 && window.scrollY > (boundingRect.top + boundingRect.height)) {
-                _this.formPassed = true;
-                _this.classList.add('sticky--visible');
-              } else if (entry.intersectionRatio === 1) {
-                _this.formPassed = false;
-                _this.classList.remove('sticky--visible');
+                if (entry.intersectionRatio === 0 && window.scrollY > boundingRect.top + boundingRect.height) {
+                  _this.formPassed = true;
+                  _this.classList.add('sticky--visible');
+                } else if (entry.intersectionRatio === 1) {
+                  _this.formPassed = false;
+                  _this.classList.remove('sticky--visible');
+                }
               }
-            }
-          });
-        }, {
-          threshold: [0, 1]
-        }),
+            });
+          },
+          {
+            threshold: [0, 1],
+          }
+        ),
         form = document.getElementById(`product-form-${this.dataset.section}`),
         footer = document.getElementById('footer');
       _this.formPassed = false;
@@ -961,18 +1003,18 @@ if (!customElements.get('side-panel-links')) {
       this.links = this.querySelectorAll('button');
       this.drawer = document.getElementById('Product-Information-Drawer');
       this.buttons = this.drawer.querySelector('.side-panel-content--tabs');
-      this.panels = this.drawer.querySelector('.side-panel-content--inner').querySelectorAll('.side-panel-content--tab-panel');
+      this.panels = this.drawer
+        .querySelector('.side-panel-content--inner')
+        .querySelectorAll('.side-panel-content--tab-panel');
       this.body = document.body;
     }
     connectedCallback() {
       this.setupObservers();
     }
-    disconnectedCallback() {
-
-    }
+    disconnectedCallback() {}
     setupObservers() {
       this.links.forEach((item, i) => {
-        item.addEventListener('click', (e) => {
+        item.addEventListener('click', e => {
           this.body.classList.add('open-cc');
           this.buttons.toggleActiveClass(i);
           this.drawer.classList.add('active');
