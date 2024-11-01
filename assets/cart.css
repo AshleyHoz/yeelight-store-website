@@ -130,6 +130,7 @@
 }
 .cart-empty .button {
   margin-top: 20px;
+  color: var(--color-product-font);
 }
 
 .cart-policy-text {

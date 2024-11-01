@@ -193,23 +193,27 @@
                 >
               </div>
             {%- endif -%}
-            <div class="slide-panel-drawer-recommend--mobile">
-              {%- if settings.cart_recommendations and cart != empty -%}
-                <product-recommendations
-                  class="complementary-products"
-                  data-url="{{ routes.product_recommendations_url }}?section_id=cart-drawer&product_id={{ cart.items[0].product_id }}&limit=4"
-                >
-                  {% if recommendations.performed and recommendations.products_count > 0 %}
-                    <div class="complementary-products--heading">{{ 'general.cart_drawer.you_may_also_like' | t }}</div>
-                    <div class="complementary-products--inner">
-                      {% for recommendation in recommendations.products %}
-                        {% render 'product-card-small', product_small: recommendation %}
-                      {% endfor %}
-                    </div>
-                  {% endif %}
-                </product-recommendations>
-              {%- endif -%}
-            </div>
+            {%- if settings.cart_recommendations and cart != empty -%}
+              <div class="slide-panel-drawer-recommend--mobile">
+                {%- if settings.cart_recommendations and cart != empty -%}
+                  <product-recommendations
+                    class="complementary-products"
+                    data-url="{{ routes.product_recommendations_url }}?section_id=cart-drawer&product_id={{ cart.items[0].product_id }}&limit=4"
+                  >
+                    {% if recommendations.performed and recommendations.products_count > 0 %}
+                      <div class="complementary-products--heading">
+                        {{ 'general.cart_drawer.you_may_also_like' | t }}
+                      </div>
+                      <div class="complementary-products--inner">
+                        {% for recommendation in recommendations.products %}
+                          {% render 'product-card-small', product_small: recommendation %}
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+                  </product-recommendations>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
           </div>
           {%- if cart != empty -%}
             <div class="side-panel-footer">
