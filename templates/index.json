@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Permanent_light_BF_banner.jpg",
-            "mobile_image": "shopify://shop_images/Halloween_Promotion_Banner_4.jpg",
+            "mobile_image": "shopify://shop_images/Permanent_BF_Banner_M.jpg",
             "slide_link": "shopify://products/yeelight-permanent-outdoor-lights",
             "video_background": false,
             "badge_text": "",
@@ -51,7 +51,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Curtain_light_BF_banner.jpg",
-            "mobile_image": "shopify://shop_images/Halloween_Promotion_Banner_1.jpg",
+            "mobile_image": "shopify://shop_images/Curtain_BF_Banner_M.jpg",
             "slide_link": "shopify://products/a-yeelight-curtain-lights",
             "video_background": false,
             "badge_text": "",
@@ -86,7 +86,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Christmas_string_light_BF_banner.jpg",
-            "mobile_image": "shopify://shop_images/Halloween_Promotion_Banner_2.jpg",
+            "mobile_image": "shopify://shop_images/Christmas_BF_Banner_M.jpg",
             "slide_link": "shopify://products/a-yeelight-christmas-string-lights",
             "video_background": false,
             "badge_text": "",
@@ -121,7 +121,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Basic_light_strip_BF_banner.jpg",
-            "mobile_image": "shopify://shop_images/Halloween_Promotion_Banner_3.jpg",
+            "mobile_image": "shopify://shop_images/Basic_Strip_BF_Banner_M.jpg",
             "slide_link": "shopify://products/yeelight-rgbic-led-basic-strip-lights",
             "video_background": false,
             "badge_text": "",
@@ -303,9 +303,9 @@
         "slide_dfKGLU"
       ],
       "settings": {
-        "title": "Transform the Outdoors for <span>Every Occasion</span>",
+        "title": "Transform the Outdoors for Every Occasion",
         "view_title": "Grab the Special Bundle Now",
-        "link": "shopify://pages/topic-1",
+        "link": "shopify://products/yeelight-holiday-lightshow-package",
         "footer_title": "",
         "footer_description": "",
         "full_width": false,
