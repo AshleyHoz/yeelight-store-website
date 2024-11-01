@@ -4780,15 +4780,15 @@ select.resize-select {
 }
 
 .cart-drawer {
-  width: 45vw;
-  max-width: 45vw;
+  width: auto;
+  max-width: fit-content;
   z-index: 9999999999;
 }
 
-.cart-drawer.left-full {
+/* .cart-drawer.left-full {
   width: 25vw;
   max-width: 25vw;
-}
+} */
 
 .cart-drawer .slide-panel-drawer-wrapper {
   display: flex;
@@ -4797,7 +4797,7 @@ select.resize-select {
 }
 
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left {
-  width: 60%;
+  width: 25vw;
 }
 
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left.full-width {
@@ -4806,7 +4806,7 @@ select.resize-select {
 }
 
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--right {
-  width: 40%;
+  width: 20vw;
 }
 
 .cart-drawer .slide-panel-drawer-wrapper .slide-panel-drawer-wrapper--left {
