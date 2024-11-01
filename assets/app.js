@@ -523,7 +523,6 @@ customElements.define('side-panel-close', PanelClose);
 class CartDrawer {
   constructor() {
     this.container = document.getElementById('Cart-Drawer');
-    console.log(this.container);
 
     if (!this.container) {
       return;
@@ -532,6 +531,8 @@ class CartDrawer {
 
     // Add functionality to buttons
     button?.addEventListener('click', e => {
+      console.log(this.container);
+
       e.preventDefault();
       document.body.classList.add('open-cc');
       this.container.classList.add('active');
@@ -683,8 +684,6 @@ class CartDrawer {
       });
   }
   refresh() {
-    console.log(321);
-
     let sections = 'cart-drawer,cart-bubble';
     fetch(`${window.location.pathname}?sections=${sections}`)
       .then(response => {
