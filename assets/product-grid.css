@@ -1008,6 +1008,7 @@
   .halloween-shop-container-mobile {
     cursor: pointer;
     display: block;
+    width: 100%;
   }
 
   .image-product-halloween-shop {
