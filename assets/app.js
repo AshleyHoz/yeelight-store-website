@@ -682,6 +682,8 @@ class CartDrawer {
       });
   }
   refresh() {
+    console.log(321);
+
     let sections = 'cart-drawer,cart-bubble';
     fetch(`${window.location.pathname}?sections=${sections}`)
       .then(response => {
