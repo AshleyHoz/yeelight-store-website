@@ -633,6 +633,8 @@ class CartDrawer {
     });
   }
   updateQuantity(line, quantity) {
+    console.log('qty');
+
     this.container.querySelector(`#CartDrawerItem-${line}`).classList.add('thb-loading');
     const body = JSON.stringify({
       line,
@@ -684,6 +686,8 @@ class CartDrawer {
       });
   }
   refresh() {
+    console.log('ref');
+
     let sections = 'cart-drawer,cart-bubble';
     fetch(`${window.location.pathname}?sections=${sections}`)
       .then(response => {
