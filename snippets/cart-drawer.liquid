@@ -6,7 +6,7 @@
     assign shadow_class = 'has-shadow--' | append: settings.block_shadows
   -%}
   <div
-    class="side-panel cart-drawer {{ shadow_class }} {% if settings.product_opposite_theme %} section-cart-white{% endif %} {% if settings.halloween_flag %} cart-halloween{% endif %} {% if cart.items.size == 0 %}left-full{% endif %}"
+    class="side-panel cart-drawer {{ shadow_class }} {% if settings.product_opposite_theme %} section-cart-white{% endif %} {% if settings.halloween_flag %} cart-halloween{% endif %} "
     id="Cart-Drawer"
     tabindex="-1"
   >
