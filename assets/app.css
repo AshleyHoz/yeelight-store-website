@@ -5781,6 +5781,22 @@ input[type='radio'],
   font-size: 15px;
 }
 
+.complementary-products .single-add-to-cart-button {
+  position: relative;
+}
+
+.complementary-products .product-card-small--info-cart-price .loading-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.complementary-products .product-card-small--info-cart-price .loading-overlay.is-loading {
+  display: block;
+}
+
 @media only screen and (max-width: 767px) {
   .section-header {
     padding-bottom: 24px;
