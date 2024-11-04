@@ -351,6 +351,9 @@ if (!customElements.get('product-card-small')) {
       this.id = this.dataset.id;
       this.url = this.dataset.url;
       this.addEventListener('click', this.addCart.bind(this));
+      this.loadingEle = document.getElementsByClassName('loading-overlay');
+      console.log(loadingEle);
+      loadingEle.classList.add('is-loading');
     }
     addCart(e) {
       if (e.target.name !== 'add') return;
@@ -1002,16 +1005,11 @@ if (!customElements.get('collapsible-row')) {
 class ProductRecommendations extends HTMLElement {
   constructor() {
     super();
-    this.classList.add('is-loading');
   }
   fetchProducts() {
-    console.log(3);
-    console.log(this.classList);
     fetch(this.dataset.url)
       .then(response => response.text())
       .then(text => {
-        console.log(text);
-
         const html = document.createElement('div');
         html.innerHTML = text;
         const recommendations = html.querySelector('product-recommendations');
@@ -1021,8 +1019,6 @@ class ProductRecommendations extends HTMLElement {
         }
 
         this.classList.add('product-recommendations--loaded');
-        this.classList.remove('is-loading');
-        console.log(this.classList);
       })
       .catch(e => {
         console.error(e);
