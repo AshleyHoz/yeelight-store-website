@@ -1006,7 +1006,7 @@ class ProductRecommendations extends HTMLElement {
   }
   fetchProducts() {
     console.log(3);
-    const loadingEle = this.getElementsByClassName('product-recommendations__loading')[0];
+    const loadingEle = document.getElementsByClassName('product-recommendations__loading')[0];
     loadingEle.classList.add('is-loading');
     fetch(this.dataset.url)
       .then(response => response.text())
