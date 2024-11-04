@@ -5785,7 +5785,7 @@ input[type='radio'],
   position: relative;
 }
 
-.complementary-products .product-card-small--info-cart-price .loading-overlay {
+.complementary-products .product-card-small--info-cart-price .product-recommendations__loading {
   display: none;
   position: absolute;
   top: 0;
@@ -5793,7 +5793,7 @@ input[type='radio'],
   transform: translateX(-50%);
 }
 
-.complementary-products .product-card-small--info-cart-price .loading-overlay.is-loading {
+.complementary-products .product-card-small--info-cart-price .product-recommendations__loading.is-loading {
   display: block;
 }
 
