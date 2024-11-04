@@ -58,7 +58,8 @@
         "speed": "50s",
         "use_block_colors": false,
         "autoplay": true,
-        "autoplay_length": 5
+        "autoplay_length": 5,
+        "background_color": "#2c2d2e"
       }
     },
     "header-secondary-menu": {
