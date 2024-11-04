@@ -33,7 +33,7 @@
     {{- 'announcement-bar.css' | asset_url | stylesheet_tag -}}
     <div
       class="announcement-bar"
-      style="--color-announcement-bar-text: {{ color_announcement_bar_text }}; --color-announcement-bar-bg: {{ color_announcement_bar_bg -}};{%if background_color %}background:{{background_color}} !important; {% endif %}"
+      style="--color-announcement-bar-text: {{ color_announcement_bar_text }}; --color-announcement-bar-bg: {{ color_announcement_bar_bg -}};--color-announcement-background-bg: {{ background_color -}};{%if background_color %}background:{{background_color}} !important; {% endif %}"
     >
       <div
         class="announcement-bar--inner direction-{{ direction }} announcement-bar--{{ announcement_bar_layout }}"
