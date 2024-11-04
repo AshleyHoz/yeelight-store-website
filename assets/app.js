@@ -1002,10 +1002,10 @@ if (!customElements.get('collapsible-row')) {
 class ProductRecommendations extends HTMLElement {
   constructor() {
     super();
+    this.classList.add('is-loading');
   }
   fetchProducts() {
     console.log(3);
-    this.classList.add('is-loading');
     console.log(this.classList);
     fetch(this.dataset.url)
       .then(response => response.text())
