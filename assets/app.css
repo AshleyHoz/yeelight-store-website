@@ -5782,11 +5782,11 @@ input[type='radio'],
   font-size: 15px;
 }
 
-.complementary-products .single-add-to-cart-button {
+.product-card-small .single-add-to-cart-button {
   position: relative;
 }
 
-.complementary-products .loading-overlay {
+.product-card-small .loading-overlay {
   display: none;
   position: absolute;
   align-items: center;
@@ -5800,16 +5800,16 @@ input[type='radio'],
   border-radius: 5px;
 }
 
-.complementary-products.is-loading .loading-overlay {
+.product-card-small.is-loading .loading-overlay {
   display: block;
 }
 
-.complementary-products.is-loading .loading-overlay svg {
+.product-card-small.is-loading .loading-overlay svg {
   width: 33px;
   height: 33px;
 }
 
-.complementary-products.is-loading span {
+.product-card-small.is-loading span {
   display: flex;
 }
 

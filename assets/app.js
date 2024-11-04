@@ -353,7 +353,7 @@ if (!customElements.get('product-card-small')) {
       this.addEventListener('click', this.addCart.bind(this));
       this.loadingEle = this.getElementsByClassName('loading-overlay')[0];
       console.log(this.loadingEle);
-      this.loadingEle.classList.add('is-loading');
+      this.classList.add('is-loading');
     }
     addCart(e) {
       if (e.target.name !== 'add') return;
