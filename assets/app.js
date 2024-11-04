@@ -352,11 +352,10 @@ if (!customElements.get('product-card-small')) {
       this.url = this.dataset.url;
       this.addEventListener('click', this.addCart.bind(this));
       this.loadingEle = this.getElementsByClassName('loading-overlay')[0];
-      console.log(this.loadingEle);
-      this.classList.add('is-loading');
     }
     addCart(e) {
       if (e.target.name !== 'add') return;
+      this.classList.add('is-loading');
       this.addToCart(e, e.target.dataset.id);
     }
     connectedCallback() {

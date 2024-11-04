@@ -5801,7 +5801,9 @@ input[type='radio'],
 }
 
 .product-card-small.is-loading .loading-overlay {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .product-card-small.is-loading .loading-overlay svg {
