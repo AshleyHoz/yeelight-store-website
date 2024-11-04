@@ -5785,7 +5785,7 @@ input[type='radio'],
   position: relative;
 }
 
-.complementary-products .product-recommendations__loading {
+.complementary-products .loading-overlay {
   display: none;
   position: absolute;
   top: 0;
@@ -5793,7 +5793,7 @@ input[type='radio'],
   transform: translateX(-50%);
 }
 
-.complementary-products.is-loading .product-recommendations__loading {
+.complementary-products.is-loading .loading-overlay {
   display: block;
 }
 

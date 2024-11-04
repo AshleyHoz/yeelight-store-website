@@ -352,6 +352,12 @@ if (!customElements.get('product-card-small')) {
       this.url = this.dataset.url;
       this.addEventListener('click', this.addCart.bind(this));
     }
+    addCart(e) {
+      console.log(e);
+
+      if (e.target.name !== 'add') return;
+      this.addToCart(e, e.target.dataset.id);
+    }
     connectedCallback() {
       if (this.quick_add_enabled) {
         this.setEventListeners();
@@ -378,10 +384,6 @@ if (!customElements.get('product-card-small')) {
           selector: '.thb-item-count',
         },
       ];
-    }
-    addCart(e) {
-      if (e.target.name !== 'add') return;
-      this.addToCart(e, e.target.dataset.id);
     }
     addToCart(e, productId) {
       this.button.classList.add('loading');
