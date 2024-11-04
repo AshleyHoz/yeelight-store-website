@@ -5408,6 +5408,7 @@ input[type='radio'],
   padding: 0;
   border: none;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .slide-panel-drawer-wrapper .product-card-small--image {
@@ -5788,17 +5789,28 @@ input[type='radio'],
 .complementary-products .loading-overlay {
   display: none;
   position: absolute;
+  align-items: center;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%);
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  border-radius: 5px;
 }
 
 .complementary-products.is-loading .loading-overlay {
   display: block;
 }
 
+.complementary-products.is-loading .loading-overlay svg {
+  width: 33px;
+  height: 33px;
+}
+
 .complementary-products.is-loading span {
-  display: none;
+  display: flex;
 }
 
 @media only screen and (max-width: 767px) {

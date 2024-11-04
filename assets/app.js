@@ -353,8 +353,6 @@ if (!customElements.get('product-card-small')) {
       this.addEventListener('click', this.addCart.bind(this));
     }
     addCart(e) {
-      console.log(e);
-
       if (e.target.name !== 'add') return;
       this.addToCart(e, e.target.dataset.id);
     }
@@ -1004,9 +1002,9 @@ if (!customElements.get('collapsible-row')) {
 class ProductRecommendations extends HTMLElement {
   constructor() {
     super();
-    console.log(1);
   }
   fetchProducts() {
+    console.log(3);
     this.classList.add('is-loading');
     fetch(this.dataset.url)
       .then(response => response.text())
@@ -1027,7 +1025,6 @@ class ProductRecommendations extends HTMLElement {
       });
   }
   connectedCallback() {
-    console.log(2);
     this.fetchProducts();
   }
 }
