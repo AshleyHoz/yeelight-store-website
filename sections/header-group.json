@@ -59,7 +59,7 @@
         "use_block_colors": false,
         "autoplay": true,
         "autoplay_length": 5,
-        "background_color": "#2c2d2e"
+        "background_color": "rgba(0,0,0,0)"
       }
     },
     "header-secondary-menu": {
