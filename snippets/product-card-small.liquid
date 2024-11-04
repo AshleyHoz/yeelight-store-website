@@ -99,16 +99,12 @@
           data-product-id="{{product_small.selected_or_first_available_variant.id}}"
           onclick="addCart"
         >
-          {% comment %} <span> {% endcomment %}
           {{ 'products.product.add_to_cart' | t }}
-          {% comment %} </span> {% endcomment %}
-          {% comment %}
-            <div class="loading-overlay">
-              {% render 'svg-icons' with 'thb-loading' %}
-            </div>
-          {% endcomment %}
         </button>
       </div>
     </div>
+  </div>
+  <div class="loading-overlay">
+    {% render 'svg-icons' with 'thb-loading' %}
   </div>
 </product-card-small>
