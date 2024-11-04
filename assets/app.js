@@ -1005,11 +1005,7 @@ class ProductRecommendations extends HTMLElement {
     console.log(1);
   }
   fetchProducts() {
-    console.log(3);
-    const loadingEle = document.getElementsByClassName('product-recommendations__loading')[0];
-    console.log(loadingEle);
-
-    loadingEle.classList.add('is-loading');
+    this.classList.add('is-loading');
     fetch(this.dataset.url)
       .then(response => response.text())
       .then(text => {
@@ -1022,7 +1018,7 @@ class ProductRecommendations extends HTMLElement {
         }
 
         this.classList.add('product-recommendations--loaded');
-        loadingEle.classList.remove('is-loading');
+        this.classList.remove('is-loading');
       })
       .catch(e => {
         console.error(e);

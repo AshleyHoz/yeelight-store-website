@@ -5785,7 +5785,7 @@ input[type='radio'],
   position: relative;
 }
 
-.complementary-products .product-card-small--info-cart-price .product-recommendations__loading {
+.complementary-products .product-recommendations__loading {
   display: none;
   position: absolute;
   top: 0;
@@ -5793,8 +5793,12 @@ input[type='radio'],
   transform: translateX(-50%);
 }
 
-.complementary-products .product-card-small--info-cart-price .product-recommendations__loading.is-loading {
+.complementary-products.is-loading .product-recommendations__loading {
   display: block;
+}
+
+.complementary-products.is-loading span {
+  display: none;
 }
 
 @media only screen and (max-width: 767px) {
