@@ -351,8 +351,7 @@ if (!customElements.get('product-card-small')) {
       this.id = this.dataset.id;
       this.url = this.dataset.url;
       this.addEventListener('click', this.addCart.bind(this));
-      this.loadingEle = this.getElementsByClassName('loading-overlay')[0];
-      this.loadingEle.classList.remove('is-loading');
+      this.classList.remove('is-loading');
     }
     addCart(e) {
       if (e.target.name !== 'add') return;
@@ -1005,6 +1004,7 @@ if (!customElements.get('collapsible-row')) {
 class ProductRecommendations extends HTMLElement {
   constructor() {
     super();
+    this.classList.add('is-loading');
   }
   fetchProducts() {
     fetch(this.dataset.url)
@@ -1022,6 +1022,9 @@ class ProductRecommendations extends HTMLElement {
       })
       .catch(e => {
         console.error(e);
+      })
+      .finally(() => {
+        this.classList.remove('is-loading');
       });
   }
   connectedCallback() {
