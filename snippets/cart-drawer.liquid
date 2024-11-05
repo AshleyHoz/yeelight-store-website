@@ -333,6 +333,11 @@
         </div>
         {% if cart.items.size > 0 %}
           <div class="slide-panel-drawer-wrapper--right">
+            {%- if settings.cart_recommendations and cart == empty -%}
+              <div class="complementary-loading-overlay">
+                {% render 'svg-icons' with 'thb-loading' %}
+              </div>
+            {%- endif -%}
             {%- if settings.cart_recommendations and cart != empty -%}
               <product-recommendations
                 class="complementary-products"
@@ -344,11 +349,6 @@
                     {% for recommendation in recommendations.products %}
                       {% render 'product-card-small', product_small: recommendation %}
                     {% endfor %}
-                  </div>
-                {% else %}
-                  {{ recommendations.products_count }}
-                  <div class="complementary-loading-overlay">
-                    {% render 'svg-icons' with 'thb-loading' %}
                   </div>
                 {% endif %}
               </product-recommendations>
