@@ -1004,7 +1004,6 @@ if (!customElements.get('collapsible-row')) {
 class ProductRecommendations extends HTMLElement {
   constructor() {
     super();
-    this.classList.add('is-loading');
   }
   fetchProducts() {
     fetch(this.dataset.url)
@@ -1022,9 +1021,6 @@ class ProductRecommendations extends HTMLElement {
       })
       .catch(e => {
         console.error(e);
-      })
-      .finally(() => {
-        this.classList.remove('is-loading');
       });
   }
   connectedCallback() {

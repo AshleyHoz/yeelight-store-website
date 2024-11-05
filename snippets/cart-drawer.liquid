@@ -211,6 +211,9 @@
                         {% endfor %}
                       </div>
                     {% endif %}
+                    <div class="complementary-loading-overlay">
+                      {% render 'svg-icons' with 'thb-loading' %}
+                    </div>
                   </product-recommendations>
                 {%- endif -%}
               </div>
@@ -343,10 +346,11 @@
                     {% endfor %}
                   </div>
                 {% endif %}
-                <div class="complementary-loading-overlay">
-                  {% render 'svg-icons' with 'thb-loading' %}
-                </div>
               </product-recommendations>
+            {% else %}
+              <div class="complementary-loading-overlay">
+                {% render 'svg-icons' with 'thb-loading' %}
+              </div>
             {%- endif -%}
           </div>
         {%- endif -%}
