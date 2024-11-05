@@ -330,13 +330,11 @@
         </div>
         {% if cart.items.size > 0 %}
           <div class="slide-panel-drawer-wrapper--right">
-            {% comment %}
-              {%- if settings.cart_recommendations and cart == empty -%}
-                <div class="complementary-loading-overlay">
-                  {% render 'svg-icons' with 'thb-loading' %}
-                </div>
-              {%- endif -%}
-            {% endcomment %}
+            {%- if settings.cart_recommendations and cart == empty -%}
+              <div class="complementary-loading-overlay">
+                {% render 'svg-icons' with 'thb-loading' %}
+              </div>
+            {%- endif -%}
             {%- if settings.cart_recommendations and cart != empty -%}
               <product-recommendations
                 class="complementary-products"
