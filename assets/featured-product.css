@@ -1045,6 +1045,10 @@
   margin-bottom: 20px;
 }
 
+.thb-product-detail .product-form__error-message-wrapper .product-form__error-message {
+  color: var(--color-product-font);
+}
+
 .thb-product-detail [data-hide-variants='true'] .product-images__slide[data-group] {
   display: none;
 }
