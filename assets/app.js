@@ -351,6 +351,12 @@ if (!customElements.get('product-card-small')) {
       this.id = this.dataset.id;
       this.url = this.dataset.url;
       this.addEventListener('click', this.addCart.bind(this));
+      this.classList.remove('is-loading');
+    }
+    addCart(e) {
+      if (e.target.name !== 'add') return;
+      this.classList.add('is-loading');
+      this.addToCart(e, e.target.dataset.id);
     }
     connectedCallback() {
       if (this.quick_add_enabled) {
@@ -378,10 +384,6 @@ if (!customElements.get('product-card-small')) {
           selector: '.thb-item-count',
         },
       ];
-    }
-    addCart(e) {
-      if (e.target.name !== 'add') return;
-      this.addToCart(e, e.target.dataset.id);
     }
     addToCart(e, productId) {
       this.button.classList.add('loading');
@@ -1019,9 +1021,14 @@ class ProductRecommendations extends HTMLElement {
       })
       .catch(e => {
         console.error(e);
+      })
+      .finally(() => {
+        console.log(3);
+        this.classList.remove('is-loading');
       });
   }
   connectedCallback() {
+    this.classList.add('is-loading');
     this.fetchProducts();
   }
 }
