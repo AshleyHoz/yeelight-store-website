@@ -2511,10 +2511,6 @@ h6,
   color: #ffffff;
 }
 
-.product-form .single-add-to-cart-halloween .loading-overlay svg circle {
-  stroke: #ffffff;
-}
-
 @media only screen and (max-width: 767px) {
   .product-image-container scroll-shadow {
     display: none;
