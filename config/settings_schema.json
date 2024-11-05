@@ -1226,6 +1226,12 @@
         "id": "halloween_flag",
         "label": "Enable halloween css globally",
         "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "black_friday_flag",
+        "label": "Enable black friday css globally",
+        "default": false
       }
     ]
   },
