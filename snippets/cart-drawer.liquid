@@ -345,12 +345,12 @@
                       {% render 'product-card-small', product_small: recommendation %}
                     {% endfor %}
                   </div>
+                {% else %}
+                  <div class="complementary-loading-overlay">
+                    {% render 'svg-icons' with 'thb-loading' %}
+                  </div>
                 {% endif %}
               </product-recommendations>
-            {% else %}
-              <div class="complementary-loading-overlay">
-                {% render 'svg-icons' with 'thb-loading' %}
-              </div>
             {%- endif -%}
           </div>
         {%- endif -%}
