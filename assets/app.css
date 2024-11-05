@@ -5792,7 +5792,7 @@ input[type='radio'],
   position: relative;
 }
 
-.product-card-small .btn-add .loading-overlay {
+.product-card-small .product-card-small--info-cart-price .loading-overlay {
   display: none;
   position: absolute;
   bottom: 0;
@@ -5803,13 +5803,13 @@ input[type='radio'],
   background: #fe772d;
 }
 
-.product-card-small.is-loading .btn-add .loading-overlay {
+.product-card-small.is-loading .product-card-small--info-cart-price .loading-overlay {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.product-card-small.is-loading .btn-add .loading-overlay svg {
+.product-card-small.is-loading .product-card-small--info-cart-price .loading-overlay svg {
   width: 22px;
   height: 22px;
 }

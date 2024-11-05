@@ -1023,7 +1023,6 @@ class ProductRecommendations extends HTMLElement {
         console.error(e);
       })
       .finally(() => {
-        console.log(3);
         this.classList.remove('is-loading');
       });
   }
