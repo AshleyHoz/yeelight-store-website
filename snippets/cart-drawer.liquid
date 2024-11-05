@@ -345,8 +345,8 @@
                       {% render 'product-card-small', product_small: recommendation %}
                     {% endfor %}
                   </div>
-                  {{ recommendations.products_count }}
                   {% elseif recommendations.products_count = 0 %}
+                  {{ recommendations.products_count }}
                   <div class="complementary-loading-overlay">
                     {% render 'svg-icons' with 'thb-loading' %}
                   </div>
