@@ -354,6 +354,8 @@ if (!customElements.get('product-card-small')) {
       this.classList.remove('is-loading');
     }
     addCart(e) {
+      console.log(e);
+
       if (e.target.name !== 'add') return;
       this.classList.add('is-loading');
       this.addToCart(e, e.target.dataset.id);
