@@ -345,6 +345,7 @@ if (!customElements.get('product-card-small')) {
   class ProductCardSmall extends HTMLElement {
     constructor() {
       super();
+      console.log(1);
 
       this.quick_add_enabled = this.classList.contains('quick-add-to-card--true');
       this.button = this.querySelector('button');
@@ -361,6 +362,7 @@ if (!customElements.get('product-card-small')) {
       this.addToCart(e, e.target.dataset.id);
     }
     connectedCallback() {
+      console.log(2);
       if (this.quick_add_enabled) {
         this.setEventListeners();
       }
@@ -388,6 +390,8 @@ if (!customElements.get('product-card-small')) {
       ];
     }
     addToCart(e, productId) {
+      console.log(3);
+
       this.button.classList.add('loading');
       if (!this.quick_add_enabled) {
         // quick view
@@ -435,6 +439,8 @@ if (!customElements.get('product-card-small')) {
         });
     }
     renderContents(parsedState) {
+      console.log(4);
+
       this.getSectionsToRender().forEach(section => {
         if (!document.getElementById(section.id)) {
           return;
