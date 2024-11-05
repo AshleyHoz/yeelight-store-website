@@ -1021,9 +1021,14 @@ class ProductRecommendations extends HTMLElement {
       })
       .catch(e => {
         console.error(e);
+      })
+      .finally(() => {
+        console.log(3);
+        this.classList.remove('is-loading');
       });
   }
   connectedCallback() {
+    this.classList.add('is-loading');
     this.fetchProducts();
   }
 }

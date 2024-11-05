@@ -5404,11 +5404,6 @@ input[type='radio'],
   position: relative;
 }
 
-.slide-panel-drawer-wrapper .complementary-products--list {
-  background: var(--color-product-bg);
-  z-index: 2;
-}
-
 .slide-panel-drawer-wrapper .product-card-small {
   width: 100%;
   display: flex;
@@ -5824,9 +5819,7 @@ input[type='radio'],
   top: 0;
   left: 50%;
   transform: translate(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: none;
   z-index: 1;
 }
 .complementary-loading-overlay svg {
@@ -5836,6 +5829,12 @@ input[type='radio'],
 
 .complementary-loading-overlay svg circle {
   stroke: #000000;
+}
+
+.complementary-products.is-loading .complementary-loading-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 767px) {

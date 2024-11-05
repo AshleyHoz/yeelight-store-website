@@ -338,16 +338,14 @@
                 {% if recommendations.performed and recommendations.products_count > 0 %}
                   <div class="complementary-products--heading">{{ 'general.cart_drawer.you_may_also_like' | t }}</div>
                   <div class="complementary-products--inner">
-                    <div class="complementary-products--list">
-                      {% for recommendation in recommendations.products %}
-                        {% render 'product-card-small', product_small: recommendation %}
-                      {% endfor %}
-                    </div>
-                    <div class="complementary-loading-overlay">
-                      {% render 'svg-icons' with 'thb-loading' %}
-                    </div>
+                    {% for recommendation in recommendations.products %}
+                      {% render 'product-card-small', product_small: recommendation %}
+                    {% endfor %}
                   </div>
                 {% endif %}
+                <div class="complementary-loading-overlay">
+                  {% render 'svg-icons' with 'thb-loading' %}
+                </div>
               </product-recommendations>
             {%- endif -%}
           </div>
