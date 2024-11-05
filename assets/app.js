@@ -368,6 +368,8 @@ if (!customElements.get('product-card-small')) {
       }
     }
     setEventListeners() {
+      console.log(5);
+
       this.button.addEventListener('click', this.addToCart.bind(this));
     }
     getSectionsToRender() {
@@ -541,6 +543,8 @@ class CartDrawer {
 
     // Add functionality to buttons
     button?.addEventListener('click', e => {
+      console.log('aaa');
+
       e.preventDefault();
       document.body.classList.add('open-cc');
       this.container.classList.add('active');
