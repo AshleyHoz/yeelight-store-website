@@ -89,22 +89,24 @@
             </span>
           {% endif %}
         </div>
-        <button
-          type="submit"
-          name="add"
-          id="AddToCart"
-          class="single-add-to-cart-button button accent  single-add-to-cart-halloween"
-          data-product="{{product_small}}"
-          data-id="{{product_small.selected_or_first_available_variant.id}}"
-          data-product-id="{{product_small.selected_or_first_available_variant.id}}"
-          onclick="addCart"
-        >
-          {{ 'products.product.add_to_cart' | t }}
-        </button>
+        <div class="btn-add">
+          <button
+            type="submit"
+            name="add"
+            id="AddToCart"
+            class="single-add-to-cart-button button accent  single-add-to-cart-halloween"
+            data-product="{{product_small}}"
+            data-id="{{product_small.selected_or_first_available_variant.id}}"
+            data-product-id="{{product_small.selected_or_first_available_variant.id}}"
+            onclick="addCart"
+          >
+            {{ 'products.product.add_to_cart' | t }}
+          </button>
+          <div class="loading-overlay">
+            {% render 'svg-icons' with 'thb-loading' %}
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="loading-overlay">
-    {% render 'svg-icons' with 'thb-loading' %}
   </div>
 </product-card-small>
