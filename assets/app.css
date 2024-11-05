@@ -5825,7 +5825,7 @@ input[type='radio'],
   height: 33px;
 }
 
-.slide-panel-drawer-wrapper--right .complementary-loading-overlay svg path {
+.slide-panel-drawer-wrapper--right .complementary-loading-overlay svg circle {
   stroke: #000000;
   fill: #000000;
 }
