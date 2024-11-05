@@ -328,6 +328,7 @@
             </div>
           {%- endif -%}
         </div>
+        {{ cart.items.size }}
         {% if cart.items.size > 0 %}
           <div class="slide-panel-drawer-wrapper--right">
             {%- if settings.cart_recommendations and cart != empty -%}
