@@ -3984,16 +3984,23 @@ input[type='submit'].accent {
   background: rgba(255, 255, 255, 0.15);
   color: #2c2d2e;
 }
+
 .button.accent .spinner-path,
 input[type='submit'].accent .spinner-path {
   stroke: var(--bg-body);
 }
+
 @media screen and (hover: hover) {
   .button.accent:hover,
   input[type='submit'].accent:hover {
     border: 1px solid #fff;
     background: #000000;
     color: #ffffff;
+  }
+
+  .button.accent .spinner-path:hover,
+  input[type='submit'].accent .spinner-path:hover {
+    stroke: #ffffff;
   }
 }
 .button[disabled],
