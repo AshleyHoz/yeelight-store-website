@@ -3977,30 +3977,23 @@ input[type='submit'].white {
     color: var(--white-button-label, var(--color-body, #2c2d2e));
   }
 }
-.button.accent {
-  border: 1px solid #fff;
-  background: rgba(255, 255, 255, 0.15);
-  color: #2c2d2e;
-}
 
 .button.accent,
 input[type='submit'].accent {
-  background: var(--color-accent);
-  color: var(--solid-button-label, #fff);
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.15);
+  color: #2c2d2e;
 }
 .button.accent .spinner-path,
 input[type='submit'].accent .spinner-path {
   stroke: var(--bg-body);
 }
 @media screen and (hover: hover) {
-  .button.accent:hover {
+  .button.accent:hover,
+  input[type='submit'].accent:hover {
     border: none;
     background: #000000;
     color: #ffffff;
-  }
-  .button.accent:hover,
-  input[type='submit'].accent:hover {
-    background: var(--color-accent-hover, var(--color-accent));
   }
 }
 .button[disabled],
@@ -5835,9 +5828,9 @@ input[type='radio'],
 }
 
 .section-theme-white .button.accent {
-  border: none;
-  background: #000000;
-  color: #ffffff;
+  border: 1px solid #000000;
+  background: rgba(255, 255, 255, 0.15);
+  color: #2c2d2e;
 }
 
 .section-activity-halloween .button.accent {
@@ -5847,9 +5840,9 @@ input[type='radio'],
 }
 @media screen and (hover: hover) {
   .section-theme-white .button.accent:hover {
-    border: 1px solid #fff;
-    background: rgba(255, 255, 255, 0.15);
-    color: #2c2d2e;
+    border: none;
+    background: #000000;
+    color: #ffffff;
   }
 
   .section-activity-halloween .button.accent:hover {
