@@ -5320,7 +5320,8 @@ input[type='radio'],
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
-.cart-drawer .button.accent.checkout {
+.cart-drawer .button.accent.checkout,
+.cart-drawer .button.accent.checkout:hover {
   border: none;
   color: #fff;
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
