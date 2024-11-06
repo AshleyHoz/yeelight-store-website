@@ -5782,6 +5782,11 @@ input[type='radio'],
   position: relative;
 }
 
+.product-card-small .product-card-small--info-cart-price .loading-overlay {
+  background: #000000;
+  border: 1px solid transparent;
+}
+
 .section-activity-halloween .product-card-small .product-card-small--info-cart-price .loading-overlay {
   display: none;
   position: absolute;
