@@ -31,7 +31,7 @@
         {% comment %} {%- endif -%} {% endcomment %}
       </div>
     {%- endif -%}
-    {%- if !settings.halloween_flag and !settings.black_friday_flag -%}
+    {%- if settings.halloween_flag == false and settings.black_friday_flag == false -%}
       <div class="badge-content">
         {% comment %} {%- if settings.sale_badge_type == 'sale' -%} {% endcomment %}
         <div class="badge-title">Save</div>
