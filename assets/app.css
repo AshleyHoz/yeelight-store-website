@@ -5848,37 +5848,48 @@ input[type='radio'],
   justify-content: center;
 }
 
-.section-theme-white .button.accent {
+.section-theme-white .button.accent,
+.section-theme-white input[type='submit'].accent {
   border: 1px solid #000000;
   background: rgba(255, 255, 255, 0.15);
   color: #2c2d2e;
 }
 
-.section-activity-halloween .button.accent {
+.section-activity-halloween .button.accent,
+.section-theme-white input[type='submit'].accent {
   border: 1px solid #fe772d;
   background: rgba(254, 119, 45, 0.1);
   color: #fe772d;
 }
 
-.section-activity-black-friday .button.accent {
+.section-activity-black-friday .button.accent,
+.section-theme-white input[type='submit'].accent {
   border: 1px solid #fe2b39;
   background: rgba(254, 43, 57, 0.1);
   color: #fe2b39;
 }
+
+.section-activity-black-friday .button.accent .spinner-path,
+.section-activity-black-friday input[type='submit'].accent .spinner-path {
+  stroke: #fe2b39;
+}
 @media screen and (hover: hover) {
-  .section-theme-white .button.accent:hover {
+  .section-theme-white .button.accent:hover,
+  .section-theme-white input[type='submit'].accent:hover {
     border: 1px solid transparent;
     background: #000000;
     color: #ffffff;
   }
 
-  .section-activity-halloween .button.accent:hover {
+  .section-activity-halloween .button.accent:hover,
+  .section-activity-halloween input[type='submit'].accent:hover  {
     border: 1px solid transparent;
     background: #fe772d;
     color: #ffffff;
   }
 
-  .section-activity-black-friday .button.accent:hover {
+  .section-activity-black-friday .button.accent:hover,
+  .section-activity-black-friday input[type='submit'].accent:hover  {
     border: 1px solid transparent;
     background: #fe2b39;
     color: #ffffff;
