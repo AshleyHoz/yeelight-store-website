@@ -540,6 +540,7 @@
 .product-card--add-to-cart-button.button.accent:hover,
 .product-card--add-to-cart-button-wrapper a.button.accent:hover {
   background: #000000;
+  border: 1px solid #ffffff;
 }
 
 .product-card--add-to-cart-button-wrapper {
