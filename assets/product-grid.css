@@ -531,6 +531,11 @@
 .product-card--add-to-cart-button.loading .spinner {
   opacity: 1;
 }
+
+.product-card--add-to-cart-button.loading .spinner .spinner-path {
+  stroke: #ffffff;
+}
+
 .product-card--add-to-cart-button.loading .product-card--add-to-cart-text {
   opacity: 0;
 }
