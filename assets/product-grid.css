@@ -210,7 +210,7 @@
   display: flex;
   align-items: center;
 }
-.product-card .product-card-view {
+.product-card .product-opt-wrapper .product-card-view {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -232,7 +232,7 @@
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%), rgba(255, 255, 255, 0.1);
 }
 
-.product-opt-wrapper-black_friday .product-card-view {
+.section-activity-black-friday .product-card .product-opt-wrapper .product-card-view {
   background: #fe2b39;
 }
 /* .product-card .product-card-view::before {
@@ -342,14 +342,14 @@
   background: linear-gradient(339deg, #fbb120 -23.62%, #ef2e79 43.84%, #c52284 61.35%, #5d05a1 100.48%), #d9d9d9;
 }
 .section-activity-halloween .product-card .badge,
-.product-card .badge-black_friday {
+.section-activity-black-friday .product-card .badge {
   background: transparent;
   border-radius: unset;
 }
 
 .section-activity-halloween .product-card .badge .halloween-shop-badge,
 .section-activity-halloween .product-card .badge .halloween-shop-badge-mobile,
-.product-card .badge-black_friday .black-friday-shop-badge {
+.section-activity-black-friday .product-card .badge .black-friday-shop-badge {
   position: absolute;
   top: 0;
   left: 0;
@@ -366,11 +366,11 @@
   z-index: 2;
 }
 
-.product-card .badge-black_friday .badge-content {
+.section-activity-black-friday .product-card .badge .badge-content {
   display: none;
 }
 
-.product-card .badge-black_friday .black-friday-badge-content {
+.section-activity-black-friday .product-card .badge .black-friday-badge-content {
   display: block;
   z-index: 2;
 }
@@ -401,7 +401,7 @@
   color: #000000;
 }
 
-.product-card .badge-black_friday .badge-title {
+.section-activity-black-friday .product-card .badge .badge-title {
   color: #0d0a1d;
   text-align: center;
   font-size: 16px;
@@ -409,7 +409,7 @@
   line-height: 16px;
 }
 
-.product-card .badge-black_friday .badge-percent {
+.section-activity-black-friday .product-card .badge .badge-percent {
   color: #fe2b39;
   text-align: center;
   font-size: 14px;
