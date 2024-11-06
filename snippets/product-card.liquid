@@ -182,7 +182,7 @@
         </a>
       </div>
     </div>
-    <div class="product-opt-wrapper {% if settings.halloween_flag %}product-opt-wrapper-halloween{% endif %}">
+    <div class="product-opt-wrapper {% if settings.halloween_flag %}product-opt-wrapper-halloween{% endif %} {% if settings.black_friday_flag %}product-opt-wrapper-black_friday{% endif %}">
       {%- if settings.enable_quick_add -%}
         {%- liquid
           assign button_tag = 'button'

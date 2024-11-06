@@ -231,6 +231,10 @@
   overflow: hidden;
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%), rgba(255, 255, 255, 0.1);
 }
+
+.product-opt-wrapper-black_friday .product-card-view {
+  background: #fe2b39;
+}
 /* .product-card .product-card-view::before {
   content: '';
   position: absolute;
