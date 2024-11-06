@@ -341,7 +341,8 @@
   border-radius: 0px 0px 100px 100px;
   background: linear-gradient(339deg, #fbb120 -23.62%, #ef2e79 43.84%, #c52284 61.35%, #5d05a1 100.48%), #d9d9d9;
 }
-.product-card .badge-halloween {
+.product-card .badge-halloween,
+.product-card .badge-black_friday {
   background: transparent;
   border-radius: unset;
 }
@@ -384,10 +385,28 @@
 .product-card .badge-halloween .badge-title {
   line-height: 12px;
 }
+
 .product-card .badge-halloween .badge-title,
 .product-card .badge-halloween .badge-percent {
   color: #000000;
 }
+
+.product-card .badge-black_friday .badge-title {
+  color: #0d0a1d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.product-card .badge-black_friday .badge-percent {
+  color: #fe2b39;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
 .product-card .badge.bottom {
   bottom: calc(var(--badge-offset, 0px) + 7px);
 }
@@ -1014,22 +1033,6 @@
   .product-card .badge-halloween .badge-title,
   .product-card .badge-halloween .badge-percent {
     color: #000000;
-  }
-
-  .product-card .badge-black_friday .badge-title {
-    color: #0d0a1d;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 16px;
-  }
-
-  .product-card .badge-halloween .badge-percent {
-    color: #fe2b39;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 14px;
   }
 
   .product-card-cover {
