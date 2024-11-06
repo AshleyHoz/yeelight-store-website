@@ -5337,7 +5337,8 @@ input[type='radio'],
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
 }
 
-.section-activity-black-friday .button.accent.checkout {
+.section-activity-black-friday .button.accent.checkout,
+.section-activity-black-friday .button.accent.checkout:hover {
   background: #fe2b39;
 }
 
@@ -5794,6 +5795,7 @@ input[type='radio'],
 }
 
 .product-card-small .product-card-small--info-cart-price .loading-overlay {
+  display: none;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -5805,8 +5807,11 @@ input[type='radio'],
 }
 
 .section-activity-halloween .product-card-small .product-card-small--info-cart-price .loading-overlay {
-  display: none;
   background: #fe772d;
+}
+
+.section-activity-black-friday .product-card-small .product-card-small--info-cart-price .loading-overlay {
+  background: #fe2b39;
 }
 
 .product-card-small.is-loading .product-card-small--info-cart-price .loading-overlay {
