@@ -5332,9 +5332,13 @@ input[type='radio'],
 
 .cart-drawer .button.accent.checkout,
 .cart-drawer .button.accent.checkout:hover {
-  border: none;
+  border: 1px solid transparent;
   color: #fff;
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
+}
+
+.section-activity-black-friday .button.accent.checkout {
+  background: #fe2b39;
 }
 
 .section-theme-white,
@@ -5850,6 +5854,12 @@ input[type='radio'],
   background: rgba(254, 119, 45, 0.1);
   color: #fe772d;
 }
+
+.section-activity-black-friday .button.accent {
+  border: 1px solid #fe2b39;
+  background: rgba(254, 43, 57, 0.1);
+  color: #fe2b39;
+}
 @media screen and (hover: hover) {
   .section-theme-white .button.accent:hover {
     border: 1px solid transparent;
@@ -5860,6 +5870,12 @@ input[type='radio'],
   .section-activity-halloween .button.accent:hover {
     background: #fe772d;
     color: #ffffff;
+  }
+
+  .section-activity-black-friday .button.accent:hover {
+    border: 1px solid transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: #ffffff;
   }
 }
 
