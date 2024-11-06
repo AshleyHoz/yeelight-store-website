@@ -30,8 +30,7 @@
         <div class="badge-percent">OFF</div>
         {% comment %} {%- endif -%} {% endcomment %}
       </div>
-    {%- endif -%}
-    {%- if settings.halloween_flag == false and settings.black_friday_flag == false -%}
+    {%- else -%}
       <div class="badge-content">
         {% comment %} {%- if settings.sale_badge_type == 'sale' -%} {% endcomment %}
         <div class="badge-title">Save</div>
