@@ -505,6 +505,7 @@
   border-radius: 14px;
   margin-top: 0 !important;
   background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid #ffffff;
 }
 .product-opt-wrapper-halloween .product-card--add-to-cart-button,
 .product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a {
@@ -1013,6 +1014,22 @@
   .product-card .badge-halloween .badge-title,
   .product-card .badge-halloween .badge-percent {
     color: #000000;
+  }
+
+  .product-card .badge-black_friday .badge-title {
+    color: #0d0a1d;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+  }
+
+  .product-card .badge-halloween .badge-percent {
+    color: #fe2b39;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
   }
 
   .product-card-cover {
