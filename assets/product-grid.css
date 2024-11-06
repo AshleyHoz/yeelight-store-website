@@ -211,6 +211,7 @@
   align-items: center;
 }
 .product-card .product-card-view {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,7 +224,7 @@
   text-transform: capitalize;
   border-radius: 14px;
   /* background: rgba(255, 255, 255, 0.2); */
-  margin: 0 20px 20px;
+  /* margin: 0 20px 20px; */
   cursor: pointer;
   /* transition: background 0.5s ease; */
   position: relative;
