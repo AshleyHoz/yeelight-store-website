@@ -348,7 +348,8 @@
 }
 
 .product-card .badge-halloween .halloween-shop-badge,
-.product-card .badge-halloween .halloween-shop-badge-mobile {
+.product-card .badge-halloween .halloween-shop-badge-mobile,
+.product-card .badge-black_friday .black-friday-shop-badge {
   position: absolute;
   top: 0;
   left: 0;

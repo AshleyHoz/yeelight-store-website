@@ -18,7 +18,9 @@
       </span>
     {%- endif -%}
     {%- if settings.black_friday_flag -%}
-      {%- render 'svg-icons-friday' with 'custom-friday-badge' -%}
+      <span class="black-friday-shop-badge">
+        {%- render 'svg-icons-friday' with 'custom-friday-badge' -%}
+      </span>
     {%- endif -%}
     <div class="badge-content">
       {% comment %} {%- if settings.sale_badge_type == 'sale' -%} {% endcomment %}
