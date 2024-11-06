@@ -3991,7 +3991,7 @@ input[type='submit'].accent .spinner-path {
 @media screen and (hover: hover) {
   .button.accent:hover,
   input[type='submit'].accent:hover {
-    border: none;
+    border: 1px solid #fff;
     background: #000000;
     color: #ffffff;
   }
@@ -5840,7 +5840,7 @@ input[type='radio'],
 }
 @media screen and (hover: hover) {
   .section-theme-white .button.accent:hover {
-    border: none;
+    border: 1px solid transparent;
     background: #000000;
     color: #ffffff;
   }
