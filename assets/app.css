@@ -5882,17 +5882,22 @@ input[type='radio'],
   }
 
   .section-activity-halloween .button.accent:hover,
-  .section-activity-halloween input[type='submit'].accent:hover  {
+  .section-activity-halloween input[type='submit'].accent:hover {
     border: 1px solid transparent;
     background: #fe772d;
     color: #ffffff;
   }
 
   .section-activity-black-friday .button.accent:hover,
-  .section-activity-black-friday input[type='submit'].accent:hover  {
+  .section-activity-black-friday input[type='submit'].accent:hover {
     border: 1px solid transparent;
     background: #fe2b39;
     color: #ffffff;
+  }
+
+  .section-activity-black-friday .button.accent .spinner-path:hover,
+  .section-activity-black-friday input[type='submit'].accent .spinner-path:hover {
+    stroke: #ffffff;
   }
 }
 
