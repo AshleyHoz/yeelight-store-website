@@ -366,6 +366,15 @@
   z-index: 2;
 }
 
+.product-card .badge-black_friday .badge-content {
+  display: none;
+}
+
+.product-card .badge-black_friday .black-friday-badge-content {
+  display: block;
+  z-index: 2;
+}
+
 .product-card .badge .badge-title {
   color: #fff;
   text-align: center;

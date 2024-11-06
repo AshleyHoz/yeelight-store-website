@@ -31,6 +31,15 @@
       </div>
       {% comment %} {%- endif -%} {% endcomment %}
     </div>
+    <div class="black-friday-badge-content">
+      {% comment %} {%- if settings.sale_badge_type == 'sale' -%} {% endcomment %}
+      <div class="badge-title">
+        {{ 'products.product.save_html' | t: saved_amount: saved_amount }}
+      </div>
+      {% comment %} {%- else -%} {% endcomment %}
+      <div class="badge-percent">OFF</div>
+      {% comment %} {%- endif -%} {% endcomment %}
+    </div>
   </div>
 {%- endif -%}
 {%- if product_card_product.metafields.theme.preorder and product_card_product.available -%}
