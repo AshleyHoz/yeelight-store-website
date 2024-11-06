@@ -526,8 +526,8 @@
 .product-card-quickview.loading .loading-overlay {
   opacity: 1;
 }
-.product-card--add-to-cart-button,
-.product-card--add-to-cart-button-wrapper a {
+.product-card--add-to-cart-button.button.accent,
+.product-card--add-to-cart-button-wrapper a.button.accent {
   font-size: 0.8125rem;
   width: 75px;
   height: 50px;

@@ -5868,14 +5868,15 @@ input[type='radio'],
   }
 
   .section-activity-halloween .button.accent:hover {
+    border: 1px solid transparent;
     background: #fe772d;
     color: #ffffff;
   }
 
   .section-activity-black-friday .button.accent:hover {
     border: 1px solid transparent;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background: #ffffff;
+    background: #fe2b39;
+    color: #ffffff;
   }
 }
 
