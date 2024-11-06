@@ -533,7 +533,7 @@
   height: 50px;
   border-radius: 14px;
   margin-top: 0 !important;
-  background: rgba(255, 255, 255, 0.15) !important;
+  background: rgba(255, 255, 255, 0.15);
   border: 1px solid #ffffff;
 }
 
