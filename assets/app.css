@@ -3998,8 +3998,8 @@ input[type='submit'].accent .spinner-path {
     color: #ffffff;
   }
 
-  .button.accent .spinner-path:hover,
-  input[type='submit'].accent .spinner-path:hover {
+  .button.accent:hover .spinner-path,
+  input[type='submit'].accent:hover .spinner-path {
     stroke: #ffffff;
   }
 }
