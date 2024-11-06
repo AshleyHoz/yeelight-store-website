@@ -184,7 +184,7 @@
   border-radius: 25px;
   position: relative;
 }
-.product-card-halloween {
+.section-activity-halloween .product-card {
   background: rgba(0, 0, 0, 0.4);
 }
 .carousel .product-card {
@@ -341,14 +341,14 @@
   border-radius: 0px 0px 100px 100px;
   background: linear-gradient(339deg, #fbb120 -23.62%, #ef2e79 43.84%, #c52284 61.35%, #5d05a1 100.48%), #d9d9d9;
 }
-.product-card .badge-halloween,
+.section-activity-halloween .product-card .badge,
 .product-card .badge-black_friday {
   background: transparent;
   border-radius: unset;
 }
 
-.product-card .badge-halloween .halloween-shop-badge,
-.product-card .badge-halloween .halloween-shop-badge-mobile,
+.section-activity-halloween .product-card .badge .halloween-shop-badge,
+.section-activity-halloween .product-card .badge .halloween-shop-badge-mobile,
 .product-card .badge-black_friday .black-friday-shop-badge {
   position: absolute;
   top: 0;
@@ -358,7 +358,7 @@
   z-index: 1;
 }
 
-.product-card .badge-halloween .halloween-shop-badge-mobile {
+.section-activity-halloween .product-card .badge .halloween-shop-badge-mobile {
   display: none;
 }
 
@@ -392,12 +392,12 @@
   text-transform: capitalize;
 }
 
-.product-card .badge-halloween .badge-title {
+.section-activity-halloween .product-card .badge .badge-title {
   line-height: 12px;
 }
 
-.product-card .badge-halloween .badge-title,
-.product-card .badge-halloween .badge-percent {
+.section-activity-halloween .product-card .badge .badge-title,
+.section-activity-halloween .product-card .badge .badge-percent {
   color: #000000;
 }
 
@@ -536,16 +536,6 @@
   background: rgba(255, 255, 255, 0.15) !important;
   border: 1px solid #ffffff;
 }
-.product-opt-wrapper-halloween .product-card--add-to-cart-button,
-.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a {
-  border: 1px solid #fe772d;
-  background: rgba(254, 119, 45, 0.1) !important;
-}
-
-.product-opt-wrapper-halloween .product-card--add-to-cart-button:hover,
-.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a:hover {
-  background: #ff4800 !important;
-}
 
 .product-card--add-to-cart-button-wrapper {
   margin-top: 0;
@@ -591,22 +581,41 @@
 .product-card--add-to-cart-button-wrapper a .ic-cart {
   display: flex;
 }
-.product-opt-wrapper-halloween .product-card--add-to-cart-button .ic-cart,
-.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a .ic-cart {
+.section-activity-halloween .product-card .product-opt-wrapper .product-card--add-to-cart-button .ic-cart,
+.section-activity-halloween .product-card .product-opt-wrapper .product-card--add-to-cart-button-wrapper a .ic-cart {
   display: none;
 }
 
-.product-opt-wrapper-halloween .product-card--add-to-cart-button .ic-cart-halloween,
-.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a .ic-cart-halloween {
+.section-activity-halloween .product-card .product-opt-wrapper .product-card--add-to-cart-button .ic-cart-halloween,
+.section-activity-halloween
+  .product-card
+  .product-opt-wrapper
+  .product-card--add-to-cart-button-wrapper
+  a
+  .ic-cart-halloween {
   display: flex;
 }
 
-.product-opt-wrapper-halloween .product-card--add-to-cart-button:hover .ic-cart,
-.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a:hover .ic-cart {
+.section-activity-halloween .product-card .product-opt-wrapper .product-card--add-to-cart-button:hover .ic-cart,
+.section-activity-halloween
+  .product-card
+  .product-opt-wrapper
+  .product-card--add-to-cart-button-wrapper
+  a:hover
+  .ic-cart {
   display: flex;
 }
-.product-opt-wrapper-halloween .product-card--add-to-cart-button:hover .ic-cart-halloween,
-.product-opt-wrapper-halloween .product-card--add-to-cart-button-wrapper a:hover .ic-cart-halloween {
+.section-activity-halloween
+  .product-card
+  .product-opt-wrapper
+  .product-card--add-to-cart-button:hover
+  .ic-cart-halloween,
+.section-activity-halloween
+  .product-card
+  .product-opt-wrapper
+  .product-card--add-to-cart-button-wrapper
+  a:hover
+  .ic-cart-halloween {
   display: none;
 }
 
@@ -857,7 +866,7 @@
   width: calc(25% - 20px);
 }
 
-.product-card .product-opt-wrapper-halloween {
+.section-activity-halloween .product-card .product-opt-wrapper {
   padding: 0 16px 16px;
 }
 
@@ -940,7 +949,7 @@
     position: relative;
   }
 
-  .product-card-halloween {
+  .section-activity-halloween .product-card {
     background: rgba(0, 0, 0, 0.4);
   }
 
@@ -1004,17 +1013,17 @@
     background: linear-gradient(339deg, #fbb120 -23.62%, #ef2e79 43.84%, #c52284 61.35%, #5d05a1 100.48%), #d9d9d9;
   }
 
-  .product-card .badge-halloween {
+  .section-activity-halloween .product-card .badge {
     background: transparent;
     border-radius: unset;
     width: 45px;
   }
 
-  .product-card .badge-halloween .halloween-shop-badge-mobile {
+  .section-activity-halloween .product-card .badge .halloween-shop-badge-mobile {
     display: block;
   }
 
-  .product-card .badge-halloween .halloween-shop-badge {
+  .section-activity-halloween .product-card .badge .halloween-shop-badge {
     display: none;
   }
 
@@ -1036,12 +1045,12 @@
     text-transform: capitalize;
   }
 
-  .product-card .badge-halloween .badge-title {
+  .section-activity-halloween .product-card .badge .badge-title {
     line-height: 12px;
   }
 
-  .product-card .badge-halloween .badge-title,
-  .product-card .badge-halloween .badge-percent {
+  .section-activity-halloween .product-card .badge .badge-title,
+  .section-activity-halloween .product-card .badge .badge-percent {
     color: #000000;
   }
 
@@ -1056,7 +1065,7 @@
     width: calc(50% - 6px);
   }
 
-  .product-card .product-opt-wrapper-halloween {
+  .section-activity-halloween .product-card .product-opt-wrapper {
     padding: 0 12px 12px;
   }
 

@@ -2489,26 +2489,12 @@ h6,
   opacity: 0.2;
 }
 
-.product-form .single-add-to-cart-halloween {
+.section-activity-halloween .single-add-to-cart-halloween {
   border-radius: 25px;
-  border: 1px solid #fe772d;
-  background: rgba(254, 119, 45, 0.1);
   text-align: center;
   font-size: 15px;
   font-weight: 500;
   line-height: 15px;
-}
-
-.product-form .single-add-to-cart-button--text {
-  color: #fe772d;
-}
-
-.product-form .single-add-to-cart-button:hover {
-  background: #fe772d;
-}
-
-.product-form .single-add-to-cart-button:hover .single-add-to-cart-button--text {
-  color: #ffffff;
 }
 
 @media only screen and (max-width: 767px) {

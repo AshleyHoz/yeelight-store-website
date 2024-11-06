@@ -76,7 +76,7 @@
               type="submit"
               name="add"
               id="AddToCartSticky"
-              class="single-add-to-cart-button button accent {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %} {% if settings.halloween_flag %} single-add-to-cart-halloween{% endif %}"
+              class="single-add-to-cart-button button accent {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %} {% if settings.halloween_flag %}single-add-to-cart-halloween{% endif %}"
               {% if product.selected_or_first_available_variant.available == false %}
                 disabled
               {% endif %}
