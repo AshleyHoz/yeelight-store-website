@@ -5895,8 +5895,8 @@ input[type='radio'],
     color: #ffffff;
   }
 
-  .section-activity-black-friday .button.accent .spinner-path:hover,
-  .section-activity-black-friday input[type='submit'].accent .spinner-path:hover {
+  .section-activity-black-friday .button.accent:hover .spinner-path,
+  .section-activity-black-friday input[type='submit'].accent:hover .spinner-path {
     stroke: #ffffff;
   }
 }
