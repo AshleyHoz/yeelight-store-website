@@ -2392,6 +2392,10 @@ h6,
   overflow: visible;
 }
 
+.product-add-to-cart-bar > div {
+  width: 33.33%;
+}
+
 .section-activity-black-friday .product-add-to-cart-bar {
   background: #130f29;
 }
