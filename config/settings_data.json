@@ -78,7 +78,7 @@
     "email_terms_conditions_enable": true,
     "lazy_loading": false,
     "favicon": "shopify://shop_images/Fun_favicon.png",
-    "halloween_flag": true,
+    "halloween_flag": false,
     "black_friday_flag": false,
     "product_opposite_theme": true,
     "product_background": "#ffffff",
