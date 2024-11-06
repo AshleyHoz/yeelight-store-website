@@ -51,17 +51,17 @@
   text-underline-offset: 3px;
 }
 
-.section-breadcrumbs-white {
+.section-theme-white {
   width: 100%;
   background: var(--color-product-bg);
 }
 
-.section-breadcrumbs-white .breadcrumbs,
-.section-breadcrumbs-white .breadcrumbs a {
+.section-theme-white .breadcrumbs,
+.section-theme-white .breadcrumbs a {
   color: var(--color-product-font);
 }
 
-.section-breadcrumbs-white scroll-shadow {
+.section-theme-white scroll-shadow {
   display: inline-block;
   /* width: 100%; */
   --scroll-shadow-size: 20;
