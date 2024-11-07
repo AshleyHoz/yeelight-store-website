@@ -2447,8 +2447,7 @@ h6,
 .product-add-to-cart-bar .product-add-to-cart-bar--info .product-info--icon {
   position: absolute;
   top: -150%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 30%;
   animation: rotate 2s linear infinite;
 }
 
