@@ -2401,7 +2401,7 @@ h6,
 }
 
 .product-add-to-cart-bar--container.row {
-  max-width: 1440px;
+  max-width: 1440px !important;
 }
 
 .product-add-to-cart-bar--container > div {
@@ -2414,7 +2414,7 @@ h6,
 
 .product-add-to-cart-bar .product-add-to-cart-bar--icon span {
   position: absolute;
-  bottom: -50px;
+  bottom: -40px;
   left: 0;
 }
 
