@@ -2418,6 +2418,10 @@ h6,
 
 .product-add-to-cart-bar--container > div {
   width: 33.33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--icon {
@@ -2426,17 +2430,18 @@ h6,
 
 .product-add-to-cart-bar .product-add-to-cart-bar--icon span {
   position: absolute;
-  bottom: -40px;
+  bottom: 0;
   left: 50%;
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info {
-  /* text-align: center; */
+  overflow: hidden;
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info .product-info--price {
   position: relative;
   z-index: 1;
+  width: 100%;
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info .product-info--icon {
