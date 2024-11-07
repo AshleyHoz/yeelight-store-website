@@ -2420,7 +2420,18 @@ h6,
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info {
   text-align: center;
+}
+
+.product-add-to-cart-bar .product-add-to-cart-bar--info .product-info--price {
   position: relative;
+  z-index: 1;
+}
+
+.product-add-to-cart-bar .product-add-to-cart-bar--info .product-info--icon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info .price {
@@ -2428,6 +2439,8 @@ h6,
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  z-index: 2;
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info .price .custom-amount-ins {
@@ -2449,13 +2462,6 @@ h6,
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info .price .badges {
   display: none;
-}
-
-.product-add-to-cart-bar .product-add-to-cart-bar--info .product-info--icon {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .section-theme-white,

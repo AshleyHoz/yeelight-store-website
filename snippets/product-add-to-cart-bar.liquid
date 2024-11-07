@@ -6,13 +6,12 @@
       {% endif %}
     </div>
     <div class="product-add-to-cart-bar--info">
-      {% if settings.black_friday_flag %}
-        <span class="product-info--icon">
-          <span class="spinner">{%- render 'svg-icons-friday' with 'custom-friday-sale' -%}</span>
-        </span>
-      {% endif %}
-
-      <div class="no-js-hidden" id="price-{{ section.id }}">
+      <div class="product-info--price no-js-hidden" id="price-{{ section.id }}">
+        {% if settings.black_friday_flag %}
+          <span class="product-info--icon">
+            <span class="spinner">{%- render 'svg-icons-friday' with 'custom-friday-light' -%}</span>
+          </span>
+        {% endif %}
         {% render 'product-price', product: product, use_variant: true, show_badges: true %}
       </div>
     </div>
