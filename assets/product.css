@@ -2386,18 +2386,21 @@ h6,
   height: 80px;
   background: #2c2d2e;
   z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: visible;
-}
-
-.product-add-to-cart-bar > div {
-  width: 33.33%;
 }
 
 .section-activity-black-friday .product-add-to-cart-bar {
   background: #130f29;
+}
+
+.product-add-to-cart-bar--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-add-to-cart-bar--container > div {
+  width: 33.33%;
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--icon {

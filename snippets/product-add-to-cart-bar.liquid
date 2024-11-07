@@ -1,47 +1,49 @@
-<product-add-to-cart-bar class="product-add-to-cart-bar no-js-hidden row" data-section="{{ section.id }}">
-  <div class="product-add-to-cart-bar--icon">
-    {% if settings.black_friday_flag %}
-      <span class="plus">{%- render 'svg-icons-friday' with 'custom-friday-sale' -%}</span>
-    {% endif %}
-  </div>
-  <div class="product-add-to-cart-bar--info">
-    <div class="no-js-hidden" id="price-{{ section.id }}">
-      {% render 'product-price', product: product, use_variant: true, show_badges: true %}
+<product-add-to-cart-bar class="product-add-to-cart-bar no-js-hidden" data-section="{{ section.id }}">
+  <div class="product-add-to-cart-bar--container row">
+    <div class="product-add-to-cart-bar--icon">
+      {% if settings.black_friday_flag %}
+        <span class="plus">{%- render 'svg-icons-friday' with 'custom-friday-sale' -%}</span>
+      {% endif %}
     </div>
-  </div>
-  <div class="product-add-to-cart-bar--buttons">
-    <div class="form-notification error" style="display:none;"></div>
-    <div class="add_to_cart_holder{% if show_dynamic_checkout %} add_to_cart_holder--multi{%- endif -%}">
-      <button
-        type="submit"
-        name="add"
-        id="AddToCart"
-        class="single-add-to-cart-button button accent {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %} {% if settings.halloween_flag %}single-add-to-cart-halloween{% endif %}"
-        {% if product.selected_or_first_available_variant.available == false %}
-          disabled
-        {% endif %}
-      >
-        <span class="single-add-to-cart-button--text">
-          {%- liquid
-            if product.selected_or_first_available_variant.available == false
-              assign button_content = 'products.product.sold_out' | t
-            else
-              if product_template == 'pre-order'
-                assign button_content = 'products.product.pre_order' | t
+    <div class="product-add-to-cart-bar--info">
+      <div class="no-js-hidden" id="price-{{ section.id }}">
+        {% render 'product-price', product: product, use_variant: true, show_badges: true %}
+      </div>
+    </div>
+    <div class="product-add-to-cart-bar--buttons">
+      <div class="form-notification error" style="display:none;"></div>
+      <div class="add_to_cart_holder{% if show_dynamic_checkout %} add_to_cart_holder--multi{%- endif -%}">
+        <button
+          type="submit"
+          name="add"
+          id="AddToCart"
+          class="single-add-to-cart-button button accent {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %} {% if settings.halloween_flag %}single-add-to-cart-halloween{% endif %}"
+          {% if product.selected_or_first_available_variant.available == false %}
+            disabled
+          {% endif %}
+        >
+          <span class="single-add-to-cart-button--text">
+            {%- liquid
+              if product.selected_or_first_available_variant.available == false
+                assign button_content = 'products.product.sold_out' | t
               else
-                assign button_content = 'products.product.add_to_cart' | t
+                if product_template == 'pre-order'
+                  assign button_content = 'products.product.pre_order' | t
+                else
+                  assign button_content = 'products.product.add_to_cart' | t
+                endif
               endif
-            endif
-          -%}
-          {{- button_content -}}
-        </span>
-        <span class="loading-overlay">
-          {% render 'svg-icons' with 'thb-loading' %}
-        </span>
-      </button>
-      {%- if show_dynamic_checkout -%}
-        {{ form | payment_button }}
-      {%- endif -%}
+            -%}
+            {{- button_content -}}
+          </span>
+          <span class="loading-overlay">
+            {% render 'svg-icons' with 'thb-loading' %}
+          </span>
+        </button>
+        {%- if show_dynamic_checkout -%}
+          {{ form | payment_button }}
+        {%- endif -%}
+      </div>
     </div>
   </div>
 </product-add-to-cart-bar>
