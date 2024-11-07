@@ -469,13 +469,13 @@
       is_disabled: is_disabled
     %}
   {% endcomment %}
-  {%
-    render 'product-add-to-cart-bar',
+  {% assign button_block = section.blocks | where: 'type', 'buy_buttons' %}
+  {% render 'product-add-to-cart-bar',
     product: product,
     form: form,
     is_disabled: is_disabled,
     product_form_id: product_form_id,
-    block: section.blocks | where: 'type', 'buy_buttons',
+    button_block: button_block,
     pickup: pickup
   %}
 {%- endif -%}
