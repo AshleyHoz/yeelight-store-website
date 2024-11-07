@@ -2401,6 +2401,7 @@ h6,
 
 .product-add-to-cart-bar--container.row {
   max-width: 1440px !important;
+  height: 100%;
 }
 
 .product-add-to-cart-bar--container > div {
@@ -2418,7 +2419,7 @@ h6,
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info .product-info--price {
@@ -2461,6 +2462,14 @@ h6,
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info .price .badges {
   display: none;
+}
+
+.product-add-to-cart-bar .product-add-to-cart-bar--buttons .add_to_cart_holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 0;
 }
 
 .section-theme-white,
