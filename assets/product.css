@@ -2449,6 +2449,16 @@ h6,
   top: -150%;
   left: 50%;
   transform: translateX(-50%);
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info .price {
