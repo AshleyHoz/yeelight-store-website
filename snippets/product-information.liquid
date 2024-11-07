@@ -469,7 +469,14 @@
       is_disabled: is_disabled
     %}
   {% endcomment %}
-  {% render 'product-add-to-cart-bar', product: product, form: form, is_disabled: is_disabled %}
+  {% render 'product-add-to-cart-bar',
+    product: product,
+    form: form,
+    is_disabled: is_disabled,
+    product_form_id: product_form_id,
+    block: block,
+    pickup: pickup
+  %}
 {%- endif -%}
 
 {{ sizing_popup }}
