@@ -2619,7 +2619,7 @@ h6,
   opacity: 0.2;
 }
 
-.section-activity-halloween .single-add-to-cart-halloween {
+.section-activity-halloween .product-add-to-cart-container .button.accent {
   border-radius: 25px;
   text-align: center;
   font-size: 15px;
