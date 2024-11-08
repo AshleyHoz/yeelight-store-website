@@ -2518,7 +2518,7 @@ h6,
   .product-add-to-cart-bar--buttons
   .add_to_cart_holder
   .button.accent:hover {
-  background: #000000;
+  background: transparent;
 }
 
 .section-theme-white,
