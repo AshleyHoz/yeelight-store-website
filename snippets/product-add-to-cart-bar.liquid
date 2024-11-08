@@ -16,69 +16,67 @@
       </div>
     </div>
     <div class="product-add-to-cart-bar--buttons">
+      {% render 'product-add-to-cart',
+        product: product,
+        form: form,
+        product_form_id: form_id,
+        block: button_block,
+        pickup: pickup,
+        sticky: 1
+      %}
       {% comment %}
-        {% render 'product-add-to-cart',
-          product: product,
-          form: form,
-          product_form_id: form_id,
-          block: button_block,
-          pickup: pickup,
-          sticky: 1
-        %}
-      {% endcomment %}
-      {%- if product != blank -%}
-        {%- liquid
-          assign product_template = product.template_suffix | escape
+        {%- if product != blank -%}
+          {%- liquid
+            assign product_template = product.template_suffix | escape
 
-          if product.metafields.theme.preorder and product.available
-            assign product_template = 'pre-order'
-          endif
-        -%}
-        <product-form
-          class="product-form"
-          data-sticky="1"
-          data-section="{{ section.id }}"
-          template="{{ product_template | escape }}"
-        >
-          <div class="product-form__error-message-wrapper form-notification error" role="alert" hidden>
-            {% render 'svg-icons' with 'thb-error' %}
-            <span class="product-form__error-message"></span>
-          </div>
-          <div class="product-add-to-cart-container">
-            <div class="form-notification error" style="display:none;"></div>
-            <div class="add_to_cart_holder">
-              <button
-                type="submit"
-                name="add"
-                id="AddToCartSticky"
-                class="single-add-to-cart-button button accent {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %}"
-                {% if product.selected_or_first_available_variant.available == false %}
-                  disabled
-                {% endif %}
-                form="{{ product_form_id }}"
-              >
-                <span class="single-add-to-cart-button--text">
-                  {%- liquid
-                    if product.selected_or_first_available_variant.available == false
-                      assign button_content = 'products.product.sold_out' | t
-                    else
-                      if product_template == 'pre-order'
-                        assign button_content = 'products.product.pre_order' | t
-                      else
-                        assign button_content = 'products.product.add_to_cart' | t
-                      endif
-                    endif
-                  -%}
-                  {{- button_content -}}
-                </span>
-                <span class="loading-overlay">
-                  {% render 'svg-icons' with 'thb-loading' %}
-                </span>
-              </button>
+            if product.metafields.theme.preorder and product.available
+              assign product_template = 'pre-order'
+            endif
+          -%}
+          <product-form
+            class="product-form"
+            data-sticky="1"
+            data-section="{{ section.id }}"
+            template="{{ product_template | escape }}"
+          >
+            <div class="product-form__error-message-wrapper form-notification error" role="alert" hidden>
+              {% render 'svg-icons' with 'thb-error' %}
+              <span class="product-form__error-message"></span>
             </div>
-          </div>
-        </product-form>
-        {% comment %}
+            <div class="product-add-to-cart-container">
+              <div class="form-notification error" style="display:none;"></div>
+              <div class="add_to_cart_holder">
+                <button
+                  type="submit"
+                  name="add"
+                  id="AddToCartSticky"
+                  class="single-add-to-cart-button button accent {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %}"
+                  {% if product.selected_or_first_available_variant.available == false %}
+                    disabled
+                  {% endif %}
+                  form="{{ product_form_id }}"
+                >
+                  <span class="single-add-to-cart-button--text">
+                    {%- liquid
+                      if product.selected_or_first_available_variant.available == false
+                        assign button_content = 'products.product.sold_out' | t
+                      else
+                        if product_template == 'pre-order'
+                          assign button_content = 'products.product.pre_order' | t
+                        else
+                          assign button_content = 'products.product.add_to_cart' | t
+                        endif
+                      endif
+                    -%}
+                    {{- button_content -}}
+                  </span>
+                  <span class="loading-overlay">
+                    {% render 'svg-icons' with 'thb-loading' %}
+                  </span>
+                </button>
+              </div>
+            </div>
+          </product-form>
           {%- liquid
             assign gift_card_recipient_feature_active = false
             if button_block.settings.show_gift_card_recipient and product.gift_card?
@@ -93,27 +91,27 @@
           1
           {%- if show_dynamic_checkout -%}
             2
-        {% endcomment %}
-        {{ form }}
-        {{ form | payment_button }}
-        <button type="submit" name="checkout" class="checkout-button button full accent" form="{{ product_form_id }}">
-          <span>{{ 'sections.cart.checkout' | t }}</span>
-        </button>
-        {% comment %} {%- endif -%} {% endcomment %}
-      {%- else -%}
-        <div class="product-form">
-          <div class="product-form__buttons form">
-            <button
-              type="submit"
-              name="add"
-              class="single_add_to_cart_button button sold-out"
-              disabled
-            >
-              <span class="single-add-to-cart-button--text">{{ 'products.product.sold_out' | t }}</span>
-            </button>
+            {{ form | payment_button }}
+          {%- endif -%}
+          {{ form }}
+          <button type="submit" name="checkout" class="checkout-button button full accent" form="{{ product_form_id }}">
+            <span>{{ 'sections.cart.checkout' | t }}</span>
+          </button>
+        {%- else -%}
+          <div class="product-form">
+            <div class="product-form__buttons form">
+              <button
+                type="submit"
+                name="add"
+                class="single_add_to_cart_button button sold-out"
+                disabled
+              >
+                <span class="single-add-to-cart-button--text">{{ 'products.product.sold_out' | t }}</span>
+              </button>
+            </div>
           </div>
-        </div>
-      {%- endif -%}
+        {%- endif -%}
+      {% endcomment %}
     </div>
   </div>
 </product-add-to-cart-bar>
