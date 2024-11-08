@@ -2449,7 +2449,7 @@ h6,
   position: absolute;
   top: -150%;
   left: 30%;
-  animation: rotate 4s linear infinite;
+  animation: rotate 8s linear infinite;
 }
 
 @keyframes rotate {
