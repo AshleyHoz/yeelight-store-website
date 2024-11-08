@@ -2589,6 +2589,10 @@ h6,
   color: rgba(0, 0, 0, 0.8);
 }
 
+.section-theme-white .product-add-to-cart-bar .shopify-payment-button .shopify-payment-button__more-options {
+  color: #ffffff;
+}
+
 .section-theme-white .price .custom-amount-del {
   color: rgba(0, 0, 0, 0.4);
 }
@@ -2635,6 +2639,21 @@ h6,
 
 @media only screen and (max-width: 767px) {
   .product-image-container scroll-shadow {
+    display: none;
+  }
+
+  .product-add-to-cart-bar {
+    height: 40px;
+  }
+
+  .product-add-to-cart-bar--container > div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .product-add-to-cart-bar .product-add-to-cart-bar--icon {
     display: none;
   }
 }
