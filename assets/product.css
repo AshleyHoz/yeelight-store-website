@@ -2399,10 +2399,12 @@ h6,
   z-index: 99;
   overflow: visible;
   transform: translateY(calc(100% + 50px));
+  transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
 .product-add-to-cart-bar.sticky--visible {
   transform: translateX(0%);
+  transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
 .section-activity-black-friday .product-add-to-cart-bar {
