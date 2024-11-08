@@ -1,0 +1,125 @@
+.acitivity-halloween {
+  position: relative;
+}
+
+.section-activity-halloween .acitivity-halloween {
+  background: #090538;
+}
+
+.acitivity-halloween-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #090538;
+}
+
+.acitivity-halloween-bg-icons {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.acitivity-halloween--img {
+  position: relative;
+  width: 100%;
+  max-width: 1750px;
+  z-index: 2;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.acitivity-halloween-bg-icons .ic-spider-left {
+  position: absolute;
+  left: 0;
+  bottom: 120px;
+}
+
+.acitivity-halloween-bg-icons .ic-spider-right {
+  position: absolute;
+  right: 0;
+  top: 650px;
+}
+
+.acitivity-halloween-bg-icons .ic-ghost {
+  position: absolute;
+  right: 0;
+  bottom: 200px;
+}
+
+.activity-products-row {
+  position: relative;
+  z-index: 2;
+  margin-top: -120px;
+}
+
+.acitivity-halloween--info {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.acitivity-halloween--img .mobile-cover-img,
+.acitivity-halloween--info .mobile-info-img {
+  display: none;
+}
+
+.acitivity-halloween--info .info-img,
+.acitivity-halloween--info .mobile-info-img {
+  width: 100%;
+  text-align: center;
+}
+
+.acitivity-halloween--info .info-img img,
+.acitivity-halloween--info .mobile-info-img img {
+  margin: 0 auto;
+}
+
+.acitivity-halloween--info .info-img img {
+  width: 60%;
+}
+
+.activity-products-row .acitivity-halloween--product {
+  gap: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.activity-products-row .acitivity-halloween--product .product-item {
+  width: calc(25% - 12px);
+}
+
+@media only screen and (max-width: 767px) {
+  .activity-products-row {
+    margin-top: 0;
+  }
+
+  .activity-products-row .acitivity-halloween--product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .activity-products-row .acitivity-halloween--product .product-item {
+    width: calc(50% - 6px);
+  }
+
+  .acitivity-halloween--info {
+    margin-top: 26px;
+  }
+
+  .acitivity-halloween--img .mobile-cover-img,
+  .acitivity-halloween--info .mobile-info-img {
+    display: block;
+  }
+
+  .acitivity-halloween--img .cover-img,
+  .acitivity-halloween--info .info-img,
+  .acitivity-halloween-bg-icons .ic-spider-left,
+  .acitivity-halloween-bg-icons .ic-spider-right,
+  .acitivity-halloween-bg-icons .ic-ghost {
+    display: none;
+  }
+}
