@@ -78,22 +78,28 @@
             </div>
           </div>
         </product-form>
-        {%- liquid
-          assign gift_card_recipient_feature_active = false
-          if button_block.settings.show_gift_card_recipient and product.gift_card?
-            assign gift_card_recipient_feature_active = true
-          endif
+        {% comment %}
+          {%- liquid
+            assign gift_card_recipient_feature_active = false
+            if button_block.settings.show_gift_card_recipient and product.gift_card?
+              assign gift_card_recipient_feature_active = true
+            endif
 
-          assign show_dynamic_checkout = false
-          if button_block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
-            assign show_dynamic_checkout = true
-          endif
-        -%}
-        1
-        {%- if show_dynamic_checkout -%}
-          2
-          {{ form | payment_button }}
-        {%- endif -%}
+            assign show_dynamic_checkout = false
+            if button_block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
+              assign show_dynamic_checkout = true
+            endif
+          -%}
+          1
+          {%- if show_dynamic_checkout -%}
+            2
+        {% endcomment %}
+        {{ form }}
+        {{ form | payment_button }}
+        <button type="submit" name="checkout" class="checkout-button button full accent" form="{{ product_form_id }}">
+          <span>{{ 'sections.cart.checkout' | t }}</span>
+        </button>
+        {% comment %} {%- endif -%} {% endcomment %}
       {%- else -%}
         <div class="product-form">
           <div class="product-form__buttons form">
