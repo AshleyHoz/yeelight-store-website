@@ -2646,8 +2646,12 @@ h6,
     height: auto;
   }
 
+  .product-add-to-cart-bar--container.row {
+    padding: 0;
+  }
+
   .product-add-to-cart-bar--container > div {
-    width: 50%;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -2656,6 +2660,11 @@ h6,
   .product-add-to-cart-bar .product-add-to-cart-bar--icon,
   .product-add-to-cart-bar .product-add-to-cart-bar--info .product-info--icon {
     display: none;
+  }
+
+  .product-add-to-cart-bar .product-add-to-cart-bar--info .price {
+    display: flex;
+    align-items: flex-start;
   }
 
   .product-add-to-cart-bar .product-add-to-cart-bar--info .price .custom-amount-ins {
