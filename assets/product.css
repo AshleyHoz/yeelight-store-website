@@ -2647,7 +2647,7 @@ h6,
   }
 
   .product-add-to-cart-bar--container.row {
-    padding: 0;
+    padding: 20px 16px;
   }
 
   .product-add-to-cart-bar--container > div {
@@ -2655,7 +2655,6 @@ h6,
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 16px;
   }
 
   .product-add-to-cart-bar .product-add-to-cart-bar--icon,
