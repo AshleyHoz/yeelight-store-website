@@ -2506,16 +2506,19 @@ h6,
   .product-add-to-cart-bar
   .product-add-to-cart-bar--buttons
   .add_to_cart_holder
-  .button.accent,
+  .button.accent {
+  border: 1px solid #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  width: 100%;
+}
+
 .section-activity-black-friday
   .product-add-to-cart-bar
   .product-add-to-cart-bar--buttons
   .add_to_cart_holder
   .button.accent:hover {
-  border: 1px solid #ffffff;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  width: 100%;
+  background: #000000;
 }
 
 .section-theme-white,
