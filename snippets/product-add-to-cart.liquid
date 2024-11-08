@@ -71,6 +71,14 @@
             </button>
             {%- if show_dynamic_checkout -%}
               {{ form | payment_button }}
+            {% else %}
+              <form method="post" action="/cart/add" id="product-form-{{ product.id }}" enctype="multipart/form-data">
+                <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+
+                <!-- 其他产品信息和选项 -->
+
+                <button type="submit" name="add" class="btn btn--full btn--primary">立即购买</button>
+              </form>
             {%- endif -%}
           </div>
         </div>
