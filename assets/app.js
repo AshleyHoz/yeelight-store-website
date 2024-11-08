@@ -345,7 +345,6 @@ if (!customElements.get('product-card-small')) {
   class ProductCardSmall extends HTMLElement {
     constructor() {
       super();
-      console.log(1);
 
       this.quick_add_enabled = this.classList.contains('quick-add-to-card--true');
       this.button = this.querySelector('button');
@@ -526,7 +525,6 @@ customElements.define('side-panel-close', PanelClose);
 class CartDrawer {
   constructor() {
     this.container = document.getElementById('Cart-Drawer');
-    console.log(2);
     if (!this.container) {
       return;
     }
@@ -534,8 +532,6 @@ class CartDrawer {
 
     // Add functionality to buttons
     button?.addEventListener('click', e => {
-      console.log('aaa');
-
       e.preventDefault();
       document.body.classList.add('open-cc');
       this.container.classList.add('active');
