@@ -1,4 +1,4 @@
-{{ 'acitivity-products.css' | asset_url | stylesheet_tag }}
+{{ 'acitivity-products-halloween.css' | asset_url | stylesheet_tag }}
 {{ 'product-grid.css' | asset_url | stylesheet_tag }}
 {%- liquid
   assign image = section.settings.image
@@ -7,9 +7,9 @@
   assign background_image_mobile = section.settings.background_image_mobile
 -%}
 
-<div class="acitivity-products">
-  <div class="acitivity-products-bg">
-    <div class="acitivity-products-bg-icons">
+<div class="acitivity-products-halloween">
+  <div class="acitivity-products-halloween-bg">
+    <div class="acitivity-products-halloween-bg-icons">
       <div class="ic-spider-left">
         {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-left' -%}
       </div>
@@ -21,7 +21,7 @@
       </div>
     </div>
   </div>
-  <div class="acitivity-products--img">
+  <div class="acitivity-products-halloween--img">
     <div class="mobile-cover-img">
       {%- if background_image_mobile -%}
         {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
@@ -34,14 +34,14 @@
     </div>
   </div>
   <div class="row activity-products-row">
-    <div class="acitivity-products--product">
+    <div class="acitivity-products-halloween--product">
       {% for block in section.blocks %}
         <div class="product-item">
           {% render 'product-card', product_card_product: block.settings.product %}
         </div>
       {% endfor %}
     </div>
-    <div class="acitivity-products--info">
+    <div class="acitivity-products-halloween--info">
       <div class="mobile-info-img">
         {%- if image_mobile -%}
           {%- render 'responsive-image', image: image_mobile, sizes: image_mobile.src.width | append: 'x' | append: image_mobile.src.height -%}
@@ -58,8 +58,8 @@
 
 {% schema %}
 {
-  "name": "Activity Products",
-  "class": "section-acitivity-products",
+  "name": "Activity Products Halloween",
+  "class": "section-acitivity-products-halloween",
   "settings": [
     {
       "type": "text",
@@ -127,7 +127,7 @@
   ],
   "presets": [
     {
-      "name": "Activity Products",
+      "name": "Products",
       "blocks": [
         {
           "type": "product"
