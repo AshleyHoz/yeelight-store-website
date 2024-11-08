@@ -89,7 +89,9 @@
             assign show_dynamic_checkout = true
           endif
         -%}
+        1
         {%- if show_dynamic_checkout -%}
+          2
           {{ form | payment_button }}
         {%- endif -%}
       {%- else -%}
