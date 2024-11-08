@@ -2449,7 +2449,7 @@ h6,
   position: absolute;
   top: -150%;
   left: 30%;
-  animation: rotate 1s linear infinite;
+  animation: rotate 4s linear infinite;
 }
 
 @keyframes rotate {
@@ -2653,7 +2653,8 @@ h6,
     justify-content: space-between;
   }
 
-  .product-add-to-cart-bar .product-add-to-cart-bar--icon {
+  .product-add-to-cart-bar .product-add-to-cart-bar--icon,
+  .product-add-to-cart-bar .product-add-to-cart-bar--info .product-info--icon {
     display: none;
   }
 
