@@ -470,7 +470,6 @@
     %}
   {% endcomment %}
   {% assign button_block = section.blocks | where: 'type', 'buy_buttons' %}
-  {{ button_block }}
   {% render 'product-add-to-cart-bar',
     product: product,
     form: form,
