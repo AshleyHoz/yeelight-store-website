@@ -243,7 +243,6 @@ if (!customElements.get('variant-selects')) {
 
     toggleAddButton(disable = true, text = false, modifyClass = true) {
       const productForm = document.getElementById(`product-form-${this.dataset.section}`);
-      console.log(productForm);
       if (!productForm) return;
 
       const productTemplate = productForm.closest('.product-form').getAttribute('template');
