@@ -995,60 +995,61 @@ if (!customElements.get('product-add-to-cart-sticky')) {
  *  @function ProductAddToCartSticky
  */
 if (!customElements.get('product-add-to-cart-bar')) {
-  class ProductAddToCartSticky extends HTMLElement {
+  class ProductAddToCartBar extends HTMLElement {
     constructor() {
       super();
+      console.log(123);
 
       this.animations_enabled = document.body.classList.contains('animations-true') && typeof gsap !== 'undefined';
     }
     connectedCallback() {
       this.setupObservers();
-      this.setupToggle();
+      // this.setupToggle();
     }
-    setupToggle() {
-      const button = this.querySelector('.product-add-to-cart-bar--inner'),
-        content = this.querySelector('.product-add-to-cart-bar--content');
+    // setupToggle() {
+    //   const button = this.querySelector('.product-add-to-cart-bar--inner'),
+    //     content = this.querySelector('.product-add-to-cart-bar--content');
 
-      if (this.animations_enabled) {
-        const tl = gsap.timeline({
-          reversed: true,
-          paused: true,
-          onStart: () => {
-            button.classList.add('bar-open');
-          },
-          onReverseComplete: () => {
-            button.classList.remove('bar-open');
-          },
-        });
+    //   if (this.animations_enabled) {
+    //     const tl = gsap.timeline({
+    //       reversed: true,
+    //       paused: true,
+    //       onStart: () => {
+    //         button.classList.add('bar-open');
+    //       },
+    //       onReverseComplete: () => {
+    //         button.classList.remove('bar-open');
+    //       },
+    //     });
 
-        tl.set(
-          content,
-          {
-            display: 'block',
-            height: 'auto',
-          },
-          'start'
-        ).from(
-          content,
-          {
-            height: 0,
-            duration: 0.25,
-          },
-          'start+=0.001'
-        );
+    //     tl.set(
+    //       content,
+    //       {
+    //         display: 'block',
+    //         height: 'auto',
+    //       },
+    //       'start'
+    //     ).from(
+    //       content,
+    //       {
+    //         height: 0,
+    //         duration: 0.25,
+    //       },
+    //       'start+=0.001'
+    //     );
 
-        button.addEventListener('click', function () {
-          tl.reversed() ? tl.play() : tl.reverse();
+    //     button.addEventListener('click', function () {
+    //       tl.reversed() ? tl.play() : tl.reverse();
 
-          return false;
-        });
-      } else {
-        button.addEventListener('click', function () {
-          content.classList.toggle('active');
-          return false;
-        });
-      }
-    }
+    //       return false;
+    //     });
+    //   } else {
+    //     button.addEventListener('click', function () {
+    //       content.classList.toggle('active');
+    //       return false;
+    //     });
+    //   }
+    // }
     setupObservers() {
       let _this = this,
         observer = new IntersectionObserver(
@@ -1086,7 +1087,7 @@ if (!customElements.get('product-add-to-cart-bar')) {
     }
   }
 
-  customElements.define('product-add-to-cart-bar', ProductAddToCartSticky);
+  customElements.define('product-add-to-cart-bar', ProductAddToCartBar);
 }
 
 /**

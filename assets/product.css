@@ -2398,6 +2398,11 @@ h6,
   background: #2c2d2e;
   z-index: 99;
   overflow: visible;
+  transform: translateY(calc(100% + 50px));
+}
+
+.product-add-to-cart-bar.sticky--visible {
+  transform: translateX(0%);
 }
 
 .section-activity-black-friday .product-add-to-cart-bar {
