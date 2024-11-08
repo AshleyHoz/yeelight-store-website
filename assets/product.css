@@ -2422,6 +2422,7 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--icon {
@@ -2496,6 +2497,11 @@ h6,
   justify-content: center;
   gap: 12px;
   margin-bottom: 0;
+}
+
+.product-add-to-cart-bar .product-add-to-cart-bar--buttons > product-form,
+.product-add-to-cart-bar .product-add-to-cart-bar--buttons > div {
+  width: 100%;
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--buttons > div .add_to_cart_holder .single-add-to-cart-button {
