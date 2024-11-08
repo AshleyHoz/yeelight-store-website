@@ -2398,7 +2398,6 @@ h6,
   background: #2c2d2e;
   z-index: 99;
   overflow: visible;
-  padding: 25px;
 }
 
 .section-activity-black-friday .product-add-to-cart-bar {
@@ -2409,6 +2408,8 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 25px;
+  overflow: hidden;
 }
 
 .product-add-to-cart-bar--container.row {
@@ -2431,12 +2432,12 @@ h6,
 
 .product-add-to-cart-bar .product-add-to-cart-bar--icon span {
   position: absolute;
-  bottom: 0;
+  bottom: -45px;
   left: 50%;
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info {
-  overflow: hidden;
+  overflow: visible;
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--info .product-info--price {
