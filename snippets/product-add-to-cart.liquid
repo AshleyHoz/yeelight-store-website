@@ -72,13 +72,8 @@
             {%- if show_dynamic_checkout -%}
               {{ form | payment_button }}
             {% else %}
-              <form method="post" action="/cart/add" id="product-form-{{ product.id }}" enctype="multipart/form-data">
-                <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-
-                <!-- 其他产品信息和选项 -->
-
-                <button type="submit" name="add" class="btn btn--full btn--primary">立即购买</button>
-              </form>
+              <!-- 立即购买按钮 -->
+              <button id="buy-now-button" class="buy-now-btn">立即购买</button>
             {%- endif -%}
           </div>
         </div>
@@ -121,3 +116,21 @@
   </pickup-availability>
   <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
+
+<script>
+  document.getElementById('buy-now-button').addEventListener('click', function () {
+    // 获取当前选中的变体 ID
+    var variantId = document.querySelector("input[name='id']").value;
+
+    // 确保变体 ID 存在
+    if (variantId) {
+      // 构建跳过购物车的直接结账链接
+      var checkoutUrl = '/cart/add?id=' + variantId + '&quantity=1&checkout=true';
+
+      // 跳转到结账页面
+      window.location.href = checkoutUrl;
+    } else {
+      alert('请选择产品选项'); // 提示用户选择产品选项（如果未选择）
+    }
+  });
+</script>
