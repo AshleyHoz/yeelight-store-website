@@ -64,7 +64,6 @@
     },
     "header-secondary-menu": {
       "type": "header-secondary-menu",
-      "disabled": true,
       "settings": {
         "secondary_menu": "",
         "show_language_switcher": false,
