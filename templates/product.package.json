@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -20,8 +20,7 @@
       "blocks": {
         "2b609eea-6cce-4efe-b447-c5560de1d797": {
           "type": "label",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -46,8 +45,7 @@
         },
         "separator_qJEjWC": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "biscuits_bundles_biscuits_bundle_form_xUiKWq": {
           "type": "shopify://apps/biscuits-bundles/blocks/biscuits-bundle-form/9e9ff1bd-2cba-468f-b59f-a1ff63f6efe9",
@@ -63,13 +61,13 @@
             "enable_product_links": false,
             "card_padding": 10,
             "grid_gap": 10,
-            "border_color": "#DADCE0",
+            "border_color": "#dadce0",
             "border_radius": 20,
             "highlight_type": "outline",
             "selected_text_color": "#2c2d2e",
-            "selected_color": "#DADCE0",
+            "selected_color": "#dadce0",
             "border_thickness": 1,
-            "divider_color": "#DADCE0",
+            "divider_color": "#dadce0",
             "important_color": "#1a1c1d",
             "padding_top": 6,
             "padding_bottom": 6,
@@ -93,8 +91,7 @@
         "quantity": {
           "type": "quantity",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -106,8 +103,7 @@
         "0b3e272b-c86a-4dba-946c-c6912251371c": {
           "type": "description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible_tab_d9RVkP": {
           "type": "collapsible_tab",
@@ -141,8 +137,7 @@
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
           "type": "share",
-          "settings": {
-          }
+          "settings": {}
         },
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
           "type": "complementary",
@@ -169,7 +164,7 @@
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34"
       ],
       "settings": {
-        "enable_sticky_add_to_cart": true,
+        "enable_sticky_add_to_cart": false,
         "show_taxes_included": true,
         "thumbnail_position": "left",
         "media_aspect_ratio": "adapt",
@@ -675,8 +670,7 @@
       "block_order": [
         "loox_reviews_loox_dynamic_section_c8aEVF"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
