@@ -543,6 +543,20 @@
   border: 1px solid #ffffff;
 }
 
+.section-activity-halloween .button.accent,
+.section-theme-white input[type='submit'].accent {
+  border: 1px solid #fe772d;
+  background: #fe772d1a;
+  color: #fe772d;
+}
+
+.section-activity-halloween .button.accent:hover,
+.section-activity-halloween input[type='submit'].accent:hover {
+  border: 1px solid transparent;
+  background: #fe772d;
+  color: #ffffff;
+}
+
 .product-card--add-to-cart-button-wrapper {
   margin-top: 0;
   margin-right: 10px;
