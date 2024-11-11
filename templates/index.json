@@ -491,7 +491,7 @@
             "icon": "none",
             "image": "shopify://shop_images/IconFree.png",
             "heading": "Free",
-            "subHeading": "Shipping",
+            "sub_heading": "Shipping",
             "text": "<p>Worldwide shipping</p>"
           }
         },
@@ -501,7 +501,7 @@
             "icon": "none",
             "image": "shopify://shop_images/IconCorn.png",
             "heading": "Reliable",
-            "subHeading": "Warranty",
+            "sub_heading": "Warranty",
             "text": "<p>Money Back Guarantee</p>"
           }
         },
@@ -511,7 +511,7 @@
             "icon": "none",
             "image": "shopify://shop_images/IconService.png",
             "heading": "Worry",
-            "subHeading": "Free return",
+            "sub_heading": "Free return",
             "text": "<p>Customer Support</p>"
           }
         },
@@ -521,7 +521,7 @@
             "icon": "none",
             "image": "shopify://shop_images/IconShield.png",
             "heading": "Lifetime",
-            "subHeading": "support",
+            "sub_heading": "support",
             "text": "<p>warranty</p>"
           }
         }

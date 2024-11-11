@@ -55,8 +55,8 @@
           {% if block.settings.heading != blank %}
             <div class="text-with-icons__block-content-title">{{ block.settings.heading }}</div>
           {% endif %}
-          {% if block.settings.subHeading != blank %}
-            <div class="text-with-icons__block-content-title">{{ block.settings.subHeading }}</div>
+          {% if block.settings.sub_heading != blank %}
+            <div class="text-with-icons__block-content-title">{{ block.settings.sub_heading }}</div>
           {% endif %}
           {% comment %}
             {% if block.settings.text != blank %}
@@ -413,9 +413,9 @@
         },
         {
           "type": "text",
-          "id": "subHeading",
-          "label": "subHeading",
-          "default": "subHeading"
+          "id": "sub_heading",
+          "label": "sub_heading",
+          "default": "sub_heading"
         },
         {
           "type": "richtext",
