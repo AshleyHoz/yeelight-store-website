@@ -83,7 +83,7 @@
       },
       "block_order": ["product_pQwwR6", "product_at8DW3", "product_LgUAQn", "product_PP6Egj"],
       "settings": {
-        "title": "black friday",
+        "title": "<p>black friday</p>",
         "halloween_hand_flag": false,
         "icon_position": ""
       }
@@ -118,7 +118,7 @@
       },
       "block_order": ["product_yCx7XQ", "product_Wt7qra", "product_yzg7TP", "product_WjbRMm"],
       "settings": {
-        "title": "black",
+        "title": "<p>black</p>",
         "halloween_hand_flag": false,
         "icon_position": ""
       }
@@ -186,7 +186,7 @@
         "product_pfcFFn"
       ],
       "settings": {
-        "title": "friday",
+        "title": "<p>friday</p>",
         "halloween_hand_flag": false,
         "icon_position": ""
       }
@@ -271,7 +271,7 @@
       "block_order": ["product_nmh8jV", "product_Qger9E", "product_wG8iCm", "product_BTfM4U"],
       "disabled": true,
       "settings": {
-        "title": "Transform the Outdoors for <span>Every Occasion</span>",
+        "title": "<p>Transform the Outdoors for <span>Every Occasion</span></p>",
         "image": "shopify://shop_images/TopicOutdoorHalloween.png",
         "image_mobile": "shopify://shop_images/TopicOutdoorHalloweenMobile.png",
         "reverse": "row",
