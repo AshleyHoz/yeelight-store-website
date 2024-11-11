@@ -65,6 +65,7 @@
 .shopify-payment-button {
   width: 100%;
   max-height: 50px;
+  position: relative;
 }
 .shopify-payment-button__button:not(.shopify-payment-button__button--branded) {
   display: inline-flex;
@@ -2642,6 +2643,41 @@ h6,
   font-size: 15px;
   font-weight: 500;
   line-height: 15px;
+}
+
+.section-activity-black-friday .shopify-payment-button .shopify-payment-button__more-options {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100%;
+  background: #fe2b39;
+  border-radius: 25px;
+  color: transparent !important;
+}
+
+.section-activity-black-friday .shopify-payment-button .shopify-payment-button__more-options::before {
+  content: 'Add to cart';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  cursor: pointer;
+  padding: 7px 30px;
+  font-size: 0.9375rem;
+  font-weight: var(--font-body-medium-weight, 500);
+  letter-spacing: var(--button-letter-spacing, 0.02em);
+  line-height: 15px;
+  border: 0;
+  border-radius: var(--button-border-radius, 6px);
+  text-align: center;
+  overflow: hidden;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: color 0.25s cubic-bezier(0.104, 0.204, 0.492, 1),
+    background-color 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
 @media only screen and (max-width: 767px) {
