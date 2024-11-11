@@ -9,21 +9,19 @@
 -%}
 
 <div class="activity-blackfriday">
-  {% comment %}
-    <div class="activity-blackfriday-bg">
-      <div class="activity-blackfriday-bg-icons">
-        <div class="ic-spider-left">
-          {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-left' -%}
-        </div>
-        <div class="ic-spider-right">
-          {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-right' -%}
-        </div>
-        <div class="ic-ghost">
-          {%- render 'svg-icons-halloween' with 'custom-halloween-ghost' -%}
-        </div>
+  <div class="activity-blackfriday-bg">
+    <div class="activity-blackfriday-bg-icons">
+      <div class="ic-spider-left">
+        {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-left' -%}
+      </div>
+      <div class="ic-spider-right">
+        {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-right' -%}
+      </div>
+      <div class="ic-ghost">
+        {%- render 'svg-icons-halloween' with 'custom-halloween-ghost' -%}
       </div>
     </div>
-  {% endcomment %}
+  </div>
   {% comment %}
     <div class="activity-blackfriday--img">
       <div class="mobile-cover-img">
@@ -92,6 +90,16 @@
       "id": "halloween_hand_flag",
       "default": false,
       "label": "Show Halloween Hand"
+    },
+    {
+      "type": "header",
+      "content": "Section index"
+    },
+    {
+      "type": "text",
+      "id": "icon_position",
+      "label": "Icon position",
+      "info": "Wrap your text."
     }
   ],
   "blocks": [

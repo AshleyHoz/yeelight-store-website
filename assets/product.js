@@ -735,16 +735,6 @@ if (!customElements.get('product-form')) {
     class ProductForm extends HTMLElement {
       constructor() {
         super();
-        // 确保DOM完全加载
-        // document.addEventListener('DOMContentLoaded', function () {
-        //   // 选择结账按钮并更改其样式
-        //   var checkoutButton = document.querySelector('.shopify-payment-button')[0];
-        //   if (checkoutButton) {
-        //     checkoutButton.style.backgroundColor = '#fe2b39'; // 更改背景颜色
-        //     checkoutButton.style.color = '#FFFFFF'; // 更改文本颜色
-        //     checkoutButton.style.borderColor = 'transparent'; // 更改边框颜色
-        //   }
-        // });
       }
       connectedCallback() {
         this.sticky = this.dataset.sticky;

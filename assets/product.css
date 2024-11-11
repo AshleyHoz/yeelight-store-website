@@ -96,9 +96,9 @@
   text-transform: uppercase;
 }
 
-.section-activity-black-friday .shopify-payment-button__button:not(.shopify-payment-button__button--branded) {
+/* .section-activity-black-friday .shopify-payment-button__button:not(.shopify-payment-button__button--branded) {
   background: #fe2b39;
-}
+} */
 @media screen and (hover: hover) {
   .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):hover,
   .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):focus {
@@ -107,12 +107,12 @@
     color: var(--solid-button-label, #fff);
   }
 
-  .section-activity-black-friday
+  /* .section-activity-black-friday
     .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):hover,
   .section-activity-black-friday
     .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):focus {
     background: #fe2b39;
-  }
+  } */
 }
 .shopify-payment-button__button.shopify-payment-button__button--branded .shopify-cleanslate div[role='button'] {
   display: inline-flex;
@@ -2647,13 +2647,13 @@ h6,
   line-height: 15px;
 }
 
-.section-activity-black-friday .shopify-payment-button .shopify-payment-button__more-options {
+.shopify-payment-button .shopify-payment-button__more-options {
   position: absolute;
   top: 0;
   left: 0;
   width: 100% !important;
   height: 100%;
-  background: #fe2b39;
+  background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
   border-radius: 25px;
   color: transparent !important;
   margin: 0 auto;

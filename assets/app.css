@@ -5807,9 +5807,9 @@ input[type='radio'],
   background: #fe772d;
 }
 
-.section-activity-black-friday .product-card-small .product-card-small--info-cart-price .loading-overlay {
+/* .section-activity-black-friday .product-card-small .product-card-small--info-cart-price .loading-overlay {
   background: #fe2b39;
-}
+} */
 
 .product-card-small.is-loading .product-card-small--info-cart-price .loading-overlay {
   display: flex;
@@ -5853,14 +5853,14 @@ input[type='radio'],
 }
 
 .section-activity-halloween .button.accent,
-.section-theme-white input[type='submit'].accent {
+.section-activity-halloween .section-theme-white input[type='submit'].accent {
   border: 1px solid #fe772d;
   background: rgba(254, 119, 45, 0.1);
   color: #fe772d;
 }
 
-.section-activity-black-friday .button.accent,
-.section-theme-white input[type='submit'].accent {
+/* .section-activity-black-friday .button.accent,
+.section-activity-black-friday .section-theme-white input[type='submit'].accent {
   border: 1px solid #fe2b39;
   background: rgba(254, 43, 57, 0.1);
   color: #fe2b39;
@@ -5877,7 +5877,7 @@ input[type='radio'],
 .section-activity-black-friday .thb-cart-form .button.accent.checkout-button:hover {
   background: #fe2b39;
   color: #ffffff;
-}
+} */
 
 @media screen and (hover: hover) {
   .section-theme-white .button.accent:hover,
@@ -5894,7 +5894,7 @@ input[type='radio'],
     color: #ffffff;
   }
 
-  .section-activity-black-friday .button.accent:hover,
+  /* .section-activity-black-friday .button.accent:hover,
   .section-activity-black-friday input[type='submit'].accent:hover {
     border: 1px solid transparent;
     background: #fe2b39;
@@ -5904,7 +5904,7 @@ input[type='radio'],
   .section-activity-black-friday .button.accent:hover .spinner-path,
   .section-activity-black-friday input[type='submit'].accent:hover .spinner-path {
     stroke: #ffffff;
-  }
+  } */
 }
 
 @media only screen and (max-width: 767px) {
