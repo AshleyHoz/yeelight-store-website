@@ -12,8 +12,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "image_with_text_overlay_EHXcMN": {
       "type": "image-with-text-overlay",
@@ -26,9 +25,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_GeKdfB"
-      ],
+      "block_order": ["heading_GeKdfB"],
       "settings": {
         "image": "shopify://shop_images/TopicBackground-1.png",
         "image_parallax": false,
@@ -73,12 +70,7 @@
           }
         }
       },
-      "block_order": [
-        "product_nmh8jV",
-        "product_Qger9E",
-        "product_wG8iCm",
-        "product_BTfM4U"
-      ],
+      "block_order": ["product_nmh8jV", "product_Qger9E", "product_wG8iCm", "product_BTfM4U"],
       "settings": {
         "title": "Illuminate Your Villa with <span>Brilliance</span>",
         "image": "shopify://shop_images/OverseasRedesign.png",
@@ -144,11 +136,8 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_video_slider_cyaCJt"
-      ],
-      "settings": {
-      }
+      "block_order": ["loox_reviews_loox_video_slider_cyaCJt"],
+      "settings": {}
     },
     "collapsible_content_W8TzMd": {
       "type": "collapsible-content",
@@ -299,16 +288,8 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconFree.png",
             "heading": "Free",
+            "subHeading": "Shipping",
             "text": "<p>Worldwide shipping</p>"
-          }
-        },
-        "icon_GGAFrM": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify://shop_images/IconShield.png",
-            "heading": "30 Day",
-            "text": "<p>Money Back Guarantee</p>"
           }
         },
         "icon_UmKN3b": {
@@ -316,7 +297,8 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify://shop_images/IconCorn.png",
-            "heading": "Lifetime",
+            "heading": "Worry",
+            "subHeading": "Free return",,
             "text": "<p>Customer Support</p>"
           }
         },
@@ -325,17 +307,23 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify://shop_images/IconService.png",
-            "heading": "1 Year",
+            "heading": "Lifetime",
+            "subHeading": "support",
             "text": "<p>warranty</p>"
+          }
+        },
+        "icon_GGAFrM": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/IconShield.png",
+            "heading": "Reliable",
+            "subHeading": "Warranty",
+            "text": "<p>Money Back Guarantee</p>"
           }
         }
       },
-      "block_order": [
-        "icon_839NiY",
-        "icon_GGAFrM",
-        "icon_UmKN3b",
-        "icon_tf9XBa"
-      ],
+      "block_order": ["icon_839NiY", "icon_GGAFrM", "icon_UmKN3b", "icon_tf9XBa"],
       "settings": {
         "heading": "Why Choose Us",
         "text_alignment": "center",

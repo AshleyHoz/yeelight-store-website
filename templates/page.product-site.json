@@ -269,16 +269,8 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconFree.png",
             "heading": "Free",
+            "subHeading": "Shipping",
             "text": "<p>Worldwide shipping</p>"
-          }
-        },
-        "icon_GGAFrM": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify://shop_images/IconShield.png",
-            "heading": "30 Day",
-            "text": "<p>Money Back Guarantee</p>"
           }
         },
         "icon_UmKN3b": {
@@ -286,7 +278,8 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify://shop_images/IconCorn.png",
-            "heading": "Lifetime",
+            "heading": "Worry",
+            "subHeading": "Free return",,
             "text": "<p>Customer Support</p>"
           }
         },
@@ -295,8 +288,19 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify://shop_images/IconService.png",
-            "heading": "1 Year",
+            "heading": "Lifetime",
+            "subHeading": "support",
             "text": "<p>warranty</p>"
+          }
+        },
+        "icon_GGAFrM": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/IconShield.png",
+            "heading": "Reliable",
+            "subHeading": "Warranty",
+            "text": "<p>Money Back Guarantee</p>"
           }
         }
       },

@@ -55,9 +55,14 @@
           {% if block.settings.heading != blank %}
             <div class="text-with-icons__block-content-title">{{ block.settings.heading }}</div>
           {% endif %}
-          {% if block.settings.text != blank %}
-            {{ block.settings.text }}
+          {% if block.settings.subHeading != blank %}
+            <div class="text-with-icons__block-content-title">{{ block.settings.subHeading }}</div>
           {% endif %}
+          {% comment %}
+            {% if block.settings.text != blank %}
+              {{ block.settings.text }}
+            {% endif %}
+          {% endcomment %}
         </div>
       </div>
     {% endfor %}
@@ -405,6 +410,12 @@
           "id": "heading",
           "label": "Heading",
           "default": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "subHeading",
+          "label": "subHeading",
+          "default": "subHeading"
         },
         {
           "type": "richtext",

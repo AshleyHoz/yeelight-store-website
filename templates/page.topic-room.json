@@ -1,19 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "image_with_text_overlay_EHXcMN": {
       "type": "image-with-text-overlay",
@@ -26,9 +25,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_GeKdfB"
-      ],
+      "block_order": ["heading_GeKdfB"],
       "settings": {
         "image": "shopify://shop_images/TopicBannerRoom.jpg",
         "mobile_image": "shopify://shop_images/TopicBannerMobileRoom.jpg",
@@ -74,12 +71,7 @@
           }
         }
       },
-      "block_order": [
-        "product_nmh8jV",
-        "product_Qger9E",
-        "product_wG8iCm",
-        "product_BTfM4U"
-      ],
+      "block_order": ["product_nmh8jV", "product_Qger9E", "product_wG8iCm", "product_BTfM4U"],
       "settings": {
         "title": "Elevate the Indoors in Every Moment",
         "image": "shopify://shop_images/TopicProductBannerRoom.jpg",
@@ -116,9 +108,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_fkRMKm"
-      ],
+      "block_order": ["heading_fkRMKm"],
       "disabled": true,
       "settings": {
         "text_width": "medium",
@@ -157,12 +147,9 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_video_slider_cyaCJt"
-      ],
+      "block_order": ["loox_reviews_loox_video_slider_cyaCJt"],
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "media_with_tabs_dVM767": {
       "type": "media-with-tabs",
@@ -222,14 +209,7 @@
           }
         }
       },
-      "block_order": [
-        "badge_tRYgzk",
-        "heading_G98kFA",
-        "text_NLDnb7",
-        "tab_iAjBpe",
-        "tab_CYQ3rn",
-        "tab_a8dTgJ"
-      ],
+      "block_order": ["badge_tRYgzk", "heading_G98kFA", "text_NLDnb7", "tab_iAjBpe", "tab_CYQ3rn", "tab_a8dTgJ"],
       "disabled": true,
       "settings": {
         "heading": "Quick installation method",
@@ -325,16 +305,8 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconFree.png",
             "heading": "Free",
+            "subHeading": "Shipping",
             "text": "<p>Worldwide shipping</p>"
-          }
-        },
-        "icon_GGAFrM": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify://shop_images/IconShield.png",
-            "heading": "30 Day",
-            "text": "<p>Money Back Guarantee</p>"
           }
         },
         "icon_UmKN3b": {
@@ -342,7 +314,8 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify://shop_images/IconCorn.png",
-            "heading": "Lifetime",
+            "heading": "Worry",
+            "subHeading": "Free return",,
             "text": "<p>Customer Support</p>"
           }
         },
@@ -351,17 +324,23 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify://shop_images/IconService.png",
-            "heading": "1 Year",
+            "heading": "Lifetime",
+            "subHeading": "support",
             "text": "<p>warranty</p>"
+          }
+        },
+        "icon_GGAFrM": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/IconShield.png",
+            "heading": "Reliable",
+            "subHeading": "Warranty",
+            "text": "<p>Money Back Guarantee</p>"
           }
         }
       },
-      "block_order": [
-        "icon_839NiY",
-        "icon_GGAFrM",
-        "icon_UmKN3b",
-        "icon_tf9XBa"
-      ],
+      "block_order": ["icon_839NiY", "icon_GGAFrM", "icon_UmKN3b", "icon_tf9XBa"],
       "settings": {
         "heading": "Why Choose Us",
         "text_alignment": "center",
