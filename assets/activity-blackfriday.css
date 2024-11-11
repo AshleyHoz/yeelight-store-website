@@ -1,10 +1,7 @@
 .activity-blackfriday {
   position: relative;
   padding: 70px 0;
-}
-
-.section-activity-halloween .activity-blackfriday {
-  background: #090538;
+  background: #100a29;
 }
 
 .activity-blackfriday-bg {
@@ -14,7 +11,7 @@
   top: 0;
   left: 0;
   z-index: 1;
-  background: #090538;
+  background: #100a29;
 }
 
 .activity-blackfriday-bg-icons {
@@ -30,24 +27,6 @@
   z-index: 2;
   margin: 0 auto;
   padding-top: 20px;
-}
-
-.activity-blackfriday-bg-icons .ic-spider-left {
-  position: absolute;
-  left: 0;
-  bottom: 120px;
-}
-
-.activity-blackfriday-bg-icons .ic-spider-right {
-  position: absolute;
-  right: 0;
-  top: 650px;
-}
-
-.activity-blackfriday-bg-icons .ic-ghost {
-  position: absolute;
-  right: 0;
-  bottom: 200px;
 }
 
 .activity-blackfriday-row {
@@ -122,9 +101,8 @@
 
   .activity-blackfriday--img .cover-img,
   .activity-blackfriday--info .info-img,
-  .activity-blackfriday-bg-icons .ic-spider-left,
-  .activity-blackfriday-bg-icons .ic-spider-right,
-  .activity-blackfriday-bg-icons .ic-ghost {
+  .activity-blackfriday-bg-icons .ic-bg-left,
+  .activity-blackfriday-bg-icons .ic-bg-right {
     display: none;
   }
 }
