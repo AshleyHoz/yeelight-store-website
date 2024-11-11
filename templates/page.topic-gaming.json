@@ -25,7 +25,9 @@
           }
         }
       },
-      "block_order": ["heading_GeKdfB"],
+      "block_order": [
+        "heading_GeKdfB"
+      ],
       "settings": {
         "image": "shopify://shop_images/TopicBannerGame.jpg",
         "mobile_image": "shopify://shop_images/TopicBannerMobileGame.jpg",
@@ -71,7 +73,12 @@
           }
         }
       },
-      "block_order": ["product_nmh8jV", "product_Qger9E", "product_wG8iCm", "product_BTfM4U"],
+      "block_order": [
+        "product_nmh8jV",
+        "product_Qger9E",
+        "product_wG8iCm",
+        "product_BTfM4U"
+      ],
       "settings": {
         "title": "<p><span>Power Your Play</span> in Every Gaming World</p>",
         "image": "shopify://shop_images/TopicProductBannerGame01.jpg",
@@ -108,7 +115,12 @@
           }
         }
       },
-      "block_order": ["product_A7cKdJ", "product_3qYUbM", "product_jPfdJp", "product_8h8D8i"],
+      "block_order": [
+        "product_A7cKdJ",
+        "product_3qYUbM",
+        "product_jPfdJp",
+        "product_8h8D8i"
+      ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/TopicProductBannerGame02.jpg",
@@ -147,7 +159,9 @@
           }
         }
       },
-      "block_order": ["heading_fkRMKm"],
+      "block_order": [
+        "heading_fkRMKm"
+      ],
       "disabled": true,
       "settings": {
         "text_width": "medium",
@@ -186,7 +200,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_video_slider_cyaCJt"],
+      "block_order": [
+        "loox_reviews_loox_video_slider_cyaCJt"
+      ],
       "disabled": true,
       "settings": {}
     },
@@ -248,7 +264,14 @@
           }
         }
       },
-      "block_order": ["badge_tRYgzk", "heading_G98kFA", "text_NLDnb7", "tab_iAjBpe", "tab_CYQ3rn", "tab_a8dTgJ"],
+      "block_order": [
+        "badge_tRYgzk",
+        "heading_G98kFA",
+        "text_NLDnb7",
+        "tab_iAjBpe",
+        "tab_CYQ3rn",
+        "tab_a8dTgJ"
+      ],
       "disabled": true,
       "settings": {
         "heading": "Quick installation method",
@@ -344,7 +367,6 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconFree.png",
             "heading": "Free",
-            "sub_heading": "Shipping",
             "text": "<p>Worldwide shipping</p>"
           }
         },
@@ -354,7 +376,6 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconCorn.png",
             "heading": "Worry",
-            "sub_heading": "Free return",
             "text": "<p>Customer Support</p>"
           }
         },
@@ -364,7 +385,6 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconService.png",
             "heading": "Lifetime",
-            "sub_heading": "support",
             "text": "<p>warranty</p>"
           }
         },
@@ -374,12 +394,16 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconShield.png",
             "heading": "Reliable",
-            "sub_heading": "Warranty",
             "text": "<p>Money Back Guarantee</p>"
           }
         }
       },
-      "block_order": ["icon_839NiY", "icon_GGAFrM", "icon_UmKN3b", "icon_tf9XBa"],
+      "block_order": [
+        "icon_839NiY",
+        "icon_GGAFrM",
+        "icon_UmKN3b",
+        "icon_tf9XBa"
+      ],
       "settings": {
         "heading": "Why Choose Us",
         "text_alignment": "center",

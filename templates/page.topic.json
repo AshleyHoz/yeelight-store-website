@@ -585,7 +585,6 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconFree.png",
             "heading": "Free",
-            "sub_heading": "Shipping",
             "text": "<p>Worldwide shipping</p>"
           }
         },
@@ -595,7 +594,6 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconCorn.png",
             "heading": "Worry",
-            "sub_heading": "Free return",
             "text": "<p>Customer Support</p>"
           }
         },
@@ -605,7 +603,6 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconService.png",
             "heading": "Lifetime",
-            "sub_heading": "support",
             "text": "<p>warranty</p>"
           }
         },
@@ -615,7 +612,6 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconShield.png",
             "heading": "Reliable",
-            "sub_heading": "Warranty",
             "text": "<p>Money Back Guarantee</p>"
           }
         }

@@ -25,7 +25,9 @@
           }
         }
       },
-      "block_order": ["heading_GeKdfB"],
+      "block_order": [
+        "heading_GeKdfB"
+      ],
       "settings": {
         "image": "shopify://shop_images/TopicBackground-1.png",
         "image_parallax": false,
@@ -70,7 +72,12 @@
           }
         }
       },
-      "block_order": ["product_nmh8jV", "product_Qger9E", "product_wG8iCm", "product_BTfM4U"],
+      "block_order": [
+        "product_nmh8jV",
+        "product_Qger9E",
+        "product_wG8iCm",
+        "product_BTfM4U"
+      ],
       "settings": {
         "title": "<p>Illuminate Your Villa with <span>Brilliance</span></p>",
         "image": "shopify://shop_images/OverseasRedesign.png",
@@ -117,7 +124,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_video_slider_cyaCJt"],
+      "block_order": [
+        "loox_reviews_loox_video_slider_cyaCJt"
+      ],
       "settings": {}
     },
     "collapsible_content_W8TzMd": {
@@ -269,7 +278,6 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconFree.png",
             "heading": "Free",
-            "sub_heading": "Shipping",
             "text": "<p>Worldwide shipping</p>"
           }
         },
@@ -279,7 +287,6 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconCorn.png",
             "heading": "Worry",
-            "sub_heading": "Free return",
             "text": "<p>Customer Support</p>"
           }
         },
@@ -289,7 +296,6 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconService.png",
             "heading": "Lifetime",
-            "sub_heading": "support",
             "text": "<p>warranty</p>"
           }
         },
@@ -299,12 +305,16 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconShield.png",
             "heading": "Reliable",
-            "sub_heading": "Warranty",
             "text": "<p>Money Back Guarantee</p>"
           }
         }
       },
-      "block_order": ["icon_839NiY", "icon_GGAFrM", "icon_UmKN3b", "icon_tf9XBa"],
+      "block_order": [
+        "icon_839NiY",
+        "icon_GGAFrM",
+        "icon_UmKN3b",
+        "icon_tf9XBa"
+      ],
       "settings": {
         "heading": "Why Choose Us",
         "text_alignment": "center",
