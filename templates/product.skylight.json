@@ -1,0 +1,666 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "enable_opposite_theme": true
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "2b609eea-6cce-4efe-b447-c5560de1d797": {
+          "type": "label",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": false
+          }
+        },
+        "loox_reviews_loox_rating_9g3aA7": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "#2c2d2e",
+            "starColor": "#ff9529",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "separator_qJEjWC": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_use_variants": false,
+            "variant_is_disabled": true,
+            "sizing_guide_variant": "Size",
+            "sizing_guide_text": "",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "collapsible_tab_d9RVkP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "open": false,
+            "content": "<ul><li><strong>20+ Pre-Set Lighting Effects</strong></li></ul><p>Offer over 20 pre-set lighting effects to match any mood or occasion. Whether it's for movie nights, parties, or casual ambiance, the lights can easily transform your space.</p><ul><li><strong>Independent Controlled LEDs with 16 Million Colors</strong></li></ul><p>Create your own lighting designs by individually controlling LEDs on the strip. With access to 16 million colors, you can customize the ambiance for gaming, home theaters, or simple room decorations.</p><ul><li><strong>Smart App Control for Maximum Flexibility</strong></li></ul><p>Connect via Bluetooth to the Yeelight app to adjust colors and set dynamic effects. With smart control at your fingertips, you can switch between modes, dim the lights, or design your own dynamic scenes.</p><ul><li><strong>Music Flow for Enhanced Entertainment</strong></li></ul><p>Turn any room into an immersive space by syncing your <strong>LED strip lights</strong> with your favorite music. The lights respond to the beat in real-time, perfect for parties, gaming sessions, or setting the mood for movie marathons.</p><ul><li><strong>Discreet Installation for Seamless Integration</strong></li></ul><p>Easily install these strip lights behind TVs, cabinets, or along ceilings for a hidden, ambient lighting performance. The adhesive backing makes installation quick and hassle-free, blending seamlessly into your home.</p><ul><li><strong>Compatible with Yeelight Ecosystem</strong></li></ul><p>Integrate these RGBIC LED strip lights with other Yeelight products for a fully synchronized smart home experience. Whether combined with string lights or curtain lights, they enhance any occation setup.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "386f7e4a-6127-4141-928b-9cb4614ee18c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "open": false,
+            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA: 3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty",
+            "open": false,
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {}
+        },
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "product_list_limit": 3
+          }
+        },
+        "text_6AyHDe": {
+          "type": "text",
+          "settings": {
+            "text": "Product manual (PDF)",
+            "link": "https://cdn.shopify.com/s/files/1/0744/6849/1548/files/Manual-Yeelight_Basic_RGBIC_Strip_Light-6M.pdf?v=1729063280",
+            "text_type": "type_file",
+            "text_style": "style_vendor"
+          }
+        }
+      },
+      "block_order": [
+        "2b609eea-6cce-4efe-b447-c5560de1d797",
+        "title",
+        "loox_reviews_loox_rating_9g3aA7",
+        "separator_qJEjWC",
+        "variant_picker",
+        "quantity",
+        "buy_buttons",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "collapsible_tab_d9RVkP",
+        "386f7e4a-6127-4141-928b-9cb4614ee18c",
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34",
+        "text_6AyHDe"
+      ],
+      "settings": {
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "product_slideshow_ahQAiP": {
+      "type": "product-slideshow",
+      "blocks": {
+        "slide_Re8Uxn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AuroraStripBanner01.jpg",
+            "button_icon": "",
+            "button_text": "Living Room",
+            "mobile_image": "shopify://shop_images/AuroraStripBannerMobile01.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_Hyb3Yi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AuroraStripBanner02.jpg",
+            "button_icon": "",
+            "button_text": "Gaming Room",
+            "mobile_image": "shopify://shop_images/AuroraStripBannerMobile03.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_UqXJwU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AuroraStripBanner03.jpg",
+            "button_icon": "",
+            "button_text": "Bed Room",
+            "mobile_image": "shopify://shop_images/AuroraStripBannerMobile02.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_Re8Uxn",
+        "slide_Hyb3Yi",
+        "slide_UqXJwU"
+      ],
+      "settings": {
+        "title": "Yeelight <span>RGBIC LED</span> Basic Strip Lights",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "full_width": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "transition": "slide",
+        "controls": "dots",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "single_image_3kkr3Y": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/Basic_Light_Strip_PC_2.jpg",
+        "image_mobile": "shopify://shop_images/Basic_Light_Strip_Moblie_2.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_8Areip": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/Basic_Light_Strip_PC_3.jpg",
+        "image_mobile": "shopify://shop_images/Basic_Light_Strip_Moblie_4.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_bNVALU": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/Basic_Light_Strip_PC_4.jpg",
+        "image_mobile": "shopify://shop_images/Basic_Light_Strip_Moblie_3.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_YFNLfJ": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/Basic_Light_Strip_PC_5.jpg",
+        "image_mobile": "shopify://shop_images/Basic_Light_Strip_Moblie_6.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_UwbPnd": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/Basic_Light_Strip_PC_6.jpg",
+        "image_mobile": "shopify://shop_images/Basic_Light_Strip_Moblie_7.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_FC7Fnr": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/Basic_Light_Strip_PC_7.jpg",
+        "image_mobile": "shopify://shop_images/Basic_Light_Strip_Moblie_5.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_UpVXxB": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/Basic_Light_Strip_PC_8.jpg",
+        "image_mobile": "shopify://shop_images/Basic_Light_Strip_Moblie_8.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_6mPtPi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HR4q6J": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer Reviews",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HR4q6J"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1712003137212dc6f8": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_c8aEVF": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
+      "settings": {}
+    },
+    "single_image_N6MW93": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/basic-strip-install.jpg",
+        "image_mobile": "shopify://shop_images/Basic_Light_Strip_Moblie_10.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "video_qXUwNk": {
+      "type": "video",
+      "settings": {
+        "heading": "How to Use",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
+        "video": "https://youtu.be/LvgBNeMYv4o?si=6NDs5BOVvHb0swZ0",
+        "video_autoplay": false,
+        "aspect_ratio": "16-9",
+        "marker_color": "#fd6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false
+      }
+    },
+    "single_image_JH8XXF": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/Basic_Light_Strip_PC_10.jpg",
+        "image_mobile": "shopify://shop_images/Basic_Light_Strip_Moblie_9.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_WdwpPN": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/Basic_Light_Strip_PC_11.jpg",
+        "image_mobile": "shopify://shop_images/Basic_Light_Strip_Mobile_11.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "media_with_tabs_GFrrk4": {
+      "type": "media-with-tabs",
+      "blocks": {
+        "badge_BxbJGA": {
+          "type": "badge",
+          "settings": {
+            "text": "Badge heading",
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
+          }
+        },
+        "heading_CGGGA3": {
+          "type": "heading",
+          "settings": {
+            "text": "Media with tabs",
+            "heading_size": "h3"
+          }
+        },
+        "text_rcPdh9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        },
+        "tab_GfgtkE": {
+          "type": "tab",
+          "settings": {
+            "use_video": false,
+            "heading_icon": "ruler",
+            "heading": "Tab",
+            "description": "Add a short description for this tab",
+            "video_autoplay": true
+          }
+        },
+        "tab_bpHEwN": {
+          "type": "tab",
+          "settings": {
+            "use_video": false,
+            "heading_icon": "ruler",
+            "heading": "Tab",
+            "description": "Add a short description for this tab",
+            "video_autoplay": true
+          }
+        },
+        "tab_hBBVUP": {
+          "type": "tab",
+          "settings": {
+            "use_video": false,
+            "heading_icon": "ruler",
+            "heading": "Tab",
+            "description": "Add a short description for this tab",
+            "video_autoplay": true
+          }
+        }
+      },
+      "block_order": [
+        "badge_BxbJGA",
+        "heading_CGGGA3",
+        "text_rcPdh9",
+        "tab_GfgtkE",
+        "tab_bpHEwN",
+        "tab_hBBVUP"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "height": "adapt",
+        "desktop_layout": "image_first",
+        "color_bg": "#746461",
+        "color_text": "#ffffff",
+        "color_link": "#ffffff",
+        "color_border": "#827471",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "collapsible_content_DDeyr7": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_qFE4Vh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I control Yeelight LED Strip Lights?",
+            "open": false,
+            "content": "<p>It connects via Bluetooth and can be smartly controlled using the Yeelight APP. The control box also allows for simple operations like turning the lights on/off and switching lighting effects. However, please note that the lighting effects switched by the control box are not synchronized with the APP.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_eAdnkx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I customize the colors and effects of Yeelight LED Strip Lights?",
+            "open": false,
+            "content": "<p>Yes. The Yeelight APP includes over 20 preset lighting effects. Additionally, this light strip is RGBIC, with each chip controlling 6 LEDs, allowing for a high degree of customization.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_hw4iBC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Are Yeelight RGBIC LED Strip Lights easy to install?",
+            "open": false,
+            "content": "<p>This product is very easy to install. The light strip comes with adhesive backing, so you can simply stick it to your desired location. Please watch the instructional video before installation.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_btxECr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Are Yeelight RGBIC LED Strip Lights energy-efficient?",
+            "open": false,
+            "content": "<p>For the 66ft version, if used for 3 hours per day at a rate of 11¢/kWh, the estimated annual electricity cost is $3.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_baLmeT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I extend the length of Yeelight RGBIC LED Strip Lights?",
+            "open": false,
+            "content": "<p>No.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_3A43KP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I cut the extra length of Yeelight RGBIC LED Strip Lights?",
+            "open": false,
+            "content": "<p>You can cut the light strip at the copper wire sections. Before cutting, make sure to watch the installation guide video to avoid cutting in the wrong place, which could cause the light strip to become ineffective. Please note that after cutting, the lighting effects in the APP will still display according to the original length.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_GgfR3W": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I use Yeelight RGBIC LED Strip Lights outdoors?",
+            "open": false,
+            "content": "<p>No. The waterproof rating is IP20, which only supports indoor use. Please avoid exposure to water.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_c39bTL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do Yeelight RGBIC LED Strip Lights work with other Yeelight smart products?",
+            "open": false,
+            "content": "<p>Currently, the light strip do not support direct group control with other products. However, different products have similar lighting effects, so you can set the same lighting effects on each product individually to achieve a coordinated overall effect.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_qFE4Vh",
+        "collapsible_tab_eAdnkx",
+        "collapsible_tab_hw4iBC",
+        "collapsible_tab_btxECr",
+        "collapsible_tab_baLmeT",
+        "collapsible_tab_3A43KP",
+        "collapsible_tab_GgfR3W",
+        "collapsible_tab_c39bTL"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "marker_style": "style1",
+        "description": "",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "marker_color": "#fd6262",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "color_border": "#dadce0",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "description": "<p>Combine your style with these products</p>",
+        "mobile_swipe": true,
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "product_slideshow_ahQAiP",
+    "single_image_3kkr3Y",
+    "single_image_8Areip",
+    "single_image_bNVALU",
+    "single_image_YFNLfJ",
+    "single_image_UwbPnd",
+    "single_image_FC7Fnr",
+    "single_image_UpVXxB",
+    "rich_text_6mPtPi",
+    "1712003137212dc6f8",
+    "single_image_N6MW93",
+    "video_qXUwNk",
+    "single_image_JH8XXF",
+    "single_image_WdwpPN",
+    "media_with_tabs_GFrrk4",
+    "collapsible_content_DDeyr7",
+    "product-recommendations"
+  ]
+}
