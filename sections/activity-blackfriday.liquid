@@ -1,59 +1,63 @@
 {{ 'activity-blackfriday.css' | asset_url | stylesheet_tag }}
 {{ 'product-grid.css' | asset_url | stylesheet_tag }}
-{%- liquid
-  assign image = section.settings.image
-  assign image_mobile = section.settings.image_mobile
-  assign background_image = section.settings.background_image
-  assign background_image_mobile = section.settings.background_image_mobile
--%}
+{% comment %}
+  {%- liquid
+    assign image = section.settings.image
+    assign image_mobile = section.settings.image_mobile
+    assign background_image = section.settings.background_image
+    assign background_image_mobile = section.settings.background_image_mobile
+  -%}
+{% endcomment %}
 
 <div class="activity-blackfriday">
-  <div class="activity-blackfriday-bg">
-    <div class="activity-blackfriday-bg-icons">
-      <div class="ic-spider-left">
-        {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-left' -%}
-      </div>
-      <div class="ic-spider-right">
-        {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-right' -%}
-      </div>
-      <div class="ic-ghost">
-        {%- render 'svg-icons-halloween' with 'custom-halloween-ghost' -%}
-      </div>
-    </div>
-  </div>
-  <div class="activity-blackfriday--img">
-    <div class="mobile-cover-img">
-      {%- if background_image_mobile -%}
-        {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
-      {%- endif -%}
-    </div>
-    <div class="cover-img">
-      {%- if background_image -%}
-        {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-      {%- endif -%}
-    </div>
-  </div>
-  <div class="row activity-products-row">
-    <div class="activity-blackfriday--product">
-      {% for block in section.blocks %}
-        <div class="product-item">
-          {% render 'product-card', product_card_product: block.settings.product %}
+  {% comment %}
+    <div class="activity-blackfriday-bg">
+      <div class="activity-blackfriday-bg-icons">
+        <div class="ic-spider-left">
+          {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-left' -%}
         </div>
-      {% endfor %}
-    </div>
-    <div class="activity-blackfriday--info">
-      <div class="mobile-info-img">
-        {%- if image_mobile -%}
-          {%- render 'responsive-image', image: image_mobile, sizes: image_mobile.src.width | append: 'x' | append: image_mobile.src.height -%}
-        {%- endif -%}
-      </div>
-      <div class="info-img">
-        {%- if image -%}
-          {%- render 'responsive-image', image: image, sizes: image.src.width | append: 'x' | append: image.src.height -%}
-        {%- endif -%}
+        <div class="ic-spider-right">
+          {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-right' -%}
+        </div>
+        <div class="ic-ghost">
+          {%- render 'svg-icons-halloween' with 'custom-halloween-ghost' -%}
+        </div>
       </div>
     </div>
-  </div>
+    <div class="activity-blackfriday--img">
+      <div class="mobile-cover-img">
+        {%- if background_image_mobile -%}
+          {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
+        {%- endif -%}
+      </div>
+      <div class="cover-img">
+        {%- if background_image -%}
+          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="row activity-products-row">
+      <div class="activity-blackfriday--product">
+        {% for block in section.blocks %}
+          <div class="product-item">
+            {% render 'product-card', product_card_product: block.settings.product %}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="activity-blackfriday--info">
+        <div class="mobile-info-img">
+          {%- if image_mobile -%}
+            {%- render 'responsive-image', image: image_mobile, sizes: image_mobile.src.width | append: 'x' | append: image_mobile.src.height -%}
+          {%- endif -%}
+        </div>
+        <div class="info-img">
+          {%- if image -%}
+            {%- render 'responsive-image', image: image, sizes: image.src.width | append: 'x' | append: image.src.height -%}
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  {% endcomment %}
 </div>
 
 {% schema %}
@@ -61,56 +65,56 @@
   "name": "Activity Blackfriday",
   "class": "section-activity-blackfriday",
   "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Header Title",
-      "info": "Wrap your text."
-    },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Image",
-      "info": "1440 x 650 px .jpg recommended."
-    },
-    {
-      "type": "image_picker",
-      "id": "image_mobile",
-      "label": "Mobile image",
-      "info": "750 x 800 px .jpg recommended. Default image is used if none is selected. To position the hotspots precisely, switch to mobile mode."
-    },
-    {
-      "type": "select",
-      "id": "reverse",
-      "options": [
-        {
-          "value": "row-regular",
-          "label": "Right"
-        },
-        {
-          "value": "row-reverse",
-          "label": "Left"
-        }
-      ],
-      "default": "row-regular",
-      "label": "Product Position"
-    },
-    {
-      "type": "image_picker",
-      "id": "background_image",
-      "label": "Background Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "background_image_mobile",
-      "label": "Mobile Background image (optional)"
-    },
-    {
-      "type": "checkbox",
-      "id": "halloween_hand_flag",
-      "default": false,
-      "label": "Show Halloween Hand"
-    }
+    // {
+    //   "type": "text",
+    //   "id": "title",
+    //   "label": "Header Title",
+    //   "info": "Wrap your text."
+    // },
+    // {
+    //   "type": "image_picker",
+    //   "id": "image",
+    //   "label": "Image",
+    //   "info": "1440 x 650 px .jpg recommended."
+    // },
+    // {
+    //   "type": "image_picker",
+    //   "id": "image_mobile",
+    //   "label": "Mobile image",
+    //   "info": "750 x 800 px .jpg recommended. Default image is used if none is selected. To position the hotspots precisely, switch to mobile mode."
+    // },
+    // {
+    //   "type": "select",
+    //   "id": "reverse",
+    //   "options": [
+    //     {
+    //       "value": "row-regular",
+    //       "label": "Right"
+    //     },
+    //     {
+    //       "value": "row-reverse",
+    //       "label": "Left"
+    //     }
+    //   ],
+    //   "default": "row-regular",
+    //   "label": "Product Position"
+    // },
+    // {
+    //   "type": "image_picker",
+    //   "id": "background_image",
+    //   "label": "Background Image"
+    // },
+    // {
+    //   "type": "image_picker",
+    //   "id": "background_image_mobile",
+    //   "label": "Mobile Background image (optional)"
+    // },
+    // {
+    //   "type": "checkbox",
+    //   "id": "halloween_hand_flag",
+    //   "default": false,
+    //   "label": "Show Halloween Hand"
+    // }
   ],
   "blocks": [
     {
