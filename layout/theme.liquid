@@ -99,26 +99,6 @@
       style.appendChild(rules);
       head.appendChild(style);
     </script>
-
-    {% comment %} google survey optin {% endcomment %}
-    <script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
-    <script>
-      window.renderOptIn = function () {
-        window.gapi.load('surveyoptin', function () {
-          window.gapi.surveyoptin.render({
-            // REQUIRED FIELDS
-            merchant_id: 767908144,
-            order_id: 'ORDER_ID',
-            email: 'CUSTOMER_EMAIL',
-            delivery_country: 'COUNTRY_CODE',
-            estimated_delivery_date: 'YYYY-MM-DD',
-
-            // OPTIONAL FIELDS
-            products: [{ gtin: 'GTIN1' }, { gtin: 'GTIN2' }],
-          });
-        });
-      };
-    </script>
     {{ settings.custom_html_head }}
   </head>
   <body class="animations-{{ settings.animations }} button-uppercase-{{ settings.button_uppercase }} navigation-uppercase-{{ settings.navigation_uppercase }} product-card-spacing-{{ settings.product_card_spacing }} article-card-spacing-{{ settings.article_card_spacing }} {% if customer %} customer-logged-in{% endif %} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', '-' | handle }} {% if settings.halloween_flag %}section-activity-halloween{% endif %} {% if settings.black_friday_flag %}section-activity-black-friday{% endif %}">
