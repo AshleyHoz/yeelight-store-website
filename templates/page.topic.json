@@ -131,10 +131,59 @@
           "settings": {
             "product": "a-yeelight-curtain-lights"
           }
+        },
+        "product_LpKiUR": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_yLBDRR": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_GiUiTJ": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_VEa3VT": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_bWTDPP": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_dDrQDM": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_pfcFFn": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
         }
       },
       "block_order": [
-        "product_8UrwaW"
+        "product_8UrwaW",
+        "product_LpKiUR",
+        "product_yLBDRR",
+        "product_GiUiTJ",
+        "product_VEa3VT",
+        "product_bWTDPP",
+        "product_dDrQDM",
+        "product_pfcFFn"
       ],
       "settings": {
         "title": "friday",
