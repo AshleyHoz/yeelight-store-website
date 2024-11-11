@@ -53,13 +53,52 @@
           "settings": {
             "product": "yeelight-beam-rgbic-light-bar"
           }
+        },
+        "product_at8DW3": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_LgUAQn": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_PP6Egj": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
         }
       },
       "block_order": [
-        "product_pQwwR6"
+        "product_pQwwR6",
+        "product_at8DW3",
+        "product_LgUAQn",
+        "product_PP6Egj"
       ],
       "settings": {
         "title": "black friday",
+        "halloween_hand_flag": false
+      }
+    },
+    "activity_blackfriday_Da7PxU": {
+      "type": "activity-blackfriday",
+      "blocks": {
+        "product_yCx7XQ": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        }
+      },
+      "block_order": [
+        "product_yCx7XQ"
+      ],
+      "settings": {
+        "title": "black",
         "halloween_hand_flag": false
       }
     },
@@ -425,6 +464,7 @@
     "main",
     "image_with_text_overlay_EHXcMN",
     "activity_blackfriday_EDfQAb",
+    "activity_blackfriday_Da7PxU",
     "acitivity_products_fXpX3E",
     "custom_liquid_4Fk7Mk",
     "video_eWFAYi",
