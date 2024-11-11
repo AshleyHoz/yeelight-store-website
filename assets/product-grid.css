@@ -534,13 +534,12 @@
   border-radius: 14px;
   margin-top: 0 !important;
   background: rgba(255, 255, 255, 0.15);
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff; */
 }
 
 .product-card--add-to-cart-button.button.accent:hover,
 .product-card--add-to-cart-button-wrapper a.button.accent:hover {
-  background: #000000;
-  border: 1px solid #ffffff;
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .section-activity-halloween .button.accent,
