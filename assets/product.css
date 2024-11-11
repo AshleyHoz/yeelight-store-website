@@ -66,6 +66,8 @@
   width: 100%;
   max-height: 50px;
   position: relative;
+  overflow: hidden;
+  border-radius: 25px;
 }
 .shopify-payment-button__button:not(.shopify-payment-button__button--branded) {
   display: inline-flex;
@@ -2509,7 +2511,7 @@ h6,
 
 .product-add-to-cart-bar .product-add-to-cart-bar--buttons > .product-form,
 .product-add-to-cart-bar .product-add-to-cart-bar--buttons > div {
-  width: 100%;
+  width: calc(50% - 8px);
 }
 
 .product-add-to-cart-bar .product-add-to-cart-bar--buttons > div .add_to_cart_holder .single-add-to-cart-button {
