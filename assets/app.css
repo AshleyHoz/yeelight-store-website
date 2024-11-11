@@ -5876,6 +5876,7 @@ input[type='radio'],
 .section-activity-black-friday .thb-cart-form .button.accent.checkout-button,
 .section-activity-black-friday .thb-cart-form .button.accent.checkout-button:hover {
   background: #fe2b39;
+  color: #ffffff;
 }
 
 @media screen and (hover: hover) {
