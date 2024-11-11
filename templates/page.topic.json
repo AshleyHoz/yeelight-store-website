@@ -92,13 +92,52 @@
           "settings": {
             "product": "yeelight-candela-lamp"
           }
+        },
+        "product_Wt7qra": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_yzg7TP": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_WjbRMm": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
         }
       },
       "block_order": [
-        "product_yCx7XQ"
+        "product_yCx7XQ",
+        "product_Wt7qra",
+        "product_yzg7TP",
+        "product_WjbRMm"
       ],
       "settings": {
         "title": "black",
+        "halloween_hand_flag": false
+      }
+    },
+    "activity_blackfriday_cF3zaQ": {
+      "type": "activity-blackfriday",
+      "blocks": {
+        "product_8UrwaW": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        }
+      },
+      "block_order": [
+        "product_8UrwaW"
+      ],
+      "settings": {
+        "title": "friday",
         "halloween_hand_flag": false
       }
     },
@@ -465,6 +504,7 @@
     "image_with_text_overlay_EHXcMN",
     "activity_blackfriday_EDfQAb",
     "activity_blackfriday_Da7PxU",
+    "activity_blackfriday_cF3zaQ",
     "acitivity_products_fXpX3E",
     "custom_liquid_4Fk7Mk",
     "video_eWFAYi",
