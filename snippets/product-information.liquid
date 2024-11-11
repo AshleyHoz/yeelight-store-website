@@ -459,25 +459,25 @@
   {%- endcase -%}
 {% endfor %}
 {%- if section.settings.enable_sticky_add_to_cart -%}
+  {% render 'product-add-to-cart-sticky',
+    product: product,
+    media: first_image,
+    color_picker: color_picker,
+    picker_type: picker_type,
+    form: form,
+    is_disabled: is_disabled
+  %}
   {% comment %}
-    {% render 'product-add-to-cart-sticky',
+    {% assign button_block = section.blocks | where: 'type', 'buy_buttons' %}
+    {% render 'product-add-to-cart-bar',
       product: product,
-      media: first_image,
-      color_picker: color_picker,
-      picker_type: picker_type,
       form: form,
-      is_disabled: is_disabled
+      is_disabled: is_disabled,
+      form_id: product_form_id,
+      button_block: button_block[0],
+      pickup: pickup
     %}
   {% endcomment %}
-  {% assign button_block = section.blocks | where: 'type', 'buy_buttons' %}
-  {% render 'product-add-to-cart-bar',
-    product: product,
-    form: form,
-    is_disabled: is_disabled,
-    form_id: product_form_id,
-    button_block: button_block[0],
-    pickup: pickup
-  %}
 {%- endif -%}
 
 {{ sizing_popup }}
