@@ -1,5 +1,6 @@
 .section-product-slideshow {
   padding: 80px 0 200px;
+  overflow: hidden;
 }
 
 .section-product-slideshow .slideshow__slide-content:after,
