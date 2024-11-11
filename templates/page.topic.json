@@ -402,11 +402,31 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "activity_blackfriday_EDfQAb": {
+      "type": "activity-blackfriday",
+      "blocks": {
+        "product_pQwwR6": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_pQwwR6"
+      ],
+      "settings": {
+        "title": "",
+        "reverse": "row-regular",
+        "halloween_hand_flag": false
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_overlay_EHXcMN",
+    "activity_blackfriday_EDfQAb",
     "acitivity_products_fXpX3E",
     "custom_liquid_4Fk7Mk",
     "video_eWFAYi",
