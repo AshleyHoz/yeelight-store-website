@@ -5339,13 +5339,6 @@ input[type='radio'],
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
 }
 
-.section-activity-black-friday .button.accent.checkout,
-.section-activity-black-friday .button.accent.checkout:hover,
-.section-activity-black-friday .thb-cart-form .button.accent.checkout,
-.section-activity-black-friday .thb-cart-form .button.accent.checkout:hover {
-  background: #fe2b39;
-}
-
 .section-theme-white,
 .section-theme-white .side-panel-header,
 .section-theme-white .order-note-toggle__content {
@@ -5877,6 +5870,14 @@ input[type='radio'],
 .section-activity-black-friday input[type='submit'].accent .spinner-path {
   stroke: #fe2b39;
 }
+
+.section-activity-black-friday .button.accent.checkout,
+.section-activity-black-friday .button.accent.checkout:hover,
+.section-activity-black-friday .thb-cart-form .button.accent.checkout,
+.section-activity-black-friday .thb-cart-form .button.accent.checkout:hover {
+  background: #fe2b39;
+}
+
 @media screen and (hover: hover) {
   .section-theme-white .button.accent:hover,
   .section-theme-white input[type='submit'].accent:hover {
