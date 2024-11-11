@@ -2664,7 +2664,7 @@ h6,
 }
 
 .section-activity-black-friday .shopify-payment-button .shopify-payment-button__more-options::before {
-  content: 'Add to cart';
+  content: 'Buy it now';
   position: absolute;
   top: 0;
   left: 0;
