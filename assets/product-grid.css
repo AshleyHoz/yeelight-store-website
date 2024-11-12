@@ -1015,7 +1015,7 @@
     padding: 8px 4px;
   }
 
-  .product-card .product-card-view {
+  .product-card .product-opt-wrapper .product-card-view {
     color: #fff;
     font-size: 12px;
     font-weight: 400;
@@ -1080,6 +1080,11 @@
   .section-activity-halloween .product-card .badge .badge-title,
   .section-activity-halloween .product-card .badge .badge-percent {
     color: #000000;
+  }
+
+  .section-activity-black-friday .product-card .badge svg {
+    width: 42px;
+    height: 50px;
   }
 
   .product-card-cover {
