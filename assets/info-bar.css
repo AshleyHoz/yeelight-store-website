@@ -11,6 +11,12 @@
   margin: 0 auto;
 }
 
+.info-bar--inner .info-bar--item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .info-bar--inner .bar-text {
   color: rgba(255, 255, 255, 0.6);
   font-size: 12px;
@@ -18,6 +24,15 @@
   letter-spacing: 0.24px;
 }
 
-.info-bar--inner .bar-icon svg path {
+.info-bar--inner svg {
+  width: 18px;
+  height: 18px;
+}
+.info-bar--inner svg path {
   stroke: rgba(255, 255, 255, 0.6);
+}
+
+.info-bar--inner .info-bar--item:first-child svg path {
+  stroke: unset;
+  fill: rgba(255, 255, 255, 0.6);
 }

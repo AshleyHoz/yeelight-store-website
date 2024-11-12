@@ -24,9 +24,7 @@
       >
         {%- for block in section.blocks -%}
           <div class="info-bar--item">
-            <div class="bar-icon">
-              {%- render 'svg-icons-custom' with block.settings.icon -%}
-            </div>
+            {%- render 'svg-icons-custom' with block.settings.icon -%}
             <div class="bar-text">
               {{ block.settings.text }}
             </div>
