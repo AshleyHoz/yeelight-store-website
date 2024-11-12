@@ -1,0 +1,646 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_overlay_EHXcMN": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_GeKdfB": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GeKdfB"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/TopicOutdoorHalloweenBg.png",
+        "mobile_image": "shopify://shop_images/TopicOutdoorHalloweenBgMobile.png",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-480",
+        "mobile_height": "mobile-height-345",
+        "full_width": true,
+        "content_width": "medium",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "overlay_color": "rgba(0,0,0,0)",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "single_image_Pn6pPg": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/BlackFriday.png",
+        "image_mobile": "shopify://shop_images/BlackFridayMobile.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "activity_blackfriday_EDfQAb": {
+      "type": "activity-blackfriday",
+      "blocks": {
+        "product_pQwwR6": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        },
+        "product_at8DW3": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_LgUAQn": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_PP6Egj": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_pQwwR6",
+        "product_at8DW3",
+        "product_LgUAQn",
+        "product_PP6Egj"
+      ],
+      "settings": {
+        "title": "Light Up Your Home with <span>Christmas Cheer</span>",
+        "show_icon": true,
+        "left_x_position": 2,
+        "left_y_position": 0,
+        "right_x_position": 2,
+        "right_y_position": 0
+      }
+    },
+    "activity_blackfriday_Da7PxU": {
+      "type": "activity-blackfriday",
+      "blocks": {
+        "product_yCx7XQ": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_Wt7qra": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_yzg7TP": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_WjbRMm": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_cnT8mi": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_DhwKDz": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_tK9pNX": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_WipT7G": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_yCx7XQ",
+        "product_Wt7qra",
+        "product_yzg7TP",
+        "product_WjbRMm",
+        "product_cnT8mi",
+        "product_DhwKDz",
+        "product_tK9pNX",
+        "product_WipT7G"
+      ],
+      "settings": {
+        "title": "Illuminate Your Holiday Gaming with <span>Best Sellers</span>",
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "right_x_position": 0,
+        "right_y_position": 0
+      }
+    },
+    "activity_blackfriday_cF3zaQ": {
+      "type": "activity-blackfriday",
+      "blocks": {
+        "product_8UrwaW": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_LpKiUR": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_yLBDRR": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_GiUiTJ": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_VEa3VT": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_bWTDPP": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_dDrQDM": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_pfcFFn": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_8UrwaW",
+        "product_LpKiUR",
+        "product_yLBDRR",
+        "product_GiUiTJ",
+        "product_VEa3VT",
+        "product_bWTDPP",
+        "product_dDrQDM",
+        "product_pfcFFn"
+      ],
+      "settings": {
+        "title": "Find the <span>Perfect Gift</span> to Light Up Your Day",
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "right_x_position": 0,
+        "right_y_position": 0
+      }
+    },
+    "single_image_HQL3cr": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/BlackFriday.png",
+        "image_mobile": "shopify://shop_images/BlackFridayMobile.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "acitivity_products_fXpX3E": {
+      "type": "acitivity-halloween",
+      "blocks": {
+        "product_peqag6": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_qAnrKb": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_rqy9gx": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_P6BFVN": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-rgbic-led-basic-strip-lights"
+          }
+        }
+      },
+      "block_order": [
+        "product_peqag6",
+        "product_qAnrKb",
+        "product_rqy9gx",
+        "product_P6BFVN"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/TopicOutdoorHalloweenInfo.png",
+        "image_mobile": "shopify://shop_images/TopicOutdoorHalloweenInfoMobile.png",
+        "background_image": "shopify://shop_images/TopicOutdoorCoverHalloween.png",
+        "background_image_mobile": "shopify://shop_images/TopicOutdoorCoverHalloweenMobile.png",
+        "halloween_hand_flag": false
+      }
+    },
+    "custom_liquid_4Fk7Mk": {
+      "type": "image-products",
+      "blocks": {
+        "product_nmh8jV": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_Qger9E": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_wG8iCm": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_BTfM4U": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-rgbic-led-basic-strip-lights"
+          }
+        }
+      },
+      "block_order": [
+        "product_nmh8jV",
+        "product_Qger9E",
+        "product_wG8iCm",
+        "product_BTfM4U"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "<p>Transform the Outdoors for <span>Every Occasion</span></p>",
+        "image": "shopify://shop_images/TopicOutdoorHalloween.png",
+        "image_mobile": "shopify://shop_images/TopicOutdoorHalloweenMobile.png",
+        "reverse": "row",
+        "background_image": "shopify://shop_images/HalloweenBg1.png",
+        "halloween_hand_flag": true
+      }
+    },
+    "video_eWFAYi": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
+        "video": "https://youtu.be/Sq0umd4-o0I?si=BoqlOZuPLnZj4vzf",
+        "video_autoplay": false,
+        "aspect_ratio": "16-9",
+        "marker_color": "#fd6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "background_image": "shopify://shop_images/HalloweenBg2.png",
+        "halloween_skull_flag": true
+      }
+    },
+    "rich_text_Wf7KbW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fkRMKm": {
+          "type": "heading",
+          "settings": {
+            "text": "What Others Say About Us",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fkRMKm"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#ffffff",
+        "color_links": "#ffffff",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "17254343215895ce76": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_video_slider_cyaCJt": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-video-slider/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "show-by-tag": false,
+            "layout": "classic",
+            "shadow": "",
+            "show-rating": true,
+            "show-reviewer-name": true,
+            "hide-arrows-mobile": true,
+            "auto-play": true,
+            "show-border": false,
+            "border-width": 1,
+            "border-radius": 16,
+            "text-color": "#ffffff",
+            "rating-icon-color": "",
+            "border-color": "",
+            "play-button-color": "",
+            "shadow-color": "",
+            "product-id": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_video_slider_cyaCJt"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "media_with_tabs_dVM767": {
+      "type": "media-with-tabs",
+      "blocks": {
+        "badge_tRYgzk": {
+          "type": "badge",
+          "disabled": true,
+          "settings": {
+            "text": "Badge heading",
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
+          }
+        },
+        "heading_G98kFA": {
+          "type": "heading",
+          "settings": {
+            "text": "Media with tabs",
+            "heading_size": "h3"
+          }
+        },
+        "text_NLDnb7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        },
+        "tab_iAjBpe": {
+          "type": "tab",
+          "settings": {
+            "use_video": true,
+            "video_hosted": "shopify://files/videos/alf1.mp4",
+            "heading_icon": "none",
+            "heading": "Curtain Lights",
+            "description": "",
+            "video_autoplay": false
+          }
+        },
+        "tab_CYQ3rn": {
+          "type": "tab",
+          "settings": {
+            "use_video": true,
+            "video_hosted": "shopify://files/videos/goldstar-1.mp4",
+            "heading_icon": "none",
+            "heading": "Permanent Outdoor Lights",
+            "description": "",
+            "video_autoplay": false
+          }
+        },
+        "tab_a8dTgJ": {
+          "type": "tab",
+          "settings": {
+            "use_video": true,
+            "video_hosted": "shopify://files/videos/Yeelight Cabinet Light.mp4",
+            "heading_icon": "none",
+            "heading": "Christmas String Lights",
+            "description": "",
+            "video_autoplay": false
+          }
+        }
+      },
+      "block_order": [
+        "badge_tRYgzk",
+        "heading_G98kFA",
+        "text_NLDnb7",
+        "tab_iAjBpe",
+        "tab_CYQ3rn",
+        "tab_a8dTgJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Quick installation method",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-200",
+        "height": "adapt",
+        "desktop_layout": "image_first",
+        "color_bg": "#121212",
+        "color_text": "#ffffff",
+        "color_link": "#ffffff",
+        "color_border": "#ffffff",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "collapsible_title_content_CtmGG4": {
+      "type": "collapsible-title-content",
+      "blocks": {
+        "collapsible_tab_nreN7t": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you ship overseas?",
+            "open": false,
+            "content": "<p>Currently, we ship to the following countries:</p><ul><li><strong>North America: </strong>United States, Canada and Mexico. (Except for remote areas such as Alaska and Hawaii; overseas addresses such as Puerto Rico and Guam; APO/FPO military addresses.)</li><li><strong>Europe:</strong> Austria, Belgium, Bulgaria, Czech Republic, Denmark(Except for the Faroe Islands, Greenland), Finland, France(Except for the Overseas territories and departments), Germany, Greece, Hungary, Ireland, Italy (Except for the Livigno and Campione d’Italia), Netherlands(Except for the Overseas territories), Norway, Poland, Portugal, Romania, Spain(Except for the Ceuta/Melilla, Canary Islands), Sweden, Turkey, and the United Kingdom(Except for the British Indian Ocean Territory, British Virgin Islands, etc.).</li><li><strong>Asia:</strong> United Arab Emirates, Israel, South Korea, Malaysia, Saudi Arabia, Thailand, Kuwait, Vietnam, Turkey, Singapore</li><li><strong>Oceania:</strong> Australia, New Zealand</li><li><strong>South America:</strong> Brazil, Qatar</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_YzpmTF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long will it take to get my orders?",
+            "open": false,
+            "content": "<p>The product will be shipped <strong>48 hours </strong>after purchase in the working days, and the overseas delivery will take around <strong>7-15 business days</strong>. Delivery delays can occasionally occur.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_KhjgHF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Does the item come with free shipping?",
+            "open": false,
+            "content": "<p>Free express shipping service is provided by Yeelight.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_nreN7t",
+        "collapsible_tab_YzpmTF",
+        "collapsible_tab_KhjgHF"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "FAQ",
+        "marker_style": "style1",
+        "description": "",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#ffffff",
+        "marker_color": "#fd6262",
+        "color_text": "#ffffff",
+        "color_links": "#2c2d2e",
+        "color_border": "#dadce0",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_F6XM9m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xHDwGq": {
+          "type": "heading",
+          "settings": {
+            "text": "What Others Say About Us",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xHDwGq"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1731318448f757b534": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_video_slider_NgXFBA": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-video-slider/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "show-by-tag": false,
+            "layout": "classic",
+            "shadow": "",
+            "show-rating": true,
+            "show-reviewer-name": true,
+            "hide-arrows-mobile": true,
+            "auto-play": true,
+            "show-border": false,
+            "border-width": 1,
+            "border-radius": 16,
+            "text-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "play-button-color": "",
+            "shadow-color": "",
+            "product-id": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_video_slider_NgXFBA"
+      ],
+      "settings": {}
+    },
+    "text_with_icons_LiHffF": {
+      "type": "text-with-icons",
+      "settings": {
+        "heading": "Why Choose Us",
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "medium",
+        "heading_size": "medium",
+        "mobile_swipe": true,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_EHXcMN",
+    "single_image_Pn6pPg",
+    "activity_blackfriday_EDfQAb",
+    "activity_blackfriday_Da7PxU",
+    "activity_blackfriday_cF3zaQ",
+    "single_image_HQL3cr",
+    "acitivity_products_fXpX3E",
+    "custom_liquid_4Fk7Mk",
+    "video_eWFAYi",
+    "rich_text_Wf7KbW",
+    "17254343215895ce76",
+    "media_with_tabs_dVM767",
+    "collapsible_title_content_CtmGG4",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF"
+  ]
+}
