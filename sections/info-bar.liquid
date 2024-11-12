@@ -36,23 +36,27 @@
         {% endfor %}
       </div>
     </div>
-    <slide-show
-      class="info-bar info-bar-mobile carousel"
-      data-autoplay="{{ autoplay }}"
-    >
-      {%- for block in section.blocks -%}
-        <div class="info-bar--item carousel__slide">
-          {%- render 'svg-icons-custom' with block.settings.icon -%}
-          <div class="bar-text">
-            {{ block.settings.text }}
-          </div>
-        </div>
-      {% endfor %}
-      {%- if section.blocks.size > 1 -%}
-        <div class="flickity-nav flickity-prev" tabindex="0">{% render 'svg-icons' with 'thb-caret-left' %}</div>
-        <div class="flickity-nav flickity-next" tabindex="0">{% render 'svg-icons' with 'thb-caret-right' %}</div>
-      {%- endif -%}
-    </slide-show>
+    <div class="info-bar info-bar-mobile">
+      <div class="info-bar--carousel">
+        <slide-show
+          class="carousel"
+          data-autoplay="{{ autoplay }}"
+        >
+          {%- for block in section.blocks -%}
+            <div class="info-bar--item carousel__slide">
+              {%- render 'svg-icons-custom' with block.settings.icon -%}
+              <div class="bar-text">
+                {{ block.settings.text }}
+              </div>
+            </div>
+          {% endfor %}
+          {%- if section.blocks.size > 1 -%}
+            <div class="flickity-nav flickity-prev" tabindex="0">{% render 'svg-icons' with 'thb-caret-left' %}</div>
+            <div class="flickity-nav flickity-next" tabindex="0">{% render 'svg-icons' with 'thb-caret-right' %}</div>
+          {%- endif -%}
+        </slide-show>
+      </div>
+    </div>
   {%- endif -%}
 {%- endif -%}
 {% schema %}
