@@ -91,6 +91,7 @@
       ],
       "settings": {
         "title": "<p>black friday</p>",
+        "show_icon": true,
         "left_x_position": 20,
         "left_y_position": 20,
         "right_x_position": 20,
@@ -133,6 +134,7 @@
       ],
       "settings": {
         "title": "<p>black</p>",
+        "show_icon": false,
         "left_x_position": 20,
         "left_y_position": 20,
         "right_x_position": 20,
@@ -203,6 +205,7 @@
       ],
       "settings": {
         "title": "<p>friday</p>",
+        "show_icon": false,
         "left_x_position": 20,
         "left_y_position": 20,
         "right_x_position": 20,
