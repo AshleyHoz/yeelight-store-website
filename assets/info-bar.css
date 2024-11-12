@@ -43,6 +43,10 @@
 }
 
 @media (max-width: 768px) {
+  .info-bar {
+    padding: 0;
+  }
+
   .info-bar-dekstop {
     display: none;
   }
@@ -91,6 +95,9 @@
     opacity: 1;
     box-shadow: none;
     background: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
   .info-bar--carousel .flickity-nav svg path {
     stroke: rgba(255, 255, 255, 0.4);
