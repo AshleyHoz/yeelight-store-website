@@ -45,6 +45,27 @@
         "background_color": "rgba(0,0,0,0)"
       }
     },
+    "info_bar_9bWAay": {
+      "type": "info-bar",
+      "blocks": {
+        "text_ACm6Rt": {
+          "type": "text",
+          "settings": {
+            "icon": "shipping",
+            "text": "Free shipping",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_ACm6Rt"
+      ],
+      "settings": {
+        "info_bar": true,
+        "info_bar_homepage_only": true,
+        "background_color": "#1a1a1a"
+      }
+    },
     "header-secondary-menu": {
       "type": "header-secondary-menu",
       "disabled": true,
@@ -84,6 +105,7 @@
   },
   "order": [
     "announcement-bar",
+    "info_bar_9bWAay",
     "header-secondary-menu",
     "header",
     "header-mobile-navigation"
