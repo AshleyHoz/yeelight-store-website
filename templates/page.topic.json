@@ -90,7 +90,7 @@
         "product_PP6Egj"
       ],
       "settings": {
-        "title": "<p>black friday</p>",
+        "title": "black friday",
         "show_icon": true,
         "left_x_position": 20,
         "left_y_position": 20,
@@ -124,16 +124,44 @@
           "settings": {
             "product": ""
           }
+        },
+        "product_cnT8mi": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_DhwKDz": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_tK9pNX": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_WipT7G": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
         }
       },
       "block_order": [
         "product_yCx7XQ",
         "product_Wt7qra",
         "product_yzg7TP",
-        "product_WjbRMm"
+        "product_WjbRMm",
+        "product_cnT8mi",
+        "product_DhwKDz",
+        "product_tK9pNX",
+        "product_WipT7G"
       ],
       "settings": {
-        "title": "<p>black</p>",
+        "title": "black",
         "show_icon": false,
         "left_x_position": 20,
         "left_y_position": 20,
