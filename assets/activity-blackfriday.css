@@ -65,7 +65,7 @@
 
 .activity-blackfriday-row .activity-blackfriday--product {
   width: 100%;
-  gap: 12px;
+  gap: 24px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -83,7 +83,7 @@
   .activity-blackfriday-row .activity-blackfriday--product {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 12px;
   }
 
   .activity-blackfriday-row .activity-blackfriday--product .product-item {
