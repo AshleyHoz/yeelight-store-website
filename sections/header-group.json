@@ -19,7 +19,7 @@
           "settings": {
             "icon": "none",
             "text": "Worldwide Free Shipping",
-            "link": "",
+            "link": "shopify://pages/topic-1",
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -50,7 +50,6 @@
         "acca6658-bd49-4cc7-be9a-c02394ef4917",
         "888fc484-50e5-4566-bad6-41e835d00d5f"
       ],
-      "disabled": true,
       "settings": {
         "announcement_bar": true,
         "announcement_bar_homepage_only": true,
@@ -65,7 +64,6 @@
     },
     "header-secondary-menu": {
       "type": "header-secondary-menu",
-      "disabled": true,
       "settings": {
         "secondary_menu": "",
         "show_language_switcher": false,
