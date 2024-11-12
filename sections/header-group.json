@@ -51,7 +51,7 @@
         "text_ACm6Rt": {
           "type": "text",
           "settings": {
-            "icon": "shipping",
+            "icon": "custom-service",
             "text": "Free Shipping",
             "link": ""
           }
@@ -59,7 +59,7 @@
         "text_PWxYtC": {
           "type": "text",
           "settings": {
-            "icon": "plane",
+            "icon": "custom-airplane",
             "text": "Worry Free Return",
             "link": ""
           }
@@ -67,7 +67,7 @@
         "text_y6qtbn": {
           "type": "text",
           "settings": {
-            "icon": "corn",
+            "icon": "custom-corn",
             "text": "Lifetime support",
             "link": ""
           }
@@ -75,7 +75,7 @@
         "text_JGpMAa": {
           "type": "text",
           "settings": {
-            "icon": "shield",
+            "icon": "custom-shield",
             "text": "Reliable Warranty",
             "link": ""
           }
