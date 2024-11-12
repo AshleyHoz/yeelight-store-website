@@ -51,24 +51,22 @@
               </div>
               <div class="bar-button">
                 {% if block.settings.button_text != blank %}
-                  <div class="button-overflow-container">
-                    {% if block.settings.use_text_button %}
-                      {% render 'text-button',
-                        url: block.settings.button_link,
-                        title: block.settings.button_text,
-                        class: block.settings.button_color
-                      %}
-                    {% else %}
-                      <a
-                        class="button {{ block.settings.button_color }}"
-                        href="{{ block.settings.button_link }}"
-                        role="button"
-                        title="{{ block.settings.button_text | escape }}"
-                      >
-                        {{- block.settings.button_text -}}
-                      </a>
-                    {% endif %}
-                  </div>
+                  {% if block.settings.use_text_button %}
+                    {% render 'text-button',
+                      url: block.settings.button_link,
+                      title: block.settings.button_text,
+                      class: block.settings.button_color
+                    %}
+                  {% else %}
+                    <a
+                      class="button {{ block.settings.button_color }}"
+                      href="{{ block.settings.button_link }}"
+                      role="button"
+                      title="{{ block.settings.button_text | escape }}"
+                    >
+                      {{- block.settings.button_text -}}
+                    </a>
+                  {% endif %}
                 {% endif %}
               </div>
             </div>
