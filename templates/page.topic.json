@@ -25,9 +25,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_GeKdfB"
-      ],
+      "block_order": ["heading_GeKdfB"],
       "settings": {
         "image": "shopify://shop_images/TopicOutdoorHalloweenBg.png",
         "mobile_image": "shopify://shop_images/TopicOutdoorHalloweenBgMobile.png",
@@ -83,19 +81,14 @@
           }
         }
       },
-      "block_order": [
-        "product_pQwwR6",
-        "product_at8DW3",
-        "product_LgUAQn",
-        "product_PP6Egj"
-      ],
+      "block_order": ["product_pQwwR6", "product_at8DW3", "product_LgUAQn", "product_PP6Egj"],
       "settings": {
         "title": "Light Up Your Home with <span>Christmas Cheer</span>",
         "show_icon": true,
-        "left_x_position": 20,
-        "left_y_position": 20,
-        "right_x_position": 20,
-        "righty_position": 20
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "right_x_position": 0,
+        "righty_position": 0
       }
     },
     "activity_blackfriday_Da7PxU": {
@@ -163,10 +156,10 @@
       "settings": {
         "title": "Illuminate Your Holiday Gaming with <span>Best Sellers</span>",
         "show_icon": false,
-        "left_x_position": 20,
-        "left_y_position": 20,
-        "right_x_position": 20,
-        "righty_position": 20
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "right_x_position": 0,
+        "righty_position": 0
       }
     },
     "activity_blackfriday_cF3zaQ": {
@@ -234,10 +227,10 @@
       "settings": {
         "title": "Find the <span>Perfect Gift</span> to Light Up Your Day",
         "show_icon": false,
-        "left_x_position": 20,
-        "left_y_position": 20,
-        "right_x_position": 20,
-        "righty_position": 20
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "right_x_position": 0,
+        "righty_position": 0
       }
     },
     "single_image_HQL3cr": {
@@ -278,12 +271,7 @@
           }
         }
       },
-      "block_order": [
-        "product_peqag6",
-        "product_qAnrKb",
-        "product_rqy9gx",
-        "product_P6BFVN"
-      ],
+      "block_order": ["product_peqag6", "product_qAnrKb", "product_rqy9gx", "product_P6BFVN"],
       "disabled": true,
       "settings": {
         "title": "",
@@ -322,12 +310,7 @@
           }
         }
       },
-      "block_order": [
-        "product_nmh8jV",
-        "product_Qger9E",
-        "product_wG8iCm",
-        "product_BTfM4U"
-      ],
+      "block_order": ["product_nmh8jV", "product_Qger9E", "product_wG8iCm", "product_BTfM4U"],
       "disabled": true,
       "settings": {
         "title": "<p>Transform the Outdoors for <span>Every Occasion</span></p>",
@@ -369,9 +352,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_fkRMKm"
-      ],
+      "block_order": ["heading_fkRMKm"],
       "disabled": true,
       "settings": {
         "text_width": "medium",
@@ -410,9 +391,7 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_video_slider_cyaCJt"
-      ],
+      "block_order": ["loox_reviews_loox_video_slider_cyaCJt"],
       "disabled": true,
       "settings": {}
     },
@@ -475,14 +454,7 @@
           }
         }
       },
-      "block_order": [
-        "badge_tRYgzk",
-        "heading_G98kFA",
-        "text_NLDnb7",
-        "tab_iAjBpe",
-        "tab_CYQ3rn",
-        "tab_a8dTgJ"
-      ],
+      "block_order": ["badge_tRYgzk", "heading_G98kFA", "text_NLDnb7", "tab_iAjBpe", "tab_CYQ3rn", "tab_a8dTgJ"],
       "disabled": true,
       "settings": {
         "heading": "Quick installation method",
@@ -529,11 +501,7 @@
           }
         }
       },
-      "block_order": [
-        "collapsible_tab_nreN7t",
-        "collapsible_tab_YzpmTF",
-        "collapsible_tab_KhjgHF"
-      ],
+      "block_order": ["collapsible_tab_nreN7t", "collapsible_tab_YzpmTF", "collapsible_tab_KhjgHF"],
       "disabled": true,
       "settings": {
         "heading": "FAQ",
@@ -562,9 +530,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_xHDwGq"
-      ],
+      "block_order": ["heading_xHDwGq"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -602,9 +568,7 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_video_slider_NgXFBA"
-      ],
+      "block_order": ["loox_reviews_loox_video_slider_NgXFBA"],
       "settings": {}
     },
     "text_with_icons_LiHffF": {
