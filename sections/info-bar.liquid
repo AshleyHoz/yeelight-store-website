@@ -4,6 +4,10 @@
     assign color_info_bar_bg = settings.color_announcement_bar_bg
     assign background_color = section.settings.background_color
     assign show_info_bar = true
+    assign autoplay = section.settings.autoplay
+    if autoplay
+      assign autoplay = section.settings.autoplay_length | times: 1000
+    endif
 
     if section.settings.info_bar_homepage_only
       if template == 'index'
@@ -32,6 +36,23 @@
         {% endfor %}
       </div>
     </div>
+    <slide-show
+      class="info-bar info-bar-mobile carousel"
+      data-autoplay="{{ autoplay }}"
+    >
+      {%- for block in section.blocks -%}
+        <div class="info-bar--item">
+          {%- render 'svg-icons-custom' with block.settings.icon -%}
+          <div class="bar-text">
+            {{ block.settings.text }}
+          </div>
+        </div>
+      {% endfor %}
+      {%- if section.blocks.size > 1 -%}
+        <div class="flickity-nav flickity-prev" tabindex="0">{% render 'svg-icons' with 'thb-caret-left' %}</div>
+        <div class="flickity-nav flickity-next" tabindex="0">{% render 'svg-icons' with 'thb-caret-right' %}</div>
+      {%- endif -%}
+    </slide-show>
   {%- endif -%}
 {%- endif -%}
 {% schema %}
@@ -51,6 +72,22 @@
       "id": "info_bar_homepage_only",
       "label": "Show on home page only",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Auto-rotate slides",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "autoplay_length",
+      "min": 3,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "label": "Change slides every",
+      "default": 5
     },
     {
       "type": "color",

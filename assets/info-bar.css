@@ -11,29 +11,43 @@
   margin: 0 auto;
 }
 
-.info-bar--inner .info-bar--item {
+.info-bar .info-bar--item {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4px;
 }
 
-.info-bar--inner .bar-text {
+.info-bar .bar-text {
   color: rgba(255, 255, 255, 0.6);
   font-size: 12px;
   font-weight: 300;
   letter-spacing: 0.24px;
 }
 
-.info-bar--inner svg {
+.info-bar svg {
   width: 18px;
   height: 18px;
 }
-.info-bar--inner svg path {
+.info-bar svg path {
   stroke: rgba(255, 255, 255, 0.6);
 }
 
-.info-bar--inner .info-bar--item:first-child svg path {
+.info-bar .info-bar--item:first-child svg path {
   stroke: unset;
   fill: rgba(255, 255, 255, 0.6);
+}
+
+.info-bar-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .info-bar-mobile {
+    display: block;
+  }
+
+  .info-bar {
+    display: none;
+  }
 }
