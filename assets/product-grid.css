@@ -1022,7 +1022,7 @@
     line-height: normal;
     text-transform: capitalize;
     border-radius: 8px;
-    margin: 0 12px 12px;
+    /* margin: 0 12px 12px; */
   }
 
   .product-card .badge.right {
