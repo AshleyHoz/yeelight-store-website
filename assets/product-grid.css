@@ -1082,12 +1082,12 @@
     color: #000000;
   }
 
-  .section-activity-black-friday .product-card .badge {
+  .section-activity-black-friday .product-card .badge svg {
     width: 42px;
     height: 48px;
   }
 
-  .section-activity-black-friday .product-card .badge svg {
+  .section-activity-black-friday .product-card .badge {
     padding: 4px 6px 11px 6px;
   }
 
