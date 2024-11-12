@@ -5,22 +5,24 @@
 -%}
 
 <div class="activity-blackfriday">
-  <div class="activity-blackfriday-bg">
-    <div class="activity-blackfriday-bg-icons">
-      <div
-        class="ic-bg-left"
-        style="position:absolute;left: {{- section.settings.left_x_position | append: '%' -}}; top: {{- section.settings.left_y_position | append: '%' -}};"
-      >
-        {%- render 'svg-icons-friday' with 'custom-friday-bg-left' -%}
-      </div>
-      <div
-        class="ic-bg-right"
-        style="position:absolute;left: {{- section.settings.right_x_position | append: '%' -}}; top: {{- section.settings.right_y_position | append: '%' -}};"
-      >
-        {%- render 'svg-icons-friday' with 'custom-friday-bg-right' -%}
+  {% if section.settings.show_icon %}
+    <div class="activity-blackfriday-bg">
+      <div class="activity-blackfriday-bg-icons">
+        <div
+          class="ic-bg-left"
+          style="position:absolute;left: {{- section.settings.left_x_position | append: '%' -}}; top: {{- section.settings.left_y_position | append: '%' -}};"
+        >
+          {%- render 'svg-icons-friday' with 'custom-friday-bg-left' -%}
+        </div>
+        <div
+          class="ic-bg-right"
+          style="position:absolute;left: {{- section.settings.right_x_position | append: '%' -}}; top: {{- section.settings.right_y_position | append: '%' -}};"
+        >
+          {%- render 'svg-icons-friday' with 'custom-friday-bg-right' -%}
+        </div>
       </div>
     </div>
-  </div>
+  {% endif %}
   {% comment %}
     <div class="activity-blackfriday--img">
       <div class="mobile-cover-img">
@@ -77,6 +79,13 @@
     {
       "type": "header",
       "content": "Left Icon Position"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "default": false,
+      "label": "Enable background icon",
+      "info": "Enable background icon"
     },
     {
       "type": "range",
