@@ -19,10 +19,13 @@
   -%}
   {%- if show_info_bar -%}
     {{- 'info-bar.css' | asset_url | stylesheet_tag -}}
-    <div class="info-bar">
+    <div
+      class="info-bar"
+      style="--color-info-background-bg: {{ background_color -}};{%if background_color != 'transparent' and background_color != 'rgba(0,0,0,0)'%}background:{{background_color}} !important; {% endif %}"
+    >
       <div
         class="info-bar-dekstop"
-        style="--color-info-bar-text: {{ color_info_bar_text }}; --color-info-bar-bg: {{ color_info_bar_bg -}};--color-announcement-background-bg: {{ background_color -}};{%if background_color != 'transparent' and background_color != 'rgba(0,0,0,0)'%}background:{{background_color}} !important; {% endif %}"
+        style="--color-info-bar-text: {{ color_info_bar_text }}; --color-info-bar-bg: {{ color_info_bar_bg -}};"
       >
         <div
           class="info-bar--inner"
