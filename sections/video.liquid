@@ -8,13 +8,29 @@
   assign video_hosted = section.settings.video_hosted
   assign video_autoplay = section.settings.video_autoplay
   assign aspect_ratio = section.settings.aspect_ratio
-
+  assign desktop_height = section.settings.desktop_height
+  assign mobile_height = section.settings.mobile_height
   assign marker_color = section.settings.marker_color
 
   assign disable_top_spacing = section.settings.disable_top_spacing
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
   assign background_image = section.settings.background_image
   assign halloween_skull_flag = section.settings.halloween_skull_flag
+
+  case mobile_height
+    when 'mobile-height-345'
+      assign mobile_image_height = 345
+    when 'mobile-height-350'
+      assign mobile_image_height = 350
+    when 'mobile-height-400'
+      assign mobile_image_height = 400
+    when 'mobile-height-450'
+      assign mobile_image_height = 450
+    when 'mobile-height-500'
+      assign mobile_image_height = 500
+    else
+      assign mobile_image_height = 900
+  endcase
 -%}
 <div class="{% if settings.halloween_flag and halloween_skull_flag %} video-section-container video-section-container-halloween{% endif %}">
   {%- if settings.halloween_flag and halloween_skull_flag -%}
@@ -45,7 +61,7 @@
           marker_style: marker_style
         %}
       </div>
-      <div class="video-section--container video-aspect--{{ aspect_ratio }}">
+      <div class="video-section--container video-aspect--{{ aspect_ratio }}  {{ mobile_height }} {{ desktop_height }}">
         {%- if video_hosted != blank -%}
           {%- liquid
             assign sizes = '1280x'
@@ -157,6 +173,74 @@
       "default": true,
       "label": "Autoplay",
       "info": "Video will be muted"
+    },
+    {
+      "type": "select",
+      "id": "desktop_height",
+      "label": "Desktop height",
+      "options": [
+        {
+          "value": "desktop-height-450",
+          "label": "450px"
+        },
+        {
+          "value": "desktop-height-480",
+          "label": "480px"
+        },
+        {
+          "value": "desktop-height-550",
+          "label": "550px"
+        },
+        {
+          "value": "desktop-height-650",
+          "label": "650px"
+        },
+        {
+          "value": "desktop-height-800",
+          "label": "800px"
+        },
+        {
+          "value": "desktop-height-full",
+          "label": "Full screen"
+        }
+      ],
+      "default": "desktop-height-480"
+    },
+    {
+      "type": "select",
+      "id": "mobile_height",
+      "label": "Mobile height",
+      "options": [
+        {
+          "value": "mobile-height-auto",
+          "label": "Adapt to content"
+        },
+        {
+          "value": "mobile-height-345",
+          "label": "345px"
+        },
+        {
+          "value": "mobile-height-350",
+          "label": "350px"
+        },
+        {
+          "value": "mobile-height-400",
+          "label": "400px"
+        },
+        {
+          "value": "mobile-height-450",
+          "label": "450px"
+        },
+        {
+          "value": "mobile-height-500",
+          "label": "500px"
+        },
+        {
+          "value": "mobile-height-full",
+          "label": "Full screen"
+        }
+      ],
+      "default": "mobile-height-345"
     },
     {
       "type": "select",
