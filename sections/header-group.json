@@ -55,10 +55,37 @@
             "text": "Free shipping",
             "link": ""
           }
+        },
+        "text_PWxYtC": {
+          "type": "text",
+          "settings": {
+            "icon": "plane",
+            "text": "Worry Free return",
+            "link": ""
+          }
+        },
+        "text_y6qtbn": {
+          "type": "text",
+          "settings": {
+            "icon": "corn",
+            "text": "Lifetime support",
+            "link": ""
+          }
+        },
+        "text_JGpMAa": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "Add campaign text here.",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "text_ACm6Rt"
+        "text_ACm6Rt",
+        "text_PWxYtC",
+        "text_y6qtbn",
+        "text_JGpMAa"
       ],
       "settings": {
         "info_bar": true,
