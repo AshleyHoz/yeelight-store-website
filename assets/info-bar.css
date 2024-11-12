@@ -43,10 +43,6 @@
 }
 
 @media (max-width: 768px) {
-  .info-bar {
-    padding: 0;
-  }
-
   .info-bar-dekstop {
     display: none;
   }
