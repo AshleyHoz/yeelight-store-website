@@ -87,6 +87,7 @@
     display: flex;
     width: 20px;
     height: 20px;
+    margin-top: -21px;
     opacity: 1;
     box-shadow: none;
     background: transparent;
