@@ -81,6 +81,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .activity-blackfriday {
+    padding: 24px 0;
+  }
   .activity-blackfriday-row {
     margin-top: 0;
   }
