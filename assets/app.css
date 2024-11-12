@@ -2536,6 +2536,7 @@ scroll-shadow > * {
 @media only screen and (max-width: 767px) {
   .mobile-height-345 {
     min-height: 345px;
+    height: 345px;
   }
 }
 
@@ -2601,6 +2602,7 @@ scroll-shadow > * {
 @media only screen and (min-width: 768px) {
   .desktop-height-480 {
     min-height: 480px;
+    height: 480px;
   }
 }
 
