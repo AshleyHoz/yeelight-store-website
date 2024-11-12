@@ -27,7 +27,7 @@
         class="info-bar--inner"
       >
         {%- for block in section.blocks -%}
-          <div class="info-bar--item carousel__slide">
+          <div class="info-bar--item">
             {%- render 'svg-icons-custom' with block.settings.icon -%}
             <div class="bar-text">
               {{ block.settings.text }}
@@ -41,7 +41,7 @@
       data-autoplay="{{ autoplay }}"
     >
       {%- for block in section.blocks -%}
-        <div class="info-bar--item">
+        <div class="info-bar--item carousel__slide">
           {%- render 'svg-icons-custom' with block.settings.icon -%}
           <div class="bar-text">
             {{ block.settings.text }}
