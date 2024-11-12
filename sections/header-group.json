@@ -35,7 +35,7 @@
       ],
       "settings": {
         "announcement_bar": true,
-        "announcement_bar_homepage_only": true,
+        "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
         "direction": "left",
         "speed": "50s",
@@ -89,7 +89,9 @@
       ],
       "settings": {
         "info_bar": true,
-        "info_bar_homepage_only": true,
+        "info_bar_homepage_only": false,
+        "autoplay": true,
+        "autoplay_length": 5,
         "background_color": "#1a1a1a"
       }
     },
