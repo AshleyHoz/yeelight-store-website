@@ -75,6 +75,11 @@
   width: calc(25% - 20px);
 }
 
+.activity-blackfriday-row .activity-blackfriday--product .product-item .product-card {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(50px);
+}
+
 @media only screen and (max-width: 767px) {
   .activity-blackfriday-row {
     margin-top: 0;
