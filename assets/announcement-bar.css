@@ -119,12 +119,12 @@
 }
 .announcement-bar--item .bar-line {
   margin: 0 12px;
-  border-radius: 32px;
-  background: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.4);
 }
 .announcement-bar--item .bar-button a.button {
   color: #fb3b18;
   padding: 5px 12px;
+  height: auto;
 }
 
 .announcement-bar--item svg {
