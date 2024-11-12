@@ -1,0 +1,122 @@
+{%- if section.settings.info_bar -%}
+  {%- liquid
+    assign color_info_bar_text = settings.color_announcement_bar_text
+    assign color_info_bar_bg = settings.color_announcement_bar_bg
+    assign background_color = section.settings.background_color
+    assign show_info_bar = true
+
+    if section.settings.info_bar_homepage_only
+      if template == 'index'
+        assign show_info_bar = true
+      else
+        assign show_info_bar = false
+      endif
+    endif
+  -%}
+  {%- if show_info_bar -%}
+    {{- 'info-bar.css' | asset_url | stylesheet_tag -}}
+    <div
+      class="info-bar"
+      style="--color-info-bar-text: {{ color_info_bar_text }}; --color-info-bar-bg: {{ color_info_bar_bg -}};--color-announcement-background-bg: {{ background_color -}};{%if background_color != 'transparent' and background_color != 'rgba(0,0,0,0)'%}background:{{background_color}} !important; {% endif %}"
+    >
+      <div
+        class="info-bar--inner"
+      >
+        {%- for block in section.blocks -%}
+          <div class="info-bar--item">
+            <div class="bar-icon">
+              {%- render 'svg-icons-custom' with block.settings.icon -%}
+            </div>
+            <div class="bar-text">
+              {{ block.settings.text }}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {%- endif -%}
+{%- endif -%}
+{% schema %}
+{
+  "name": "Info bar",
+  "class": "info-bar-section",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "info_bar",
+      "label": "Enable info bar",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "info_bar_homepage_only",
+      "label": "Show on home page only",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "transparent"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Texxt",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "options": [
+            {
+              "value": "none",
+              "label": "None"
+            },
+            {
+              "value": "shipping",
+              "label": "Shipping"
+            },
+            {
+              "value": "plane",
+              "label": "Plane"
+            },
+            {
+              "value": "corn",
+              "label": "Corn"
+            },
+            {
+              "value": "shield",
+              "label": "Shield"
+            }
+          ],
+          "default": "none",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Content",
+          "default": "Add campaign text here."
+        },
+        {
+          "id": "link",
+          "type": "url",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Info bar",
+      "blocks": [
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
