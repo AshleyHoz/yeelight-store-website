@@ -39,6 +39,41 @@
         class="announcement-bar--inner direction-{{ direction }} announcement-bar--{{ announcement_bar_layout }}"
         style="--marquee-speed: {{ speed }}"
       >
+        {% if announcement_bar_layout == 'single' %}
+          {%- for block in section.blocks -%}
+            <div class="announcement-bar--item">
+              <div class="bar-content">
+                <span class="bar-text">{{ block.settings.text }}</span>
+                {% if block.settings.sub_text != blank %}
+                  <span class="bar-line"> | </span>
+                  <span class="bar-sub-text">{{ block.settings.sub_text }}</span>
+                {% endif %}
+              </div>
+              <div class="bar-button">
+                {% if block.settings.button_text != blank %}
+                  <div class="button-overflow-container">
+                    {% if block.settings.use_text_button %}
+                      {% render 'text-button',
+                        url: block.settings.button_link,
+                        title: block.settings.button_text,
+                        class: block.settings.button_color
+                      %}
+                    {% else %}
+                      <a
+                        class="button {{ block.settings.button_color }}"
+                        href="{{ block.settings.button_link }}"
+                        role="button"
+                        title="{{ block.settings.button_text | escape }}"
+                      >
+                        {{- block.settings.button_text -}}
+                      </a>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        {% endif %}
         {%- if announcement_bar_layout == 'marquee' -%}
           {%- capture scrolling_text -%}
 					<div>
@@ -120,6 +155,10 @@
       "id": "announcement_bar_layout",
       "options": [
         {
+          "value": "single",
+          "label": "Single"
+        },
+        {
           "value": "marquee",
           "label": "Marquee"
         },
@@ -128,7 +167,7 @@
           "label": "Carousel"
         }
       ],
-      "default": "carousel",
+      "default": "single",
       "label": "Layout"
     },
     {
@@ -404,9 +443,57 @@
           "default": "Add campaign text here."
         },
         {
+          "type": "text",
+          "id": "sub_text",
+          "label": "Sub Content",
+          "default": "Add sub campaign text here."
+        },
+        {
           "id": "link",
           "type": "url",
           "label": "Link"
+        },
+        {
+          "type": "header",
+          "content": "Button"
+        },
+        {
+          "id": "button_text",
+          "type": "text",
+          "label": "Label",
+          "default": "Shop Now",
+          "info": "Leave the label blank to hide the button."
+        },
+        {
+          "type": "select",
+          "id": "button_color",
+          "label": "Color",
+          "options": [
+            {
+              "value": "regular",
+              "label": "Regular"
+            },
+            {
+              "value": "accent",
+              "label": "Accent"
+            },
+            {
+              "value": "white",
+              "label": "White"
+            }
+          ],
+          "default": "accent"
+        },
+        {
+          "id": "button_link",
+          "type": "url",
+          "label": "Button Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_text_button",
+          "label": "Use text button",
+          "default": false
         },
         {
           "type": "header",
