@@ -43,11 +43,11 @@
 }
 
 @media (max-width: 768px) {
-  .info-bar-mobile {
-    display: block;
-  }
-
   .info-bar {
     display: none;
+  }
+
+  .info-bar-mobile {
+    display: block;
   }
 }
