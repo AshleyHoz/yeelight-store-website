@@ -58,10 +58,10 @@
 }
 
 .text-with-icons__block {
-  display: flex;
+  /* display: flex;
   align-items: center;
   scroll-snap-align: center;
-  scroll-snap-stop: always;
+  scroll-snap-stop: always; */
   border-radius: 30px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   position: relative;
@@ -107,8 +107,8 @@
   width: 100%;
 }
 .text-with-icons__icon svg {
-  width: 100%;
-  height: auto;
+  /* width: 100%; */
+  /* height: auto; */
   fill: var(--color-text, --color-accent);
 }
 .text-with-icons__icon img {
