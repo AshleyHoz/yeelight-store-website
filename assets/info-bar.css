@@ -43,7 +43,7 @@
 }
 
 @media (max-width: 768px) {
-  .info-bar {
+  .info-bar-dekstop {
     display: none;
   }
 
