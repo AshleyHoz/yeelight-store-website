@@ -1033,7 +1033,7 @@
     position: absolute;
     z-index: 30;
     display: flex;
-    padding: 4px 6px 11px 6px;
+    padding: 2px 6px 11px 6px;
     flex-direction: column;
     align-items: center;
     flex-shrink: 0;
@@ -1082,9 +1082,13 @@
     color: #000000;
   }
 
-  .section-activity-black-friday .product-card .badge svg {
+  .section-activity-black-friday .product-card .badge {
     width: 42px;
     height: 48px;
+  }
+
+  .section-activity-black-friday .product-card .badge svg {
+    padding: 4px 6px 11px 6px;
   }
 
   .product-card-cover {
