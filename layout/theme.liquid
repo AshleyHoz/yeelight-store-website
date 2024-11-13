@@ -100,19 +100,18 @@
       head.appendChild(style);
 
       document.addEventListener("DOMContentLoaded", function() {
-        console.log("DOMContentLoaded is running...");
         // 确保 Shopify.currency 库已加载
         if (typeof Shopify !== 'undefined' && typeof Shopify.currency !== 'undefined') {
-                  console.log("Shopify is running...");
 
           // 获取当前用户选择的货币
           var currentCurrency = Shopify.currency.active;
           
           // 检查当前货币是否是美元（USD）或加拿大元（CAD）
           if (currentCurrency === 'USD' || currentCurrency === 'CAD') {
-            console.log("meetbot is running...");
             // 隐藏 class 为 meetbot-widget-popover 的元素
             var widgetElements = document.querySelectorAll('.meetbot-widget-popover');
+                        console.log(widgetElements);
+
             widgetElements.forEach(function(element) {
               element.style.display = 'none';
             });
