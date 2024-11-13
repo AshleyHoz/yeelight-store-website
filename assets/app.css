@@ -5836,19 +5836,19 @@ input[type='submit'].accent .spinner-path {
   stroke: var(--bg-body);
 }
 
+.section-theme-white .button.accent,
+.section-theme-white input[type='submit'].accent {
+  border: 1px solid #000000;
+  background: rgba(255, 255, 255, 0.15);
+  color: #2c2d2e;
+}
+
 .cart-drawer .button.accent.checkout,
 .thb-cart-form .button.accent.checkout {
   border: 1px solid transparent;
   color: #fff;
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
   position: relative;
-}
-
-.section-theme-white .button.accent,
-.section-theme-white input[type='submit'].accent {
-  border: 1px solid #000000;
-  background: rgba(255, 255, 255, 0.15);
-  color: #2c2d2e;
 }
 
 .section-activity-halloween .button.accent,
@@ -5906,13 +5906,6 @@ input[type='submit'].accent .spinner-path {
     position: relative;
   }
 
-  .section-activity-halloween .button.accent:hover,
-  .section-activity-halloween input[type='submit'].accent:hover {
-    border: 1px solid transparent;
-    background: #fe772d;
-    color: #ffffff;
-  }
-
   .cart-drawer .button.accent.checkout:hover::before,
   .thb-cart-form .button.accent.checkout:hover::before {
     content: '';
@@ -5924,6 +5917,13 @@ input[type='submit'].accent .spinner-path {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.1);
+  }
+
+  .section-activity-halloween .button.accent:hover,
+  .section-activity-halloween input[type='submit'].accent:hover {
+    border: 1px solid transparent;
+    background: #fe772d;
+    color: #ffffff;
   }
   /* .section-activity-black-friday .button.accent:hover,
   .section-activity-black-friday input[type='submit'].accent:hover {
