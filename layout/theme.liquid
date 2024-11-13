@@ -100,8 +100,11 @@
       head.appendChild(style);
 
       document.addEventListener("DOMContentLoaded", function() {
+        console.log("DOMContentLoaded is running...");
         // 确保 Shopify.currency 库已加载
         if (typeof Shopify !== 'undefined' && typeof Shopify.currency !== 'undefined') {
+                  console.log("Shopify is running...");
+
           // 获取当前用户选择的货币
           var currentCurrency = Shopify.currency.active;
           
