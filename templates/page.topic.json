@@ -141,6 +141,8 @@
         "full_width": false,
         "video": "https://youtu.be/Sq0umd4-o0I?si=BoqlOZuPLnZj4vzf",
         "video_autoplay": false,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-345",
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
         "disable_top_spacing": false,
