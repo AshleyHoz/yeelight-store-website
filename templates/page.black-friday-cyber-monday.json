@@ -121,7 +121,7 @@
     "video_Mhwhcz": {
       "type": "video",
       "settings": {
-        "heading": "Dive into the Holiday Light Show",
+        "heading": "Dive into the Holiday <span>Light Show</span>",
         "marker_style": "style1",
         "description": "<p>Watch now to see a captivating display that will brighten your holiday season.</p>",
         "full_width": false,
