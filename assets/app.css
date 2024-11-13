@@ -5845,7 +5845,7 @@ input[type='submit'].accent .spinner-path {
 
 .cart-drawer .button.accent.checkout,
 .thb-cart-form .button.accent.checkout-button {
-  border: 1px solid transparent;
+  border: none;
   color: #fff;
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
   position: relative;
@@ -5900,7 +5900,7 @@ input[type='submit'].accent .spinner-path {
 
   .cart-drawer .button.accent.checkout:hover,
   .thb-cart-form .button.accent.checkout-button:hover {
-    border: 1px solid transparent;
+    border: none;
     color: #fff;
     background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
     position: relative;
