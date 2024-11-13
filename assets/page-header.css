@@ -22,7 +22,7 @@
   background: var(--color-accent);
 }
 
-.breadcrumbs-section + .page-header-section .page-header {
+.breadcrumbs-section + .yee-page-header .page-header {
   padding-top: 10px;
 }
 

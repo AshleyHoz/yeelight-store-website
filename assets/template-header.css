@@ -101,10 +101,10 @@
   box-shadow: none;
 }
 
-.section-theme-white {
+.yee-theme-white {
   background: var(--color-product-bg);
 }
 
-.section-theme-white .template-header--title {
+.yee-theme-white .template-header--title {
   color: #1a1c1d;
 }

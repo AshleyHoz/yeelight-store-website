@@ -330,40 +330,40 @@
   margin-top: 10px;
 }
 
-.section-theme-white {
+.yee-theme-white {
   width: 100%;
 }
 
-.section-theme-white,
-.section-theme-white .thb-cart-collaterals .field label {
+.yee-theme-white,
+.yee-theme-white .thb-cart-collaterals .field label {
   background: var(--color-product-bg);
 }
 
-.section-theme-white,
-.section-theme-white a,
-.section-theme-white .quantity .qty,
-.section-theme-white .price,
-.section-theme-white .text-button,
-.section-theme-white .thb-cart-collaterals .field textarea,
-.section-theme-white .thb-cart-collaterals .field label {
+.yee-theme-white,
+.yee-theme-white a,
+.yee-theme-white .quantity .qty,
+.yee-theme-white .price,
+.yee-theme-white .text-button,
+.yee-theme-white .thb-cart-collaterals .field textarea,
+.yee-theme-white .thb-cart-collaterals .field label {
   color: var(--color-product-font);
 }
 
-.section-theme-white table.no-borders thead th,
-.section-theme-white .thb-cart-collaterals,
-.section-theme-white .quantity,
-.section-theme-white .free-shipping--bar .free-shipping--percentage,
-.section-theme-white .thb-cart-collaterals .field textarea {
+.yee-theme-white table.no-borders thead th,
+.yee-theme-white .thb-cart-collaterals,
+.yee-theme-white .quantity,
+.yee-theme-white .free-shipping--bar .free-shipping--percentage,
+.yee-theme-white .thb-cart-collaterals .field textarea {
   border-color: var(--color-product-border);
 }
 
-.section-theme-white .quantity svg path,
-.section-theme-white .thb-cart-form--continue svg path,
-.section-theme-white .loading-overlay svg circle {
+.yee-theme-white .quantity svg path,
+.yee-theme-white .thb-cart-form--continue svg path,
+.yee-theme-white .loading-overlay svg circle {
   stroke: var(--color-product-font);
 }
 
-.section-theme-white .field label {
+.yee-theme-white .field label {
   position: absolute;
   top: 2px;
   left: 2px;

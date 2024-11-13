@@ -6,17 +6,17 @@ window.addEventListener('load', () => {
       new CartDrawer();
     }
     if (
-      section.classList.contains('product-section') ||
-      section.classList.contains('section-collection-tabs') ||
-      section.classList.contains('section-image-with-text-slideshow') ||
-      section.classList.contains('section-media-with-tabs') ||
-      section.classList.contains('section-customer-reviews') ||
-      section.classList.contains('section-testimonials')
+      section.classList.contains('yee-product') ||
+      section.classList.contains('yee-collection-tabs') ||
+      section.classList.contains('yee-image-with-text-slideshow') ||
+      section.classList.contains('yee-media-with-tabs') ||
+      section.classList.contains('yee-customer-reviews') ||
+      section.classList.contains('yee-testimonials')
     ) {
       window.dispatchEvent(new Event('resize'));
     }
 
-    if (section.classList.contains('section-slideshow')) {
+    if (section.classList.contains('yee-slideshow')) {
       window.dispatchEvent(new Event('resize'));
     }
 

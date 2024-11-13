@@ -2933,7 +2933,7 @@ h6,
   }
 }
 
-.header-section {
+.yee-header {
   position: sticky;
   top: 0;
   left: 0;
@@ -5342,52 +5342,52 @@ input[type='radio'],
   background: #fe2b39;
 }
 
-.section-theme-white,
-.section-theme-white .side-panel-header,
-.section-theme-white .order-note-toggle__content {
+.yee-theme-white,
+.yee-theme-white .side-panel-header,
+.yee-theme-white .order-note-toggle__content {
   background: var(--color-product-bg);
 }
-.section-theme-white .side-panel-header,
-.section-theme-white .quantity,
-.section-theme-white .side-panel-footer,
-.section-theme-white .order-note-toggle__content textarea,
-.section-theme-white .product-card-small {
+.yee-theme-white .side-panel-header,
+.yee-theme-white .quantity,
+.yee-theme-white .side-panel-footer,
+.yee-theme-white .order-note-toggle__content textarea,
+.yee-theme-white .product-card-small {
   border-color: #d3d3d3;
 }
 
-.section-theme-white .free-shipping--percentage {
+.yee-theme-white .free-shipping--percentage {
   background: #d3d3d3;
 }
 
-.section-theme-white .side-panel-header .h6,
-.section-theme-white .free-shipping,
-.section-theme-white .product-cart-item .cart-product-link,
-.section-theme-white .product-cart-item .product-cart-item-options,
-.section-theme-white .product-cart-item .price .amount,
-.section-theme-white .product-cart-item .product-cart-item-price .price .amount,
-.section-theme-white .product-cart-item .quantity .qty,
-.section-theme-white .product-card-small--link,
-.section-theme-white .product-card-small--add-to-cart-button,
-.section-theme-white .price .custom-amount-ins,
-.section-theme-white .price .unit-price,
-.section-theme-white .cart-drawer-footer,
-.section-theme-white .price .unit-price,
-.section-theme-white .cart-drawer-footer a,
-.section-theme-white .cart-drawer-footer .price,
-.section-theme-white .cart-drawer-footer .order-note-toggle,
-.section-theme-white .order-note-toggle__content label,
-.section-theme-white .order-note-toggle__content textarea,
-.section-theme-white .complementary-products--heading,
-.section-theme-white .price .custom-amount-del,
-.section-theme-white .price .custom-amount-ins {
+.yee-theme-white .side-panel-header .h6,
+.yee-theme-white .free-shipping,
+.yee-theme-white .product-cart-item .cart-product-link,
+.yee-theme-white .product-cart-item .product-cart-item-options,
+.yee-theme-white .product-cart-item .price .amount,
+.yee-theme-white .product-cart-item .product-cart-item-price .price .amount,
+.yee-theme-white .product-cart-item .quantity .qty,
+.yee-theme-white .product-card-small--link,
+.yee-theme-white .product-card-small--add-to-cart-button,
+.yee-theme-white .price .custom-amount-ins,
+.yee-theme-white .price .unit-price,
+.yee-theme-white .cart-drawer-footer,
+.yee-theme-white .price .unit-price,
+.yee-theme-white .cart-drawer-footer a,
+.yee-theme-white .cart-drawer-footer .price,
+.yee-theme-white .cart-drawer-footer .order-note-toggle,
+.yee-theme-white .order-note-toggle__content label,
+.yee-theme-white .order-note-toggle__content textarea,
+.yee-theme-white .complementary-products--heading,
+.yee-theme-white .price .custom-amount-del,
+.yee-theme-white .price .custom-amount-ins {
   color: var(--color-product-font);
 }
 
-.section-theme-white .price .custom-amount-del,
-.section-theme-white .price .custom-amount-del {
+.yee-theme-white .price .custom-amount-del,
+.yee-theme-white .price .custom-amount-del {
   opacity: 0.6;
 }
-.section-theme-white scroll-shadow {
+.yee-theme-white scroll-shadow {
   display: inline-block;
   /* width: 100%; */
   --scroll-shadow-size: 20;
@@ -5397,18 +5397,18 @@ input[type='radio'],
   --scroll-shadow-right: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
-.section-theme-white .product-card-small--add-to-cart-icon svg path {
+.yee-theme-white .product-card-small--add-to-cart-icon svg path {
   fill: var(--color-product-font);
 }
 
-.section-theme-white .side-panel-close svg path,
-.section-theme-white .quantity .minus svg path,
-.section-theme-white .quantity .plus svg path,
-.section-theme-white .product-card-small--add-to-cart-icon .loading-overlay svg circle {
+.yee-theme-white .side-panel-close svg path,
+.yee-theme-white .quantity .minus svg path,
+.yee-theme-white .quantity .plus svg path,
+.yee-theme-white .product-card-small--add-to-cart-icon .loading-overlay svg circle {
   stroke: var(--color-product-font);
 }
 
-.section-theme-white .complementary-products--heading {
+.yee-theme-white .complementary-products--heading {
   font-size: 18px;
   font-weight: 600;
   line-height: 18px;
@@ -5848,22 +5848,22 @@ input[type='radio'],
   justify-content: center;
 }
 
-.section-theme-white .button.accent,
-.section-theme-white input[type='submit'].accent {
+.yee-theme-white .button.accent,
+.yee-theme-white input[type='submit'].accent {
   border: 1px solid #000000;
   background: rgba(255, 255, 255, 0.15);
   color: #2c2d2e;
 }
 
 .section-activity-halloween .button.accent,
-.section-theme-white input[type='submit'].accent {
+.yee-theme-white input[type='submit'].accent {
   border: 1px solid #fe772d;
   background: rgba(254, 119, 45, 0.1);
   color: #fe772d;
 }
 
 .section-activity-black-friday .button.accent,
-.section-theme-white input[type='submit'].accent {
+.yee-theme-white input[type='submit'].accent {
   border: 1px solid #fe2b39;
   background: rgba(254, 43, 57, 0.1);
   color: #fe2b39;
@@ -5874,8 +5874,8 @@ input[type='radio'],
   stroke: #fe2b39;
 }
 @media screen and (hover: hover) {
-  .section-theme-white .button.accent:hover,
-  .section-theme-white input[type='submit'].accent:hover {
+  .yee-theme-white .button.accent:hover,
+  .yee-theme-white input[type='submit'].accent:hover {
     border: 1px solid transparent;
     background: #000000;
     color: #ffffff;

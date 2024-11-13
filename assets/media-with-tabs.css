@@ -1,7 +1,7 @@
-.section-media-with-tabs {
+.yee-media-with-tabs {
   padding: 60px 0;
 }
-.section-media-with-tabs .section-header--content {
+.yee-media-with-tabs .section-header--content {
   width: 100%;
   text-align: center;
 }
@@ -174,7 +174,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .section-media-with-tabs {
+  .yee-media-with-tabs {
     padding: 40px 0;
   }
 

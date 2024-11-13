@@ -1,4 +1,4 @@
-.section-collapsible-title-content {
+.yee-collapsible-title-content {
   padding: 60px;
 }
 
@@ -124,7 +124,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .section-collapsible-title-content {
+  .yee-collapsible-title-content {
     padding: 40px 0;
   }
   .collapsible-content {

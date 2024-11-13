@@ -8,10 +8,10 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
 }
 
-.section-slideshow .row.full-width-row {
+.yee-slideshow .row.full-width-row {
   padding: 0;
 }
-.section-slideshow .row.full-width-row > .columns {
+.yee-slideshow .row.full-width-row > .columns {
   padding: 0;
 }
 

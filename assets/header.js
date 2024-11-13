@@ -16,14 +16,13 @@ if (!customElements.get('theme-header')) {
   class ThemeHeader extends HTMLElement {
     constructor() {
       super();
-
     }
     connectedCallback() {
-      this.header_section = document.querySelector('.header-section');
+      this.header_section = document.querySelector('.yee-header');
       this.menu = this.querySelector('#mobile-menu');
       this.toggle = this.querySelector('.mobile-toggle-wrapper');
 
-      document.addEventListener('keyup', (e) => {
+      document.addEventListener('keyup', e => {
         if (e.code) {
           if (e.code.toUpperCase() === 'ESCAPE') {
             this.toggle.removeAttribute('open');
@@ -34,7 +33,7 @@ if (!customElements.get('theme-header')) {
       if (this.classList.contains('header-sticky--active')) {
         document.body.classList.add('header-sticky--active');
       }
-      this.toggle.querySelector('.mobile-toggle').addEventListener('click', (e) => {
+      this.toggle.querySelector('.mobile-toggle').addEventListener('click', e => {
         if (this.toggle.classList.contains('active')) {
           e.preventDefault();
           document.body.classList.remove('overflow-hidden');
@@ -50,30 +49,28 @@ if (!customElements.get('theme-header')) {
 
       // Sticky Header Class
       window.addEventListener('scroll', this.setStickyClass.bind(this), {
-        passive: true
+        passive: true,
       });
 
       // Mobile Menu offset
       window.addEventListener('scroll', this.setHeaderOffset.bind(this), {
-        passive: true
+        passive: true,
       });
       window.addEventListener('scroll', this.setHeaderHeight.bind(this), {
-        passive: true
+        passive: true,
       });
 
       window.dispatchEvent(new Event('scroll'));
 
-      if (document.querySelector('.announcement-bar-section')) {
-
+      if (document.querySelector('.yee-announcement-bar')) {
         window.addEventListener('scroll', this.setAnnouncementHeight(), {
-          passive: true
+          passive: true,
         });
         window.dispatchEvent(new Event('resize'));
       }
 
       // Mobile Navigation transparent header support.
       setTimeout(() => {
-
         this.mobile_nav = document.querySelector('.header-mobile-navigation');
 
         if (this.mobile_nav && this.classList.contains('transparent--true')) {
@@ -81,8 +78,12 @@ if (!customElements.get('theme-header')) {
         }
       }, 100);
       // Buttons.
-      this.menu.querySelectorAll('summary').forEach(summary => summary.addEventListener('click', this.onSummaryClick.bind(this)));
-      this.menu.querySelectorAll('.parent-link-back--button').forEach(button => button.addEventListener('click', this.onCloseButtonClick.bind(this)));
+      this.menu
+        .querySelectorAll('summary')
+        .forEach(summary => summary.addEventListener('click', this.onSummaryClick.bind(this)));
+      this.menu
+        .querySelectorAll('.parent-link-back--button')
+        .forEach(button => button.addEventListener('click', this.onCloseButtonClick.bind(this)));
     }
     setStickyClass() {
       if (this.classList.contains('header-sticky--active')) {
@@ -91,7 +92,7 @@ if (!customElements.get('theme-header')) {
       }
     }
     setAnnouncementHeight() {
-      const a_bar = document.querySelector('.announcement-bar-section');
+      const a_bar = document.querySelector('.yee-announcement-bar');
       let h = a_bar.clientHeight;
       document.documentElement.style.setProperty('--announcement-height', h + 'px');
     }
@@ -128,7 +129,7 @@ if (!customElements.get('theme-header')) {
     closeAnimation(detailsElement) {
       let animationStart;
 
-      const handleAnimation = (time) => {
+      const handleAnimation = time => {
         if (animationStart === undefined) {
           animationStart = time;
         }
@@ -157,7 +158,9 @@ if (!customElements.get('full-menu')) {
     constructor() {
       super();
 
-      this.submenus = this.querySelectorAll('.thb-full-menu>.menu-item-has-children:not(.menu-item-has-megamenu)>.sub-menu');
+      this.submenus = this.querySelectorAll(
+        '.thb-full-menu>.menu-item-has-children:not(.menu-item-has-megamenu)>.sub-menu'
+      );
     }
     connectedCallback() {
       if (!this.submenus.length) {
@@ -165,18 +168,20 @@ if (!customElements.get('full-menu')) {
       }
       const _this = this;
       // resize on initial load
-      document.fonts.ready.then(function() {
-        window.addEventListener('resize', debounce(function() {
-          _this.resizeSubMenus();
-        }, 100));
+      document.fonts.ready.then(function () {
+        window.addEventListener(
+          'resize',
+          debounce(function () {
+            _this.resizeSubMenus();
+          }, 100)
+        );
       });
-
     }
     resizeSubMenus() {
-      this.submenus.forEach((submenu) => {
+      this.submenus.forEach(submenu => {
         let sub_submenus = submenu.querySelectorAll(':scope >.menu-item-has-children>.sub-menu');
 
-        sub_submenus.forEach((sub_submenu) => {
+        sub_submenus.forEach(sub_submenu => {
           let w = sub_submenu.offsetWidth,
             l = sub_submenu.parentElement.getBoundingClientRect().left + sub_submenu.parentElement.offsetWidth,
             total = w + l;

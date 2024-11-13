@@ -34,7 +34,7 @@
     	--logo-height-mobile: {{ logo_height_range_mobile | append: 'px' }};
     }
     {% unless sticky_header %}
-    .header-section {
+    .yee-header {
     	position: static !important;
     }
     {%- endunless -%}
@@ -83,7 +83,7 @@
 {% schema %}
 {
   "name": "Header",
-  "class": "header-section",
+  "class": "yee-header",
   "settings": [
     {
       "type": "checkbox",
