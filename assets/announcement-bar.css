@@ -27,7 +27,7 @@
   background: linear-gradient(90deg, #ff3b10 1.2%, #d33255 38.01%, #9a26ab 72.41%, #641bff 99.67%);
   color: var(--color-announcement-bar-text, #fff);
   line-height: 1;
-  padding: 12px 0;
+  padding: 6px 0;
 }
 .announcement-bar--inner {
   height: 100%;
@@ -95,11 +95,37 @@
   stroke: var(--color-announcement-bar-text, #fff);
 }
 .announcement-bar--item {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  padding: 0 20px;
+  justify-content: center;
   line-height: 1.1;
+  width: 100%;
 }
+.announcement-bar--item .bar-content {
+  margin-right: 12px;
+}
+.announcement-bar--item .bar-text {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+}
+.announcement-bar--item .bar-sub-text {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.24px;
+}
+.announcement-bar--item .bar-line {
+  margin: 0 12px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.announcement-bar--item .bar-button a.button {
+  color: #fb3b18;
+  padding: 5px 12px;
+  height: auto;
+}
+
 .announcement-bar--item svg {
   margin-right: 12px;
   height: 14px;
@@ -128,6 +154,20 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .announcement-bar {
+    padding: 8px 0;
+  }
+
+  .announcement-bar--item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .announcement-bar--item .announcement-bar--item .bar-content {
+    margin-right: 0;
+  }
+
   .announcement-bar--carousel .carousel {
     width: 80%;
   }

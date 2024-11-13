@@ -1,4 +1,4 @@
-{{ 'acitivity-products.css' | asset_url | stylesheet_tag }}
+{{ 'acitivity-halloween.css' | asset_url | stylesheet_tag }}
 {{ 'product-grid.css' | asset_url | stylesheet_tag }}
 {%- liquid
   assign image = section.settings.image
@@ -7,9 +7,9 @@
   assign background_image_mobile = section.settings.background_image_mobile
 -%}
 
-<div class="acitivity-products {% if settings.halloween_flag  %} activity-products-halloween {% endif %}">
-  <div class="acitivity-products-bg">
-    <div class="acitivity-products-bg-icons">
+<div class="acitivity-halloween">
+  <div class="acitivity-halloween-bg">
+    <div class="acitivity-halloween-bg-icons">
       <div class="ic-spider-left">
         {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-left' -%}
       </div>
@@ -21,7 +21,7 @@
       </div>
     </div>
   </div>
-  <div class="acitivity-products--img">
+  <div class="acitivity-halloween--img">
     <div class="mobile-cover-img">
       {%- if background_image_mobile -%}
         {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
@@ -33,15 +33,15 @@
       {%- endif -%}
     </div>
   </div>
-  <div class="row activity-products-row">
-    <div class="acitivity-products--product">
+  <div class="row activity-halloween-row">
+    <div class="acitivity-halloween--product">
       {% for block in section.blocks %}
         <div class="product-item">
           {% render 'product-card', product_card_product: block.settings.product %}
         </div>
       {% endfor %}
     </div>
-    <div class="acitivity-products--info">
+    <div class="acitivity-halloween--info">
       <div class="mobile-info-img">
         {%- if image_mobile -%}
           {%- render 'responsive-image', image: image_mobile, sizes: image_mobile.src.width | append: 'x' | append: image_mobile.src.height -%}
@@ -58,8 +58,8 @@
 
 {% schema %}
 {
-  "name": "Activity Products",
-  "class": "section-acitivity-products",
+  "name": "Activity Halloween",
+  "class": "section-acitivity-halloween",
   "settings": [
     {
       "type": "text",
@@ -78,22 +78,6 @@
       "id": "image_mobile",
       "label": "Mobile image",
       "info": "750 x 800 px .jpg recommended. Default image is used if none is selected. To position the hotspots precisely, switch to mobile mode."
-    },
-    {
-      "type": "select",
-      "id": "reverse",
-      "options": [
-        {
-          "value": "row-regular",
-          "label": "Right"
-        },
-        {
-          "value": "row-reverse",
-          "label": "Left"
-        }
-      ],
-      "default": "row-regular",
-      "label": "Product Position"
     },
     {
       "type": "image_picker",
@@ -127,7 +111,7 @@
   ],
   "presets": [
     {
-      "name": "Activity Products",
+      "name": "Activity Halloween",
       "blocks": [
         {
           "type": "product"

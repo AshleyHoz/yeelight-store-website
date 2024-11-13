@@ -101,10 +101,10 @@
   box-shadow: none;
 }
 
-.section-template-header-white {
+.section-theme-white {
   background: var(--color-product-bg);
 }
 
-.section-template-header-white .template-header--title {
+.section-theme-white .template-header--title {
   color: #1a1c1d;
 }

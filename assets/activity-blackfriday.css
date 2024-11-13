@@ -1,0 +1,115 @@
+.activity-blackfriday {
+  position: relative;
+  padding: 70px 0;
+  background: #100a29;
+}
+
+.activity-blackfriday-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #100a29;
+}
+
+.activity-blackfriday-bg-icons {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.activity-blackfriday--img {
+  position: relative;
+  width: 100%;
+  max-width: 1750px;
+  z-index: 2;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.activity-blackfriday-row {
+  position: relative;
+  z-index: 2;
+}
+
+.activity-blackfriday-header {
+  width: 100%;
+}
+
+.activity-blackfriday--info {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.activity-blackfriday--img .mobile-cover-img,
+.activity-blackfriday--info .mobile-info-img {
+  display: none;
+}
+
+.activity-blackfriday--info .info-img,
+.activity-blackfriday--info .mobile-info-img {
+  width: 100%;
+  text-align: center;
+}
+
+.activity-blackfriday--info .info-img img,
+.activity-blackfriday--info .mobile-info-img img {
+  margin: 0 auto;
+}
+
+.activity-blackfriday--info .info-img img {
+  width: 60%;
+}
+
+.activity-blackfriday-row .activity-blackfriday--product {
+  width: 100%;
+  gap: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.activity-blackfriday-row .activity-blackfriday--product .product-item {
+  width: calc(25% - 20px);
+}
+
+.activity-blackfriday-row .activity-blackfriday--product .product-item .product-card {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 767px) {
+  .activity-blackfriday {
+    padding: 24px 0;
+  }
+  .activity-blackfriday-row {
+    margin-top: 0;
+  }
+
+  .activity-blackfriday-row .activity-blackfriday--product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .activity-blackfriday-row .activity-blackfriday--product .product-item {
+    width: calc(50% - 6px);
+  }
+
+  .activity-blackfriday--info {
+    margin-top: 26px;
+  }
+
+  .activity-blackfriday--img .mobile-cover-img,
+  .activity-blackfriday--info .mobile-info-img {
+    display: block;
+  }
+
+  .activity-blackfriday--img .cover-img,
+  .activity-blackfriday--info .info-img,
+  .activity-blackfriday-bg-icons .ic-bg-left,
+  .activity-blackfriday-bg-icons .ic-bg-right {
+    display: none;
+  }
+}

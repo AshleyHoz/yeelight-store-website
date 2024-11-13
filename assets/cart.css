@@ -330,40 +330,40 @@
   margin-top: 10px;
 }
 
-.section-main-cart-white {
+.section-theme-white {
   width: 100%;
 }
 
-.section-main-cart-white,
-.section-main-cart-white .thb-cart-collaterals .field label {
+.section-theme-white,
+.section-theme-white .thb-cart-collaterals .field label {
   background: var(--color-product-bg);
 }
 
-.section-main-cart-white,
-.section-main-cart-white a,
-.section-main-cart-white .quantity .qty,
-.section-main-cart-white .price,
-.section-main-cart-white .text-button,
-.section-main-cart-white .thb-cart-collaterals .field textarea,
-.section-main-cart-white .thb-cart-collaterals .field label {
+.section-theme-white,
+.section-theme-white a,
+.section-theme-white .quantity .qty,
+.section-theme-white .price,
+.section-theme-white .text-button,
+.section-theme-white .thb-cart-collaterals .field textarea,
+.section-theme-white .thb-cart-collaterals .field label {
   color: var(--color-product-font);
 }
 
-.section-main-cart-white table.no-borders thead th,
-.section-main-cart-white .thb-cart-collaterals,
-.section-main-cart-white .quantity,
-.section-main-cart-white .free-shipping--bar .free-shipping--percentage,
-.section-main-cart-white .thb-cart-collaterals .field textarea {
+.section-theme-white table.no-borders thead th,
+.section-theme-white .thb-cart-collaterals,
+.section-theme-white .quantity,
+.section-theme-white .free-shipping--bar .free-shipping--percentage,
+.section-theme-white .thb-cart-collaterals .field textarea {
   border-color: var(--color-product-border);
 }
 
-.section-main-cart-white .quantity svg path,
-.section-main-cart-white .thb-cart-form--continue svg path,
-.section-main-cart-white .loading-overlay svg circle {
+.section-theme-white .quantity svg path,
+.section-theme-white .thb-cart-form--continue svg path,
+.section-theme-white .loading-overlay svg circle {
   stroke: var(--color-product-font);
 }
 
-.section-main-cart-white .field label {
+.section-theme-white .field label {
   position: absolute;
   top: 2px;
   left: 2px;

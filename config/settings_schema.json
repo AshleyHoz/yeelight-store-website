@@ -1222,9 +1222,19 @@
     "name": "Activity",
     "settings": [
       {
+        "type": "header",
+        "content": "If you want to open an activity, only one activity is allowed to be opened."
+      },
+      {
         "type": "checkbox",
         "id": "halloween_flag",
         "label": "Enable halloween css globally",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "black_friday_flag",
+        "label": "Enable black friday css globally",
         "default": false
       }
     ]
