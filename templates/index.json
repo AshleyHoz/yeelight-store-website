@@ -12,6 +12,41 @@
     "slideshow_AaGJwH": {
       "type": "slideshow",
       "blocks": {
+        "slide_rYUPUw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Black_Friday_Banner_PC.jpg",
+            "mobile_image": "shopify://shop_images/Black_Friday_Banner_M.jpg",
+            "slide_link": "shopify://pages/black-friday-cyber-monday-deals",
+            "video_background": false,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "transparent",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#ffffff",
+            "color_badge_bg": "#ffffff",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
         "slide_Apj7XN": {
           "type": "slide",
           "settings": {
@@ -154,6 +189,7 @@
         }
       },
       "block_order": [
+        "slide_rYUPUw",
         "slide_Apj7XN",
         "slide_E8nF4j",
         "slide_BDHRjb",
@@ -497,54 +533,6 @@
     },
     "text_with_icons_MqACi7": {
       "type": "text-with-icons",
-      "blocks": {
-        "icon_aBKTbt": {
-          "type": "icon",
-          "settings": {
-            "icon": "none",
-            "image": "shopify://shop_images/IconFree.png",
-            "heading": "Free",
-            "sub_heading": "shipping",
-            "text": "<p>Worldwide shipping</p>"
-          }
-        },
-        "icon_GFyYAm": {
-          "type": "icon",
-          "settings": {
-            "icon": "none",
-            "image": "shopify://shop_images/IconCorn.png",
-            "heading": "Reliable",
-            "sub_heading": "sub_heading",
-            "text": "<p>Money Back Guarantee</p>"
-          }
-        },
-        "icon_RFQH79": {
-          "type": "icon",
-          "settings": {
-            "icon": "none",
-            "image": "shopify://shop_images/IconService.png",
-            "heading": "Worry",
-            "sub_heading": "sub_heading",
-            "text": "<p>Customer Support</p>"
-          }
-        },
-        "icon_h6xJ9e": {
-          "type": "icon",
-          "settings": {
-            "icon": "none",
-            "image": "shopify://shop_images/IconShield.png",
-            "heading": "Lifetime",
-            "sub_heading": "sub_heading",
-            "text": "<p>warranty</p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon_aBKTbt",
-        "icon_GFyYAm",
-        "icon_RFQH79",
-        "icon_h6xJ9e"
-      ],
       "settings": {
         "heading": "Why Choose Us",
         "text_alignment": "center",
