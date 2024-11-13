@@ -109,7 +109,7 @@
 .text-with-icons__icon svg {
   /* width: 100%;
   height: auto; */
-  fill: var(--color-text, --color-accent);
+  /* fill: var(--color-text, --color-accent); */
 }
 .text-with-icons__icon img {
   display: block;
