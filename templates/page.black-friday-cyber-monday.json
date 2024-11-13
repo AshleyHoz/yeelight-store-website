@@ -121,9 +121,9 @@
     "video_Mhwhcz": {
       "type": "video",
       "settings": {
-        "heading": "Video",
+        "heading": "Dive into the Christmas Light Show",
         "marker_style": "style1",
-        "description": "<p>Add a short description for this section</p>",
+        "description": "<p>Watch now to see a captivating display that will brighten your holiday season.</p>",
         "full_width": false,
         "video": "",
         "video_hosted": "shopify://files/videos/Christmas TVC.mp4",
