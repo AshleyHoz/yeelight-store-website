@@ -3991,32 +3991,6 @@ input[type='submit'].white {
     color: var(--white-button-label, var(--color-body, #2c2d2e));
   }
 }
-
-.button.accent,
-input[type='submit'].accent {
-  /* border: 1px solid #fff; */
-  background: rgba(255, 255, 255, 0.15);
-  color: #2c2d2e;
-}
-
-.button.accent .spinner-path,
-input[type='submit'].accent .spinner-path {
-  stroke: var(--bg-body);
-}
-
-@media screen and (hover: hover) {
-  .button.accent:hover,
-  input[type='submit'].accent:hover {
-    border: 1px solid #fff;
-    background: #000000;
-    color: #ffffff;
-  }
-
-  .button.accent:hover .spinner-path,
-  input[type='submit'].accent:hover .spinner-path {
-    stroke: #ffffff;
-  }
-}
 .button[disabled],
 input[type='submit'][disabled] {
   background: rgba(var(--color-body-rgb), 0.4);
@@ -5344,27 +5318,6 @@ input[type='radio'],
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
-.cart-drawer .button.accent.checkout,
-.thb-cart-form .button.accent.checkout {
-  border: 1px solid transparent;
-  color: #fff;
-  background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
-  position: relative;
-}
-
-.cart-drawer .button.accent.checkout:hover::before,
-.thb-cart-form .button.accent.checkout:hover{
-  content: '';
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.1);
-}
-
 .section-theme-white,
 .section-theme-white .side-panel-header,
 .section-theme-white .order-note-toggle__content {
@@ -5871,6 +5824,26 @@ input[type='radio'],
   justify-content: center;
 }
 
+.button.accent,
+input[type='submit'].accent {
+  /* border: 1px solid #fff; */
+  background: rgba(255, 255, 255, 0.15);
+  color: #2c2d2e;
+}
+
+.button.accent .spinner-path,
+input[type='submit'].accent .spinner-path {
+  stroke: var(--bg-body);
+}
+
+.cart-drawer .button.accent.checkout,
+.thb-cart-form .button.accent.checkout {
+  border: 1px solid transparent;
+  color: #fff;
+  background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
+  position: relative;
+}
+
 .section-theme-white .button.accent,
 .section-theme-white input[type='submit'].accent {
   border: 1px solid #000000;
@@ -5906,6 +5879,18 @@ input[type='radio'],
 } */
 
 @media screen and (hover: hover) {
+  .button.accent:hover,
+  input[type='submit'].accent:hover {
+    border: 1px solid #fff;
+    background: #000000;
+    color: #ffffff;
+  }
+
+  .button.accent:hover .spinner-path,
+  input[type='submit'].accent:hover .spinner-path {
+    stroke: #ffffff;
+  }
+
   .section-theme-white .button.accent:hover,
   .section-theme-white input[type='submit'].accent:hover {
     border: 1px solid transparent;
@@ -5920,6 +5905,18 @@ input[type='radio'],
     color: #ffffff;
   }
 
+  .cart-drawer .button.accent.checkout:hover::before,
+  .thb-cart-form .button.accent.checkout:hover {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+  }
   /* .section-activity-black-friday .button.accent:hover,
   .section-activity-black-friday input[type='submit'].accent:hover {
     border: 1px solid transparent;
