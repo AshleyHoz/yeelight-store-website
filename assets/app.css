@@ -5898,6 +5898,14 @@ input[type='submit'].accent .spinner-path {
     color: #ffffff;
   }
 
+  .cart-drawer .button.accent.checkout:hover,
+  .thb-cart-form .button.accent.checkout:hover {
+    border: 1px solid transparent;
+    color: #fff;
+    background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
+    position: relative;
+  }
+
   .section-activity-halloween .button.accent:hover,
   .section-activity-halloween input[type='submit'].accent:hover {
     border: 1px solid transparent;
@@ -5906,7 +5914,7 @@ input[type='submit'].accent .spinner-path {
   }
 
   .cart-drawer .button.accent.checkout:hover::before,
-  .thb-cart-form .button.accent.checkout:hover {
+  .thb-cart-form .button.accent.checkout:hover::before {
     content: '';
     width: 100%;
     height: 100%;
