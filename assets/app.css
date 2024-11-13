@@ -5337,8 +5337,8 @@ input[type='radio'],
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%);
 }
 
-.section-activity-black-friday .button.accent.checkout,
-.section-activity-black-friday .button.accent.checkout:hover {
+.yee-activity-black-friday .button.accent.checkout,
+.yee-activity-black-friday .button.accent.checkout:hover {
   background: #fe2b39;
 }
 
@@ -5456,8 +5456,8 @@ input[type='radio'],
   display: block;
 }
 
-.section-activity-halloween .cart-drawer .cart-drawer-buttons a,
-.section-activity-halloween .cart-drawer .order-note-toggle__content button {
+.yee-activity-halloween .cart-drawer .cart-drawer-buttons a,
+.yee-activity-halloween .cart-drawer .order-note-toggle__content button {
   border-radius: 25px;
   text-align: center;
   font-size: 15px;
@@ -5699,7 +5699,7 @@ input[type='radio'],
   -webkit-text-fill-color: transparent;
 }
 
-.section-activity-halloween .image-product-header .section-header--title > span {
+.yee-activity-halloween .image-product-header .section-header--title > span {
   color: #8aff00;
   background: none;
   -webkit-text-fill-color: #8aff00;
@@ -5806,11 +5806,11 @@ input[type='radio'],
   border: 1px solid transparent;
 }
 
-.section-activity-halloween .product-card-small .product-card-small--info-cart-price .loading-overlay {
+.yee-activity-halloween .product-card-small .product-card-small--info-cart-price .loading-overlay {
   background: #fe772d;
 }
 
-.section-activity-black-friday .product-card-small .product-card-small--info-cart-price .loading-overlay {
+.yee-activity-black-friday .product-card-small .product-card-small--info-cart-price .loading-overlay {
   background: #fe2b39;
 }
 
@@ -5855,22 +5855,22 @@ input[type='radio'],
   color: #2c2d2e;
 }
 
-.section-activity-halloween .button.accent,
+.yee-activity-halloween .button.accent,
 .yee-theme-white input[type='submit'].accent {
   border: 1px solid #fe772d;
   background: rgba(254, 119, 45, 0.1);
   color: #fe772d;
 }
 
-.section-activity-black-friday .button.accent,
+.yee-activity-black-friday .button.accent,
 .yee-theme-white input[type='submit'].accent {
   border: 1px solid #fe2b39;
   background: rgba(254, 43, 57, 0.1);
   color: #fe2b39;
 }
 
-.section-activity-black-friday .button.accent .spinner-path,
-.section-activity-black-friday input[type='submit'].accent .spinner-path {
+.yee-activity-black-friday .button.accent .spinner-path,
+.yee-activity-black-friday input[type='submit'].accent .spinner-path {
   stroke: #fe2b39;
 }
 @media screen and (hover: hover) {
@@ -5881,22 +5881,22 @@ input[type='radio'],
     color: #ffffff;
   }
 
-  .section-activity-halloween .button.accent:hover,
-  .section-activity-halloween input[type='submit'].accent:hover {
+  .yee-activity-halloween .button.accent:hover,
+  .yee-activity-halloween input[type='submit'].accent:hover {
     border: 1px solid transparent;
     background: #fe772d;
     color: #ffffff;
   }
 
-  .section-activity-black-friday .button.accent:hover,
-  .section-activity-black-friday input[type='submit'].accent:hover {
+  .yee-activity-black-friday .button.accent:hover,
+  .yee-activity-black-friday input[type='submit'].accent:hover {
     border: 1px solid transparent;
     background: #fe2b39;
     color: #ffffff;
   }
 
-  .section-activity-black-friday .button.accent:hover .spinner-path,
-  .section-activity-black-friday input[type='submit'].accent:hover .spinner-path {
+  .yee-activity-black-friday .button.accent:hover .spinner-path,
+  .yee-activity-black-friday input[type='submit'].accent:hover .spinner-path {
     stroke: #ffffff;
   }
 }

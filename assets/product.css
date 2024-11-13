@@ -93,7 +93,7 @@
   text-transform: uppercase;
 }
 
-.section-activity-black-friday .shopify-payment-button__button:not(.shopify-payment-button__button--branded) {
+.yee-activity-black-friday .shopify-payment-button__button:not(.shopify-payment-button__button--branded) {
   background: #fe2b39;
 }
 @media screen and (hover: hover) {
@@ -104,9 +104,9 @@
     color: var(--solid-button-label, #fff);
   }
 
-  .section-activity-black-friday
+  .yee-activity-black-friday
     .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):hover,
-  .section-activity-black-friday
+  .yee-activity-black-friday
     .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):focus {
     background: #fe2b39;
   }
@@ -2407,7 +2407,7 @@ h6,
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
-.section-activity-black-friday .product-add-to-cart-bar {
+.yee-activity-black-friday .product-add-to-cart-bar {
   background: #130f29;
 }
 
@@ -2515,7 +2515,7 @@ h6,
   display: none;
 }
 
-.section-activity-black-friday
+.yee-activity-black-friday
   .product-add-to-cart-bar
   .product-add-to-cart-bar--buttons
   .add_to_cart_holder
@@ -2526,7 +2526,7 @@ h6,
   width: 100%;
 }
 
-.section-activity-black-friday
+.yee-activity-black-friday
   .product-add-to-cart-bar
   .product-add-to-cart-bar--buttons
   .add_to_cart_holder
@@ -2633,7 +2633,7 @@ h6,
   opacity: 0.2;
 }
 
-.section-activity-halloween .product-add-to-cart-container .button.accent {
+.yee-activity-halloween .product-add-to-cart-container .button.accent {
   border-radius: 25px;
   text-align: center;
   font-size: 15px;
