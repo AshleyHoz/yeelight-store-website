@@ -1,13 +1,13 @@
-.video-section-container {
+.video-container {
   padding: 60px 0;
   position: relative;
 }
 
-.video-section-container-halloween {
+.video-container-halloween {
   background: #090538;
 }
 
-.video-section-container .image-product-bg {
+.video-container .image-product-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -34,19 +34,19 @@
   right: 0;
 }
 
-.video-section-container .video-section-inner {
+.video-container .video-section-inner {
   z-index: 2;
   position: relative;
   display: block;
 }
 
-.video-section-container-halloween .video-section-inner .video-section {
+.video-container-halloween .video-section-inner .video-section {
   border-radius: 30px;
   border: 11px solid #3a3760;
   overflow: hidden;
 }
 
-.video-section-container .video-section--inner_halloween-skull {
+.video-container .video-section--inner_halloween-skull {
   position: absolute;
   bottom: -23px;
   right: -35px;
@@ -118,20 +118,20 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .video-section-container {
+  .video-container {
     padding: 16px 0;
   }
 
-  .video-section-container .image-product-bg {
+  .video-container .image-product-bg {
     display: none;
   }
 
-  .video-section-container .video-section-inner {
+  .video-container .video-section-inner {
     margin: 0 16px;
     padding: 0;
   }
 
-  .video-section-container-halloween .video-section-inner .video-section {
+  .video-container-halloween .video-section-inner .video-section {
     border-radius: 12px;
     border: 2px solid #3a3760;
     overflow: hidden;

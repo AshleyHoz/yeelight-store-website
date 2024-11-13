@@ -16,7 +16,7 @@
   assign background_image = section.settings.background_image
   assign halloween_skull_flag = section.settings.halloween_skull_flag
 -%}
-<div class="{% if settings.halloween_flag and halloween_skull_flag %} video-section-container video-section-container-halloween{% endif %}">
+<div class="{% if settings.halloween_flag and halloween_skull_flag %} video-container video-container-halloween{% endif %}">
   {%- if settings.halloween_flag and halloween_skull_flag -%}
     <div class="image-product-bg">
       {% comment %}
