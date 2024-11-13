@@ -86,6 +86,7 @@
     {% comment %} meetbot chat {% endcomment %}
     <script src="https://s2.meetbot.com/js/webhooks/5124/ws_channel_script.js"></script>
     <script>
+      console.log(Shopify.currency.active);
       const style = document.createElement('style');
       const head = document.getElementsByTagName('head')[0];
       const rules = document.createTextNode(`
