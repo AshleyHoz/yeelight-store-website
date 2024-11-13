@@ -7,6 +7,14 @@
   background: #090538;
 }
 
+.section-activity-halloween .video-container {
+  background: #090538;
+}
+
+.section-activity-black-friday .video-container {
+  background: #100a29;
+}
+
 .video-section-container .image-product-bg {
   position: absolute;
   top: 0;

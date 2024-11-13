@@ -32,7 +32,7 @@
       assign mobile_image_height = 900
   endcase
 -%}
-<div class="{% if settings.halloween_flag and halloween_skull_flag %} video-section-container video-section-container-halloween{% endif %}">
+<div class="video-container{% if settings.halloween_flag and halloween_skull_flag %} video-section-container video-section-container-halloween{% endif %}">
   {%- if settings.halloween_flag and halloween_skull_flag -%}
     <div class="image-product-bg">
       {% comment %}
@@ -41,13 +41,13 @@
         {%- endif -%}
       {% endcomment %}
       <div class="image-product-bg-icons">
-        <div class="ic-bat">
-          {%- render 'svg-icons-halloween' with 'custom-halloween-bat' -%}
-        </div>
-        <div class="ic-spider-web-large">
-          {%- render 'svg-icons-halloween' with 'custom-halloween-spider-web-large' -%}
-        </div>
+        <div class="ic-bat"></div>
+        {%- render 'svg-icons-halloween' with 'custom-halloween-bat' -%}
       </div>
+      <div class="ic-spider-web-large">
+        {%- render 'svg-icons-halloween' with 'custom-halloween-spider-web-large' -%}
+      </div>
+    </div>
     </div>
   {%- endif -%}
 
