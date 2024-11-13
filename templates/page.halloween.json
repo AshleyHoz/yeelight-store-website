@@ -25,9 +25,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_GeKdfB"
-      ],
+      "block_order": ["heading_GeKdfB"],
       "settings": {
         "image": "shopify://shop_images/TopicOutdoorHalloweenBg.png",
         "mobile_image": "shopify://shop_images/TopicOutdoorHalloweenBgMobile.png",
@@ -73,12 +71,7 @@
           }
         }
       },
-      "block_order": [
-        "product_peqag6",
-        "product_qAnrKb",
-        "product_rqy9gx",
-        "product_P6BFVN"
-      ],
+      "block_order": ["product_peqag6", "product_qAnrKb", "product_rqy9gx", "product_P6BFVN"],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/TopicOutdoorHalloweenInfo.png",
@@ -105,10 +98,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "image_with_text_overlay_EHXcMN",
-    "acitivity_products_fXpX3E",
-    "text_with_icons_LiHffF"
-  ]
+  "order": ["main", "image_with_text_overlay_EHXcMN", "acitivity_products_fXpX3E", "text_with_icons_LiHffF"]
 }

@@ -511,18 +511,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "You may also like",
-        "description": "<p>Combine your style with these products</p>",
-        "mobile_swipe": true,
-        "product_limit": 4,
-        "columns_desktop": 4,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "collapsible_content_DDeyr7": {
       "type": "collapsible-content",
       "blocks": {
@@ -671,6 +659,18 @@
         "loox_reviews_loox_dynamic_section_c8aEVF"
       ],
       "settings": {}
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "description": "<p>Combine your style with these products</p>",
+        "mobile_swipe": true,
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -683,9 +683,9 @@
     "single_image_YFNLfJ",
     "single_image_UwbPnd",
     "media_with_tabs_GFrrk4",
-    "product-recommendations",
     "collapsible_content_DDeyr7",
     "rich_text_6mPtPi",
-    "1712003137212dc6f8"
+    "1712003137212dc6f8",
+    "product-recommendations"
   ]
 }
