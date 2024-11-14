@@ -293,8 +293,20 @@ body {
   margin: 0;
   padding: 0;
   background: var(--bg-body, #f5f5f5);
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell,
-    Ubuntu, roboto, noto, arial, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    avenir next,
+    avenir,
+    segoe ui,
+    helvetica neue,
+    helvetica,
+    Cantarell,
+    Ubuntu,
+    roboto,
+    noto,
+    arial,
+    sans-serif;
   font-weight: normal;
   line-height: 1.6;
   color: var(--color-body, #2c2d2e);
@@ -428,8 +440,20 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell,
-    Ubuntu, roboto, noto, arial, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    avenir next,
+    avenir,
+    segoe ui,
+    helvetica neue,
+    helvetica,
+    Cantarell,
+    Ubuntu,
+    roboto,
+    noto,
+    arial,
+    sans-serif;
   font-style: normal;
   font-weight: 700;
   color: #ffffff;
@@ -2475,7 +2499,9 @@ table.no-borders tfoot td:first-child {
 
 .lazyloaded {
   opacity: 1;
-  transition: opacity 0.2s cubic-bezier(0.104, 0.204, 0.492, 1), filter 0.2s cubic-bezier(0.104, 0.204, 0.492, 1);
+  transition:
+    opacity 0.2s cubic-bezier(0.104, 0.204, 0.492, 1),
+    filter 0.2s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
 @media only screen and (min-width: 768px) {
@@ -2997,10 +3023,14 @@ h6,
   /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06); */
 }
 .header.header--shadow-medium:after {
-  box-shadow: 0 9px 38px rgba(0, 0, 0, 0.05), 0 5px 12px rgba(0, 0, 0, 0.1);
+  box-shadow:
+    0 9px 38px rgba(0, 0, 0, 0.05),
+    0 5px 12px rgba(0, 0, 0, 0.1);
 }
 .header.header--shadow-large:after {
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 5px 22px rgba(0, 0, 0, 0.15);
+  box-shadow:
+    0 19px 38px rgba(0, 0, 0, 0.1),
+    0 5px 22px rgba(0, 0, 0, 0.15);
 }
 .header.is-sticky:after {
   opacity: 1;
@@ -3220,7 +3250,7 @@ h6,
 }
 @media only screen and (min-width: 768px) {
   .thb-secondary-area {
-    min-width: 135px;
+    min-width: 220px;
   }
 }
 [dir='rtl'] .thb-secondary-area {
@@ -3328,6 +3358,7 @@ h6,
 .logolink {
   display: inline-flex;
   margin: 20px 0;
+  min-width: 220px;
 }
 .logolink.text-logo {
   font-size: 1.125rem;
@@ -3896,7 +3927,8 @@ input[type='submit'] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  transition: color 0.25s cubic-bezier(0.104, 0.204, 0.492, 1),
+  transition:
+    color 0.25s cubic-bezier(0.104, 0.204, 0.492, 1),
     background-color 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 .button-uppercase-true .button,
