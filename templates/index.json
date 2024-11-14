@@ -229,30 +229,6 @@
     "shop_the_look_slider_4EBHbg": {
       "type": "shop-the-look-slider",
       "blocks": {
-        "slide_KmXyGD": {
-          "type": "slide",
-          "settings": {
-            "button_icon": "custom-halloween",
-            "button_text": "Halloween",
-            "image": "shopify://shop_images/HomeTopicOutdoor-halloween.jpg",
-            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-halloween.jpg",
-            "product_handle_1": "yeelight-permanent-outdoor-lights",
-            "x_position_1": 23,
-            "y_position_1": 35,
-            "x_position_mobile_1": 42,
-            "y_position_mobile_1": 30,
-            "product_handle_2": "a-yeelight-christmas-string-lights",
-            "x_position_2": 65,
-            "y_position_2": 40,
-            "x_position_mobile_2": 31,
-            "y_position_mobile_2": 65,
-            "product_handle_3": "a-yeelight-curtain-lights",
-            "x_position_3": 38,
-            "y_position_3": 65,
-            "x_position_mobile_3": 84,
-            "y_position_mobile_3": 20
-          }
-        },
         "slide_QQaB4A": {
           "type": "slide",
           "settings": {
@@ -324,16 +300,40 @@
             "x_position_mobile_3": 20,
             "y_position_mobile_3": 20
           }
+        },
+        "slide_KmXyGD": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-halloween",
+            "button_text": "Halloween",
+            "image": "shopify://shop_images/HomeTopicOutdoor-halloween.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-halloween.jpg",
+            "product_handle_1": "yeelight-permanent-outdoor-lights",
+            "x_position_1": 23,
+            "y_position_1": 35,
+            "x_position_mobile_1": 42,
+            "y_position_mobile_1": 30,
+            "product_handle_2": "a-yeelight-christmas-string-lights",
+            "x_position_2": 65,
+            "y_position_2": 40,
+            "x_position_mobile_2": 31,
+            "y_position_mobile_2": 65,
+            "product_handle_3": "a-yeelight-curtain-lights",
+            "x_position_3": 38,
+            "y_position_3": 65,
+            "x_position_mobile_3": 84,
+            "y_position_mobile_3": 20
+          }
         }
       },
       "block_order": [
-        "slide_KmXyGD",
         "slide_QQaB4A",
         "slide_nCkgHt",
-        "slide_dfKGLU"
+        "slide_dfKGLU",
+        "slide_KmXyGD"
       ],
       "settings": {
-        "title": "Transform the Outdoors for <span>Every Occasion</span>",
+        "title": "Transform the Outdoors for Every Occasion",
         "view_title": "Grab the Special Bundle Now",
         "link": "shopify://products/yeelight-holiday-lightshow-package",
         "footer_title": "",
@@ -425,7 +425,7 @@
         "slide_nMwfm4"
       ],
       "settings": {
-        "title": "Elevate the Indoors in <span>Every Moment</span>",
+        "title": "Elevate the Indoors in Every Moment",
         "view_title": "Shop the Collection",
         "link": "shopify://pages/topic-2",
         "footer_title": "",
@@ -438,30 +438,6 @@
     "shop_the_look_slider_rFbmyG": {
       "type": "shop-the-look-slider",
       "blocks": {
-        "slide_4qH4Nh": {
-          "type": "slide",
-          "settings": {
-            "button_icon": "custom-interstellar",
-            "button_text": "Interstellar",
-            "image": "shopify://shop_images/HomeTopicGame-interstellar.jpg",
-            "image_mobile": "shopify://shop_images/HomeTopicGameMobile-interstellar.jpg",
-            "product_handle_1": "yeelight-rgbic-led-basic-strip-lights",
-            "x_position_1": 20,
-            "y_position_1": 10,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "product_handle_2": "a-yeelight-curtain-lights",
-            "x_position_2": 80,
-            "y_position_2": 50,
-            "x_position_mobile_2": 20,
-            "y_position_mobile_2": 20,
-            "product_handle_3": "yeelight-obsid-rgbic-light-strip",
-            "x_position_3": 25,
-            "y_position_3": 72,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 20
-          }
-        },
         "slide_6haFVF": {
           "type": "slide",
           "settings": {
@@ -485,14 +461,38 @@
             "x_position_mobile_3": 20,
             "y_position_mobile_3": 20
           }
+        },
+        "slide_4qH4Nh": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-interstellar",
+            "button_text": "Interstellar",
+            "image": "shopify://shop_images/HomeTopicGame-interstellar.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicGameMobile-interstellar.jpg",
+            "product_handle_1": "yeelight-rgbic-led-basic-strip-lights",
+            "x_position_1": 20,
+            "y_position_1": 10,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "a-yeelight-curtain-lights",
+            "x_position_2": 80,
+            "y_position_2": 50,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "yeelight-obsid-rgbic-light-strip",
+            "x_position_3": 25,
+            "y_position_3": 72,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
+          }
         }
       },
       "block_order": [
-        "slide_4qH4Nh",
-        "slide_6haFVF"
+        "slide_6haFVF",
+        "slide_4qH4Nh"
       ],
       "settings": {
-        "title": "<span>Power Your Play</span> in Every Gaming World",
+        "title": "Power Your Play in Every Gaming World",
         "view_title": "Shop the Collection",
         "link": "shopify://pages/topic-3",
         "footer_title": "",
