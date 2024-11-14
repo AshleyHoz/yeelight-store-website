@@ -4,6 +4,7 @@
     assign color_info_bar_bg = settings.color_announcement_bar_bg
     assign background_color = section.settings.background_color
     assign show_info_bar = true
+    assign info_bar_layout = section.settings.info_bar_layout
     assign autoplay = section.settings.autoplay
     if autoplay
       assign autoplay = section.settings.autoplay_length | times: 1000
@@ -41,25 +42,57 @@
         </div>
       </div>
       <div class="info-bar-mobile">
-        <div class="info-bar--carousel">
-          <slide-show
-            class="carousel"
-            data-autoplay="{{ autoplay }}"
-          >
-            {%- for block in section.blocks -%}
-              <div class="info-bar--item carousel__slide">
-                {%- render 'svg-icons-custom' with block.settings.icon -%}
-                <div class="bar-text">
-                  {{ block.settings.text }}
+        {%- if info_bar_layout == 'marquee' -%}
+          {%- capture scrolling_text -%}
+					<div>
+						{%- for i in (1..5) -%}
+							{%- liquid
+								if i <= section.blocks.size
+									assign index = i | minus: 1
+								else
+								  assign index = i | minus: section.blocks.size | minus: 1
+								endif
+							-%}
+							<div class="info-bar--item" {{ section.blocks[index].shopify_attributes }}>
+								{%- if section.blocks[index].settings.link -%}
+									<a href="{{ section.blocks[index].settings.link }}" target="_blank">
+								{%- endif -%}
+								{%- if section.blocks[index].settings.icon -%}{% render 'svg-icons-custom', icon: section.blocks[index].settings.icon %}{%- endif -%}<div class="bar-text">{{- section.blocks[index].settings.text -}}</div>
+								{%- if section.blocks[index].settings.link -%}
+									</a>
+								{%- endif -%}
+							</div>
+						{%- endfor -%}
+					</div>
+					{%- endcapture -%}
+          {{ scrolling_text -}}
+          {{- scrolling_text -}}
+          {{- scrolling_text }}
+        {%- else -%}
+          <div class="info-bar--carousel">
+            <slide-show
+              class="carousel"
+              data-autoplay="{{ autoplay }}"
+            >
+              {%- for block in section.blocks -%}
+                <div class="info-bar--item carousel__slide">
+                  {%- render 'svg-icons-custom' with block.settings.icon -%}
+                  <div class="bar-text">
+                    {{ block.settings.text }}
+                  </div>
                 </div>
-              </div>
-            {% endfor %}
-            {%- if section.blocks.size > 1 -%}
-              <div class="flickity-nav flickity-prev" tabindex="0">{% render 'svg-icons' with 'thb-caret-left' %}</div>
-              <div class="flickity-nav flickity-next" tabindex="0">{% render 'svg-icons' with 'thb-caret-right' %}</div>
-            {%- endif -%}
-          </slide-show>
-        </div>
+              {% endfor %}
+              {%- if section.blocks.size > 1 -%}
+                <div class="flickity-nav flickity-prev" tabindex="0">
+                  {% render 'svg-icons' with 'thb-caret-left' %}
+                </div>
+                <div class="flickity-nav flickity-next" tabindex="0">
+                  {% render 'svg-icons' with 'thb-caret-right' %}
+                </div>
+              {%- endif -%}
+            </slide-show>
+          </div>
+        {%- endif -%}
       </div>
     </div>
   {%- endif -%}
@@ -81,6 +114,22 @@
       "id": "info_bar_homepage_only",
       "label": "Show on home page only",
       "default": false
+    },
+    {
+      "type": "select",
+      "id": "info_bar_layout",
+      "options": [
+        {
+          "value": "marquee",
+          "label": "Marquee"
+        },
+        {
+          "value": "carousel",
+          "label": "Carousel"
+        }
+      ],
+      "default": "carousel",
+      "label": "Layout"
     },
     {
       "type": "checkbox",
