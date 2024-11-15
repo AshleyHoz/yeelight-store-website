@@ -32,7 +32,7 @@
       assign mobile_image_height = 900
   endcase
 -%}
-<div class="video-container{% if settings.halloween_flag and halloween_skull_flag %} video-section-container video-section-container-halloween{% endif %}">
+<div class="video-container{% if settings.halloween_flag and halloween_skull_flag %} video-section-container video-section-container-halloween{% endif %}{% if settings.black_friday_flag %} video-section-container video-section-container-blackfriday{% endif %}">
   {%- if settings.halloween_flag and halloween_skull_flag -%}
     <div class="image-product-bg">
       {% comment %}
@@ -204,7 +204,7 @@
           "label": "Full screen"
         }
       ],
-      "default": "desktop-height-480"
+      "default": "desktop-height-650"
     },
     {
       "type": "select",
@@ -240,7 +240,7 @@
           "label": "Full screen"
         }
       ],
-      "default": "mobile-height-345"
+      "default": "mobile-height-400"
     },
     {
       "type": "select",
