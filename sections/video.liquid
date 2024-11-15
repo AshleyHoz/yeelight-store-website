@@ -32,7 +32,7 @@
       assign mobile_image_height = 900
   endcase
 -%}
-<div class="video-container{% if settings.halloween_flag and halloween_skull_flag %} video-section-container video-section-container-halloween{% endif %}{% if settings.black_friday_flag %} video-section-container video-section-container-blackfriday{% endif %}">
+<div class="video-container{% if settings.halloween_flag and halloween_skull_flag %} video-section-container video-section-container-halloween{% endif %}{% if settings.black_friday_flag and section.settings.black_friday_ui_flag %} video-section-container video-section-container-blackfriday{% endif %}">
   {%- if settings.halloween_flag and halloween_skull_flag -%}
     <div class="image-product-bg">
       {% comment %}
@@ -47,7 +47,6 @@
       <div class="ic-spider-web-large">
         {%- render 'svg-icons-halloween' with 'custom-halloween-spider-web-large' -%}
       </div>
-    </div>
     </div>
   {%- endif -%}
 
@@ -311,6 +310,12 @@
       "id": "halloween_skull_flag",
       "default": false,
       "label": "Show Halloween Skull"
+    },
+    {
+      "type": "checkbox",
+      "id": "black_friday_ui_flag",
+      "default": false,
+      "label": "Show black friday ui"
     }
   ],
   "presets": [
