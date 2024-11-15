@@ -188,13 +188,7 @@
           }
         }
       },
-      "block_order": [
-        "slide_rYUPUw",
-        "slide_Apj7XN",
-        "slide_E8nF4j",
-        "slide_BDHRjb",
-        "slide_B9biA3"
-      ],
+      "block_order": ["slide_rYUPUw", "slide_Apj7XN", "slide_E8nF4j", "slide_BDHRjb", "slide_B9biA3"],
       "settings": {
         "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-image",
@@ -326,12 +320,7 @@
           }
         }
       },
-      "block_order": [
-        "slide_QQaB4A",
-        "slide_nCkgHt",
-        "slide_dfKGLU",
-        "slide_KmXyGD"
-      ],
+      "block_order": ["slide_QQaB4A", "slide_nCkgHt", "slide_dfKGLU", "slide_KmXyGD"],
       "settings": {
         "title": "Transform the Outdoors for <span>Every Occasion</span>",
         "view_title": "Grab the Special Bundle Now",
@@ -419,13 +408,9 @@
           }
         }
       },
-      "block_order": [
-        "slide_GcLTeG",
-        "slide_6VMDww",
-        "slide_nMwfm4"
-      ],
+      "block_order": ["slide_GcLTeG", "slide_6VMDww", "slide_nMwfm4"],
       "settings": {
-        "title": "Elevate the Indoors in Every Moment",
+        "title": "<span>Elevate the Indoors</span> in Every Moment",
         "view_title": "Shop the Collection",
         "link": "shopify://pages/topic-2",
         "footer_title": "",
@@ -487,10 +472,7 @@
           }
         }
       },
-      "block_order": [
-        "slide_6haFVF",
-        "slide_4qH4Nh"
-      ],
+      "block_order": ["slide_6haFVF", "slide_4qH4Nh"],
       "settings": {
         "title": "<span>Power Your Play</span> in Every Gaming World",
         "view_title": "Shop the Collection",
@@ -509,12 +491,7 @@
         "marker_style": "style1",
         "description": "",
         "heading_size": "small",
-        "collection_list": [
-          "decor-lights",
-          "desk-lights",
-          "essentials",
-          "all-lights"
-        ],
+        "collection_list": ["decor-lights", "desk-lights", "essentials", "all-lights"],
         "image_ratio": "square",
         "collection_layout": "grid",
         "style": "style2",
@@ -591,13 +568,7 @@
           }
         }
       },
-      "block_order": [
-        "logo_9qi8pF",
-        "logo_hwNLBf",
-        "logo_BFPqA8",
-        "logo_QKhtAG",
-        "logo_yeHcyH"
-      ],
+      "block_order": ["logo_9qi8pF", "logo_hwNLBf", "logo_BFPqA8", "logo_QKhtAG", "logo_yeHcyH"],
       "settings": {
         "heading": "Exquisite Design",
         "description": "<p>Yeelight smart lighting has been awarded 20 international design awards, including iF Design Award, reddot Award, IDEA, and Good Design Award.</p>",
@@ -659,12 +630,7 @@
           }
         }
       },
-      "block_order": [
-        "column_hmri3E",
-        "column_J6rMfP",
-        "column_mwJB4Q",
-        "column_CDzWUA"
-      ],
+      "block_order": ["column_hmri3E", "column_J6rMfP", "column_mwJB4Q", "column_CDzWUA"],
       "settings": {
         "heading": "Our Reach",
         "image": "shopify://shop_images/OverseasBg.png",
@@ -795,9 +761,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_ia67Jc"
-      ],
+      "block_order": ["heading_ia67Jc"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -835,9 +799,7 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_video_slider_y63DVW"
-      ],
+      "block_order": ["loox_reviews_loox_video_slider_y63DVW"],
       "settings": {}
     },
     "scrolling_images_ijGKLL": {
