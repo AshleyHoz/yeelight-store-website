@@ -42,7 +42,7 @@
 <div class="row {% if full_width %}full-width-row-full{% endif %}">
   <div class="small-12 columns">
     <image-with-text-overlay
-      class="image-with-text-overlay image-with-text-overlay--full-width-{{ full_width }} text-{{ text_alignment }} {{ mobile_height }} {{ desktop_height }} {% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"
+      class="image-with-text-overlay image-with-text-overlay--full-width-{{ full_width }} text-{{ text_alignment }}{% if mobile_height %} {{mobile_height}}{% endif %}{% if desktop_height %} {{ desktop_height }}{% endif %} {% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"
       style="--text-color: {{ text_color }}; --overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}"
     >
       <div class="image-with-text-overlay--bg parallax--{{ image_parallax }}">
@@ -179,6 +179,10 @@
         {
           "value": "desktop-height-full",
           "label": "Full screen"
+        },
+        {
+          "value": "",
+          "label": "None"
         }
       ],
       "default": "desktop-height-480"
@@ -215,6 +219,10 @@
         {
           "value": "mobile-height-full",
           "label": "Full screen"
+        },
+        {
+          "value": "",
+          "label": "None"
         }
       ],
       "default": "mobile-height-345"
