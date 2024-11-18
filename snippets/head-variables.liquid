@@ -235,8 +235,8 @@
   		--block-shadows: 0px 4px 6px rgba(0, 0, 0, 0.08);
   	{%- endif -%}
 
-  	--section-spacing-mobile: {{ section_spacing_mobile | default: '50' | append: 'px' }};
-  	--section-spacing-desktop: {{ section_spacing_desktop| default: '100' | append: 'px' }};
+  	--spacing-mobile: {{ section_spacing_mobile | default: '50' | append: 'px' }};
+  	--spacing-desktop: {{ section_spacing_desktop| default: '100' | append: 'px' }};
 
   	{%- if color_product_card_bg -%}
   		--color-product-card-bg: {{ color_product_card_bg }};

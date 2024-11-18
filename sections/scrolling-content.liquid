@@ -20,7 +20,7 @@
     assign has_bg = false
   endif
 -%}
-<scrolling-content class="scrolling-content section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+<scrolling-content class="scrolling-content spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
   <div
     class="scrolling-content--inner {% if has_bg -%}scrolling-content--has-bg{% endif %}"
     style="--color-bg: {{ color_bg }}; --color-heading: {{ color_heading }}; --color-body: {{ color_text }}; --color-accent: {{ color_links }};"

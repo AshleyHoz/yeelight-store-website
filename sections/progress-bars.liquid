@@ -7,7 +7,7 @@
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
 -%}
 <progress-bars
-  class="progress-bars section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"
+  class="progress-bars spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
   style="--columns: {{ columns_desktop }}; --color-bg: {{ color_bg }}"
 >
   <div class="progress-bars--inner">

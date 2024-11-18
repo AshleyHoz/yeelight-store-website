@@ -99,7 +99,7 @@ if (!customElements.get('slide-show')) {
                   ),
                   i = sections.indexOf(parent_section);
 
-                if (i == 0 && slideshow.classList.contains('section-spacing--disable-top')) {
+                if (i == 0 && slideshow.classList.contains('spacing--disable-top')) {
                   slideshow.classList.add('slideshow--top');
                 }
               }

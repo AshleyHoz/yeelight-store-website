@@ -2691,49 +2691,49 @@ scroll-shadow > * {
   font-weight: var(--font-body-medium-weight, 500);
 }
 
-.section-spacing {
-  margin-top: var(--section-spacing-mobile, 0);
-  margin-bottom: var(--section-spacing-mobile, 0);
+.spacing {
+  margin-top: var(--spacing-mobile, 0);
+  margin-bottom: var(--spacing-mobile, 0);
 }
 @media only screen and (min-width: 768px) {
-  .section-spacing {
-    margin-top: var(--section-spacing-desktop, 0);
-    margin-bottom: var(--section-spacing-desktop, 0);
+  .spacing {
+    margin-top: var(--spacing-desktop, 0);
+    margin-bottom: var(--spacing-desktop, 0);
   }
 }
-.section-spacing.section-spacing--disable-top {
+.spacing.spacing--disable-top {
   margin-top: 0;
 }
-.section-spacing.section-spacing--disable-bottom {
+.spacing.spacing--disable-bottom {
   margin-bottom: 0;
 }
 
-.section-spacing-bottom {
-  margin-bottom: var(--section-spacing-mobile, 0);
+.spacing-bottom {
+  margin-bottom: var(--spacing-mobile, 0);
 }
 @media only screen and (min-width: 768px) {
-  .section-spacing-bottom {
-    margin-bottom: var(--section-spacing-desktop, 0);
+  .spacing-bottom {
+    margin-bottom: var(--spacing-desktop, 0);
   }
 }
-.section-spacing-bottom.section-spacing--disable-bottom {
+.spacing-bottom.spacing--disable-bottom {
   margin-bottom: 0;
 }
 
-.section-spacing-padding {
-  padding-top: var(--section-spacing-mobile, 0);
-  padding-bottom: var(--section-spacing-mobile, 0);
+.spacing-padding {
+  padding-top: var(--spacing-mobile, 0);
+  padding-bottom: var(--spacing-mobile, 0);
 }
 @media only screen and (min-width: 768px) {
-  .section-spacing-padding {
-    padding-top: var(--section-spacing-desktop, 0);
-    padding-bottom: var(--section-spacing-desktop, 0);
+  .spacing-padding {
+    padding-top: var(--spacing-desktop, 0);
+    padding-bottom: var(--spacing-desktop, 0);
   }
 }
-.section-spacing-padding.section-spacing--disable-top {
+.spacing-padding.spacing--disable-top {
   padding-top: 0;
 }
-.section-spacing-padding.section-spacing--disable-bottom {
+.spacing-padding.spacing--disable-bottom {
   padding-bottom: 0;
 }
 

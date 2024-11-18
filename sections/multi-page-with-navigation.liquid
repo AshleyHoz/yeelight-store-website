@@ -7,7 +7,7 @@
 -%}
 
 {{ 'multi-page-with-navigation.css' | asset_url | stylesheet_tag }}
-<multi-page-with-navigation class="multi-page-with-navigation section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+<multi-page-with-navigation class="multi-page-with-navigation spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
   <div class="row">
     <div class="small-12 columns">
       {%- render 'section-header', section_heading: section_heading, section_description: section_description -%}

@@ -3,7 +3,7 @@
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
   assign section_page = section.settings.page
 -%}
-<div class="section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+<div class="spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
   <div class="row">
     <div class="small-12 columns">
       <div class="blog-post-detail">

@@ -9,7 +9,7 @@
   assign view_title = section.settings.view_title
   assign section_link = section.settings.link
 -%}
-<shop-the-look-slider class="shop-the-look-slider section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+<shop-the-look-slider class="shop-the-look-slider spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
   <div class="row{% if full_width %} full-width-row-full{% endif %} custom-shop-look-slider-row">
     <div class="small-12 custom-shop-look-slider-column">
       {%- if title -%}

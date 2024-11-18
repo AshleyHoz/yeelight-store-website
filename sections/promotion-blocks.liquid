@@ -12,7 +12,7 @@
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
 -%}
 <div
-  class="promotion-blocks{% if mobile_swipe %} swipe-on-mobile{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"
+  class="promotion-blocks{% if mobile_swipe %} swipe-on-mobile{% endif %} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
   style="--color-bg: {{ color_bg }}; --color-text: {{ color_text }}; --color-accent: {{ color_link }}; --column-size: {{ section.blocks.size }};"
 >
   <div class="promotion-blocks--inner column-spacing--{{ column_spacing }}">

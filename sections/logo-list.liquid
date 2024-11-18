@@ -17,7 +17,7 @@
     assign has_bg = false
   endif
 -%}
-<div class="logo-list logo-list--centered-{{ center_align }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+<div class="logo-list logo-list--centered-{{ center_align }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
   {% render 'section-header',
     section_heading: section_heading,
     section_description: section_description,

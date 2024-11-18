@@ -26,7 +26,7 @@
       assign columns_class = 'medium-3 large-2'
   endcase
 -%}
-<div class="collection-tabs section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+<div class="collection-tabs spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
   <div class="row">
     <div class="small-12 columns">
       {% render 'section-header',

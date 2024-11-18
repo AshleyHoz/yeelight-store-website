@@ -34,7 +34,7 @@
 -%}
 
 <customer-reviews
-  class="customer-reviews section-spacing-padding{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"
+  class="customer-reviews spacing-padding{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
   style="--color-bg:{{ color_bg }}; --color-heading:{{ color_heading }}; --color-text:{{ color_text }}; --dot-speed: {{ autoplay | divided_by: 1000 | append: 's' }};"
 >
   <div class="row">

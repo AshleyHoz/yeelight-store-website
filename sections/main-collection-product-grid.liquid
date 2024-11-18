@@ -28,7 +28,7 @@
 <div class="row">
   <div class="small-12 columns">
     {%- paginate collection.products by products_per_page -%}
-      <div class="collection-container section-spacing-bottom">
+      <div class="collection-container spacing-bottom">
         <div id="ProductGridContainer">
           <div class="sidebar-container facets--{{ facets_desktop }} results--{{ collection.products.size }}">
             {%- if facets_desktop == 'sidebar' -%}

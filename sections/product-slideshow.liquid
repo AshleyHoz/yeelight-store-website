@@ -49,7 +49,7 @@
     assign preload = true
   endif
 -%}
-<product-slideshow class="product-slideshow section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+<product-slideshow class="product-slideshow spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
   <div class="main-slideshow-container row {% if full_width %} full-width-row{% endif %}">
     <div class="small-12 columns">
       {%- if section_title -%}

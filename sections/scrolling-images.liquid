@@ -11,7 +11,7 @@
   assign title = section.settings.title
 -%}
 <div
-  class="scrolling-images section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"
+  class="scrolling-images spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
   id="scrolling-images-{{ section.id }}"
 >
   {%- if title -%}

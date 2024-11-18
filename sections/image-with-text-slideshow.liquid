@@ -21,7 +21,7 @@
 -%}
 <div class="row">
   <div class="small-12 columns">
-    <div class="image-with-text-slideshow grid--image-{{ desktop_image_width }} {{ desktop_layout }} {{ content_position }} column-spacing--medium section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+    <div class="image-with-text-slideshow grid--image-{{ desktop_image_width }} {{ desktop_layout }} {{ content_position }} column-spacing--medium spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
       <slide-show
         class="image-with-text-slideshow--image carousel inner-carousel"
         data-autoplay="{{ autoplay }}"
