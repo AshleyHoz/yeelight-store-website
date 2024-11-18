@@ -96,7 +96,7 @@
   text-transform: uppercase;
 }
 
-/* .section-activity-black-friday .shopify-payment-button__button:not(.shopify-payment-button__button--branded) {
+/* .yee-activity-black-friday .shopify-payment-button__button:not(.shopify-payment-button__button--branded) {
   background: #fe2b39;
 } */
 @media screen and (hover: hover) {
@@ -107,7 +107,7 @@
     color: var(--solid-button-label, #fff);
   }
 
-  /* .section-activity-black-friday
+  /* .yee-activity-black-friday
     .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):hover,
   .yee-activity-black-friday
     .shopify-payment-button__button:not(.shopify-payment-button__button--branded):not([disabled]):focus {
@@ -2676,7 +2676,7 @@ h6,
   display: none;
 }
 
-.section-activity-black-friday .shopify-payment-button .shopify-payment-button__more-options::before {
+.yee-activity-black-friday .shopify-payment-button .shopify-payment-button__more-options::before {
   content: 'Buy it now';
   position: absolute;
   top: 0;

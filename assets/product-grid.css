@@ -232,7 +232,7 @@
   background: linear-gradient(103deg, #111bff 0%, #fd119e 100%), rgba(255, 255, 255, 0.1);
 }
 
-/* .section-activity-black-friday .product-card .product-opt-wrapper .product-card-view {
+/* .yee-activity-black-friday .product-card .product-opt-wrapper .product-card-view {
   background: #fe2b39;
 } */
 /* .product-card .product-card-view::before {
@@ -409,8 +409,8 @@
   color: #000000;
 }
 
-.section-activity-black-friday .product-card .badge .badge-title,
-.section-activity-black-friday .product-card .badge .badge-percent {
+.yee-activity-black-friday .product-card .badge .badge-title,
+.yee-activity-black-friday .product-card .badge .badge-percent {
   color: #fff;
   text-align: center;
   font-size: 16px;
@@ -418,7 +418,7 @@
   line-height: 16px;
 }
 
-/* .section-activity-black-friday .product-card .badge .badge-title {
+/* .yee-activity-black-friday .product-card .badge .badge-title {
   color: #0d0a1d;
   text-align: center;
   font-size: 16px;
@@ -1082,12 +1082,12 @@
     color: #000000;
   }
 
-  .section-activity-black-friday .product-card .badge svg {
+  .yee-activity-black-friday .product-card .badge svg {
     width: 42px;
     height: 48px;
   }
 
-  .section-activity-black-friday .product-card .badge {
+  .yee-activity-black-friday .product-card .badge {
     padding: 4px 6px 11px 6px;
   }
 
