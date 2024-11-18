@@ -18,49 +18,81 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "Worldwide Free Shipping",
+            "text": "Unlock Yeelight Black Friday Wonders",
+            "sub_text": "UP TO 50% OFF",
             "link": "",
-            "color_bg": "#3f72e5",
-            "color_text": "#ffffff"
-          }
-        },
-        "acca6658-bd49-4cc7-be9a-c02394ef4917": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "30 Day Money Back Guarantee",
-            "link": "",
-            "color_bg": "#3f72e5",
-            "color_text": "#ffffff"
-          }
-        },
-        "888fc484-50e5-4566-bad6-41e835d00d5f": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "Lifetime Customer Support",
-            "link": "",
+            "button_text": "Shop Now",
+            "button_color": "white",
+            "button_link": "shopify://pages/black-friday-cyber-monday-deals",
+            "use_text_button": false,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
         }
       },
       "block_order": [
-        "955bb93b-7a65-4933-8023-83a64ee46bc2",
-        "acca6658-bd49-4cc7-be9a-c02394ef4917",
-        "888fc484-50e5-4566-bad6-41e835d00d5f"
+        "955bb93b-7a65-4933-8023-83a64ee46bc2"
       ],
-      "disabled": true,
       "settings": {
         "announcement_bar": true,
-        "announcement_bar_homepage_only": true,
-        "announcement_bar_layout": "carousel",
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "single",
         "direction": "left",
         "speed": "50s",
         "use_block_colors": false,
         "autoplay": true,
         "autoplay_length": 3,
         "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "info_bar_9bWAay": {
+      "type": "info-bar",
+      "blocks": {
+        "text_ACm6Rt": {
+          "type": "text",
+          "settings": {
+            "icon": "custom-service",
+            "text": "Free Shipping",
+            "link": ""
+          }
+        },
+        "text_PWxYtC": {
+          "type": "text",
+          "settings": {
+            "icon": "custom-airplane",
+            "text": "Worry Free Return",
+            "link": ""
+          }
+        },
+        "text_y6qtbn": {
+          "type": "text",
+          "settings": {
+            "icon": "custom-corn",
+            "text": "Lifetime support",
+            "link": ""
+          }
+        },
+        "text_JGpMAa": {
+          "type": "text",
+          "settings": {
+            "icon": "custom-shield",
+            "text": "Reliable Warranty",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_ACm6Rt",
+        "text_PWxYtC",
+        "text_y6qtbn",
+        "text_JGpMAa"
+      ],
+      "settings": {
+        "info_bar": true,
+        "info_bar_homepage_only": false,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "background_color": "#1a1a1a"
       }
     },
     "header-secondary-menu": {
@@ -102,6 +134,7 @@
   },
   "order": [
     "announcement-bar",
+    "info_bar_9bWAay",
     "header-secondary-menu",
     "header",
     "header-mobile-navigation"

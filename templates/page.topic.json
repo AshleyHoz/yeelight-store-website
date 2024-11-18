@@ -32,8 +32,8 @@
         "image": "shopify://shop_images/TopicOutdoorHalloweenBg.png",
         "mobile_image": "shopify://shop_images/TopicOutdoorHalloweenBgMobile.png",
         "image_parallax": false,
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-500",
+        "desktop_height": "desktop-height-480",
+        "mobile_height": "mobile-height-345",
         "full_width": true,
         "content_width": "medium",
         "content_position": "bottom-center",
@@ -84,7 +84,6 @@
         "title": "",
         "image": "shopify://shop_images/TopicOutdoorHalloweenInfo.png",
         "image_mobile": "shopify://shop_images/TopicOutdoorHalloweenInfoMobile.png",
-        "reverse": "row-regular",
         "background_image": "shopify://shop_images/TopicOutdoorCoverHalloween.png",
         "background_image_mobile": "shopify://shop_images/TopicOutdoorCoverHalloweenMobile.png",
         "halloween_hand_flag": false
@@ -124,9 +123,8 @@
         "product_wG8iCm",
         "product_BTfM4U"
       ],
-      "disabled": true,
       "settings": {
-        "title": "Transform the Outdoors for <span>Every Occasion</span>",
+        "title": "<p>Transform the Outdoors for <span>Every Occasion</span></p>",
         "image": "shopify://shop_images/TopicOutdoorHalloween.png",
         "image_mobile": "shopify://shop_images/TopicOutdoorHalloweenMobile.png",
         "reverse": "row",
@@ -143,6 +141,8 @@
         "full_width": false,
         "video": "https://youtu.be/Sq0umd4-o0I?si=BoqlOZuPLnZj4vzf",
         "video_autoplay": false,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-345",
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
         "disable_top_spacing": false,
@@ -329,6 +329,7 @@
         "collapsible_tab_YzpmTF",
         "collapsible_tab_KhjgHF"
       ],
+      "disabled": true,
       "settings": {
         "heading": "FAQ",
         "marker_style": "style1",
@@ -345,50 +346,6 @@
     },
     "text_with_icons_LiHffF": {
       "type": "text-with-icons",
-      "blocks": {
-        "icon_839NiY": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify://shop_images/IconFree.png",
-            "heading": "Free",
-            "text": "<p>Worldwide shipping</p>"
-          }
-        },
-        "icon_GGAFrM": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify://shop_images/IconShield.png",
-            "heading": "30 Day",
-            "text": "<p>Money Back Guarantee</p>"
-          }
-        },
-        "icon_UmKN3b": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify://shop_images/IconCorn.png",
-            "heading": "Lifetime",
-            "text": "<p>Customer Support</p>"
-          }
-        },
-        "icon_tf9XBa": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify://shop_images/IconService.png",
-            "heading": "1 Year",
-            "text": "<p>warranty</p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon_839NiY",
-        "icon_GGAFrM",
-        "icon_UmKN3b",
-        "icon_tf9XBa"
-      ],
       "settings": {
         "heading": "Why Choose Us",
         "text_alignment": "center",

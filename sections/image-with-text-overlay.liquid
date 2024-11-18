@@ -19,6 +19,8 @@
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
 
   case mobile_height
+    when 'mobile-height-345'
+      assign mobile_image_height = 345
     when 'mobile-height-350'
       assign mobile_image_height = 350
     when 'mobile-height-400'
@@ -40,7 +42,7 @@
 <div class="row {% if full_width %}full-width-row-full{% endif %}">
   <div class="small-12 columns">
     <image-with-text-overlay
-      class="image-with-text-overlay image-with-text-overlay--full-width-{{ full_width }} text-{{ text_alignment }} {{ mobile_height }} {{ desktop_height }} {% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"
+      class="image-with-text-overlay image-with-text-overlay--full-width-{{ full_width }} text-{{ text_alignment }}{% if mobile_height %} {{mobile_height}}{% endif %}{% if desktop_height %} {{ desktop_height }}{% endif %} {% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"
       style="--text-color: {{ text_color }}; --overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}"
     >
       <div class="image-with-text-overlay--bg parallax--{{ image_parallax }}">
@@ -159,6 +161,10 @@
           "label": "450px"
         },
         {
+          "value": "desktop-height-480",
+          "label": "480px"
+        },
+        {
           "value": "desktop-height-550",
           "label": "550px"
         },
@@ -173,9 +179,13 @@
         {
           "value": "desktop-height-full",
           "label": "Full screen"
+        },
+        {
+          "value": "",
+          "label": "None"
         }
       ],
-      "default": "desktop-height-650"
+      "default": "desktop-height-480"
     },
     {
       "type": "select",
@@ -185,6 +195,10 @@
         {
           "value": "mobile-height-auto",
           "label": "Adapt to content"
+        },
+        {
+          "value": "mobile-height-345",
+          "label": "345px"
         },
         {
           "value": "mobile-height-350",
@@ -205,9 +219,13 @@
         {
           "value": "mobile-height-full",
           "label": "Full screen"
+        },
+        {
+          "value": "",
+          "label": "None"
         }
       ],
-      "default": "mobile-height-500"
+      "default": "mobile-height-345"
     },
     {
       "type": "checkbox",

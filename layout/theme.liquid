@@ -82,18 +82,38 @@
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
     </script>
+
+    {% comment %} meetbot chat {% endcomment %}
     <script src="https://s2.meetbot.com/js/webhooks/5124/ws_channel_script.js"></script>
     <script>
+      // 获取当前用户选择的货币
+      var currentCurrency = Shopify.currency.active;
+      
       const style = document.createElement('style');
       const head = document.getElementsByTagName('head')[0];
-      const rules = document.createTextNode(`
-        .meetbot-widget-wachat {
-          z-index: 99 !important;
-        }
-        .meetbot-widget-popover { 
-          z-index: 99 !important;
-        }
-      `);
+      var rules;
+      // 检查当前货币是否是美元（USD）或加拿大元（CAD）
+      if (currentCurrency === 'USD' || currentCurrency === 'CAD') {
+        // 隐藏 class 为 meetbot-widget-popover 的元素
+        rules = document.createTextNode(`
+          .meetbot-widget-wachat {
+            z-index: 99 !important;
+          }
+          .meetbot-widget-popover { 
+            z-index: 99 !important;
+            display: none !important;
+          }
+        `);
+      } else {
+        rules = document.createTextNode(`
+          .meetbot-widget-wachat {
+            z-index: 99 !important;
+          }
+          .meetbot-widget-popover { 
+            z-index: 99 !important;
+          }
+        `);
+      }
       style.appendChild(rules);
       head.appendChild(style);
     </script>

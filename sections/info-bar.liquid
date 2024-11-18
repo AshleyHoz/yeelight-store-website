@@ -1,0 +1,215 @@
+{%- if section.settings.info_bar -%}
+  {%- liquid
+    assign color_info_bar_text = settings.color_announcement_bar_text
+    assign color_info_bar_bg = settings.color_announcement_bar_bg
+    assign background_color = section.settings.background_color
+    assign show_info_bar = true
+    assign info_bar_layout = section.settings.info_bar_layout
+    assign autoplay = section.settings.autoplay
+    if autoplay
+      assign autoplay = section.settings.autoplay_length | times: 1000
+    endif
+
+    if section.settings.info_bar_homepage_only
+      if template == 'index'
+        assign show_info_bar = true
+      else
+        assign show_info_bar = false
+      endif
+    endif
+  -%}
+  {%- if show_info_bar -%}
+    {{- 'info-bar.css' | asset_url | stylesheet_tag -}}
+    <div
+      class="info-bar"
+      style="--color-info-background-bg: {{ background_color -}};{%if background_color != 'transparent' and background_color != 'rgba(0,0,0,0)'%}background:{{background_color}} !important; {% endif %}"
+    >
+      <div
+        class="info-bar-dekstop"
+        style="--color-info-bar-text: {{ color_info_bar_text }}; --color-info-bar-bg: {{ color_info_bar_bg -}};"
+      >
+        <div
+          class="info-bar--inner"
+        >
+          {%- for block in section.blocks -%}
+            <div class="info-bar--item">
+              {%- render 'svg-icons-custom' with block.settings.icon -%}
+              <div class="bar-text">
+                {{ block.settings.text }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="info-bar-mobile">
+        {%- if info_bar_layout == 'marquee' -%}
+          {%- capture scrolling_text -%}
+					<div>
+						{%- for i in (1..5) -%}
+							{%- liquid
+								if i <= section.blocks.size
+									assign index = i | minus: 1
+								else
+								  assign index = i | minus: section.blocks.size | minus: 1
+								endif
+							-%}
+							<div class="info-bar--item" {{ section.blocks[index].shopify_attributes }}>
+								{%- if section.blocks[index].settings.link -%}
+									<a href="{{ section.blocks[index].settings.link }}" target="_blank">
+								{%- endif -%}
+								{%- if section.blocks[index].settings.icon -%}{% render 'svg-icons-custom', icon: section.blocks[index].settings.icon %}{%- endif -%}<div class="bar-text">{{- section.blocks[index].settings.text -}}</div>
+								{%- if section.blocks[index].settings.link -%}
+									</a>
+								{%- endif -%}
+							</div>
+						{%- endfor -%}
+					</div>
+					{%- endcapture -%}
+          {{ scrolling_text -}}
+          {{- scrolling_text -}}
+          {{- scrolling_text }}
+        {%- else -%}
+          <div class="info-bar--carousel">
+            <slide-show
+              class="carousel"
+              data-autoplay="{{ autoplay }}"
+            >
+              {%- for block in section.blocks -%}
+                <div class="info-bar--item carousel__slide">
+                  {%- render 'svg-icons-custom' with block.settings.icon -%}
+                  <div class="bar-text">
+                    {{ block.settings.text }}
+                  </div>
+                </div>
+              {% endfor %}
+              {%- if section.blocks.size > 1 -%}
+                <div class="flickity-nav flickity-prev" tabindex="0">
+                  {% render 'svg-icons' with 'thb-caret-left' %}
+                </div>
+                <div class="flickity-nav flickity-next" tabindex="0">
+                  {% render 'svg-icons' with 'thb-caret-right' %}
+                </div>
+              {%- endif -%}
+            </slide-show>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  {%- endif -%}
+{%- endif -%}
+{% schema %}
+{
+  "name": "Info bar",
+  "class": "info-bar-section",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "info_bar",
+      "label": "Enable info bar",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "info_bar_homepage_only",
+      "label": "Show on home page only",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "info_bar_layout",
+      "options": [
+        {
+          "value": "marquee",
+          "label": "Marquee"
+        },
+        {
+          "value": "carousel",
+          "label": "Carousel"
+        }
+      ],
+      "default": "carousel",
+      "label": "Layout"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Auto-rotate slides",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "autoplay_length",
+      "min": 3,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "label": "Change slides every",
+      "default": 5
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "transparent"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Texxt",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "options": [
+            {
+              "value": "none",
+              "label": "None"
+            },
+            {
+              "value": "custom-service",
+              "label": "Shipping"
+            },
+            {
+              "value": "custom-airplane",
+              "label": "Plane"
+            },
+            {
+              "value": "custom-corn",
+              "label": "Corn"
+            },
+            {
+              "value": "custom-shield",
+              "label": "Shield"
+            }
+          ],
+          "default": "none",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Content",
+          "default": "Add campaign text here."
+        },
+        {
+          "id": "link",
+          "type": "url",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Info bar",
+      "blocks": [
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

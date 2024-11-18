@@ -1,5 +1,6 @@
 .yee-product-slideshow {
   padding: 80px 0 200px;
+  overflow: hidden;
 }
 
 .yee-product-slideshow .slideshow__slide-content:after,

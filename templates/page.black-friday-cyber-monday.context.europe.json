@@ -1,0 +1,59 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.black-friday-cyber-monday.json",
+  "context": {
+    "market": "europe"
+  },
+  "sections": {
+    "activity_blackfriday_EDfQAb": {
+      "settings": {},
+      "blocks": {
+        "product_pQwwR6": {
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        }
+      },
+      "block_order": [
+        "product_at8DW3",
+        "product_LgUAQn",
+        "product_PP6Egj",
+        "product_pQwwR6"
+      ]
+    },
+    "activity_blackfriday_Da7PxU": {
+      "settings": {},
+      "blocks": {
+        "product_Wt7qra": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        }
+      }
+    },
+    "activity_blackfriday_cF3zaQ": {
+      "settings": {},
+      "blocks": {
+        "product_LpKiUR": {
+          "settings": {
+            "product": "yeelight-holiday-lightshow-package"
+          }
+        },
+        "product_VEa3VT": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        }
+      }
+    }
+  }
+}

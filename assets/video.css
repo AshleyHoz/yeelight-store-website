@@ -7,7 +7,11 @@
   background: #090538;
 }
 
-.video-container .image-product-bg {
+.section-activity-black-friday .video-section-container-blackfriday {
+  background: #100a29;
+}
+
+.video-section-container .image-product-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -89,6 +93,10 @@
   border-radius: 20px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.full-width-row-full .video-section--container {
+  border-radius: 0;
 }
 
 .video-section--container.video-aspect--16-9 {

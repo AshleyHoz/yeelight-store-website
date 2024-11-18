@@ -1,57 +1,54 @@
 {{ 'activity-blackfriday.css' | asset_url | stylesheet_tag }}
 {{ 'product-grid.css' | asset_url | stylesheet_tag }}
 {%- liquid
-  assign image = section.settings.image
-  assign image_mobile = section.settings.image_mobile
-  assign background_image = section.settings.background_image
-  assign background_image_mobile = section.settings.background_image_mobile
+  assign section_title = section.settings.title
 -%}
 
 <div class="activity-blackfriday">
-  <div class="activity-blackfriday-bg">
-    <div class="activity-blackfriday-bg-icons">
-      <div class="ic-spider-left">
-        {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-left' -%}
-      </div>
-      <div class="ic-spider-right">
-        {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-right' -%}
-      </div>
-      <div class="ic-ghost">
-        {%- render 'svg-icons-halloween' with 'custom-halloween-ghost' -%}
+  {% if section.settings.show_icon %}
+    <div class="activity-blackfriday-bg">
+      <div class="activity-blackfriday-bg-icons">
+        <div
+          class="ic-bg-left"
+          style="position:absolute;left: {{- section.settings.left_x_position | append: '%' -}}; top: {{- section.settings.left_y_position | append: '%' -}};"
+        >
+          {%- render 'svg-icons-friday' with 'custom-friday-bg-left' -%}
+        </div>
+        <div
+          class="ic-bg-right"
+          style="position:absolute;right: {{- section.settings.right_x_position | append: '%' -}}; top: {{- section.settings.right_y_position | append: '%' -}};"
+        >
+          {%- render 'svg-icons-friday' with 'custom-friday-bg-right' -%}
+        </div>
       </div>
     </div>
-  </div>
-  <div class="activity-blackfriday--img">
-    <div class="mobile-cover-img">
-      {%- if background_image_mobile -%}
-        {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
-      {%- endif -%}
+  {% endif %}
+  {% comment %}
+    <div class="activity-blackfriday--img">
+      <div class="mobile-cover-img">
+        {%- if background_image_mobile -%}
+          {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
+        {%- endif -%}
+      </div>
+      <div class="cover-img">
+        {%- if background_image -%}
+          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+        {%- endif -%}
+      </div>
     </div>
-    <div class="cover-img">
-      {%- if background_image -%}
-        {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-      {%- endif -%}
-    </div>
-  </div>
-  <div class="row activity-products-row">
+  {% endcomment %}
+  <div class="row activity-blackfriday-row">
+    {% if section_title %}
+      <div class="activity-blackfriday-header">
+        {% render 'section-header', section_heading: section_title %}
+      </div>
+    {% endif %}
     <div class="activity-blackfriday--product">
       {% for block in section.blocks %}
         <div class="product-item">
           {% render 'product-card', product_card_product: block.settings.product %}
         </div>
       {% endfor %}
-    </div>
-    <div class="activity-blackfriday--info">
-      <div class="mobile-info-img">
-        {%- if image_mobile -%}
-          {%- render 'responsive-image', image: image_mobile, sizes: image_mobile.src.width | append: 'x' | append: image_mobile.src.height -%}
-        {%- endif -%}
-      </div>
-      <div class="info-img">
-        {%- if image -%}
-          {%- render 'responsive-image', image: image, sizes: image.src.width | append: 'x' | append: image.src.height -%}
-        {%- endif -%}
-      </div>
     </div>
   </div>
 </div>
@@ -80,20 +77,36 @@
       "info": "750 x 800 px .jpg recommended. Default image is used if none is selected. To position the hotspots precisely, switch to mobile mode."
     },
     {
-      "type": "select",
-      "id": "reverse",
-      "options": [
-        {
-          "value": "row-regular",
-          "label": "Right"
-        },
-        {
-          "value": "row-reverse",
-          "label": "Left"
-        }
-      ],
-      "default": "row-regular",
-      "label": "Product Position"
+      "type": "header",
+      "content": "Left Icon Position"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "default": false,
+      "label": "Enable background icon"
+    },
+    {
+      "type": "range",
+      "id": "left_x_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Horizontal",
+      "default": 0,
+      "info": "Horizontal position of the hot spot"
+    },
+    {
+      "type": "range",
+      "id": "left_y_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Vertical",
+      "default": 0,
+      "info": "Vertical position of the hot spot"
     },
     {
       "type": "image_picker",
@@ -101,15 +114,30 @@
       "label": "Background Image"
     },
     {
-      "type": "image_picker",
-      "id": "background_image_mobile",
-      "label": "Mobile Background image (optional)"
+      "type": "header",
+      "content": "Right Icon Position"
     },
     {
-      "type": "checkbox",
-      "id": "halloween_hand_flag",
-      "default": false,
-      "label": "Show Halloween Hand"
+      "type": "range",
+      "id": "right_x_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Horizontal",
+      "default": 0,
+      "info": "Horizontal position of the hot spot"
+    },
+    {
+      "type": "range",
+      "id": "right_y_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Vertical",
+      "default": 0,
+      "info": "Vertical position of the hot spot"
     }
   ],
   "blocks": [
@@ -127,7 +155,7 @@
   ],
   "presets": [
     {
-      "name": "Products",
+      "name": "Activity Blackfriday",
       "blocks": [
         {
           "type": "product"

@@ -1,9 +1,7 @@
 .activity-blackfriday {
   position: relative;
-}
-
-.yee-activity-halloween .activity-blackfriday {
-  background: #090538;
+  padding: 70px 0;
+  background: #100a29;
 }
 
 .activity-blackfriday-bg {
@@ -13,7 +11,7 @@
   top: 0;
   left: 0;
   z-index: 1;
-  background: #090538;
+  background: #100a29;
 }
 
 .activity-blackfriday-bg-icons {
@@ -31,28 +29,13 @@
   padding-top: 20px;
 }
 
-.activity-blackfriday-bg-icons .ic-spider-left {
-  position: absolute;
-  left: 0;
-  bottom: 120px;
-}
-
-.activity-blackfriday-bg-icons .ic-spider-right {
-  position: absolute;
-  right: 0;
-  top: 650px;
-}
-
-.activity-blackfriday-bg-icons .ic-ghost {
-  position: absolute;
-  right: 0;
-  bottom: 200px;
-}
-
-.activity-products-row {
+.activity-blackfriday-row {
   position: relative;
   z-index: 2;
-  margin-top: -120px;
+}
+
+.activity-blackfriday-header {
+  width: 100%;
 }
 
 .activity-blackfriday--info {
@@ -80,29 +63,37 @@
   width: 60%;
 }
 
-.activity-products-row .activity-blackfriday--product {
-  gap: 12px;
+.activity-blackfriday-row .activity-blackfriday--product {
+  width: 100%;
+  gap: 24px;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  flex-wrap: wrap;
 }
 
-.activity-products-row .activity-blackfriday--product .product-item {
-  width: calc(25% - 12px);
+.activity-blackfriday-row .activity-blackfriday--product .product-item {
+  width: calc(25% - 20px);
+}
+
+.activity-blackfriday-row .activity-blackfriday--product .product-item .product-card {
+  background: rgba(0, 0, 0, 0.4);
 }
 
 @media only screen and (max-width: 767px) {
-  .activity-products-row {
+  .activity-blackfriday {
+    padding: 24px 0;
+  }
+  .activity-blackfriday-row {
     margin-top: 0;
   }
 
-  .activity-products-row .activity-blackfriday--product {
+  .activity-blackfriday-row .activity-blackfriday--product {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 12px;
   }
 
-  .activity-products-row .activity-blackfriday--product .product-item {
+  .activity-blackfriday-row .activity-blackfriday--product .product-item {
     width: calc(50% - 6px);
   }
 
@@ -117,9 +108,8 @@
 
   .activity-blackfriday--img .cover-img,
   .activity-blackfriday--info .info-img,
-  .activity-blackfriday-bg-icons .ic-spider-left,
-  .activity-blackfriday-bg-icons .ic-spider-right,
-  .activity-blackfriday-bg-icons .ic-ghost {
+  .activity-blackfriday-bg-icons .ic-bg-left,
+  .activity-blackfriday-bg-icons .ic-bg-right {
     display: none;
   }
 }
