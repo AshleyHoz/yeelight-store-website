@@ -88,7 +88,7 @@
     <script>
       // 获取当前用户选择的货币
       var currentCurrency = Shopify.currency.active;
-      
+
       const style = document.createElement('style');
       const head = document.getElementsByTagName('head')[0];
       var rules;
@@ -151,6 +151,7 @@
     {{ 'product.js' | asset_url | script_tag }}
     {{ 'slideshow.js' | asset_url | script_tag }}
     {{ 'app.js' | asset_url | script_tag }}
+    {{ 'flex.css' | asset_url | stylesheet_tag }}
     <script type="module" src="{{ 'scroll-shadow.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- if settings.free_shipping -%}
