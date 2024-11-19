@@ -31,9 +31,6 @@
   position: relative;
   padding: 0;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   color: #fff;
   font-size: 18px;
   font-weight: 500;

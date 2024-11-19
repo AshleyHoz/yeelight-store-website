@@ -19,8 +19,6 @@
 
 .background-video {
   position: relative;
-  display: flex;
-  align-items: center;
   text-align: center;
   overflow: hidden;
 }
@@ -80,7 +78,6 @@
   background: rgba(var(--overlay-color-rgb), var(--overlay-opacity));
 }
 .background-video__content-wrap {
-  display: flex;
   padding: 0 15px;
   width: 100%;
   position: relative;
@@ -179,10 +176,7 @@
   margin-top: 20px;
 }
 .video-lightbox-modal__button {
-  display: flex;
   margin: 0 auto;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   width: 64px;
   height: 64px;
@@ -205,9 +199,6 @@
 .video-lightbox-modal__toggle {
   width: 40px;
   height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: absolute;
   top: 5px;
   right: 5px;

@@ -295,8 +295,6 @@
   left: 0;
   width: 20px;
   height: 100%;
-  display: flex;
-  align-items: center;
 }
 [dir='rtl'] .product-card-small--add-to-cart-icon {
   left: auto;

@@ -36,7 +36,7 @@
 <div class="row">
   <div class="small-12 columns">
     <div
-      class="before-after-image image-position--{{ image_position }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
+      class="before-after-image image-position--{{ image_position }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} d-flex flex-column"
       style="--percent:{{ initial_position }}%; --color-line: {{ line_color }};"
     >
       <div class="before-after-image--text">
@@ -106,7 +106,7 @@
                 {%- render 'responsive-image', image: image, sizes: width, class: 'before-after-image--mobile' -%}
               {%- endif -%}
             </div>
-            <div class="before-after-image--content before-after-image--content-{{ heading_position }}">
+            <div class="before-after-image--content before-after-image--content-{{ heading_position }} d-flex justify-start">
               {%- if title != blank -%}
                 <div class="before-after-image--label before-after-image--label-{{ heading_size }}">{{ title }}</div>
               {%- endif -%}

@@ -19,7 +19,7 @@
 -%}
 <div class="row {% if full_width %}full-width-row-full{% endif %}">
   <div class="small-12 columns">
-    <background-video class="background-video background-video--full-width-{{ full_width }} {{ mobile_height }} {{ desktop_height }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
+    <background-video class="background-video background-video--full-width-{{ full_width }} {{ mobile_height }} {{ desktop_height }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} d-flex align-center">
       {%- if fallback_image != blank -%}
         <div class="background-video__fallback-img">
           <img
@@ -72,7 +72,7 @@
         class="background-video__overlay"
         style="--overlay-color-rgb: {{ overlay_color.rgb | replace: " ", "," }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.00 }}"
       ></div>
-      <div class="background-video__content-wrap">
+      <div class="background-video__content-wrap d-flex">
         <div class="background-video__content">
           {% for block in section.blocks %}
             {%- case block.type -%}
@@ -93,14 +93,18 @@
                 >
                   <button
                     id="VideoLightboxToggle-{{ section.id }}"
-                    class="video-lightbox-modal__button"
+                    class="video-lightbox-modal__button d-flex align-center justify-center"
                     type="button"
                     aria-haspopup="dialog"
                   >
                     {% render 'svg-icons' with 'thb-video-play' %}
                   </button>
                 </modal-opener>
-                <a href="{{ video.url }}" class="video-lightbox-modal__button no-js" target="_blank">
+                <a
+                  href="{{ video.url }}"
+                  class="video-lightbox-modal__button d-flex align-center justify-center no-js"
+                  target="_blank"
+                >
                   {%- render 'svg-icons' with 'thb-video-play' -%}
                 </a>
                 <modal-dialog id="VideoLightbox-{{ section.id }}" class="video-lightbox-modal">
@@ -113,7 +117,7 @@
                     <button
                       id="ModalClose-{{ section.id }}"
                       type="button"
-                      class="video-lightbox-modal__toggle"
+                      class="video-lightbox-modal__toggle d-flex align-center justify-center"
                       aria-label="{{ 'accessibility.close' | t }}"
                     >
                       {% render 'svg-icons' with 'close' %}
