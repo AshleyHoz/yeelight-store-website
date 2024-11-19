@@ -13,7 +13,7 @@
 	{%- endfor -%}
 {%- endcapture -%}
 {%- if product_labels != '' -%}
-<div class="product-card--label-container">
-{{ product_labels }}
-</div>
+  <div class="product-card--label-container d-flex flex-wrap">
+    {{ product_labels }}
+  </div>
 {%- endif -%}

@@ -128,7 +128,7 @@
               <h5 class="comments-title">
                 {{ 'blogs.article.comments_html' | t: count: article.comments_count, title: article.title }}
               </h5>
-              <ul class="commentlist">
+              <ul class="commentlist d-flex align-start">
                 {% paginate article.comments by 5 %}
                   {% for comment in article.comments %}
                     <li class="comment">

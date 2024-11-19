@@ -57,7 +57,7 @@
       <div class="featured-collection__inner display-type--{{ display_type }}">
         <{{ element }}
           id="product-grid-{{ section.id }}"
-          class="products row featured-collection--row {{ display_type }}"
+          class="products row featured-collection--row d-flex justify-space-between flex-wrap {{ display_type }}"
         >
           {%- if featured_collection != blank -%}
             {%- for product in featured_collection.products limit: product_limit -%}

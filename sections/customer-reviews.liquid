@@ -40,7 +40,11 @@
   <div class="row">
     <div class="small-12 columns">
       {%- render 'section-header', section_heading: section_heading, section_description: section_description -%}
-      <slide-show class="customer-reviews--carousel" data-autoplay="{{ autoplay }}" data-align="left">
+      <slide-show
+        class="customer-reviews--carousel d-flex flex-nowrap"
+        data-autoplay="{{ autoplay }}"
+        data-align="left"
+      >
         {%- for block in section.blocks -%}
           {%- liquid
             assign product_handle = block.settings.product_handle
@@ -60,7 +64,10 @@
                       {{ 'product-1' | placeholder_svg_tag }}
                     </div>
                   {%- endif -%}
-                  <quick-view class="customer-reviews--quick-view" data-product-handle="{{ review_product.handle }}">
+                  <quick-view
+                    class="customer-reviews--quick-view d-flex align-center justify-center"
+                    data-product-handle="{{ review_product.handle }}"
+                  >
                     {%- render 'svg-icons' with 'thb-add-to-cart' %}
                     {%- unless review_product == empty -%}
                       <div class="loading-overlay">
@@ -79,7 +86,7 @@
                 {%- endif -%}
                 <p>{{ block.settings.text | newline_to_br }}</p>
                 {%- if block.settings.author != blank -%}
-                  <div class="customer-reviews--author">
+                  <div class="customer-reviews--author d-flex align-center">
                     {%- if block.settings.author_image != blank -%}
                       {%- render 'responsive-image', image: block.settings.author_image, sizes: '64x64' -%}
                     {%- endif -%}

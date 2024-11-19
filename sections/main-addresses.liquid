@@ -8,7 +8,9 @@
         <div class="my-address">
           <span class="address-index">{{ forloop.index }}</span>
           {%- if address == customer.default_address -%}
-            <span class="address-default">{% render 'svg-icons' with 'default-address' %}</span>
+            <span class="address-default d-flex align-center justify-center">
+              {%- render 'svg-icons' with 'default-address' -%}
+            </span>
           {%- endif -%}
           <address>
             {{ address | format_address }}
@@ -192,7 +194,7 @@
       </div>
     {%- endfor -%}
     <div class="small-12 medium-6 large-4 columns">
-      <div class="add-address">
+      <div class="add-address d-flex align-center justify-center flex-column">
         {% render 'svg-icons' with 'add-address' %}
         <button
           type="button"

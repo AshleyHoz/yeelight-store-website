@@ -849,9 +849,7 @@
   border-radius: var(--input-border-radius, 6px);
 }
 .product-card--label-container {
-  display: flex;
   grid-gap: 5px;
-  flex-wrap: wrap;
 }
 .product-card-cover {
   position: absolute;

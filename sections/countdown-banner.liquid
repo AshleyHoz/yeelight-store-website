@@ -54,7 +54,7 @@
 <div class="row {% if full_width %} full-width-row-full{% endif %}">
   <div class="small-12 columns">
     <div
-      class="countdown-banner countdown-banner--full-width-{{ full_width }} {{ mobile_height }} {{ desktop_height }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
+      class="countdown-banner countdown-banner--full-width-{{ full_width }} {{ mobile_height }} {{ desktop_height }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} d-flex flex-column justify-center"
       style="--color-bg: {{ color_bg }}; --color-text: {{ color_text }}; --solid-button-background: {{ color_text }}; --solid-button-background-hover: {{ color_text | color_darken: 7 }}; --solid-button-label: {{ color_bg }};--bg-body: {{ color_bg }}"
     >
       <div class="countdown-banner--bg">
@@ -81,7 +81,7 @@
           style="--overlay-color: {{ overlay_color }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.00 }};"
         ></div>
       </div>
-      <div class="countdown-banner--inner layout--{{ section_layout }} ">
+      <div class="countdown-banner--inner layout--{{ section_layout }} d-flex flex-column justify-center">
         <div class="countdown-banner--content">
           {%- if subheading != blank -%}
             <p class="subheading">{{ subheading }}</p>
@@ -93,7 +93,7 @@
             <p class="description-size--{{ content_size }}">{{ content | newline_to_br }}</p>
           {%- endif -%}
         </div>
-        <div class="countdown-banner--timer">
+        <div class="countdown-banner--timer d-flex align-center">
           <countdown-timer
             class="countdown-timer"
             data-date="{{ date }}"
