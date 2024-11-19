@@ -32,7 +32,7 @@
       assign mobile_image_height = 900
   endcase
 -%}
-<div class="video-container{% if settings.halloween_flag and halloween_skull_flag %} video-section-container video-section-container-halloween{% endif %}{% if settings.black_friday_flag and section.settings.black_friday_ui_flag %} video-section-container video-section-container-blackfriday{% endif %}">
+<div class="yee-video video-container{% if settings.halloween_flag and halloween_skull_flag %} video-container-halloween{% endif %}{% if settings.black_friday_flag and section.settings.black_friday_ui_flag %} video-container-blackfriday{% endif %}">
   {%- if settings.halloween_flag and halloween_skull_flag -%}
     <div class="image-product-bg">
       {% comment %}
@@ -50,8 +50,8 @@
     </div>
   {%- endif -%}
 
-  <div class="row {% if full_width %} full-width-row-full{% endif %} {% if settings.halloween_flag and halloween_skull_flag %} video-section-inner {% else %} video-section-inner-container {% endif %}">
-    <div class="video-section spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
+  <div class="row spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} {% if full_width %} full-width-row-full{% endif %} {% if settings.halloween_flag and halloween_skull_flag %} video-section-inner {% else %} video-section-inner-container {% endif %}">
+    <div class="video-section ">
       <div class="video-section--inner">
         {% render 'section-header',
           section_heading: section_heading,

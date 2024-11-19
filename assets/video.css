@@ -1,5 +1,5 @@
-.video-container {
-  padding: 60px 0;
+.yee-video {
+  /* padding: 60px 0; */
   position: relative;
 }
 
@@ -7,11 +7,11 @@
   background: #090538;
 }
 
-.yee-activity-black-friday .video-section-container-blackfriday {
+.yee-activity-black-friday .video-container-blackfriday {
   background: #100a29;
 }
 
-.video-section-container .image-product-bg {
+.video-container .image-product-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -38,7 +38,7 @@
   right: 0;
 }
 
-.video-container .video-section-inner {
+.yee-video.video-section-inner {
   z-index: 2;
   position: relative;
   display: block;
@@ -50,7 +50,7 @@
   overflow: hidden;
 }
 
-.video-container .video-section--inner_halloween-skull {
+.yee-video.video-section--inner_halloween-skull {
   position: absolute;
   bottom: -23px;
   right: -35px;
@@ -126,15 +126,15 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .video-container {
-    padding: 16px 0;
+  .yee-video {
+    /* padding: 16px 0; */
   }
 
-  .video-container .image-product-bg {
+  .yee-video.image-product-bg {
     display: none;
   }
 
-  .video-container .video-section-inner {
+  .yee-video.video-section-inner {
     margin: 0 16px;
     padding: 0;
   }
