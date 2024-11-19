@@ -31,8 +31,6 @@
 }
 .announcement-bar--inner {
   height: 100%;
-  display: flex;
-  align-items: center;
   max-width: none;
   white-space: nowrap;
   font-size: calc(var(--font-announcement-scale, 1) * 13px);

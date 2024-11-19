@@ -36,7 +36,7 @@
       style="--color-announcement-bar-text: {{ color_announcement_bar_text }}; --color-announcement-bar-bg: {{ color_announcement_bar_bg -}};--color-announcement-background-bg: {{ background_color -}};{%if background_color != 'transparent' and background_color != 'rgba(0,0,0,0)'%}background:{{background_color}} !important; {% endif %}"
     >
       <div
-        class="announcement-bar--inner direction-{{ direction }} announcement-bar--{{ announcement_bar_layout }}"
+        class="announcement-bar--inner direction-{{ direction }} announcement-bar--{{ announcement_bar_layout }} d-flex align-center"
         style="--marquee-speed: {{ speed }}"
       >
         {% if announcement_bar_layout == 'single' %}
