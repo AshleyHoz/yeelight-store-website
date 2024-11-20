@@ -158,7 +158,7 @@
         "image": "shopify://shop_images/Yeelight_candela_lamp-03.jpg",
         "image_mobile": "shopify://shop_images/New_Candela_Lamp_3.jpg",
         "full_width": true,
-        "disable_top_spacing": false,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
