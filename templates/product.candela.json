@@ -1,22 +1,4 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
-/*
  * ------------------------------------------------------------
  * IMPORTANT: The contents of this file are auto-generated.
  *
@@ -150,503 +132,93 @@
         "enable_video_looping": false
       }
     },
-    "rich_text_H8jgp3": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_rarUBL": {
-          "type": "heading",
-          "settings": {
-            "text": "Key Features",
-            "marker_style": "style1",
-            "size": "h3",
-            "marker_color": "#fd6262"
-          }
-        }
-      },
-      "block_order": ["heading_rarUBL"],
-      "disabled": true,
-      "settings": {
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#1a1c1d",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "media_grid_FbNbpy": {
-      "type": "media-grid",
-      "blocks": {
-        "media_XEbbe4": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 2,
-            "row": 1,
-            "subheading": "",
-            "heading": "Gift- Ready",
-            "heading_size": "h4",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "top-left",
-            "text_alignment": "center",
-            "color_bg": "#ffffff",
-            "color_bg_gradient": "",
-            "color_text": "#2c2d2e",
-            "color_link": "#3f72e5",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "media_dm44Uw": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 1,
-            "subheading": "",
-            "heading": "Candlelight Mimicking",
-            "heading_size": "h4",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "top-center",
-            "text_alignment": "center",
-            "color_bg": "#ffffff",
-            "color_bg_gradient": "",
-            "color_text": "#2c2d2e",
-            "color_link": "#3f72e5",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "media_9XWkJx": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 1,
-            "subheading": "",
-            "heading": "Steady\nTask-lighting",
-            "heading_size": "h4",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "top-center",
-            "text_alignment": "center",
-            "color_bg": "#ffffff",
-            "color_bg_gradient": "",
-            "color_text": "#2c2d2e",
-            "color_link": "#3f72e5",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "media_CfLQHm": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 2,
-            "row": 1,
-            "subheading": "",
-            "heading": "Dimming Warm Light",
-            "heading_size": "h4",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "top-left",
-            "text_alignment": "center",
-            "color_bg": "#ffffff",
-            "color_bg_gradient": "",
-            "color_text": "#2c2d2e",
-            "color_link": "#3f72e5",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "media_KaaBW9": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 1,
-            "subheading": "",
-            "heading": "Rechargeable Battery",
-            "heading_size": "h4",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "color_bg": "#ffffff",
-            "color_bg_gradient": "",
-            "color_text": "#2c2d2e",
-            "color_link": "#3f72e5",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "media_kX3JTG": {
-          "type": "media",
-          "settings": {
-            "slide_link": "",
-            "use_video": false,
-            "video_autoplay": true,
-            "column": 1,
-            "row": 1,
-            "subheading": "",
-            "heading": "Type-C Port",
-            "heading_size": "h4",
-            "button_text": "",
-            "button_link": "",
-            "content_position": "bottom-center",
-            "text_alignment": "center",
-            "color_bg": "#ffffff",
-            "color_bg_gradient": "",
-            "color_text": "#2c2d2e",
-            "color_link": "#3f72e5",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": ["media_XEbbe4", "media_dm44Uw", "media_9XWkJx", "media_CfLQHm", "media_KaaBW9", "media_kX3JTG"],
-      "disabled": true,
-      "settings": {
-        "desktop_height": 300,
-        "mobile_height": 250,
-        "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_link": "#3f72e5",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "single_image_zxyjcY": {
+    "single_image_mtTtz8": {
       "type": "single-image",
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Yeelight_candela_lamp-pc_6.jpg",
-        "image_mobile": "shopify://shop_images/02.jpg",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-01.jpg",
+        "image_mobile": "shopify://shop_images/New_Candela_Lamp_1.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
-    "image_with_text_AQWUFj": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_48yCex": {
-          "type": "heading",
-          "settings": {
-            "text": "Create Your Cozy Haven",
-            "marker_style": "style1",
-            "heading_size": "h3",
-            "marker_color": "#fd6262"
-          }
-        },
-        "text_TJMAaC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>1800K warm light, cast a gentle glow & uplift your mood</p>"
-          }
-        }
-      },
-      "block_order": ["heading_48yCex", "text_TJMAaC"],
+    "single_image_CiE9F9": {
+      "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/Yeelight_candela_lamp-pc_1.jpg",
-        "use_video": false,
-        "video": "",
-        "video_autoplay": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "full_width": false,
-        "layout": "text_first",
-        "content_position": "text-left",
-        "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_border": "#e2e2e2",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-02.jpg",
+        "image_mobile": "shopify://shop_images/New_Candela_Lamp_2.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_g4CiQU": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/Yeelight_candela_lamp-03.jpg",
+        "image_mobile": "shopify://shop_images/New_Candela_Lamp_3.jpg",
+        "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
-    "image_with_text_64JdNJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_KEVgGg": {
-          "type": "heading",
-          "settings": {
-            "text": "Versatile Dual Mode: Beyond Ambiance",
-            "marker_style": "style1",
-            "heading_size": "h3",
-            "marker_color": "#fd6262"
-          }
-        },
-        "text_KPGNjR": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Flickering charm for romance, steady light for focused tasks</p>"
-          }
-        }
-      },
-      "block_order": ["heading_KEVgGg", "text_KPGNjR"],
+    "single_image_xpAebN": {
+      "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/tuya.png",
-        "use_video": false,
-        "video": "",
-        "video_autoplay": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "full_width": false,
-        "layout": "image_first",
-        "content_position": "text-left",
-        "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_border": "#e2e2e2",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-04.jpg",
+        "image_mobile": "shopify://shop_images/New_Candela_Lamp_4.jpg",
+        "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
-    "image_with_text_tmbbPn": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_ApQJta": {
-          "type": "heading",
-          "settings": {
-            "text": "Dim or Brighten, Rotate with Fun",
-            "marker_style": "style1",
-            "heading_size": "h3",
-            "marker_color": "#fd6262"
-          }
-        },
-        "text_gjML7W": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Adjust with a Twist! Rotate the lamp body for the desired brightness</p>"
-          }
-        }
-      },
-      "block_order": ["heading_ApQJta", "text_gjML7W"],
+    "single_image_k6gWJB": {
+      "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/Yeelight_candela_lamp-pc_3.jpg",
-        "use_video": false,
-        "video": "",
-        "video_autoplay": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "full_width": false,
-        "layout": "text_first",
-        "content_position": "text-left",
-        "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_border": "#e2e2e2",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-05.jpg",
+        "image_mobile": "shopify://shop_images/New_Candela_Lamp_5.jpg",
+        "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
-    "image_with_text_MEjUra": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_fwk76H": {
-          "type": "heading",
-          "settings": {
-            "text": "Long-lasting Battery, Uninterrupted Vibe",
-            "marker_style": "style1",
-            "heading_size": "h3",
-            "marker_color": "#fd6262"
-          }
-        },
-        "text_UF3LxX": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Stay cozy for <strong>100 hours</strong> with a 2500mAh rechargeable battery</p>"
-          }
-        }
-      },
-      "block_order": ["heading_fwk76H", "text_UF3LxX"],
+    "single_image_nbhytB": {
+      "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/Frame_1686633148_1_-tuya.png",
-        "use_video": false,
-        "video": "",
-        "video_autoplay": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "full_width": false,
-        "layout": "image_first",
-        "content_position": "text-left",
-        "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_border": "#e2e2e2",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-06.jpg",
+        "image_mobile": "shopify://shop_images/New_Candela_Lamp_6.jpg",
+        "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
-    "image_with_text_6naABp": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_EdVQtP": {
-          "type": "heading",
-          "settings": {
-            "text": "Portable Vibe, Anywhere You Go!",
-            "marker_style": "style1",
-            "heading_size": "h3",
-            "marker_color": "#fd6262"
-          }
-        },
-        "text_t3WW9r": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Indoor coziness or outdoor adventures, take the ambiance along</p>"
-          }
-        }
-      },
-      "block_order": ["heading_EdVQtP", "text_t3WW9r"],
+    "single_image_8TkYG3": {
+      "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/Yeelight_candela_lamp-pc_5.jpg",
-        "use_video": false,
-        "video": "",
-        "video_autoplay": true,
-        "height": "small",
-        "desktop_image_width": "medium",
-        "full_width": false,
-        "layout": "text_first",
-        "content_position": "text-left",
-        "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_border": "#e2e2e2",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-07.jpg",
+        "image_mobile": "shopify://shop_images/New_Candela_Lamp_7.jpg",
+        "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
-    "image_with_text_L3xqhC": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_kJNeh9": {
-          "type": "heading",
-          "settings": {
-            "text": "A Thoughtful Gift to Your Loved Ones",
-            "marker_style": "style1",
-            "heading_size": "h3",
-            "marker_color": "#fd6262"
-          }
-        },
-        "text_PXkxLL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A stylish decor piece, perfect for any cherished occasion</p>"
-          }
-        }
-      },
-      "block_order": ["heading_kJNeh9", "text_PXkxLL"],
+    "single_image_4jwYRE": {
+      "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/yeelight_candela_lamp-pc_8.jpg",
-        "use_video": false,
-        "video": "",
-        "video_autoplay": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "full_width": false,
-        "layout": "image_first",
-        "content_position": "text-left",
-        "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_border": "#e2e2e2",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-08.jpg",
+        "image_mobile": "shopify://shop_images/New_Candela_Lamp_8.jpg",
+        "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
     },
-    "image_with_text_4VYCqP": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_tXFyCk": {
-          "type": "heading",
-          "settings": {
-            "text": "Portable Vibe, Anywhere You Go!",
-            "marker_style": "style1",
-            "heading_size": "h3",
-            "marker_color": "#fd6262"
-          }
-        },
-        "text_KkVz98": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Indoor coziness or outdoor adventures, take the ambiance along</p>"
-          }
-        }
-      },
-      "block_order": ["heading_tXFyCk", "text_KkVz98"],
-      "disabled": true,
+    "single_image_DYGjaQ": {
+      "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/2_-tuya.png",
-        "use_video": false,
-        "video": "",
-        "video_autoplay": true,
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "full_width": false,
-        "layout": "text_first",
-        "content_position": "text-left",
-        "column_spacing": "medium",
-        "color_bg": "#ffffff",
-        "color_text": "#2c2d2e",
-        "color_border": "#e2e2e2",
+        "image": "shopify://shop_images/Yeelight_candela_lamp-09.jpg",
+        "image_mobile": "shopify://shop_images/New_Candela_Lamp_9.jpg",
+        "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "tabbed_content_8ir4a4": {
-      "type": "tabbed-content",
-      "blocks": {
-        "tab_zPhe9b": {
-          "type": "tab",
-          "settings": {
-            "tab_label": "Description",
-            "icon": "none",
-            "text": "<ul><li>Dimmable by simple rotating the lamp base</li><li>A candle-shape table lamp designed to wow</li><li>A perfect add-on to your house and atmosphere</li><li>Built-in 2500mAh battery to allow up to 8-hour continuous use on a single charge</li><li>Portable enough for both indoor and outdoor use</li><li>Type-C rechargeable</li></ul>",
-            "text_columns": "1",
-            "page": ""
-          }
-        },
-        "tab_RkmYzT": {
-          "type": "tab",
-          "settings": {
-            "tab_label": "Specifications",
-            "icon": "none",
-            "text": "<ul><li><strong>Name</strong>: Yeelight Candela Lamp</li><li><strong>Model No.</strong>: YLFWD-0019</li><li><strong>Dimensions:</strong> 72.5*72.5*195mm</li><li><strong>Weight:</strong> 410 土10g</li><li><strong>Brightness Adjustment</strong>: 1%-100%</li><li><strong>Power</strong>: 5w</li><li><strong>Battery</strong>:Polymer lithium battery 3.7V 2500mAh</li><li><strong>Working Temperature</strong>: -10-40°C</li></ul><p></p>",
-            "text_columns": "1",
-            "page": ""
-          }
-        }
-      },
-      "block_order": ["tab_zPhe9b", "tab_RkmYzT"],
-      "settings": {
-        "heading": "Tech Spec",
-        "marker_style": "style1",
-        "description": "",
-        "text_size": "small",
-        "tab_alignment": "left",
-        "text_alignment": "left",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_tabs": "#2c2d2e",
-        "color_text": "#2c2d2e",
-        "marker_color": "#fd6262",
-        "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
     },
@@ -663,7 +235,9 @@
           }
         }
       },
-      "block_order": ["heading_WVbABB"],
+      "block_order": [
+        "heading_WVbABB"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -691,7 +265,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
       "settings": {}
     },
     "product-recommendations": {
@@ -710,17 +286,15 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "rich_text_H8jgp3",
-    "media_grid_FbNbpy",
-    "single_image_zxyjcY",
-    "image_with_text_AQWUFj",
-    "image_with_text_64JdNJ",
-    "image_with_text_tmbbPn",
-    "image_with_text_MEjUra",
-    "image_with_text_6naABp",
-    "image_with_text_L3xqhC",
-    "image_with_text_4VYCqP",
-    "tabbed_content_8ir4a4",
+    "single_image_mtTtz8",
+    "single_image_CiE9F9",
+    "single_image_g4CiQU",
+    "single_image_xpAebN",
+    "single_image_k6gWJB",
+    "single_image_nbhytB",
+    "single_image_8TkYG3",
+    "single_image_4jwYRE",
+    "single_image_DYGjaQ",
     "rich_text_igCzBP",
     "1712003137212dc6f8",
     "product-recommendations"
