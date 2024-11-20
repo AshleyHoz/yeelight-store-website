@@ -65,7 +65,7 @@
               <span>{%- render 'svg-icons' with 'thb-collapsible-arrow' -%}</span>
             </button>
             {%- if block.settings.menu != blank -%}
-              <ul class="thb-widget-menu">
+              <ul class="thb-widget-menu d-flex flex-column">
                 {% for link in block.settings.menu.links %}
                   {% assign has_sub_menu = false %}
                   {% if link.links.size > 0 %}
@@ -193,7 +193,7 @@
     {%- endfor -%}
   </div>
   <div class="sub-footer">
-    <div class="row sub-footer--row">
+    <div class="row sub-footer--row d-flex align-center justify-space-between">
       <div class="mobile-line"><hr></div>
       <div class="mobile-location">
         {% render 'localization',

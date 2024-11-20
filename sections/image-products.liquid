@@ -35,7 +35,7 @@
     <div class="image-product-header">
       {% render 'section-header', section_heading: section_title %}
     </div>
-    <div class="image-products-container {{section_reverse}}">
+    <div class="image-products-container d-flex justify-space-between flex-nowrap {{section_reverse}}">
       {%- if settings.halloween_flag and halloween_hand_flag -%}
         <div class="image-product-halloween-hand">
           {%- render 'svg-icons-halloween' with 'custom-halloween-hand' -%}
@@ -51,7 +51,7 @@
           {% render 'responsive-image', image: conver_image, sizes: master_width %}
         </div>
       </div>
-      <div class="image-products--product">
+      <div class="image-products--product d-flex justify-space-between flex-wrap">
         {% for block in section.blocks %}
           <div class="product-item">
             {% render 'product-card', product_card_product: block.settings.product %}

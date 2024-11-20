@@ -4,9 +4,6 @@
 
 .info-bar--inner {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -67,9 +64,6 @@
   }
   .info-bar--carousel .carousel__slide {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 4px;
     white-space: normal;
   }

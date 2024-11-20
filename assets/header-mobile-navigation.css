@@ -3,8 +3,6 @@
 }
 
 .header-mobile-navigation {
-  display: flex;
-  align-items: center;
   width: 100%;
   padding: 9px 0;
   height: 40px;
@@ -37,7 +35,6 @@
   --bg-body-rgb: var(--color-bg-rgb);
 }
 .header-mobile-navigation ul {
-  display: flex;
   white-space: nowrap;
   margin: 0;
   padding: 0 15px;

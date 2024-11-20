@@ -56,7 +56,7 @@
           </div>
         {%- endfor -%}
       </slide-show>
-      <slide-show class="image-with-text-slideshow--content carousel inner-carousel" data-fade="true">
+      <slide-show class="image-with-text-slideshow--content carousel inner-carousel d-flex" data-fade="true">
         {% for block in section.blocks %}
           {%- liquid
             assign color_bg = block.settings.color_bg
@@ -64,7 +64,7 @@
             assign color_button = block.settings.color_button
           -%}
           <div
-            class="image-with-text-slideshow--content-content carousel__slide {{ desktop_height }}"
+            class="image-with-text-slideshow--content-content carousel__slide {{ desktop_height }} d-flex align-center justify-center"
             style="--color-bg:{{ color_bg }}; --color-text:{{ color_text }}; --solid-button-background: {{ color_button }}; --solid-button-background-hover: {{ color_button | color_darken: 7 }};"
             {{ block.shopify_attributes }}
           >

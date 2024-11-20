@@ -42,10 +42,6 @@
 }
 
 .image-text-logo .image-text_inner {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
   gap: 24px;
 }
 

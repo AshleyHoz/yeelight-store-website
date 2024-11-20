@@ -9,7 +9,6 @@
 
 .image-with-text-overlay {
   position: relative;
-  display: flex;
   overflow: hidden;
   width: 100%;
   background: var(--color-accent);
@@ -72,7 +71,6 @@
   position: absolute;
   top: 0;
   left: 50%;
-  display: flex;
   max-width: 1440px;
   color: var(--text-color, #fff);
   z-index: 5;

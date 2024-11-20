@@ -18,8 +18,8 @@
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
 -%}
 <div class="row">
-  <div class="small-12 columns">
-    <div class="image-hotspots image-hotspots--position-{{ image_position }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
+  <div class="small-12 columns"></div>
+    <div class="image-hotspots image-hotspots--position-{{ image_position }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} d-flex flex-column">
       <div class="image-hotspots--text">
         {%- if badge_text != empty -%}
           <div>
@@ -68,7 +68,7 @@
             class="image-hotspots--pin"
             style="--mobile-left: {{- block.settings.x_position_mobile | append: '%' -}}; --mobile-top: {{- block.settings.y_position_mobile | append: '%' -}}; --desktop-left: {{- block.settings.x_position | append: '%' -}}; --desktop-top: {{- block.settings.y_position | append: '%' -}};"
           >
-            <div class="image-hotspots--pin-button">{% render 'svg-icons' with 'thb-hotspot' %}</div>
+            <div class="image-hotspots--pin-button d-flex align-center justify-center">{% render 'svg-icons' with 'thb-hotspot' %}</div>
             <div class="image-hotspots--pin-bubble">
               <div class="image-hotspots--pin-content">
                 {%- if block.settings.heading != blank -%}

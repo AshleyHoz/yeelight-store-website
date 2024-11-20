@@ -40,10 +40,6 @@
 }
 
 .logo-list--logo {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
 }
 /* .logo-list--logo--has-bg {
@@ -59,11 +55,6 @@
 /* .logo-list--logo:not([aria-disabled]):hover img {
   transform: scale(1.07);
 } */
-
-.logo-list.logo-list--centered-true .logo-list__logo {
-  display: flex;
-  align-items: center;
-}
 
 .logo-image--item {
   position: relative;
@@ -110,10 +101,6 @@
     scrollbar-width: none;
   } */
   .logo-list--inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
     gap: 12px;
   }
 

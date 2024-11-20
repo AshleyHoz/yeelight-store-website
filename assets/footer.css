@@ -265,8 +265,6 @@
 
   .footer .thb-widget-menu {
     padding: 0;
-    display: flex !important;
-    flex-direction: column;
     gap: 16px;
   }
 
@@ -380,12 +378,6 @@
     flex: 0 0 22.22222%;
     max-width: 22.22222%;
   }
-}
-
-.sub-footer--row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .mobile-line,
