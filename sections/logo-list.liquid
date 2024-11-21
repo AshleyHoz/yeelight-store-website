@@ -17,7 +17,7 @@
     assign has_bg = false
   endif
 -%}
-<div class="logo-list logo-list--centered-{{ center_align }} {% if center_align %}d-flex align-center{% endif %} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
+<div class="logo-list logo-list--centered-{{ center_align }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
   {% render 'section-header',
     section_heading: section_heading,
     section_description: section_description,
@@ -25,12 +25,12 @@
     marker_style: marker_style
   %}
   <div
-    class="logo-list--inner{% if mobile_swipe %} swipe-on-mobile{% endif %} d-flex align-center justify-space-between flex-wrap"
+    class="logo-list--inner{% if mobile_swipe %} swipe-on-mobile{% endif %}"
     style="--logo-columns: {{ section.settings.columns }}; --logo-bg: {{ color_logo_bg }};"
   >
     {% for block in section.blocks %}
       <a
-        class="logo-list--logo {% if has_bg -%}logo-list--logo--has-bg{% endif %} d-flex align-center justify-center text-center"
+        class="logo-list--logo d-flex align-center justify-center text-center {% if has_bg -%}logo-list--logo--has-bg{% endif %}"
         {% if block.settings.link %}
           href="{{ block.settings.link | escape }}"
         {% endif %}

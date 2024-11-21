@@ -265,6 +265,8 @@
 
   .footer .thb-widget-menu {
     padding: 0;
+    display: flex !important;
+    flex-direction: column;
     gap: 16px;
   }
 

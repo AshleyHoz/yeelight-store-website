@@ -18,11 +18,11 @@
     {% render 'section-header', section_heading: title %}
   {%- endif -%}
   <div
-    class="scrolling-images--inner d-flex align-center scrolling-images--{{ image_alignment }} direction-{{ direction }} scrolling-images--spacing-{{ column_spacing }}"
+    class="scrolling-images--inner scrolling-images--{{ image_alignment }} direction-{{ direction }} scrolling-images--spacing-{{ column_spacing }}"
     style="--marquee-speed: {{ speed }}"
   >
     {% capture scrolling_text %}
-			<div class="d-flex align-center flex-shrink-0">
+			<div>
 				{%- for i in (1..size) -%}
 					{% assign index = i | minus: 1 %}
 					<div class="scrolling-images--item" {{ section.blocks[index].shopify_attributes }}>
@@ -73,7 +73,7 @@
     {{ scrolling_text -}}
     {{- scrolling_text }}
   </div>
-  <div class="scrolling-images--inner-mobile d-flex align-center justify-space-between flex-wrap">
+  <div class="scrolling-images--inner-mobile">
     {% for block in section.blocks %}
       <a
         class="mobile-scrolling-images--logo"

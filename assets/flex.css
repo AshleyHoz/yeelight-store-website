@@ -94,6 +94,10 @@
   align-items: stretch;
 }
 
+.align-self-stretch {
+  align-self: stretch;
+}
+
 .align-content-start {
   align-content: flex-start;
 }

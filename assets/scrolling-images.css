@@ -11,6 +11,8 @@
   padding: 40px 0 160px;
 }
 .scrolling-images--inner {
+  display: flex;
+  align-items: center;
   white-space: nowrap;
   overflow: hidden;
   position: relative;
@@ -21,6 +23,11 @@
 }
 .scrolling-images--inner.direction-right > div {
   animation: marquee-right var(--marquee-speed) linear infinite;
+}
+.scrolling-images--inner > div {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 .scrolling-images--spacing-small .scrolling-images--item {
   margin: 0 5px;
@@ -101,6 +108,10 @@
   }
 
   .scrolling-images--inner-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 12px;
   }
 

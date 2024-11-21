@@ -165,14 +165,14 @@
   letter-spacing: 0.0179em;
 }
 
-.text-button {
+/* .text-button {
   font-weight: 500;
   font-size: 0.875rem;
   font-family: Roboto, sans-serif;
   line-height: 2.25rem;
   letter-spacing: 0.0892em;
   text-transform: uppercase;
-}
+} */
 
 .text-caption {
   font-weight: 400;
