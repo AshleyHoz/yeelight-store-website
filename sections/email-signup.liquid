@@ -43,7 +43,7 @@
                 <p>{{ block.settings.text }}</p>
               </div>
             {%- when 'form' -%}
-              {%- render 'email-signup-form' -%}
+              {%- render 'email-signup-form', tag: block.settings.tag, link: block.settings.link -%}
             {%- when 'space' -%}
               <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
           {%- endcase -%}
@@ -67,6 +67,19 @@
       "id": "full_width",
       "label": "Make section full width",
       "default": false
+    },
+    {
+      "type": "text",
+      "id": "tag",
+      "label": "tag",
+      "default": "newsletter",
+      "info": "Wrap the customer tag."
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link",
+      "info": "Wrap the apply link."
     },
     {
       "type": "header",
