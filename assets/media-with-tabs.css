@@ -21,7 +21,6 @@
 }
 
 .media-with-tabs {
-  display: flex;
   /* grid-auto-flow: dense; */
   background: var(--color-bg);
   color: var(--color-text);
@@ -179,7 +178,6 @@
   }
 
   .media-with-tabs {
-    display: flex;
     flex-wrap: wrap;
   }
 

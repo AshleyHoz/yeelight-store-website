@@ -38,13 +38,13 @@
   </ins>
   {%- unless product.price_varies == false and product.compare_at_price_varies %}
     {% if compare_at_price != null and compare_at_price != 0 and price != compare_at_price %}
-        <div class="amount custom-amount-del">
-          {% if settings.currency_code_enabled %}
-            {{ compare_at_price | money_with_currency }}
-          {% else %}
-            {{ compare_at_price | money }}
-          {% endif %}
-        </div>
+      <div class="amount custom-amount-del">
+        {% if settings.currency_code_enabled %}
+          {{ compare_at_price | money_with_currency }}
+        {% else %}
+          {{ compare_at_price | money }}
+        {% endif %}
+      </div>
     {% endif %}
   {%- endunless -%}
   <small class="unit-price {% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">

@@ -48,8 +48,6 @@
   font-size: 0.8125rem;
 }
 .template-header--subcollections {
-  display: flex;
-  flex-wrap: nowrap;
   grid-gap: 10px;
   grid-auto-flow: column;
   overflow-x: auto;

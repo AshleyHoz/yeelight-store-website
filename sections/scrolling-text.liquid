@@ -34,13 +34,16 @@
 <div class="row{% if full_width %} full-width-row-full{% endif %}">
   <div class="small-12 columns">
     <div
-      class="scrolling-text scrolling-text--full-width-{{ full_width }} scrolling-text-uppercase--{{ text_uppercase }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} {{ height }} {{ font_family }}-font"
+      class="scrolling-text d-flex align-center scrolling-text--full-width-{{ full_width }} scrolling-text-uppercase--{{ text_uppercase }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} {{ height }} {{ font_family }}-font"
       id="scrolling-text-{{ section.id }}"
       style="--color-bg:{{ color_bg }};--color-text:{{ color_text }};--overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}; --rotation: {{ negative }}{{ rotation | append: 'deg' }}"
     >
-      <div class="scrolling-text--inner direction-{{ direction }}" style="--marquee-speed: {{ speed }}">
+      <div
+        class="scrolling-text--inner d-flex align-center direction-{{ direction }}"
+        style="--marquee-speed: {{ speed }}"
+      >
         {% capture scrolling_text %}
-			<div>
+			<div class="d-flex align-center flex-shrink-0">
 				{%- for i in (1..size) -%}
 					{% assign index = i | minus: 1 %}
 					<div class="scrolling-text--item outline-text--{{ section.blocks[index].settings.outline_text }}" {{ section.blocks[index].shopify_attributes }}>

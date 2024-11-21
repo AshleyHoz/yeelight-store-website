@@ -1,6 +1,6 @@
 {%- assign product_form_id = 'product-form-' | append: section.id -%}
 <product-add-to-cart-sticky class="product-add-to-cart-sticky no-js-hidden" data-section="{{ section.id }}">
-  <button class="product-add-to-cart-sticky--inner">
+  <button class="product-add-to-cart-sticky--inner d-flex align-center text-left">
     <div class="product-add-to-cart-sticky--image" id="product-image-{{ section.id }}--sticky">
       {%- if media -%}
         {%- render 'responsive-image', image: media, sizes: '160x0' -%}

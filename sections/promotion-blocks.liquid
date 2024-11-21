@@ -23,8 +23,8 @@
           assign ratio = block.settings.image.aspect_ratio
         endif
       -%}
-      <div class="promotion-blocks--item" {{ block.shopify_attributes }}>
-        <div class="promotion-blocks--text">
+      <div class="promotion-blocks--item d-flex" {{ block.shopify_attributes }}>
+        <div class="promotion-blocks--text d-flex flex-column">
           {% if block.settings.title != blank %}
             <h6>{{ block.settings.title }}</h6>
           {% endif %}

@@ -177,15 +177,7 @@
   padding-bottom: 30px;
 }
 
-.shop-the-look-slider .shop-the-look-slider--view {
-  display: flex;
-  justify-content: center;
-}
-
 .shop-the-look-slider .shop-the-look-slider--link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 52px;
   background: linear-gradient(100deg, #0871ff 0%, #e70bb3 49.91%, #ff8f03 100%);
   backdrop-filter: blur(20px);
@@ -218,9 +210,6 @@
 
 .shop-look-slider-buttons {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
   border-radius: 100px;
   background: #ffffff29;
@@ -279,68 +268,12 @@
   opacity: 1;
 }
 
-.shop-look-slider-buttons_item-content .shop-look-slider-buttons_item-icon {
-  display: flex;
-}
-
-.shop-look-slider-product-list {
-  display: flex;
-  padding: 8px;
-  align-items: center;
-  border-radius: 16px;
-  background: #ffffff1a;
-  -webkit-backdrop-filter: blur(50px);
-  backdrop-filter: blur(50px);
-  position: absolute;
-  left: 50%;
-  bottom: -35px;
-  transform: translate(-50%);
-  z-index: 52;
-}
-
-.shop-look-slider-product-images {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-right: 16px;
-}
-
 .shop-look-slider-product-image_item {
   width: 54px;
   height: 54px;
   background-size: cover;
   border-radius: 8px;
   overflow: hidden;
-}
-
-.shop-look-slider-info {
-  display: flex;
-  align-items: center;
-  padding: 0 8px;
-  cursor: pointer;
-}
-
-.shop-look-slider-info-left {
-  margin-right: 16px;
-}
-
-.shop-look-slider-info-title {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.32px;
-  text-transform: capitalize;
-  white-space: nowrap;
-}
-
-.shop-look-slider-info-desc {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.24px;
-  text-transform: capitalize;
 }
 
 @-moz-keyframes pulsing {
@@ -483,14 +416,6 @@
   display: block;
 }
 
-.shop-look-slider-info-icon {
-  display: flex;
-}
-
-.mobile-shop-look-slider-info-icon {
-  display: none;
-}
-
 .shop-look-slider-buttons_item.active {
   background: #000;
   border-radius: 100px;
@@ -567,11 +492,6 @@
     height: 100%;
   }
 
-  .shop-look-slider-product-images {
-    gap: 4px;
-    margin-right: 8px;
-  }
-
   .shop-look-slider-product-image_item {
     width: 42px;
     height: 42px;
@@ -580,51 +500,14 @@
     overflow: hidden;
   }
 
-  .shop-look-slider-info {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 6px;
-  }
-
-  .shop-look-slider-info-left {
-    margin-right: 6px;
-  }
-
-  .shop-look-slider-info-title {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    text-transform: capitalize;
-    white-space: nowrap;
-  }
-
-  .shop-look-slider-info-desc {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 12px;
-    font-weight: 300;
-    line-height: normal;
-    letter-spacing: 0.24px;
-    text-transform: capitalize;
-  }
-
   .shop-look_slideshow-slider--container .flickity-viewport {
     min-height: 280px;
   }
 
   .shop-the-look-slider--area,
   .shop-look-slider-buttons-bg,
-  .shop-look-slider-info-icon,
   .shop-look-slider-flickity-viewport {
     display: none;
-  }
-
-  .mobile-shop-look-slider-info-icon {
-    display: flex;
-    align-items: center;
   }
 
   .shop-look-slider-buttons-container-inner {
@@ -634,7 +517,6 @@
   .shop-look-slider-buttons {
     border-radius: 0;
     gap: 8px;
-    display: flex;
     flex-wrap: wrap;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 0 0 12px 12px;
@@ -665,21 +547,6 @@
 
   .shop-look-slider_slide {
     border-radius: 12px 12px 0 0;
-  }
-
-  .shop-look-slider-product-list {
-    display: flex;
-    align-items: center;
-    justify-items: space-between;
-    padding: 12px;
-    border-radius: 0 0 12px 12px;
-    background: #ffffff1a;
-    -webkit-backdrop-filter: blur(50px);
-    backdrop-filter: blur(50px);
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
   }
 
   .shop-the-look-slider .slideshow-image--desktop,

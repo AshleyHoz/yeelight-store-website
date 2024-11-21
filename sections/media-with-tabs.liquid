@@ -31,7 +31,7 @@
       {% render 'section-header', section_heading: section_heading %}
     {%- endif -%}
     <media-with-tabs
-      class="media-with-tabs media-with-tabs--transparent-{{ transparent }} {{ desktop_height }} {{ desktop_layout }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
+      class="media-with-tabs d-flex media-with-tabs--transparent-{{ transparent }} {{ desktop_height }} {{ desktop_layout }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
       style="--color-bg: {{ color_bg }}; --color-text:{{ color_text }}; --color-border: {{ color_border }}; --color-accent: {{ color_link }}"
     >
       <slide-show class="media-with-tabs--media">

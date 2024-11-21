@@ -105,11 +105,6 @@
     visibility: visible;
   }
 }
-.scrolling-content--content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .scrolling-content--content .rte {
   color: var(--color-body);
 }

@@ -65,7 +65,7 @@
       >
         <div class="product-slideshow-buttons-container">
           <div class="product-slideshow-buttons-container-inner">
-            <div class="product-slideshow-buttons flickity-custom-dots">
+            <div class="product-slideshow-buttons d-flex align-center justify-center flickity-custom-dots">
               <div class="product-slideshow-buttons-bg"></div>
               {%- for block in section.blocks -%}
                 {% if block.settings.button_text != blank %}
@@ -74,7 +74,7 @@
                     data-img="{{block.settings.image}}"
                     onclick="onChangeBackground"
                   >
-                    <div class="product-slideshow-buttons_item-content">
+                    <div class="product-slideshow-buttons_item-content d-flex align-center justify-center">
                       {% render 'svg-icons' with block.settings.button_icon %}
                       <span>{{ block.settings.button_text }}</span>
                     </div>
@@ -91,7 +91,7 @@
             {%- render 'svg-icons' with 'thb-slideshow-progress' -%}
           </div>
         {%- endif -%}
-        <div class="slideshow_inner">
+        <div class="slideshow_inner d-flex">
           {%- for block in section.blocks -%}
             {%- liquid
               assign content_position = block.settings.content_position
@@ -214,7 +214,7 @@
               {%- endif -%}
               {% comment %} <div class="slideshow__slide-overlay" style="background: {{ block.settings.overlay_gradient }}"></div> {% endcomment %}
               {% if block.settings.badge_text != blank %}
-                <div class="slideshow__slide-inner content-{{ content_position }} content-has-bg--{{ has_visible_bg }}">
+                <div class="slideshow__slide-inner d-flex content-{{ content_position }} content-has-bg--{{ has_visible_bg }}">
                   <div class="slideshow__slide-content">
                     {% if block.settings.badge_text != blank %}
                       <div>
@@ -312,7 +312,7 @@
             </div>
           {%- elsif controls == 'arrows' -%}
             <div class="flickity-custom-navigation-wrapper">
-              <div class="flickity-static-arrows">
+              <div class="flickity-static-arrows d-flex align-center justify-space-between">
                 <div class="flickity-nav flickity-prev" tabindex="0">
                   {%- render 'svg-icons-custom' with 'custom-carousel-prev' -%}
                 </div>

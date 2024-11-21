@@ -48,7 +48,7 @@
 <div class="row{% if full_width %} full-width-row{% endif %}">
   <div class="small-12 columns">
     <slide-show
-      class="slideshow main-slideshow slideshow--full-width-{{ full_width }} carousel {{ mobile_height }} {{ desktop_height }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} transition--{{ transition }}"
+      class="slideshow d-flex main-slideshow slideshow--full-width-{{ full_width }} carousel {{ mobile_height }} {{ desktop_height }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} transition--{{ transition }}"
       data-dots="{{ dots }}"
       data-autoplay="{{ autoplay }}"
       data-fade="{{ fade }}"
@@ -91,7 +91,7 @@
           endif
         -%}
         <div
-          class="slideshow__slide carousel__slide {{ mobile_height }} {{ desktop_height }} text-{{ text_alignment }} content-size-{{ content_size }}"
+          class="slideshow__slide d-flex carousel__slide {{ mobile_height }} {{ desktop_height }} text-{{ text_alignment }} content-size-{{ content_size }}"
           style="--color-text: {{ color_text }}; --overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}; --color-slidebg-rgb: {{ color_slidebg.rgb | replace: ' ' , ',' }}; --color-slidebg-opacity: {{ color_slidebg_opacity | divided_by: 100.0 }}; --bg-blur: {{ color_slidebg_blur | append: 'px' }} "
           {{ block.shopify_attributes }}
         >
@@ -186,7 +186,7 @@
             </a>
           {%- endif -%}
           {% comment %} <div class="slideshow__slide-overlay" style="background: {{ block.settings.overlay_gradient }}"></div> {% endcomment %}
-          <div class="slideshow__slide-inner content-{{ content_position }} content-has-bg--{{ has_visible_bg }}">
+          <div class="slideshow__slide-inner d-flex flex-shrink-0 content-{{ content_position }} content-has-bg--{{ has_visible_bg }}">
             <div class="slideshow__slide-content">
               {% if block.settings.badge_text != blank %}
                 <div>
@@ -278,7 +278,7 @@
           </div>
         {%- elsif controls == 'arrows' -%}
           <div class="flickity-custom-navigation-wrapper">
-            <div class="flickity-static-arrows">
+            <div class="flickity-static-arrows d-flex align-center justify-space-between">
               <div class="flickity-nav flickity-prev" tabindex="0">
                 {%- render 'svg-icons-custom' with 'custom-carousel-prev' -%}
               </div>

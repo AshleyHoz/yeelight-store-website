@@ -129,10 +129,6 @@
     font-size: 2.5rem;
   }
 }
-.testimonials--carousel {
-  display: flex;
-  flex-direction: column;
-}
 .testimonials--carousel .flickity-page-dots {
   margin-top: 30px;
 }

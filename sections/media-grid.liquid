@@ -39,7 +39,7 @@
         endif
       -%}
       <div
-        class="media-grid--item content-{{ content_position }} has-link--{% if slide_link != blank %}true{% endif %}"
+        class="media-grid--item content-{{ content_position }} has-link--{% if slide_link != blank %}true{% endif %} d-flex"
         style="--column-span: {{ column }}; --row-span: {{ row }}; --column-span--mobile: {{ column_mobile }}; --color-bg: {{ color_bg }}; {%- if color_bg_gradient != blank -%}--color-bg-gradient: {{ color_bg_gradient }};{%- endif -%} --color-text: {{ color_text }}; --color-accent: {{ color_link }};--overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}"
         {{ block.shopify_attributes }}
       >

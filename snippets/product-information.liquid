@@ -11,7 +11,7 @@
       {%- if block.settings.link != blank -%}
         <a
           href="{{block.settings.link}}"
-          class="product--text {{ block.settings.text_style }} {%if block.settings.text_type == 'type_file'%}product--text-file{% endif %}"
+          class="product--text {{ block.settings.text_style }} {%if block.settings.text_type == 'type_file'%}product--text-file d-flex align-center{% endif %}"
           {{ block.shopify_attributes }}
           target="_blank"
         >
@@ -109,18 +109,18 @@
                 {%- if block.settings.sizing_guide_text != empty -%}
                   {%- capture sizing_link -%}
                   <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
-                    <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
+                    <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button d-flex align-center" type="button" aria-haspopup="dialog">
                       {% render 'svg-icons-inline', icon: block.settings.sizing_guide_icon %}<span>{{ block.settings.sizing_guide_text }}</span></button>
                   </modal-opener>
                 {%- endcapture -%}
                   {%- capture sizing_popup -%}
                 <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal">
-                  <div role="dialog" aria-label="{{ block.settings.sizing_guide_text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
-                    <div class="product-popup-modal__content-header">
+                  <div role="dialog" aria-label="{{ block.settings.sizing_guide_text }}" aria-modal="true" class="product-popup-modal__content d-flex flex-column" tabindex="-1">
+                    <div class="product-popup-modal__content-header d-flex align-center justify-center text-center">
                       <h5>{{ block.settings.sizing_guide_page.title }}</h5>
                       <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'svg-icons' with 'close' %}</button>
                     </div>
-                    <scroll-shadow>
+                    <scroll-shadow class="d-flex">
                       <div class="product-popup-modal__content-info">
                         {{ block.settings.sizing_guide_page.content }}
                       </div>

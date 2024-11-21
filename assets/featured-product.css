@@ -1058,8 +1058,6 @@
 }
 .product-inventory-notice--text {
   margin-bottom: 13px;
-  display: flex;
-  align-items: center;
 }
 .product-inventory-notice--pulse {
   display: inline-flex;

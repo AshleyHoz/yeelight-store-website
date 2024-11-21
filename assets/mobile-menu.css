@@ -17,7 +17,9 @@
   opacity: 0;
   visibility: hidden;
   transform: translateY(50px);
-  transition: opacity 0.25s cubic-bezier(0.104, 0.204, 0.492, 1), transform 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
+  transition:
+    opacity 0.25s cubic-bezier(0.104, 0.204, 0.492, 1),
+    transform 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 @supports (height: 100dvh) {
   .mobile-menu-drawer {
@@ -32,8 +34,6 @@
 .mobile-menu-drawer--inner {
   min-height: 100%;
   position: relative;
-  display: flex;
-  flex-direction: column;
 }
 .mobile-menu-drawer .thb-mobile-menu-footer {
   margin-top: auto;
@@ -69,9 +69,6 @@
   color: var(--color-header-text, --color-body);
 }
 .mobile-menu-drawer .thb-mobile-menu-footer .thb-mobile-account-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 10px 0;
   font-size: 0.8125rem;
   color: var(--color-header-links, --color-accent);

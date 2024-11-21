@@ -35,7 +35,7 @@
     >
       {% if recommendations.performed and recommendations.products_count > 0 %}
         {% render 'section-header', section_heading: section_heading, section_description: section_description %}
-        <ul class="products row no-padding product-recommendations-items">
+        <ul class="products row no-padding product-recommendations-items d-flex flex-wrap">
           {% for recommendation in recommendations.products %}
             {% comment %} {{ columns_class }} columns {% endcomment %}
             <li class="product-column">
