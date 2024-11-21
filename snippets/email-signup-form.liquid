@@ -14,7 +14,12 @@
       </div>
     {%- endif -%}
     <fieldset>
-      <input name="contact[tags]" type="hidden" value="{{ tag }}">
+      {{ customer_tag }}
+      {%- if customer_tag == 'wyze' -%}
+        <input name="contact[tags]" type="hidden" value="wyze">
+      {% else %}
+        <input name="contact[tags]" type="hidden" value="newsletter">
+      {% endif %}
       <div class="field">
         <input
           placeholder="{{ 'newsletter.label' | t }}"

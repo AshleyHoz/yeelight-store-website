@@ -43,7 +43,7 @@
                 <p>{{ block.settings.text }}</p>
               </div>
             {%- when 'form' -%}
-              {%- render 'email-signup-form', tag: block.settings.tag, link: block.settings.link -%}
+              {%- render 'email-signup-form', customer_tag: block.settings.customer_tag, link: block.settings.link -%}
             {%- when 'space' -%}
               <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
           {%- endcase -%}
@@ -70,7 +70,7 @@
     },
     {
       "type": "text",
-      "id": "tag",
+      "id": "customer_tag",
       "label": "tag",
       "default": "newsletter",
       "info": "Wrap the customer tag."
