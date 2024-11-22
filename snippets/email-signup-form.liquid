@@ -1,8 +1,4 @@
 <div class="signup-container">
-  <span> {{ tag }}</span>
-  <div>
-    {{ link }}
-  </div>
   {% form 'customer', class: 'signup-form' %}
     {%- if form.errors -%}
       <div class="form-notification error" id="Newsletter-error--{{ section.id }}">
@@ -18,11 +14,10 @@
       </div>
     {%- endif -%}
     <fieldset>
-      {%- if tag == 'wyze' -%}
-        <input name="contact[tags]" type="hidden" value="wyze">
-      {% else %}
-        <input name="contact[tags]" type="hidden" value="newsletter">
-      {% endif %}
+      <input type="hidden" name="contact[tags]" value="{{ tag }}">
+      <input type="hidden" name="utm_source" value="{{ utm_source }}">
+      <input type="hidden" name="utm_medium" value="{{ utm_medium }}">
+      <input type="hidden" name="utm_campaign" value="{{ utm_campaign }}">
       <div class="field">
         <input
           placeholder="{{ 'newsletter.label' | t }}"

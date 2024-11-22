@@ -43,7 +43,13 @@
                 <p>{{ block.settings.text }}</p>
               </div>
             {%- when 'form' -%}
-              {%- render 'email-signup-form', tag: block.settings.tag, link: block.settings.link -%}
+              {%- render 'email-signup-form',
+                tag: block.settings.tag,
+                link: block.settings.link,
+                utm_source: block.settings.utm_source,
+                utm_medium: block.settings.utm_medium,
+                utm_campaign: block.settings.utm_campaign
+              -%}
             {%- when 'space' -%}
               <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
           {%- endcase -%}
@@ -234,6 +240,31 @@
       "name": "Newsletter form",
       "limit": 1,
       "settings": [
+        {
+          "type": "header",
+          "content": "utm config"
+        },
+        {
+          "type": "text",
+          "id": "utm_source",
+          "label": "utm source",
+          "default": "wyze",
+          "info": "Wrap the utm source."
+        },
+        {
+          "type": "text",
+          "id": "utm_medium",
+          "label": "utm medium",
+          "default": "cpc",
+          "info": "Wrap the utm medium."
+        },
+        {
+          "type": "text",
+          "id": "utm_campaign",
+          "label": "utm campaign",
+          "default": "yeelight-wyze-black-friday-members-offer",
+          "info": "Wrap the utm campaign."
+        },
         {
           "type": "text",
           "id": "tag",
