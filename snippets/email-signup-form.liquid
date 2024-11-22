@@ -51,13 +51,16 @@
           {{ 'newsletter.label' | t }}
         </label>
       </div>
-      <button
-        class="submit {%- if activity -%}activity-wyze{%- endif -%}"
-        type="submit"
-        aria-label="{{ 'sections.signup.enter_your_email' | t }}"
-      >
-        {% render 'svg-icons' with 'signup-submit' %}
-      </button>
+      {%- if activity -%}
+      {%- else -%}
+        <button
+          class="submit "
+          type="submit"
+          aria-label="{{ 'sections.signup.enter_your_email' | t }}"
+        >
+          {% render 'svg-icons' with 'signup-submit' %}
+        </button>
+      {%- endif -%}
     </fieldset>
     {%- if settings.email_terms_conditions_enable -%}
       <div class="signup-container--terms">
