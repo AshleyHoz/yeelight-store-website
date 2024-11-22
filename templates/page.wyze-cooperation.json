@@ -96,6 +96,9 @@
         "form_LdMWGA": {
           "type": "form",
           "settings": {
+            "utm_source": "wyze",
+            "utm_medium": "cpc",
+            "utm_campaign": "yeelight-wyze-black-friday-members-offer",
             "tag": "wyze",
             "link": "shopify://pages/black-friday-cyber-monday-deals"
           }
