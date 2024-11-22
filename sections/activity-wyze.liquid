@@ -40,19 +40,21 @@
         <div class="activity-wyze--subtitle">
           {{ section.settings.subtitle }}
         </div>
-        {%- for block in section.blocks -%}
-          {%- case block.type -%}
-            {%- when 'form' -%}
-              {%- render 'email-signup-form',
-                tag: block.settings.tag,
-                link: block.settings.link,
-                utm_source: block.settings.utm_source,
-                utm_medium: block.settings.utm_medium,
-                utm_campaign: block.settings.utm_campaign,
-                activity: true
-              -%}
-          {%- endcase -%}
-        {%- endfor -%}
+        <div class="activity-wyze--email">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'form' -%}
+                {%- render 'email-signup-form',
+                  tag: block.settings.tag,
+                  link: block.settings.link,
+                  utm_source: block.settings.utm_source,
+                  utm_medium: block.settings.utm_medium,
+                  utm_campaign: block.settings.utm_campaign,
+                  activity: true
+                -%}
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
         <div class="activity-wyze--remark">
           {{ section.settings.remark }}
         </div>

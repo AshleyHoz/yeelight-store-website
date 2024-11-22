@@ -9,13 +9,12 @@
 
 .activity-wyze {
   background-color: var(--color-bg, var(--bg-body, #f5f5f5));
-  color: var(--color-body, var(--color-body, #2c2d2e));
-  text-align: center;
   background-size: cover;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 60px 0 !important;
 }
 .activity-wyze:after {
   content: '';
@@ -33,13 +32,108 @@
   position: relative;
   z-index: 10;
 }
+.activity-wyze--cover {
+  margin-right: 50px;
+}
+.activity-wyze--title {
+  font-size: 37px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.activity-wyze--subtitle {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 134%;
+  margin-bottom: 36px;
+}
+.activity-wyze--remark {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 36px;
+}
 .activity-wyze .thb-placeholder {
   width: 150px;
   margin: 0 auto;
 }
 .activity-wyze .signup-container {
-  max-width: 380px;
-  margin: 0 auto;
+  max-width: 580px;
+}
+.activity-wyze--email {
+  position: relative;
+}
+.activity-wyze--email input[type='email'] {
+  width: 100%;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 73.738px;
+  border: 0.752px solid #fff;
+  background: rgba(190, 173, 255, 0.14);
+}
+.activity-wyze--email input[type='email']:focus + label {
+  display: none;
+}
+.activity-wyze--email .signup-container .signup-form .field label {
+  color: #fff;
+  font-size: 21.068px;
+  font-weight: 400;
+  opacity: 0.4;
+  top: 2px;
+}
+.activity-wyze--email .signup-container button {
+  border-left: unset;
+}
+.activity-wyze--email .signup-container .signup-form svg {
+  position: absolute;
+  top: -46px;
+  right: -45px;
+}
+.activity-wyze--email .signup-container .signup-container--terms {
+  margin-top: 36px;
+}
+.activity-wyze--email .signup-container .signup-container--terms a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 275;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: capitalize;
+}
+.activity-wyze--email .signup-container .signup-container--terms a:hover {
+  color: #fff;
+}
+
+.activity-wyze--email .signup-container .custom-filter-checkbox[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: 1px solid #767676;
+  width: 20px;
+  margin-right: 8px;
+  height: 20px;
+  padding: 0;
+}
+.activity-wyze--email .signup-container .custom-filter-checkbox[type='checkbox']:disabled {
+  background: #3b3b3b;
+}
+.activity-wyze--email .signup-container .custom-filter-checkbox[type='checkbox']:checked {
+  background: #0075ff;
+  position: relative;
+}
+.activity-wyze--email .signup-container .custom-filter-checkbox[type='checkbox']:checked::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 
 @media only screen and (max-width: 767px) {
