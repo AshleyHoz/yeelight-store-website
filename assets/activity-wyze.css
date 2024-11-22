@@ -80,7 +80,8 @@
   border: 0.752px solid #fff;
   background: rgba(190, 173, 255, 0.14);
 }
-.activity-wyze--email input[type='email']:focus + label {
+.activity-wyze--email input[type='email']:focus + label,
+.activity-wyze--email input[type='email']:not(:placeholder-shown) + label {
   display: none;
 }
 .activity-wyze--email .signup-container .signup-form .field label {
