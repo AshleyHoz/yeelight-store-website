@@ -48,7 +48,8 @@
                 link: block.settings.link,
                 utm_source: block.settings.utm_source,
                 utm_medium: block.settings.utm_medium,
-                utm_campaign: block.settings.utm_campaign
+                utm_campaign: block.settings.utm_campaign,
+                activity: block.settings.activity
               -%}
             {%- when 'space' -%}
               <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
@@ -274,6 +275,12 @@
           "id": "link",
           "label": "Link",
           "info": "Wrap the apply link."
+        },
+        {
+          "type": "checkbox",
+          "id": "activity",
+          "default": false,
+          "label": "Open an activity"
         }
       ]
     },
