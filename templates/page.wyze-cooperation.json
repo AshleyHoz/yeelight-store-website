@@ -130,25 +130,25 @@
         "product_pQwwR6": {
           "type": "product",
           "settings": {
-            "product": "yeelight-permanent-outdoor-lights"
+            "product": "yeelight-wyze-member-offer-permanent-outdoor-lights"
           }
         },
         "product_at8DW3": {
           "type": "product",
           "settings": {
-            "product": "a-yeelight-curtain-lights"
+            "product": "yeelight-wyze-member-offer-curtain-lights"
           }
         },
         "product_LgUAQn": {
           "type": "product",
           "settings": {
-            "product": "a-yeelight-christmas-string-lights"
+            "product": "yeelight-wyze-member-offer-christmas-string-lights"
           }
         },
         "product_PP6Egj": {
           "type": "product",
           "settings": {
-            "product": "yeelight-rgbic-led-basic-strip-lights"
+            "product": "yeelight-wyze-member-offer-rgbic-led-basic-strip-lights"
           }
         }
       },
@@ -170,7 +170,7 @@
     "single_image_V4VkTF": {
       "type": "single-image",
       "settings": {
-        "link": "shopify://products/a-yeelight-curtain-lights",
+        "link": "shopify://products/yeelight-wyze-member-offer-rgbic-led-basic-strip-lights",
         "image": "shopify://shop_images/ActivityWyzeProduct.png",
         "full_width": false,
         "disable_top_spacing": true,
@@ -184,25 +184,25 @@
         "product_yCx7XQ": {
           "type": "product",
           "settings": {
-            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+            "product": "yeelight-wyze-member-offer-beam-rgbic-light-bar"
           }
         },
         "product_Wt7qra": {
           "type": "product",
           "settings": {
-            "product": "yeelight-smart-led-lamp-d2"
+            "product": "yeelight-wyze-member-offer-candela-lamp"
           }
         },
         "product_yzg7TP": {
           "type": "product",
           "settings": {
-            "product": "yeelight-smart-led-light-panels"
+            "product": "yeelight-wyze-member-offer-smart-led-lamp-d2"
           }
         },
         "product_WjbRMm": {
           "type": "product",
           "settings": {
-            "product": "a-yeelight-cube-4-matrix-pack"
+            "product": "yeelight-wyze-member-offer-obsid-rgbic-light-strip"
           }
         }
       },
@@ -213,7 +213,7 @@
         "product_WjbRMm"
       ],
       "settings": {
-        "title": "Illuminate Your Holiday Gaming with <span>Best Sellers</span>",
+        "title": "Illuminate Your Holiday Gaming with Best Sellers",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
