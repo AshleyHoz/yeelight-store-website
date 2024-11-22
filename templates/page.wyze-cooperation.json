@@ -69,6 +69,7 @@
     "single_image_Pn6pPg": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/BlackFriday.png",
         "image_mobile": "shopify://shop_images/BlackFridayMobile.png",
         "full_width": true,
@@ -167,6 +168,7 @@
     "single_image_V4VkTF": {
       "type": "single-image",
       "settings": {
+        "link": "shopify://products/a-yeelight-curtain-lights",
         "image": "shopify://shop_images/ALL_Product_PC.jpg",
         "full_width": false,
         "disable_top_spacing": false,
@@ -219,6 +221,7 @@
     "single_image_HQL3cr": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/BlackFriday.png",
         "image_mobile": "shopify://shop_images/BlackFridayMobile.png",
         "full_width": true,
