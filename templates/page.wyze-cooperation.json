@@ -164,6 +164,15 @@
         "right_y_position": 0
       }
     },
+    "single_image_V4VkTF": {
+      "type": "single-image",
+      "settings": {
+        "image": "shopify://shop_images/ALL_Product_PC.jpg",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "activity_blackfriday_Da7PxU": {
       "type": "activity-blackfriday",
       "blocks": {
@@ -299,6 +308,7 @@
     "single_image_Pn6pPg",
     "email_signup_rtNWUB",
     "activity_blackfriday_EDfQAb",
+    "single_image_V4VkTF",
     "activity_blackfriday_Da7PxU",
     "single_image_HQL3cr",
     "rich_text_F6XM9m",
