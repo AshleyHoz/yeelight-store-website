@@ -74,7 +74,8 @@
         "image_mobile": "shopify://shop_images/BlackFridayMobile.png",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false
       }
     },
     "activity_wyze_FEmHfT": {
@@ -101,8 +102,7 @@
             "utm_medium": "",
             "utm_campaign": "",
             "tag": "newsletter",
-            "link": "",
-            "activity": false
+            "link": ""
           }
         }
       },
@@ -174,7 +174,8 @@
         "image": "shopify://shop_images/ActivityWyzeProduct.png",
         "full_width": false,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": true
       }
     },
     "activity_blackfriday_Da7PxU": {
@@ -228,7 +229,8 @@
         "image_mobile": "shopify://shop_images/BlackFridayMobile.png",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false
       }
     },
     "rich_text_F6XM9m": {
