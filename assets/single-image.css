@@ -33,7 +33,12 @@
     display: block;
   }
 }
+.single-image .image-wrapper,
 .single-image img,
 .single-image svg {
   margin: 0 auto;
+}
+
+.single-image .image-wrapper {
+  display: block;
 }
