@@ -14,10 +14,18 @@
       </div>
     {%- endif -%}
     <fieldset>
-      <input type="hidden" name="contact[tags]" value="{{ tag }}">
-      <input type="hidden" name="utm_source" value="{{ utm_source }}">
-      <input type="hidden" name="utm_medium" value="{{ utm_medium }}">
-      <input type="hidden" name="utm_campaign" value="{{ utm_campaign }}">
+      {%- if tag != blank -%}
+        <input type="hidden" name="contact[tags]" value="{{ tag }}">
+      {%- endif -%}
+      {%- if utm_source != blank -%}
+        <input type="hidden" name="utm_source" value="{{ utm_source }}">
+      {%- endif -%}
+      {%- if utm_medium != blank -%}
+        <input type="hidden" name="utm_medium" value="{{ utm_medium }}">
+      {%- endif -%}
+      {%- if utm_campaign != blank -%}
+        <input type="hidden" name="utm_campaign" value="{{ utm_campaign }}">
+      {%- endif -%}
       <div class="field">
         <input
           placeholder="{{ 'newsletter.label' | t }}"
