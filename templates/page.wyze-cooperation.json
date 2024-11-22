@@ -77,43 +77,44 @@
         "disable_bottom_spacing": true
       }
     },
-    "email_signup_rtNWUB": {
-      "type": "email-signup",
+    "activity_wyze_FEmHfT": {
+      "type": "activity-wyze",
       "blocks": {
-        "heading_pr7rz8": {
+        "heading_HkAwUW": {
           "type": "heading",
           "settings": {
             "text": "Newsletter",
             "heading_size": "h3"
           }
         },
-        "text_pFXEhA": {
+        "text_VQrCD4": {
           "type": "text",
           "settings": {
             "text": "Add a text to attract users to signup.",
             "description_size": "medium"
           }
         },
-        "form_LdMWGA": {
+        "form_GcmDgG": {
           "type": "form",
           "settings": {
-            "utm_source": "wyze",
-            "utm_medium": "cpc",
-            "utm_campaign": "yeelight-wyze-black-friday-members-offer",
-            "tag": "wyze",
-            "link": "shopify://pages/black-friday-cyber-monday-deals",
-            "activity": true
+            "utm_source": "",
+            "utm_medium": "",
+            "utm_campaign": "",
+            "tag": "newsletter",
+            "link": "",
+            "activity": false
           }
         }
       },
       "block_order": [
-        "heading_pr7rz8",
-        "text_pFXEhA",
-        "form_LdMWGA"
+        "heading_HkAwUW",
+        "text_VQrCD4",
+        "form_GcmDgG"
       ],
       "settings": {
         "full_width": true,
-        "color_bg": "rgba(0,0,0,0)",
+        "background_image": "shopify://shop_images/ActivityWyzeBg.png",
+        "color_bg": "#f5f5f5",
         "color_text": "#2c2d2e",
         "color_heading": "#1a1c1d",
         "color_border": "#d3d3d3",
@@ -310,7 +311,7 @@
     "image_with_text_overlay_EHXcMN",
     "video_MVkEjJ",
     "single_image_Pn6pPg",
-    "email_signup_rtNWUB",
+    "activity_wyze_FEmHfT",
     "activity_blackfriday_EDfQAb",
     "single_image_V4VkTF",
     "activity_blackfriday_Da7PxU",
