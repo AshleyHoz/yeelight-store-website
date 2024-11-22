@@ -173,8 +173,8 @@
         "link": "shopify://products/a-yeelight-curtain-lights",
         "image": "shopify://shop_images/ActivityWyzeProduct.png",
         "full_width": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "activity_blackfriday_Da7PxU": {
