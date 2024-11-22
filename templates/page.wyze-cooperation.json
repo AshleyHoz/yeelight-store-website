@@ -25,7 +25,9 @@
           }
         }
       },
-      "block_order": ["heading_GeKdfB"],
+      "block_order": [
+        "heading_GeKdfB"
+      ],
       "settings": {
         "image": "shopify://shop_images/Black_Friday-BFCM-PC.jpg",
         "mobile_image": "shopify://shop_images/Black_Friday-BFCM-M.jpg",
@@ -99,7 +101,11 @@
           }
         }
       },
-      "block_order": ["heading_pr7rz8", "text_pFXEhA", "form_LdMWGA"],
+      "block_order": [
+        "heading_pr7rz8",
+        "text_pFXEhA",
+        "form_LdMWGA"
+      ],
       "settings": {
         "full_width": true,
         "color_bg": "rgba(0,0,0,0)",
@@ -140,7 +146,12 @@
           }
         }
       },
-      "block_order": ["product_pQwwR6", "product_at8DW3", "product_LgUAQn", "product_PP6Egj"],
+      "block_order": [
+        "product_pQwwR6",
+        "product_at8DW3",
+        "product_LgUAQn",
+        "product_PP6Egj"
+      ],
       "settings": {
         "title": "Light Up Your Home with Christmas Cheer",
         "show_icon": true,
@@ -178,7 +189,12 @@
           }
         }
       },
-      "block_order": ["product_yCx7XQ", "product_Wt7qra", "product_yzg7TP", "product_WjbRMm"],
+      "block_order": [
+        "product_yCx7XQ",
+        "product_Wt7qra",
+        "product_yzg7TP",
+        "product_WjbRMm"
+      ],
       "settings": {
         "title": "Illuminate Your Holiday Gaming with <span>Best Sellers</span>",
         "show_icon": false,
@@ -211,7 +227,9 @@
           }
         }
       },
-      "block_order": ["heading_xHDwGq"],
+      "block_order": [
+        "heading_xHDwGq"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -249,7 +267,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_video_slider_NgXFBA"],
+      "block_order": [
+        "loox_reviews_loox_video_slider_NgXFBA"
+      ],
       "settings": {}
     },
     "text_with_icons_LiHffF": {
