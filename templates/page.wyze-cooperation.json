@@ -81,20 +81,6 @@
     "activity_wyze_FEmHfT": {
       "type": "activity-wyze",
       "blocks": {
-        "heading_HkAwUW": {
-          "type": "heading",
-          "settings": {
-            "text": "Newsletter",
-            "heading_size": "h3"
-          }
-        },
-        "text_VQrCD4": {
-          "type": "text",
-          "settings": {
-            "text": "Add a text to attract users to signup.",
-            "description_size": "medium"
-          }
-        },
         "form_GcmDgG": {
           "type": "form",
           "settings": {
@@ -107,13 +93,15 @@
         }
       },
       "block_order": [
-        "heading_HkAwUW",
-        "text_VQrCD4",
         "form_GcmDgG"
       ],
       "settings": {
         "full_width": true,
+        "title": "YEELIGHT  X  WYZE GIVEAWAY",
+        "subtitle": "Enter your email for a chance to win one  of 20 amazing prizes",
+        "remark": "*The event runs from 11/26 to 12/5, with winners announced on 12/6",
         "background_image": "shopify://shop_images/ActivityWyzeBg.png",
+        "cover_image": "shopify://shop_images/ActivityWyzeCover.png",
         "color_bg": "#f5f5f5",
         "color_text": "#2c2d2e",
         "color_heading": "#1a1c1d",
