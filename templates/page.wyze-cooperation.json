@@ -147,7 +147,7 @@
         "product_PP6Egj"
       ],
       "settings": {
-        "title": "Light Up Your Home with Christmas Cheer",
+        "title": "Light Up Your Home with <span>Christmas Cheer</span>",
         "show_icon": true,
         "left_x_position": 2,
         "left_y_position": 0,
@@ -201,7 +201,7 @@
         "product_WjbRMm"
       ],
       "settings": {
-        "title": "Illuminate Your Holiday Gaming with Best Sellers",
+        "title": "Illuminate Your Holiday Gaming with <span>Best Sellers</span>",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
