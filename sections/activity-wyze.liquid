@@ -31,31 +31,17 @@
         {%- endif -%}
       </div>
       <div class="activity-wyze--inner">
-        {%- render 'svg-icons-activity' with 'custom-activity-smile' -%}
+        <div class="activity-wyze--icon">
+          {%- render 'svg-icons-activity' with 'custom-activity-smile' -%}
+        </div>
+        <div class="activity-wyze--title">
+          {{ section.settings.title }}
+        </div>
+        <div class="activity-wyze--subtitle">
+          {{ section.settings.subtitle }}
+        </div>
         {%- for block in section.blocks -%}
           {%- case block.type -%}
-            {%- when 'image' -%}
-              {%- if block.settings.image != blank -%}
-                {%- liquid
-                  assign image = block.settings.image
-                  assign master_width = image.src.width | append: 'x' | append: image.src.height
-                  render 'responsive-image', image: image, sizes: master_width, retina: true
-                -%}
-              {%- else -%}
-                <div class="thb-placeholder">
-                  {{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
-                </div>
-              {%- endif -%}
-            {%- when 'subheading' -%}
-              <p class="subheading" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
-            {%- when 'heading' -%}
-              <h3 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                {{ block.settings.text | newline_to_br }}
-              </h3>
-            {%- when 'text' -%}
-              <div class="description-size--{{ block.settings.description_size }}" {{ block.shopify_attributes }}>
-                <p>{{ block.settings.text }}</p>
-              </div>
             {%- when 'form' -%}
               {%- render 'email-signup-form',
                 tag: block.settings.tag,
@@ -65,10 +51,11 @@
                 utm_campaign: block.settings.utm_campaign,
                 activity: true
               -%}
-            {%- when 'space' -%}
-              <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
           {%- endcase -%}
         {%- endfor -%}
+        <div class="activity-wyze--remark">
+          {{ section.settings.remark }}
+        </div>
       </div>
     </div>
   </div>
@@ -88,6 +75,28 @@
       "id": "full_width",
       "label": "Make section full width",
       "default": false
+    },
+    {
+      "type": "header",
+      "content": "content config"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Add a title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Add a subtitle"
+    },
+    {
+      "type": "text",
+      "id": "remark",
+      "label": "Remark",
+      "default": "Add a remark"
     },
     {
       "type": "header",
@@ -175,96 +184,6 @@
   ],
   "blocks": [
     {
-      "type": "image",
-      "name": "Image",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        }
-      ]
-    },
-    {
-      "type": "subheading",
-      "name": "Subheading",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Text",
-          "default": "Add a tagline"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "name": "Heading",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Text",
-          "default": "Newsletter"
-        },
-        {
-          "type": "select",
-          "id": "heading_size",
-          "label": "Heading size",
-          "options": [
-            {
-              "value": "h1",
-              "label": "Large"
-            },
-            {
-              "value": "h2",
-              "label": "Medium"
-            },
-            {
-              "value": "h3",
-              "label": "Small"
-            }
-          ],
-          "default": "h3"
-        }
-      ]
-    },
-    {
-      "type": "text",
-      "name": "Text",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "textarea",
-          "id": "text",
-          "label": "Content",
-          "default": "Add a text to attract users to signup."
-        },
-        {
-          "type": "select",
-          "id": "description_size",
-          "label": "Size",
-          "options": [
-            {
-              "value": "small",
-              "label": "Small"
-            },
-            {
-              "value": "medium",
-              "label": "Medium"
-            },
-            {
-              "value": "large",
-              "label": "Large"
-            }
-          ],
-          "default": "medium"
-        }
-      ]
-    },
-    {
       "type": "form",
       "name": "Newsletter form",
       "limit": 1,
@@ -303,22 +222,6 @@
           "id": "link",
           "label": "Link",
           "info": "Wrap the apply link."
-        }
-      ]
-    },
-    {
-      "type": "space",
-      "name": "Empty space",
-      "settings": [
-        {
-          "type": "range",
-          "id": "height",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "unit": "px",
-          "label": "Height",
-          "default": 50
         }
       ]
     }
