@@ -8,6 +8,11 @@
   .single-image {
     padding: 0 50px;
   }
+
+  .single-image.activity-wyze {
+    padding: 0;
+    margin: 0 auto;
+  }
 }
 
 .single-image {
@@ -33,6 +38,7 @@
     display: block;
   }
 }
+
 .single-image .image-wrapper,
 .single-image img,
 .single-image svg {
@@ -41,4 +47,10 @@
 
 .single-image .image-wrapper {
   display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .single-image {
+    padding: 0 16px;
+  }
 }

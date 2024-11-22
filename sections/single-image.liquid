@@ -10,7 +10,7 @@
     assign link_tag = 'a href="' | append: section.settings.link | append: '"'
   endif
 -%}
-<div class="single-image full-width--{{ full_width }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+<div class="single-image {%- if section.settings.activity_wyze -%}activity-wyze{%- endif -%} full-width--{{ full_width }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
   {%- if image_mobile -%}
     <{{ link_tag }} class="image-wrapper">
       {%- liquid
@@ -80,6 +80,16 @@
       "id": "disable_bottom_spacing",
       "default": false,
       "label": "Remove bottom spacing"
+    },
+    {
+      "type": "header",
+      "content": "Activity"
+    },
+    {
+      "type": "checkbox",
+      "id": "activity_wyze",
+      "default": false,
+      "label": "Open wyze activity"
     }
   ],
   "presets": [
