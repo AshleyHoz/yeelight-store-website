@@ -84,9 +84,9 @@
         "form_GcmDgG": {
           "type": "form",
           "settings": {
-            "utm_source": "",
-            "utm_medium": "",
-            "utm_campaign": "",
+            "utm_source": "wyze",
+            "utm_medium": "cpc",
+            "utm_campaign": "yeelight-wyze-black-friday-members-offer",
             "tag": "wyze",
             "link": ""
           }
