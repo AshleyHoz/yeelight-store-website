@@ -8,11 +8,14 @@
   .single-image {
     padding: 0 50px;
   }
+}
 
-  .single-image.activity-wyze {
-    padding: 0;
-    margin: 0 auto;
-  }
+.single-image.activity-wyze {
+  padding: 0;
+  background: #100a29;
+  width: 100%;
+  max-width: unset;
+  margin: 0;
 }
 
 .single-image {
@@ -47,6 +50,12 @@
 
 .single-image .image-wrapper {
   display: block;
+}
+
+.single-image.activity-wyze .image-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
 }
 
 @media only screen and (max-width: 768px) {
