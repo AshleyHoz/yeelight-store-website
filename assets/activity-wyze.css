@@ -31,9 +31,14 @@
 .activity-wyze--inner {
   position: relative;
   z-index: 10;
+  max-width: 720px;
 }
 .activity-wyze--cover {
   margin-right: 50px;
+}
+.activity-wyze--cover img {
+  width: 280px;
+  height: auto;
 }
 .activity-wyze--title {
   font-size: 37px;
