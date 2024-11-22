@@ -99,6 +99,14 @@
   top: -46px;
   right: -45px;
 }
+.activity-wyze--email .signup-container .form-notification {
+  padding-left: 25px;
+}
+.activity-wyze--email .signup-container .form-notification svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .activity-wyze--email .signup-container .signup-container--terms {
   margin-top: 36px;
 }
