@@ -40,6 +40,12 @@
   font-weight: 900;
   margin-bottom: 10px;
 }
+.activity-wyze--title span {
+  background: linear-gradient(90deg, #ffcaa4 0%, #d635ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .activity-wyze--subtitle {
   font-size: 26px;
   font-weight: 500;
