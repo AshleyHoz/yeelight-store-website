@@ -11,26 +11,24 @@
   endif
 -%}
 <div class="single-image full-width--{{ full_width }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}{% if section.settings.activity_wyze %} activity-wyze{% endif %}">
-  {%- if image_mobile -%}
-    <{{ link_tag }} class="image-wrapper">
-      {%- liquid
-        assign master_width = image_mobile.src.width | append: 'x' | append: image_mobile.src.height
-
-        render 'responsive-image', image: image_mobile, class: 'single-image--mobile', sizes: master_width
-      -%}
-    </{{ link_tag }}>
-  {%- endif -%}
   {%- if image -%}
     <{{ link_tag }} class="image-wrapper">
-      {%- liquid
-        assign master_width = image.src.width | append: 'x' | append: image.src.height
-
-        assign class = ''
-        if image_mobile
-          assign class = 'single-image--desktop'
-        endif
-        render 'responsive-image', image: image, class: class, sizes: master_width
-      -%}
+      {%- if image or image_mobile == blank -%}
+        <div class="single-image--desktop">
+          {%- liquid
+            assign master_width = image.src.width | append: 'x' | append: image.src.height
+            render 'responsive-image', image: image, sizes: master_width
+          -%}
+        </div>
+      {%- endif -%}
+      {%- if image_mobile -%}
+        <div class="single-image--mobile">
+          {%- liquid
+            assign master_width = image_mobile.src.width | append: 'x' | append: image_mobile.src.height
+            render 'responsive-image', image: image_mobile, sizes: master_width
+          -%}
+        </div>
+      {%- endif -%}
     </{{ link_tag }}>
   {%- else -%}
     <div class="thb-placeholder{% if image_mobile %} single-image--desktop{% endif %}">

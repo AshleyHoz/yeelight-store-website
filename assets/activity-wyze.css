@@ -8,7 +8,7 @@
   background-image: var(--background-image);
 }
 
-.activity-wyze {
+.section-activity-wyze .activity-wyze {
   background-color: var(--color-bg, var(--bg-body, #f5f5f5));
   background-size: cover;
   position: relative;
@@ -165,7 +165,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .activity-wyze {
+  .section-activity-wyze .activity-wyze {
     background-image: var(--background-image-mobile);
     padding: 24px 16px 0 !important;
     text-align: center;
@@ -230,5 +230,8 @@
     margin: 28px auto;
     font-size: 12px;
     font-weight: 300;
+  }
+  .activity-wyze .single-image--mobile {
+    padding: 0 16px;
   }
 }
