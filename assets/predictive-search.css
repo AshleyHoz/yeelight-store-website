@@ -22,6 +22,7 @@
 .thb-predictive-search--popular a mark {
   font-weight: var(--font-body-medium-weight, 500);
   background: transparent;
+  color: #ffffff;
 }
 
 .thb-predictive-search--promotion-products .products.row {
