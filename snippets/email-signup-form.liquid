@@ -10,7 +10,11 @@
     {%- if form.posted_successfully? -%}
       <div class="form-notification success" id="Newsletter-success--{{ section.id }}">
         {% render 'svg-icons' with 'thb-success' %}
-        {{ 'newsletter.success' | t }}
+        {%- if succellAlert != blank -%}
+          {{ succellAlert }}
+        {%- else -%}
+          {{ 'newsletter.success' | t }}
+        {%- endif -%}
       </div>
     {%- endif -%}
     <fieldset>
