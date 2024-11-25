@@ -14,6 +14,22 @@
 -%}
 <div class="row {% if full_width %} full-width-row-full{% endif %}">
   <div class="small-12 columns">
+    <div class="activity-wyze--bg">
+      <div class="bg-desktop">
+        {%- liquid
+          assign background_image = section.settings.background_image
+          assign master_width = background_image.src.width | append: 'x' | append: background_image.src.height
+          render 'responsive-image', image: background_image, sizes: master_width, retina: true
+        -%}
+      </div>
+      <div class="bg-mobile">
+        {%- liquid
+          assign background_image_mobile = section.settings.background_image_mobile
+          assign master_width = background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height
+          render 'responsive-image', image: background_image_mobile, sizes: master_width, retina: true
+        -%}
+      </div>
+    </div>
     <div
       class="activity-wyze activity-wyze--full-width-{{ full_width }} section-spacing-padding{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}"
       style="
