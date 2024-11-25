@@ -101,6 +101,7 @@
         "subtitle": "Enter your email for a chance to win one  of 20 amazing prizes",
         "remark": "*The event runs from 11/26 to 12/5, with winners announced on 12/6",
         "background_image": "shopify://shop_images/ActivityWyzeBg.png",
+        "background_image_mobile": "shopify://shop_images/ActivityWyzeBgMobile.png",
         "cover_image": "shopify://shop_images/ActivityWyzeCover.png",
         "color_bg": "#f5f5f5",
         "color_text": "#2c2d2e",
