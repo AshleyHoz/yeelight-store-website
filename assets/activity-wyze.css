@@ -52,6 +52,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.activity-wyze--title svg,
+.activity-wyze--cover-mobile {
+  display: none;
+}
 .activity-wyze--subtitle {
   font-size: 26px;
   font-weight: 500;
@@ -70,6 +74,9 @@
 .activity-wyze .signup-container {
   max-width: 580px;
 }
+/* .activity-wyze .signup-container fieldset {
+  overflow: hidden;
+} */
 .activity-wyze--email {
   position: relative;
 }
@@ -128,15 +135,15 @@
 }
 
 .activity-wyze--email .signup-container .custom-filter-checkbox[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #767676;
+  margin-right: 8px;
+  padding: 0;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   background: transparent;
-  border: 1px solid #767676;
-  width: 20px;
-  margin-right: 8px;
-  height: 20px;
-  padding: 0;
 }
 .activity-wyze--email .signup-container .custom-filter-checkbox[type='checkbox']:disabled {
   background: #3b3b3b;
@@ -160,9 +167,68 @@
 @media only screen and (max-width: 767px) {
   .activity-wyze {
     background-image: var(--background-image-mobile);
-    background-size: contain;
+    padding: 24px 16px 0 !important;
+    text-align: center;
   }
-  .activity-wyze .activity-wyze--cover {
+  .activity-wyze .activity-wyze--cover,
+  .activity-wyze--title .activity-wyze--title-text {
     display: none;
+  }
+  .activity-wyze--icon svg {
+    width: 91px;
+    height: 81px;
+  }
+  .activity-wyze--title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+  }
+  .activity-wyze--title svg {
+    display: block;
+  }
+  .activity-wyze--subtitle {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 134%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+  .activity-wyze--cover-mobile {
+    display: block;
+    width: 100%;
+    margin-bottom: 28px;
+  }
+  .activity-wyze--email input[type='email'] {
+    padding: 0 16px;
+  }
+  .activity-wyze--email .signup-container .signup-form .field label {
+    font-size: 15.108px;
+    font-weight: 400;
+  }
+  .activity-wyze--email .signup-container .signup-form svg {
+    width: 200px;
+    height: 112px;
+    top: -30px;
+    right: -28px;
+  }
+  .activity-wyze--email .signup-container .signup-container--terms {
+    margin-top: 10px;
+  }
+  .activity-wyze--email .signup-container .signup-container--terms a {
+    font-size: 12px;
+    font-weight: 275;
+  }
+  .activity-wyze--email .signup-container .custom-filter-checkbox[type='checkbox'] {
+    width: 16px;
+    height: 16px;
+  }
+  .activity-wyze--remark {
+    width: 60%;
+    margin: 28px auto;
+    font-size: 12px;
+    font-weight: 300;
   }
 }

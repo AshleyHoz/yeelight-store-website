@@ -51,10 +51,26 @@
           {%- render 'svg-icons-activity' with 'custom-activity-smile' -%}
         </div>
         <div class="activity-wyze--title">
-          {{ section.settings.title }}
+          <div class="activity-wyze--title-text">
+            {{ section.settings.title }}
+          </div>
+          {%- render 'svg-icons-activity' with 'custom-activity-title' -%}
         </div>
         <div class="activity-wyze--subtitle">
           {{ section.settings.subtitle }}
+        </div>
+        <div class="activity-wyze--cover-mobile">
+          {%- if section.settings.cover_image_mobile -%}
+            {%- liquid
+              assign cover_image_mobile = section.settings.cover_image_mobile
+              assign master_width = cover_image_mobile.src.width | append: 'x' | append: cover_image_mobile.src.height
+              render 'responsive-image', image: cover_image_mobile, sizes: master_width, retina: true
+            -%}
+          {%- else -%}
+            <div class="thb-placeholder">
+              {{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
+            </div>
+          {%- endif -%}
         </div>
         <div class="activity-wyze--email">
           {%- for block in section.blocks -%}
