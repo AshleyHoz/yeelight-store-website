@@ -149,7 +149,7 @@
         "product_PP6Egj"
       ],
       "settings": {
-        "title": "Light Up Your Home with <span>Christmas Cheer</span>",
+        "title": "Light Up Your Home with Christmas Cheer",
         "show_icon": true,
         "left_x_position": 2,
         "left_y_position": 0,
@@ -162,6 +162,7 @@
       "settings": {
         "link": "shopify://products/yeelight-wyze-member-offer-rgbic-led-basic-strip-lights",
         "image": "shopify://shop_images/ActivityWyzeProduct.png",
+        "image_mobile": "shopify://shop_images/ActivityWyzeProductMobile.png",
         "full_width": false,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
