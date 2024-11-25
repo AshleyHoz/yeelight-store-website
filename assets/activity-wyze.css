@@ -5,6 +5,7 @@
 
 .activity-wyze {
   box-shadow: var(--block-shadows);
+  background-image: var(--background-image);
 }
 
 .activity-wyze {
@@ -157,6 +158,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .activity-wyze {
+    background-image: var(--background-image-mobile);
+  }
   .activity-wyze .activity-wyze--cover {
     display: none;
   }
