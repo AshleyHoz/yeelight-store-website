@@ -112,6 +112,7 @@
 }
 .activity-wyze--email .signup-container .form-notification {
   padding-left: 25px;
+  text-align: left;
 }
 .activity-wyze--email .signup-container .form-notification svg {
   position: absolute;
