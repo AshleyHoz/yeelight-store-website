@@ -103,6 +103,7 @@
         "background_image": "shopify://shop_images/ActivityWyzeBg.png",
         "background_image_mobile": "shopify://shop_images/ActivityWyzeBgMobile.png",
         "cover_image": "shopify://shop_images/ActivityWyzeCover.png",
+        "cover_image_mobile": "shopify://shop_images/ActivityWyzeCoverMobile.png",
         "color_bg": "#f5f5f5",
         "color_text": "#2c2d2e",
         "color_heading": "#1a1c1d",
