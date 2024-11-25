@@ -30,7 +30,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/ActivityWyzeBanner.png",
-        "mobile_image": "shopify://shop_images/Black_Friday-BFCM-M.jpg",
+        "mobile_image": "shopify://shop_images/ActivityWyzeBannerMobile.png",
         "image_parallax": false,
         "desktop_height": "",
         "mobile_height": "",
