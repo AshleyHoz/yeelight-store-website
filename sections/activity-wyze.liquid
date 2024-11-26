@@ -99,8 +99,10 @@
                   utm_medium: block.settings.utm_medium,
                   utm_campaign: block.settings.utm_campaign,
                   activity: true,
-                  succellAlert: 'Thanks, you are all set! <br />
-              Watch your mailbox for the results on 6th Dec.'
+                  successAlert: 'Thanks, you are all set! <br />
+              Watch your mailbox for the results on 6th Dec.',
+                  errorAlert: 'Oops, something went wrong. Please try again later.',
+                  warningAlert: 'This email address is already registered. Please use a different email address. '
                 -%}
             {%- endcase -%}
           {%- endfor -%}
@@ -113,6 +115,52 @@
   </div>
 </div>
 {{- 'activity-wyze.css' | asset_url | stylesheet_tag -}}
+{% comment %}
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      console.log(312);
+      console.log(document.querySelector('activity-wyze--email_input'));
+
+      document.querySelector('#activity-wyze--email_input').addEventListener('input', function (e) {
+        const userInput = e.target.value; // 获取用户输入的邮箱
+        console.log(userInput);
+
+        // 判断用户输入的邮箱是否与已登录用户邮箱一致
+        if (this.loggedInEmail) {
+          const loggedInEmail = this.loggedInEmail; // 从 Liquid 传递的变量中获取已登录用户邮箱
+          const notificationEle = document.querySelector('#login-user-notification');
+          if (loggedInEmail && userInput.toLowerCase() === loggedInEmail.toLowerCase()) {
+            notificationEle.style.display = 'block';
+          } else {
+            notificationEle.textContent = '';
+          }
+          return;
+        }
+        // 判断用户输入的邮箱是否已经订阅
+        const config = {
+          method: 'GET',
+          headers: {
+            'X-Requested-With': 'XMLHttpRequest',
+            Accept: 'application/javascript',
+          },
+        };
+        let formData = new FormData(this.form);
+        formData.append('email', userInput);
+        console.log(123);
+
+        config.body = formData;
+        fetch('/customers/search', config)
+          .then((response) => response.json())
+          .then((data) => {
+            console.log(data);
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      });
+    });
+  </script>
+{% endcomment %}
 {% schema %}
 {
   "name": "Activity Wyze",

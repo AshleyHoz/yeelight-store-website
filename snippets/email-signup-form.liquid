@@ -7,11 +7,25 @@
         {{ form.errors.messages.email }}
       </div>
     {%- endif -%}
+    {% comment %}
+      {%- if warningAlert and customer and customer.accepts_marketing -%}
+        <script>
+          var loggedInEmail = '{{ customer.email }}';
+        </script>
+        {%- if customer.accepts_marketing -%}
+          <div class="form-notification" id="login-user-notification">{{ warningAlert }}</div>
+        {%- endif -%}
+      {% else %}
+        <script>
+          var loggedInEmail = '';
+        </script>
+      {%- endif -%}
+    {% endcomment %}
     {%- if form.posted_successfully? -%}
       <div class="form-notification success" id="Newsletter-success--{{ section.id }}">
         {% render 'svg-icons' with 'thb-success' %}
-        {%- if succellAlert != blank -%}
-          {{ succellAlert }}
+        {%- if successAlert != blank -%}
+          {{ successAlert }}
         {%- else -%}
           {{ 'newsletter.success' | t }}
         {%- endif -%}
@@ -34,7 +48,7 @@
         <input
           placeholder="{{ 'newsletter.label' | t }}"
           type="email"
-          id="NewsletterForm--{{ section.id }}"
+          id="NewsletterForm--{{ section.id }} activity-wyze--email_input"
           name="contact[email]"
           autocorrect="off"
           autocapitalize="off"
