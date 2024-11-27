@@ -135,6 +135,8 @@
           // 判断用户输入的邮箱是否与上一次输入的邮箱一致
           if (userInput != this.lastEmail && checkParams) {
             notificationEle.style.display = 'none';
+          } else if (userInput == this.lastEmail && checkParams) {
+            notificationEle.style.display = 'block';
           }
         }
       });
