@@ -7,23 +7,6 @@
         {{ form.errors.messages.email }}
       </div>
     {%- endif -%}
-    {{ form.message }}
-    {{ form.posted_successfully? successAlert : '' }}
-    {%- if warningAlert -%}
-      {%- if customer and customer.accepts_marketing -%}
-        <script>
-          var loggedInEmail = '{{ customer.email }}';
-        </script>
-        <div class="form-notification" id="login-user-notification">{{ warningAlert }}</div>
-      {% elsif form.message %}
-        {% comment %}
-          <script>
-            var loggedInEmail = '';
-          </script>
-        {% endcomment %}
-        <div class="form-notification" id="login-user-notification">{{ warningAlert }}</div>
-      {%- endif -%}
-    {%- endif -%}
 
     {%- if form.posted_successfully? -%}
       <div class="form-notification success" id="Newsletter-success--{{ section.id }}">
@@ -34,7 +17,21 @@
           {{ 'newsletter.success' | t }}
         {%- endif -%}
       </div>
+    {%- elsif warningAlert != blank -%}
+      {%- if customer and customer.accepts_marketing -%}
+        <script>
+          var loggedInEmail = '{{ customer.email }}';
+          var warningAlert = '{{ warningAlert }}';
+        </script>
+      {%- else -%}
+        <script>
+          var inputEmail = '{{ form.email }}';
+          var warningAlert = '{{ warningAlert }}';
+        </script>
+      {%- endif -%}
+      <div class="form-notification" id="login-user-notification">{{ warningAlert }}</div>
     {%- endif -%}
+
     <fieldset>
       {%- if tag != blank -%}
         <input type="hidden" name="contact[tags]" value="{{ tag }}">
@@ -100,84 +97,40 @@
 </div>
 <script>
   window.addEventListener('DOMContentLoaded', function () {
-    console.log(document.querySelector('.activity-wyze--email_input'));
-    if (document.querySelector('.activity-wyze--email_input'))
-      document.querySelector('.activity-wyze--email_input').addEventListener('input', function (e) {
-        const userInput = e.target.value; // 获取用户输入的邮箱
-        console.log(userInput);
-        if (!userInput) return;
-        // 判断用户输入的邮箱是否与已登录用户邮箱一致
-        if (this.loggedInEmail) {
+    if (this.warningAlert)
+      document.querySelector('.activity-wyze--email_input').addEventListener('input', (e) => {
+        // 判断是否存在已登录用户邮箱
+        if (this.loggedInEmail && document.querySelector('.activity-wyze--email_input')) {
+          const userInput = e.target.value; // 获取用户输入的邮箱
+          if (!userInput) return;
+          // 判断用户输入的邮箱是否与已登录用户邮箱一致
           const loggedInEmail = this.loggedInEmail; // 从 Liquid 传递的变量中获取已登录用户邮箱
-          const notificationEle = document.querySelector('#login-user-notification');
           if (loggedInEmail && userInput.toLowerCase() === loggedInEmail.toLowerCase()) {
+            const notificationEle = document.querySelector('#login-user-notification');
             notificationEle.style.display = 'block';
-          } else {
-            notificationEle.textContent = '';
           }
-          return;
+        } else {
+          // 获取当前 URL 的参数
+          function getUrlParams() {
+            const params = {};
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            urlParams.forEach((value, key) => {
+              params[key] = value;
+            });
+            return params;
+          }
+          const currentParams = getUrlParams();
+          console.log(currentParams);
+          const inputEle = document.querySelector('.activity-wyze--email_input');
+          const userInput = inputEle.value; // 获取用户输入的邮箱
+          console.log(userInput, this.inputEmail);
+
+          if (userInput ! = this.inputEmail && currentParams['contact[tags]'] == 'wyze' && currentParams.form_type == 'customer') {
+            const notificationEle = document.querySelector('#login-user-notification');
+            notificationEle.style.display = 'block';
+          }
         }
-        // 判断用户输入的邮箱是否已经订阅
-        // const config = {
-        //   method: 'GET',
-        //   headers: {
-        //     'X-Requested-With': 'XMLHttpRequest',
-        //     Accept: 'application/javascript',
-        //   },
-        // };
-        // const date = new Date().getFullYear() + '-' + new Date().getMonth() + 1;
-        // fetch('/admin/api/' + date + '/customers/search.json?query=email:' + userInput, config)
-        //   .then((response) => {
-        //     console.log(response);
-
-        //     response.json();
-        //   })
-        //   .then((data) => {
-        //     console.log(data);
-        //   })
-        //   .catch((error) => {
-        //     console.error(error);
-        //   });
-
-        // console.log(userInput);
-        // fetch('/admin/api/' + date + '/check-subscription', {
-        //   method: 'POST',
-        //   headers: { 'Content-Type': 'application/json' },
-        //   body: JSON.stringify({ email: userInput }),
-        // })
-        //   .then((response, request) => {
-        //     console.log(response, request);
-
-        //     response.json();
-        //   })
-        //   .then((data) => {
-        //     console.log(data);
-
-        //     if (data.subscribed) {
-        //       alert('Your email is already subscribed!');
-        //     } else {
-        //       alert('You are not subscribed yet. Please complete the form to subscribe.');
-        //     }
-        //   });
       });
   });
-  // onEmailEnter = (e) => {
-  //   console.log(document.querySelector('.activity-wyze--email_input'));
-  //   console.log(document.getElementsByClassName('activity-wyze--email_input'));
-  //   const userInput = e.target.value; // 获取用户输入的邮箱
-
-  //   fetch('/check-subscription', {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/json' },
-  //     body: JSON.stringify({ email }),
-  //   })
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       if (data.subscribed) {
-  //         alert('Your email is already subscribed!');
-  //       } else {
-  //         alert('You are not subscribed yet. Please complete the form to subscribe.');
-  //       }
-  //     });
-  // };
 </script>
