@@ -7,6 +7,8 @@
         {{ form.errors.messages.email }}
       </div>
     {%- endif -%}
+    {{ form.message }}
+    {{ form.posted_successfully? successAlert : '' }}
     {%- if warningAlert -%}
       {%- if customer and customer.accepts_marketing -%}
         <script>
