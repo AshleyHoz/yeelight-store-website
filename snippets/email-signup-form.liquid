@@ -25,7 +25,7 @@
         </script>
       {%- else -%}
         <script>
-          var inputEmail = '{{ form.email }}';
+          var lastEmail = '{{ form.email }}';
           var warningAlert = '{{ warningAlert }}';
         </script>
       {%- endif -%}
@@ -95,42 +95,49 @@
     {%- endif -%}
   {% endform %}
 </div>
-<script>
+<script type="text/javascript">
   window.addEventListener('DOMContentLoaded', function () {
-    if (this.warningAlert)
+    console.log(3);
+    console.log(this.warningAlert);
+    if (this.warningAlert) {
+      const inputEle = document.querySelector('.activity-wyze--email_input');
+      const notificationEle = document.querySelector('#login-user-notification');
+      // 获取当前 URL 的参数
+      function getUrlParams() {
+        const params = {};
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        urlParams.forEach((value, key) => {
+          params[key] = value;
+        });
+        return params;
+      }
+
+      const currentParams = getUrlParams();
+      const checkParams = currentParams['contact[tags]'] == 'wyze' && currentParams.form_type == 'customer';
+      console.log(currentParams);
+      if (inputEle.value != '' && checkParams) {
+        notificationEle.style.display = 'block';
+      }
+
       document.querySelector('.activity-wyze--email_input').addEventListener('input', (e) => {
+        console.log(e);
+        const userInput = e.target.value; // 获取用户输入的邮箱
         // 判断是否存在已登录用户邮箱
         if (this.loggedInEmail && document.querySelector('.activity-wyze--email_input')) {
-          const userInput = e.target.value; // 获取用户输入的邮箱
           if (!userInput) return;
           // 判断用户输入的邮箱是否与已登录用户邮箱一致
           const loggedInEmail = this.loggedInEmail; // 从 Liquid 传递的变量中获取已登录用户邮箱
           if (loggedInEmail && userInput.toLowerCase() === loggedInEmail.toLowerCase()) {
-            const notificationEle = document.querySelector('#login-user-notification');
             notificationEle.style.display = 'block';
           }
         } else {
-          // 获取当前 URL 的参数
-          function getUrlParams() {
-            const params = {};
-            const queryString = window.location.search;
-            const urlParams = new URLSearchParams(queryString);
-            urlParams.forEach((value, key) => {
-              params[key] = value;
-            });
-            return params;
-          }
-          const currentParams = getUrlParams();
-          console.log(currentParams);
-          const inputEle = document.querySelector('.activity-wyze--email_input');
-          const userInput = inputEle.value; // 获取用户输入的邮箱
-          console.log(userInput, this.inputEmail);
-
-          if (userInput ! = this.inputEmail && currentParams['contact[tags]'] == 'wyze' && currentParams.form_type == 'customer') {
-            const notificationEle = document.querySelector('#login-user-notification');
-            notificationEle.style.display = 'block';
+          // 判断用户输入的邮箱是否与上一次输入的邮箱一致
+          if (userInput != this.lastEmail && checkParams) {
+            notificationEle.style.display = 'none';
           }
         }
       });
+    }
   });
 </script>
