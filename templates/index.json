@@ -49,6 +49,7 @@
         },
         "slide_Apj7XN": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Permanent_Light-BFCM-PC.jpg",
             "mobile_image": "shopify://shop_images/Permanent_Light-BFCM-M.jpg",
@@ -119,6 +120,7 @@
         },
         "slide_BDHRjb": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Christmas_String-BFCM-PC.jpg",
             "mobile_image": "shopify://shop_images/Christmas_String-BFCM-M.jpg",
