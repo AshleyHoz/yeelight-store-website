@@ -138,7 +138,7 @@
         "product_PP6Egj": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-members-offer-smart-led-light-panels"
+            "product": "yeelight-wyze-member-offer-monitor-light-bar-pro"
           }
         }
       },
@@ -149,7 +149,7 @@
         "product_PP6Egj"
       ],
       "settings": {
-        "title": "Light Up Your Home with <span>Christmas Cheer</span>",
+        "title": "Light Up Your Home with Christmas Cheer",
         "show_icon": true,
         "left_x_position": 2,
         "left_y_position": 0,
@@ -172,16 +172,22 @@
     "activity_blackfriday_Da7PxU": {
       "type": "activity-blackfriday",
       "blocks": {
+        "product_Wt7qra": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-member-offer-candela-lamp"
+          }
+        },
         "product_yCx7XQ": {
           "type": "product",
           "settings": {
             "product": "yeelight-wyze-member-offer-beam-rgbic-light-bar"
           }
         },
-        "product_Wt7qra": {
+        "product_WjbRMm": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-member-offer-candela-lamp"
+            "product": "yeelight-wyze-member-offer-smart-cube-kit"
           }
         },
         "product_yzg7TP": {
@@ -189,22 +195,16 @@
           "settings": {
             "product": "yeelight-wyze-member-offer-smart-led-lamp-d2"
           }
-        },
-        "product_WjbRMm": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-wyze-member-offer-ultra-thin-cabinet-light"
-          }
         }
       },
       "block_order": [
-        "product_yCx7XQ",
         "product_Wt7qra",
-        "product_yzg7TP",
-        "product_WjbRMm"
+        "product_yCx7XQ",
+        "product_WjbRMm",
+        "product_yzg7TP"
       ],
       "settings": {
-        "title": "Illuminate Your Holiday Gaming with <span>Best Sellers</span>",
+        "title": "Illuminate Your Holiday Gaming with Best Sellers",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
@@ -306,8 +306,8 @@
     "single_image_Pn6pPg",
     "activity_wyze_FEmHfT",
     "activity_blackfriday_EDfQAb",
-    "single_image_V4VkTF",
     "activity_blackfriday_Da7PxU",
+    "single_image_V4VkTF",
     "single_image_HQL3cr",
     "rich_text_F6XM9m",
     "1731318448f757b534",
