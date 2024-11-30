@@ -79,8 +79,6 @@
 
 .activity-halloween-row .acitivity-halloween--product {
   gap: 12px;
-  display: flex;
-  justify-content: space-between;
   width: 100%;
 }
 
@@ -94,7 +92,6 @@
   }
 
   .activity-halloween-row .acitivity-halloween--product {
-    display: flex;
     flex-wrap: wrap;
     gap: 6px;
   }
