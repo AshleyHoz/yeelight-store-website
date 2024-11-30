@@ -30,7 +30,6 @@ if (!customElements.get('shop-the-look-slider')) {
       // const containerEle = this.getElementsByClassName('shop-look-slider-buttons')[0];
       const buttonsEle = this.getElementsByClassName('shop-look-slider-buttons_item');
       const index = Array.from(buttonsEle).indexOf(currentEle);
-      console.log(index);
       // const currentRect = currentEle.getBoundingClientRect();
       // const containerRect = containerEle.getBoundingClientRect();
       // const offSetX = currentRect.left - containerRect.left;

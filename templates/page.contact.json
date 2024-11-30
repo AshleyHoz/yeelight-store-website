@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1661619382b4020fa2": {
@@ -46,7 +46,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Customer Service",
-            "text": "<p>For FAQ and customer service, please contact support@yeelight.com<br\/>Mon-Fri 9AM-5PM (UTC+8)<br\/>We'll reply within 48 hours in the working days.<\/p>",
+            "text": "<p>For FAQ and customer service, please contact after-sales@yeelight.com<br/>Mon-Fri 9AM-5PM (UTC+8)<br/>We'll reply within 48 hours in the working days.</p>",
             "link_label": "",
             "link": ""
           }
@@ -57,7 +57,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Media and Press Contact",
-            "text": "<p>For any media and press activities, interviews, or product introductions, please mail pr@yeelight.com<\/p>",
+            "text": "<p>For any media and press activities, interviews, or product introductions, please mail pr@yeelight.com</p>",
             "link_label": "",
             "link": ""
           }
@@ -68,7 +68,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Influencer Contact",
-            "text": "<p>For social media KOLs and influencers who love Yeelight products, please mail influencer@yeelight.com<\/p>",
+            "text": "<p>For social media KOLs and influencers who love Yeelight products, please mail influencer@yeelight.com</p>",
             "link_label": "",
             "link": ""
           }
@@ -79,7 +79,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Affiliate Contact",
-            "text": "<p>The Yeelight Affiliate Program offers competitive commissions of 8% with a cookie length of 45 days. Please mail AFF@yeelight.com<\/p>",
+            "text": "<p>The Yeelight Affiliate Program offers competitive commissions of 8% with a cookie length of 45 days. Please mail AFF@yeelight.com</p>",
             "link_label": "",
             "link": ""
           }
@@ -90,7 +90,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Physical Address",
-            "text": "<p>Head Quarters:<br\/>B-10-B4, Qingdao International Innovation Park, No. 1, Keyuanwei 1 Rd, Qingdao, Shandong, China<br\/><br\/>HK Office:<br\/>253 Hennessy Road, Wan Chai, Hong Kong Island Hong Kong SAR, China<br\/>Phone number: 86-15632198826<\/p>",
+            "text": "<p>Head Quarters:<br/>B-10-B4, Qingdao International Innovation Park, No. 1, Keyuanwei 1 Rd, Qingdao, Shandong, China<br/><br/>HK Office:<br/>253 Hennessy Road, Wan Chai, Hong Kong Island Hong Kong SAR, China<br/>Phone number: 86-15632198826</p>",
             "link_label": "",
             "link": ""
           }
@@ -101,7 +101,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Social Media Community",
-            "text": "<p><strong>Facebook:<\/strong>https:\/\/www.facebook.com\/Yeelight\/<br\/><br\/><strong>X:<\/strong>https:\/\/twitter.com\/Yeelight<br\/><br\/><strong>Instagram:<\/strong>https:\/\/www.instagram.com\/yeelight.official\/<br\/><br\/><strong>Youtube:<\/strong>https:\/\/www.youtube.com\/c\/Yeelight\/featured<\/p>",
+            "text": "<p><strong>Facebook:</strong>https://www.facebook.com/Yeelight/<br/><br/><strong>X:</strong>https://twitter.com/Yeelight<br/><br/><strong>Instagram:</strong>https://www.instagram.com/yeelight.official/<br/><br/><strong>Youtube:</strong>https://www.youtube.com/c/Yeelight/featured</p>",
             "link_label": "",
             "link": ""
           }
@@ -112,7 +112,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Business Contact",
-            "text": "<p>For international business, sales and operations, please mail biz@yeelight.com<\/p>",
+            "text": "<p>For international business, sales and operations, please mail biz@yeelight.com</p>",
             "link_label": "",
             "link": ""
           }
