@@ -42,12 +42,12 @@
       {% endfor %}
     </div>
     <div class="acitivity-halloween--info">
-      <div class="mobile-info-img">
+      <div class="mobile-info-img text-center">
         {%- if image_mobile -%}
           {%- render 'responsive-image', image: image_mobile, sizes: image_mobile.src.width | append: 'x' | append: image_mobile.src.height -%}
         {%- endif -%}
       </div>
-      <div class="info-img">
+      <div class="info-img text-center">
         {%- if image -%}
           {%- render 'responsive-image', image: image, sizes: image.src.width | append: 'x' | append: image.src.height -%}
         {%- endif -%}

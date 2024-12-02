@@ -38,29 +38,8 @@
   width: 100%;
 }
 
-.activity-blackfriday--info {
-  width: 100%;
-  margin-top: 60px;
-}
-
-.activity-blackfriday--img .mobile-cover-img,
-.activity-blackfriday--info .mobile-info-img {
+.activity-blackfriday--img .mobile-cover-img {
   display: none;
-}
-
-.activity-blackfriday--info .info-img,
-.activity-blackfriday--info .mobile-info-img {
-  width: 100%;
-  text-align: center;
-}
-
-.activity-blackfriday--info .info-img img,
-.activity-blackfriday--info .mobile-info-img img {
-  margin: 0 auto;
-}
-
-.activity-blackfriday--info .info-img img {
-  width: 60%;
 }
 
 .activity-blackfriday-row .activity-blackfriday--product {
@@ -92,17 +71,11 @@
     width: calc(50% - 6px);
   }
 
-  .activity-blackfriday--info {
-    margin-top: 26px;
-  }
-
-  .activity-blackfriday--img .mobile-cover-img,
-  .activity-blackfriday--info .mobile-info-img {
+  .activity-blackfriday--img .mobile-cover-img {
     display: block;
   }
 
   .activity-blackfriday--img .cover-img,
-  .activity-blackfriday--info .info-img,
   .activity-blackfriday-bg-icons .ic-bg-left,
   .activity-blackfriday-bg-icons .ic-bg-right {
     display: none;
