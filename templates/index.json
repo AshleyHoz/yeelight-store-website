@@ -85,6 +85,7 @@
         },
         "slide_E8nF4j": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Curtain_Light-BFCM-PC.jpg",
             "mobile_image": "shopify://shop_images/Curtain_Light-BFCM-M.jpg",
