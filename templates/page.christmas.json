@@ -14,47 +14,15 @@
       "disabled": true,
       "settings": {}
     },
-    "image_with_text_overlay_EHXcMN": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_GeKdfB": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GeKdfB"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Black_Friday-BFCM-PC.jpg",
-        "mobile_image": "shopify://shop_images/Black_Friday-BFCM-M.jpg",
-        "image_parallax": false,
-        "desktop_height": "",
-        "mobile_height": "",
-        "full_width": true,
-        "content_width": "medium",
-        "content_position": "bottom-center",
-        "text_alignment": "center",
-        "text_color": "#ffffff",
-        "overlay_color": "rgba(0,0,0,0)",
-        "overlay_opacity": 0,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "video_MVkEjJ": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "heading": "",
         "marker_style": "style1",
         "description": "",
         "full_width": true,
         "video": "",
-        "video_hosted": "shopify://files/videos/Yeelight Cube Smart Lamp 2.mp4",
+        "video_hosted": "shopify://files/videos/ChristmasVideo.mp4",
         "video_autoplay": true,
         "desktop_height": "desktop-height-480",
         "mobile_height": "mobile-height-345",
@@ -113,7 +81,7 @@
         "product_7ejnQL"
       ],
       "settings": {
-        "title": "Find the <span>Perfect Gift</span>",
+        "title": "Find the Perfect Gift",
         "image": "shopify://shop_images/ChristmasBg.png",
         "show_icon": false,
         "left_x_position": 0,
@@ -260,7 +228,6 @@
   },
   "order": [
     "main",
-    "image_with_text_overlay_EHXcMN",
     "video_MVkEjJ",
     "single_image_Pn6pPg",
     "activity_christmas_gCWHKU",
