@@ -5713,7 +5713,7 @@ input[type='radio'],
   -webkit-text-fill-color: #8aff00;
 }
 
-.section-activity-christmas .image-product-header .section-header--title > span {
+.section-activity-christmas .section-header--title > span {
   background: linear-gradient(270deg, #f30 5.05%, #ffb700 100%);
   background-clip: text;
   -webkit-background-clip: text;

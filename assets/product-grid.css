@@ -350,13 +350,17 @@
   background: linear-gradient(339deg, #fbb120 -23.62%, #ef2e79 43.84%, #c52284 61.35%, #5d05a1 100.48%), #d9d9d9;
 }
 .section-activity-halloween .product-card .badge,
-.section-activity-black-friday .product-card .badge {
+.section-activity-black-friday .product-card .badge,
+.section-activity-christmas .product-card .badge {
   background: transparent;
   border-radius: unset;
 }
-
+.section-activity-christmas .product-card .badge {
+  padding: 14px 10px;
+}
 .section-activity-halloween .product-card .badge .halloween-shop-badge,
 .section-activity-halloween .product-card .badge .halloween-shop-badge-mobile,
+.section-activity-christmas .product-card .badge .christmas-shop-badge,
 .section-activity-black-friday .product-card .badge .black-friday-shop-badge {
   position: absolute;
   top: 0;
@@ -370,17 +374,14 @@
   display: none;
 }
 
-.product-card .badge .badge-content {
+.product-card .badge .badge-content,
+.product-card .badge .activity-badge-content {
+  display: block;
   z-index: 2;
 }
 
 .section-activity-black-friday .product-card .badge .badge-content {
   display: none;
-}
-
-.section-activity-black-friday .product-card .badge .black-friday-badge-content {
-  display: block;
-  z-index: 2;
 }
 
 .product-card .badge .badge-title {
@@ -416,6 +417,12 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 16px;
+}
+
+.section-activity-christmas .product-card .badge .badge-title,
+.section-activity-christmas .product-card .badge .badge-percent {
+  font-size: 16px;
+  font-weight: 700;
 }
 
 /* .section-activity-black-friday .product-card .badge .badge-title {
@@ -1056,12 +1063,21 @@
     width: 45px;
   }
 
+  .section-activity-christmas .product-card .badge {
+    padding: 8px;
+  }
+
   .section-activity-halloween .product-card .badge .halloween-shop-badge-mobile {
     display: block;
   }
 
   .section-activity-halloween .product-card .badge .halloween-shop-badge {
     display: none;
+  }
+
+  .section-activity-christmas .product-card .badge .christmas-shop-badge svg {
+    width: 38px;
+    height: 43px;
   }
 
   .product-card .badge .badge-title {
@@ -1089,6 +1105,12 @@
   .section-activity-halloween .product-card .badge .badge-title,
   .section-activity-halloween .product-card .badge .badge-percent {
     color: #000000;
+  }
+
+  .section-activity-christmas .product-card .badge .badge-title,
+  .section-activity-christmas .product-card .badge .badge-percent {
+    font-size: 12px;
+    line-height: 14px;
   }
 
   .section-activity-black-friday .product-card .badge svg {
