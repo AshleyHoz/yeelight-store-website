@@ -7,19 +7,19 @@
 -%}
 
 <div class="activity-christmas">
-  {% if section.settings.show_icon %}
-    <div class="activity-christmas-bg">
-      <div class="activity-christmas-bg--inner">
-        <div class="mobile-cover-img">
-          {%- if background_image_mobile -%}
-            {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
-          {%- endif -%}
-        </div>
-        <div class="cover-img">
-          {%- if background_image -%}
-            {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-          {%- endif -%}
-        </div>
+  <div class="activity-christmas-bg">
+    <div class="activity-christmas-bg--inner">
+      <div class="mobile-cover-img">
+        {%- if background_image_mobile -%}
+          {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
+        {%- endif -%}
+      </div>
+      <div class="cover-img">
+        {%- if background_image -%}
+          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+        {%- endif -%}
+      </div>
+      {% if section.settings.show_icon %}
         <div
           class="ic-bg-left"
           style="position:absolute;left: {{- section.settings.left_x_position | append: '%' -}}; top: {{- section.settings.left_y_position | append: '%' -}};"
@@ -32,9 +32,9 @@
         >
           {%- render 'svg-icons-christmas' with 'custom-christmas-bg-right' -%}
         </div>
-      </div>
+      {% endif %}
     </div>
-  {% endif %}
+  </div>
   <div class="row activity-christmas-row">
     {% if section_title %}
       <div class="activity-christmas-header">
