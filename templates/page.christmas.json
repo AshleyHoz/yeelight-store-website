@@ -25,6 +25,8 @@
         "video_hosted": "shopify://files/videos/ChristmasVideo.mp4",
         "video_hosted_mobile": "shopify://files/videos/ChristmasVideoMobile.mp4",
         "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": false,
         "desktop_height": "desktop-height-480",
         "mobile_height": "mobile-height-345",
         "aspect_ratio": "16-9",
