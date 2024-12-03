@@ -1,0 +1,115 @@
+.activity-christmas {
+  position: relative;
+  padding: 70px 0;
+  background: #100a29;
+}
+
+.activity-christmas-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #100a29;
+}
+
+.activity-christmas-bg-icons {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.activity-christmas--img {
+  position: relative;
+  width: 100%;
+  max-width: 1750px;
+  z-index: 2;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.activity-christmas-row {
+  position: relative;
+  z-index: 2;
+}
+
+.activity-christmas-header {
+  width: 100%;
+}
+
+.activity-christmas--info {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.activity-christmas--img .mobile-cover-img,
+.activity-christmas--info .mobile-info-img {
+  display: none;
+}
+
+.activity-christmas--info .info-img,
+.activity-christmas--info .mobile-info-img {
+  width: 100%;
+  text-align: center;
+}
+
+.activity-christmas--info .info-img img,
+.activity-christmas--info .mobile-info-img img {
+  margin: 0 auto;
+}
+
+.activity-christmas--info .info-img img {
+  width: 60%;
+}
+
+.activity-christmas-row .activity-christmas--product {
+  width: 100%;
+  gap: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.activity-christmas-row .activity-christmas--product .product-item {
+  width: calc(25% - 20px);
+}
+
+.activity-christmas-row .activity-christmas--product .product-item .product-card {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 767px) {
+  .activity-christmas {
+    padding: 24px 0;
+  }
+  .activity-christmas-row {
+    margin-top: 0;
+  }
+
+  .activity-christmas-row .activity-christmas--product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .activity-christmas-row .activity-christmas--product .product-item {
+    width: calc(50% - 6px);
+  }
+
+  .activity-christmas--info {
+    margin-top: 26px;
+  }
+
+  .activity-christmas--img .mobile-cover-img,
+  .activity-christmas--info .mobile-info-img {
+    display: block;
+  }
+
+  .activity-christmas--img .cover-img,
+  .activity-christmas--info .info-img,
+  .activity-christmas-bg-icons .ic-bg-left,
+  .activity-christmas-bg-icons .ic-bg-right {
+    display: none;
+  }
+}
