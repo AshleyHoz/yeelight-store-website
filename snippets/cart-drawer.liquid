@@ -156,7 +156,7 @@
                         {%- render 'svg-icons' with 'trash' -%}
                       </a>
                     </div>
-                    <div class="product-cart-item-price">
+                    <div class="product-cart-item-price text-right">
                       <span class="price">
                         {%- if item.original_line_price != item.final_line_price -%}
                           <del
@@ -186,7 +186,7 @@
                 {% endfor %}
               </div>
             {%- else -%}
-              <div class="cart-drawer__empty-cart">
+              <div class="cart-drawer__empty-cart d-flex align-center justify-center flex-column text-center">
                 {% render 'svg-icons' with 'thb-empty-cart' %}
                 <p>{{ 'general.cart_drawer.cart_empty' | t }}</p>
                 <a class="button accent2" href="{{ routes.all_products_collection_url }}"

@@ -743,22 +743,6 @@ code,
   margin-bottom: 1.5rem;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
 @media print, screen and (min-width: 48em) {
   .medium-text-left {
     text-align: left;
@@ -3667,7 +3651,6 @@ h6,
 }
 .mega-menu-promotion--content {
   margin-top: 20px;
-  text-align: center;
 }
 .mega-menu-promotion--content h6 {
   font-size: 0.9375rem;
@@ -4672,7 +4655,6 @@ select.resize-select {
 .product-cart-item-price {
   margin-left: auto;
   padding-left: 15px;
-  text-align: right;
 }
 [dir='rtl'] .product-cart-item-price {
   margin-left: 0;
@@ -4826,11 +4808,6 @@ select.resize-select {
 .cart-drawer__empty-cart {
   height: 100%;
   padding: 10vh 0;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 .cart-drawer__empty-cart svg {
   margin-bottom: 45px;
@@ -5612,10 +5589,8 @@ input[type='radio'],
 }
 .section-header--content {
   width: 100%;
-  text-align: center;
 }
 .section-header--title {
-  text-align: center;
   color: #fff;
   font-size: 40px;
   font-weight: 600;
@@ -5905,7 +5880,6 @@ input[type='submit'].accent .spinner-path {
     padding-bottom: 24px;
   }
   .section-header--title {
-    text-align: center;
     color: #fff;
     font-size: 24px;
     font-weight: 600;
