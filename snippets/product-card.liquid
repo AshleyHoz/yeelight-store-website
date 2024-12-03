@@ -227,6 +227,7 @@
       <a
         href="{{ product_card_product.url | within: collection }}"
         title="{{ product_card_product.title | escape }}"
+        class="shop-now-wrapper"
       >
         {%- if settings.halloween_flag -%}
           <div
@@ -266,11 +267,7 @@
         {%- elsif settings.christmas_flag -%}
           {%- render 'svg-icons-christmas' with 'custom-christmas-shop' -%}
         {%- else -%}
-          <div
-            class="product-card-view"
-          >
-            Shop Now
-          </div>
+          <div class="product-card-view">Shop Now</div>
         {%- endif -%}
       </a>
     </div>
