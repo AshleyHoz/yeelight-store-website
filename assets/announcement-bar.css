@@ -14,7 +14,7 @@
 }
 @media only screen and (min-width: 768px) {
   .announcement-bar--inner {
-    padding: 6px 50px;
+    padding: 8px 50px;
   }
 }
 
@@ -37,9 +37,17 @@
   top: 0;
   left: 0;
   z-index: 1;
-  background-size: cover;
+  /* background-size: cover;
   background-position: center;
-  object-fit: cover;
+  object-fit: cover; */
+}
+
+.announcement-bar--bg img {
+  height: 100%;
+}
+
+.announcement-bar--bg .bar--bg--mobile {
+  display: none;
 }
 
 .announcement-bar--inner {
@@ -185,5 +193,13 @@
 
   .announcement-bar--carousel .carousel {
     width: 80%;
+  }
+
+  .announcement-bar--bg .bar--bg--mobile {
+    display: block;
+  }
+
+  .announcement-bar--bg .bar--bg {
+    display: none;
   }
 }
