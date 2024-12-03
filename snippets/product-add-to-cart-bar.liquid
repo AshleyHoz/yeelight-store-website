@@ -4,10 +4,13 @@
       {% if settings.black_friday_flag %}
         <span>{%- render 'svg-icons-friday' with 'custom-friday-sale' -%}</span>
       {% endif %}
+      {% if settings.christmas_flag %}
+        <span>{%- render 'svg-icons-christmas' with 'custom-christmas-sale' -%}</span>
+      {% endif %}
     </div>
     <div class="product-add-to-cart-bar--info">
       <div class="product-info--price no-js-hidden" id="price-{{ section.id }}">
-        {% if settings.black_friday_flag %}
+        {% if settings.black_friday_flag or settings.christmas_flag %}
           <span class="product-info--icon">
             {%- render 'svg-icons-friday' with 'custom-friday-light' -%}
           </span>
