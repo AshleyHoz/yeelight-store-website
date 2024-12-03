@@ -42,6 +42,11 @@
   object-fit: cover; */
 }
 
+.announcement-bar--bg .bar--bg,
+.announcement-bar--bg .bar--bg--mobile {
+  height: 100%;
+}
+
 .announcement-bar--bg img {
   height: 100%;
 }
