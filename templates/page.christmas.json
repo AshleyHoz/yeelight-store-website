@@ -135,12 +135,24 @@
         "right_y_position": 0
       }
     },
+    "single_image_jKHqAE": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/ChristmasImage.png",
+        "image_mobile": "shopify://shop_images/ChristmasImageMobile.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false
+      }
+    },
     "single_image_HQL3cr": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/BlackFriday.png",
-        "image_mobile": "shopify://shop_images/BlackFridayMobile.png",
+        "image": "shopify://shop_images/Christmas.png",
+        "image_mobile": "shopify://shop_images/ChristmasMobile.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -277,6 +289,7 @@
     "single_image_Pn6pPg",
     "activity_christmas_gCWHKU",
     "activity_christmas_Ayz4PF",
+    "single_image_jKHqAE",
     "single_image_HQL3cr",
     "rich_text_F6XM9m",
     "1731318448f757b534",
