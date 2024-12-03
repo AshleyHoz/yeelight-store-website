@@ -113,7 +113,8 @@
         "product_7ejnQL"
       ],
       "settings": {
-        "title": "",
+        "title": "Find the <span>Perfect Gift</span>",
+        "image": "shopify://shop_images/ChristmasBg.png",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
