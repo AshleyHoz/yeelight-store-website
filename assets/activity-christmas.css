@@ -21,10 +21,12 @@
 .activity-christmas-bg .mobile-cover-img {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
   z-index: 1;
+}
+
+.activity-christmas-bg .cover-img img,
+.activity-christmas-bg .mobile-cover-img img {
+  object-fit: cover;
 }
 
 .activity-christmas-bg .ic-bg-left,
