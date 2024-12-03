@@ -15,9 +15,9 @@
         "slide_rYUPUw": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Home_page_BFCM-PC.jpg",
-            "mobile_image": "shopify://shop_images/Home_page_BFCM-M.jpg",
-            "slide_link": "shopify://pages/black-friday-cyber-monday-deals",
+            "image": "shopify://shop_images/Banner-PC.jpg",
+            "mobile_image": "shopify://shop_images/Banner-M_989a34d1-e09a-40bf-b41a-9f38096a36df.jpg",
+            "slide_link": "shopify://pages/christmas-sales",
             "video_background": false,
             "badge_text": "",
             "subheading": "",
