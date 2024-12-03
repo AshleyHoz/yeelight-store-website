@@ -104,10 +104,22 @@
             "product": "yeelight-beam-rgbic-light-bar"
           }
         },
+        "product_FX6ajt": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        },
         "product_xWXHxt": {
           "type": "product",
           "settings": {
             "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_VGjNXz": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-obsid-rgbic-light-strip"
           }
         },
         "product_Dn9KcD": {
@@ -133,29 +145,17 @@
           "settings": {
             "product": "yeelight-smart-led-light-panels"
           }
-        },
-        "product_FX6ajt": {
-          "type": "product",
-          "settings": {
-            "product": "a-yeelight-cube-4-matrix-pack"
-          }
-        },
-        "product_VGjNXz": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-obsid-rgbic-light-strip"
-          }
         }
       },
       "block_order": [
         "product_LQzE68",
+        "product_FX6ajt",
         "product_xWXHxt",
+        "product_VGjNXz",
         "product_Dn9KcD",
         "product_NAMJat",
         "product_BFP48R",
-        "product_DztJyW",
-        "product_FX6ajt",
-        "product_VGjNXz"
+        "product_DztJyW"
       ],
       "settings": {
         "title": "Essentials to Improve Your Daily Life",
