@@ -14,7 +14,7 @@
 }
 @media only screen and (min-width: 768px) {
   .announcement-bar--inner {
-    padding: 0 50px;
+    padding: 6px 50px;
   }
 }
 
@@ -27,8 +27,21 @@
   background: linear-gradient(90deg, #ff3b10 1.2%, #d33255 38.01%, #9a26ab 72.41%, #641bff 99.67%);
   color: var(--color-announcement-bar-text, #fff);
   line-height: 1;
-  padding: 6px 0;
+  position: relative;
 }
+
+.announcement-bar--bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
 .announcement-bar--inner {
   height: 100%;
   display: flex;
@@ -38,6 +51,8 @@
   font-size: calc(var(--font-announcement-scale, 1) * 13px);
   font-weight: 400;
   overflow: hidden;
+  position: relative;
+  z-index: 2;
 }
 .announcement-bar--marquee.direction-left > div {
   animation: marquee-left var(--marquee-speed) linear infinite;
@@ -154,7 +169,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .announcement-bar {
+  .announcement-bar--inner {
     padding: 8px 0;
   }
 

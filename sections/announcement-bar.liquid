@@ -9,6 +9,7 @@
     assign use_block_colors = section.settings.use_block_colors
     assign autoplay = section.settings.autoplay
     assign background_color = section.settings.background_color
+    assign background_image = section.settings.background_image
 
     assign show_announcement_bar = true
 
@@ -35,6 +36,12 @@
       class="announcement-bar"
       style="--color-announcement-bar-text: {{ color_announcement_bar_text }}; --color-announcement-bar-bg: {{ color_announcement_bar_bg -}};--color-announcement-background-bg: {{ background_color -}};{%if background_color != 'transparent' and background_color != 'rgba(0,0,0,0)'%}background:{{background_color}} !important; {% endif %}"
     >
+      {%- if background_image -%}
+        <div class="announcement-bar--bg">
+          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+        </div>
+      {%- endif -%}
+
       <div
         class="announcement-bar--inner direction-{{ direction }} announcement-bar--{{ announcement_bar_layout }}"
         style="--marquee-speed: {{ speed }}"
@@ -167,6 +174,11 @@
       ],
       "default": "single",
       "label": "Layout"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
     },
     {
       "type": "header",
