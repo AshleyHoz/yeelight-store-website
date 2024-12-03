@@ -224,53 +224,55 @@
           </{{ button_tag }}>
         </div>
       {%- endif -%}
-      {%- if settings.halloween_flag -%}
-        <a
-          href="{{ product_card_product.url | within: collection }}"
-          title="{{ product_card_product.title | escape }}"
-          class="halloween-shop-container"
-        >
-          <div class="image-product-halloween-shop">
-            {% comment %}
-              <span class="halloween-shop-hand">
-                {%- render 'svg-icons-halloween' with 'custom-halloween-shop-hand' -%}
-              </span>
-            {% endcomment %}
-            <div class="halloween-shop">
-              {%- render 'svg-icons-halloween' with 'custom-halloween-shop' -%}
-            </div>
-            <div class="halloween-shop-hover">
-              {%- render 'svg-icons-halloween' with 'custom-halloween-shop-hover' -%}
-            </div>
-          </div>
-        </a>
-        <a
-          href="{{ product_card_product.url | within: collection }}"
-          title="{{ product_card_product.title | escape }}"
-          class="halloween-shop-container-mobile"
-        >
-          <div class="image-product-halloween-shop">
-            {% comment %}
-              <span class="halloween-shop-hand">
-                {%- render 'svg-icons-halloween' with 'custom-halloween-shop-hand-mobile' -%}
-              </span>
-            {% endcomment %}
-            <div class="halloween-shop">
-              {%- render 'svg-icons-halloween' with 'custom-halloween-shop-mobile' -%}
-            </div>
-            <div class="halloween-shop-hover">
-              {%- render 'svg-icons-halloween' with 'custom-halloween-shop-hover-mobile' -%}
+      <a
+        href="{{ product_card_product.url | within: collection }}"
+        title="{{ product_card_product.title | escape }}"
+      >
+        {%- if settings.halloween_flag -%}
+          <div
+            class="halloween-shop-container"
+          >
+            <div class="image-product-halloween-shop">
+              {% comment %}
+                <span class="halloween-shop-hand">
+                  {%- render 'svg-icons-halloween' with 'custom-halloween-shop-hand' -%}
+                </span>
+              {% endcomment %}
+              <div class="halloween-shop">
+                {%- render 'svg-icons-halloween' with 'custom-halloween-shop' -%}
+              </div>
+              <div class="halloween-shop-hover">
+                {%- render 'svg-icons-halloween' with 'custom-halloween-shop-hover' -%}
+              </div>
             </div>
           </div>
-        </a>
-      {%- else -%}
-        <a
-          href="{{ product_card_product.url | within: collection }}"
-          title="{{ product_card_product.title | escape }}"
-          class="product-card-view"
-          >Shop Now</a
-        >
-      {%- endif -%}
+          <div
+            class="halloween-shop-container-mobile"
+          >
+            <div class="image-product-halloween-shop">
+              {% comment %}
+                <span class="halloween-shop-hand">
+                  {%- render 'svg-icons-halloween' with 'custom-halloween-shop-hand-mobile' -%}
+                </span>
+              {% endcomment %}
+              <div class="halloween-shop">
+                {%- render 'svg-icons-halloween' with 'custom-halloween-shop-mobile' -%}
+              </div>
+              <div class="halloween-shop-hover">
+                {%- render 'svg-icons-halloween' with 'custom-halloween-shop-hover-mobile' -%}
+              </div>
+            </div>
+          </div>
+        {%- elsif settings.christmas_flag -%}
+          {%- render 'svg-icons-christmas' with 'custom-christmas-shop' -%}
+        {%- else -%}
+          <div
+            class="product-card-view"
+          >
+            Shop Now
+          </div>
+        {%- endif -%}
+      </a>
     </div>
   </product-card>
 {%- else -%}

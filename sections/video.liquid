@@ -55,7 +55,7 @@
     </div>
   {%- endif -%}
 
-  {%- if settings.christmas and cover_title -%}
+  {%- if settings.christmas_flag and cover_title -%}
     <div class="video-info-cover row">
       {%- if cover_image -%}
         {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
