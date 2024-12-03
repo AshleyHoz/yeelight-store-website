@@ -91,6 +91,49 @@
         "right_y_position": 0
       }
     },
+    "activity_christmas_Ayz4PF": {
+      "type": "activity-christmas",
+      "blocks": {
+        "product_LQzE68": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        },
+        "product_xWXHxt": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-floor-task-lamp"
+          }
+        },
+        "product_Dn9KcD": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_NAMJat": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-smart-cube"
+          }
+        }
+      },
+      "block_order": [
+        "product_LQzE68",
+        "product_xWXHxt",
+        "product_Dn9KcD",
+        "product_NAMJat"
+      ],
+      "settings": {
+        "title": "Essentials to Improve Your Daily Life",
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "right_x_position": 0,
+        "right_y_position": 0
+      }
+    },
     "single_image_HQL3cr": {
       "type": "single-image",
       "settings": {
@@ -232,6 +275,7 @@
     "video_MVkEjJ",
     "single_image_Pn6pPg",
     "activity_christmas_gCWHKU",
+    "activity_christmas_Ayz4PF",
     "single_image_HQL3cr",
     "rich_text_F6XM9m",
     "1731318448f757b534",
