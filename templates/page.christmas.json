@@ -83,10 +83,10 @@
       ],
       "settings": {
         "title": "Find the Perfect Gift",
-        "image": "shopify://shop_images/ChristmasBg.png",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
+        "background_image": "shopify://shop_images/ChristmasBg.png",
         "right_x_position": 0,
         "right_y_position": 0
       }
