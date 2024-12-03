@@ -27,6 +27,7 @@
 .activity-christmas-bg .cover-img img,
 .activity-christmas-bg .mobile-cover-img img {
   object-fit: cover;
+  height: 100%;
 }
 
 .activity-christmas-bg .ic-bg-left,
