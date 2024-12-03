@@ -962,7 +962,15 @@
   opacity: 0;
 }
 
-.image-product-halloween-shop .halloween-shop-hover {
+.christmas-shop,
+.christmas-shop-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-product-halloween-shop .halloween-shop-hover,
+.christmas-shop-mobile {
   display: none;
 }
 
@@ -1145,10 +1153,12 @@
     padding: 0 12px 12px;
   }
 
-  .halloween-shop-container {
+  .halloween-shop-container,
+  .christmas-shop {
     display: none;
   }
 
+  .christmas-shop-mobile,
   .halloween-shop-container-mobile {
     cursor: pointer;
     display: block;

@@ -265,7 +265,12 @@
             </div>
           </div>
         {%- elsif settings.christmas_flag -%}
-          {%- render 'svg-icons-christmas' with 'custom-christmas-shop' -%}
+          <div class="christmas-shop">
+            {%- render 'svg-icons-christmas-sec' with 'custom-christmas-shop' -%}
+          </div>
+          <div class="christmas-shop-mobile">
+            {%- render 'svg-icons-christmas-sec' with 'custom-christmas-shop-mobile' -%}
+          </div>
         {%- else -%}
           <div class="product-card-view">Shop Now</div>
         {%- endif -%}
