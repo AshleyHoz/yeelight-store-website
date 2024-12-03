@@ -18,7 +18,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "Unlock Yeelight Black Friday Wonders",
+            "text": "Bring the Festive Magic Home",
             "sub_text": "UP TO 50% OFF",
             "link": "",
             "button_text": "Shop Now",
@@ -37,6 +37,7 @@
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
+        "background_image": "shopify://shop_images/ChristmasAnnouncementBg.png",
         "direction": "left",
         "speed": "50s",
         "use_block_colors": false,
