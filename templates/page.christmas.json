@@ -79,12 +79,7 @@
           }
         }
       },
-      "block_order": [
-        "product_G7M78V",
-        "product_rrdUMy",
-        "product_Wnnp6P",
-        "product_7ejnQL"
-      ],
+      "block_order": ["product_G7M78V", "product_rrdUMy", "product_Wnnp6P", "product_7ejnQL"],
       "settings": {
         "title": "Find the Perfect Gift  🥳",
         "show_icon": true,
@@ -204,9 +199,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_xHDwGq"
-      ],
+      "block_order": ["heading_xHDwGq"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -244,9 +237,7 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_video_slider_NgXFBA"
-      ],
+      "block_order": ["loox_reviews_loox_video_slider_NgXFBA"],
       "settings": {}
     },
     "text_with_icons_LiHffF": {
@@ -278,9 +269,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_piygbJ"
-      ],
+      "block_order": ["heading_piygbJ"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -309,9 +298,7 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_agg_section_QX3hBc"
-      ],
+      "block_order": ["loox_reviews_loox_agg_section_QX3hBc"],
       "settings": {}
     }
   },
