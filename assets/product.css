@@ -52,6 +52,7 @@
   margin-bottom: 25px;
   align-items: start;
 }
+
 @media only screen and (min-width: 768px) {
   .add_to_cart_holder--multi {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -2549,6 +2550,28 @@ h6,
   background: transparent;
 }
 
+.section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons {
+  border-radius: 50px;
+  overflow: hidden;
+  width: 118px;
+  height: 50px;
+}
+
+.section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons svg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons svg path {
+  fill: #fff;
+}
+
+.section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons .dynamic-payment-icons--text {
+  position: absolute;
+}
+
 .section-theme-white,
 .section-theme-white .product-add-to-cart-sticky {
   background: var(--color-product-bg);
@@ -2678,6 +2701,7 @@ h6,
 .section-activity-christmas .dynamic-payment-buttons .dynamic-payment-button {
   opacity: 0;
   z-index: 2;
+  position: relative;
 }
 
 .shopify-payment-button .shopify-payment-button__more-options {
@@ -2790,5 +2814,13 @@ h6,
   .product-add-to-cart-bar .product-add-to-cart-bar--buttons {
     width: 70%;
     display: flex;
+  }
+
+  .section-activity-christmas .add_to_cart_holder {
+    display: flex;
+  }
+
+  .section-activity-christmas .add_to_cart_holder .single-add-to-cart-button {
+    width: 40%;
   }
 }
