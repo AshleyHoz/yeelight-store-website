@@ -6,6 +6,7 @@
   assign full_width = section.settings.full_width
   assign video = section.settings.video
   assign video_hosted = section.settings.video_hosted
+  assign video_hosted_mobile = section.settings.video_hosted_mobile
   assign video_autoplay = section.settings.video_autoplay
   assign aspect_ratio = section.settings.aspect_ratio
   assign desktop_height = section.settings.desktop_height
@@ -61,7 +62,31 @@
         %}
       </div>
       <div class="video-section--container video-aspect--{{ aspect_ratio }}  {{ mobile_height }} {{ desktop_height }}">
-        {%- if video_hosted != blank -%}
+        {%- if video_hosted != blank and video_hosted_mobile != blank -%}
+          <div class="video_hosted_mobile">
+            {{
+              video_hosted_mobile
+              | video_tag: autoplay: video_autoplay, loop: true, controls: true, muted: video_autoplay
+            }}
+          </div>
+          <div class="video_hosted">
+            {%- liquid
+              assign sizes = '1280x'
+              if full_width
+                assign sizes = '1600x'
+              endif
+            -%}
+            {{
+              video_hosted
+              | video_tag:
+                autoplay: video_autoplay,
+                loop: true,
+                controls: true,
+                muted: video_autoplay,
+                image_size: sizes
+            }}
+          </div>
+        {%- elsif video_hosted != blank -%}
           {%- liquid
             assign sizes = '1280x'
             if full_width
@@ -164,6 +189,12 @@
       "type": "video",
       "id": "video_hosted",
       "label": "Shopify-hosted video",
+      "info": "Overrides the Video URL setting."
+    },
+    {
+      "type": "video",
+      "id": "video_hosted_mobile",
+      "label": "Shopify-hosted video in mobile",
       "info": "Overrides the Video URL setting."
     },
     {

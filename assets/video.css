@@ -125,6 +125,10 @@
   object-fit: cover;
 }
 
+.video-section--container .video_hosted_mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 767px) {
   .video-section-container {
     padding: 16px 0;
@@ -145,7 +149,12 @@
     overflow: hidden;
   }
 
-  .video-section--inner_halloween-skull {
+  .video-section--inner_halloween-skull,
+  .video-section--container .video_hosted {
     display: none;
+  }
+
+  .video-section--container .video_hosted_mobile {
+    display: block;
   }
 }
