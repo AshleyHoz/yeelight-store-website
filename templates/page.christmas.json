@@ -86,7 +86,7 @@
         "product_7ejnQL"
       ],
       "settings": {
-        "title": "Find the <span>Perfect Gift</span>  🥳",
+        "title": "Find the Perfect Gift  🥳",
         "show_icon": true,
         "left_x_position": 0,
         "left_y_position": 0,
@@ -107,7 +107,7 @@
         "product_xWXHxt": {
           "type": "product",
           "settings": {
-            "product": "yeelight-floor-task-lamp"
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
           }
         },
         "product_Dn9KcD": {
@@ -121,16 +121,44 @@
           "settings": {
             "product": "yeelight-smart-cube"
           }
+        },
+        "product_BFP48R": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_DztJyW": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-smart-led-light-panels"
+          }
+        },
+        "product_FX6ajt": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        },
+        "product_VGjNXz": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-obsid-rgbic-light-strip"
+          }
         }
       },
       "block_order": [
         "product_LQzE68",
         "product_xWXHxt",
         "product_Dn9KcD",
-        "product_NAMJat"
+        "product_NAMJat",
+        "product_BFP48R",
+        "product_DztJyW",
+        "product_FX6ajt",
+        "product_VGjNXz"
       ],
       "settings": {
-        "title": "Essentials to Improve <span>Your Daily Life</span>",
+        "title": "Essentials to Improve Your Daily Life",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
