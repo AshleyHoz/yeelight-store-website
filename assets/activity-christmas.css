@@ -5,7 +5,7 @@
 }
 
 .activity-christmas-bg,
-.activity-christmas--bg {
+.activity-christmas-bg {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -43,7 +43,7 @@
   margin-top: 60px;
 }
 
-.activity-christmas--bg .mobile-cover-img,
+.activity-christmas-bg .mobile-cover-img,
 .activity-christmas--info .mobile-info-img {
   display: none;
 }
@@ -101,12 +101,16 @@
     margin-top: 26px;
   }
 
-  .activity-christmas--bg .mobile-cover-img,
+  .activity-christmas-bg {
+    background: #100a29;
+  }
+
+  .activity-christmas-bg .mobile-cover-img,
   .activity-christmas--info .mobile-info-img {
     display: block;
   }
 
-  .activity-christmas--bg .cover-img,
+  .activity-christmas-bg .cover-img,
   .activity-christmas--info .info-img,
   .activity-christmas-bg-icons .ic-bg-left,
   .activity-christmas-bg-icons .ic-bg-right {

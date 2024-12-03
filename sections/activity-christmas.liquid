@@ -2,43 +2,39 @@
 {{ 'product-grid.css' | asset_url | stylesheet_tag }}
 {%- liquid
   assign section_title = section.settings.title
-  assign background_image = section.settings.image
-  assign background_image_mobile = section.settings.image_mobile
+  assign background_image = section.settings.background_image
+  assign background_image_mobile = section.settings.background_image_mobile
 -%}
 
 <div class="activity-christmas">
-  {% comment %}
-    {% if section.settings.show_icon %}
-      <div class="activity-christmas-bg">
-        <div class="activity-christmas-bg-icons">
-          <div
-            class="ic-bg-left"
-            style="position:absolute;left: {{- section.settings.left_x_position | append: '%' -}}; top: {{- section.settings.left_y_position | append: '%' -}};"
-          >
-            {%- render 'svg-icons-friday' with 'custom-friday-bg-left' -%}
-          </div>
-          <div
-            class="ic-bg-right"
-            style="position:absolute;right: {{- section.settings.right_x_position | append: '%' -}}; top: {{- section.settings.right_y_position | append: '%' -}};"
-          >
-            {%- render 'svg-icons-friday' with 'custom-friday-bg-right' -%}
-          </div>
+  {% if section.settings.show_icon %}
+    <div class="activity-christmas-bg">
+      <div class="mobile-cover-img">
+        {%- if background_image_mobile -%}
+          {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
+        {%- endif -%}
+      </div>
+      <div class="cover-img">
+        {%- if background_image -%}
+          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+        {%- endif -%}
+      </div>
+      <div class="activity-christmas-bg-icons">
+        <div
+          class="ic-bg-left"
+          style="position:absolute;left: {{- section.settings.left_x_position | append: '%' -}}; top: {{- section.settings.left_y_position | append: '%' -}};"
+        >
+          {%- render 'svg-icons-christmas' with 'custom-christmas-bg-left' -%}
+        </div>
+        <div
+          class="ic-bg-right"
+          style="position:absolute;right: {{- section.settings.right_x_position | append: '%' -}}; top: {{- section.settings.right_y_position | append: '%' -}};"
+        >
+          {%- render 'svg-icons-christmas' with 'custom-christmas-bg-right' -%}
         </div>
       </div>
-    {% endif %}
-  {% endcomment %}
-  <div class="activity-christmas--bg">
-    <div class="mobile-cover-img">
-      {%- if background_image_mobile -%}
-        {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
-      {%- endif -%}
     </div>
-    <div class="cover-img">
-      {%- if background_image -%}
-        {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-      {%- endif -%}
-    </div>
-  </div>
+  {% endif %}
   <div class="row activity-christmas-row">
     {% if section_title %}
       <div class="activity-christmas-header">
@@ -114,6 +110,11 @@
       "type": "image_picker",
       "id": "background_image",
       "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_mobile",
+      "label": "Background Image Mobile"
     },
     {
       "type": "header",
