@@ -15,6 +15,7 @@
 
 .activity-christmas-bg--inner {
   position: relative;
+  height: 100%;
 }
 
 .activity-christmas-bg .cover-img,
@@ -122,8 +123,20 @@
     display: none;
   }
 
-  .activity-christmas-bg .ic-bg-left,
+  .activity-christmas-bg .ic-bg-left {
+    width: 128px;
+    height: 75px;
+    position: absolute;
+    left: -20px !important;
+    top: -20px !important;
+    transform: rotate(-25deg);
+  }
   .activity-christmas-bg .ic-bg-right {
-    display: none;
+    width: 128px;
+    height: 75px;
+    position: absolute;
+    right: -20px !important;
+    top: -20px !important;
+    transform: rotate(25deg);
   }
 }
