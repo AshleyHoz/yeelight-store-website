@@ -18,6 +18,8 @@
       "type": "video",
       "settings": {
         "heading": "",
+        "cover_title": "Bring the Festive Magic Home",
+        "cover_image": "shopify://shop_images/ChristmasTitleSales.png",
         "marker_style": "style1",
         "description": "",
         "full_width": true,
