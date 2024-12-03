@@ -70,8 +70,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/BlackFriday.png",
-        "image_mobile": "shopify://shop_images/BlackFridayMobile.png",
+        "image": "shopify://shop_images/christmas.png",
+        "image_mobile": "shopify://shop_images/ChristmasMobile.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
