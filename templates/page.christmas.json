@@ -54,16 +54,16 @@
     "activity_christmas_gCWHKU": {
       "type": "activity-christmas",
       "blocks": {
-        "product_rrdUMy": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-permanent-outdoor-lights"
-          }
-        },
         "product_G7M78V": {
           "type": "product",
           "settings": {
             "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_rrdUMy": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
           }
         },
         "product_Wnnp6P": {
@@ -80,8 +80,8 @@
         }
       },
       "block_order": [
-        "product_rrdUMy",
         "product_G7M78V",
+        "product_rrdUMy",
         "product_Wnnp6P",
         "product_7ejnQL"
       ],
