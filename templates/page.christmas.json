@@ -78,28 +78,28 @@
         "activity_wyze": false
       }
     },
-    "activity_blackfriday_EDfQAb": {
-      "type": "activity-blackfriday",
+    "activity_christmas_gCWHKU": {
+      "type": "activity-christmas",
       "blocks": {
-        "product_pQwwR6": {
+        "product_rrdUMy": {
           "type": "product",
           "settings": {
             "product": "yeelight-permanent-outdoor-lights"
           }
         },
-        "product_at8DW3": {
-          "type": "product",
-          "settings": {
-            "product": "a-yeelight-curtain-lights"
-          }
-        },
-        "product_LgUAQn": {
+        "product_G7M78V": {
           "type": "product",
           "settings": {
             "product": "a-yeelight-christmas-string-lights"
           }
         },
-        "product_PP6Egj": {
+        "product_Wnnp6P": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_7ejnQL": {
           "type": "product",
           "settings": {
             "product": "yeelight-rgbic-led-basic-strip-lights"
@@ -107,17 +107,17 @@
         }
       },
       "block_order": [
-        "product_pQwwR6",
-        "product_at8DW3",
-        "product_LgUAQn",
-        "product_PP6Egj"
+        "product_rrdUMy",
+        "product_G7M78V",
+        "product_Wnnp6P",
+        "product_7ejnQL"
       ],
       "settings": {
-        "title": "Light Up Your Home with <span>Christmas Cheer</span>",
-        "show_icon": true,
-        "left_x_position": 2,
+        "title": "",
+        "show_icon": false,
+        "left_x_position": 0,
         "left_y_position": 0,
-        "right_x_position": 2,
+        "right_x_position": 0,
         "right_y_position": 0
       }
     },
@@ -262,7 +262,7 @@
     "image_with_text_overlay_EHXcMN",
     "video_MVkEjJ",
     "single_image_Pn6pPg",
-    "activity_blackfriday_EDfQAb",
+    "activity_christmas_gCWHKU",
     "single_image_HQL3cr",
     "rich_text_F6XM9m",
     "1731318448f757b534",
