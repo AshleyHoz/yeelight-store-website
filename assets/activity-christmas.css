@@ -27,6 +27,11 @@
   z-index: 1;
 }
 
+.activity-christmas-bg .ic-bg-left,
+.activity-christmas-bg .ic-bg-right {
+  z-index: 1;
+}
+
 .activity-christmas--img {
   position: relative;
   width: 100%;
