@@ -2550,20 +2550,6 @@ h6,
   background: transparent;
 }
 
-.section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons {
-  border-radius: 50px;
-  overflow: hidden;
-  width: 118px;
-  height: 50px;
-}
-
-.section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons svg {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons svg path {
   fill: #fff;
 }
@@ -2822,5 +2808,19 @@ h6,
 
   .section-activity-christmas .add_to_cart_holder .single-add-to-cart-button {
     width: 40%;
+  }
+
+  .section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons {
+    border-radius: 50px;
+    overflow: hidden;
+    width: 118px;
+    height: 50px;
+  }
+
+  .section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons svg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
