@@ -50,12 +50,15 @@
       "disabled": true,
       "settings": {
         "heading": "",
+        "cover_title": "",
         "marker_style": "style1",
         "description": "",
         "full_width": true,
         "video": "",
         "video_hosted": "shopify://files/videos/Yeelight Cube Smart Lamp 2.mp4",
         "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
         "desktop_height": "desktop-height-480",
         "mobile_height": "mobile-height-345",
         "aspect_ratio": "16-9",
@@ -149,24 +152,12 @@
         "product_PP6Egj"
       ],
       "settings": {
-        "title": "Light Up Your Home with Christmas Cheer",
+        "title": "Light Up Your Home with <span>Christmas Cheer</span>",
         "show_icon": true,
         "left_x_position": 2,
         "left_y_position": 0,
         "right_x_position": 2,
         "right_y_position": 0
-      }
-    },
-    "single_image_V4VkTF": {
-      "type": "single-image",
-      "settings": {
-        "link": "shopify://products/yeelight-wyze-member-offer-christmas-string-lights",
-        "image": "shopify://shop_images/ActivityWyzeProduct.png",
-        "image_mobile": "shopify://shop_images/ActivityWyzeProductMobile.png",
-        "full_width": false,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": true
       }
     },
     "activity_blackfriday_Da7PxU": {
@@ -204,12 +195,24 @@
         "product_yzg7TP"
       ],
       "settings": {
-        "title": "Illuminate Your Holiday Gaming with Best Sellers",
+        "title": "Illuminate Your Holiday Gaming with <span>Best Sellers</span>",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
         "right_x_position": 0,
         "right_y_position": 0
+      }
+    },
+    "single_image_V4VkTF": {
+      "type": "single-image",
+      "settings": {
+        "link": "shopify://products/yeelight-wyze-member-offer-christmas-string-lights",
+        "image": "shopify://shop_images/ActivityWyzeProduct.png",
+        "image_mobile": "shopify://shop_images/ActivityWyzeProductMobile.png",
+        "full_width": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": true
       }
     },
     "single_image_HQL3cr": {
