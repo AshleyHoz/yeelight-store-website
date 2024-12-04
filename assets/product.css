@@ -2406,7 +2406,7 @@ h6,
   left: 0;
   width: 100%;
   background: #2c2d2e;
-  z-index: 99;
+  z-index: 9999999999;
   overflow: visible;
   transform: translateY(calc(100% + 50px));
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
@@ -2548,14 +2548,6 @@ h6,
   .add_to_cart_holder
   .button.accent:hover {
   background: transparent;
-}
-
-.section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons svg path {
-  fill: #fff;
-}
-
-.section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons .dynamic-payment-icons--text {
-  position: absolute;
 }
 
 .section-theme-white,
@@ -2806,15 +2798,28 @@ h6,
     display: flex;
   }
 
-  .section-activity-christmas .add_to_cart_holder .single-add-to-cart-button {
-    width: 40%;
+  .product-information .single-add-to-cart-button {
+    width: 50%;
+    padding: 0 10px;
+  }
+
+  /* .section-activity-christmas .product-information .add_to_cart_holder .single-add-to-cart-button,
+  .section-activity-christmas .product-information .add_to_cart_holder .dynamic-payment-buttons {
+    width: 50%;
+  } */
+
+  .section-activity-christmas .product-information .dynamic-payment-icons {
+    display: flex;
+  }
+
+  .section-activity-christmas .product-information .dynamic-payment-icons svg {
+    width: 100%;
+    /* height: auto; */
   }
 
   .section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons {
     border-radius: 50px;
     overflow: hidden;
-    width: 118px;
-    height: 50px;
   }
 
   .section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons svg {
@@ -2822,5 +2827,6 @@ h6,
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    width: unset;
   }
 }
