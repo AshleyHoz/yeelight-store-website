@@ -968,6 +968,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+}
+
+.christmas-shop svg,
+.christmas-shop-mobile svg {
+  width: 100%;
+  height: auto;
 }
 
 .image-product-halloween-shop .halloween-shop-hover,
