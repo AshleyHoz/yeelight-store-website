@@ -28,7 +28,6 @@
 .collection-tabs__list {
   display: block;
   overflow-x: scroll;
-  text-align: left;
   white-space: nowrap;
   grid-gap: 10px;
   scrollbar-width: none;

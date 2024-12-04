@@ -27,7 +27,7 @@
     {%- endif -%}
     {%- if blocks -%}
       <scroll-shadow>
-        <collection-tabs class="collection-tabs__list" data-target="product-grid-{{ section_id }}">
+        <collection-tabs class="collection-tabs__list text-left" data-target="product-grid-{{ section_id }}">
           {%- for block in blocks -%}
             {%- if block.settings.collection != blank -%}
               <button

@@ -55,26 +55,8 @@
   width: 100%;
 }
 
-.activity-christmas--info {
-  width: 100%;
-  margin-top: 60px;
-}
-
 .activity-christmas-bg .mobile-cover-img {
   display: none;
-}
-
-.activity-christmas--info .info-img {
-  width: 100%;
-  text-align: center;
-}
-
-.activity-christmas--info .info-img img {
-  margin: 0 auto;
-}
-
-.activity-christmas--info .info-img img {
-  width: 60%;
 }
 
 .activity-christmas-row .activity-christmas--product {
@@ -111,16 +93,11 @@
     width: calc(50% - 6px);
   }
 
-  .activity-christmas--info {
-    margin-top: 26px;
-  }
-
   .activity-christmas-bg .mobile-cover-img {
     display: block;
   }
 
-  .activity-christmas-bg .cover-img,
-  .activity-christmas--info .info-img {
+  .activity-christmas-bg .cover-img {
     display: none;
   }
   .activity-christmas-bg .ic-bg-left svg,

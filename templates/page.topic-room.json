@@ -25,9 +25,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_GeKdfB"
-      ],
+      "block_order": ["heading_GeKdfB"],
       "settings": {
         "image": "shopify://shop_images/TopicBannerRoom.jpg",
         "mobile_image": "shopify://shop_images/TopicBannerMobileRoom.jpg",
@@ -73,12 +71,7 @@
           }
         }
       },
-      "block_order": [
-        "product_nmh8jV",
-        "product_Qger9E",
-        "product_wG8iCm",
-        "product_BTfM4U"
-      ],
+      "block_order": ["product_nmh8jV", "product_Qger9E", "product_wG8iCm", "product_BTfM4U"],
       "settings": {
         "title": "<p><span>Elevate the Indoors</span> in Every Moment</p>",
         "image": "shopify://shop_images/TopicProductBannerRoom.jpg",
@@ -115,9 +108,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_fkRMKm"
-      ],
+      "block_order": ["heading_fkRMKm"],
       "disabled": true,
       "settings": {
         "text_width": "medium",
@@ -156,9 +147,7 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_video_slider_cyaCJt"
-      ],
+      "block_order": ["loox_reviews_loox_video_slider_cyaCJt"],
       "disabled": true,
       "settings": {}
     },
@@ -220,14 +209,7 @@
           }
         }
       },
-      "block_order": [
-        "badge_tRYgzk",
-        "heading_G98kFA",
-        "text_NLDnb7",
-        "tab_iAjBpe",
-        "tab_CYQ3rn",
-        "tab_a8dTgJ"
-      ],
+      "block_order": ["badge_tRYgzk", "heading_G98kFA", "text_NLDnb7", "tab_iAjBpe", "tab_CYQ3rn", "tab_a8dTgJ"],
       "disabled": true,
       "settings": {
         "heading": "Quick installation method",
@@ -354,12 +336,7 @@
           }
         }
       },
-      "block_order": [
-        "icon_839NiY",
-        "icon_GGAFrM",
-        "icon_UmKN3b",
-        "icon_tf9XBa"
-      ],
+      "block_order": ["icon_839NiY", "icon_GGAFrM", "icon_UmKN3b", "icon_tf9XBa"],
       "settings": {
         "heading": "Why Choose Us",
         "text_alignment": "center",

@@ -115,7 +115,6 @@
 .cart-empty {
   max-width: 570px;
   margin: 0 auto;
-  text-align: center;
   padding: 40px 0;
 }
 @media only screen and (min-width: 1068px) {
