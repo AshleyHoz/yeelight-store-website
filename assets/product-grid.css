@@ -1047,6 +1047,10 @@
     padding: 8px 4px;
   }
 
+  .section-activity-christmas .product-card .product-opt-wrapper {
+    padding: 8px 12px;
+  }
+
   .product-card .product-opt-wrapper .product-card-view {
     color: #fff;
     font-size: 12px;
@@ -1161,7 +1165,7 @@
   .christmas-shop-mobile,
   .halloween-shop-container-mobile {
     cursor: pointer;
-    display: block;
+    display: flex;
     width: 100%;
   }
 
@@ -1189,5 +1193,6 @@
   .product-card--add-to-cart-button-wrapper {
     margin-top: 0;
     margin-right: 6px;
+    display: flex;
   }
 }
