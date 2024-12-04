@@ -9,6 +9,8 @@
     assign use_block_colors = section.settings.use_block_colors
     assign autoplay = section.settings.autoplay
     assign background_color = section.settings.background_color
+    assign background_image = section.settings.background_image
+    assign background_image_mobile = section.settings.background_image_mobile
 
     assign show_announcement_bar = true
 
@@ -35,6 +37,17 @@
       class="announcement-bar"
       style="--color-announcement-bar-text: {{ color_announcement_bar_text }}; --color-announcement-bar-bg: {{ color_announcement_bar_bg -}};--color-announcement-background-bg: {{ background_color -}};{%if background_color != 'transparent' and background_color != 'rgba(0,0,0,0)'%}background:{{background_color}} !important; {% endif %}"
     >
+      {%- if background_image != blank or background_image_mobile != blank -%}
+        <div class="announcement-bar--bg">
+          <div class="bar--bg">
+            {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+          </div>
+          <div class="bar--bg--mobile">
+            {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
+          </div>
+        </div>
+      {%- endif -%}
+
       <div
         class="announcement-bar--inner direction-{{ direction }} announcement-bar--{{ announcement_bar_layout }} d-flex align-center"
         style="--marquee-speed: {{ speed }}"
@@ -167,6 +180,16 @@
       ],
       "default": "single",
       "label": "Layout"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_mobile",
+      "label": "Background Image Mobile"
     },
     {
       "type": "header",

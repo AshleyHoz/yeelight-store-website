@@ -79,7 +79,8 @@
     "lazy_loading": false,
     "favicon": "shopify://shop_images/Fun_favicon.png",
     "halloween_flag": false,
-    "black_friday_flag": true,
+    "black_friday_flag": false,
+    "christmas_flag": true,
     "product_opposite_theme": true,
     "product_background": "#ffffff",
     "product_font_color": "#2C2D2E",
@@ -145,6 +146,11 @@
       },
       "12657775114333427046": {
         "type": "shopify://apps/essential-countdown/blocks/app_embed/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+        "disabled": false,
+        "settings": {}
+      },
+      "573254258818049612": {
+        "type": "shopify://apps/crazy-egg/blocks/app-embed/7ea73823-6ad9-4252-a63e-088397d54aed",
         "disabled": false,
         "settings": {}
       }

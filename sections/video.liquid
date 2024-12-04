@@ -6,11 +6,16 @@
   assign full_width = section.settings.full_width
   assign video = section.settings.video
   assign video_hosted = section.settings.video_hosted
+  assign video_hosted_mobile = section.settings.video_hosted_mobile
   assign video_autoplay = section.settings.video_autoplay
   assign aspect_ratio = section.settings.aspect_ratio
   assign desktop_height = section.settings.desktop_height
   assign mobile_height = section.settings.mobile_height
   assign marker_color = section.settings.marker_color
+  assign video_controls = section.settings.video_controls
+  assign video_loop = section.settings.video_loop
+  assign cover_title = section.settings.cover_title
+  assign cover_image = section.settings.cover_image
 
   assign disable_top_spacing = section.settings.disable_top_spacing
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
@@ -50,8 +55,19 @@
     </div>
   {%- endif -%}
 
-  <div class="row spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} {% if full_width %} full-width-row-full{% endif %} {% if settings.halloween_flag and halloween_skull_flag %} video-section-inner {% else %} video-section-inner-container {% endif %}">
-    <div class="video-section ">
+  {%- if settings.christmas_flag and cover_title -%}
+    <div class="video-info-cover row">
+      {%- if cover_image -%}
+        {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
+      {%- endif -%}
+      {%- if cover_title -%}
+        <div class="cover-title">{{ cover_title }}</div>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  <div class="row {% if full_width %} full-width-row-full{% endif %} {% if settings.halloween_flag and halloween_skull_flag %} video-section-inner {% else %} video-section-inner-container {% endif %}">
+    <div class="video-section section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
       <div class="video-section--inner">
         {% render 'section-header',
           section_heading: section_heading,
@@ -61,7 +77,31 @@
         %}
       </div>
       <div class="video-section--container video-aspect--{{ aspect_ratio }}  {{ mobile_height }} {{ desktop_height }}">
-        {%- if video_hosted != blank -%}
+        {%- if video_hosted != blank and video_hosted_mobile != blank -%}
+          <div class="video_hosted_mobile">
+            {{
+              video_hosted_mobile
+              | video_tag: autoplay: video_autoplay, loop: video_loop, controls: video_controls, muted: video_autoplay
+            }}
+          </div>
+          <div class="video_hosted">
+            {%- liquid
+              assign sizes = '1280x'
+              if full_width
+                assign sizes = '1600x'
+              endif
+            -%}
+            {{
+              video_hosted
+              | video_tag:
+                autoplay: video_autoplay,
+                loop: video_loop,
+                controls: video_controls,
+                muted: video_autoplay,
+                image_size: sizes
+            }}
+          </div>
+        {%- elsif video_hosted != blank -%}
           {%- liquid
             assign sizes = '1280x'
             if full_width
@@ -70,7 +110,12 @@
           -%}
           {{
             video_hosted
-            | video_tag: autoplay: video_autoplay, loop: true, controls: true, muted: video_autoplay, image_size: sizes
+            | video_tag:
+              autoplay: video_autoplay,
+              loop: video_loop,
+              controls: video_controls,
+              muted: video_autoplay,
+              image_size: sizes
           }}
         {%- elsif video != blank -%}
           {%- if video.type == 'youtube' -%}
@@ -115,6 +160,16 @@
       "label": "Heading",
       "default": "Video",
       "info": "Wrap your text between | to add animated markers. For example: Animated |marker| will underline marker text."
+    },
+    {
+      "type": "text",
+      "id": "cover_title",
+      "label": "Cover Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "cover_image",
+      "label": "CoverImage"
     },
     {
       "type": "select",
@@ -167,11 +222,29 @@
       "info": "Overrides the Video URL setting."
     },
     {
+      "type": "video",
+      "id": "video_hosted_mobile",
+      "label": "Shopify-hosted video in mobile",
+      "info": "Overrides the Video URL setting."
+    },
+    {
       "type": "checkbox",
       "id": "video_autoplay",
       "default": true,
       "label": "Autoplay",
       "info": "Video will be muted"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_loop",
+      "default": true,
+      "label": "Loop"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_controls",
+      "default": true,
+      "label": "Enable video controls"
     },
     {
       "type": "select",

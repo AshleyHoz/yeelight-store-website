@@ -17,18 +17,25 @@
         {%- render 'svg-icons-halloween' with 'custom-halloween-badge-mobile' -%}
       </span>
     {%- endif -%}
+
     {%- if settings.black_friday_flag -%}
       <span class="black-friday-shop-badge">
         {%- render 'svg-icons-friday' with 'custom-friday-badge' -%}
       </span>
-      <div class="black-friday-badge-content">
-        {% comment %} {%- if settings.sale_badge_type == 'sale' -%} {% endcomment %}
+    {%- endif -%}
+
+    {%- if settings.christmas_flag -%}
+      <span class="christmas-shop-badge">
+        {%- render 'svg-icons-christmas' with 'custom-christmas-badge' -%}
+      </span>
+    {%- endif -%}
+
+    {%- if settings.black_friday_flag or settings.christmas_flag -%}
+      <div class="activity-badge-content">
         <div class="badge-title">
           {{ 'products.product.save_html' | t: saved_amount: saved_amount }}
         </div>
-        {% comment %} {%- else -%} {% endcomment %}
         <div class="badge-percent">OFF</div>
-        {% comment %} {%- endif -%} {% endcomment %}
       </div>
     {%- else -%}
       <div class="badge-content">

@@ -1,0 +1,144 @@
+.activity-christmas {
+  position: relative;
+  padding: 70px 0;
+  background: #00092c;
+}
+
+.activity-christmas-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.activity-christmas-bg--inner {
+  position: relative;
+  height: 100%;
+}
+
+.activity-christmas-bg .cover-img,
+.activity-christmas-bg .mobile-cover-img {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.activity-christmas-bg .cover-img img,
+.activity-christmas-bg .mobile-cover-img img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.activity-christmas-bg .ic-bg-left,
+.activity-christmas-bg .ic-bg-right {
+  z-index: 1;
+}
+
+.activity-christmas--img {
+  position: relative;
+  width: 100%;
+  max-width: 1750px;
+  z-index: 2;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.activity-christmas-row {
+  position: relative;
+  z-index: 2;
+}
+
+.activity-christmas-header {
+  width: 100%;
+}
+
+.activity-christmas--info {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.activity-christmas-bg .mobile-cover-img {
+  display: none;
+}
+
+.activity-christmas--info .info-img {
+  width: 100%;
+  text-align: center;
+}
+
+.activity-christmas--info .info-img img {
+  margin: 0 auto;
+}
+
+.activity-christmas--info .info-img img {
+  width: 60%;
+}
+
+.activity-christmas-row .activity-christmas--product {
+  width: 100%;
+  gap: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.activity-christmas-row .activity-christmas--product .product-item {
+  width: calc(25% - 20px);
+}
+
+.activity-christmas-row .activity-christmas--product .product-item .product-card {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 767px) {
+  .activity-christmas {
+    padding: 24px 0;
+  }
+  .activity-christmas-row {
+    margin-top: 0;
+  }
+
+  .activity-christmas-row .activity-christmas--product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .activity-christmas-row .activity-christmas--product .product-item {
+    width: calc(50% - 6px);
+  }
+
+  .activity-christmas--info {
+    margin-top: 26px;
+  }
+
+  .activity-christmas-bg .mobile-cover-img {
+    display: block;
+  }
+
+  .activity-christmas-bg .cover-img,
+  .activity-christmas--info .info-img {
+    display: none;
+  }
+  .activity-christmas-bg .ic-bg-left svg,
+  .activity-christmas-bg .ic-bg-right svg {
+    width: 206px;
+    height: 100px;
+  }
+
+  .activity-christmas-bg .ic-bg-left {
+    position: absolute;
+    left: -50px !important;
+    top: -50px !important;
+    transform: rotate(-25deg);
+  }
+  .activity-christmas-bg .ic-bg-right {
+    position: absolute;
+    right: -50px !important;
+    top: -50px !important;
+    transform: rotate(25deg);
+  }
+}

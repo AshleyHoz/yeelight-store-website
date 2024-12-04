@@ -1,0 +1,170 @@
+{{ 'activity-christmas.css' | asset_url | stylesheet_tag }}
+{{ 'product-grid.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign section_title = section.settings.title
+  assign background_image = section.settings.background_image
+  assign background_image_mobile = section.settings.background_image_mobile
+-%}
+
+<div class="activity-christmas">
+  <div class="activity-christmas-bg">
+    <div class="activity-christmas-bg--inner">
+      <div class="mobile-cover-img">
+        {%- if background_image_mobile -%}
+          {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
+        {%- endif -%}
+      </div>
+      <div class="cover-img">
+        {%- if background_image -%}
+          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+        {%- endif -%}
+      </div>
+      {% if section.settings.show_icon %}
+        <div
+          class="ic-bg-left"
+          style="position:absolute;left: {{- section.settings.left_x_position | append: '%' -}}; top: {{- section.settings.left_y_position | append: '%' -}};"
+        >
+          {%- render 'svg-icons-christmas' with 'custom-christmas-bg-left' -%}
+        </div>
+        <div
+          class="ic-bg-right"
+          style="position:absolute;right: {{- section.settings.right_x_position | append: '%' -}}; top: {{- section.settings.right_y_position | append: '%' -}};"
+        >
+          {%- render 'svg-icons-christmas' with 'custom-christmas-bg-right' -%}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="row activity-christmas-row">
+    {% if section_title %}
+      <div class="activity-christmas-header">
+        {% render 'section-header', section_heading: section_title %}
+      </div>
+    {% endif %}
+    <div class="activity-christmas--product">
+      {% for block in section.blocks %}
+        <div class="product-item">
+          {% render 'product-card', product_card_product: block.settings.product %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Activity Christmas",
+  "class": "section-activity-christmas",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Header Title",
+      "info": "Wrap your text."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1440 x 650 px .jpg recommended."
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Mobile image",
+      "info": "750 x 800 px .jpg recommended. Default image is used if none is selected. To position the hotspots precisely, switch to mobile mode."
+    },
+    {
+      "type": "header",
+      "content": "Left Icon Position"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "default": false,
+      "label": "Enable background icon"
+    },
+    {
+      "type": "range",
+      "id": "left_x_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Horizontal",
+      "default": 0,
+      "info": "Horizontal position of the hot spot"
+    },
+    {
+      "type": "range",
+      "id": "left_y_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Vertical",
+      "default": 0,
+      "info": "Vertical position of the hot spot"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_mobile",
+      "label": "Background Image Mobile"
+    },
+    {
+      "type": "header",
+      "content": "Right Icon Position"
+    },
+    {
+      "type": "range",
+      "id": "right_x_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Horizontal",
+      "default": 0,
+      "info": "Horizontal position of the hot spot"
+    },
+    {
+      "type": "range",
+      "id": "right_y_position",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Vertical",
+      "default": 0,
+      "info": "Vertical position of the hot spot"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Activity Christmas",
+      "blocks": [
+        {
+          "type": "product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

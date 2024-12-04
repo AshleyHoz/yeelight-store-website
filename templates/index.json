@@ -15,9 +15,9 @@
         "slide_rYUPUw": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Home_page_BFCM-PC.jpg",
-            "mobile_image": "shopify://shop_images/Home_page_BFCM-M.jpg",
-            "slide_link": "shopify://pages/black-friday-cyber-monday-deals",
+            "image": "shopify://shop_images/Christmas_Sales_banner-PC.jpg",
+            "mobile_image": "shopify://shop_images/Banner-M_989a34d1-e09a-40bf-b41a-9f38096a36df.jpg",
+            "slide_link": "shopify://pages/christmas-sales",
             "video_background": false,
             "badge_text": "",
             "subheading": "",
@@ -49,10 +49,9 @@
         },
         "slide_Apj7XN": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Permanent_Light-BFCM-PC.jpg",
-            "mobile_image": "shopify://shop_images/Permanent_Light-BFCM-M.jpg",
+            "image": "shopify://shop_images/Christmas_Sales_Permanent_Light-PC_048d1381-17a2-4a53-a2ef-6a96244e1917.jpg",
+            "mobile_image": "shopify://shop_images/M_9fcec49e-b330-46f1-9965-1e9ada43869d.jpg",
             "slide_link": "shopify://products/yeelight-permanent-outdoor-lights",
             "video_background": false,
             "badge_text": "",
@@ -86,8 +85,8 @@
         "slide_E8nF4j": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Curtain_Light-BFCM-PC.jpg",
-            "mobile_image": "shopify://shop_images/Curtain_Light-BFCM-M.jpg",
+            "image": "shopify://shop_images/Christmas_Sales_Curtain_Light-PC_7aef34c3-7a06-49a7-a584-f10b0ecd6ca2.jpg",
+            "mobile_image": "shopify://shop_images/Christmas_sales_curtain_light-M.jpg",
             "slide_link": "shopify://products/a-yeelight-curtain-lights",
             "video_background": false,
             "badge_text": "",
@@ -120,10 +119,9 @@
         },
         "slide_BDHRjb": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Christmas_String-BFCM-PC.jpg",
-            "mobile_image": "shopify://shop_images/Christmas_String-BFCM-M.jpg",
+            "image": "shopify://shop_images/Christmas_Sales_String_Light-PC.jpg",
+            "mobile_image": "shopify://shop_images/Christmas_string_light_sales--M.jpg",
             "slide_link": "shopify://products/a-yeelight-christmas-string-lights",
             "video_background": false,
             "badge_text": "",

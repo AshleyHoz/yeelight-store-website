@@ -50,12 +50,15 @@
       "disabled": true,
       "settings": {
         "heading": "",
+        "cover_title": "",
         "marker_style": "style1",
         "description": "",
         "full_width": true,
         "video": "",
         "video_hosted": "shopify://files/videos/Yeelight Cube Smart Lamp 2.mp4",
         "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
         "desktop_height": "desktop-height-480",
         "mobile_height": "mobile-height-345",
         "aspect_ratio": "16-9",
@@ -138,7 +141,7 @@
         "product_PP6Egj": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-members-offer-smart-led-light-panels"
+            "product": "yeelight-wyze-member-offer-monitor-light-bar-pro"
           }
         }
       },
@@ -157,6 +160,49 @@
         "right_y_position": 0
       }
     },
+    "activity_blackfriday_Da7PxU": {
+      "type": "activity-blackfriday",
+      "blocks": {
+        "product_Wt7qra": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-member-offer-candela-lamp"
+          }
+        },
+        "product_yCx7XQ": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-member-offer-beam-rgbic-light-bar"
+          }
+        },
+        "product_WjbRMm": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-member-offer-smart-cube-kit"
+          }
+        },
+        "product_yzg7TP": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-member-offer-smart-led-lamp-d2"
+          }
+        }
+      },
+      "block_order": [
+        "product_Wt7qra",
+        "product_yCx7XQ",
+        "product_WjbRMm",
+        "product_yzg7TP"
+      ],
+      "settings": {
+        "title": "Illuminate Your Holiday Gaming with <span>Best Sellers</span>",
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "right_x_position": 0,
+        "right_y_position": 0
+      }
+    },
     "single_image_V4VkTF": {
       "type": "single-image",
       "settings": {
@@ -167,49 +213,6 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
         "activity_wyze": true
-      }
-    },
-    "activity_blackfriday_Da7PxU": {
-      "type": "activity-blackfriday",
-      "blocks": {
-        "product_yCx7XQ": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-wyze-member-offer-beam-rgbic-light-bar"
-          }
-        },
-        "product_Wt7qra": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-wyze-member-offer-candela-lamp"
-          }
-        },
-        "product_yzg7TP": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-wyze-member-offer-smart-led-lamp-d2"
-          }
-        },
-        "product_WjbRMm": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-wyze-member-offer-ultra-thin-cabinet-light"
-          }
-        }
-      },
-      "block_order": [
-        "product_yCx7XQ",
-        "product_Wt7qra",
-        "product_yzg7TP",
-        "product_WjbRMm"
-      ],
-      "settings": {
-        "title": "Illuminate Your Holiday Gaming with <span>Best Sellers</span>",
-        "show_icon": false,
-        "left_x_position": 0,
-        "left_y_position": 0,
-        "right_x_position": 0,
-        "right_y_position": 0
       }
     },
     "single_image_HQL3cr": {
@@ -306,8 +309,8 @@
     "single_image_Pn6pPg",
     "activity_wyze_FEmHfT",
     "activity_blackfriday_EDfQAb",
-    "single_image_V4VkTF",
     "activity_blackfriday_Da7PxU",
+    "single_image_V4VkTF",
     "single_image_HQL3cr",
     "rich_text_F6XM9m",
     "1731318448f757b534",

@@ -70,7 +70,16 @@
               </span>
             </button>
             {%- if show_dynamic_checkout -%}
-              {{ form | payment_button }}
+              <div class="dynamic-payment-buttons">
+                {%- if settings.christmas_flag -%}
+                  <div class="dynamic-payment-icons">
+                    {%- render 'svg-icons-christmas-sec' with 'custom-christmas-shop-product' -%}
+                  </div>
+                {%- endif -%}
+                <div class="dynamic-payment-button">
+                  {{ form | payment_button }}
+                </div>
+              </div>
             {%- endif -%}
           </div>
         </div>
