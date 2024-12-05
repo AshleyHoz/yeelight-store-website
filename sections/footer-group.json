@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer group",
@@ -14,18 +14,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "ebdaaa5c-c47c-42ac-a830-30a799694755": {
-          "type": "text",
+        "2ab8345e-9f63-4c80-b028-f4edae3633b5": {
+          "type": "signup",
           "disabled": true,
           "settings": {
             "column_size": "large",
-            "text_alignment": "left",
-            "title": "About Us",
-            "text": "<p>Yeelight Fun is the go-to choice for RGB smart lighting enthusiasts - champions creativity andindividual style, bolstered by reliability, innovation, and ease of use.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "show_social_links": true
+            "title": "Subscribe to our newsletter",
+            "text": "<p>Know about New Products and Get Exclusive Offers</p>"
           }
         },
         "menu_bAdntc": {
@@ -59,24 +54,14 @@
             "title": "Service",
             "menu": "service"
           }
-        },
-        "2ab8345e-9f63-4c80-b028-f4edae3633b5": {
-          "type": "signup",
-          "disabled": true,
-          "settings": {
-            "column_size": "large",
-            "title": "Subscribe to our newsletter",
-            "text": "<p>Know about New Products and Get Exclusive Offers</p>"
-          }
         }
       },
       "block_order": [
-        "ebdaaa5c-c47c-42ac-a830-30a799694755",
+        "2ab8345e-9f63-4c80-b028-f4edae3633b5",
         "menu_bAdntc",
         "055d0c35-3f11-4f51-9e3d-eab55edb7a9b",
         "menu_CmVPdk",
-        "menu_9TVnUE",
-        "2ab8345e-9f63-4c80-b028-f4edae3633b5"
+        "menu_9TVnUE"
       ],
       "settings": {
         "footer_reveal_animation": false,
