@@ -338,7 +338,7 @@
 }
 .signup-container--terms {
   display: inline-flex;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 10px;
 }
 .signup-container--terms input {
@@ -395,6 +395,16 @@
   display: none;
 }
 
+.footer .footer-row--item {
+  padding: 20px;
+  width: 15%;
+  flex: none;
+}
+
+.footer .footer-row--item:first-child {
+  width: 40%;
+}
+
 @media only screen and (max-width: 767px) {
   .footer--powered-by p,
   .footer-social {
@@ -420,5 +430,15 @@
 
   .mobile-footer-social {
     margin-bottom: 60px;
+  }
+
+  .footer .footer-row--item,
+  .footer .footer-row--item:first-child {
+    padding: 0;
+    width: 100%;
+  }
+
+  .footer .footer-row--item:first-child {
+    margin-bottom: 20px;
   }
 }
