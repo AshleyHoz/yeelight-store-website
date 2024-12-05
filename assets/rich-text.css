@@ -1,6 +1,7 @@
 .rich-text {
   isolation: isolate;
   border-radius: var(--block-border-radius, 16px);
+  text-align: center;
 }
 
 .rich-text {

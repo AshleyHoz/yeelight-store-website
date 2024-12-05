@@ -177,9 +177,21 @@
 }
 
 .articles.row .blog-post {
-  min-height: calc(100% - 15px);
-  margin-right: 15px;
-  width: calc(100% - 15px);
+  width: 100%;
+  height: 100%;
+}
+
+.blog-container .articles {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.blog-container .article-item {
+  width: calc(25% - 20px);
+  height: 100%;
+  flex: auto;
 }
 
 @media only screen and (max-width: 767px) {
