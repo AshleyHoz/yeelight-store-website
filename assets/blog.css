@@ -221,6 +221,32 @@
     margin-right: 0;
     width: 100%;
   }
+
+  .blog-container .articles {
+    gap: 10px;
+  }
+
+  .blog-container .article-item {
+    width: calc(50% - 10px);
+  }
+
+  .blog-container .article-item h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 6px;
+  }
+
+  .blog-container .article-item .post-excerpt {
+    margin-bottom: 10px;
+  }
+
+  .blog-container .article-item .post-excerpt p {
+    font-size: 12px;
+  }
+
+  .blog-container .article-item .blog-post-info .read-more {
+    font-size: 12px;
+  }
 }
 
 .blog-header__tags--inner a.active {
