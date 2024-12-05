@@ -397,12 +397,13 @@
 
 .footer .footer-row--item {
   padding: 20px;
-  width: 15%;
-  flex: none;
+  width: auto;
+  flex: 1;
 }
 
-.footer .footer-row--item:first-child {
+.footer .footer-row--item.footer-row--item-signup {
   width: 40%;
+  flex: none;
 }
 
 @media only screen and (max-width: 767px) {
@@ -433,12 +434,13 @@
   }
 
   .footer .footer-row--item,
-  .footer .footer-row--item:first-child {
+  .footer .footer-row--item.footer-row--item-signup {
     padding: 0;
     width: 100%;
+    flex: none;
   }
 
-  .footer .footer-row--item:first-child {
+  .footer .footer-row--item.footer-row--item-signup {
     margin-bottom: 20px;
   }
 }

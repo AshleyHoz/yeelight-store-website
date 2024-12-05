@@ -16,7 +16,7 @@
       "blocks": {
         "2ab8345e-9f63-4c80-b028-f4edae3633b5": {
           "type": "signup",
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "column_size": "large",
             "title": "Subscribe to our newsletter",
@@ -73,7 +73,5 @@
       }
     }
   },
-  "order": [
-    "footer"
-  ]
+  "order": ["footer"]
 }
