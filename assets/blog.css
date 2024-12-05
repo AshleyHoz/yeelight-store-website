@@ -244,6 +244,10 @@
     font-size: 12px;
   }
 
+  .blog-container .article-item .blog-post-info {
+    padding: 12px;
+  }
+
   .blog-container .article-item .blog-post-info .read-more {
     font-size: 12px;
   }
