@@ -17,7 +17,9 @@
   opacity: 0;
   visibility: hidden;
   transform: translateY(50px);
-  transition: opacity 0.25s cubic-bezier(0.104, 0.204, 0.492, 1), transform 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
+  transition:
+    opacity 0.25s cubic-bezier(0.104, 0.204, 0.492, 1),
+    transform 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 @supports (height: 100dvh) {
   .mobile-menu-drawer {
@@ -108,9 +110,8 @@
 .mobile-menu li summary {
   display: flex;
   align-items: center;
-  padding: 4px 0;
   min-height: 54px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: var(--font-body-medium-weight, 500);
   border-bottom: 1px solid var(--color-header-border, var(--color-border, #dadce0));
   color: var(--color-header-links, --color-accent);
@@ -151,7 +152,7 @@
 }
 .mobile-menu .parent-link-back button {
   width: 100%;
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   height: 50px;
   display: flex;
   align-items: center;
@@ -159,6 +160,8 @@
 }
 .mobile-menu .parent-link-back button svg {
   margin-right: 10px;
+  width: 12px;
+  height: 16px;
 }
 .mobile-menu .parent-link-back button svg path {
   stroke: var(--color-header-links, --color-accent);
