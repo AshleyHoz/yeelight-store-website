@@ -443,4 +443,12 @@
   .footer .footer-row--item.footer-row--item-signup {
     margin-bottom: 20px;
   }
+
+  .footer .thb-widget-menu {
+    padding-bottom: 10px;
+  }
+
+  .footer .thb-widget-menu li {
+    padding: 6px 0;
+  }
 }
