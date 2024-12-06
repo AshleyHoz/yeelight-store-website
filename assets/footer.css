@@ -358,14 +358,16 @@
   display: block;
 }
 
-.footer .signup-container input:focus + label + button {
+.footer .signup-container input[type='email']:focus + label + button,
+.footer .signup-container input[type='email']:not(:placeholder-shown) + label + button {
   display: block !important;
   background-color: #fff;
   border-radius: 0 8px 8px 0;
   right: 1px;
 }
 
-.footer .signup-container input:focus + label + button svg path {
+.footer .signup-container input[type='email']:focus + label + button svg path,
+.footer .signup-container input[type='email']:not(:placeholder-shown) + label + button svg path {
   stroke: #000000;
 }
 
