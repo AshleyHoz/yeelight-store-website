@@ -190,7 +190,6 @@
 .blog-container .article-item {
   width: calc(25% - 20px);
   height: 100%;
-  flex: auto;
 }
 
 @media only screen and (max-width: 767px) {

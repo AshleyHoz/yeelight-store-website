@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="{{ 'footer.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'footer.css' | asset_url | stylesheet_tag }}</noscript>
 <theme-footer class="footer" id="footer">
-  <div class="row">
+  <div class="row footer-row">
     {%- for block in section.blocks -%}
       {% if block.type == 'text' %}
         {%- liquid
