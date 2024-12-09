@@ -62,9 +62,6 @@
 .activity-christmas-row .activity-christmas--product {
   width: 100%;
   gap: 24px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .activity-christmas-row .activity-christmas--product .product-item {
@@ -84,8 +81,6 @@
   }
 
   .activity-christmas-row .activity-christmas--product {
-    display: flex;
-    flex-wrap: wrap;
     gap: 12px;
   }
 

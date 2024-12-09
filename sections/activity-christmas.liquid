@@ -41,7 +41,7 @@
         {% render 'section-header', section_heading: section_title %}
       </div>
     {% endif %}
-    <div class="activity-christmas--product">
+    <div class="activity-christmas--product d-flex flex-wrap justify-space-between">
       {% for block in section.blocks %}
         <div class="product-item">
           {% render 'product-card', product_card_product: block.settings.product %}
