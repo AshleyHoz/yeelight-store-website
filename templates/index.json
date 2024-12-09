@@ -47,6 +47,41 @@
             "use_text_button_2": false
           }
         },
+        "slide_gEb3pq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/PC_1a3fb747-b8be-4f37-bb8a-a18561a7b4fb.jpg",
+            "mobile_image": "shopify://shop_images/M_9371092d-6c6c-4a12-a76a-fb9ea2f2bb78.jpg",
+            "slide_link": "shopify://pages/christmas-sales",
+            "video_background": false,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "transparent",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
         "slide_Apj7XN": {
           "type": "slide",
           "settings": {
@@ -155,6 +190,7 @@
       },
       "block_order": [
         "slide_rYUPUw",
+        "slide_gEb3pq",
         "slide_Apj7XN",
         "slide_E8nF4j",
         "slide_BDHRjb"
@@ -164,7 +200,7 @@
         "mobile_height": "mobile-height-image",
         "full_width": true,
         "autoplay": true,
-        "autoplay_length": 5,
+        "autoplay_length": 3,
         "transition": "slide",
         "controls": "arrows",
         "disable_top_spacing": true,

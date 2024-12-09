@@ -50,7 +50,12 @@
           placeholder="{{ 'newsletter.label' | t }}"
           type="email"
           id="NewsletterForm--{{ section.id }}"
-          class="activity-wyze--email_input"
+          class="
+            {%- if tag == 'wyze' -%}
+              activity-wyze--email_input
+            {%- endif -%}
+            email-signup-form_input
+          "
           name="contact[email]"
           autocorrect="off"
           autocapitalize="off"
@@ -70,18 +75,18 @@
         <label class="field__label" for="NewsletterForm--{{ section.id }}">
           {{ 'newsletter.label' | t }}
         </label>
+        <button
+          class="submit "
+          type="submit"
+          aria-label="{{ 'sections.signup.enter_your_email' | t }}"
+        >
+          {%- if activity -%}
+            {%- render 'svg-icons-wyze' with 'custom-wyze-submit' -%}
+          {%- else -%}
+            {% render 'svg-icons' with 'signup-submit' %}
+          {%- endif -%}
+        </button>
       </div>
-      <button
-        class="submit "
-        type="submit"
-        aria-label="{{ 'sections.signup.enter_your_email' | t }}"
-      >
-        {%- if activity -%}
-          {%- render 'svg-icons-wyze' with 'custom-wyze-submit' -%}
-        {%- else -%}
-          {% render 'svg-icons' with 'signup-submit' %}
-        {%- endif -%}
-      </button>
     </fieldset>
     {%- if settings.email_terms_conditions_enable -%}
       <div class="signup-container--terms">

@@ -16,9 +16,9 @@
   endcase
 -%}
 {%- paginate blog.articles by per_page -%}
-  <div class="spacing-bottom">
+  <div class="section-spacing-bottom">
     <div class="row no-padding">
-      <div class="small-12 columns">
+      <div class="small-12 columns blog-container">
         <div class="row articles">
           {%- for article in blog.articles -%}
             {%- liquid
@@ -36,7 +36,7 @@
                   endcapture
               endcase
             -%}
-            <div class="{{ grid_item_width }} columns">
+            <div class="article-item">
               {% render 'blog-post',
                 article: article,
                 show_date: show_date,

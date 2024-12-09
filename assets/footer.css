@@ -338,12 +338,37 @@
 }
 .signup-container--terms {
   display: inline-flex;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 10px;
 }
 .signup-container--terms input {
   width: auto;
   margin-right: 8px;
+}
+
+.footer .footer-row--item-signup .signup-container .email-signup-form_input {
+  border: 1px solid #fff;
+}
+
+.footer .footer-row--item-signup .signup-container .submit {
+  display: none;
+}
+
+.footer .footer-row--item-signup .signup-container input:focus + .submit {
+  display: block;
+}
+
+.footer .signup-container input[type='email']:focus + label + button,
+.footer .signup-container input[type='email']:not(:placeholder-shown) + label + button {
+  display: block !important;
+  background-color: #fff;
+  border-radius: 0 8px 8px 0;
+  right: 1px;
+}
+
+.footer .signup-container input[type='email']:focus + label + button svg path,
+.footer .signup-container input[type='email']:not(:placeholder-shown) + label + button svg path {
+  stroke: #000000;
 }
 
 .social-links {
@@ -389,6 +414,20 @@
   display: none;
 }
 
+.footer .footer-row {
+  gap: 60px;
+}
+
+.footer .footer-row--item {
+  width: auto;
+  flex: 1;
+}
+
+.footer .footer-row--item.footer-row--item-signup {
+  width: 30%;
+  flex: none;
+}
+
 @media only screen and (max-width: 767px) {
   .footer--powered-by p,
   .footer-social {
@@ -414,5 +453,28 @@
 
   .mobile-footer-social {
     margin-bottom: 60px;
+  }
+
+  .footer .footer-row {
+    gap: 0;
+  }
+
+  .footer .footer-row--item,
+  .footer .footer-row--item.footer-row--item-signup {
+    padding: 0;
+    width: 100%;
+    flex: none;
+  }
+
+  .footer .footer-row--item.footer-row--item-signup {
+    margin-bottom: 20px;
+  }
+
+  .footer .thb-widget-menu {
+    padding-bottom: 10px;
+  }
+
+  .footer .thb-widget-menu li {
+    padding: 6px 0;
   }
 }
