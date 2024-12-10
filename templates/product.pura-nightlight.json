@@ -136,8 +136,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/01.png",
-        "image_mobile": "shopify://shop_images/1_f394d569-b918-4d17-b1ad-24a5d3ea57c2.png",
+        "image": "shopify://shop_images/1_5c8476ed-0f04-4e13-a8ea-13443f69ff71.png",
+        "image_mobile": "shopify://shop_images/01_64f3db01-ed6f-47b5-ba92-606ef0e31223.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -148,8 +148,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/03.png",
-        "image_mobile": "shopify://shop_images/2_3ab44bee-897e-4384-a5bc-57a5f320f0d5.png",
+        "image": "shopify://shop_images/2_4f87b4ea-9607-4df5-996e-5004e17aa272.png",
+        "image_mobile": "shopify://shop_images/02_608f0a2e-1ead-4763-9f66-2f10b2bfc279.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -160,8 +160,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/02.png",
-        "image_mobile": "shopify://shop_images/3_4ff6471c-b777-4178-9e56-25b8a4acf99e.png",
+        "image": "shopify://shop_images/3_67fe2ad1-5807-4287-8ae2-30ddb855c2a7.png",
+        "image_mobile": "shopify://shop_images/03_bd534fd6-0a67-4a98-8467-468a1ae4f316.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -172,8 +172,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/06_cceba6cd-d31a-4ab4-9c45-f72b40ca41ba.png",
-        "image_mobile": "shopify://shop_images/4_255df129-f5a9-445c-a21c-02a5d16327a4.png",
+        "image": "shopify://shop_images/4_5882eb47-2757-414d-8685-503285d8c249.png",
+        "image_mobile": "shopify://shop_images/04_5700ecda-7a52-4271-bdd3-3f6c68c57086.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -184,8 +184,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/07.png",
-        "image_mobile": "shopify://shop_images/5_f39232c3-5c9f-46bf-b64d-cc06eef604af.png",
+        "image": "shopify://shop_images/5_83e3bfb2-0aa2-40a1-8b71-ed77bc155071.png",
+        "image_mobile": "shopify://shop_images/05_fd4d0ae1-27bd-494f-8446-88da67bec5e4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -196,20 +196,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/05_25c36d58-331c-487f-9444-6000b7dcfe1e.png",
-        "image_mobile": "shopify://shop_images/6_87e731e8-f2c7-4c9d-9c55-a79bc62bc1f3.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_8TkYG3": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/05.png",
-        "image_mobile": "shopify://shop_images/7_00f18da4-caf9-4b20-bfcf-d390c2c9e50d.png",
+        "image": "shopify://shop_images/6_8f56b670-1ccf-4fdf-a55e-39650b6912e0.jpg",
+        "image_mobile": "shopify://shop_images/06_b5425fb3-8793-4588-aefd-a223deb31944.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -220,8 +208,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/44.png",
-        "image_mobile": "shopify://shop_images/8_d282bf89-1a52-4b9a-a1fc-bb0bc8a386f7.png",
+        "image": "shopify://shop_images/img_v3_02ff_3dc7194e-4032-4663-9ac4-ff0943bfaabg.png",
+        "image_mobile": "shopify://shop_images/07_d0445aea-05b9-48a2-aa4a-80d76787d389.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -298,7 +286,6 @@
     "single_image_xpAebN",
     "single_image_k6gWJB",
     "single_image_nbhytB",
-    "single_image_8TkYG3",
     "single_image_4jwYRE",
     "rich_text_igCzBP",
     "1712003137212dc6f8",
