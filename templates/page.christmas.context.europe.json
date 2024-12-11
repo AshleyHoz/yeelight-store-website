@@ -12,5 +12,53 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "activity_christmas_gCWHKU": {
+      "settings": {},
+      "blocks": {
+        "product_Airer": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "yeelight-wyze-member-offer-candela-lamp"
+          }
+        },
+        "product_rrdUMy": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_7ejnQL": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-plug-in-light-sensor-nightlight-pura"
+          }
+        }
+      },
+      "block_order": [
+        "product_Airer",
+        "product_G7M78V",
+        "product_rrdUMy",
+        "product_Wnnp6P",
+        "product_7ejnQL"
+      ]
+    },
+    "activity_christmas_Ayz4PF": {
+      "settings": {},
+      "blocks": {
+        "product_BFP48R": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        },
+        "product_DztJyW": {
+          "settings": {
+            "product": "yeelight-rechargeable-light-sensor-nightlight-polaris"
+          }
+        }
+      }
+    }
+  }
 }
