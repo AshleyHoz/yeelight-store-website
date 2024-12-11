@@ -13,5 +13,11 @@
     "market": "europe"
   },
   "sections": {
+    "header": {
+      "settings": {
+        "menu": "eu-header"
+      },
+      "blocks": {}
+    }
   }
 }
