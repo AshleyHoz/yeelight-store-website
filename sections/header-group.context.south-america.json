@@ -8,9 +8,16 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "product.polaris-nightlight.json",
+  "parent": "header-group.json",
   "context": {
-    "market": "middle-east"
+    "market": "south-america"
   },
-  "sections": {}
+  "sections": {
+    "header": {
+      "settings": {
+        "menu": "eu-header"
+      },
+      "blocks": {}
+    }
+  }
 }
