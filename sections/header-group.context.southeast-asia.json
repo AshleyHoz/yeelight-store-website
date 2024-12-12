@@ -12,5 +12,12 @@
   "context": {
     "market": "southeast-asia"
   },
-  "sections": {}
+  "sections": {
+    "header": {
+      "settings": {
+        "menu": "eu-header"
+      },
+      "blocks": {}
+    }
+  }
 }
