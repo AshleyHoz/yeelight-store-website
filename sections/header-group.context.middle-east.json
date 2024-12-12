@@ -12,5 +12,12 @@
   "context": {
     "market": "middle-east"
   },
-  "sections": {}
+  "sections": {
+    "header": {
+      "settings": {
+        "menu": "eu-header"
+      },
+      "blocks": {}
+    }
+  }
 }
