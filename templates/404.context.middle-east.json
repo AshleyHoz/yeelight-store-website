@@ -8,16 +8,9 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "header-group.json",
+  "parent": "404.json",
   "context": {
-    "market": "europe"
+    "market": "middle-east"
   },
-  "sections": {
-    "header": {
-      "settings": {
-        "menu": "eu-header"
-      },
-      "blocks": {}
-    }
-  }
+  "sections": {}
 }

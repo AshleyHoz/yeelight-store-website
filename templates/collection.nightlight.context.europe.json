@@ -8,16 +8,22 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "header-group.json",
+  "parent": "collection.nightlight.json",
   "context": {
     "market": "europe"
   },
   "sections": {
-    "header": {
+    "image_with_text_overlay_8jXp9g": {
       "settings": {
-        "menu": "eu-header"
+        "image": "shopify://shop_images/2500_x_903.png"
       },
-      "blocks": {}
+      "blocks": {
+        "heading_HhgdPq": {
+          "settings": {
+            "text": "Night Lights"
+          }
+        }
+      }
     }
   }
 }
