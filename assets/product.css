@@ -2255,7 +2255,6 @@ h6,
   bottom: 0;
   right: 0;
   transform: translateY(100%);
-  text-align: left;
   color: var(--color-accent);
   display: inline-flex;
   align-items: center;

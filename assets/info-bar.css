@@ -52,10 +52,6 @@
   .info-bar--carousel .flickity-nav svg path {
     transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
   }
-
-  .info-bar--carousel {
-    text-align: center;
-  }
   .info-bar--carousel .carousel {
     position: relative;
     display: block;

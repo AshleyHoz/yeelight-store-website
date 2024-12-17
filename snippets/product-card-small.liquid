@@ -39,7 +39,7 @@
     <div class="product-card-small--add-to-cart">
       {% render 'product-price', product: product_small %}
       {% if is_purchasable %}
-        <button class="product-card-small--add-to-cart-button">
+        <button class="product-card-small--add-to-cart-button text-left">
           <span class="product-card-small--add-to-cart-icon d-flex align-center">
             {%- render 'svg-icons' with 'thb-add-to-cart' -%}
             <span class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</span></span
@@ -47,7 +47,9 @@
           <span class="product-card-small--add-to-cart-text">{{ 'products.product.add_to_cart' | t }}</span>
         </button>
       {% else %}
-        <quick-view class="product-card-small--add-to-cart-button" data-product-handle="{{ product_small.handle }}"
+        <quick-view
+          class="product-card-small--add-to-cart-button text-left"
+          data-product-handle="{{ product_small.handle }}"
           ><span class="product-card-small--add-to-cart-icon d-flex align-center">
             {%- render 'svg-icons' with 'thb-add-to-cart' -%}
             <span class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</span></span

@@ -17,9 +17,6 @@
   width: 100%;
   padding: 0 10px !important;
 }
-.custom-text--button {
-  text-align: center;
-}
 .custom-text--button span {
   display: none;
 }

@@ -7,7 +7,6 @@
 
 .pagination {
   display: block;
-  text-align: center;
   min-height: 42px;
   position: relative;
 }
@@ -20,7 +19,6 @@
 
 .page-numbers {
   display: inline-flex;
-  text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 0 41px;
   position: relative;
@@ -41,7 +39,6 @@
   width: 36px;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 .page-numbers span.next {
   left: auto;

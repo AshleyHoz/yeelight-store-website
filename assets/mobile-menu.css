@@ -40,7 +40,6 @@
   position: sticky;
   bottom: 0;
   left: 0;
-  text-align: center;
   border-top: 1px solid var(--color-header-border, var(--color-border, #dadce0));
   background: var(--color-header-bg, var(--bg-body, #fff));
 }

@@ -102,7 +102,7 @@
               class="media-with-tabs--tab{% if forloop.index == 1 %} active{% endif -%}"
               {{ tab.shopify_attributes }}
             >
-              <button class="media-with-tabs--button{% if tab.settings.heading_icon != 'none' %} has-icon{% endif -%}">
+              <button class="media-with-tabs--button text-left{% if tab.settings.heading_icon != 'none' %} has-icon{% endif -%}">
                 {% render 'svg-icons-inline', icon: tab.settings.heading_icon -%}
                 {{- tab.settings.heading }}
               </button>

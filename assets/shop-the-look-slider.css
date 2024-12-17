@@ -195,7 +195,6 @@
 
 .shop-look-slider-buttons-container {
   width: 100%;
-  text-align: center;
   margin-bottom: 30px;
   position: absolute;
   bottom: -58px;
@@ -472,7 +471,6 @@
 
   .shop-look-slider-buttons-container {
     width: 100%;
-    text-align: center;
     margin-bottom: 15px;
     position: relative;
     left: 0;

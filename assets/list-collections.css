@@ -236,7 +236,6 @@
 }
 .custom-collection-card--desc {
   color: rgba(255, 255, 255, 0.6);
-  text-align: center;
   font-feature-settings:
     'clig' off,
     'liga' off;

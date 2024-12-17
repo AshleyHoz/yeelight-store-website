@@ -61,7 +61,7 @@
         {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
       {%- endif -%}
       {%- if cover_title -%}
-        <div class="cover-title">{{ cover_title }}</div>
+        <div class="cover-title text-center">{{ cover_title }}</div>
       {%- endif -%}
     </div>
   {%- endif -%}

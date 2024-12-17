@@ -33,7 +33,7 @@
   </head>
 
   <body>
-    <div class="gift-card--wrapper">
+    <div class="gift-card--wrapper text-center">
       <header class="gift-card__title">
         <span class="h4">{{ shop.name }}</span>
         <h1 class="gift-card__heading">{{ 'gift_cards.issued.subtext' | t }}</h1>
@@ -75,7 +75,7 @@
             loading="lazy"
           >
         </div>
-        <div class="gift-card__qr-code" data-identifier="{{ gift_card.qr_identifier }}"></div>
+        <div class="gift-card__qr-code text-center" data-identifier="{{ gift_card.qr_identifier }}"></div>
         <div class="gift-card__information">
           <input
             type="text"

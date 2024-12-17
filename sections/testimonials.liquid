@@ -18,11 +18,11 @@
 <div class="row{% if full_width %} full-width-row-full{% endif %}">
   <div class="small-12 columns">
     <div
-      class="testimonials testimonials--full-width-{{ full_width }} spacing-padding{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
+      class="testimonials text-center testimonials--full-width-{{ full_width }} spacing-padding{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
       style="--color-bg:{{ color_bg }}; --color-body: {{ color_text }}; --color-text:{{ color_text }}; --bg-body-rgb: {{ color_bg.rgb | replace: ' ' , ',' }}"
     >
       {%- if section_heading -%}
-        <div class="testimonials--heading">
+        <div class="testimonials--heading text-center">
           <h6>{{ section_heading }}</h6>
         </div>
       {%- endif -%}

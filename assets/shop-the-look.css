@@ -182,7 +182,6 @@
 
 .shop-look-buttons-container {
   width: 100%;
-  text-align: center;
   margin-bottom: 30px;
 }
 
@@ -392,11 +391,7 @@
   border-radius: calc(var(--block-border-radius, 16px) / 2);
 }
 .shop-the-look .thb-hotspot-product-content {
-  text-align: left;
   height: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 .shop-the-look .thb-hotspot-product-content .thb-hotspot-product-title {
   color: #fff;
@@ -500,7 +495,6 @@
 
   .shop-look-buttons-container {
     width: 100%;
-    text-align: center;
     margin-bottom: 15px;
   }
 
