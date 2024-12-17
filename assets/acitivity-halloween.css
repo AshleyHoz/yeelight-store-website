@@ -4,8 +4,6 @@
 }
 
 .acitivity-halloween-bg {
-  width: 100%;
-  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -13,15 +11,7 @@
   background: #090538;
 }
 
-.acitivity-halloween-bg-icons {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
 .acitivity-halloween--img {
-  position: relative;
-  width: 100%;
   max-width: 1750px;
   z-index: 2;
   margin: 0 auto;
@@ -53,18 +43,12 @@
 }
 
 .acitivity-halloween--info {
-  width: 100%;
   margin-top: 60px;
 }
 
 .acitivity-halloween--img .mobile-cover-img,
 .acitivity-halloween--info .mobile-info-img {
   display: none;
-}
-
-.acitivity-halloween--info .info-img,
-.acitivity-halloween--info .mobile-info-img {
-  width: 100%;
 }
 
 .acitivity-halloween--info .info-img img,
@@ -78,7 +62,6 @@
 
 .activity-halloween-row .acitivity-halloween--product {
   gap: 12px;
-  width: 100%;
 }
 
 .activity-halloween-row .acitivity-halloween--product .product-item {
