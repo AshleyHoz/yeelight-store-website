@@ -7,14 +7,14 @@
 -%}
 
 <div class="activity-christmas">
-  <div class="activity-christmas-bg">
-    <div class="activity-christmas-bg--inner">
-      <div class="mobile-cover-img">
+  <div class="activity-christmas-bg full-width full-height">
+    <div class="activity-christmas-bg--inner full-height position-relative">
+      <div class="mobile-cover-img full-width full-height">
         {%- if background_image_mobile -%}
           {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
         {%- endif -%}
       </div>
-      <div class="cover-img">
+      <div class="cover-img full-width full-height">
         {%- if background_image -%}
           {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
         {%- endif -%}
@@ -37,11 +37,11 @@
   </div>
   <div class="row activity-christmas-row">
     {% if section_title %}
-      <div class="activity-christmas-header">
+      <div class="activity-christmas-header full-width">
         {% render 'section-header', section_heading: section_title %}
       </div>
     {% endif %}
-    <div class="activity-christmas--product d-flex flex-wrap justify-space-between">
+    <div class="activity-christmas--product full-width d-flex flex-wrap justify-space-between">
       {% for block in section.blocks %}
         <div class="product-item">
           {% render 'product-card', product_card_product: block.settings.product %}

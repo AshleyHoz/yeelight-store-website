@@ -6,8 +6,8 @@
 
 <div class="activity-blackfriday">
   {% if section.settings.show_icon %}
-    <div class="activity-blackfriday-bg">
-      <div class="activity-blackfriday-bg-icons">
+    <div class="activity-blackfriday-bg full-width full-height">
+      <div class="activity-blackfriday-bg-icons full-width full-height position-relative">
         <div
           class="ic-bg-left"
           style="position:absolute;left: {{- section.settings.left_x_position | append: '%' -}}; top: {{- section.settings.left_y_position | append: '%' -}};"
@@ -23,27 +23,13 @@
       </div>
     </div>
   {% endif %}
-  {% comment %}
-    <div class="activity-blackfriday--img">
-      <div class="mobile-cover-img">
-        {%- if background_image_mobile -%}
-          {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
-        {%- endif -%}
-      </div>
-      <div class="cover-img">
-        {%- if background_image -%}
-          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-        {%- endif -%}
-      </div>
-    </div>
-  {% endcomment %}
   <div class="row activity-blackfriday-row">
     {% if section_title %}
-      <div class="activity-blackfriday-header">
+      <div class="activity-blackfriday-header full-width">
         {% render 'section-header', section_heading: section_title %}
       </div>
     {% endif %}
-    <div class="activity-blackfriday--product d-flex flex-wrap justify-space-between">
+    <div class="activity-blackfriday--product full-width d-flex flex-wrap justify-space-between">
       {% for block in section.blocks %}
         <div class="product-item">
           {% render 'product-card', product_card_product: block.settings.product %}
