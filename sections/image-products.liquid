@@ -11,13 +11,8 @@
 
 <div class="image-products">
   {%- if settings.halloween_flag -%}
-    <div class="image-product-bg">
-      {% comment %}
-        {%- if background_image -%}
-          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-        {%- endif -%}
-      {% endcomment %}
-      <div class="image-product-bg-icons">
+    <div class="image-products-bg full-width full-height">
+      <div class="image-products-bg-icons full-width full-height position-relative">
         <div class="ic-moon">
           {%- render 'svg-icons-halloween' with 'custom-halloween-moon' -%}
         </div>
@@ -31,22 +26,22 @@
     </div>
   {%- endif -%}
 
-  <div class="row image-product-row">
-    <div class="image-product-header text-center">
+  <div class="row image-products-row">
+    <div class="image-products-header full-width text-center">
       {% render 'section-header', section_heading: section_title %}
     </div>
     <div class="image-products-container d-flex justify-space-between flex-nowrap {{section_reverse}}">
       {%- if settings.halloween_flag and halloween_hand_flag -%}
-        <div class="image-product-halloween-hand">
+        <div class="image-products-halloween-hand">
           {%- render 'svg-icons-halloween' with 'custom-halloween-hand' -%}
         </div>
       {%- endif -%}
       <div class="image-products--img">
-        <div class="mobile-cover-img">
+        <div class="mobile-cover-img full-width full-height">
           {% assign master_width = mobile_cover_image.src.width | append: 'x' | append: mobile_cover_image.src.height %}
           {% render 'responsive-image', image: mobile_cover_image, sizes: master_width %}
         </div>
-        <div class="cover-img">
+        <div class="cover-img full-width full-height">
           {% assign master_width = conver_image.src.width | append: 'x' | append: conver_image.src.height %}
           {% render 'responsive-image', image: conver_image, sizes: master_width %}
         </div>

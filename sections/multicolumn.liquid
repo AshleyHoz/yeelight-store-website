@@ -59,7 +59,7 @@
                     assign max_width = '100%'
                   endif
                 -%}
-                <figure class="multicolumn__image" style="width: {{ max_width }};">
+                <figure class="multicolumn__image full-width overflow-hidden" style="width: {{ max_width }};">
                   <div
                     class="multicolumn__image--inner aspect-ratio aspect-ratio--{{ image_ratio }}"
                     style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"

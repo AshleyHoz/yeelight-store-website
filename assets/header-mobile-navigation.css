@@ -3,7 +3,6 @@
 }
 
 .header-mobile-navigation {
-  width: 100%;
   padding: 9px 0;
   height: 40px;
   font-size: 0.8125rem;
@@ -31,7 +30,6 @@
   }
 }
 .header-mobile-navigation scroll-shadow {
-  width: 100%;
   --bg-body-rgb: var(--color-bg-rgb);
 }
 .header-mobile-navigation ul {

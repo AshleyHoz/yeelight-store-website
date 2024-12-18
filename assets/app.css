@@ -5256,6 +5256,10 @@ input[type='radio'],
 .flickity-nav svg {
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
+.yee-theme-white {
+  width: 100%;
+  background: var(--color-product-bg);
+}
 
 .yee-theme-white,
 .yee-theme-white .side-panel-header,

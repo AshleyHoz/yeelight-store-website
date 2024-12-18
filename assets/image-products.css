@@ -25,12 +25,6 @@
   display: none;
 }
 
-.image-products .mobile-cover-img,
-.image-products .cover-img {
-  width: 100%;
-  height: 100%;
-}
-
 .image-products .mobile-cover-img img,
 .image-products .cover-img img {
   width: 100%;
@@ -46,9 +40,7 @@
   width: calc(50% - 12px);
 }
 
-.image-product-bg {
-  width: 100%;
-  height: 100%;
+.image-products-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -56,48 +48,38 @@
   background: #090538;
 }
 
-.image-product-bg img {
+.image-products-bg img {
   width: 100%;
   height: 100%;
 }
 
-.image-product-bg-icons {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.image-product-bg-icons .ic-moon {
+.image-products-bg-icons .ic-moon {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.image-product-bg-icons .ic-spider-web-small {
+.image-products-bg-icons .ic-spider-web-small {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.image-product-bg-icons .ic-ghost {
+.image-products-bg-icons .ic-ghost {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-.image-product-row {
+.image-products-row {
   z-index: 2;
   position: relative;
 }
 
-.image-product-halloween-hand {
+.image-products-halloween-hand {
   position: absolute;
   top: 35%;
   left: -35px;
-}
-
-.image-product-header {
-  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -119,7 +101,7 @@
     background: #090538;
   }
 
-  .image-products .image-product-bg {
+  .image-products .image-products-bg {
     display: none;
   }
 
@@ -158,7 +140,7 @@
     width: calc(50% - 6px);
   }
 
-  .image-product-halloween-hand {
+  .image-products-halloween-hand {
     display: none;
   }
 }

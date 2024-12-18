@@ -37,8 +37,8 @@
 <div class="row{% if full_width %} full-width-row{% endif %}">
   <div class="small-12 columns">
     <div class="layered-images-with-text {{ desktop_layout }} {{ content_alignment }} layered-images-with-text--{{ content_position }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} d-flex align-center flex-wrap">
-      <div class="layered-images-with-text__image layered-images-with-text__inner">
-        <layered-images class="layered-images-with-text__image-media-container">
+      <div class="layered-images-with-text__image full-width flex-shrink-0 flex-grow-0 layered-images-with-text__inner">
+        <layered-images class="layered-images-with-text__image-media-container full-width text-center">
           <div class="layered-images-with-text__image-media-container-inner">
             <div
               class="layered-images-with-text__image-media layered-image-1 aspect-ratio aspect-ratio--{{ image_ratio }}"
@@ -97,7 +97,7 @@
           </div>
         </layered-images>
       </div>
-      <div class="layered-images-with-text__content layered-images-with-text__inner">
+      <div class="layered-images-with-text__content full-width flex-frow-1 layered-images-with-text__inner">
         <div class="layered-images-with-text__content--inner">
           {%- for block in section.blocks -%}
             {%- case block.type -%}

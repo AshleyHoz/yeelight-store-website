@@ -14,7 +14,7 @@
 -%}
 {{- 'subheader.css' | asset_url | stylesheet_tag -}}
 <aside class="subheader subheader-border--{{ has_border }}">
-  <div class="subheader--inner">
+  <div class="subheader--inner full-width">
     <div class="subheader--left">
       <ul class="thb-full-menu" role="menubar">
         {%- for link in menu.links -%}

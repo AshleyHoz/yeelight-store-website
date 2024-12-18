@@ -15,7 +15,7 @@
   class="promotion-blocks{% if mobile_swipe %} swipe-on-mobile{% endif %} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
   style="--color-bg: {{ color_bg }}; --color-text: {{ color_text }}; --color-accent: {{ color_link }}; --column-size: {{ section.blocks.size }};"
 >
-  <div class="promotion-blocks--inner column-spacing--{{ column_spacing }}">
+  <div class="promotion-blocks--inner full-width column-spacing--{{ column_spacing }}">
     {%- for block in section.blocks -%}
       {%- liquid
         assign ratio = 1
@@ -24,7 +24,7 @@
         endif
       -%}
       <div class="promotion-blocks--item d-flex" {{ block.shopify_attributes }}>
-        <div class="promotion-blocks--text d-flex flex-column">
+        <div class="promotion-blocks--text full-width d-flex flex-column">
           {% if block.settings.title != blank %}
             <h6>{{ block.settings.title }}</h6>
           {% endif %}

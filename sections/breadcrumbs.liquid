@@ -2,8 +2,8 @@
 <div class=" {% if settings.product_opposite_theme and section.settings.enable_opposite_theme %} yee-theme-white{% endif %}">
   <div class="row">
     <div class="small-12 columns">
-      <scroll-shadow>
-        <nav class="breadcrumbs text-left" aria-label="breadcrumbs">
+      <scroll-shadow class="full-width">
+        <nav class="breadcrumbs full-width text-left" aria-label="breadcrumbs">
           <a href="{{ routes.root_url }}" title="{{ 'sections.breadcrumbs.home' | t | escape }}">
             {{- 'sections.breadcrumbs.home' | t -}}
           </a>
@@ -68,7 +68,7 @@
 {% schema %}
 {
   "name": "Breadcrumbs",
-  "class": "breadcrumbs-section",
+  "class": "yee-breadcrumbs",
   "settings": [
     {
       "type": "checkbox",

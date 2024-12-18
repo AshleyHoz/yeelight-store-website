@@ -32,8 +32,6 @@
 
 .multicolumn__image {
   display: inline-block;
-  width: 100%;
-  overflow: hidden;
   margin-bottom: 15px;
   max-width: 100%;
 }

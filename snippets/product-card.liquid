@@ -44,7 +44,7 @@
   endif
 -%}
 {%- if product_card_product and product_card_product != empty -%}
-  <product-card class="product-card d-flex flex-column text-{{ product_content_alignment }} product-card--content-spacing-{{ info_spacing }} product-card--border-{{ product_card_border }} {{ product_card_shadow_class }}">
+  <product-card class="product-card full-width full-height overflow-hidden position-relative d-flex flex-column text-{{ product_content_alignment }} product-card--content-spacing-{{ info_spacing }} product-card--border-{{ product_card_border }} {{ product_card_shadow_class }}">
     <div class="product-card-content">
       <figure class="product-featured-image {% if products_hover_images and product_card_product.images.size > 1 %}thb-hover{% endif %}">
         {% render 'product-card-badge', product_card_product: product_card_product %}
@@ -139,7 +139,7 @@
           {%- endif -%}
         {% endcomment %}
       </div>
-      <div class="product-card-cover">
+      <div class="product-card-cover full-width full-height">
         <div class="product-card-cover-info text-left">
           <a
             href="{{ product_card_product.url | within: collection }}"
@@ -227,13 +227,13 @@
       <a
         href="{{ product_card_product.url | within: collection }}"
         title="{{ product_card_product.title | escape }}"
-        class="shop-now-wrapper d-flex align-center justify-center"
+        class="shop-now-wrapper full-width full-height position-relative d-flex align-center justify-center"
       >
         {%- if settings.halloween_flag -%}
           <div
-            class="halloween-shop-container"
+            class="halloween-shop-container full-width cursor-pointer"
           >
-            <div class="image-product-halloween-shop">
+            <div class="image-product-halloween-shop full-width position-relative">
               {% comment %}
                 <span class="halloween-shop-hand">
                   {%- render 'svg-icons-halloween' with 'custom-halloween-shop-hand' -%}
@@ -248,9 +248,9 @@
             </div>
           </div>
           <div
-            class="halloween-shop-container-mobile"
+            class="halloween-shop-container-mobile full-width"
           >
-            <div class="image-product-halloween-shop">
+            <div class="image-product-halloween-shop full-width position-relative">
               {% comment %}
                 <span class="halloween-shop-hand">
                   {%- render 'svg-icons-halloween' with 'custom-halloween-shop-hand-mobile' -%}
@@ -265,14 +265,16 @@
             </div>
           </div>
         {%- elsif settings.christmas_flag -%}
-          <div class="christmas-shop">
+          <div class="christmas-shop full-width full-height cursor-pointer">
             {%- render 'svg-icons-christmas-sec' with 'custom-christmas-shop' -%}
           </div>
-          <div class="christmas-shop-mobile">
+          <div class="christmas-shop-mobile full-width full-height cursor-pointer">
             {%- render 'svg-icons-christmas-sec' with 'custom-christmas-shop-mobile' -%}
           </div>
         {%- else -%}
-          <div class="product-card-view">Shop Now</div>
+          <div class="product-card-view full-width full-height position-relative overflow-hidden cursor-pointer">
+            Shop Now
+          </div>
         {%- endif -%}
       </a>
     </div>

@@ -40,9 +40,9 @@
       class="image-with-text column-spacing--{{ column_spacing }} grid--image-{{ desktop_image_width }} {{ desktop_layout }} {{ content_position }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
       style="--color-bg:{{ color_bg }};--color-text:{{ color_text }};--color-text-rgb: {{ color_text.rgb | replace: ' ' , ',' }}; --solid-button-background: {{ color_text }}; --solid-button-background-hover: {{ color_text | color_darken: 7 }}; --solid-button-label: {{ color_bg }};--bg-body: {{ color_bg }};--color-border: {{ color_border }}"
     >
-      <div class="image-with-text--image image-with-text--inner">
+      <div class="image-with-text--image full-width image-with-text--inner">
         <div
-          class="image-with-text--image-media aspect-ratio aspect-ratio--{{ height }}"
+          class="image-with-text--image-media full-width position-relative aspect-ratio aspect-ratio--{{ height }}"
           style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
         >
           {%- if use_video -%}
@@ -93,7 +93,7 @@
           {%- endif -%}
         </div>
       </div>
-      <div class="image-with-text--content image-with-text--inner d-flex align-center">
+      <div class="image-with-text--content full-width image-with-text--inner d-flex align-center">
         <div class="image-with-text--content--inner">
           {%- for block in section.blocks -%}
             {%- case block.type -%}

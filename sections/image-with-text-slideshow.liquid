@@ -23,14 +23,14 @@
   <div class="small-12 columns">
     <div class="image-with-text-slideshow grid--image-{{ desktop_image_width }} {{ desktop_layout }} {{ content_position }} column-spacing--medium spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
       <slide-show
-        class="image-with-text-slideshow--image carousel inner-carousel"
+        class="image-with-text-slideshow--image full-width carousel inner-carousel"
         data-autoplay="{{ autoplay }}"
         data-fade="true"
         data-dots="{{ dots }}"
       >
         {%- for block in section.blocks -%}
-          <div class="image-with-text-slideshow--image-slide carousel__slide">
-            <div class="image-with-text-slideshow--image-media {{ mobile_height }} {{ desktop_height }}{% unless block.settings.image %} thb-placeholder{% endunless %}">
+          <div class="image-with-text-slideshow--image-slide full-width flex-shrink-0 carousel__slide">
+            <div class="image-with-text-slideshow--image-media ful-width position-relative {{ mobile_height }} {{ desktop_height }}{% unless block.settings.image %} thb-placeholder{% endunless %}">
               {% if block.settings.image %}
                 {%- liquid
                   assign image = block.settings.image
@@ -56,7 +56,10 @@
           </div>
         {%- endfor -%}
       </slide-show>
-      <slide-show class="image-with-text-slideshow--content carousel inner-carousel d-flex" data-fade="true">
+      <slide-show
+        class="image-with-text-slideshow--content full-width position-relative carousel inner-carousel d-flex flex-grow-0"
+        data-fade="true"
+      >
         {% for block in section.blocks %}
           {%- liquid
             assign color_bg = block.settings.color_bg
@@ -64,7 +67,7 @@
             assign color_button = block.settings.color_button
           -%}
           <div
-            class="image-with-text-slideshow--content-content carousel__slide {{ desktop_height }} d-flex align-center justify-center"
+            class="image-with-text-slideshow--content-content full-width carousel__slide {{ desktop_height }} d-flex align-center justify-center"
             style="--color-bg:{{ color_bg }}; --color-text:{{ color_text }}; --solid-button-background: {{ color_button }}; --solid-button-background-hover: {{ color_button | color_darken: 7 }};"
             {{ block.shopify_attributes }}
           >

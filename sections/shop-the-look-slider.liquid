@@ -27,7 +27,7 @@
         data-transition="fade"
         data-fade="{{ true }}"
       >
-        <div class="shop-look-slider-flickity-viewport shop-look-slider--desktop">
+        <div class="shop-look-slider-flickity-viewport full-width full-height shop-look-slider--desktop">
           {% for block in section.blocks %}
             <a
               href="{{section_link}}"
@@ -71,7 +71,7 @@
               {%- endif -%}
             </a>
             <figure
-              class="shop-the-look-slider--area shop-look-slider--desktop shop-the-look--full-width-{{ full_width }}"
+              class="shop-the-look-slider--area full-width full-height position-relative shop-look-slider--desktop shop-the-look--full-width-{{ full_width }}"
             >
               {%- assign hotspot_product_1 = all_products[block.settings.product_handle_1] -%}
               {% if hotspot_product_1 != empty %}
@@ -181,7 +181,7 @@
             </figure>
           {% endfor %}
         </div>
-        <div class="shop-look-slider-buttons-container text-center">
+        <div class="shop-look-slider-buttons-container full-width text-center">
           <div class="shop-look-slider-buttons-container-inner">
             <div class=" shop-look-slider-buttons d-flex align-center justify-center flickity-custom-dots">
               {%- for block in section.blocks -%}
@@ -191,12 +191,12 @@
                     data-img="{{block.settings.image}}"
                     onclick="onChangeBackground()"
                   >
-                    <div class="shop-look-slider-buttons_item-content">
+                    <div class="shop-look-slider-buttons_item-content full-width full-height d-flex align-center justify-center">
                       <span class="shop-look-slider-buttons_item-icon d-flex">
                         {% render 'svg-icons-custom' with block.settings.button_icon %}
                       </span>
                     </div>
-                    <div class="shop-look-slider-buttons_item-content-color">
+                    <div class="shop-look-slider-buttons_item-content-color full-width full-height d-flex align-center justify-center">
                       {% assign text = block.settings.button_icon %}
                       {% assign text = text | append: '-text-color' %}
                       {% render 'svg-icons-custom' with text %}

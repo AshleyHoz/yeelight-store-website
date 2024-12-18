@@ -39,13 +39,13 @@
 -%}
 <div class="yee-video video-container{% if settings.halloween_flag and halloween_skull_flag %} video-container-halloween{% endif %}{% if settings.black_friday_flag and section.settings.black_friday_ui_flag %} video-container-blackfriday{% endif %}">
   {%- if settings.halloween_flag and halloween_skull_flag -%}
-    <div class="image-product-bg">
+    <div class="image-product-bg full-width full-height">
       {% comment %}
         {%- if background_image -%}
           {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
         {%- endif -%}
       {% endcomment %}
-      <div class="image-product-bg-icons">
+      <div class="image-product-bg-icons full-width full-height position-relative">
         <div class="ic-bat"></div>
         {%- render 'svg-icons-halloween' with 'custom-halloween-bat' -%}
       </div>
@@ -56,7 +56,7 @@
   {%- endif -%}
 
   {%- if settings.christmas_flag and cover_title != blank -%}
-    <div class="video-info-cover row">
+    <div class="video-info-cover full-width full-height d-flex flex-column row">
       {%- if cover_image -%}
         {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
       {%- endif -%}
@@ -76,7 +76,7 @@
           marker_style: marker_style
         %}
       </div>
-      <div class="video-section--container video-aspect--{{ aspect_ratio }}  {{ mobile_height }} {{ desktop_height }}">
+      <div class="video-section--container full-width position-relative overflow-hidden video-aspect--{{ aspect_ratio }}  {{ mobile_height }} {{ desktop_height }}">
         {%- if video_hosted != blank and video_hosted_mobile != blank -%}
           <div class="video_hosted_mobile">
             {{
@@ -152,7 +152,7 @@
 {% schema %}
 {
   "name": "Video",
-  "class": "yee-video",
+  "class": "yee-video-section",
   "settings": [
     {
       "type": "text",

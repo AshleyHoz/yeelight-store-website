@@ -29,7 +29,6 @@
   }
 }
 .image-hotspots--text {
-  width: 100%;
   flex: 3;
 }
 .image-hotspots--text > *:last-child,
@@ -37,7 +36,6 @@
   margin-bottom: 0;
 }
 .image-hotspots--container {
-  width: 100%;
   display: block;
   position: relative;
   flex: 7;

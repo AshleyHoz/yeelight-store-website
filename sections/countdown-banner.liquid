@@ -57,7 +57,7 @@
       class="countdown-banner countdown-banner--full-width-{{ full_width }} {{ mobile_height }} {{ desktop_height }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} d-flex flex-column justify-center"
       style="--color-bg: {{ color_bg }}; --color-text: {{ color_text }}; --solid-button-background: {{ color_text }}; --solid-button-background-hover: {{ color_text | color_darken: 7 }}; --solid-button-label: {{ color_bg }};--bg-body: {{ color_bg }}"
     >
-      <div class="countdown-banner--bg">
+      <div class="countdown-banner--bg full-width full-height">
         {%- if bg_image -%}
           {%- liquid
             assign master_width = bg_image.src.width | append: 'x' | append: bg_image.src.height
@@ -77,11 +77,11 @@
           {%- render 'responsive-image', image: bg_mobile_image, sizes: width, class: 'countdown-image--mobile' -%}
         {%- endif -%}
         <div
-          class="countdown-banner--bg--overlay"
+          class="countdown-banner--bg--overlay full-width full-height"
           style="--overlay-color: {{ overlay_color }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.00 }};"
         ></div>
       </div>
-      <div class="countdown-banner--inner layout--{{ section_layout }} d-flex flex-column justify-center">
+      <div class="countdown-banner--inner full-width layout--{{ section_layout }} d-flex flex-column justify-center">
         <div class="countdown-banner--content">
           {%- if subheading != blank -%}
             <p class="subheading">{{ subheading }}</p>

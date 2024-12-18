@@ -72,7 +72,7 @@
                   </div>
                 {%- endif -%}
               {%- endif -%}
-              <div class="gallery--item-content content-{{ content_position }} {% if block.settings.enable_gallery_video %} content--has-video{% endif %}">
+              <div class="gallery--item-content full-width full-height d-flex content-{{ content_position }} {% if block.settings.enable_gallery_video %} content--has-video{% endif %}">
                 <div>
                   {% if block.settings.subheading != blank %}
                     <p class="subheading">{{ block.settings.subheading }}</p>
@@ -113,7 +113,11 @@
                     {% endif %}
                   {% endif %}
                   {% if block.settings.block_link != blank %}
-                    <a href="{{ block.settings.block_link }}" class="gallery--item-content-link" target="_blank"></a>
+                    <a
+                      href="{{ block.settings.block_link }}"
+                      class="gallery--item-content-link full-width full-height"
+                      target="_blank"
+                    ></a>
                   {% endif %}
                 </div>
               </div>

@@ -6,6 +6,10 @@
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
+.collapsible-content .accordion summary span svg path {
+  stroke: var(--color-product-bg);
+}
+
 .collapsible-content--has-bg {
   isolation: isolate;
   border-radius: var(--block-border-radius, 16px);

@@ -247,7 +247,6 @@
   }
 }
 .blog-post-detail--navigation--inner {
-  width: 100%;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr;
@@ -282,7 +281,6 @@
   position: absolute;
   bottom: -4px;
   left: 0;
-  width: 100%;
   transform: scale(0, 1);
   background: var(--color-accent);
   transform-origin: left center;

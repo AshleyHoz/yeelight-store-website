@@ -326,10 +326,6 @@
   margin-top: 10px;
 }
 
-.yee-theme-white {
-  width: 100%;
-}
-
 .yee-theme-white,
 .yee-theme-white .thb-cart-collaterals .field label {
   background: var(--color-product-bg);

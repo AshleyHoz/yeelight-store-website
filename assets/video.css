@@ -1,5 +1,5 @@
 .yee-video {
-  /* padding: 60px 0; */
+  padding: 60px 0;
   position: relative;
 }
 
@@ -19,14 +19,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   z-index: 1;
 }
 
 .image-product-bg-icons {
-  width: 100%;
-  height: 100%;
   position: relative;
 }
 
@@ -46,12 +42,8 @@
   position: absolute;
   top: 0;
   left: 50%;
-  width: 100%;
-  height: 100%;
   margin: 0 auto;
   z-index: 2;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   transform: translateX(-50%);
 }
@@ -120,11 +112,8 @@
 }
 
 .video-section--container {
-  position: relative;
-  width: 100%;
   aspect-ratio: 16/9;
   border-radius: 20px;
-  overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -164,7 +153,7 @@
 
 @media only screen and (max-width: 767px) {
   .yee-video {
-    /* padding: 16px 0; */
+    padding: 16px 0;
   }
 
   .yee-video.image-product-bg {
@@ -193,10 +182,6 @@
 
   .video-info-cover {
     max-width: unset;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 12px;

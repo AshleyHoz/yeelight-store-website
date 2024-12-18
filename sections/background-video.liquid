@@ -72,8 +72,8 @@
         class="background-video__overlay"
         style="--overlay-color-rgb: {{ overlay_color.rgb | replace: " ", "," }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.00 }}"
       ></div>
-      <div class="background-video__content-wrap d-flex">
-        <div class="background-video__content">
+      <div class="background-video__content-wrap full-width position-relative d-flex">
+        <div class="background-video__content full-width">
           {% for block in section.blocks %}
             {%- case block.type -%}
               {%- when 'subheading' -%}
@@ -107,11 +107,11 @@
                 >
                   {%- render 'svg-icons' with 'thb-video-play' -%}
                 </a>
-                <modal-dialog id="VideoLightbox-{{ section.id }}" class="video-lightbox-modal">
+                <modal-dialog id="VideoLightbox-{{ section.id }}" class="video-lightbox-modal full-width">
                   <div
                     role="dialog"
                     aria-modal="true"
-                    class="video-lightbox-modal__content"
+                    class="video-lightbox-modal__content full-width"
                     tabindex="-1"
                   >
                     <button

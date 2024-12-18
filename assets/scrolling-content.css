@@ -14,8 +14,7 @@
 .scrolling-content--inner {
   padding: 0 15px;
   max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
   .scrolling-content--inner {
@@ -25,9 +24,6 @@
 
 .scrolling-content {
   display: block;
-}
-.scrolling-content--inner {
-  width: 100%;
 }
 .scrolling-content--has-bg {
   background: var(--color-bg);

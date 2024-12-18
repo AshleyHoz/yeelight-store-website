@@ -39,7 +39,7 @@
       class="before-after-image image-position--{{ image_position }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} d-flex flex-column"
       style="--percent:{{ initial_position }}%; --color-line: {{ line_color }};"
     >
-      <div class="before-after-image--text">
+      <div class="before-after-image--text full-width">
         {%- if badge_text -%}
           <div>
             <span class="inline-badge" style="--badge-bg: {{ color_bg_badge }}; --badge-text: {{ color_badge }};">
@@ -58,7 +58,7 @@
           </div>
         {%- endif -%}
       </div>
-      <before-after class="before-after-image--container">
+      <before-after class="before-after-image--container full-width position-relative">
         {%- for block in section.blocks -%}
           {%- liquid
             assign image = block.settings.image
@@ -106,7 +106,7 @@
                 {%- render 'responsive-image', image: image, sizes: width, class: 'before-after-image--mobile' -%}
               {%- endif -%}
             </div>
-            <div class="before-after-image--content before-after-image--content-{{ heading_position }} d-flex justify-start">
+            <div class="before-after-image--content full-width full-height before-after-image--content-{{ heading_position }} d-flex justify-start">
               {%- if title != blank -%}
                 <div class="before-after-image--label before-after-image--label-{{ heading_size }}">{{ title }}</div>
               {%- endif -%}
@@ -119,7 +119,7 @@
           min="0"
           max="1000"
           value="{{ initial_position | times: 10 }}"
-          class="before-after-image--slider"
+          class="before-after-image--slider full-width"
         >
       </before-after>
     </div>

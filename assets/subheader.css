@@ -65,7 +65,6 @@
 .subheader--inner {
   display: grid;
   grid-template-columns: auto auto;
-  width: 100%;
   grid-gap: 15px;
 }
 .subheader--inner .subheader--right,

@@ -24,11 +24,6 @@
 .layered-images-with-text--bottom {
   align-items: flex-end;
 }
-.layered-images-with-text__image {
-  flex-grow: 0;
-  flex-shrink: 0;
-  width: 100%;
-}
 .layered-images-with-text__image img,
 .layered-images-with-text__image svg {
   position: absolute;
@@ -89,15 +84,11 @@
   margin: 0 auto;
   padding-right: 16.125%;
   padding-left: 12%;
-  width: 100%;
-  text-align: center;
 }
 .layered-images-with-text__image-media-container-inner {
   position: relative;
 }
 .layered-images-with-text__content {
-  width: 100%;
-  flex-grow: 1;
   margin-top: 25px;
 }
 @media only screen and (min-width: 768px) {

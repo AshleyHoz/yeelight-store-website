@@ -34,7 +34,7 @@
           data-align="center"
         >
           {%- for block in section.blocks -%}
-            <div class="testimonials--testimonial carousel__slide" {{ block.shopify_attributes }}>
+            <div class="testimonials--testimonial full-width carousel__slide" {{ block.shopify_attributes }}>
               <div class="testimonials--testimonial-inner">
                 {%- if block.settings.stars and block.settings.stars != '' -%}
                   <div class="star-rating" style="--star-rating: {{ block.settings.stars }};"></div>

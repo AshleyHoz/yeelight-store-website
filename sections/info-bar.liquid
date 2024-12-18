@@ -29,7 +29,7 @@
         style="--color-info-bar-text: {{ color_info_bar_text }}; --color-info-bar-bg: {{ color_info_bar_bg -}};"
       >
         <div
-          class="info-bar--inner d-flex align-center justify-space-around"
+          class="info-bar--inner full-width d-flex align-center justify-space-around"
         >
           {%- for block in section.blocks -%}
             <div class="info-bar--item">
@@ -75,7 +75,7 @@
               data-autoplay="{{ autoplay }}"
             >
               {%- for block in section.blocks -%}
-                <div class="info-bar--item carousel__slide d-flex align-center justify-center">
+                <div class="info-bar--item carousel__slide full-width d-flex align-center justify-center">
                   {%- render 'svg-icons-custom' with block.settings.icon -%}
                   <div class="bar-text">
                     {{ block.settings.text }}

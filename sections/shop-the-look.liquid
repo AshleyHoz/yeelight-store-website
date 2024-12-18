@@ -92,7 +92,7 @@
           or button_4_text != blank
           or button_5_text != blank
         -%}
-          <div class="shop-look-buttons-container text-center">
+          <div class="shop-look-buttons-container full-width text-center">
             <div class="shop-look-buttons-container-inner">
               <div class="shop-look-buttons flickity-custom-dots">
                 <div class="shop-look-buttons-bg"></div>
@@ -152,8 +152,8 @@
             </div>
           </div>
         {%- endif -%}
-        <div class="slideshow_inner">
-          <figure class="shop-the-look--area shop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
+        <div class="slideshow_inner ful-width full-height cursor-pointer">
+          <figure class="shop-the-look--area full-width full-heightshop-the-look--desktop shop-the-look--full-width-{{ full_width }}">
             {% for block in section.blocks %}
               {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
               <quick-view

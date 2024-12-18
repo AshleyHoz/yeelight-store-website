@@ -74,8 +74,6 @@
 }
 .background-video__content-wrap {
   padding: 0 15px;
-  width: 100%;
-  position: relative;
   z-index: 5;
   max-width: 1440px;
   margin: 0 auto;
@@ -87,7 +85,6 @@
 }
 .background-video__content {
   max-width: 650px;
-  width: 100%;
   margin: 0 auto;
   color: #fff;
 }
@@ -151,7 +148,6 @@
   margin: 0 auto;
   top: 0;
   left: 0;
-  width: 100%;
   padding: 70px 30px;
   background: rgba(var(--color-overlay-rgb), 0.4);
   backdrop-filter: blur(3px);
@@ -208,7 +204,6 @@
   margin: 0 auto;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
-  width: 100%;
   position: absolute;
   top: 50%;
   display: none;

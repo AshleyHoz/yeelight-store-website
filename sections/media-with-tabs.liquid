@@ -34,16 +34,16 @@
       class="media-with-tabs d-flex media-with-tabs--transparent-{{ transparent }} {{ desktop_height }} {{ desktop_layout }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
       style="--color-bg: {{ color_bg }}; --color-text:{{ color_text }}; --color-border: {{ color_border }}; --color-accent: {{ color_link }}"
     >
-      <slide-show class="media-with-tabs--media">
+      <slide-show class="media-with-tabs--media full-width">
         {%- if tabs -%}
           {%- for tab in tabs -%}
-            <div class="carousel__slide">
+            <div class="carousel__slide full-width">
               {%- liquid
                 assign image = tab.settings.image
                 assign use_video = tab.settings.use_video
                 assign video_hosted = tab.settings.video_hosted
               -%}
-              <div class="media-with-tabs--media--container {% if image == blank and video_hosted == blank %} thb-placeholder{%- endif %} {{ mobile_height }} {{ desktop_height }}">
+              <div class="media-with-tabs--media--container full-width position-relative {% if image == blank and video_hosted == blank %} thb-placeholder{%- endif %} {{ mobile_height }} {{ desktop_height }}">
                 {%- if use_video -%}
                   {%- if video_hosted != blank -%}
                     <div class="media-with-tabs--media--video">
@@ -102,7 +102,7 @@
               class="media-with-tabs--tab{% if forloop.index == 1 %} active{% endif -%}"
               {{ tab.shopify_attributes }}
             >
-              <button class="media-with-tabs--button text-left{% if tab.settings.heading_icon != 'none' %} has-icon{% endif -%}">
+              <button class="media-with-tabs--button full-width position-relative text-left{% if tab.settings.heading_icon != 'none' %} has-icon{% endif -%}">
                 {% render 'svg-icons-inline', icon: tab.settings.heading_icon -%}
                 {{- tab.settings.heading }}
               </button>

@@ -41,13 +41,13 @@
           {{ block.shopify_attributes }}
         {% endcomment %}
         {% if block.settings.image %}
-          <div class="logo-image--item">
+          <div class="logo-image--item full-width position-relative cursor-pointer">
             <div class="logo-image main-image">
               {% assign image = block.settings.image %}
               {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
               {%- render 'responsive-image', image: image, sizes: master_width -%}
             </div>
-            <div class="logo-image logo-cover-image">
+            <div class="logo-image logo-cover-image full-width full-height">
               {% assign cover_image = block.settings.cover_image %}
               {% assign cover_width = cover_image.src.width | append: 'x' | append: cover_image.src.height %}
               {%- render 'responsive-image', image: cover_image, sizes: cover_width -%}

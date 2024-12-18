@@ -23,9 +23,6 @@
     grid-template-areas: 'content media';
   }
 }
-.image-with-text--image {
-  width: 100%;
-}
 @media only screen and (min-width: 768px) {
   .image-with-text--image {
     grid-area: media;
@@ -47,8 +44,6 @@
   background: var(--color-accent);
 }
 .image-with-text--image-media {
-  position: relative;
-  width: 100%;
   overflow: hidden;
   padding-bottom: var(--ratio-percent);
 }
@@ -68,7 +63,6 @@
   object-fit: cover;
 }
 .image-with-text--content {
-  width: 100%;
   flex-grow: 1;
   padding: 25px;
   background: var(--color-bg, #fff);

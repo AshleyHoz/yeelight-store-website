@@ -20,7 +20,7 @@
 <div class="row">
   <div class="small-12 columns"></div>
     <div class="image-hotspots image-hotspots--position-{{ image_position }} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %} d-flex flex-column">
-      <div class="image-hotspots--text">
+      <div class="image-hotspots--text full-width">
         {%- if badge_text != empty -%}
           <div>
             <span class="inline-badge" style="--badge-bg: {{ color_bg_badge }}; --badge-text: {{ color_badge }};">
@@ -39,7 +39,7 @@
           </div>
         {%- endif -%}
       </div>
-      <image-hotspots class="image-hotspots--container">
+      <image-hotspots class="image-hotspots--container full-width">
         <div class="image-hotspots--image">
           {%- if image -%}
             {%- liquid

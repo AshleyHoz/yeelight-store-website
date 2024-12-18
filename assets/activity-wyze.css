@@ -11,8 +11,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   z-index: 0;
 }
 
@@ -232,7 +230,6 @@
   }
   .activity-wyze--cover-mobile {
     display: block;
-    width: 100%;
     margin-bottom: 28px;
   }
   .activity-wyze--email input[type='email'] {

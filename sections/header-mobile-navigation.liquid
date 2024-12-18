@@ -5,10 +5,10 @@
 -%}
 {{- 'header-mobile-navigation.css' | asset_url | stylesheet_tag -}}
 <div
-  class="header-mobile-navigation d-flex align-center"
+  class="header-mobile-navigation full-width d-flex align-center"
   style="--color-bg: {{ color_bg }}; --color-bg-rgb: {{ color_bg.rgb | replace: ' ' , ',' }};  --color-links: {{ color_links }}"
 >
-  <scroll-shadow>
+  <scroll-shadow class="full-width">
     <ul class="d-flex">
       {%- for menu_link in menu.links -%}
         <li>

@@ -133,9 +133,6 @@
 .testimonials--carousel.pagination--logos {
   flex-direction: column-reverse;
 }
-.testimonials--testimonial {
-  width: 100%;
-}
 .testimonials--testimonial .star-rating {
   font-size: 1.125rem;
   margin-bottom: 1.25rem;

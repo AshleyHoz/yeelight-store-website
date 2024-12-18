@@ -10,13 +10,6 @@
   border-radius: var(--block-border-radius, 16px);
 }
 
-.shop-the-look-slider-hotspot,
-.shop-the-look-slider-hotspot-wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
 .mobile-height-image {
   display: none;
 }
@@ -28,13 +21,9 @@
 }
 
 .shop-the-look-slider--area {
-  width: 100%;
-  height: 100%;
   z-index: 10;
   box-shadow: var(--block-shadows);
   border-radius: 30px;
-  /* border: 1px solid rgba(255, 255, 255, 0.1); */
-  position: relative;
   display: none;
 }
 
@@ -68,8 +57,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   z-index: 10;
   pointer-events: none;
 }
@@ -194,7 +181,6 @@
 }
 
 .shop-look-slider-buttons-container {
-  width: 100%;
   margin-bottom: 30px;
   position: absolute;
   bottom: -58px;
@@ -232,14 +218,9 @@
 .shop-look-slider-buttons_item-content,
 .shop-look-slider-buttons_item-content-color {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 4px;
   opacity: 0.6;
   z-index: 1;
-  width: 100%;
-  height: 100%;
   background: transparent;
 }
 
@@ -432,10 +413,6 @@
   opacity: 0;
 }
 
-.shop-look_img {
-  width: 100%;
-}
-
 .shop-look-slider_slide {
   border-radius: 30px;
   overflow: hidden;
@@ -446,17 +423,6 @@
 .shop-look_slideshow-slider--container {
   display: block;
   position: relative;
-}
-
-.slideshow_inner {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  cursor: pointer;
-  pointer-events: none;
-  z-index: 1;
 }
 
 @media only screen and (max-width: 767px) {
@@ -470,7 +436,6 @@
   }
 
   .shop-look-slider-buttons-container {
-    width: 100%;
     margin-bottom: 15px;
     position: relative;
     left: 0;
@@ -480,14 +445,9 @@
 
   .shop-look-slider-buttons_item-content,
   .shop-look-slider-buttons_item-content-color {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 4px;
     z-index: 1;
     opacity: 0.6;
-    width: 100%;
-    height: 100%;
   }
 
   .shop-look-slider-product-image_item {
@@ -536,11 +496,6 @@
     border: 1px solid #fff;
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.1);
-  }
-
-  .shop-look_img {
-    width: 100%;
-    height: 100%;
   }
 
   .shop-look-slider_slide {
