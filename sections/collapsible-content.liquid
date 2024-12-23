@@ -43,7 +43,9 @@
                 {% endif %}
               >
                 <summary class="d-flex align-center justify-space-between">
-                  {{ block.settings.heading | default: block.settings.page.title }}
+                  <div>
+                    {{ block.settings.heading | default: block.settings.page.title }}
+                  </div>
                   <span>{%- render 'svg-icons' with 'thb-collapsible-arrow' -%}</span>
                 </summary>
                 <div class="collapsible__content accordion__content rte" id="Accordion-{{ block.id }}-{{ section.id }}">

@@ -37,14 +37,14 @@
       assign mobile_image_height = 900
   endcase
 -%}
-<div class="yee-video video-container{% if settings.halloween_flag and halloween_skull_flag %} video-container-halloween{% endif %}{% if settings.black_friday_flag and section.settings.black_friday_ui_flag %} video-container-blackfriday{% endif %}">
+<div
+  class="
+    {%- if cover_title == blank -%}yee-video {% endif %}
+    video-container{% if settings.halloween_flag and halloween_skull_flag %} video-container-halloween{% endif %}{% if settings.black_friday_flag and section.settings.black_friday_ui_flag %} video-container-blackfriday{% endif %}
+  "
+>
   {%- if settings.halloween_flag and halloween_skull_flag -%}
     <div class="image-product-bg full-width full-height">
-      {% comment %}
-        {%- if background_image -%}
-          {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-        {%- endif -%}
-      {% endcomment %}
       <div class="image-product-bg-icons full-width full-height position-relative">
         <div class="ic-bat"></div>
         {%- render 'svg-icons-halloween' with 'custom-halloween-bat' -%}
@@ -61,7 +61,7 @@
         {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
       {%- endif -%}
       {%- if cover_title -%}
-        <div class="cover-title text-center">{{ cover_title }}</div>
+        <div class="cover-title">{{ cover_title }}</div>
       {%- endif -%}
     </div>
   {%- endif -%}

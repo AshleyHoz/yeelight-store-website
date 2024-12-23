@@ -40,6 +40,9 @@
   font-weight: 500;
   line-height: 116%;
 }
+.collapsible-content .accordion summary div {
+  width: 92%;
+}
 .collapsible-content .accordion summary span {
   display: inline-flex;
   align-items: center;
@@ -138,6 +141,10 @@
 
   .collapse-content--title {
     margin-right: 32px;
+  }
+
+  .collapsible-content .accordion summary div {
+    font-size: 16px;
   }
 }
 .collapsible-content .accordion:first-child {
