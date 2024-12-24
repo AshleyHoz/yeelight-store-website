@@ -12,5 +12,11 @@
   "context": {
     "market": "middle-east"
   },
-  "sections": {}
+  "sections": {
+    "shop_the_look_slider_33yC6m": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }
