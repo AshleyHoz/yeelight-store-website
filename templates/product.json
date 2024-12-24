@@ -1,13 +1,4 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
-/*
  * ------------------------------------------------------------
  * IMPORTANT: The contents of this file are auto-generated.
  *
@@ -27,8 +18,16 @@
     "main-product": {
       "type": "main-product",
       "blocks": {
-        "2b609eea-6cce-4efe-b447-c5560de1d797": { "type": "label", "settings": {} },
-        "title": { "type": "title", "settings": { "show_products_rating": false } },
+        "2b609eea-6cce-4efe-b447-c5560de1d797": {
+          "type": "label",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": false
+          }
+        },
         "loox_reviews_loox_rating_9g3aA7": {
           "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
@@ -44,12 +43,16 @@
             "emptyRatingWidget": false
           }
         },
-        "separator_qJEjWC": { "type": "separator", "settings": {} },
+        "separator_qJEjWC": {
+          "type": "separator",
+          "settings": {}
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "color_picker": true,
+            "color_picker_use_variants": false,
             "variant_is_disabled": true,
             "sizing_guide_variant": "Size",
             "sizing_guide_text": "",
@@ -57,10 +60,16 @@
             "sizing_guide_page": ""
           }
         },
-        "quantity": { "type": "quantity", "settings": {} },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
-          "settings": { "show_dynamic_checkout": true, "show_gift_card_recipient": false }
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
         },
         "386f7e4a-6127-4141-928b-9cb4614ee18c": {
           "type": "collapsible_tab",
@@ -82,11 +91,20 @@
             "custom_liquid": ""
           }
         },
-        "0b3e272b-c86a-4dba-946c-c6912251371c": { "type": "description", "settings": {} },
-        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": { "type": "share", "settings": {} },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {}
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {}
+        },
         "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
           "type": "complementary",
-          "settings": { "block_heading": "Pairs well with", "product_list_limit": 3 }
+          "settings": {
+            "block_heading": "Pairs well with",
+            "product_list_limit": 3
+          }
         }
       },
       "block_order": [
@@ -117,37 +135,45 @@
     "single_image_khE6qN": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Frame_1686633381.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false
       }
     },
     "single_image_kjKG7j": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Frame_1686633398_2_380a68a1-997d-4072-bd98-e82e4e6fe892.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false
       }
     },
     "single_image_B9FtQy": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Frame_1686633400_1.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false
       }
     },
     "single_image_QQQpAc": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Frame_1686633401.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false
       }
     },
     "16623877721f33fb14": {
@@ -342,7 +368,11 @@
           }
         }
       },
-      "block_order": ["1662387360fb14d4f3-0", "1662387360fb14d4f3-1", "1662387360fb14d4f3-2"],
+      "block_order": [
+        "1662387360fb14d4f3-0",
+        "1662387360fb14d4f3-1",
+        "1662387360fb14d4f3-2"
+      ],
       "settings": {
         "heading": "",
         "marker_style": "style1",
@@ -407,7 +437,10 @@
           }
         }
       },
-      "block_order": ["383ea750-0663-42e7-8ab5-faef83816d22", "ef30e1e6-7bf9-4deb-b04b-15075918ba61"],
+      "block_order": [
+        "383ea750-0663-42e7-8ab5-faef83816d22",
+        "ef30e1e6-7bf9-4deb-b04b-15075918ba61"
+      ],
       "settings": {
         "desktop_layout": "text_first",
         "mobile_swipe": true,
@@ -444,7 +477,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
       "disabled": true,
       "settings": {}
     },
@@ -459,6 +494,12 @@
         "columns_desktop": 4,
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
+      }
+    },
+    "custom_liquid_R36WB7": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\n window.addEventListener('load', function() {\n  var _learnq = window._learnq || [];\n  function addedToCart() {\n   fetch(`${window.location.origin}/cart.js`)\n   .then(res => res.clone().json().then(data => {\n    var cart = {\n      total_price: data.total_price/100,\n      $value: data.total_price/100,\n      total_discount: data.total_discount,\n      original_total_price: data.original_total_price/100,\n      items: data.items\n    }\n    if (item !== 'undefined') {\n      cart = Object.assign(cart, item)\n    }\n    if (klAjax) {\n       _learnq.push(['track', 'Added to Cart', cart]);\n       klAjax = false;\n      }\n   }))\n  };\n  (function (ns, fetch) {\n    ns.fetch = function() {\n      const response = fetch.apply(this, arguments);\n      response.then(res => {\n        if (`${window.location.origin}/cart/add.js`\n          .includes(res.url) && res.url !== '') {\n              addedToCart()\n        }\n      });\n      return response\n     }\n  }(window, window.fetch));\n  var klAjax = true;\n  var atcButtons = document.querySelectorAll(\"form[action*='/cart/add'] button[type='submit']\");\n  for (var i = 0; i < atcButtons.length; i++) { \n    atcButtons[i].addEventListener(\"click\", function() {\n      if (klAjax) {\n        _learnq.push(['track', 'Added to Cart', item]);\n        klAjax = false;\n      }\n    })\n  }\n  });\n</script>"
       }
     }
   },
@@ -477,6 +518,7 @@
     "081e2acc-aa6a-4a72-9347-fb8bb370af80",
     "d5ba2a2b-8bd0-4354-b15b-a335dd1b21ad",
     "1712003137212dc6f8",
-    "product-recommendations"
+    "product-recommendations",
+    "custom_liquid_R36WB7"
   ]
 }
