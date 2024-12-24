@@ -175,6 +175,11 @@
         console.log(document.getElementById('AddToCart'));
 
         document.getElementById('AddToCart').addEventListener('click', function () {
+          console.log('click1');
+          _learnq.push(['track', 'Added to Cart', item]);
+        });
+        document.getElementById('AddToCartSticky').addEventListener('click', function () {
+          console.log('click2');
           _learnq.push(['track', 'Added to Cart', item]);
         });
       </script>
