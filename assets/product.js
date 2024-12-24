@@ -998,7 +998,6 @@ if (!customElements.get('product-add-to-cart-bar')) {
   class ProductAddToCartBar extends HTMLElement {
     constructor() {
       super();
-      console.log(123);
 
       this.animations_enabled = document.body.classList.contains('animations-true') && typeof gsap !== 'undefined';
     }

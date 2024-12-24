@@ -170,5 +170,22 @@
       {%- endunless -%}
     {%- endif -%}
     <div id="wa.meetbot-widget-wachat-1lfj"></div>
+    {%- if product -%}
+      <script type="text/javascript">
+        console.log('test');
+
+        var _learnq = _learnq || [];
+        console.log(document.getElementById('AddToCart'));
+
+        document.getElementById('AddToCart').addEventListener('click', function () {
+          console.log('click1');
+          _learnq.push(['track', 'Added to Cart', item]);
+        });
+        document.getElementById('AddToCartSticky').addEventListener('click', function () {
+          console.log('click2');
+          _learnq.push(['track', 'Added to Cart', item]);
+        });
+      </script>
+    {%- endif -%}
   </body>
 </html>
