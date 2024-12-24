@@ -495,12 +495,6 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
-    },
-    "custom_liquid_R36WB7": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script type=\"text/javascript\">\nvar _learnq = _learnq || [];\n\tdocument.getElementById(\"AddToCart\").addEventListener('click',function (){\n \t\t_learnq.push(['track', 'Added to Cart', item]);\n\t});</script>"
-      }
     }
   },
   "order": [
@@ -518,7 +512,6 @@
     "081e2acc-aa6a-4a72-9347-fb8bb370af80",
     "d5ba2a2b-8bd0-4354-b15b-a335dd1b21ad",
     "1712003137212dc6f8",
-    "product-recommendations",
-    "custom_liquid_R36WB7"
+    "product-recommendations"
   ]
 }
