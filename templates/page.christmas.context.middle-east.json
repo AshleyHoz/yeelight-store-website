@@ -12,5 +12,44 @@
   "context": {
     "market": "middle-east"
   },
-  "sections": {}
+  "sections": {
+    "activity_christmas_gCWHKU": {
+      "settings": {},
+      "blocks": {
+        "product_7ejnQL": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-holiday-lightshow-package"
+          }
+        }
+      }
+    },
+    "activity_christmas_Ayz4PF": {
+      "settings": {},
+      "blocks": {
+        "product_BFP48R": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-night-lights"
+          }
+        },
+        "product_DztJyW": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-plug-in-light-sensor-nightlight-pura"
+          }
+        }
+      },
+      "block_order": [
+        "product_Dn9KcD",
+        "product_BFP48R",
+        "product_DztJyW",
+        "product_LQzE68",
+        "product_FX6ajt",
+        "product_xWXHxt",
+        "product_VGjNXz",
+        "product_NAMJat"
+      ]
+    }
+  }
 }
