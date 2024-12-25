@@ -162,12 +162,61 @@
         "product_6CGqxC": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        },
+        "product_fdJTTT": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        },
+        "product_8PwmNL": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_wRn9pV": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-obsid-rgbic-light-strip"
+          }
+        },
+        "product_wXC9gR": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_8HNVkz": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-smart-cube"
+          }
+        },
+        "product_qnXdGf": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_DYEXrj": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-smart-led-light-panels"
           }
         }
       },
       "block_order": [
-        "product_6CGqxC"
+        "product_6CGqxC",
+        "product_fdJTTT",
+        "product_8PwmNL",
+        "product_wRn9pV",
+        "product_wXC9gR",
+        "product_8HNVkz",
+        "product_qnXdGf",
+        "product_DYEXrj"
       ],
       "settings": {
         "title": "Celebrate in Light, Live in Style",
