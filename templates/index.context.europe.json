@@ -23,7 +23,7 @@
       "blocks": {
         "slide_Fzr8PT": {
           "type": "slide",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "header-74d14fc1fea458af99f6429d11fb11bf": null,
             "button_icon": "custom-valentine",
@@ -62,6 +62,17 @@
         "slide_6haFVF",
         "slide_4qH4Nh"
       ]
+    },
+    "slideshow_AaGJwH": {
+      "settings": {},
+      "blocks": {
+        "slide_Apj7XN": {
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/3_26c505ec-f8e7-4352-b76e-596cad624aa1.jpg"
+          }
+        }
+      }
     }
   }
 }
