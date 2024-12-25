@@ -113,6 +113,7 @@
   justify-content: center;
   line-height: 1.1;
   width: 100%;
+  z-index: 1;
 }
 .announcement-bar--item .bar-content {
   margin-right: 12px;

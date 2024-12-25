@@ -41,8 +41,8 @@
       >
         {%- for block in section.blocks -%}
           {%- liquid
-            assign background_image = section.settings.background_image
-            assign background_image_mobile = section.settings.background_image_mobile
+            assign background_image = block.settings.background_image
+            assign background_image_mobile = block.settings.background_image_mobile
           -%}
           {%- if background_image != blank or background_image_mobile != blank -%}
             <div class="announcement-bar--bg full-width full-height">
