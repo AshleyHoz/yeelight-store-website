@@ -38,6 +38,49 @@
         "activity_wyze": false
       }
     },
+    "activity_new_year_di8mPj": {
+      "type": "activity-new-year",
+      "blocks": {
+        "product_PLDXRU": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_qeiKJQ": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_R6hT4c": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_ede9rb": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-rgbic-led-basic-strip-lights"
+          }
+        }
+      },
+      "block_order": [
+        "product_PLDXRU",
+        "product_qeiKJQ",
+        "product_R6hT4c",
+        "product_ede9rb"
+      ],
+      "settings": {
+        "title": "",
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "right_x_position": 0,
+        "right_y_position": 0
+      }
+    },
     "activity_christmas_gCWHKU": {
       "type": "activity-christmas",
       "blocks": {
@@ -73,7 +116,7 @@
         "product_7ejnQL"
       ],
       "settings": {
-        "title": "Best Sellers in <span>2024</span>  🎉",
+        "title": "Best Sellers in 2024  🎉",
         "show_icon": true,
         "left_x_position": 0,
         "left_y_position": 0,
@@ -308,6 +351,7 @@
     "main",
     "single_image_g3UUwH",
     "single_image_Pn6pPg",
+    "activity_new_year_di8mPj",
     "activity_christmas_gCWHKU",
     "activity_christmas_Ayz4PF",
     "single_image_jKHqAE",
