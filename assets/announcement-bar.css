@@ -136,11 +136,11 @@
   height: auto;
 }
 
-.section-activity-christmas .announcement-bar--item .bar-button a.button {
+.yee-activity-christmas .announcement-bar--item .bar-button a.button {
   color: #fb3b18;
 }
 
-.section-activity-new-year .announcement-bar--item .bar-button a.button {
+.yee-activity-new-year .announcement-bar--item .bar-button a.button {
   color: #ff9d01;
   background: #fff;
 }
@@ -177,7 +177,13 @@
     padding: 8px 0;
   }
 
-  .announcement-bar--item {
+  .announcement-bar--item .bar-left-icon,
+  .announcement-bar--item .bar-right-icon {
+    display: none;
+  }
+
+  .announcement-bar--item .bar-wrapper {
+    width: 100%;
     flex-direction: column;
     gap: 4px;
   }

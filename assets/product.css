@@ -2353,7 +2353,7 @@ h6,
   font-size: 16px;
 }
 
-.section-activity-christmas .product-information .product-price-container .badge {
+.yee-activity-christmas .product-information .product-price-container .badge {
   background: linear-gradient(277deg, #f30 9.76%, #ffb700 124.89%);
 }
 
@@ -2374,8 +2374,8 @@ h6,
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
-.section-activity-black-friday .product-add-to-cart-bar,
-.section-activity-christmas .product-add-to-cart-bar {
+.yee-activity-black-friday .product-add-to-cart-bar,
+.yee-activity-christmas .product-add-to-cart-bar {
   background: #130f29;
 }
 
@@ -2479,11 +2479,7 @@ h6,
   .product-add-to-cart-bar--buttons
   .add_to_cart_holder
   .button.accent,
-.section-activity-christmas
-  .product-add-to-cart-bar
-  .product-add-to-cart-bar--buttons
-  .add_to_cart_holder
-  .button.accent {
+.yee-activity-christmas .product-add-to-cart-bar .product-add-to-cart-bar--buttons .add_to_cart_holder .button.accent {
   border: 1px solid #ffffff;
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
@@ -2624,7 +2620,7 @@ h6,
   z-index: 0;
 }
 
-.section-activity-christmas .dynamic-payment-buttons .dynamic-payment-button {
+.yee-activity-christmas .dynamic-payment-buttons .dynamic-payment-button {
   opacity: 0;
   z-index: 2;
   position: relative;
@@ -2742,7 +2738,7 @@ h6,
     display: flex;
   }
 
-  .section-activity-christmas .add_to_cart_holder {
+  .yee-activity-christmas .add_to_cart_holder {
     display: flex;
   }
 
@@ -2751,26 +2747,26 @@ h6,
     padding: 0 10px;
   }
 
-  /* .section-activity-christmas .product-information .add_to_cart_holder .single-add-to-cart-button,
-  .section-activity-christmas .product-information .add_to_cart_holder .dynamic-payment-buttons {
+  /* .yee-activity-christmas .product-information .add_to_cart_holder .single-add-to-cart-button,
+  .yee-activity-christmas .product-information .add_to_cart_holder .dynamic-payment-buttons {
     width: 50%;
   } */
 
-  .section-activity-christmas .product-information .dynamic-payment-icons {
+  .yee-activity-christmas .product-information .dynamic-payment-icons {
     display: flex;
   }
 
-  .section-activity-christmas .product-information .dynamic-payment-icons svg {
+  .yee-activity-christmas .product-information .dynamic-payment-icons svg {
     width: 100%;
     /* height: auto; */
   }
 
-  .section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons {
+  .yee-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons {
     border-radius: 50px;
     overflow: hidden;
   }
 
-  .section-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons svg {
+  .yee-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons svg {
     position: absolute;
     top: 0;
     left: 50%;

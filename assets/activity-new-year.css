@@ -1,0 +1,93 @@
+.activity-new-year {
+  position: relative;
+  padding: 70px 0;
+  background: #00092c;
+}
+
+.activity-new-year-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.activity-new-year-bg .cover-img,
+.activity-new-year-bg .mobile-cover-img {
+  z-index: 1;
+}
+
+.activity-new-year-bg .cover-img img,
+.activity-new-year-bg .mobile-cover-img img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.activity-new-year-bg .ic-bg-left,
+.activity-new-year-bg .ic-bg-right {
+  z-index: 1;
+}
+
+.activity-new-year-row {
+  position: relative;
+  z-index: 2;
+}
+
+.activity-new-year-bg .mobile-cover-img {
+  display: none;
+}
+
+.activity-new-year-row .activity-new-year--product {
+  gap: 24px;
+}
+
+.activity-new-year-row .activity-new-year--product .product-item {
+  width: calc(25% - 20px);
+}
+
+.activity-new-year-row .activity-new-year--product .product-item .product-card {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 767px) {
+  .activity-new-year {
+    padding: 24px 0;
+  }
+  .activity-new-year-row {
+    margin-top: 0;
+  }
+
+  .activity-new-year-row .activity-new-year--product {
+    gap: 12px;
+  }
+
+  .activity-new-year-row .activity-new-year--product .product-item {
+    width: calc(50% - 6px);
+  }
+
+  .activity-new-year-bg .mobile-cover-img {
+    display: block;
+  }
+
+  .activity-new-year-bg .cover-img {
+    display: none;
+  }
+  .activity-new-year-bg .ic-bg-left svg,
+  .activity-new-year-bg .ic-bg-right svg {
+    width: 206px;
+    height: 100px;
+  }
+
+  .activity-new-year-bg .ic-bg-left {
+    position: absolute;
+    left: -50px !important;
+    top: -50px !important;
+    transform: rotate(-25deg);
+  }
+  .activity-new-year-bg .ic-bg-right {
+    position: absolute;
+    right: -50px !important;
+    top: -50px !important;
+    transform: rotate(25deg);
+  }
+}

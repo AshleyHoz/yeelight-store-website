@@ -119,7 +119,7 @@
     </script>
     {{ settings.custom_html_head }}
   </head>
-  <body class="animations-{{ settings.animations }} button-uppercase-{{ settings.button_uppercase }} navigation-uppercase-{{ settings.navigation_uppercase }} product-card-spacing-{{ settings.product_card_spacing }} article-card-spacing-{{ settings.article_card_spacing }} {% if customer %} customer-logged-in{% endif %} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', '-' | handle }} {% if settings.halloween_flag %}section-activity-halloween{% endif %} {% if settings.black_friday_flag %}section-activity-black-friday{% endif %}{% if settings.christmas_flag %}section-activity-christmas{% endif %}{% if settings.new_year_flag %}section-activity-new-year{% endif %}">
+  <body class="animations-{{ settings.animations }} button-uppercase-{{ settings.button_uppercase }} navigation-uppercase-{{ settings.navigation_uppercase }} product-card-spacing-{{ settings.product_card_spacing }} article-card-spacing-{{ settings.article_card_spacing }} {% if customer %} customer-logged-in{% endif %} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', '-' | handle }} {% if settings.halloween_flag %}yee-activity-halloween{% endif %} {% if settings.black_friday_flag %}yee-activity-black-friday{% endif %}{% if settings.christmas_flag %}yee-activity-christmas{% endif %}{% if settings.new_year_flag %}yee-activity-new-year{% endif %}">
     <a class="screen-reader-shortcut" href="#main-content">{{ 'accessibility.skip_to_text' | t }}</a>
     <div id="wrapper">
       <div class="header--sticky"></div>

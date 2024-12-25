@@ -1,4 +1,4 @@
-{{ 'activity-christmas.css' | asset_url | stylesheet_tag }}
+{{ 'activity-new-year.css' | asset_url | stylesheet_tag }}
 {{ 'product-grid.css' | asset_url | stylesheet_tag }}
 {%- liquid
   assign section_title = section.settings.title
@@ -6,9 +6,9 @@
   assign background_image_mobile = section.settings.background_image_mobile
 -%}
 
-<div class="activity-christmas">
-  <div class="activity-christmas-bg full-width full-height">
-    <div class="activity-christmas-bg--inner full-height position-relative">
+<div class="activity-new-year">
+  <div class="activity-new-year-bg full-width full-height">
+    <div class="activity-new-year-bg--inner full-height position-relative">
       <div class="mobile-cover-img full-width full-height">
         {%- if background_image_mobile -%}
           {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
@@ -35,13 +35,13 @@
       {% endif %}
     </div>
   </div>
-  <div class="row activity-christmas-row">
+  <div class="row activity-new-year-row">
     {% if section_title %}
-      <div class="activity-christmas-header full-width">
+      <div class="activity-new-year-header full-width">
         {% render 'section-header', section_heading: section_title %}
       </div>
     {% endif %}
-    <div class="activity-christmas--product full-width d-flex flex-wrap justify-space-between">
+    <div class="activity-new-year--product full-width d-flex flex-wrap justify-space-between">
       {% for block in section.blocks %}
         <div class="product-item">
           {% render 'product-card', product_card_product: block.settings.product %}
@@ -54,7 +54,7 @@
 {% schema %}
 {
   "name": "Activity Christmas",
-  "class": "yee-activity-christmas",
+  "class": "yee-activity-new-year",
   "settings": [
     {
       "type": "text",

@@ -5616,14 +5616,21 @@ input[type='radio'],
   -webkit-text-fill-color: transparent;
 }
 
-.yee-activity-halloween .image-product-header .section-header--title > span {
+.yee-activity-halloween .section-header--title > span {
   color: #8aff00;
   background: none;
   -webkit-text-fill-color: #8aff00;
 }
 
-.section-activity-christmas .section-header--title > span {
+.yee-activity-christmas .section-header--title > span {
   background: linear-gradient(270deg, #f30 5.05%, #ffb700 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.yee-activity-new-year .section-header--title > span {
+  background: linear-gradient(90deg, #ffc852 0%, #ef9300 32.5%, #ef9300 66.5%, #ffc852 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
