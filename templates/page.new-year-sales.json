@@ -73,10 +73,12 @@
         "product_ede9rb"
       ],
       "settings": {
-        "title": "",
+        "title": "Best Sellers in 2024  🎉",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
+        "background_image": "shopify://shop_images/NewYearProductBg.png",
+        "background_image_mobile": "shopify://shop_images/NewYearProductBgMobile.png",
         "right_x_position": 0,
         "right_y_position": 0
       }
