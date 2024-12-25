@@ -12,5 +12,16 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "slideshow_AaGJwH": {
+      "settings": {},
+      "blocks": {
+        "slide_gEb3pq": {
+          "settings": {
+            "content": ""
+          }
+        }
+      }
+    }
+  }
 }
