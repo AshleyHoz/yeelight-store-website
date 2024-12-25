@@ -12,5 +12,21 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "image_products_g9y4fJ": {
+      "settings": {},
+      "blocks": {
+        "product_A7cKdJ": {
+          "settings": {
+            "product": "yeelight-pura-monitor-light-bar-pro"
+          }
+        },
+        "product_8h8D8i": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        }
+      }
+    }
+  }
 }
