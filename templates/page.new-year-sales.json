@@ -14,29 +14,16 @@
       "disabled": true,
       "settings": {}
     },
-    "video_MVkEjJ": {
-      "type": "video",
+    "single_image_g3UUwH": {
+      "type": "single-image",
       "settings": {
-        "heading": "",
-        "cover_title": "Bring the Festive Magic Home",
-        "cover_image": "shopify://shop_images/ChristmasTitleSales.png",
-        "marker_style": "style1",
-        "description": "",
+        "link": "",
+        "image": "shopify://shop_images/NewYearBg.png",
+        "image_mobile": "shopify://shop_images/NewYearBgMobile.jpg",
         "full_width": true,
-        "video": "",
-        "video_hosted": "shopify://files/videos/ChristmasVideo.mp4",
-        "video_hosted_mobile": "shopify://files/videos/ChristmasVideoMobile.mp4",
-        "video_autoplay": true,
-        "video_loop": true,
-        "video_controls": false,
-        "desktop_height": "desktop-height-480",
-        "mobile_height": "mobile-height-345",
-        "aspect_ratio": "16-9",
-        "marker_color": "#fd6262",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "halloween_skull_flag": false,
-        "black_friday_ui_flag": false
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false
       }
     },
     "single_image_Pn6pPg": {
@@ -317,7 +304,7 @@
   },
   "order": [
     "main",
-    "video_MVkEjJ",
+    "single_image_g3UUwH",
     "single_image_Pn6pPg",
     "activity_christmas_gCWHKU",
     "activity_christmas_Ayz4PF",
