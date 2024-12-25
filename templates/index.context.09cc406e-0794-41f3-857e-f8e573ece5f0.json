@@ -10,13 +10,7 @@
 {
   "parent": "index.json",
   "context": {
-    "market": "europe"
+    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {
-    "shop_the_look_slider_33yC6m": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    }
-  }
+  "sections": {}
 }
