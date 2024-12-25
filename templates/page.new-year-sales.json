@@ -73,11 +73,12 @@
         "product_7ejnQL"
       ],
       "settings": {
-        "title": "Best Sellers in <span>2024</span> 🎉",
+        "title": "Best Sellers in <span>2024</span>  🎉",
         "show_icon": true,
         "left_x_position": 0,
         "left_y_position": 0,
-        "background_image": "shopify://shop_images/ChristmasBg.png",
+        "background_image": "shopify://shop_images/NewYearProductBg.png",
+        "background_image_mobile": "shopify://shop_images/NewYearProductBgMobile.png",
         "right_x_position": 0,
         "right_y_position": 0
       }
