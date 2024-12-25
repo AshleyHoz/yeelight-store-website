@@ -1242,6 +1242,12 @@
         "id": "christmas_flag",
         "label": "Enable christmas css globally",
         "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "new_year_flag",
+        "label": "Enable new year css globally",
+        "default": false
       }
     ]
   },

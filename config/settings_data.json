@@ -81,6 +81,7 @@
     "halloween_flag": false,
     "black_friday_flag": false,
     "christmas_flag": true,
+    "new_year_flag": false,
     "product_opposite_theme": true,
     "product_background": "#ffffff",
     "product_font_color": "#2C2D2E",
