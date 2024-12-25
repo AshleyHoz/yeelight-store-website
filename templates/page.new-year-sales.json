@@ -73,7 +73,7 @@
         "product_ede9rb"
       ],
       "settings": {
-        "title": "Best Sellers in 2024  🎉",
+        "title": "Best Sellers in <span>2024</span>  🎉",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
