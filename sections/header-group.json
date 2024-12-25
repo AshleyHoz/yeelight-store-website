@@ -17,6 +17,8 @@
         "text_dNwVVJ": {
           "type": "text",
           "settings": {
+            "background_image": "shopify://shop_images/NewYearAnnouncementBg.png",
+            "background_image_mobile": "shopify://shop_images/NewYearAnnouncementBgMobile.png",
             "icon": "none",
             "text": "Start the Year in Style",
             "sub_text": "UP TO 40% OFF",
