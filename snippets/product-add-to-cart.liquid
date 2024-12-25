@@ -76,6 +76,19 @@
                     {%- render 'svg-icons-christmas-sec' with 'custom-christmas-shop-product' -%}
                   </div>
                 {%- endif -%}
+                {%- if settings.new_year_flag -%}
+                  <div class="dynamic-payment-icons">
+                    <div class="dynamic-payment-icons-svg full-width full-height">
+                      {%- render 'svg-icons-newyear' with 'custom-newyear-product-shop' -%}
+                    </div>
+                    <div class="dynamic-payment-icons-hover full-width full-height">
+                      {%- render 'svg-icons-newyear' with 'custom-newyear-product-shop-hover' -%}
+                    </div>
+                    <div class="dynamic-payment-icons-mobile">
+                      {%- render 'svg-icons-newyear' with 'custom-newyear-shop-mobile' -%}
+                    </div>
+                  </div>
+                {%- endif -%}
                 <div class="dynamic-payment-button">
                   {{ form | payment_button }}
                 </div>

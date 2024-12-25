@@ -30,7 +30,13 @@
       </span>
     {%- endif -%}
 
-    {%- if settings.black_friday_flag or settings.christmas_flag -%}
+    {%- if settings.new_year_flag -%}
+      <span class="newyear-shop-badge">
+        {%- render 'svg-icons-newyear' with 'custom-newyear-badge' -%}
+      </span>
+    {%- endif -%}
+
+    {%- if settings.black_friday_flag or settings.christmas_flag or settings.new_year_flag -%}
       <div class="activity-badge-content">
         <div class="badge-title">
           {{ 'products.product.save_html' | t: saved_amount: saved_amount }}

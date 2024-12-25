@@ -329,7 +329,8 @@
 }
 .yee-activity-halloween .product-card .badge,
 .yee-activity-black-friday .product-card .badge,
-.yee-activity-christmas .product-card .badge {
+.yee-activity-christmas .product-card .badge,
+.yee-activity-new-year .product-card .badge {
   background: transparent;
   border-radius: unset;
 }
@@ -339,7 +340,8 @@
 .yee-activity-halloween .product-card .badge .halloween-shop-badge,
 .yee-activity-halloween .product-card .badge .halloween-shop-badge-mobile,
 .yee-activity-christmas .product-card .badge .christmas-shop-badge,
-.yee-activity-black-friday .product-card .badge .black-friday-shop-badge {
+.yee-activity-black-friday .product-card .badge .black-friday-shop-badge,
+.yee-activity-new-year .product-card .badge .newyear-shop-badge {
   position: absolute;
   top: 0;
   left: 0;
@@ -919,7 +921,8 @@
 }
 
 .image-product-halloween-shop .halloween-shop-hover,
-.christmas-shop-mobile {
+.christmas-shop-mobile,
+.newyear-shop-mobile {
   display: none;
 }
 
@@ -936,6 +939,40 @@
 
 .halloween-shop-container:hover .halloween-shop {
   display: none;
+}
+
+.newyear-shop,
+.newyear-shop-mobile {
+  position: relative;
+}
+
+.newyear-shop-svg,
+.newyear-shop-hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.newyear-shop-hover {
+  opacity: 0;
+}
+
+.newyear-shop:hover .newyear-shop-hover {
+  opacity: 1;
+}
+
+.newyear-shop:hover .newyear-shop-svg {
+  opacity: 0;
+}
+
+.newyear-shop svg,
+.newyear-shop-mobile svg {
+  width: 100%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -990,7 +1027,8 @@
     gap: 6px;
   }
 
-  .yee-activity-christmas .product-card .product-opt-wrapper {
+  .yee-activity-christmas .product-card .product-opt-wrapper,
+  .yee-activity-new-year .product-card .product-opt-wrapper {
     padding: 8px 12px;
   }
 
@@ -1038,9 +1076,27 @@
     display: none;
   }
 
+  .yee-activity-black-friday .product-card .badge svg {
+    width: 42px;
+    height: 48px;
+  }
+
+  .yee-activity-black-friday .product-card .badge {
+    padding: 4px 6px 11px 6px;
+  }
+
   .yee-activity-christmas .product-card .badge .christmas-shop-badge svg {
     width: 45px;
     height: 48px;
+  }
+
+  .yee-activity-new-year .product-card .badge {
+    padding: 2px 10px 6px 10px;
+  }
+
+  .yee-activity-new-year .product-card .badge .newyear-shop-badge svg {
+    width: 38px;
+    height: 43px;
   }
 
   .product-card .badge .badge-title {
@@ -1076,15 +1132,6 @@
     line-height: 14px;
   }
 
-  .yee-activity-black-friday .product-card .badge svg {
-    width: 42px;
-    height: 48px;
-  }
-
-  .yee-activity-black-friday .product-card .badge {
-    padding: 4px 6px 11px 6px;
-  }
-
   .product-card-cover {
     display: none;
   }
@@ -1101,12 +1148,14 @@
   }
 
   .halloween-shop-container,
-  .christmas-shop {
+  .christmas-shop,
+  .newyear-shop {
     display: none;
   }
 
+  .halloween-shop-container-mobile,
   .christmas-shop-mobile,
-  .halloween-shop-container-mobile {
+  .newyear-shop-mobile {
     display: flex;
   }
 

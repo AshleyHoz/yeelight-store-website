@@ -2353,7 +2353,8 @@ h6,
   font-size: 16px;
 }
 
-.yee-activity-christmas .product-information .product-price-container .badge {
+.yee-activity-christmas .product-information .product-price-container .badge,
+.yee-activity-new-year .product-information .product-price-container .badge {
   background: linear-gradient(277deg, #f30 9.76%, #ffb700 124.89%);
 }
 
@@ -2375,7 +2376,8 @@ h6,
 }
 
 .yee-activity-black-friday .product-add-to-cart-bar,
-.yee-activity-christmas .product-add-to-cart-bar {
+.yee-activity-christmas .product-add-to-cart-bar,
+.yee-activity-new-year .product-add-to-cart-bar {
   background: #130f29;
 }
 
@@ -2479,7 +2481,8 @@ h6,
   .product-add-to-cart-bar--buttons
   .add_to_cart_holder
   .button.accent,
-.yee-activity-christmas .product-add-to-cart-bar .product-add-to-cart-bar--buttons .add_to_cart_holder .button.accent {
+.yee-activity-christmas .product-add-to-cart-bar .product-add-to-cart-bar--buttons .add_to_cart_holder .button.accent,
+.yee-activity-new-year .product-add-to-cart-bar .product-add-to-cart-bar--buttons .add_to_cart_holder .button.accent {
   border: 1px solid #ffffff;
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
@@ -2618,12 +2621,32 @@ h6,
   width: 100%;
   height: 100%;
   z-index: 0;
+  border-radius: 20px;
 }
 
-.yee-activity-christmas .dynamic-payment-buttons .dynamic-payment-button {
+.yee-activity-christmas .dynamic-payment-buttons .dynamic-payment-button,
+.yee-activity-new-year .dynamic-payment-buttons .dynamic-payment-button {
   opacity: 0;
   z-index: 2;
   position: relative;
+}
+
+.yee-activity-new-year .product-information .dynamic-payment-icons svg {
+  width: 100%;
+  height: 102%;
+}
+
+.yee-activity-new-year .product-information .dynamic-payment-icons .dynamic-payment-icons-hover,
+.yee-activity-new-year .product-information .dynamic-payment-icons .dynamic-payment-icons-mobile {
+  display: none;
+}
+
+.yee-activity-new-year .product-information .dynamic-payment-buttons:hover .dynamic-payment-icons-svg {
+  display: none;
+}
+
+.yee-activity-new-year .product-information .dynamic-payment-buttons:hover .dynamic-payment-icons-hover {
+  display: flex;
 }
 
 .shopify-payment-button .shopify-payment-button__more-options {
@@ -2738,35 +2761,32 @@ h6,
     display: flex;
   }
 
-  .yee-activity-christmas .add_to_cart_holder {
-    display: flex;
-  }
-
   .product-information .single-add-to-cart-button {
     width: 50%;
     padding: 0 10px;
   }
 
-  /* .yee-activity-christmas .product-information .add_to_cart_holder .single-add-to-cart-button,
-  .yee-activity-christmas .product-information .add_to_cart_holder .dynamic-payment-buttons {
-    width: 50%;
-  } */
-
-  .yee-activity-christmas .product-information .dynamic-payment-icons {
+  .yee-activity-christmas .add_to_cart_holder,
+  .yee-activity-new-year .add_to_cart_holder,
+  .yee-activity-christmas .product-information .dynamic-payment-icons,
+  .yee-activity-new-year .product-information .dynamic-payment-icons {
     display: flex;
   }
 
-  .yee-activity-christmas .product-information .dynamic-payment-icons svg {
+  .yee-activity-christmas .product-information .dynamic-payment-icons svg,
+  .yee-activity-new-year .product-information .dynamic-payment-icons svg {
     width: 100%;
     /* height: auto; */
   }
 
-  .yee-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons {
+  .yee-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons,
+  .yee-activity-new-year .product-add-to-cart-bar .dynamic-payment-icons {
     border-radius: 50px;
     overflow: hidden;
   }
 
-  .yee-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons svg {
+  .yee-activity-christmas .product-add-to-cart-bar .dynamic-payment-icons svg,
+  .yee-activity-new-year .product-add-to-cart-bar .dynamic-payment-icons svg {
     position: absolute;
     top: 0;
     left: 50%;

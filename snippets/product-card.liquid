@@ -271,6 +271,18 @@
           <div class="christmas-shop-mobile full-width full-height cursor-pointer">
             {%- render 'svg-icons-christmas-sec' with 'custom-christmas-shop-mobile' -%}
           </div>
+        {%- elsif settings.new_year_flag -%}
+          <div class="newyear-shop full-width full-height cursor-pointer ">
+            <div class="newyear-shop-svg">
+              {%- render 'svg-icons-newyear' with 'custom-newyear-shop' -%}
+            </div>
+            <div class="newyear-shop-hover">
+              {%- render 'svg-icons-newyear' with 'custom-newyear-shop-hover' -%}
+            </div>
+          </div>
+          <div class="newyear-shop-mobile full-width full-height cursor-pointer">
+            {%- render 'svg-icons-newyear' with 'custom-newyear-shop-mobile' -%}
+          </div>
         {%- else -%}
           <div class="product-card-view full-width full-height position-relative overflow-hidden cursor-pointer">
             Shop Now
