@@ -150,7 +150,8 @@
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
-        "background_image": "shopify://shop_images/ChristmasBgSec.png",
+        "background_image": "shopify://shop_images/NewYearProductBgSec.png",
+        "background_image_mobile": "shopify://shop_images/NewYearProductBgSecMobile.png",
         "right_x_position": 0,
         "right_y_position": 0
       }
@@ -159,8 +160,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/ChristmasImage.png",
-        "image_mobile": "shopify://shop_images/ChristmasImageMobile.png",
+        "image": "shopify://shop_images/NewYearImage.png",
+        "image_mobile": "shopify://shop_images/NewYearImageMobile.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -171,8 +172,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Christmas.png",
-        "image_mobile": "shopify://shop_images/ChristmasMobile.png",
+        "image": "shopify://shop_images/NewYearSaleBg.png",
+        "image_mobile": "shopify://shop_images/NewYearSaleBgMobile.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
