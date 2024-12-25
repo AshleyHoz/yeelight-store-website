@@ -17,6 +17,8 @@
         "955bb93b-7a65-4933-8023-83a64ee46bc2": {
           "type": "text",
           "settings": {
+            "background_image": "shopify://shop_images/ChristmasAnnouncementBg.png",
+            "background_image_mobile": "shopify://shop_images/ChristmasAnnouncementBgMobile.png",
             "icon": "none",
             "text": "Bring the Festive Magic Home",
             "sub_text": "UP TO 50% OFF",
@@ -37,8 +39,6 @@
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
-        "background_image": "shopify://shop_images/ChristmasAnnouncementBg.png",
-        "background_image_mobile": "shopify://shop_images/ChristmasAnnouncementBgMobile.png",
         "direction": "left",
         "speed": "50s",
         "use_block_colors": false,
