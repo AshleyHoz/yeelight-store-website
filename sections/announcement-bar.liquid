@@ -55,7 +55,12 @@
             </div>
           {%- endif -%}
           {% if announcement_bar_layout == 'single' %}
-            <div class="announcement-bar--item">
+            <div class="announcement-bar--item d-flex align-center justify-center full-width">
+              <div class="d-flex align-center mr-8">
+                {%- if settings.new_year_flag -%}
+                  {%- render 'svg-icons-newyear' with 'custom-newyear-announcement-fireworks' -%}
+                {%- endif -%}
+              </div>
               <div class="bar-content">
                 <span class="bar-text">{{ block.settings.text }}</span>
                 {% if block.settings.sub_text != blank %}
@@ -82,6 +87,11 @@
                     </a>
                   {% endif %}
                 {% endif %}
+              </div>
+              <div class="d-flex align-center ml-8">
+                {%- if settings.new_year_flag -%}
+                  {%- render 'svg-icons-newyear' with 'custom-newyear-announcement-fireworks' -%}
+                {%- endif -%}
               </div>
             </div>
           {% endif %}

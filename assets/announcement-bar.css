@@ -108,11 +108,7 @@
   stroke: var(--color-announcement-bar-text, #fff);
 }
 .announcement-bar--item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   line-height: 1.1;
-  width: 100%;
   z-index: 1;
 }
 .announcement-bar--item .bar-content {
@@ -135,14 +131,23 @@
   color: rgba(255, 255, 255, 0.4);
 }
 .announcement-bar--item .bar-button a.button {
-  color: #fb3b18;
+  color: #ffffff;
   padding: 5px 12px;
   height: auto;
 }
 
+.section-activity-christmas .announcement-bar--item .bar-button a.button {
+  color: #fb3b18;
+}
+
+.section-activity-new-year .announcement-bar--item .bar-button a.button {
+  color: #ff9d01;
+  background: #fff;
+}
+
 .announcement-bar--item svg {
-  margin-right: 12px;
-  height: 14px;
+  /* margin-right: 12px;
+  height: 14px; */
   fill: var(--color-announcement-bar-text, #fff);
 }
 .announcement-bar--item a {
@@ -173,7 +178,6 @@
   }
 
   .announcement-bar--item {
-    display: flex;
     flex-direction: column;
     gap: 4px;
   }
