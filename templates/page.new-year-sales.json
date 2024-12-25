@@ -83,79 +83,6 @@
         "right_y_position": 0
       }
     },
-    "activity_christmas_Ayz4PF": {
-      "type": "activity-christmas",
-      "blocks": {
-        "product_LQzE68": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-beam-rgbic-light-bar"
-          }
-        },
-        "product_FX6ajt": {
-          "type": "product",
-          "settings": {
-            "product": "a-yeelight-cube-4-matrix-pack"
-          }
-        },
-        "product_xWXHxt": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
-          }
-        },
-        "product_VGjNXz": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-obsid-rgbic-light-strip"
-          }
-        },
-        "product_Dn9KcD": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-candela-lamp"
-          }
-        },
-        "product_NAMJat": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-smart-cube"
-          }
-        },
-        "product_BFP48R": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-smart-led-lamp-d2"
-          }
-        },
-        "product_DztJyW": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-smart-led-light-panels"
-          }
-        }
-      },
-      "block_order": [
-        "product_LQzE68",
-        "product_FX6ajt",
-        "product_xWXHxt",
-        "product_VGjNXz",
-        "product_Dn9KcD",
-        "product_NAMJat",
-        "product_BFP48R",
-        "product_DztJyW"
-      ],
-      "settings": {
-        "title": "Celebrate in Light, Live in Style",
-        "show_icon": false,
-        "left_x_position": 0,
-        "left_y_position": 0,
-        "background_image": "shopify://shop_images/NewYearProductBgSec.png",
-        "background_image_mobile": "shopify://shop_images/NewYearProductBgSecMobile.png",
-        "right_x_position": 0,
-        "right_y_position": 0
-      }
-    },
     "activity_new_year_CtQC3B": {
       "type": "activity-new-year",
       "blocks": {
@@ -382,7 +309,6 @@
     "single_image_g3UUwH",
     "single_image_Pn6pPg",
     "activity_new_year_di8mPj",
-    "activity_christmas_Ayz4PF",
     "activity_new_year_CtQC3B",
     "single_image_jKHqAE",
     "single_image_HQL3cr",
