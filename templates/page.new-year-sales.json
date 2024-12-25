@@ -83,51 +83,6 @@
         "right_y_position": 0
       }
     },
-    "activity_christmas_gCWHKU": {
-      "type": "activity-christmas",
-      "blocks": {
-        "product_G7M78V": {
-          "type": "product",
-          "settings": {
-            "product": "a-yeelight-christmas-string-lights"
-          }
-        },
-        "product_rrdUMy": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-permanent-outdoor-lights"
-          }
-        },
-        "product_Wnnp6P": {
-          "type": "product",
-          "settings": {
-            "product": "a-yeelight-curtain-lights"
-          }
-        },
-        "product_7ejnQL": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-rgbic-led-basic-strip-lights"
-          }
-        }
-      },
-      "block_order": [
-        "product_G7M78V",
-        "product_rrdUMy",
-        "product_Wnnp6P",
-        "product_7ejnQL"
-      ],
-      "settings": {
-        "title": "Best Sellers in 2024  🎉",
-        "show_icon": true,
-        "left_x_position": 0,
-        "left_y_position": 0,
-        "background_image": "shopify://shop_images/NewYearProductBg.png",
-        "background_image_mobile": "shopify://shop_images/NewYearProductBgMobile.png",
-        "right_x_position": 0,
-        "right_y_position": 0
-      }
-    },
     "activity_christmas_Ayz4PF": {
       "type": "activity-christmas",
       "blocks": {
@@ -189,6 +144,30 @@
         "product_NAMJat",
         "product_BFP48R",
         "product_DztJyW"
+      ],
+      "settings": {
+        "title": "Celebrate in Light, Live in Style",
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "background_image": "shopify://shop_images/NewYearProductBgSec.png",
+        "background_image_mobile": "shopify://shop_images/NewYearProductBgSecMobile.png",
+        "right_x_position": 0,
+        "right_y_position": 0
+      }
+    },
+    "activity_new_year_CtQC3B": {
+      "type": "activity-new-year",
+      "blocks": {
+        "product_6CGqxC": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_6CGqxC"
       ],
       "settings": {
         "title": "Celebrate in Light, Live in Style",
@@ -354,8 +333,8 @@
     "single_image_g3UUwH",
     "single_image_Pn6pPg",
     "activity_new_year_di8mPj",
-    "activity_christmas_gCWHKU",
     "activity_christmas_Ayz4PF",
+    "activity_new_year_CtQC3B",
     "single_image_jKHqAE",
     "single_image_HQL3cr",
     "rich_text_F6XM9m",
