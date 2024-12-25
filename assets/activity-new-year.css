@@ -72,22 +72,23 @@
   .activity-new-year-bg .cover-img {
     display: none;
   }
-  .activity-new-year-bg .ic-bg-left svg,
+  .activity-new-year-bg .ic-bg-left svg {
+    width: 65px;
+    height: 96px;
+  }
   .activity-new-year-bg .ic-bg-right svg {
-    width: 206px;
-    height: 100px;
+    width: 80px;
+    height: 101px;
   }
 
   .activity-new-year-bg .ic-bg-left {
     position: absolute;
-    left: -50px !important;
-    top: -50px !important;
-    transform: rotate(-25deg);
+    left: 5px !important;
+    top: -10px !important;
   }
   .activity-new-year-bg .ic-bg-right {
     position: absolute;
-    right: -50px !important;
-    top: -50px !important;
-    transform: rotate(25deg);
+    right: 0;
+    top: 10px !important;
   }
 }
