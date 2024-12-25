@@ -9,8 +9,6 @@
     assign use_block_colors = section.settings.use_block_colors
     assign autoplay = section.settings.autoplay
     assign background_color = section.settings.background_color
-    assign background_image = section.settings.background_image
-    assign background_image_mobile = section.settings.background_image_mobile
 
     assign show_announcement_bar = true
 
@@ -37,23 +35,26 @@
       class="announcement-bar"
       style="--color-announcement-bar-text: {{ color_announcement_bar_text }}; --color-announcement-bar-bg: {{ color_announcement_bar_bg -}};--color-announcement-background-bg: {{ background_color -}};{%if background_color != 'transparent' and background_color != 'rgba(0,0,0,0)'%}background:{{background_color}} !important; {% endif %}"
     >
-      {%- if background_image != blank or background_image_mobile != blank -%}
-        <div class="announcement-bar--bg full-width full-height">
-          <div class="bar--bg full-height">
-            {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
-          </div>
-          <div class="bar--bg--mobile full-height">
-            {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
-          </div>
-        </div>
-      {%- endif -%}
-
       <div
         class="announcement-bar--inner full-height direction-{{ direction }} announcement-bar--{{ announcement_bar_layout }} d-flex align-center"
         style="--marquee-speed: {{ speed }}"
       >
-        {% if announcement_bar_layout == 'single' %}
-          {%- for block in section.blocks -%}
+        {%- for block in section.blocks -%}
+          {%- liquid
+            assign background_image = section.settings.background_image
+            assign background_image_mobile = section.settings.background_image_mobile
+          -%}
+          {%- if background_image != blank or background_image_mobile != blank -%}
+            <div class="announcement-bar--bg full-width full-height">
+              <div class="bar--bg full-height">
+                {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+              </div>
+              <div class="bar--bg--mobile full-height">
+                {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
+              </div>
+            </div>
+          {%- endif -%}
+          {% if announcement_bar_layout == 'single' %}
             <div class="announcement-bar--item">
               <div class="bar-content">
                 <span class="bar-text">{{ block.settings.text }}</span>
@@ -83,10 +84,9 @@
                 {% endif %}
               </div>
             </div>
-          {% endfor %}
-        {% endif %}
-        {%- if announcement_bar_layout == 'marquee' -%}
-          {%- capture scrolling_text -%}
+          {% endif %}
+          {%- if announcement_bar_layout == 'marquee' -%}
+            {%- capture scrolling_text -%}
 					<div>
 						{%- for i in (1..5) -%}
 							{%- liquid
@@ -108,37 +108,42 @@
 						{%- endfor -%}
 					</div>
 					{%- endcapture -%}
-          {{ scrolling_text -}}
-          {{- scrolling_text -}}
-          {{- scrolling_text }}
-        {%- elsif announcement_bar_layout == 'carousel' -%}
-          <slide-show
-            class="carousel full-width announcement-bar--use-colors-{{ use_block_colors }}"
-            data-autoplay="{{ autoplay }}"
-          >
-            {%- for block in section.blocks -%}
-              <div
-                class="announcement-bar--item carousel__slide full-width"
-                data-color="{{ block.settings.color_text }}"
-                data-bg="{{ block.settings.color_bg }}"
-                {{ block.shopify_attributes }}
-              >
-                {%- if block.settings.link -%}
-                  <a href="{{ block.settings.link }}" target="_blank">
-                {%- endif -%}
-                {%- if block.settings.icon -%}{% render 'svg-icons-inline', icon: block.settings.icon %}{%- endif -%}
-                {{- block.settings.text -}}
-                {%- if block.settings.link -%}
-                  </a>
-                {%- endif -%}
-              </div>
-            {%- endfor -%}
-            {%- if section.blocks.size > 1 -%}
-              <div class="flickity-nav flickity-prev" tabindex="0">{% render 'svg-icons' with 'thb-caret-left' %}</div>
-              <div class="flickity-nav flickity-next" tabindex="0">{% render 'svg-icons' with 'thb-caret-right' %}</div>
-            {%- endif -%}
-          </slide-show>
-        {%- endif -%}
+            {{ scrolling_text -}}
+            {{- scrolling_text -}}
+            {{- scrolling_text }}
+          {%- elsif announcement_bar_layout == 'carousel' -%}
+            <slide-show
+              class="carousel full-width announcement-bar--use-colors-{{ use_block_colors }}"
+              data-autoplay="{{ autoplay }}"
+            >
+              {%- for block in section.blocks -%}
+                <div
+                  class="announcement-bar--item carousel__slide full-width"
+                  data-color="{{ block.settings.color_text }}"
+                  data-bg="{{ block.settings.color_bg }}"
+                  {{ block.shopify_attributes }}
+                >
+                  {%- if block.settings.link -%}
+                    <a href="{{ block.settings.link }}" target="_blank">
+                  {%- endif -%}
+                  {%- if block.settings.icon -%}{% render 'svg-icons-inline', icon: block.settings.icon %}{%- endif -%}
+                  {{- block.settings.text -}}
+                  {%- if block.settings.link -%}
+                    </a>
+                  {%- endif -%}
+                </div>
+              {%- endfor -%}
+              {%- if section.blocks.size > 1 -%}
+                <div class="flickity-nav flickity-prev" tabindex="0">
+                  {% render 'svg-icons' with 'thb-caret-left' %}
+                </div>
+                <div class="flickity-nav flickity-next" tabindex="0">
+                  {% render 'svg-icons' with 'thb-caret-right' %}
+                </div>
+              {%- endif -%}
+            </slide-show>
+          {%- endif -%}
+        {% endfor %}
       </div>
     </div>
   {%- endif -%}
@@ -180,16 +185,6 @@
       ],
       "default": "single",
       "label": "Layout"
-    },
-    {
-      "type": "image_picker",
-      "id": "background_image",
-      "label": "Background Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "background_image_mobile",
-      "label": "Background Image Mobile"
     },
     {
       "type": "header",
@@ -273,6 +268,16 @@
       "type": "text",
       "name": "Text",
       "settings": [
+        {
+          "type": "image_picker",
+          "id": "background_image",
+          "label": "Background Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "background_image_mobile",
+          "label": "Background Image Mobile"
+        },
         {
           "type": "select",
           "id": "icon",
