@@ -12,5 +12,14 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "image_with_text_overlay_EHXcMN": {
+      "settings": {
+        "image": "shopify://shop_images/outdoor_topic_page.jpg",
+        "desktop_height": "desktop-height-450",
+        "mobile_image": "shopify://shop_images/outdoor_topic_mobile.jpg"
+      },
+      "blocks": {}
+    }
+  }
 }
