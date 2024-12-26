@@ -12,5 +12,32 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "activity_new_year_di8mPj": {
+      "settings": {},
+      "blocks": {
+        "product_PLDXRU": {
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        },
+        "product_qeiKJQ": {
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_ede9rb": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        }
+      },
+      "block_order": [
+        "product_R6hT4c",
+        "product_PLDXRU",
+        "product_qeiKJQ",
+        "product_ede9rb"
+      ]
+    }
+  }
 }
