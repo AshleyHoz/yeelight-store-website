@@ -12,5 +12,29 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "slideshow_AaGJwH": {
+      "settings": {},
+      "blocks": {
+        "slide_rYUPUw": {
+          "settings": {
+            "image": "shopify://shop_images/New_Year_Sales_banner_PC.jpg",
+            "mobile_image": "shopify://shop_images/New_Year_Sales_banner_M.jpg",
+            "slide_link": "shopify://pages/new-year-sales"
+          }
+        },
+        "slide_gEb3pq": {
+          "settings": {
+            "image": "shopify://shop_images/Cube_4.jpg",
+            "mobile_image": "shopify://shop_images/M_cube.jpg",
+            "slide_link": "shopify://products/a-yeelight-cube-4-matrix-pack"
+          }
+        }
+      },
+      "block_order": [
+        "slide_rYUPUw",
+        "slide_gEb3pq"
+      ]
+    }
+  }
 }
