@@ -22,10 +22,10 @@
             "icon": "none",
             "text": "Start the Year in Style",
             "sub_text": "UP TO 40% OFF",
-            "link": "shopify://pages/new-year-sales",
+            "link": "",
             "button_text": "Shop Now",
             "button_color": "accent",
-            "button_link": "",
+            "button_link": "shopify://pages/new-year-sales",
             "use_text_button": false,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
