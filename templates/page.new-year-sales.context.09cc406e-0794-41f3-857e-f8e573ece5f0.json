@@ -38,6 +38,36 @@
         "product_qeiKJQ",
         "product_ede9rb"
       ]
+    },
+    "activity_new_year_CtQC3B": {
+      "settings": {},
+      "blocks": {
+        "product_fdJTTT": {
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_8PwmNL": {
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_wXC9gR": {
+          "settings": {
+            "product": "yeelight-rgbic-led-basic-strip-lights"
+          }
+        }
+      },
+      "block_order": [
+        "product_6CGqxC",
+        "product_fdJTTT",
+        "product_8PwmNL",
+        "product_wXC9gR",
+        "product_wRn9pV",
+        "product_8HNVkz",
+        "product_qnXdGf",
+        "product_DYEXrj"
+      ]
     }
   }
 }
