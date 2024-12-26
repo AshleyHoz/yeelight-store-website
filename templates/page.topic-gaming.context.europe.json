@@ -8,22 +8,22 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "index.json",
+  "parent": "page.topic-gaming.json",
   "context": {
-    "market": "middle-east"
+    "market": "europe"
   },
   "sections": {
-    "shop_the_look_slider_33yC6m": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
-    "slideshow_AaGJwH": {
+    "image_products_g9y4fJ": {
       "settings": {},
       "blocks": {
-        "slide_gEb3pq": {
+        "product_A7cKdJ": {
           "settings": {
-            "content": ""
+            "product": "yeelight-pura-monitor-light-bar-pro"
+          }
+        },
+        "product_8h8D8i": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
           }
         }
       }
