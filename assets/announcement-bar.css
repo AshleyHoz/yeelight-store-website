@@ -12,6 +12,7 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 @media only screen and (min-width: 768px) {
   .announcement-bar--inner {
     padding: 8px 50px;
@@ -28,6 +29,11 @@
   color: var(--color-announcement-bar-text, #fff);
   line-height: 1;
   position: relative;
+}
+
+.yee-activity-christmas .announcement-bar,
+.yee-activity-new-year .announcement-bar {
+  background: transparent;
 }
 
 .announcement-bar--bg {
@@ -54,47 +60,59 @@
   position: relative;
   z-index: 2;
 }
-.announcement-bar--marquee.direction-left > div {
+
+.announcement-bar--marquee.direction-left>div {
   animation: marquee-left var(--marquee-speed) linear infinite;
 }
-.announcement-bar--marquee.direction-right > div {
+
+.announcement-bar--marquee.direction-right>div {
   animation: marquee-right var(--marquee-speed) linear infinite;
 }
-.announcement-bar--marquee > div {
+
+.announcement-bar--marquee>div {
   display: flex;
   align-items: center;
   flex-shrink: 0;
   will-change: transform;
 }
-.announcement-bar--marquee:hover > div {
+
+.announcement-bar--marquee:hover>div {
   animation-play-state: paused;
 }
+
 .announcement-bar--marquee .announcement-bar--item:empty {
   display: none;
 }
+
 .announcement-bar--carousel {
   text-align: center;
 }
+
 .announcement-bar--carousel .carousel {
   position: relative;
   max-width: 500px;
   margin: 0 auto;
 }
+
 .announcement-bar--carousel .carousel__slide {
   display: block;
   white-space: normal;
   text-align: center;
 }
-.announcement-bar--carousel .carousel__slide ~ .carousel__slide {
+
+.announcement-bar--carousel .carousel__slide~.carousel__slide {
   display: none;
 }
+
 .announcement-bar--carousel .carousel .flickity-slider {
   display: flex;
   align-items: center;
 }
-.announcement-bar--carousel .carousel.flickity-enabled .carousel__slide ~ .carousel__slide {
+
+.announcement-bar--carousel .carousel.flickity-enabled .carousel__slide~.carousel__slide {
   display: block;
 }
+
 .announcement-bar--carousel .flickity-nav {
   display: flex;
   width: 42px;
@@ -104,32 +122,39 @@
   box-shadow: none;
   background: transparent;
 }
+
 .announcement-bar--carousel .flickity-nav svg path {
   stroke: var(--color-announcement-bar-text, #fff);
 }
+
 .announcement-bar--item {
   line-height: 1.1;
   z-index: 1;
 }
+
 .announcement-bar--item .bar-content {
   margin-right: 12px;
 }
+
 .announcement-bar--item .bar-text {
   color: #fff;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.24px;
 }
+
 .announcement-bar--item .bar-sub-text {
   color: #fff;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.24px;
 }
+
 .announcement-bar--item .bar-line {
   margin: 0 12px;
   color: rgba(255, 255, 255, 0.4);
 }
+
 .announcement-bar--item .bar-button a.button {
   color: #ffffff;
   padding: 5px 12px;
@@ -150,6 +175,7 @@
   height: 14px; */
   fill: var(--color-announcement-bar-text, #fff);
 }
+
 .announcement-bar--item a {
   color: var(--color-announcement-bar-text, #fff);
 }
@@ -158,6 +184,7 @@
   0% {
     transform: translateX(0%);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -167,6 +194,7 @@
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(0%);
   }
