@@ -35,6 +35,13 @@
         "slide_rYUPUw",
         "slide_gEb3pq"
       ]
+    },
+    "shop_the_look_slider_4EBHbg": {
+      "settings": {
+        "view_title": "Shop the Collection",
+        "link": "shopify://pages/topic-1"
+      },
+      "blocks": {}
     }
   }
 }
