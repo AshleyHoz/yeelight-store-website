@@ -27,7 +27,8 @@
           "settings": {
             "image": "shopify://shop_images/Cube_4.jpg",
             "mobile_image": "shopify://shop_images/M_cube.jpg",
-            "slide_link": "shopify://products/a-yeelight-cube-4-matrix-pack"
+            "slide_link": "shopify://products/a-yeelight-cube-4-matrix-pack",
+            "content": ""
           }
         }
       },
