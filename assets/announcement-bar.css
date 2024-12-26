@@ -168,6 +168,7 @@
 .yee-activity-new-year .announcement-bar--item .bar-button a.button {
   color: #ff9d01;
   background: #fff;
+  border: 1px solid transparent;
 }
 
 .announcement-bar--item svg {
