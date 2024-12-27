@@ -18,15 +18,15 @@
       "blocks": {
         "slide_rYUPUw": {
           "settings": {
-            "image": "shopify://shop_images/New_Year_Sales_banner_PC.jpg",
-            "mobile_image": "shopify://shop_images/New_Year_Sales_banner_M.jpg",
+            "image": "shopify://shop_images/banner-New_year_2025.jpg",
+            "mobile_image": "shopify://shop_images/Banner_Content-New_year_2025.jpg",
             "slide_link": "shopify://pages/new-year-sales"
           }
         },
         "slide_gEb3pq": {
           "settings": {
-            "image": "shopify://shop_images/Cube_4.jpg",
-            "mobile_image": "shopify://shop_images/M_cube.jpg",
+            "image": "shopify://shop_images/Cube_4-new_year.jpg",
+            "mobile_image": "shopify://shop_images/Banner_Content-1-tuya.jpg",
             "slide_link": "shopify://products/a-yeelight-cube-4-matrix-pack",
             "content": ""
           }
@@ -58,7 +58,7 @@
             "data-limit": 15,
             "maxwidth": 1080,
             "is_sample": true,
-            "paragraph-5871bc5433718a3229f213d7a4777c32": null
+            "paragraph-596d790bc92ffc3ea00adaafc5e8896c": null
           }
         }
       },
