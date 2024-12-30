@@ -229,30 +229,6 @@
     "shop_the_look_slider_4EBHbg": {
       "type": "shop-the-look-slider",
       "blocks": {
-        "slide_QQaB4A": {
-          "type": "slide",
-          "settings": {
-            "button_icon": "custom-christmas",
-            "button_text": "Christmas",
-            "image": "shopify://shop_images/HomeTopicOutdoor-christmas.jpg",
-            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-christmas.jpg",
-            "product_handle_1": "yeelight-permanent-outdoor-lights",
-            "x_position_1": 23,
-            "y_position_1": 35,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "product_handle_2": "a-yeelight-christmas-string-lights",
-            "x_position_2": 65,
-            "y_position_2": 40,
-            "x_position_mobile_2": 20,
-            "y_position_mobile_2": 20,
-            "product_handle_3": "a-yeelight-curtain-lights",
-            "x_position_3": 38,
-            "y_position_3": 65,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 20
-          }
-        },
         "slide_nCkgHt": {
           "type": "slide",
           "settings": {
@@ -301,6 +277,30 @@
             "y_position_mobile_3": 20
           }
         },
+        "slide_QQaB4A": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-christmas",
+            "button_text": "Christmas",
+            "image": "shopify://shop_images/HomeTopicOutdoor-christmas.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-christmas.jpg",
+            "product_handle_1": "yeelight-permanent-outdoor-lights",
+            "x_position_1": 23,
+            "y_position_1": 35,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "a-yeelight-christmas-string-lights",
+            "x_position_2": 65,
+            "y_position_2": 40,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "a-yeelight-curtain-lights",
+            "x_position_3": 38,
+            "y_position_3": 65,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
+          }
+        },
         "slide_KmXyGD": {
           "type": "slide",
           "settings": {
@@ -327,13 +327,13 @@
         }
       },
       "block_order": [
-        "slide_QQaB4A",
         "slide_nCkgHt",
         "slide_dfKGLU",
+        "slide_QQaB4A",
         "slide_KmXyGD"
       ],
       "settings": {
-        "title": "Transform the Outdoors for <span>Every Occasion</span>",
+        "title": "Transform the Outdoors for Every Occasion",
         "view_title": "Grab the Special Bundle Now",
         "link": "shopify://products/yeelight-holiday-lightshow-package",
         "footer_title": "",
@@ -346,30 +346,6 @@
     "shop_the_look_slider_33yC6m": {
       "type": "shop-the-look-slider",
       "blocks": {
-        "slide_GcLTeG": {
-          "type": "slide",
-          "settings": {
-            "button_icon": "custom-christmas",
-            "button_text": "Christmas",
-            "image": "shopify://shop_images/HomeTopicRoom-christmas.jpg",
-            "image_mobile": "shopify://shop_images/HomeTopicRoomMobine-christmas.jpg",
-            "product_handle_1": "yeelight-rgbic-led-basic-strip-lights",
-            "x_position_1": 50,
-            "y_position_1": 15,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "product_handle_2": "a-yeelight-christmas-string-lights",
-            "x_position_2": 64,
-            "y_position_2": 50,
-            "x_position_mobile_2": 20,
-            "y_position_mobile_2": 20,
-            "product_handle_3": "a-yeelight-curtain-lights",
-            "x_position_3": 30,
-            "y_position_3": 50,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 20
-          }
-        },
         "slide_6VMDww": {
           "type": "slide",
           "settings": {
@@ -417,15 +393,39 @@
             "x_position_mobile_3": 20,
             "y_position_mobile_3": 20
           }
+        },
+        "slide_GcLTeG": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-christmas",
+            "button_text": "Christmas",
+            "image": "shopify://shop_images/HomeTopicRoom-christmas.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicRoomMobine-christmas.jpg",
+            "product_handle_1": "yeelight-rgbic-led-basic-strip-lights",
+            "x_position_1": 50,
+            "y_position_1": 15,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "a-yeelight-christmas-string-lights",
+            "x_position_2": 64,
+            "y_position_2": 50,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "a-yeelight-curtain-lights",
+            "x_position_3": 30,
+            "y_position_3": 50,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
+          }
         }
       },
       "block_order": [
-        "slide_GcLTeG",
         "slide_6VMDww",
-        "slide_nMwfm4"
+        "slide_nMwfm4",
+        "slide_GcLTeG"
       ],
       "settings": {
-        "title": "<span>Elevate the Indoors</span> in Every Moment",
+        "title": "Elevate the Indoors in Every Moment",
         "view_title": "Shop the Collection",
         "link": "shopify://pages/topic-2",
         "footer_title": "",
