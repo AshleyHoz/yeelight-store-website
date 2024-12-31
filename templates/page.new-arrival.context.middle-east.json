@@ -12,5 +12,41 @@
   "context": {
     "market": "middle-east"
   },
-  "sections": {}
+  "sections": {
+    "activity_new_year_di8mPj": {
+      "settings": {},
+      "blocks": {
+        "product_PLDXRU": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_bJFrbV": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_qeiKJQ": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_R6hT4c": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_ede9rb": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_PLDXRU",
+        "product_bJFrbV",
+        "product_qeiKJQ",
+        "product_R6hT4c",
+        "product_ede9rb"
+      ]
+    }
+  }
 }
