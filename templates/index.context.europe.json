@@ -16,11 +16,9 @@
     "slideshow_AaGJwH": {
       "settings": {},
       "blocks": {
-        "slide_gEb3pq": {
+        "slide_rYUPUw": {
           "disabled": true,
-          "settings": {
-            "content": ""
-          }
+          "settings": {}
         },
         "slide_3KjVPi": {
           "type": "slide",
@@ -64,10 +62,10 @@
             "use_text_button_2": false
           }
         },
-        "slide_Apj7XN": {
+        "slide_gEb3pq": {
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/3_26c505ec-f8e7-4352-b76e-596cad624aa1.jpg"
+            "content": ""
           }
         },
         "slide_TXUC3V": {
@@ -76,7 +74,7 @@
           "settings": {
             "image": "shopify://shop_images/20241231-171406.jpg",
             "mobile_image": "shopify://shop_images/20241231-171412.jpg",
-            "slide_link": "shopify://pages/christmas-sales",
+            "slide_link": "shopify://pages/new-arrival",
             "header-df3559dae76a18fba57403dec288b28a": null,
             "video_background": false,
             "video_hosted": null,
@@ -112,15 +110,17 @@
             "use_text_button_2": false
           }
         },
-        "slide_BDHRjb": {
+        "slide_Apj7XN": {
           "disabled": true,
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/3_26c505ec-f8e7-4352-b76e-596cad624aa1.jpg"
+          }
         },
         "slide_E8nF4j": {
           "disabled": true,
           "settings": {}
         },
-        "slide_rYUPUw": {
+        "slide_BDHRjb": {
           "disabled": true,
           "settings": {}
         }
