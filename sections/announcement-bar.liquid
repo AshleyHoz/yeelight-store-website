@@ -31,10 +31,13 @@
     endif
   -%}
   {%- if show_announcement_bar -%}
-    <div class="announcement-bar" style="--color-announcement-bar-text: {{ color_announcement_bar_text }}; --color-announcement-bar-bg: {{ color_announcement_bar_bg -}};--color-announcement-background-bg: {{ background_color -}};{%if background_color != 'transparent' and background_color != 'rgba(0,0,0,0)'%}background:{{background_color}} !important; {% endif %}">
+    <div
+      id="announcement-bar"
+      class="announcement-bar"
+      style="--color-announcement-bar-text: {{ color_announcement_bar_text }}; --color-announcement-bar-bg: {{ color_announcement_bar_bg -}};--color-announcement-background-bg: {{ background_color -}};{%if background_color != 'transparent' and background_color != 'rgba(0,0,0,0)'%}background:{{background_color}} !important; {% endif %}">
       <div class="announcement-bar--inner full-height direction-{{ direction }} announcement-bar--{{ announcement_bar_layout }} d-flex align-center" style="--marquee-speed: {{ speed }}">
         {% liquid
-          assign block =section.blocks[0]
+          assign block = section.blocks[0]
         %}
         {% if announcement_bar_layout == 'single' %}
           <div class="announcement-bar--item d-flex align-center justify-center full-width">
@@ -53,7 +56,7 @@
                   <span class="bar-sub-text">{{ block.settings.sub_text }}</span>
                 {% endif %}
               </div>
-              <div class="bar-button">
+              <div class="bar-button" @click="onClick">
                 {% if block.settings.button_text != blank %}
                   {% if block.settings.use_text_button %}
                     {% render 'text-button'
@@ -119,7 +122,8 @@
                 {%- endif -%}
                 {%- if block.settings.icon -%}
                   {% render 'svg-icons-inline'
-                    , icon: block.settings.icon %}{%- endif -%}
+                    , icon: block.settings.icon %}
+                {%- endif -%}
                 {{- block.settings.text -}}
                 {%- if block.settings.link -%}
                   </a>
@@ -152,6 +156,27 @@
         {%- endif -%}
       </div>
     </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const app = Vue.createApp({
+          data() {
+            return {
+              count: 0,
+            };
+          },
+          created(){
+            console.log(123);
+            
+          },
+          methods: {
+            onClick(){
+              console.log('click');
+            }
+          }
+        });
+        app.mount('#announcement-bar');
+      });
+    </script>
   {%- endif -%}
 {%- endif -%}
 {% schema %}
