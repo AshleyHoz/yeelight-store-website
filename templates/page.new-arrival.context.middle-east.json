@@ -95,6 +95,13 @@
       "disabled": true,
       "settings": {},
       "blocks": {}
+    },
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/20241231-171406.jpg",
+        "image_mobile": "shopify://shop_images/20241231-171412.jpg"
+      },
+      "blocks": {}
     }
   }
 }
