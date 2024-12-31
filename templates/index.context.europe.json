@@ -70,7 +70,7 @@
         },
         "slide_TXUC3V": {
           "type": "slide",
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "image": "shopify://shop_images/20241231-171406.jpg",
             "mobile_image": "shopify://shop_images/20241231-171412.jpg",
