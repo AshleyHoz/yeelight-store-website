@@ -14,26 +14,34 @@
   },
   "sections": {
     "activity_new_year_di8mPj": {
-      "settings": {},
+      "settings": {
+        "title": "New Arrival  🎉"
+      },
       "blocks": {
         "product_PLDXRU": {
-          "disabled": true,
-          "settings": {}
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-night-lights"
+          }
         },
         "product_bJFrbV": {
           "type": "product",
-          "disabled": true,
+          "disabled": false,
           "settings": {
-            "product": "a-yeelight-christmas-string-lights"
+            "product": "yeelight-plug-in-light-sensor-nightlight-pura"
           }
         },
         "product_qeiKJQ": {
-          "disabled": true,
-          "settings": {}
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-rechargeable-light-sensor-nightlight-polaris"
+          }
         },
         "product_R6hT4c": {
-          "disabled": true,
-          "settings": {}
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
         },
         "product_ede9rb": {
           "disabled": true,
@@ -47,6 +55,46 @@
         "product_R6hT4c",
         "product_ede9rb"
       ]
+    },
+    "173148591784123612": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "rich_text_7JpWaV": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "text_with_icons_LiHffF": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "1731318448f757b534": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "rich_text_F6XM9m": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_jKHqAE": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_new_year_CtQC3B": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
     }
   }
 }
