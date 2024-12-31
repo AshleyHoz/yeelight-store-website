@@ -12,5 +12,86 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/20241231-171406.jpg",
+        "image_mobile": "shopify://shop_images/20241231-171412.jpg"
+      },
+      "blocks": {}
+    },
+    "activity_new_year_CtQC3B": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_jKHqAE": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "1731318448f757b534": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_new_year_di8mPj": {
+      "settings": {
+        "title": "New Arrival  🎉"
+      },
+      "blocks": {
+        "product_PLDXRU": {
+          "settings": {
+            "product": "yeelight-night-lights"
+          }
+        },
+        "product_qeiKJQ": {
+          "settings": {
+            "product": "yeelight-plug-in-light-sensor-nightlight-pura"
+          }
+        },
+        "product_R6hT4c": {
+          "settings": {
+            "product": "yeelight-rechargeable-light-sensor-nightlight-polaris"
+          }
+        },
+        "product_ede9rb": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        }
+      },
+      "block_order": [
+        "product_PLDXRU",
+        "product_qeiKJQ",
+        "product_R6hT4c",
+        "product_ede9rb"
+      ]
+    },
+    "rich_text_F6XM9m": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "text_with_icons_LiHffF": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "rich_text_7JpWaV": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "173148591784123612": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }
