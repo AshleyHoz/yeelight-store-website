@@ -1,0 +1,75 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.new-year-sales.json",
+  "context": {
+    "market": "europe"
+  },
+  "sections": {
+    "activity_new_year_di8mPj": {
+      "settings": {},
+      "blocks": {
+        "product_qeiKJQ": {
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_V4t49": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_ede9rb": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_PLDXRU",
+        "product_qeiKJQ",
+        "product_R6hT4c",
+        "product_V4t49",
+        "product_ede9rb"
+      ]
+    },
+    "activity_new_year_CtQC3B": {
+      "settings": {},
+      "blocks": {
+        "product_qnXdGf": {
+          "settings": {
+            "product": "yeelight-ultra-thin-cabinet-light"
+          }
+        },
+        "product_DYEXrj": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        },
+        "product_wXC9gR": {
+          "settings": {
+            "product": "yeelight-smart-bulb-w4"
+          }
+        }
+      },
+      "block_order": [
+        "product_fdJTTT",
+        "product_8PwmNL",
+        "product_6CGqxC",
+        "product_wRn9pV",
+        "product_wXC9gR",
+        "product_8HNVkz",
+        "product_qnXdGf",
+        "product_DYEXrj"
+      ]
+    }
+  }
+}

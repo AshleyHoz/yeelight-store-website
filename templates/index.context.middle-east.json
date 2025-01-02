@@ -13,20 +13,130 @@
     "market": "middle-east"
   },
   "sections": {
-    "shop_the_look_slider_33yC6m": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
     "slideshow_AaGJwH": {
       "settings": {},
       "blocks": {
         "slide_gEb3pq": {
+          "disabled": true,
           "settings": {
             "content": ""
           }
+        },
+        "slide_afdPqU": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/20241231-171357.jpg",
+            "mobile_image": "shopify://shop_images/20241231-171351.jpg",
+            "slide_link": "shopify://pages/new-year-sales",
+            "header-b665a0aa784374c66916e9e6ac4a65ba": null,
+            "video_background": false,
+            "video_hosted": null,
+            "header-f03b2286380c991bbb4f1d28aff8057e": null,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "header-b8aa78dbbb20ec02b00bb24d191d264f": null,
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#ffffff",
+            "color_badge_bg": "#ffffff",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "header-c9dcda35341ce3115487deb5587167fe": null,
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "header-8c58327219f38a85f5fbb75080665a6b": null,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_Apj7XN": {
+          "disabled": true,
+          "settings": {}
+        },
+        "slide_EbCnfe": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/20241231-171406.jpg",
+            "mobile_image": "shopify://shop_images/20241231-171412.jpg",
+            "slide_link": "shopify://pages/new-arrival",
+            "header-b665a0aa784374c66916e9e6ac4a65ba": null,
+            "video_background": false,
+            "video_hosted": null,
+            "header-f03b2286380c991bbb4f1d28aff8057e": null,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "header-b8aa78dbbb20ec02b00bb24d191d264f": null,
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "header-c9dcda35341ce3115487deb5587167fe": null,
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "header-8c58327219f38a85f5fbb75080665a6b": null,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_E8nF4j": {
+          "disabled": true,
+          "settings": {}
+        },
+        "slide_BDHRjb": {
+          "disabled": true,
+          "settings": {}
+        },
+        "slide_rYUPUw": {
+          "disabled": true,
+          "settings": {}
         }
-      }
+      },
+      "block_order": [
+        "slide_rYUPUw",
+        "slide_afdPqU",
+        "slide_EbCnfe",
+        "slide_gEb3pq",
+        "slide_Apj7XN",
+        "slide_E8nF4j",
+        "slide_BDHRjb"
+      ]
+    },
+    "shop_the_look_slider_33yC6m": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
     }
   }
 }

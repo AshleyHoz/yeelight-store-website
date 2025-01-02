@@ -13,6 +13,128 @@
     "market": "europe"
   },
   "sections": {
+    "slideshow_AaGJwH": {
+      "settings": {},
+      "blocks": {
+        "slide_rYUPUw": {
+          "disabled": true,
+          "settings": {}
+        },
+        "slide_3KjVPi": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/20241231-171357.jpg",
+            "mobile_image": "shopify://shop_images/20241231-171351.jpg",
+            "slide_link": "https://store.yeelight.com/pages/new-year-sales",
+            "header-df3559dae76a18fba57403dec288b28a": null,
+            "video_background": false,
+            "video_hosted": null,
+            "header-90bdf6483d608fc83038173df037f53f": null,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "header-ad75d496a154749fc1e1cb7f0ddbd23b": null,
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#ffffff",
+            "color_badge_bg": "#ffffff",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "header-78668dc574c0c7a9fd5a1026aea2a4ca": null,
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "header-df98a1d82660d628c23858802cf09f92": null,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_gEb3pq": {
+          "disabled": true,
+          "settings": {
+            "content": ""
+          }
+        },
+        "slide_TXUC3V": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/20241231-171406.jpg",
+            "mobile_image": "shopify://shop_images/20241231-171412.jpg",
+            "slide_link": "shopify://pages/new-arrival",
+            "header-df3559dae76a18fba57403dec288b28a": null,
+            "video_background": false,
+            "video_hosted": null,
+            "header-90bdf6483d608fc83038173df037f53f": null,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "header-ad75d496a154749fc1e1cb7f0ddbd23b": null,
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "header-78668dc574c0c7a9fd5a1026aea2a4ca": null,
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "header-df98a1d82660d628c23858802cf09f92": null,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_Apj7XN": {
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/3_26c505ec-f8e7-4352-b76e-596cad624aa1.jpg"
+          }
+        },
+        "slide_E8nF4j": {
+          "disabled": true,
+          "settings": {}
+        },
+        "slide_BDHRjb": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "slide_rYUPUw",
+        "slide_3KjVPi",
+        "slide_gEb3pq",
+        "slide_TXUC3V",
+        "slide_Apj7XN",
+        "slide_E8nF4j",
+        "slide_BDHRjb"
+      ]
+    },
     "shop_the_look_slider_33yC6m": {
       "disabled": true,
       "settings": {},
@@ -25,33 +147,33 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "header-74d14fc1fea458af99f6429d11fb11bf": null,
+            "header-b4f49a17d2bef0b8868f313e9ecc40a4": null,
             "button_icon": "custom-valentine",
             "button_text": "Home",
             "image": "shopify://shop_images/3_26c505ec-f8e7-4352-b76e-596cad624aa1.jpg",
             "image_mobile": "shopify://shop_images/38.png",
-            "header-8ae939a797ca62a223b1f4002988cdff": null,
+            "header-f4be60acd47c56bcc10d37bd063f132a": null,
             "product_handle_1": "yeelight-rgbic-led-basic-strip-lights",
-            "header-9df9e22e62afbb1995be152ac6135a50": null,
+            "header-a4b8036814477053482a95e68f34f83f": null,
             "x_position_1": 20,
             "y_position_1": 10,
-            "header-ba9f31c0c2e19a1f387762ffe2075bbb": null,
+            "header-42f18af510277493591e13f10946074b": null,
             "x_position_mobile_1": 20,
             "y_position_mobile_1": 20,
-            "header-1470fdc29d73057e58a7eec7fe77d059": null,
+            "header-d9550f1b77665c1508a1fc1fdff1a418": null,
             "product_handle_2": "a-yeelight-curtain-lights",
-            "header-0386d45be474fd87f57fac5e23a0a79f": null,
+            "header-c6994fa183d9407e74656626dcb13e77": null,
             "x_position_2": 80,
             "y_position_2": 50,
-            "header-d402581f0167d5f22b49542c2a6f8873": null,
+            "header-b7446a17f8f3ca3493ba8327aaf5c14b": null,
             "x_position_mobile_2": 20,
             "y_position_mobile_2": 20,
-            "header-369c5a640554556bc734752dac88f474": null,
+            "header-4292b7cc8859ea78f094369b74db83e6": null,
             "product_handle_3": "yeelight-obsid-rgbic-light-strip",
-            "header-cd3df30e2b0a207eccf03f46cb6e9d3a": null,
+            "header-c591d0465687ce45cd065aa2222c6565": null,
             "x_position_3": 25,
             "y_position_3": 72,
-            "header-3da8288b42a483948ee60603d3cf64dc": null,
+            "header-4e97f29571c3fa80e99300390c228cf3": null,
             "x_position_mobile_3": 20,
             "y_position_mobile_3": 20
           }
@@ -62,22 +184,6 @@
         "slide_6haFVF",
         "slide_4qH4Nh"
       ]
-    },
-    "slideshow_AaGJwH": {
-      "settings": {},
-      "blocks": {
-        "slide_Apj7XN": {
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/3_26c505ec-f8e7-4352-b76e-596cad624aa1.jpg"
-          }
-        },
-        "slide_gEb3pq": {
-          "settings": {
-            "content": ""
-          }
-        }
-      }
     }
   }
 }
