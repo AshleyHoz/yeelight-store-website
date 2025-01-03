@@ -1,22 +1,4 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
-/*
  * ------------------------------------------------------------
  * IMPORTANT: The contents of this file are auto-generated.
  *
@@ -44,6 +26,8 @@
           "type": "text",
           "settings": {
             "text": "{{ product.vendor }}",
+            "link": "",
+            "text_type": "type_normal",
             "text_style": "style_vendor"
           }
         },
@@ -194,7 +178,12 @@
           }
         }
       },
-      "block_order": ["logo_rr3cCK", "logo_fVgCWA", "logo_btcrht", "logo_3fRGJp"],
+      "block_order": [
+        "logo_rr3cCK",
+        "logo_fVgCWA",
+        "logo_btcrht",
+        "logo_3fRGJp"
+      ],
       "settings": {
         "heading": "Works with",
         "marker_style": "style1",
@@ -229,7 +218,10 @@
           }
         }
       },
-      "block_order": ["1662374339c00286b1-1", "1662374339c00286b1-2"],
+      "block_order": [
+        "1662374339c00286b1-1",
+        "1662374339c00286b1-2"
+      ],
       "settings": {
         "text_width": "xlarge",
         "text_position": "center",
@@ -428,7 +420,10 @@
           }
         }
       },
-      "block_order": ["heading_BjnpPb", "text_AX79GB"],
+      "block_order": [
+        "heading_BjnpPb",
+        "text_AX79GB"
+      ],
       "settings": {
         "image": "shopify://shop_images/f05fda099e52d22720ed3da6d63976aa.png",
         "use_video": false,
@@ -466,7 +461,10 @@
           }
         }
       },
-      "block_order": ["heading_HhVWrL", "text_86ppUe"],
+      "block_order": [
+        "heading_HhVWrL",
+        "text_86ppUe"
+      ],
       "settings": {
         "image": "shopify://shop_images/image_5.png",
         "use_video": false,
@@ -504,7 +502,10 @@
           }
         }
       },
-      "block_order": ["heading_DNH8pV", "text_KNLNVH"],
+      "block_order": [
+        "heading_DNH8pV",
+        "text_KNLNVH"
+      ],
       "settings": {
         "image": "shopify://shop_images/1_9cc0b8ae-2f9c-47a4-9f00-2c98212907e4.png",
         "use_video": false,
@@ -542,7 +543,10 @@
           }
         }
       },
-      "block_order": ["heading_nYHh8d", "text_jLLzCn"],
+      "block_order": [
+        "heading_nYHh8d",
+        "text_jLLzCn"
+      ],
       "settings": {
         "image": "shopify://shop_images/image_4.png",
         "use_video": false,
@@ -580,7 +584,10 @@
           }
         }
       },
-      "block_order": ["heading_WMp8Qx", "text_fYYLWG"],
+      "block_order": [
+        "heading_WMp8Qx",
+        "text_fYYLWG"
+      ],
       "settings": {
         "image": "shopify://shop_images/image_2_c4ead1df-424e-4b8b-807a-76623a736ca4.png",
         "use_video": false,
@@ -618,7 +625,10 @@
           }
         }
       },
-      "block_order": ["heading_fz4bUw", "text_aDJmbN"],
+      "block_order": [
+        "heading_fz4bUw",
+        "text_aDJmbN"
+      ],
       "settings": {
         "image": "shopify://shop_images/image_3.png",
         "use_video": false,
@@ -661,7 +671,10 @@
           }
         }
       },
-      "block_order": ["aab3af59-da6e-4438-a635-b38db53647da", "897d66ee-eae4-44c6-9c00-1c378b662056"],
+      "block_order": [
+        "aab3af59-da6e-4438-a635-b38db53647da",
+        "897d66ee-eae4-44c6-9c00-1c378b662056"
+      ],
       "settings": {
         "heading": "Tech Specs",
         "marker_style": "style1",
@@ -780,7 +793,9 @@
           }
         }
       },
-      "block_order": ["heading_qTp7zQ"],
+      "block_order": [
+        "heading_qTp7zQ"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -808,7 +823,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_bNPXU4"],
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_bNPXU4"
+      ],
       "settings": {}
     },
     "product-recommendations": {
