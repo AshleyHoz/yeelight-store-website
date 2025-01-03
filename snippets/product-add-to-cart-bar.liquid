@@ -13,12 +13,15 @@
     </div>
     <div class="product-add-to-cart-bar--info">
       <div class="product-info--price no-js-hidden" id="price-{{ section.id }}">
-        {% if settings.black_friday_flag or settings.christmas_flag or settings.new_year_flag %}
-          <span class="product-info--icon">
-            {%- render 'svg-icons-friday' with 'custom-friday-light' -%}
-          </span>
-        {% endif %}
-        {% render 'product-price', product: product, use_variant: true, show_badges: true %}
+        {% comment %} {% if settings.black_friday_flag or settings.christmas_flag or settings.new_year_flag %} {% endcomment %}
+        <span class="product-info--icon">
+          {%- render 'svg-icons-friday' with 'custom-friday-light' -%}
+      </span>
+        {% comment %} {% endif %} {% endcomment %}
+        {% render 'product-price'
+          , product: product
+          , use_variant: true
+          , show_badges: true %}
       </div>
     </div>
     <div class="product-add-to-cart-bar--buttons">
@@ -34,25 +37,26 @@
           class="product-form"
           data-sticky="1"
           data-section="{{ section.id }}"
-          template="{{ product_template | escape }}"
-        >
-          <div class="product-form__error-message-wrapper form-notification error" role="alert" hidden>
+          template="{{ product_template | escape }}">
+          <div
+            class="product-form__error-message-wrapper form-notification error"
+            role="alert"
+            hidden>
             {% render 'svg-icons' with 'thb-error' %}
             <span class="product-form__error-message"></span>
           </div>
-          <div class="product-add-to-cart-container">
+          <div class="product-add-to-cart-container d-flex">
             <div class="form-notification error" style="display:none;"></div>
-            <div class="add_to_cart_holder d-flex align-center justify-center">
+            <div class="add_to_cart_holder d-flex align-center justify-center full-width">
               <button
                 type="submit"
                 name="add"
                 id="AddToCartSticky"
                 class="single-add-to-cart-button button accent {% unless product.selected_or_first_available_variant.available %}sold-out{% endunless %}"
                 {% if product.selected_or_first_available_variant.available == false %}
-                  disabled
+                disabled
                 {% endif %}
-                form="{{ product_form_id }}"
-              >
+                form="{{ product_form_id }}">
                 <span class="single-add-to-cart-button--text">
                   {%- liquid
                     if product.selected_or_first_available_variant.available == false
@@ -74,22 +78,22 @@
             </div>
           </div>
         </product-form>
-        {% comment %}
-          {%- liquid
-            assign gift_card_recipient_feature_active = false
-            if button_block.settings.show_gift_card_recipient and product.gift_card?
-              assign gift_card_recipient_feature_active = true
-            endif
+      {% comment %}
+        {%- liquid
+        assign gift_card_recipient_feature_active = false
+        if button_block.settings.show_gift_card_recipient and product.gift_card?
+        assign gift_card_recipient_feature_active = true
+        endif
 
-            assign show_dynamic_checkout = false
-            if button_block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
-              assign show_dynamic_checkout = true
-            endif
-          -%}
-          {%- if show_dynamic_checkout -%}
-            {{ form | payment_button }}
-          {%- endif -%}
-        {% endcomment %}
+        assign show_dynamic_checkout = false
+        if button_block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
+        assign show_dynamic_checkout = true
+        endif
+        -%}
+        {%- if show_dynamic_checkout -%}
+        {{ form | payment_button }}
+        {%- endif -%}
+      {% endcomment %}
       {%- else -%}
         <div class="product-form">
           <div class="product-form__buttons form">
@@ -97,20 +101,19 @@
               type="submit"
               name="add"
               class="single_add_to_cart_button button sold-out"
-              disabled
-            >
+              disabled>
               <span class="single-add-to-cart-button--text">{{ 'products.product.sold_out' | t }}</span>
             </button>
           </div>
         </div>
       {%- endif -%}
-      {% render 'product-add-to-cart',
-        product: product,
-        form: form,
-        product_form_id: form_id,
-        block: button_block,
-        pickup: pickup,
-        sticky: 1
+      {% render 'product-add-to-cart'
+        , product: product
+        , form: form
+        , product_form_id: form_id
+        , block: button_block
+        , pickup: pickup
+        , sticky: 1
       %}
     </div>
   </div>
