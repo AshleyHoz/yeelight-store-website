@@ -156,29 +156,28 @@
         {%- endif -%}
       </div>
     </div>
-    {% comment %} <script>
-                  document.addEventListener('DOMContentLoaded', function () {
-                    const app = Vue.createApp({
-                      data() {
-                        return {
-                          count: 0,
-                        };
-                      },
-                      created(){
-                        console.log(123);
-                
-                      },
-                      methods: {
-                        onClick(){
-                          console.log('click');
-                        }
-                      }
-                    });
-                    app.mount('#announcement-bar');
-                  });
-            </script> {% endcomment %}
   {%- endif -%}
 {%- endif -%}
+{% comment %} <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const app = Vue.createApp({
+        data() {
+          return {
+            count: 0,
+          };
+        },
+        created() {
+          console.log(123);
+        },
+        methods: {
+          onClick() {
+            console.log('click');
+          },
+        },
+      });
+      app.mount('#announcement-bar');
+    });
+</script> {% endcomment %}
 {% schema %}
   {
     "name": "Announcement bar",
