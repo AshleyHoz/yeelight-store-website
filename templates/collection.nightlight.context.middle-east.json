@@ -12,5 +12,16 @@
   "context": {
     "market": "middle-east"
   },
-  "sections": {}
+  "sections": {
+    "image_with_text_overlay_8jXp9g": {
+      "settings": {},
+      "blocks": {
+        "heading_HhgdPq": {
+          "settings": {
+            "text": "Night lights"
+          }
+        }
+      }
+    }
+  }
 }
