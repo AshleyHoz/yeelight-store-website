@@ -136,8 +136,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/01_cae0cee4-6af7-4bd4-a56e-76e15e0d8a16.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-01.jpg",
+        "image": "shopify://shop_images/03_2f4f8fad-4d36-40e4-b2ba-5d5d82408dbc.jpg",
+        "image_mobile": "shopify://shop_images/3_3287988b-8049-459d-8892-259ae165a711.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -148,20 +148,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/02_7c1e288b-c882-4159-aeca-a3339dd206ff.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-02.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_g4CiQU": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/03.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-03.jpg",
+        "image": "shopify://shop_images/02_8cd0ea89-6ecf-4b59-8427-0705719d19c5.jpg",
+        "image_mobile": "shopify://shop_images/2_b68cf5c1-4608-4707-9cf7-d6d13d91cf8a.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -172,8 +160,20 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/04_9270432d-8b75-4061-b182-9d6d5a21b2fc.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-04.jpg",
+        "image": "shopify://shop_images/04_dbe1882a-ebb5-45ea-8a95-b58bdad0bf65.jpg",
+        "image_mobile": "shopify://shop_images/4_9f3f311a-14b5-4055-aa2b-3cb67345a19e.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false
+      }
+    },
+    "single_image_g4CiQU": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/05_3c665387-cfe4-455a-a061-0b7825e5540b.jpg",
+        "image_mobile": "shopify://shop_images/5_a3c85370-04ed-444d-b6a1-7c5a3027446c.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -184,8 +184,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/06.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-06.jpg",
+        "image": "shopify://shop_images/06_1e4f7b66-357e-4744-81fa-6ee06df49bbe.jpg",
+        "image_mobile": "shopify://shop_images/6_5f1a84af-c15d-4a7e-89f1-63dc4b933192.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -208,8 +208,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/08_77581481-1ffa-4dd6-b422-9f9e52055f03.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-08.jpg",
+        "image": "shopify://shop_images/08_77372a70-f109-4f96-9be7-4ace1515aff4.jpg",
+        "image_mobile": "shopify://shop_images/8_6d0c9373-2bae-4345-9b94-ceed00e41bf2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -232,8 +232,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/10_63bb451b-c88c-4a24-8716-6a6a4a35ab01.jpg",
-        "image_mobile": "shopify://shop_images/30.png",
+        "image": "shopify://shop_images/10_2f42661e-63df-454f-a690-5075f71b8eef.jpg",
+        "image_mobile": "shopify://shop_images/9_4f5edcd5-4264-45a7-b678-ab598f39385b.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -306,8 +306,8 @@
     "main-product",
     "single_image_mtTtz8",
     "single_image_CiE9F9",
-    "single_image_g4CiQU",
     "single_image_xpAebN",
+    "single_image_g4CiQU",
     "single_image_k6gWJB",
     "single_image_nbhytB",
     "single_image_8TkYG3",
