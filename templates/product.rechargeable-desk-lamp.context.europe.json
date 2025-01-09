@@ -12,5 +12,27 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "single_image_g4CiQU": {
+      "settings": {
+        "image": "shopify://shop_images/1_cd6e1f9e-730d-46e4-91b2-96b4fa9e6ef7.jpg",
+        "image_mobile": "shopify://shop_images/01_d2b37f6f-db99-43f7-9da7-dd6813b1e828.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_mtTtz8": {
+      "settings": {
+        "image": "shopify://shop_images/2_767da071-46ff-441e-bbeb-be8d2a41486f.jpg",
+        "image_mobile": "shopify://shop_images/02_7f3e8210-3eb7-4d99-b43f-11315e1046e5.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_CiE9F9": {
+      "settings": {
+        "image": "shopify://shop_images/4_54a4a9ec-2d59-4fbc-b3f8-858494c06ffc.jpg",
+        "image_mobile": "shopify://shop_images/04_ab768ec4-b24e-4ab3-abee-00066b961cd3.jpg"
+      },
+      "blocks": {}
+    }
+  }
 }

@@ -76,7 +76,7 @@
     "search_product_collection": "all",
     "search_product_collection_limit": 3,
     "email_terms_conditions_enable": true,
-    "lazy_loading": false,
+    "lazy_loading": true,
     "favicon": "shopify://shop_images/Fun_favicon.png",
     "halloween_flag": false,
     "black_friday_flag": false,
