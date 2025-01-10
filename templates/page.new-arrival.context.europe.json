@@ -20,26 +20,6 @@
       },
       "blocks": {}
     },
-    "activity_new_year_CtQC3B": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
-    "single_image_jKHqAE": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
-    "single_image_HQL3cr": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
-    "1731318448f757b534": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
     "activity_new_year_di8mPj": {
       "settings": {
         "title": "New Arrival  🎉"
@@ -60,6 +40,20 @@
             "product": "yeelight-rechargeable-light-sensor-nightlight-polaris"
           }
         },
+        "product_UDJxR": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-rgb-smart-ceiling-light-s-series"
+          }
+        },
+        "product_hqBmT": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": ""
+          }
+        },
         "product_ede9rb": {
           "settings": {
             "product": "yeelight-rgbicww-smart-ceiling-light"
@@ -70,10 +64,32 @@
         "product_PLDXRU",
         "product_qeiKJQ",
         "product_R6hT4c",
-        "product_ede9rb"
+        "product_ede9rb",
+        "product_UDJxR",
+        "product_hqBmT"
       ]
     },
+    "activity_new_year_CtQC3B": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_jKHqAE": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
     "rich_text_F6XM9m": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "1731318448f757b534": {
       "disabled": true,
       "settings": {},
       "blocks": {}
