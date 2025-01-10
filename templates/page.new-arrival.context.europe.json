@@ -37,7 +37,12 @@
         },
         "product_R6hT4c": {
           "settings": {
-            "product": "yeelight-rechargeable-light-sensor-nightlight-polaris"
+            "product": "yeelight-rechargeable-desk-lamp"
+          }
+        },
+        "product_ede9rb": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
           }
         },
         "product_UDJxR": {
@@ -53,20 +58,15 @@
           "settings": {
             "product": ""
           }
-        },
-        "product_ede9rb": {
-          "settings": {
-            "product": "yeelight-rgbicww-smart-ceiling-light"
-          }
         }
       },
       "block_order": [
         "product_PLDXRU",
         "product_qeiKJQ",
-        "product_R6hT4c",
         "product_ede9rb",
         "product_UDJxR",
-        "product_hqBmT"
+        "product_hqBmT",
+        "product_R6hT4c"
       ]
     },
     "activity_new_year_CtQC3B": {
