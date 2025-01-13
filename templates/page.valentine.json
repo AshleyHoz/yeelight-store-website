@@ -160,7 +160,7 @@
         "link": "",
         "image": "shopify://shop_images/ValentineSaleBg.png",
         "image_mobile": "shopify://shop_images/ValentineSaleBgMobile.png",
-        "full_width": false,
+        "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "activity_wyze": false,
