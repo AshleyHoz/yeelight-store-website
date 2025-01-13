@@ -53,6 +53,8 @@
         "text_qr4nfc": {
           "type": "text",
           "settings": {
+            "background_image": "shopify://shop_images/ValentineAnnouncementBarBg.png",
+            "background_image_mobile": "shopify://shop_images/ValentineAnnouncementBarBgMobile.png",
             "icon": "none",
             "text": "Glow with Love",
             "sub_text": "UP TO 35% OFF",
@@ -61,8 +63,8 @@
             "button_color": "accent",
             "button_link": "shopify://pages/valentine-sales",
             "use_text_button": false,
-            "color_bg": "#3F72E5",
-            "color_text": "#FFFFFF"
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
           }
         }
       },
