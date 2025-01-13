@@ -154,6 +154,19 @@
         "right_y_position": 0
       }
     },
+    "single_image_RbrWWD": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/ValentineSaleBg.png",
+        "image_mobile": "shopify://shop_images/ValentineSaleBgMobile.png",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": true
+      }
+    },
     "rich_text_F6XM9m": {
       "type": "rich-text",
       "blocks": {
@@ -284,6 +297,7 @@
     "single_image_HQL3cr",
     "activity_valentine_JaTgDy",
     "activity_valentine_N943U7",
+    "single_image_RbrWWD",
     "rich_text_F6XM9m",
     "1731318448f757b534",
     "text_with_icons_LiHffF",
