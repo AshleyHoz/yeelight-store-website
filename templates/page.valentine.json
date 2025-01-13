@@ -75,12 +75,10 @@
         "product_ede9rb"
       ],
       "settings": {
-        "title": "Best Sellers in <span>2024</span>  🎉",
+        "title": "Best Sellers in 2024  🎉",
         "show_icon": true,
         "left_x_position": 0,
         "left_y_position": 0,
-        "background_image": "shopify://shop_images/NewYearProductBg.png",
-        "background_image_mobile": "shopify://shop_images/NewYearProductBgMobile.png",
         "right_x_position": 0,
         "right_y_position": 0
       }
@@ -152,23 +150,8 @@
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
-        "background_image": "shopify://shop_images/NewYearProductBgSec.png",
-        "background_image_mobile": "shopify://shop_images/NewYearProductBgSecMobile.png",
         "right_x_position": 0,
         "right_y_position": 0
-      }
-    },
-    "single_image_jKHqAE": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/NewYearImage.png",
-        "image_mobile": "shopify://shop_images/NewYearImageMobile.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
       }
     },
     "single_image_HQL3cr": {
@@ -314,7 +297,6 @@
     "single_image_Pn6pPg",
     "activity_new_year_di8mPj",
     "activity_new_year_CtQC3B",
-    "single_image_jKHqAE",
     "single_image_HQL3cr",
     "rich_text_F6XM9m",
     "1731318448f757b534",
