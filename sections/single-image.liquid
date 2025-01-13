@@ -10,7 +10,7 @@
     assign link_tag = 'a href="' | append: section.settings.link | append: '"'
   endif
 -%}
-<div class="single-image text-center full-width--{{ full_width }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}{% if section.settings.activity_wyze %} activity-wyze d-flex align-center justify-center{% endif %}">
+<div class="single-image position-relative text-center full-width--{{ full_width }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}{% if section.settings.activity_wyze %} activity-wyze d-flex align-center justify-center{% endif %}">
   {%- if image -%}
     <{{ link_tag }} class="image-wrapper">
       {%- if image or image_mobile == blank -%}
@@ -27,6 +27,11 @@
             assign master_width = image_mobile.src.width | append: 'x' | append: image_mobile.src.height
             render 'responsive-image', image: image_mobile, sizes: master_width
           -%}
+        </div>
+      {%- endif -%}
+      {%- if settings.valentine_flag and section.settings.activity_icon -%}
+        <div class="single-image--icon">
+          {%- render 'svg-icons-valentine' with 'custom-valentine-bow-tie' -%}
         </div>
       {%- endif -%}
     </{{ link_tag }}>
@@ -88,6 +93,12 @@
       "id": "activity_wyze",
       "default": false,
       "label": "Open wyze activity"
+    },
+    {
+      "type": "checkbox",
+      "id": "activity_icon",
+      "default": false,
+      "label": "show activity icon"
     }
   ],
   "presets": [
