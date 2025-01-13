@@ -1,0 +1,321 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "single_image_g3UUwH": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/NewYearBg.png",
+        "image_mobile": "shopify://shop_images/NewYearBgMobile.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false
+      }
+    },
+    "single_image_Pn6pPg": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/NewYearSaleBg.png",
+        "image_mobile": "shopify://shop_images/NewYearSaleBgMobile.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false
+      }
+    },
+    "activity_new_year_di8mPj": {
+      "type": "activity-new-year",
+      "blocks": {
+        "product_PLDXRU": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_qeiKJQ": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_R6hT4c": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_ede9rb": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-rgbic-led-basic-strip-lights"
+          }
+        }
+      },
+      "block_order": [
+        "product_PLDXRU",
+        "product_qeiKJQ",
+        "product_R6hT4c",
+        "product_ede9rb"
+      ],
+      "settings": {
+        "title": "Best Sellers in <span>2024</span>  🎉",
+        "show_icon": true,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "background_image": "shopify://shop_images/NewYearProductBg.png",
+        "background_image_mobile": "shopify://shop_images/NewYearProductBgMobile.png",
+        "right_x_position": 0,
+        "right_y_position": 0
+      }
+    },
+    "activity_new_year_CtQC3B": {
+      "type": "activity-new-year",
+      "blocks": {
+        "product_6CGqxC": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        },
+        "product_fdJTTT": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        },
+        "product_8PwmNL": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_wRn9pV": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-obsid-rgbic-light-strip"
+          }
+        },
+        "product_wXC9gR": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_8HNVkz": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-smart-cube"
+          }
+        },
+        "product_qnXdGf": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_DYEXrj": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-smart-led-light-panels"
+          }
+        }
+      },
+      "block_order": [
+        "product_6CGqxC",
+        "product_fdJTTT",
+        "product_8PwmNL",
+        "product_wRn9pV",
+        "product_wXC9gR",
+        "product_8HNVkz",
+        "product_qnXdGf",
+        "product_DYEXrj"
+      ],
+      "settings": {
+        "title": "Celebrate in Light, Live in Style",
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "background_image": "shopify://shop_images/NewYearProductBgSec.png",
+        "background_image_mobile": "shopify://shop_images/NewYearProductBgSecMobile.png",
+        "right_x_position": 0,
+        "right_y_position": 0
+      }
+    },
+    "single_image_jKHqAE": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/NewYearImage.png",
+        "image_mobile": "shopify://shop_images/NewYearImageMobile.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false
+      }
+    },
+    "single_image_HQL3cr": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/NewYearSaleBg.png",
+        "image_mobile": "shopify://shop_images/NewYearSaleBgMobile.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false
+      }
+    },
+    "rich_text_F6XM9m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xHDwGq": {
+          "type": "heading",
+          "settings": {
+            "text": "What Others Say About Us",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xHDwGq"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1731318448f757b534": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_video_slider_NgXFBA": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-video-slider/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "show-by-tag": false,
+            "layout": "classic",
+            "shadow": "",
+            "show-rating": true,
+            "show-reviewer-name": true,
+            "hide-arrows-mobile": true,
+            "auto-play": true,
+            "show-border": false,
+            "border-width": 1,
+            "border-radius": 16,
+            "text-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "play-button-color": "",
+            "shadow-color": "",
+            "product-id": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_video_slider_NgXFBA"
+      ],
+      "settings": {}
+    },
+    "text_with_icons_LiHffF": {
+      "type": "text-with-icons",
+      "settings": {
+        "heading": "Why Choose Us",
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "medium",
+        "heading_size": "medium",
+        "mobile_swipe": true,
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_7JpWaV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_piygbJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer Reviews",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_piygbJ"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "173148591784123612": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_QX3hBc": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 10,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_QX3hBc"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "single_image_Pn6pPg",
+    "activity_new_year_di8mPj",
+    "activity_new_year_CtQC3B",
+    "single_image_jKHqAE",
+    "single_image_HQL3cr",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
+}
