@@ -27,133 +27,6 @@
         "activity_icon": false
       }
     },
-    "single_image_Pn6pPg": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/ValentineSaleBg.png",
-        "image_mobile": "shopify://shop_images/ValentineSaleBgMobile.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": true
-      }
-    },
-    "activity_new_year_di8mPj": {
-      "type": "activity-new-year",
-      "blocks": {
-        "product_PLDXRU": {
-          "type": "product",
-          "settings": {
-            "product": "a-yeelight-christmas-string-lights"
-          }
-        },
-        "product_qeiKJQ": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-permanent-outdoor-lights"
-          }
-        },
-        "product_R6hT4c": {
-          "type": "product",
-          "settings": {
-            "product": "a-yeelight-curtain-lights"
-          }
-        },
-        "product_ede9rb": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-rgbic-led-basic-strip-lights"
-          }
-        }
-      },
-      "block_order": [
-        "product_PLDXRU",
-        "product_qeiKJQ",
-        "product_R6hT4c",
-        "product_ede9rb"
-      ],
-      "settings": {
-        "title": "Best Sellers in 2024  🎉",
-        "show_icon": true,
-        "left_x_position": 0,
-        "left_y_position": 0,
-        "right_x_position": 0,
-        "right_y_position": 0
-      }
-    },
-    "activity_new_year_CtQC3B": {
-      "type": "activity-new-year",
-      "blocks": {
-        "product_6CGqxC": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-beam-rgbic-light-bar"
-          }
-        },
-        "product_fdJTTT": {
-          "type": "product",
-          "settings": {
-            "product": "a-yeelight-cube-4-matrix-pack"
-          }
-        },
-        "product_8PwmNL": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
-          }
-        },
-        "product_wRn9pV": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-obsid-rgbic-light-strip"
-          }
-        },
-        "product_wXC9gR": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-candela-lamp"
-          }
-        },
-        "product_8HNVkz": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-smart-cube"
-          }
-        },
-        "product_qnXdGf": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-smart-led-lamp-d2"
-          }
-        },
-        "product_DYEXrj": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-smart-led-light-panels"
-          }
-        }
-      },
-      "block_order": [
-        "product_6CGqxC",
-        "product_fdJTTT",
-        "product_8PwmNL",
-        "product_wRn9pV",
-        "product_wXC9gR",
-        "product_8HNVkz",
-        "product_qnXdGf",
-        "product_DYEXrj"
-      ],
-      "settings": {
-        "title": "Celebrate in Light, Live in Style",
-        "show_icon": false,
-        "left_x_position": 0,
-        "left_y_position": 0,
-        "right_x_position": 0,
-        "right_y_position": 0
-      }
-    },
     "single_image_HQL3cr": {
       "type": "single-image",
       "settings": {
@@ -165,6 +38,120 @@
         "disable_bottom_spacing": true,
         "activity_wyze": false,
         "activity_icon": true
+      }
+    },
+    "activity_valentine_JaTgDy": {
+      "type": "activity-valentine",
+      "blocks": {
+        "product_WMhTBk": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_8VyVNY": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-smart-cube"
+          }
+        },
+        "product_NEXyJH": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        },
+        "product_dFcCKK": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        }
+      },
+      "block_order": [
+        "product_WMhTBk",
+        "product_8VyVNY",
+        "product_NEXyJH",
+        "product_dFcCKK"
+      ],
+      "settings": {
+        "title": "Perfect Ambiance",
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "right_x_position": 0,
+        "right_y_position": 0
+      }
+    },
+    "activity_valentine_N943U7": {
+      "type": "activity-valentine",
+      "blocks": {
+        "product_ikGnam": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_6qM9pk": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        },
+        "product_GxKGKM": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_6hbnXF": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_WjGkfF": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-led-light-strip-1s-6-56ft"
+          }
+        },
+        "product_UNaT86": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_wtezBt": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-obsid-rgbic-light-strip"
+          }
+        },
+        "product_wR3qDg": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        }
+      },
+      "block_order": [
+        "product_ikGnam",
+        "product_6qM9pk",
+        "product_GxKGKM",
+        "product_6hbnXF",
+        "product_WjGkfF",
+        "product_UNaT86",
+        "product_wtezBt",
+        "product_wR3qDg"
+      ],
+      "settings": {
+        "title": "Gifts for Him/Her",
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "right_x_position": 0,
+        "right_y_position": 0
       }
     },
     "rich_text_F6XM9m": {
@@ -294,10 +281,9 @@
   "order": [
     "main",
     "single_image_g3UUwH",
-    "single_image_Pn6pPg",
-    "activity_new_year_di8mPj",
-    "activity_new_year_CtQC3B",
     "single_image_HQL3cr",
+    "activity_valentine_JaTgDy",
+    "activity_valentine_N943U7",
     "rich_text_F6XM9m",
     "1731318448f757b534",
     "text_with_icons_LiHffF",
