@@ -62,4 +62,8 @@
   .single-image--desktop {
     display: none;
   }
+
+  .single-image--icon {
+    display: none;
+  }
 }
