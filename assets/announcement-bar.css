@@ -171,6 +171,12 @@
   border: 1px solid transparent;
 }
 
+.yee-activity-valentine .announcement-bar--item .bar-button a.button {
+  color: #FF4876;
+  background: #fff;
+  border: 1px solid transparent;
+}
+
 .announcement-bar--item svg {
   /* margin-right: 12px;
   height: 14px; */
