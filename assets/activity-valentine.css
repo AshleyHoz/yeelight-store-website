@@ -1,7 +1,7 @@
 .activity-valentine {
   position: relative;
   padding: 70px 0;
-  background: #00092c;
+  background: #230713;
 }
 
 .activity-valentine-bg {
@@ -84,15 +84,8 @@
     height: 101px;
   }
 
-  .activity-valentine-bg .ic-bg-left {
-    position: absolute;
-    left: 5px !important;
-    top: -10px !important;
-  }
-
+  .activity-valentine-bg .ic-bg-left,
   .activity-valentine-bg .ic-bg-right {
-    position: absolute;
-    right: 0;
-    top: 10px !important;
+    display: none;
   }
 }
