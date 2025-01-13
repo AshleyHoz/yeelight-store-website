@@ -175,13 +175,13 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/NewYearSaleBg.png",
-        "image_mobile": "shopify://shop_images/NewYearSaleBgMobile.png",
+        "image": "shopify://shop_images/ValentineSaleBg.png",
+        "image_mobile": "shopify://shop_images/ValentineSaleBgMobile.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
         "activity_wyze": false,
-        "activity_icon": false
+        "activity_icon": true
       }
     },
     "rich_text_F6XM9m": {
