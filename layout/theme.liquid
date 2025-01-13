@@ -10,7 +10,8 @@
 <html
   class="no-js"
   lang="{{ request.locale.iso_code }}"
-  dir="{{ dir }}">
+  dir="{{ dir }}"
+>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -20,14 +21,16 @@
     <link
       rel="preconnect"
       href="https://cdn.shopify.com"
-      crossorigin>
+      crossorigin
+    >
     {% render 'head-preload' %}
 
     {% if settings.favicon != blank -%}
       <link
         rel="icon"
         type="image/png"
-        href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+        href="{{ settings.favicon | image_url: width: 32, height: 32 }}"
+      >
     {%- endif %}
 
     <title>
@@ -36,9 +39,11 @@
         {%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}
       {%- endif %}
       {% if current_page != 1 %}
-        &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}
+        &ndash; {{ 'general.meta.page' | t: page: current_page -}}
+      {%- endif %}
       {% unless page_title contains shop.name %}
-        &ndash; {{ shop.name }}{% endunless %}
+        &ndash; {{ shop.name -}}
+      {%- endunless %}
     </title>
 
     {% if page_description %}
@@ -49,7 +54,8 @@
       <link
         rel="preconnect"
         href="https://fonts.shopifycdn.com"
-        crossorigin>
+        crossorigin
+      >
     {%- endunless -%}
 
     {% render 'social-meta-tags' %}
@@ -133,8 +139,7 @@
     </script>
     {{ settings.custom_html_head }}
   </head>
-  <body class="animations-{{ settings.animations }} button-uppercase-{{ settings.button_uppercase }} navigation-uppercase-{{ settings.navigation_uppercase }} product-card-spacing-{{ settings.product_card_spacing }} article-card-spacing-{{ settings.article_card_spacing }} {% if customer %} customer-logged-in{% endif %} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', '-' | handle }} {% if settings.halloween_flag %}yee-activity-halloween{% endif %} {% if settings.black_friday_flag %}yee-activity-black-friday{% endif %}{% if settings.christmas_flag %}yee-activity-christmas{% endif %}{% if settings.new_year_flag %}yee-activity-new-year{% endif %}">
-
+  <body class="animations-{{ settings.animations }} button-uppercase-{{ settings.button_uppercase }} navigation-uppercase-{{ settings.navigation_uppercase }} product-card-spacing-{{ settings.product_card_spacing }} article-card-spacing-{{ settings.article_card_spacing }} {% if customer %} customer-logged-in{% endif %} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', '-' | handle }} {% if settings.halloween_flag %}yee-activity-halloween{% endif %} {% if settings.black_friday_flag %}yee-activity-black-friday{% endif %} {% if settings.christmas_flag %}yee-activity-christmas{% endif %} {% if settings.new_year_flag %}yee-activity-new-year{% endif %} {% if settings.valentine_flag %}yee-activity-valentine{% endif %}">
     {{ 'flex.css' | asset_url | stylesheet_tag }}
     {{ 'space.css' | asset_url | stylesheet_tag }}
     {{ 'text.css' | asset_url | stylesheet_tag }}
@@ -175,7 +180,8 @@
     <script
       type="module"
       src="{{ 'scroll-shadow.js' | asset_url }}"
-      defer="defer"></script>
+      defer="defer"
+    ></script>
     <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- if settings.free_shipping -%}
       {{ 'free-shipping.js' | asset_url | script_tag }}
@@ -190,7 +196,8 @@
         <script
           type="module"
           src="{{ 'instant-page.js' | asset_url }}"
-          defer="defer"></script>
+          defer="defer"
+        ></script>
       {%- endunless -%}
     {%- endif -%}
     <div id="wa.meetbot-widget-wachat-1lfj"></div>

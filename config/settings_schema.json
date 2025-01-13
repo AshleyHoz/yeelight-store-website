@@ -1248,6 +1248,12 @@
         "id": "new_year_flag",
         "label": "Enable new year css globally",
         "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "valentine_flag",
+        "label": "Enable valentine css globally",
+        "default": false
       }
     ]
   },
