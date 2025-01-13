@@ -35,11 +35,6 @@
             "product": "yeelight-plug-in-light-sensor-nightlight-pura"
           }
         },
-        "product_R6hT4c": {
-          "settings": {
-            "product": "yeelight-rechargeable-desk-lamp"
-          }
-        },
         "product_ede9rb": {
           "settings": {
             "product": "yeelight-rgbicww-smart-ceiling-light"
@@ -54,17 +49,22 @@
         },
         "product_hqBmT": {
           "type": "product",
-          "disabled": true,
+          "disabled": false,
           "settings": {
-            "product": ""
+            "product": "yeelight-rechargeable-light-sensor-nightlight-polaris"
+          }
+        },
+        "product_R6hT4c": {
+          "settings": {
+            "product": "yeelight-rechargeable-desk-lamp"
           }
         }
       },
       "block_order": [
-        "product_PLDXRU",
-        "product_qeiKJQ",
         "product_ede9rb",
         "product_UDJxR",
+        "product_PLDXRU",
+        "product_qeiKJQ",
         "product_hqBmT",
         "product_R6hT4c"
       ]
