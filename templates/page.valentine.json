@@ -76,7 +76,7 @@
       ],
       "settings": {
         "title": "<span>Perfect Ambiance</span>",
-        "svg_icon": "svg-icons-valentine",
+        "svg_icon": "valentine",
         "title_icon": "custom-valentine-title-heart",
         "show_icon": false,
         "left_x_position": 0,
@@ -149,8 +149,8 @@
       ],
       "settings": {
         "title": "<span>Gifts for Him/Her</span>",
-        "svg_icon": "",
-        "title_icon": "",
+        "svg_icon": "valentine",
+        "title_icon": "custom-valentine-title-couple",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
