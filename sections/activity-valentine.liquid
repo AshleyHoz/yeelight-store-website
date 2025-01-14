@@ -24,13 +24,13 @@
           class="ic-bg-left"
           style="position:absolute;left: {{- section.settings.left_x_position | append: '%' -}}; top: {{- section.settings.left_y_position | append: '%' -}};"
         >
-          {%- render 'svg-icons-newyear' with 'custom-newyear-icon-left' -%}
+          {%- render 'svg-icons-valentine' with section.settings.left_icon -%}
         </div>
         <div
           class="ic-bg-right"
           style="position:absolute;right: {{- section.settings.right_x_position | append: '%' -}}; top: {{- section.settings.right_y_position | append: '%' -}};"
         >
-          {%- render 'svg-icons-newyear' with 'custom-newyear-icon-right' -%}
+          {%- render 'svg-icons-valentine' with section.settings.right_icon -%}
         </div>
       {% endif %}
     </div>
