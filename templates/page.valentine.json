@@ -68,16 +68,22 @@
           }
         }
       },
-      "block_order": ["product_WMhTBk", "product_8VyVNY", "product_NEXyJH", "product_dFcCKK"],
+      "block_order": [
+        "product_WMhTBk",
+        "product_8VyVNY",
+        "product_NEXyJH",
+        "product_dFcCKK"
+      ],
       "settings": {
-        "title": "<span>Perfect Ambiance</span>",
-        "svg_icon": "svg-icons-valentine",
+        "title": "Perfect Ambiance",
         "title_icon": "custom-valentine-title-heart",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
+        "left_icon": "custom-valentine-hand-heart",
         "right_x_position": 0,
-        "right_y_position": 0
+        "right_y_position": 0,
+        "right_icon": ""
       }
     },
     "activity_valentine_N943U7": {
@@ -143,14 +149,15 @@
         "product_wR3qDg"
       ],
       "settings": {
-        "title": "<span>Gifts for Him/Her</span>",
-        "svg_icon": "svg-icons-valentine",
+        "title": "Gifts for Him/Her",
         "title_icon": "custom-valentine-title-couple",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
+        "left_icon": "custom-valentine-rose",
         "right_x_position": 0,
-        "right_y_position": 0
+        "right_y_position": 0,
+        "right_icon": "custom-valentine-gift"
       }
     },
     "single_image_RbrWWD": {
@@ -179,7 +186,9 @@
           }
         }
       },
-      "block_order": ["heading_xHDwGq"],
+      "block_order": [
+        "heading_xHDwGq"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -217,7 +226,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_video_slider_NgXFBA"],
+      "block_order": [
+        "loox_reviews_loox_video_slider_NgXFBA"
+      ],
       "settings": {}
     },
     "text_with_icons_LiHffF": {
@@ -249,7 +260,9 @@
           }
         }
       },
-      "block_order": ["heading_piygbJ"],
+      "block_order": [
+        "heading_piygbJ"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -278,7 +291,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_agg_section_QX3hBc"],
+      "block_order": [
+        "loox_reviews_loox_agg_section_QX3hBc"
+      ],
       "settings": {}
     }
   },
