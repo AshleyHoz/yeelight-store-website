@@ -385,7 +385,7 @@
 }
 
 .yee-activity-halloween .product-card .badge,
-.yee-activity-black-friday .product-card .badge,
+/* .yee-activity-black-friday .product-card .badge, */
 .yee-activity-christmas .product-card .badge,
 .yee-activity-new-year .product-card .badge {
   border-radius: unset;
@@ -398,7 +398,7 @@
 .yee-activity-halloween .product-card .badge .halloween-shop-badge,
 .yee-activity-halloween .product-card .badge .halloween-shop-badge-mobile,
 .yee-activity-christmas .product-card .badge .christmas-shop-badge,
-.yee-activity-black-friday .product-card .badge .black-friday-shop-badge,
+/* .yee-activity-black-friday .product-card .badge .black-friday-shop-badge, */
 .yee-activity-new-year .product-card .badge .newyear-shop-badge,
 .product-card .badge .shop-badge {
   position: absolute;
@@ -419,9 +419,9 @@
   z-index: 2;
 }
 
-.yee-activity-black-friday .product-card .badge .badge-content {
+/* .yee-activity-black-friday .product-card .badge .badge-content {
   display: none;
-}
+} */
 
 .product-card .badge .badge-title {
   color: #fff;
@@ -451,14 +451,14 @@
   color: #000000;
 }
 
-.yee-activity-black-friday .product-card .badge .badge-title,
+/* .yee-activity-black-friday .product-card .badge .badge-title,
 .yee-activity-black-friday .product-card .badge .badge-percent {
   color: #fff;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
   line-height: 16px;
-}
+} */
 
 .yee-activity-christmas .product-card .badge .badge-title,
 .yee-activity-christmas .product-card .badge .badge-percent {
@@ -1161,10 +1161,20 @@
     background: transparent;
   }
 
+  .product-card .badge svg {
+    width: 36px;
+    height: 42px;
+  }
+
   .yee-activity-halloween .product-card .badge {
     background: transparent;
     border-radius: unset;
     width: 45px;
+  }
+
+  .yee-activity-halloween .product-card .badge svg {
+    width: 45px;
+    height: 47px;
   }
 
   .yee-activity-christmas .product-card .badge {
@@ -1179,14 +1189,14 @@
     display: none;
   }
 
-  .yee-activity-black-friday .product-card .badge svg {
+  /* .yee-activity-black-friday .product-card .badge svg {
     width: 42px;
     height: 48px;
   }
 
   .yee-activity-black-friday .product-card .badge {
     padding: 4px 6px 11px 6px;
-  }
+  } */
 
   .yee-activity-christmas .product-card .badge .christmas-shop-badge svg {
     width: 45px;

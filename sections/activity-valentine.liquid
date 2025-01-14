@@ -38,11 +38,7 @@
   <div class="row activity-valentine-row">
     {% if section_title %}
       <div class="activity-valentine-header full-width">
-        {% render 'section-header',
-          section_heading: section_title,
-          svg_icons: section.settings.svg_icon,
-          title_icons: section.settings.title_icon
-        %}
+        {% render 'section-header', section_heading: section_title, title_icons: section.settings.title_icon %}
       </div>
     {% endif %}
     <div class="activity-valentine--product full-width d-flex flex-wrap">
@@ -64,12 +60,6 @@
       "type": "text",
       "id": "title",
       "label": "Header Title",
-      "info": "Wrap your text."
-    },
-    {
-      "type": "text",
-      "id": "svg_icon",
-      "label": "Header Title Svg Icon",
       "info": "Wrap your text."
     },
     {

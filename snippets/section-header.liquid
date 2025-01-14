@@ -2,12 +2,18 @@
   <div class="section-header">
     <div class="section-header--content text-center">
       {%- if section_heading -%}
-        <h3 class="section-header--title text-center">
-          {% render 'animated-marker-heading', heading: section_heading, style: marker_style, color: marker_color %}
-          {%- if svg_icons and title_icons -%}
-            {%- render svg_icons with title_icons -%}
+        <div class="d-flex align-center justify-center">
+          <h3 class="section-header--title text-center">
+            {% render 'animated-marker-heading', heading: section_heading, style: marker_style, color: marker_color %}
+          </h3>
+          {%- if title_icons -%}
+            <div class="icon-container ml-2 d-flex align-center justify-center">
+              {%- if settings.valentine_flag -%}
+                {%- render 'svg-icons-valentine' with title_icons -%}
+              {%- endif -%}
+            </div>
           {%- endif -%}
-        </h3>
+        </div>
       {%- endif -%}
       {%- if section_description != blank -%}
         <div class="section-header--description rte">

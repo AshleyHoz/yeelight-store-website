@@ -6632,4 +6632,9 @@ input[type='submit'].accent .spinner-path {
   .slide-panel-drawer-wrapper .product-card-small {
     margin-bottom: 10px;
   }
+
+  .yee-activity-valentine .section-header--content .icon-container svg {
+    width: 36px;
+    height: 36px;
+  }
 }
