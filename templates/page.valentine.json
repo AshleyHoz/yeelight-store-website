@@ -79,7 +79,7 @@
         "title_icon": "custom-valentine-title-heart",
         "show_icon": true,
         "left_x_position": 0,
-        "left_y_position": 0,
+        "left_y_position": 5,
         "left_icon": "custom-valentine-hand-heart",
         "right_x_position": 0,
         "right_y_position": 0,
@@ -153,9 +153,9 @@
         "title_icon": "custom-valentine-title-couple",
         "show_icon": true,
         "left_x_position": 0,
-        "left_y_position": 0,
+        "left_y_position": 70,
         "left_icon": "custom-valentine-rose",
-        "right_x_position": 0,
+        "right_x_position": 10,
         "right_y_position": 0,
         "right_icon": "custom-valentine-gift"
       }
