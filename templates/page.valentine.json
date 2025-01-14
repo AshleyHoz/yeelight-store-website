@@ -18,8 +18,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/NewYearBg.png",
-        "image_mobile": "shopify://shop_images/NewYearBgMobile.jpg",
+        "image": "shopify://shop_images/ValentineBg.png",
+        "image_mobile": "shopify://shop_images/ValentineBgMobile.png",
         "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
