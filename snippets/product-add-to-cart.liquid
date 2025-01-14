@@ -70,7 +70,7 @@
               </span>
             </button>
             {%- if show_dynamic_checkout -%}
-              <div class="dynamic-payment-buttons">
+              <div class="dynamic-payment-buttons cursor-pointer overflow-hidden position-relative full-width">
                 {%- if settings.christmas_flag -%}
                   <div class="dynamic-payment-icons">
                     {%- render 'svg-icons-christmas-sec' with 'custom-christmas-shop-product' -%}
@@ -89,6 +89,12 @@
                     </div>
                   </div>
                 {%- endif -%}
+                {%- if settings.valentine_flag -%}
+                  <div class="dynamic-payment-icon">
+                    {%- render 'svg-icons-valentine' with 'custom-valentine-shop-bow-tie' -%}
+                  </div>
+                {%- endif -%}
+
                 <div class="dynamic-payment-button">
                   {{ form | payment_button }}
                 </div>

@@ -283,6 +283,13 @@
           <div class="newyear-shop-mobile full-width full-height cursor-pointer">
             {%- render 'svg-icons-newyear' with 'custom-newyear-shop-mobile' -%}
           </div>
+        {%- elsif settings.valentine_flag -%}
+          <div class="valentine-shop full-width full-height cursor-pointer position-relative d-flex align-center justify-center">
+            <div class="valentine-shop-title">Shop Now</div>
+            <div class="valentine-shop-icon">
+              {%- render 'svg-icons-valentine' with 'custom-valentine-shop-bow-tie' -%}
+            </div>
+          </div>
         {%- else -%}
           <div class="product-card-view full-width full-height position-relative overflow-hidden cursor-pointer">
             Shop Now

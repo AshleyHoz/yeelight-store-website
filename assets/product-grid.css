@@ -380,19 +380,23 @@
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
-  border-radius: 0px 0px 100px 100px;
+  /* border-radius: 0px 0px 100px 100px; */
   background: transparent;
 }
 
-.yee-activity-halloween .product-card .badge,
-/* .yee-activity-black-friday .product-card .badge, */
+/* .yee-activity-halloween .product-card .badge,
+.yee-activity-black-friday .product-card .badge,
 .yee-activity-christmas .product-card .badge,
 .yee-activity-new-year .product-card .badge {
   border-radius: unset;
-}
+} */
 
 .yee-activity-christmas .product-card .badge {
   padding: 18px 16px 16px 18px;
+}
+
+.yee-activity-valentine .product-card .badge {
+  padding: 24px 20px 20px;
 }
 
 .yee-activity-halloween .product-card .badge .halloween-shop-badge,
@@ -400,6 +404,7 @@
 .yee-activity-christmas .product-card .badge .christmas-shop-badge,
 /* .yee-activity-black-friday .product-card .badge .black-friday-shop-badge, */
 .yee-activity-new-year .product-card .badge .newyear-shop-badge,
+.yee-activity-valentine .product-card .badge .valentine-shop-badge,
 .product-card .badge .shop-badge {
   position: absolute;
   top: 0;
@@ -467,6 +472,13 @@
   line-height: 16px;
 }
 
+.yee-activity-valentine .product-card .badge .badge-title,
+.yee-activity-valentine .product-card .badge .badge-percent {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
 /* .yee-activity-black-friday .product-card .badge .badge-title {
   color: #0d0a1d;
   text-align: center;
@@ -508,23 +520,17 @@
   top: 0;
 }
 
-@media only screen and (min-width: 768px) {
-  .product-card .badge.top {
-    /* top: calc(var(--badge-offset, 0px) + 14px); */
-    top: 0;
-  }
+.product-card .badge.top {
+  /* top: calc(var(--badge-offset, 0px) + 14px); */
+  top: 0;
 }
 
 .product-card .badge.right {
-  /* right: calc(var(--badge-offset, 0px) + 7px); */
   right: 30px;
 }
 
-@media only screen and (min-width: 768px) {
-  .product-card .badge.right {
-    /* right: calc(var(--badge-offset, 0px) + 14px); */
-    right: 30px;
-  }
+.yee-activity-valentine .product-card .badge.right {
+  right: 10px;
 }
 
 .product-card .product-inventory-notice {
@@ -1078,6 +1084,29 @@
   width: 100%;
 }
 
+.valentine-shop {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 14px;
+  background: linear-gradient(267deg, #FF00B8 -75.74%, #FFC700 289.18%), #FF5392;
+}
+
+.valentine-shop:hover {
+  background: linear-gradient(267deg, #FF00B8 -15.55%, #FFC700 149.72%), #FF5392;
+}
+
+.valentine-shop-icon {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  opacity: 0
+}
+
+.valentine-shop:hover .valentine-shop-icon {
+  opacity: 1;
+}
+
 @media only screen and (max-width: 767px) {
   .sidebar-container .products.collection.row {
     padding: 0;
@@ -1149,6 +1178,10 @@
     right: 12px;
   }
 
+  .yee-activity-valentine .product-card .badge.right {
+    right: 6px;
+  }
+
   .product-card .badge {
     position: absolute;
     z-index: 30;
@@ -1207,9 +1240,18 @@
     padding: 2px 10px 6px 10px;
   }
 
-  .yee-activity-new-year .product-card .badge .newyear-shop-badge svg {
+  .yee-activity-new-year .product-card .badge svg {
     width: 38px;
     height: 43px;
+  }
+
+  .yee-activity-valentine .product-card .badge {
+    padding: 16px;
+  }
+
+  .yee-activity-valentine .product-card .badge svg {
+    width: 44px;
+    height: 44px;
   }
 
   .product-card .badge .badge-title {
@@ -1245,6 +1287,12 @@
     line-height: 14px;
   }
 
+  .yee-activity-valentine .product-card .badge .badge-title,
+  .yee-activity-valentine .product-card .badge .badge-percent {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
   .product-card-cover {
     display: none;
   }
@@ -1271,6 +1319,15 @@
   .christmas-shop-mobile,
   .newyear-shop-mobile {
     display: flex;
+  }
+
+  .valentine-shop {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    border-radius: 8px;
+    background: linear-gradient(267deg, #FF00B8 -75.74%, #FFC700 289.18%), #FFC852;
   }
 
   .image-product-halloween-shop {

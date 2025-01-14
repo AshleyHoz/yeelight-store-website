@@ -2590,6 +2590,10 @@ h6,
   background: linear-gradient(277deg, #f30 9.76%, #ffb700 124.89%);
 }
 
+.yee-activity-valentine .product-information .product-price-container .badge {
+  background: linear-gradient(267deg, #FF00B8 0%, #FFC700 99.35%);
+}
+
 .product-add-to-cart-bar {
   position: fixed;
   bottom: 0;
@@ -2833,8 +2837,7 @@ h6,
 }
 
 .dynamic-payment-buttons {
-  position: relative;
-  width: 100%;
+  border-radius: 50px;
 }
 
 .dynamic-payment-buttons .dynamic-payment-icons {
@@ -2872,6 +2875,18 @@ h6,
   display: flex;
 }
 
+.yee-activity-valentine .product-information .dynamic-payment-icon {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 2;
+  opacity: 0;
+}
+
+.yee-activity-valentine .dynamic-payment-buttons:hover .dynamic-payment-icon {
+  opacity: 1;
+}
+
 .shopify-payment-button .shopify-payment-button__more-options {
   position: absolute;
   top: 0;
@@ -2882,6 +2897,14 @@ h6,
   border-radius: 25px;
   color: transparent !important;
   margin: 0 auto;
+}
+
+.yee-activity-valentine .shopify-payment-button .shopify-payment-button__more-options {
+  background: linear-gradient(267deg, #FF00B8 -75.74%, #FFC700 289.18%), #FF5392;
+}
+
+.yee-activity-valentine .dynamic-payment-buttons:hover .shopify-payment-button__more-options {
+  background: linear-gradient(267deg, #FF00B8 -15.55%, #FFC700 149.72%), #FF5392;
 }
 
 .shopify-payment-button__more-options.shopify-payment-button__skeleton {
@@ -2927,6 +2950,10 @@ h6,
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.1);
+}
+
+.yee-activity-valentine .shopify-payment-button .shopify-payment-button__more-options:hover::before {
+  background: transparent
 }
 
 /* ,
@@ -3032,5 +3059,9 @@ h6,
     left: 50%;
     transform: translateX(-50%);
     width: unset;
+  }
+
+  .yee-activity-valentine .dynamic-payment-buttons:hover .dynamic-payment-icon {
+    opacity: 0;
   }
 }
