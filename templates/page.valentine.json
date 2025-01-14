@@ -75,7 +75,7 @@
         "product_dFcCKK"
       ],
       "settings": {
-        "title": "Perfect Ambiance",
+        "title": "<span>Perfect Ambiance</span>",
         "title_icon": "custom-valentine-title-heart",
         "show_icon": true,
         "left_x_position": 0,
@@ -149,7 +149,7 @@
         "product_wR3qDg"
       ],
       "settings": {
-        "title": "Gifts for Him/Her",
+        "title": "<span>Gifts for Him/Her</span>",
         "title_icon": "custom-valentine-title-couple",
         "show_icon": true,
         "left_x_position": 0,
