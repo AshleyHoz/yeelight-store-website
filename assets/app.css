@@ -6297,6 +6297,13 @@ input[type='radio'],
   -webkit-text-fill-color: transparent;
 }
 
+.yee-activity-valentine .section-header--title>span {
+  background: linear-gradient(90deg, #FF48AC 0%, #FB3054 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .section-header--description p {
   margin-top: 24px;
   color: rgba(255, 255, 255, 0.6);
