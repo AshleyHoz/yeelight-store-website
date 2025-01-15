@@ -13,30 +13,6 @@
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
   "sections": {
-    "slideshow_AaGJwH": {
-      "settings": {},
-      "blocks": {
-        "slide_rYUPUw": {
-          "settings": {
-            "image": "shopify://shop_images/banner-New_year_2025.jpg",
-            "mobile_image": "shopify://shop_images/Banner_Content-New_year_2025.jpg",
-            "slide_link": "shopify://pages/new-year-sales"
-          }
-        },
-        "slide_gEb3pq": {
-          "settings": {
-            "image": "shopify://shop_images/Cube_4-new_year.jpg",
-            "mobile_image": "shopify://shop_images/Banner_Content-1-tuya.jpg",
-            "slide_link": "shopify://products/a-yeelight-cube-4-matrix-pack",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_rYUPUw",
-        "slide_gEb3pq"
-      ]
-    },
     "shop_the_look_slider_4EBHbg": {
       "settings": {
         "view_title": "Shop the Collection",
@@ -58,13 +34,45 @@
             "data-limit": 15,
             "maxwidth": 1080,
             "is_sample": true,
-            "paragraph-596d790bc92ffc3ea00adaafc5e8896c": null
+            "paragraph-63977ec64571be4f379ab372bcb34ad6": null
           }
         }
       },
       "block_order": [
         "loox_reviews_loox_video_slider_y63DVW",
         "loox_reviews_loox_agg_section_RXGtX"
+      ]
+    },
+    "slideshow_AaGJwH": {
+      "settings": {},
+      "blocks": {
+        "slide_rYUPUw": {
+          "settings": {
+            "image": "shopify://shop_images/banner-love-PC.jpg",
+            "mobile_image": "shopify://shop_images/Lovebanner.jpg",
+            "slide_link": "shopify://pages/new-year-sales"
+          }
+        },
+        "slide_gEb3pq": {
+          "settings": {
+            "image": "shopify://shop_images/Cube_6.jpg",
+            "mobile_image": "shopify://shop_images/cube_18575f6a-2999-4223-8f2a-a30145b6dd9e.jpg",
+            "slide_link": "shopify://products/a-yeelight-cube-4-matrix-pack",
+            "content": ""
+          }
+        },
+        "slide_Apj7XN": {
+          "settings": {
+            "image": "shopify://shop_images/candela_b7b2b501-6b9b-4984-86d5-f0604ea76189.jpg",
+            "mobile_image": "shopify://shop_images/candela_fd4d974d-a2b6-4ef7-8743-2828b6bd76bf.jpg",
+            "slide_link": "shopify://products/yeelight-candela-lamp"
+          }
+        }
+      },
+      "block_order": [
+        "slide_rYUPUw",
+        "slide_gEb3pq",
+        "slide_Apj7XN"
       ]
     }
   }
