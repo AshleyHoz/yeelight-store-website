@@ -12,5 +12,27 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "activity_valentine_JaTgDy": {
+      "settings": {},
+      "blocks": {
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-rgbic-led-basic-strip-lights"
+          }
+        },
+        "product_8VyVNY": {
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        }
+      },
+      "block_order": [
+        "product_8VyVNY",
+        "product_dFcCKK",
+        "product_WMhTBk",
+        "product_NEXyJH"
+      ]
+    }
+  }
 }
