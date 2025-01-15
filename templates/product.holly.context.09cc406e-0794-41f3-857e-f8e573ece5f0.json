@@ -12,5 +12,12 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "single_image_WdwpPN": {
+      "settings": {
+        "image_mobile": "shopify://shop_images/slice_09.jpg"
+      },
+      "blocks": {}
+    }
+  }
 }
