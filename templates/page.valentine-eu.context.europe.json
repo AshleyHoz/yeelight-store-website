@@ -12,5 +12,63 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title": "Gifts for Him/Her",
+        "title_icon": "custom-valentine-title-couple"
+      },
+      "blocks": {
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        }
+      },
+      "block_order": [
+        "product_WMhTBk",
+        "product_8VyVNY",
+        "product_dFcCKK",
+        "product_NEXyJH"
+      ]
+    },
+    "activity_valentine_N943U7": {
+      "settings": {
+        "title_icon": "custom-valentine-title-heart",
+        "title": "Create Your Perfect Moment"
+      },
+      "blocks": {
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        },
+        "product_UNaT86": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_GxKGKM": {
+          "settings": {
+            "product": "yeelight-holiday-lightshow-package"
+          }
+        },
+        "product_wR3qDg": {
+          "settings": {
+            "product": "yeelight-smart-bulb"
+          }
+        }
+      },
+      "block_order": [
+        "product_ikGnam",
+        "product_UNaT86",
+        "product_6hbnXF",
+        "product_6qM9pk",
+        "product_GxKGKM",
+        "product_wtezBt",
+        "product_WjGkfF",
+        "product_wR3qDg"
+      ]
+    }
+  }
 }
