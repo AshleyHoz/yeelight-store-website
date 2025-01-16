@@ -18,6 +18,16 @@
         "menu": "eu-header"
       },
       "blocks": {}
+    },
+    "announcement-bar": {
+      "settings": {},
+      "blocks": {
+        "text_qr4nfc": {
+          "settings": {
+            "button_link": "shopify://pages/valentine-eu"
+          }
+        }
+      }
     }
   }
 }
