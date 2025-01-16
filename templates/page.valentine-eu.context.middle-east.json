@@ -12,5 +12,51 @@
   "context": {
     "market": "middle-east"
   },
-  "sections": {}
+  "sections": {
+    "activity_valentine_N943U7": {
+      "settings": {},
+      "blocks": {
+        "product_UNaT86": {
+          "settings": {
+            "product": "yeelight-holiday-lightshow-package"
+          }
+        },
+        "product_wR3qDg": {
+          "settings": {
+            "product": "yeelight-smart-bulb-w4"
+          }
+        },
+        "product_GxKGKM": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        }
+      },
+      "block_order": [
+        "product_ikGnam",
+        "product_GxKGKM",
+        "product_6qM9pk",
+        "product_UNaT86",
+        "product_6hbnXF",
+        "product_WjGkfF",
+        "product_wtezBt",
+        "product_wR3qDg"
+      ]
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {},
+      "blocks": {
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        },
+        "product_dFcCKK": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        }
+      }
+    }
+  }
 }

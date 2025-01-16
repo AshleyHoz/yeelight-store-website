@@ -16,23 +16,25 @@
     "slideshow_AaGJwH": {
       "settings": {},
       "blocks": {
-        "slide_gEb3pq": {
-          "disabled": true,
+        "slide_rYUPUw": {
+          "disabled": false,
           "settings": {
-            "content": ""
+            "image": "shopify://shop_images/banner-love-PC.jpg",
+            "mobile_image": "shopify://shop_images/Lovebanner.jpg",
+            "slide_link": "shopify://pages/valentine-eu"
           }
         },
         "slide_afdPqU": {
           "type": "slide",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/20241231-171357.jpg",
             "mobile_image": "shopify://shop_images/20241231-171351.jpg",
             "slide_link": "shopify://pages/new-year-sales",
-            "header-b665a0aa784374c66916e9e6ac4a65ba": null,
+            "header-1f276b9c7b0bbda5e705c7e062600b5f": null,
             "video_background": false,
             "video_hosted": null,
-            "header-f03b2286380c991bbb4f1d28aff8057e": null,
+            "header-e1aecebe055d0c11dcfce8814befd901": null,
             "badge_text": "",
             "subheading": "",
             "heading": "",
@@ -42,7 +44,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "header-b8aa78dbbb20ec02b00bb24d191d264f": null,
+            "header-da9fc4860942a8cda7bd02f2ebc64999": null,
             "color_slidebg": "rgba(0,0,0,0)",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 0,
@@ -52,21 +54,17 @@
             "overlay_color": "#ffffff",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "header-c9dcda35341ce3115487deb5587167fe": null,
+            "header-079df9d45e8f3d675b5de15b2b0b5289": null,
             "button_1_text": "",
             "button_1_color": "accent",
             "button_1_link": "",
             "use_text_button_1": false,
-            "header-8c58327219f38a85f5fbb75080665a6b": null,
+            "header-7011332c0007ab3e358e8a3d60a7b502": null,
             "button_2_text": "",
             "button_2_color": "white",
             "button_2_link": "",
             "use_text_button_2": false
           }
-        },
-        "slide_Apj7XN": {
-          "disabled": true,
-          "settings": {}
         },
         "slide_EbCnfe": {
           "type": "slide",
@@ -75,10 +73,10 @@
             "image": "shopify://shop_images/20241231-171406.jpg",
             "mobile_image": "shopify://shop_images/20241231-171412.jpg",
             "slide_link": "shopify://pages/new-arrival",
-            "header-b665a0aa784374c66916e9e6ac4a65ba": null,
+            "header-391ee556dbd350e2952696ce877c1729": null,
             "video_background": false,
             "video_hosted": null,
-            "header-f03b2286380c991bbb4f1d28aff8057e": null,
+            "header-408b8bee09a237e4e88815810d49465c": null,
             "badge_text": "",
             "subheading": "",
             "heading": "",
@@ -88,7 +86,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "header-b8aa78dbbb20ec02b00bb24d191d264f": null,
+            "header-9159938fe5766e96824e945d30c6f0b3": null,
             "color_slidebg": "rgba(0,0,0,0)",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 0,
@@ -98,27 +96,33 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "header-c9dcda35341ce3115487deb5587167fe": null,
+            "header-11596d3f31d729767dc6259a7b705dfb": null,
             "button_1_text": "",
             "button_1_color": "accent",
             "button_1_link": "",
             "use_text_button_1": false,
-            "header-8c58327219f38a85f5fbb75080665a6b": null,
+            "header-15e0745cde5dd602a7c7375c8e11a577": null,
             "button_2_text": "",
             "button_2_color": "white",
             "button_2_link": "",
             "use_text_button_2": false
           }
         },
+        "slide_gEb3pq": {
+          "disabled": true,
+          "settings": {
+            "content": ""
+          }
+        },
+        "slide_Apj7XN": {
+          "disabled": true,
+          "settings": {}
+        },
         "slide_E8nF4j": {
           "disabled": true,
           "settings": {}
         },
         "slide_BDHRjb": {
-          "disabled": true,
-          "settings": {}
-        },
-        "slide_rYUPUw": {
           "disabled": true,
           "settings": {}
         }
