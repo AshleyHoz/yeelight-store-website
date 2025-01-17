@@ -13,42 +13,12 @@
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
   "sections": {
-    "shop_the_look_slider_4EBHbg": {
-      "settings": {
-        "view_title": "Shop the Collection",
-        "link": "shopify://pages/topic-1"
-      },
-      "blocks": {}
-    },
-    "1711998083986c24cc": {
-      "settings": {},
-      "blocks": {
-        "loox_reviews_loox_agg_section_RXGtX": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": false,
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 15,
-            "maxwidth": 1080,
-            "is_sample": true,
-            "paragraph-63977ec64571be4f379ab372bcb34ad6": null
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_video_slider_y63DVW",
-        "loox_reviews_loox_agg_section_RXGtX"
-      ]
-    },
     "slideshow_AaGJwH": {
       "settings": {},
       "blocks": {
         "slide_rYUPUw": {
           "settings": {
-            "image": "shopify://shop_images/banner-love-PC.jpg",
+            "image": "shopify://shop_images/Banner-love-PC_e579959b-3da3-47d2-8ac0-6d66a155863c.jpg",
             "mobile_image": "shopify://shop_images/Lovebanner.jpg",
             "slide_link": "shopify://pages/valentine-sales"
           }
@@ -73,6 +43,36 @@
         "slide_rYUPUw",
         "slide_gEb3pq",
         "slide_Apj7XN"
+      ]
+    },
+    "shop_the_look_slider_4EBHbg": {
+      "settings": {
+        "view_title": "Shop the Collection",
+        "link": "shopify://pages/topic-1"
+      },
+      "blocks": {}
+    },
+    "1711998083986c24cc": {
+      "settings": {},
+      "blocks": {
+        "loox_reviews_loox_agg_section_RXGtX": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": false,
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 15,
+            "maxwidth": 1080,
+            "is_sample": true,
+            "paragraph-c6d0842f64a6673d58bb100bfe9cffb1": null
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_video_slider_y63DVW",
+        "loox_reviews_loox_agg_section_RXGtX"
       ]
     }
   }
