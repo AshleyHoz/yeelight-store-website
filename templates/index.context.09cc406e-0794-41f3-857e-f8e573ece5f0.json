@@ -66,7 +66,7 @@
             "data-limit": 15,
             "maxwidth": 1080,
             "is_sample": true,
-            "paragraph-c6d0842f64a6673d58bb100bfe9cffb1": null
+            "paragraph-e5aae8b1ccd1f4613dce59a1937528ce": null
           }
         }
       },
@@ -75,5 +75,20 @@
         "loox_reviews_loox_agg_section_RXGtX"
       ]
     }
-  }
+  },
+  "order": [
+    "slideshow_AaGJwH",
+    "featured_collection_M8HqE3",
+    "shop_the_look_slider_33yC6m",
+    "shop_the_look_slider_rFbmyG",
+    "shop_the_look_slider_4EBHbg",
+    "collection_list_7U8MXe",
+    "text_with_icons_MqACi7",
+    "image_text_logo_XX38Ra",
+    "image_multicolumn_logos_Kw6aGG",
+    "logo_list_RWbxLf",
+    "rich_text_Q8UQ7e",
+    "1711998083986c24cc",
+    "scrolling_images_ijGKLL"
+  ]
 }
