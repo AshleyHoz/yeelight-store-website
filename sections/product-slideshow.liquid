@@ -91,7 +91,7 @@
             {%- render 'svg-icons' with 'thb-slideshow-progress' -%}
           </div>
         {%- endif -%}
-        <div class="slideshow_inner d-flex">
+        <div class="slideshow_inner d-flex full-width full-height cursor-pointer">
           {%- for block in section.blocks -%}
             {%- liquid
               assign content_position = block.settings.content_position
@@ -123,48 +123,44 @@
             -%}
             <div
               class="slideshow__slide carousel__slide {{ mobile_height }} {{ desktop_height }} text-{{ text_alignment }} content-size-{{ content_size }}"
-              style="--color-text: {{ color_text }}; --overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}; --color-slidebg-rgb: {{ color_slidebg.rgb | replace: ' ' , ',' }}; --color-slidebg-opacity: {{ color_slidebg_opacity | divided_by: 100.0 }}; --bg-blur: {{ color_slidebg_blur | append: 'px' }} "
-              {{ block.shopify_attributes }}
             >
               {%- if desktop_height == 'desktop-height-image' or mobile_height == 'mobile-height-image' -%}
-                <div class="slideshow__slide-adapt-to-image">
-                  {%- if block.settings.image -%}
-                    {%- liquid
-                      assign image = block.settings.image
-                      assign master_width = image.src.width | append: 'x' | append: image.src.height
-                      assign width = '375x' | append: mobile_image_height | append: ',' | append: master_width
+                {%- if block.settings.image -%}
+                  {%- liquid
+                    assign image = block.settings.image
+                    assign master_width = image.src.width | append: 'x' | append: image.src.height
+                    assign width = '375x' | append: mobile_image_height | append: ',' | append: master_width
 
-                      assign class = ''
-                      if block.settings.mobile_image
-                        assign class = 'slideshow-image--desktop'
-                      endif
-                    -%}
-                    <img
-                      data-src="{{ image | image_url }}"
-                      class=" {{ class }}{% unless settings.lazy_loading %} no-blur{% endunless %}"
-                      width="{{ image.src.width }}"
-                      height="{{ image.src.height }}"
-                      alt="{{ image.alt }}"
-                    >
-                  {%- else -%}
-                    {%- assign index = forloop.index | modulo: 2 | plus: 1 -%}
-                    {{ 'lifestyle-' | append: index | placeholder_svg_tag: 'placeholder_svg_tag' }}
-                  {%- endif -%}
-                  {%- if block.settings.mobile_image -%}
-                    {%- liquid
-                      assign image = block.settings.mobile_image
-                      assign master_width = image.src.width | append: 'x' | append: image.src.height
-                      assign width = '375x' | append: mobile_image_height | append: ',' | append: master_width
-                    -%}
-                    <img
-                      data-src="{{ image | image_url }}"
-                      class=" slideshow-image--mobile{% unless settings.lazy_loading %} no-blur{% endunless %}"
-                      width="{{ image.src.width }}"
-                      height="{{ image.src.height }}"
-                      alt="{{ image.alt }}"
-                    >
-                  {%- endif -%}
-                </div>
+                    assign class = ''
+                    if block.settings.mobile_image
+                      assign class = 'slideshow-image--desktop'
+                    endif
+                  -%}
+                  <img
+                    data-src="{{ image | image_url }}"
+                    class=" {{ class }}{% unless settings.lazy_loading %} no-blur{% endunless %}"
+                    width="{{ image.src.width }}"
+                    height="{{ image.src.height }}"
+                    alt="{{ image.alt }}"
+                  >
+                {%- else -%}
+                  {%- assign index = forloop.index | modulo: 2 | plus: 1 -%}
+                  {{ 'lifestyle-' | append: index | placeholder_svg_tag: 'placeholder_svg_tag' }}
+                {%- endif -%}
+                {%- if block.settings.mobile_image -%}
+                  {%- liquid
+                    assign image = block.settings.mobile_image
+                    assign master_width = image.src.width | append: 'x' | append: image.src.height
+                    assign width = '375x' | append: mobile_image_height | append: ',' | append: master_width
+                  -%}
+                  <img
+                    data-src="{{ image | image_url }}"
+                    class=" slideshow-image--mobile{% unless settings.lazy_loading %} no-blur{% endunless %}"
+                    width="{{ image.src.width }}"
+                    height="{{ image.src.height }}"
+                    alt="{{ image.alt }}"
+                  >
+                {%- endif -%}
               {%- endif -%}
               <div class="slideshow__slide-bg">
                 {%- if block.settings.image -%}
