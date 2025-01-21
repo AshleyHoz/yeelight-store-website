@@ -367,13 +367,16 @@
       "type": "video",
       "settings": {
         "heading": "",
+        "cover_title": "",
         "marker_style": "style1",
         "description": "",
         "full_width": false,
         "video": "https://youtu.be/Nn6d2igqJGc?si=aLmUuNv0UJmMTBuD",
         "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
         "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-400",
+        "mobile_height": "mobile-height-auto",
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
         "disable_top_spacing": false,
@@ -385,101 +388,131 @@
     "single_image_3kkr3Y": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_1.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M_1.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight_Permanent_Light_PC2.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_bNVALU": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_3.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_YFNLfJ": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_4.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M_4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_UwbPnd": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_5.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight_Permanent_Light_PC6.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_7.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_N6MW93": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_8.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_JH8XXF": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_9.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M_9.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_WdwpPN": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight_Permanent_Light_PC_10.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "rich_text_6mPtPi": {
@@ -533,22 +566,28 @@
     "single_image_FGkhTr": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Permanent_Light_PC11.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M_11.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "video_64QYQy": {
       "type": "video",
       "settings": {
         "heading": "How to Use",
+        "cover_title": "",
         "marker_style": "style1",
         "description": "",
         "full_width": false,
         "video": "https://youtu.be/t7QUKF34r1g?si=ox0nXaWCwQDqvm0U",
         "video_autoplay": false,
+        "video_loop": true,
+        "video_controls": true,
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-400",
         "aspect_ratio": "16-9",
@@ -562,21 +601,27 @@
     "single_image_m6jW4L": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Permanent_Light_PC12.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M_12.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_wA9Aty": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Permanent_Light_PC13.jpg",
         "image_mobile": "shopify://shop_images/Permanent-M_13.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "collapsible_content_FHcELA": {
