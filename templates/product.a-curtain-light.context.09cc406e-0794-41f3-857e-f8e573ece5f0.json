@@ -12,5 +12,35 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "product_slideshow_ahQAiP": {
+      "settings": {},
+      "blocks": {},
+      "block_order": [
+        "slide_Re8Uxn",
+        "slide_Hyb3Yi",
+        "slide_UqXJwU",
+        "slide_pwhMUx",
+        "slide_WUUWHz"
+      ]
+    },
+    "single_image_3kkr3Y": {
+      "settings": {
+        "image": "shopify://shop_images/Curtain_light_lifestyle_1.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_8Areip": {
+      "settings": {
+        "image": "shopify://shop_images/Curtain_light_lifestyle_3.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_YFNLfJ": {
+      "settings": {
+        "image": "shopify://shop_images/Curtain_light_lifestyle_11.jpg"
+      },
+      "blocks": {}
+    }
+  }
 }
