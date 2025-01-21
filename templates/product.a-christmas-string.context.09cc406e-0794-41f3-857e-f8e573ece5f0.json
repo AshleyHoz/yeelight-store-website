@@ -12,5 +12,21 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "product_slideshow_ahQAiP": {
+      "settings": {},
+      "blocks": {
+        "slide_Hyb3Yi": {
+          "settings": {
+            "image": "shopify://shop_images/03_b9ef852c-b8eb-4326-8c2a-1707375cc89d.jpg",
+            "mobile_image": "shopify://shop_images/M_03.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_UqXJwU",
+        "slide_Hyb3Yi"
+      ]
+    }
+  }
 }
