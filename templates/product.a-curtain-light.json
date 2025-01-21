@@ -367,13 +367,16 @@
       "type": "video",
       "settings": {
         "heading": "",
+        "cover_title": "",
         "marker_style": "style1",
         "description": "",
         "full_width": false,
         "video": "https://youtu.be/PJj5ugJOqVs?si=aiAB7KNYvnC7AUE-",
         "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
         "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-400",
+        "mobile_height": "mobile-height-auto",
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
         "disable_top_spacing": false,
@@ -385,71 +388,92 @@
     "single_image_3kkr3Y": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Curtain_light_PC_2.jpg",
         "image_mobile": "shopify://shop_images/Curtain_light_M_2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Curtain_light_PC_3.jpg",
         "image_mobile": "shopify://shop_images/Curtain_light_M_3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_bNVALU": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Curtain_light_PC_4.jpg",
         "image_mobile": "shopify://shop_images/Curtain_light_M_4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_YFNLfJ": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Curtain_light_PC_5.jpg",
         "image_mobile": "shopify://shop_images/Curtain_light_M_5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_UwbPnd": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Curtain_light_PC_6.jpg",
         "image_mobile": "shopify://shop_images/Curtain_light_M_6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Curtain_light_PC_7.jpg",
         "image_mobile": "shopify://shop_images/Curtain_light_M_7.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_N6MW93": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Curtain_light_PC_9.jpg",
         "image_mobile": "shopify://shop_images/Curtain_light_M_9.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "rich_text_6mPtPi": {
@@ -503,22 +527,28 @@
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Curtain_light_PC_8.jpg",
         "image_mobile": "shopify://shop_images/Curtain_light_M_8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "video_GFtEKx": {
       "type": "video",
       "settings": {
         "heading": "How to Use",
+        "cover_title": "",
         "marker_style": "style1",
         "description": "",
         "full_width": false,
         "video": "https://youtu.be/mM2Aq5a77Ys?si=HDJ3KUjYObe9wAi0",
         "video_autoplay": false,
+        "video_loop": true,
+        "video_controls": true,
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-400",
         "aspect_ratio": "16-9",
@@ -532,21 +562,27 @@
     "single_image_JH8XXF": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Curtain_light_PC_10.jpg",
         "image_mobile": "shopify://shop_images/Curtain_light_M_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_WdwpPN": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Curtain_light_PC_11.jpg",
         "image_mobile": "shopify://shop_images/Curtain_light_M_10.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "collapsible_content_gAKjQX": {
