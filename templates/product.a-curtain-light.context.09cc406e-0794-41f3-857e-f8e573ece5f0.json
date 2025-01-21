@@ -26,19 +26,27 @@
     },
     "single_image_3kkr3Y": {
       "settings": {
-        "image": "shopify://shop_images/Curtain_light_lifestyle_1.jpg"
+        "image": "shopify://shop_images/Curtain_light_lifestyle_1.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_lifestyle_Mobile_3.jpg"
       },
       "blocks": {}
     },
     "single_image_8Areip": {
       "settings": {
-        "image": "shopify://shop_images/Curtain_light_lifestyle_3.jpg"
+        "image": "shopify://shop_images/Curtain_light_lifestyle_3.jpg",
+        "image_mobile": "shopify://shop_images/Curtain_light_lifestyle_Mobile_8.jpg"
       },
       "blocks": {}
     },
     "single_image_YFNLfJ": {
       "settings": {
         "image": "shopify://shop_images/Curtain_light_lifestyle_11.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_FC7Fnr": {
+      "settings": {
+        "image_mobile": "shopify://shop_images/Curtain_light_lifestyle_Mobile_7.jpg"
       },
       "blocks": {}
     }
