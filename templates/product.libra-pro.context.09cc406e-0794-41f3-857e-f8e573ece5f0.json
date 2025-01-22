@@ -18,47 +18,169 @@
       "settings": {},
       "blocks": {}
     },
-    "image_with_text_JEngU3": {
-      "settings": {
-        "disable_bottom_spacing": false
-      },
-      "blocks": {}
-    },
-    "image_with_text_9x7Vgb": {
-      "settings": {
-        "disable_bottom_spacing": false
-      },
-      "blocks": {}
-    },
-    "image_with_text_9VQgQG": {
-      "settings": {
-        "disable_bottom_spacing": false
-      },
-      "blocks": {}
-    },
-    "image_with_text_jtdTDz": {
-      "settings": {
-        "disable_bottom_spacing": false
-      },
-      "blocks": {}
-    },
-    "image_with_text_AnkELY": {
-      "settings": {
-        "disable_bottom_spacing": false
-      },
-      "blocks": {}
-    },
-    "image_with_text_kxtL8c": {
-      "settings": {
-        "disable_bottom_spacing": false
-      },
-      "blocks": {}
-    },
     "1663667029efc274af": {
       "settings": {
         "description": ""
       },
       "blocks": {}
+    },
+    "single_image_c9HMH": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/US_Monitor_light_Bar_pro_KV-pc.jpg",
+        "image_mobile": null,
+        "full_width": true,
+        "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-f33572b13cd06073cf9cc342160f7e75": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "single_image_FNtbD": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-01.jpg",
+        "image_mobile": null,
+        "full_width": true,
+        "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-f33572b13cd06073cf9cc342160f7e75": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "single_image_mWcRN": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-02.jpg",
+        "image_mobile": null,
+        "full_width": true,
+        "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-f33572b13cd06073cf9cc342160f7e75": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "single_image_a66JP": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-03.jpg",
+        "image_mobile": null,
+        "full_width": true,
+        "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-f33572b13cd06073cf9cc342160f7e75": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "single_image_3LEeh": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-04.jpg",
+        "image_mobile": null,
+        "full_width": true,
+        "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-f33572b13cd06073cf9cc342160f7e75": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "single_image_Ka4tP": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-05.jpg",
+        "image_mobile": null,
+        "full_width": true,
+        "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-f33572b13cd06073cf9cc342160f7e75": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "single_image_YPGET": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-06.jpg",
+        "image_mobile": null,
+        "full_width": true,
+        "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-f33572b13cd06073cf9cc342160f7e75": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "3a444c86-680e-4deb-b870-63aec684439f": {
+      "settings": {
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      },
+      "blocks": {}
+    },
+    "245ee280-dfa9-4791-91ed-b65a153cc976": {
+      "settings": {
+        "disable_top_spacing": false
+      },
+      "blocks": {}
     }
-  }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "logo_list_4rGT3p",
+    "single_image_c9HMH",
+    "16623743398765981b",
+    "3a444c86-680e-4deb-b870-63aec684439f",
+    "single_image_FNtbD",
+    "single_image_mWcRN",
+    "single_image_a66JP",
+    "single_image_3LEeh",
+    "single_image_Ka4tP",
+    "single_image_YPGET",
+    "245ee280-dfa9-4791-91ed-b65a153cc976",
+    "1663667029efc274af",
+    "rich_text_PMLY8L",
+    "1712653930ba36f195",
+    "product-recommendations"
+  ]
 }
