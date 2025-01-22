@@ -12,5 +12,53 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "logo_list_4rGT3p": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "image_with_text_JEngU3": {
+      "settings": {
+        "disable_bottom_spacing": false
+      },
+      "blocks": {}
+    },
+    "image_with_text_9x7Vgb": {
+      "settings": {
+        "disable_bottom_spacing": false
+      },
+      "blocks": {}
+    },
+    "image_with_text_9VQgQG": {
+      "settings": {
+        "disable_bottom_spacing": false
+      },
+      "blocks": {}
+    },
+    "image_with_text_jtdTDz": {
+      "settings": {
+        "disable_bottom_spacing": false
+      },
+      "blocks": {}
+    },
+    "image_with_text_AnkELY": {
+      "settings": {
+        "disable_bottom_spacing": false
+      },
+      "blocks": {}
+    },
+    "image_with_text_kxtL8c": {
+      "settings": {
+        "disable_bottom_spacing": false
+      },
+      "blocks": {}
+    },
+    "1663667029efc274af": {
+      "settings": {
+        "description": ""
+      },
+      "blocks": {}
+    }
+  }
 }
