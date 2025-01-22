@@ -30,7 +30,7 @@
       "settings": {
         "link": "",
         "image": "shopify://shop_images/US_Monitor_light_Bar_pro_KV-pc.jpg",
-        "image_mobile": null,
+        "image_mobile": "shopify://shop_images/US_Monitor_light_Bar_pro_KV-Mobile.jpg",
         "full_width": true,
         "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
         "disable_top_spacing": false,
@@ -48,7 +48,7 @@
       "settings": {
         "link": "",
         "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-01.jpg",
-        "image_mobile": null,
+        "image_mobile": "shopify://shop_images/US_Monitor_light_Bar_pro_01-mobile.jpg",
         "full_width": true,
         "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
         "disable_top_spacing": false,
@@ -66,7 +66,7 @@
       "settings": {
         "link": "",
         "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-02.jpg",
-        "image_mobile": null,
+        "image_mobile": "shopify://shop_images/US_Monitor_light_Bar_pro_02-mobile.jpg",
         "full_width": true,
         "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
         "disable_top_spacing": false,
@@ -84,7 +84,7 @@
       "settings": {
         "link": "",
         "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-03.jpg",
-        "image_mobile": null,
+        "image_mobile": "shopify://shop_images/US_Monitor_light_Bar_pro_03-mobile.jpg",
         "full_width": true,
         "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
         "disable_top_spacing": false,
@@ -102,7 +102,7 @@
       "settings": {
         "link": "",
         "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-04.jpg",
-        "image_mobile": null,
+        "image_mobile": "shopify://shop_images/US_Monitor_light_Bar_pro_04-mobile.jpg",
         "full_width": true,
         "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
         "disable_top_spacing": false,
@@ -120,7 +120,7 @@
       "settings": {
         "link": "",
         "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-05.jpg",
-        "image_mobile": null,
+        "image_mobile": "shopify://shop_images/US_Monitor_light_Bar_pro_05-mobile.jpg",
         "full_width": true,
         "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
         "disable_top_spacing": false,
@@ -138,7 +138,7 @@
       "settings": {
         "link": "",
         "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-06.jpg",
-        "image_mobile": null,
+        "image_mobile": "shopify://shop_images/US_Monitor_light_Bar_pro_06-mobile.jpg",
         "full_width": true,
         "header-0bbbd87ba0f8ffad896f56b5233118cf": null,
         "disable_top_spacing": false,
