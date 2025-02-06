@@ -15,15 +15,15 @@
   "sections": {
     "announcement_bar_77nVN": {
       "type": "announcement-bar",
-      "disabled": false,
+      "disabled": true,
       "settings": {
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "marquee",
-        "header-bb83ddbfa20e6fdc6f7010a080477c35": null,
+        "header-9d6cf8f3b923f477595cdc2812863139": null,
         "direction": "left",
         "speed": "50s",
-        "header-871e062136ed7d1c33c82382ee3b6468": null,
+        "header-b599f141dff03d3e0a81aa4dc9675273": null,
         "use_block_colors": false,
         "autoplay": false,
         "autoplay_length": 5,
@@ -40,12 +40,12 @@
             "text": "Please note that due to holiday impacts, orders placed before February 4th will experience shipping delays. We appreciate your understanding     •",
             "sub_text": "",
             "link": "",
-            "header-aa41e37141d54f447664ab8e889729e1": null,
+            "header-ba16348b68c8f251bd8af76984a15e01": null,
             "button_text": "",
             "button_color": "accent",
             "button_link": "",
             "use_text_button": false,
-            "header-2067a9b4d4fcfe54c1c9992d82c0b8c9": null,
+            "header-fc363a3f0c03b89131edf466cf5e0e31": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
