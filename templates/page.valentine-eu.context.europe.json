@@ -34,23 +34,23 @@
     },
     "activity_valentine_N943U7": {
       "settings": {
-        "title_icon": "custom-valentine-title-heart",
-        "title": "Create Your Perfect Moment"
+        "title": "Create Your Perfect Moment",
+        "title_icon": "custom-valentine-title-heart"
       },
       "blocks": {
-        "product_6hbnXF": {
-          "settings": {
-            "product": "yeelight-rgbicww-smart-ceiling-light"
-          }
-        },
         "product_UNaT86": {
           "settings": {
             "product": "yeelight-smart-cube-kit"
           }
         },
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        },
         "product_GxKGKM": {
           "settings": {
-            "product": "yeelight-holiday-lightshow-package"
+            "product": "yeelight-smart-led-lamp-d2"
           }
         },
         "product_wR3qDg": {
