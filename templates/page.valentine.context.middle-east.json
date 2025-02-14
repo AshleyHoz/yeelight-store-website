@@ -12,5 +12,36 @@
   "context": {
     "market": "middle-east"
   },
-  "sections": {}
+  "sections": {
+    "activity_valentine_N943U7": {
+      "settings": {},
+      "blocks": {
+        "product_ikGnam": {
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_GxKGKM": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_UNaT86": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        }
+      },
+      "block_order": [
+        "product_wR3qDg",
+        "product_ikGnam",
+        "product_6qM9pk",
+        "product_GxKGKM",
+        "product_6hbnXF",
+        "product_WjGkfF",
+        "product_UNaT86",
+        "product_wtezBt"
+      ]
+    }
+  }
 }
