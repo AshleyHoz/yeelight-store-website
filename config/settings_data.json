@@ -80,7 +80,7 @@
     "favicon": "shopify://shop_images/Fun_favicon.png",
     "halloween_flag": false,
     "black_friday_flag": false,
-    "christmas_flag": true,
+    "christmas_flag": false,
     "new_year_flag": true,
     "valentine_flag": false,
     "product_opposite_theme": true,
