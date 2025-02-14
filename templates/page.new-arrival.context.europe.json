@@ -146,6 +146,19 @@
             "show_products_rating": true
           }
         },
+        "text_KXGx8": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "Seamless Design, Effortless Setup<br>Ready-to-Use Clock, Text, Emoji Modes & 20+ Lighting Effects<br>16 Million RGB Colors, Infinite Creativity<br>Pixel-Level DIY & Graffiti Sharing<br>Works seamlessly with Matter, Alexa, and Google Home<br>Control via Voice, App, or Touch<br>Flexible Placement, Anywhere Magic",
+            "text_style": "style_body"
+          }
+        },
+        "description_zhfDj": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
         "variant_picker_JngBe": {
           "type": "variant_picker",
           "disabled": false,
@@ -176,6 +189,8 @@
       },
       "block_order": [
         "title_3tfnd",
+        "text_KXGx8",
+        "description_zhfDj",
         "variant_picker_JngBe",
         "quantity_bBgVb",
         "buy_buttons_3FCYR"
