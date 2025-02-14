@@ -1454,8 +1454,9 @@
   margin-bottom: 0;
 }
 
-.accordion .accordion__content>ul {
-  list-style: disc
+.accordion .accordion__content ul,
+.accordion .accordion__content li {
+  list-style: disc !important;
 }
 
 .share-article {
