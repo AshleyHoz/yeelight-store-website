@@ -8,29 +8,19 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "page.valentine-eu.json",
+  "parent": "page.valentine.json",
   "context": {
     "market": "middle-east"
   },
   "sections": {
-    "activity_valentine_JaTgDy": {
-      "settings": {},
-      "blocks": {
-        "product_NEXyJH": {
-          "settings": {
-            "product": "yeelight-rgbicww-smart-ceiling-light"
-          }
-        },
-        "product_dFcCKK": {
-          "settings": {
-            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
-          }
-        }
-      }
-    },
     "activity_valentine_N943U7": {
       "settings": {},
       "blocks": {
+        "product_ikGnam": {
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
         "product_GxKGKM": {
           "settings": {
             "product": "yeelight-smart-cube-kit"
@@ -38,24 +28,19 @@
         },
         "product_UNaT86": {
           "settings": {
-            "product": "a-yeelight-cube-4-matrix-pack"
-          }
-        },
-        "product_wR3qDg": {
-          "settings": {
-            "product": "yeelight-smart-bulb-w4"
+            "product": "yeelight-rgbicww-smart-ceiling-light"
           }
         }
       },
       "block_order": [
+        "product_wR3qDg",
         "product_ikGnam",
-        "product_GxKGKM",
         "product_6qM9pk",
-        "product_UNaT86",
+        "product_GxKGKM",
         "product_6hbnXF",
         "product_WjGkfF",
-        "product_wtezBt",
-        "product_wR3qDg"
+        "product_UNaT86",
+        "product_wtezBt"
       ]
     }
   }

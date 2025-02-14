@@ -107,20 +107,6 @@
           "allowed_templates": ""
         }
       },
-      "9377937747802625048": {
-        "type": "shopify://apps/biscuits-bundles/blocks/biscuits-app-embed/9e9ff1bd-2cba-468f-b59f-a1ff63f6efe9",
-        "disabled": false,
-        "settings": {
-          "quickadd_action": "replace",
-          "quick_add_button_classes": "",
-          "quickview_action": "hide",
-          "quick_add_selector": "",
-          "quick_view_selector": "",
-          "grid_item_selector": "",
-          "product_form_selector": "",
-          "custom_css": ""
-        }
-      },
       "1373006865992778634": {
         "type": "shopify://apps/impact-com/blocks/utt/adac1a7f-d17f-4936-8a12-45628cdd8add",
         "disabled": false,
@@ -146,13 +132,13 @@
         "disabled": false,
         "settings": {}
       },
-      "12657775114333427046": {
-        "type": "shopify://apps/essential-countdown/blocks/app_embed/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
+      "573254258818049612": {
+        "type": "shopify://apps/crazy-egg/blocks/app-embed/7ea73823-6ad9-4252-a63e-088397d54aed",
         "disabled": false,
         "settings": {}
       },
-      "573254258818049612": {
-        "type": "shopify://apps/crazy-egg/blocks/app-embed/7ea73823-6ad9-4252-a63e-088397d54aed",
+      "17368511000352060744": {
+        "type": "shopify://apps/goaffpro-affiliate-marketing/blocks/goaffpro-embedded-pixel/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
         "disabled": false,
         "settings": {}
       }

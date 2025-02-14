@@ -13,11 +13,47 @@
     "market": "middle-east"
   },
   "sections": {
-    "header": {
+    "announcement_bar_77nVN": {
+      "type": "announcement-bar",
+      "disabled": true,
       "settings": {
-        "menu": "eu-header"
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "marquee",
+        "header-9d6cf8f3b923f477595cdc2812863139": null,
+        "direction": "left",
+        "speed": "50s",
+        "header-b599f141dff03d3e0a81aa4dc9675273": null,
+        "use_block_colors": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "background_color": "rgba(0,0,0,0)"
       },
-      "blocks": {}
+      "blocks": {
+        "text_WVa67": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "background_image": null,
+            "background_image_mobile": null,
+            "icon": "none",
+            "text": "Please note that due to holiday impacts, orders placed before February 4th will experience shipping delays. We appreciate your understanding     •",
+            "sub_text": "",
+            "link": "",
+            "header-ba16348b68c8f251bd8af76984a15e01": null,
+            "button_text": "",
+            "button_color": "accent",
+            "button_link": "",
+            "use_text_button": false,
+            "header-fc363a3f0c03b89131edf466cf5e0e31": null,
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_WVa67"
+      ]
     },
     "announcement-bar": {
       "settings": {},
@@ -28,6 +64,20 @@
           }
         }
       }
+    },
+    "header": {
+      "settings": {
+        "menu": "eu-header"
+      },
+      "blocks": {}
     }
-  }
+  },
+  "order": [
+    "announcement-bar",
+    "announcement_bar_77nVN",
+    "info_bar_9bWAay",
+    "header-secondary-menu",
+    "header",
+    "header-mobile-navigation"
+  ]
 }

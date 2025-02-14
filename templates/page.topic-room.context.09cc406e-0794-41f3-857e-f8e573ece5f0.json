@@ -8,9 +8,17 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "product.package.json",
+  "parent": "page.topic-room.json",
   "context": {
-    "market": "europe"
+    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "custom_liquid_4Fk7Mk": {
+      "settings": {
+        "image": "shopify://shop_images/2-2_56ab60ca-7f1d-4020-ad5c-e244d3072036.png",
+        "image_mobile": "shopify://shop_images/2-1_07bf437f-1a73-4629-80d5-6644c8b5345f.png"
+      },
+      "blocks": {}
+    }
+  }
 }
