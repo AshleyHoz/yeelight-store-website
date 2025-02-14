@@ -1031,6 +1031,11 @@
   margin-bottom: 10px;
 }
 
+.thb-product-detail .product-short-description ul,
+.thb-product-detail .product-short-description li {
+  list-style: disc;
+}
+
 .thb-product-detail .product-short-description iframe,
 .thb-product-detail .product-short-description video {
   max-width: 100%;
