@@ -12,5 +12,31 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "activity_valentine_N943U7": {
+      "settings": {},
+      "blocks": {
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_wR3qDg": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        },
+        "product_ikGnam": {
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_6qM9pk": {
+          "settings": {
+            "product": "yeelight-rechargeable-desk-lamp"
+          }
+        }
+      }
+    }
+  }
 }
