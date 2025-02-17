@@ -17,6 +17,7 @@
       "settings": {},
       "blocks": {
         "slide_rYUPUw": {
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Banner-love-PC_e579959b-3da3-47d2-8ac0-6d66a155863c.jpg",
             "mobile_image": "shopify://shop_images/Lovebanner.jpg",
@@ -66,7 +67,7 @@
             "data-limit": 15,
             "maxwidth": 1080,
             "is_sample": true,
-            "paragraph-e5aae8b1ccd1f4613dce59a1937528ce": null
+            "paragraph-5c55d773525726ef64a65ae3e9d8bdf7": null
           }
         }
       },
