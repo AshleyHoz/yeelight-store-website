@@ -25,16 +25,6 @@
         "title": "New Arrival  🎉"
       },
       "blocks": {
-        "product_PLDXRU": {
-          "settings": {
-            "product": "yeelight-night-lights"
-          }
-        },
-        "product_qeiKJQ": {
-          "settings": {
-            "product": "yeelight-plug-in-light-sensor-nightlight-pura"
-          }
-        },
         "product_ede9rb": {
           "settings": {
             "product": "yeelight-rgbicww-smart-ceiling-light"
@@ -45,6 +35,16 @@
           "disabled": false,
           "settings": {
             "product": "yeelight-rgb-smart-ceiling-light-s-series"
+          }
+        },
+        "product_PLDXRU": {
+          "settings": {
+            "product": "yeelight-night-lights"
+          }
+        },
+        "product_qeiKJQ": {
+          "settings": {
+            "product": "yeelight-plug-in-light-sensor-nightlight-pura"
           }
         },
         "product_hqBmT": {
@@ -108,6 +108,108 @@
       "disabled": true,
       "settings": {},
       "blocks": {}
+    },
+    "single_image_Pn6pPg": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "featured_product_tkg8H": {
+      "type": "featured-product",
+      "disabled": false,
+      "settings": {
+        "heading": "Spark Your Imagination",
+        "marker_style": "style1",
+        "description": "",
+        "header-a61d0990387de3dd63368b9145cce6a9": null,
+        "product": "yeelight-smart-lamp-cube-lite",
+        "show_taxes_included": true,
+        "header-c6eab6907a22e3dab3c2543f545d2d6b": null,
+        "paragraph-4a791cde4f0227f2953bf12145e55742": null,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "header-136f1372a717e2274b6ad1e2785faf37": null,
+        "marker_color": "#FD6262",
+        "header-f56bf0bd4eb478bc338ce8c4bc33493f": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      },
+      "blocks": {
+        "title_3tfnd": {
+          "type": "title",
+          "disabled": false,
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "text_KXGx8": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "Seamless Design, Effortless Setup<br>Ready-to-Use Clock, Text, Emoji Modes & 20+ Lighting Effects<br>16 Million RGB Colors, Infinite Creativity<br>Pixel-Level DIY & Graffiti Sharing<br>Works seamlessly with Matter, Alexa, and Google Home<br>Control via Voice, App, or Touch<br>Flexible Placement, Anywhere Magic",
+            "text_style": "style_body"
+          }
+        },
+        "description_zhfDj": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_JngBe": {
+          "type": "variant_picker",
+          "disabled": false,
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_use_variants": false,
+            "variant_is_disabled": true,
+            "sizing_guide_text": "Sizing guide",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "quantity_bBgVb": {
+          "type": "quantity",
+          "disabled": false,
+          "settings": {
+            "paragraph-c050c454ba345c56f611bca04606219e": null
+          }
+        },
+        "buy_buttons_3FCYR": {
+          "type": "buy_buttons",
+          "disabled": false,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "title_3tfnd",
+        "text_KXGx8",
+        "description_zhfDj",
+        "variant_picker_JngBe",
+        "quantity_bBgVb",
+        "buy_buttons_3FCYR"
+      ]
     }
-  }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "single_image_Pn6pPg",
+    "featured_product_tkg8H",
+    "activity_new_year_di8mPj",
+    "activity_new_year_CtQC3B",
+    "single_image_jKHqAE",
+    "single_image_HQL3cr",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
 }
