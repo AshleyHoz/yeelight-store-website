@@ -220,19 +220,6 @@
         "activity_icon": false
       }
     },
-    "single_image_zaLRLn": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/Yeelight_Cube_lite_pc_7.jpg",
-        "image_mobile": "shopify://shop_images/Yeelight_cube_lite_mobile_7.jpg",
-        "full_width": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
     "product_slideshow_e8tjP9": {
       "type": "product-slideshow",
       "blocks": {
@@ -485,7 +472,6 @@
     "single_image_VYGpWL",
     "single_image_QMqrmX",
     "single_image_DqHeLE",
-    "single_image_zaLRLn",
     "product_slideshow_e8tjP9",
     "single_image_RH3G8y",
     "single_image_TkT9DR",
