@@ -356,7 +356,7 @@
         "link": "",
         "image": "shopify://shop_images/Yeelight_Cube_lite_pc_8.jpg",
         "image_mobile": "shopify://shop_images/Yeelight_cube_lite_mobile_8.jpg",
-        "full_width": false,
+        "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "activity_wyze": false,
