@@ -17,11 +17,11 @@
       "settings": {},
       "blocks": {
         "slide_rYUPUw": {
-          "disabled": true,
+          "disabled": false,
           "settings": {
-            "image": "shopify://shop_images/Banner-love-PC_e579959b-3da3-47d2-8ac0-6d66a155863c.jpg",
-            "mobile_image": "shopify://shop_images/Lovebanner.jpg",
-            "slide_link": "shopify://pages/valentine-sales"
+            "image": "shopify://shop_images/Cube_Lite_Banner_PC.jpg",
+            "mobile_image": "shopify://shop_images/Cube_Lite_Banner_M.jpg",
+            "slide_link": "shopify://products/yeelight-smart-lamp-cube-lite"
           }
         },
         "slide_gEb3pq": {
@@ -46,6 +46,15 @@
         "slide_Apj7XN"
       ]
     },
+    "shop_the_look_slider_33yC6m": {
+      "settings": {},
+      "blocks": {},
+      "block_order": [
+        "slide_nMwfm4",
+        "slide_6VMDww",
+        "slide_GcLTeG"
+      ]
+    },
     "shop_the_look_slider_4EBHbg": {
       "settings": {
         "view_title": "Shop the Collection",
@@ -67,22 +76,13 @@
             "data-limit": 15,
             "maxwidth": 1080,
             "is_sample": true,
-            "paragraph-651cbe3a8cbb12718a3c43fa34737527": null
+            "paragraph-470a454e871bc087d1eb1c3e33c9d82b": null
           }
         }
       },
       "block_order": [
         "loox_reviews_loox_video_slider_y63DVW",
         "loox_reviews_loox_agg_section_RXGtX"
-      ]
-    },
-    "shop_the_look_slider_33yC6m": {
-      "settings": {},
-      "blocks": {},
-      "block_order": [
-        "slide_nMwfm4",
-        "slide_6VMDww",
-        "slide_GcLTeG"
       ]
     }
   },
