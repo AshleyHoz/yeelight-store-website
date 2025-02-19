@@ -226,10 +226,10 @@
         "slide_EABBbn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/yeelight_cube_lite_kv_1.png",
+            "image": "shopify://shop_images/Cube_Lite_KV_3.png",
             "slide_link": "",
             "button_icon": "",
-            "button_text": "Emoji",
+            "button_text": "Work",
             "video_background": false,
             "badge_text": "",
             "subheading": "Add a tagline",
@@ -262,7 +262,7 @@
         "slide_DnrmbG": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/yeelight_cube_lite_kv_2.png",
+            "image": "shopify://shop_images/Cube_Lite_KV_1.png",
             "slide_link": "",
             "button_icon": "",
             "button_text": "Gaming",
@@ -298,7 +298,7 @@
         "slide_9JdBFF": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/yeelight_cube_lite_kv_3.png",
+            "image": "shopify://shop_images/Cube_Lite_KV_2.png",
             "slide_link": "",
             "button_icon": "",
             "button_text": "Movie",
