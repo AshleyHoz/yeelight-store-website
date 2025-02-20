@@ -12,5 +12,16 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "main-product": {
+      "settings": {},
+      "blocks": {
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
+          "settings": {
+            "block_heading": "Do-it-yourself combinations"
+          }
+        }
+      }
+    }
+  }
 }
