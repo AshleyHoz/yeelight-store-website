@@ -82,7 +82,7 @@
     "black_friday_flag": false,
     "christmas_flag": false,
     "new_year_flag": false,
-    "valentine_flag": true,
+    "valentine_flag": false,
     "product_opposite_theme": true,
     "product_background": "#ffffff",
     "product_font_color": "#2C2D2E",
