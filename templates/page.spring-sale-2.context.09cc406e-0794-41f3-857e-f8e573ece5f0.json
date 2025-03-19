@@ -62,10 +62,18 @@
     },
     "activity_valentine_N943U7": {
       "settings": {
-        "show_icon": false,
-        "title": "Brighten Your Outdoors"
+        "title": "Brighten Your Outdoors",
+        "show_icon": false
       },
       "blocks": {
+        "product_6qM9pk": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_GxKGKM": {
+          "disabled": true,
+          "settings": {}
+        },
         "product_WjGkfF": {
           "disabled": true,
           "settings": {}
@@ -78,24 +86,16 @@
           "disabled": false,
           "settings": {}
         },
-        "product_wR3qDg": {
-          "disabled": true,
-          "settings": {}
-        },
-        "product_6qM9pk": {
-          "disabled": true,
-          "settings": {}
-        },
-        "product_GxKGKM": {
-          "disabled": true,
-          "settings": {}
-        },
         "product_kRcbD": {
           "type": "product",
           "disabled": false,
           "settings": {
             "product": "a-yeelight-christmas-string-lights"
           }
+        },
+        "product_wR3qDg": {
+          "disabled": true,
+          "settings": {}
         }
       },
       "block_order": [
@@ -142,6 +142,16 @@
       "disabled": true,
       "settings": {},
       "blocks": {}
+    },
+    "173148591784123612": {
+      "settings": {},
+      "blocks": {
+        "loox_reviews_loox_agg_section_QX3hBc": {
+          "settings": {
+            "data-limit": 6
+          }
+        }
+      }
     }
   },
   "order": [
