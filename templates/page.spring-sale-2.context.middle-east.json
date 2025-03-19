@@ -12,5 +12,71 @@
   "context": {
     "market": "middle-east"
   },
-  "sections": {}
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC_9e4dada0-d5d1-4291-a889-6a2876d53355.jpg",
+        "image_mobile": "shopify://shop_images/banner-M_d23c4d1f-b72d-4b3a-8019-cb3dc333f409.jpg"
+      },
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title": "Spring Into Savings",
+        "show_icon": false
+      },
+      "blocks": {
+        "product_8VyVNY": {
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_dFcCKK": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        }
+      }
+    },
+    "activity_valentine_N943U7": {
+      "settings": {
+        "show_icon": false,
+        "title": "Illuminate Your Space"
+      },
+      "blocks": {
+        "product_wtezBt": {
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        },
+        "product_wR3qDg": {
+          "settings": {
+            "product": "yeelight-ultra-thin-cabinet-light"
+          }
+        }
+      },
+      "block_order": [
+        "product_ikGnam",
+        "product_wR3qDg",
+        "product_6qM9pk",
+        "product_wtezBt"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "activity_valentine_JaTgDy",
+    "activity_valentine_N943U7",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
 }
