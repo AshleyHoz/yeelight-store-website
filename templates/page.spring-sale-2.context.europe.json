@@ -12,5 +12,96 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC_9e4dada0-d5d1-4291-a889-6a2876d53355.jpg",
+        "image_mobile": "shopify://shop_images/banner-M_d23c4d1f-b72d-4b3a-8019-cb3dc333f409.jpg"
+      },
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title": "Spring Into Savings",
+        "show_icon": false
+      },
+      "blocks": {
+        "product_Jdktg": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_pXeJk": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_zHCxL": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        }
+      },
+      "block_order": [
+        "product_WMhTBk",
+        "product_Jdktg",
+        "product_pXeJk",
+        "product_zHCxL"
+      ]
+    },
+    "activity_valentine_N943U7": {
+      "settings": {
+        "show_icon": false,
+        "title": "Illuminate Your Space"
+      },
+      "blocks": {
+        "product_jrwWM": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-bulb"
+          }
+        },
+        "product_6hbnXF": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        },
+        "product_wtezBt": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        },
+        "product_ikGnam": {
+          "disabled": false,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_ikGnam",
+        "product_6hbnXF",
+        "product_wtezBt",
+        "product_jrwWM"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "activity_valentine_JaTgDy",
+    "activity_valentine_N943U7",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
 }
