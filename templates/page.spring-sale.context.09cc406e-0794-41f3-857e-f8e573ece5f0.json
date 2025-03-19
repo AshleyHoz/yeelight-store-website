@@ -12,5 +12,104 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "activity_valentine_JaTgDy": {
+      "disabled": false,
+      "settings": {
+        "show_icon": false,
+        "title": "Spring into Savings"
+      },
+      "blocks": {
+        "product_8VyVNY": {
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        },
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_i3XBD": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "yeelight-rgbic-led-basic-strip-lights"
+          }
+        },
+        "product_9rpnG": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_GBiEK": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "yeelight-smart-cube"
+          }
+        },
+        "product_iefVX": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_dFcCKK": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_WMhTBk",
+        "product_8VyVNY",
+        "product_NEXyJH",
+        "product_dFcCKK",
+        "product_i3XBD",
+        "product_9rpnG",
+        "product_iefVX",
+        "product_GBiEK"
+      ]
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC_9e4dada0-d5d1-4291-a889-6a2876d53355.jpg",
+        "image_mobile": "shopify://shop_images/banner-M_d23c4d1f-b72d-4b3a-8019-cb3dc333f409.jpg"
+      },
+      "blocks": {}
+    },
+    "activity_valentine_N943U7": {
+      "disabled": false,
+      "settings": {
+        "show_icon": false,
+        "title": "Brighten Your Outdoors"
+      },
+      "blocks": {
+        "product_6qM9pk": {
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        }
+      },
+      "block_order": [
+        "product_6hbnXF",
+        "product_ikGnam",
+        "product_6qM9pk",
+        "product_wtezBt"
+      ]
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }
