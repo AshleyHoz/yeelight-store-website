@@ -43,7 +43,7 @@
             "header-709e51540a88033ce5ed0a57c7d143b4": null,
             "button_text": "Shop Now",
             "button_color": "accent",
-            "button_link": "",
+            "button_link": "shopify://pages/spring-sale",
             "use_text_button": false,
             "header-a98f236f080635fa622b84451d78cb28": null,
             "color_bg": "#3f72e5",
