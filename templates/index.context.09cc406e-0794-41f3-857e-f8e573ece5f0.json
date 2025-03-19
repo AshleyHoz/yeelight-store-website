@@ -32,6 +32,48 @@
             "content": ""
           }
         },
+        "slide_yHTReh": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/banner-PC_9e4dada0-d5d1-4291-a889-6a2876d53355.jpg",
+            "mobile_image": "shopify://shop_images/banner-M_d23c4d1f-b72d-4b3a-8019-cb3dc333f409.jpg",
+            "slide_link": "shopify://pages/spring-sale",
+            "header-6a276492a51fcd4154585ceea7c74157": null,
+            "video_background": false,
+            "video_hosted": null,
+            "header-131f33c515c8434e2fa034d4e304e5f2": null,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "header-e9049969c10e54ee8bd4306b614615c1": null,
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#ffffff",
+            "color_badge_bg": "#ffffff",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "header-260d7589282ed47f363a68b97a4b047e": null,
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "header-61c21fd354defd22266caa4d82a74a6b": null,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
         "slide_Apj7XN": {
           "settings": {
             "image": "shopify://shop_images/candela_b7b2b501-6b9b-4984-86d5-f0604ea76189.jpg",
@@ -41,9 +83,10 @@
         }
       },
       "block_order": [
+        "slide_yHTReh",
         "slide_rYUPUw",
-        "slide_gEb3pq",
-        "slide_Apj7XN"
+        "slide_Apj7XN",
+        "slide_gEb3pq"
       ]
     },
     "shop_the_look_slider_33yC6m": {
@@ -76,7 +119,7 @@
             "data-limit": 15,
             "maxwidth": 1080,
             "is_sample": true,
-            "paragraph-470a454e871bc087d1eb1c3e33c9d82b": null
+            "paragraph-7b6144fb3b6449801de0014558b5dc56": null
           }
         }
       },
