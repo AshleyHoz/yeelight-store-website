@@ -57,16 +57,13 @@
     },
     "activity_valentine_N943U7": {
       "settings": {
-        "show_icon": false,
-        "title": "Illuminate Your Space"
+        "title": "Illuminate Your Space",
+        "show_icon": false
       },
       "blocks": {
-        "product_jrwWM": {
-          "type": "product",
+        "product_ikGnam": {
           "disabled": false,
-          "settings": {
-            "product": "yeelight-smart-bulb"
-          }
+          "settings": {}
         },
         "product_6hbnXF": {
           "disabled": false,
@@ -80,9 +77,12 @@
             "product": "yeelight-rgbicww-smart-ceiling-light"
           }
         },
-        "product_ikGnam": {
+        "product_jrwWM": {
+          "type": "product",
           "disabled": false,
-          "settings": {}
+          "settings": {
+            "product": "yeelight-smart-bulb"
+          }
         }
       },
       "block_order": [
@@ -91,6 +91,17 @@
         "product_wtezBt",
         "product_jrwWM"
       ]
+    },
+    "173148591784123612": {
+      "settings": {},
+      "blocks": {
+        "loox_reviews_loox_agg_section_QX3hBc": {
+          "settings": {
+            "only_photos": false,
+            "data-limit": 6
+          }
+        }
+      }
     }
   },
   "order": [
