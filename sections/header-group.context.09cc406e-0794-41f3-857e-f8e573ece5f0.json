@@ -14,6 +14,7 @@
   },
   "sections": {
     "announcement-bar": {
+      "disabled": true,
       "settings": {},
       "blocks": {
         "955bb93b-7a65-4933-8023-83a64ee46bc2": {
@@ -22,6 +23,56 @@
           }
         }
       }
+    },
+    "announcement_bar_TPJxh": {
+      "type": "announcement-bar",
+      "disabled": false,
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "single",
+        "header-2e7b53ef1d5c6750aea59cdfca2c1abb": null,
+        "direction": "left",
+        "speed": "20s",
+        "header-f8a5c85d7dd7a4aae437ec3756024007": null,
+        "use_block_colors": false,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "background_color": "transparent"
+      },
+      "blocks": {
+        "text_3tGKj": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "background_image": null,
+            "background_image_mobile": null,
+            "icon": "none",
+            "text": "Spring Into Savings! ",
+            "sub_text": "UP TO 35% OFF!",
+            "link": "",
+            "header-a4de6a313297d3804f11a5124b69b2fa": null,
+            "button_text": "Shop Now",
+            "button_color": "accent",
+            "button_link": "shopify://pages/spring-sale",
+            "use_text_button": false,
+            "header-abae6304297dcda6195007f93b61abf7": null,
+            "color_bg": "#3F72E5",
+            "color_text": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "text_3tGKj"
+      ]
     }
-  }
+  },
+  "order": [
+    "announcement-bar",
+    "announcement_bar_TPJxh",
+    "info_bar_9bWAay",
+    "header-secondary-menu",
+    "header",
+    "header-mobile-navigation"
+  ]
 }
