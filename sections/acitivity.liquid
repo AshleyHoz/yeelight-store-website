@@ -1,0 +1,123 @@
+{{ 'acitivity.css' | asset_url | stylesheet_tag }}
+{{ 'product-grid.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign image = section.settings.image
+  assign image_mobile = section.settings.image_mobile
+  assign background_image = section.settings.background_image
+  assign background_image_mobile = section.settings.background_image_mobile
+-%}
+
+<div class="acitivity">
+  <div class="acitivity-bg full-width full-height">
+    <div class="acitivity-bg-icons full-width full-height position-relative">
+      <div class="ic-spider-left">
+        {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-left' -%}
+      </div>
+      <div class="ic-spider-right">
+        {%- render 'svg-icons-halloween' with 'custom-halloween-spider-part-right' -%}
+      </div>
+      <div class="ic-ghost">
+        {%- render 'svg-icons-halloween' with 'custom-halloween-ghost' -%}
+      </div>
+    </div>
+  </div>
+  <div class="acitivity--img full-width position-relative">
+    <div class="mobile-cover-img">
+      {%- if background_image_mobile -%}
+        {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
+      {%- endif -%}
+    </div>
+    <div class="cover-img">
+      {%- if background_image -%}
+        {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+      {%- endif -%}
+    </div>
+  </div>
+  <div class="row activity-halloween-row">
+    <div class="acitivity--product full-width d-flex justify-space-between">
+      {% for block in section.blocks %}
+        <div class="product-item">
+          {% render 'product-card', product_card_product: block.settings.product %}
+        </div>
+      {% endfor %}
+    </div>
+    <div class="acitivity--info full-width">
+      <div class="mobile-info-img full-width text-center">
+        {%- if image_mobile -%}
+          {%- render 'responsive-image', image: image_mobile, sizes: image_mobile.src.width | append: 'x' | append: image_mobile.src.height -%}
+        {%- endif -%}
+      </div>
+      <div class="info-img full-width text-center">
+        {%- if image -%}
+          {%- render 'responsive-image', image: image, sizes: image.src.width | append: 'x' | append: image.src.height -%}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Activity",
+  "class": "yee-acitivity",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Header Title",
+      "info": "Wrap your text."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1440 x 650 px .jpg recommended."
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Mobile image",
+      "info": "750 x 800 px .jpg recommended. Default image is used if none is selected. To position the hotspots precisely, switch to mobile mode."
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_mobile",
+      "label": "Mobile Background image (optional)"
+    },
+    {
+      "type": "checkbox",
+      "id": "halloween_hand_flag",
+      "default": false,
+      "label": "Show Halloween Hand"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Activity",
+      "blocks": [
+        {
+          "type": "product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

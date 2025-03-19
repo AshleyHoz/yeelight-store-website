@@ -1,0 +1,101 @@
+.acitivity {
+  position: relative;
+  background: #090538;
+}
+
+.acitivity-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #090538;
+}
+
+.acitivity--img {
+  max-width: 1750px;
+  z-index: 2;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.acitivity-bg-icons .ic-spider-left {
+  position: absolute;
+  left: 0;
+  bottom: 120px;
+}
+
+.acitivity-bg-icons .ic-spider-right {
+  position: absolute;
+  right: 0;
+  top: 650px;
+}
+
+.acitivity-bg-icons .ic-ghost {
+  position: absolute;
+  right: 0;
+  bottom: 200px;
+}
+
+.activity-halloween-row {
+  position: relative;
+  z-index: 2;
+  margin-top: -120px;
+}
+
+.acitivity--info {
+  margin-top: 60px;
+}
+
+.acitivity--img .mobile-cover-img,
+.acitivity--info .mobile-info-img {
+  display: none;
+}
+
+.acitivity--info .info-img img,
+.acitivity--info .mobile-info-img img {
+  margin: 0 auto;
+}
+
+.acitivity--info .info-img img {
+  width: 60%;
+}
+
+.activity-halloween-row .acitivity--product {
+  gap: 12px;
+}
+
+.activity-halloween-row .acitivity--product .product-item {
+  width: calc(25% - 12px);
+}
+
+@media only screen and (max-width: 767px) {
+  .activity-halloween-row {
+    margin-top: 0;
+  }
+
+  .activity-halloween-row .acitivity--product {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .activity-halloween-row .acitivity--product .product-item {
+    width: calc(50% - 6px);
+  }
+
+  .acitivity--info {
+    margin-top: 26px;
+  }
+
+  .acitivity--img .mobile-cover-img,
+  .acitivity--info .mobile-info-img {
+    display: block;
+  }
+
+  .acitivity--img .cover-img,
+  .acitivity--info .info-img,
+  .acitivity-bg-icons .ic-spider-left,
+  .acitivity-bg-icons .ic-spider-right,
+  .acitivity-bg-icons .ic-ghost {
+    display: none;
+  }
+}
