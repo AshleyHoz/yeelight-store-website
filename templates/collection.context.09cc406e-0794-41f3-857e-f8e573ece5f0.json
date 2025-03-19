@@ -10,16 +10,7 @@
 {
   "parent": "collection.json",
   "context": {
-    "market": "middle-east"
+    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {
-    "image_with_text_overlay_8jXp9g": {
-      "disabled": false,
-      "settings": {
-        "image": "shopify://shop_images/a_lit-up_house.png",
-        "mobile_image": "shopify://shop_images/a_lit-up_house_e46e5c07-12a3-481d-934e-a65e4c92cae9.png"
-      },
-      "blocks": {}
-    }
-  }
+  "sections": {}
 }
