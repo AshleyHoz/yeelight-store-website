@@ -10,7 +10,7 @@
   padding-top: 20px;
 }
 
-.activity-halloween-row {
+.acitivity-row {
   position: relative;
   z-index: 2;
   margin-top: -120px;
@@ -34,25 +34,25 @@
   width: 60%;
 }
 
-.activity-halloween-row .acitivity--product {
+.acitivity-row .acitivity--product {
   gap: 12px;
 }
 
-.activity-halloween-row .acitivity--product .product-item {
+.acitivity-row .acitivity--product .product-item {
   width: calc(25% - 12px);
 }
 
 @media only screen and (max-width: 767px) {
-  .activity-halloween-row {
+  .acitivity-row {
     margin-top: 0;
   }
 
-  .activity-halloween-row .acitivity--product {
+  .acitivity-row .acitivity--product {
     flex-wrap: wrap;
     gap: 6px;
   }
 
-  .activity-halloween-row .acitivity--product .product-item {
+  .acitivity-row .acitivity--product .product-item {
     width: calc(50% - 6px);
   }
 
