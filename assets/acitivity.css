@@ -1,14 +1,6 @@
 .acitivity {
   position: relative;
-  background: #090538;
-}
-
-.acitivity-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background: #090538;
+  background: transparent;
 }
 
 .acitivity--img {
@@ -16,24 +8,6 @@
   z-index: 2;
   margin: 0 auto;
   padding-top: 20px;
-}
-
-.acitivity-bg-icons .ic-spider-left {
-  position: absolute;
-  left: 0;
-  bottom: 120px;
-}
-
-.acitivity-bg-icons .ic-spider-right {
-  position: absolute;
-  right: 0;
-  top: 650px;
-}
-
-.acitivity-bg-icons .ic-ghost {
-  position: absolute;
-  right: 0;
-  bottom: 200px;
 }
 
 .activity-halloween-row {
@@ -92,10 +66,7 @@
   }
 
   .acitivity--img .cover-img,
-  .acitivity--info .info-img,
-  .acitivity-bg-icons .ic-spider-left,
-  .acitivity-bg-icons .ic-spider-right,
-  .acitivity-bg-icons .ic-ghost {
+  .acitivity--info .info-img {
     display: none;
   }
 }
