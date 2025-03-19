@@ -17,9 +17,9 @@
       "type": "announcement-bar",
       "disabled": false,
       "settings": {
-        "announcement_bar": false,
+        "announcement_bar": true,
         "announcement_bar_homepage_only": false,
-        "announcement_bar_layout": "marquee",
+        "announcement_bar_layout": "single",
         "header-33184cefef513cf910278e04bd5a17a2": null,
         "direction": "left",
         "speed": "50s",
@@ -32,16 +32,16 @@
       "blocks": {
         "text_rajCq": {
           "type": "text",
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "background_image": null,
             "background_image_mobile": null,
             "icon": "none",
-            "text": "Please note that due to holiday impacts, orders placed before February 4th will experience shipping delays. We appreciate your understanding     •",
-            "sub_text": "",
+            "text": "Spring Into Savings! ",
+            "sub_text": "UP TO 35% OFF!",
             "link": "",
             "header-709e51540a88033ce5ed0a57c7d143b4": null,
-            "button_text": "",
+            "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "",
             "use_text_button": false,
@@ -56,6 +56,7 @@
       ]
     },
     "announcement-bar": {
+      "disabled": true,
       "settings": {},
       "blocks": {
         "text_qr4nfc": {
