@@ -30,6 +30,12 @@
       },
       "blocks": {},
       "block_order": []
+    },
+    "single_image_g4CiQU": {
+      "settings": {
+        "image_mobile": "shopify://shop_images/1_09711116-8764-4e4f-96eb-29de5e8f4652.jpg"
+      },
+      "blocks": {}
     }
   },
   "order": [
