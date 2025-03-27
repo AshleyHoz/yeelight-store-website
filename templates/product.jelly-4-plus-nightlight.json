@@ -225,11 +225,10 @@
     },
     "single_image_4jwYRE": {
       "type": "single-image",
-      "disabled": true,
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/img_v3_02ff_3dc7194e-4032-4663-9ac4-ff0943bfaabg.png",
-        "image_mobile": "shopify://shop_images/07_d0445aea-05b9-48a2-aa4a-80d76787d389.jpg",
+        "image": "shopify://shop_images/jelly4plus.jpg",
+        "image_mobile": "shopify://shop_images/jelly4plus2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
