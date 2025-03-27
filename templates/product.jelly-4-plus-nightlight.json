@@ -141,7 +141,8 @@
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_mtTtz8": {
@@ -153,7 +154,8 @@
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_CiE9F9": {
@@ -165,7 +167,8 @@
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_UrkT4K": {
@@ -177,7 +180,8 @@
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_k6gWJB": {
@@ -189,7 +193,8 @@
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_nbhytB": {
@@ -201,11 +206,13 @@
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_4jwYRE": {
       "type": "single-image",
+      "disabled": true,
       "settings": {
         "link": "",
         "image": "shopify://shop_images/img_v3_02ff_3dc7194e-4032-4663-9ac4-ff0943bfaabg.png",
@@ -213,7 +220,8 @@
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "rich_text_igCzBP": {
