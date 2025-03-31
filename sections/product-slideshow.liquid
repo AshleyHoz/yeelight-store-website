@@ -120,6 +120,11 @@
             style="--color-text: {{ color_text }}; --overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}; --color-slidebg-rgb: {{ color_slidebg.rgb | replace: ' ' , ',' }}; --color-slidebg-opacity: {{ color_slidebg_opacity | divided_by: 100.0 }}; --bg-blur: {{ color_slidebg_blur | append: 'px' }} "
             {{ block.shopify_attributes }}
           >
+            {% if block.settings.title != blank %}
+              <div class="sildeshow-slide_title full-width">
+                {% render 'section-header', section_heading: block.settings.title %}
+              </div>
+            {% endif %}
             {%- if desktop_height == 'desktop-height-image' or mobile_height == 'mobile-height-image' -%}
               {%- if block.settings.image -%}
                 {%- liquid
@@ -503,6 +508,11 @@
         {
           "type": "header",
           "content": "Content"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title"
         },
         {
           "type": "text",

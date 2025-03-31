@@ -640,6 +640,13 @@
   display: none;
 }
 
+.yee-product-slideshow .sildeshow-slide_title {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 @media only screen and (max-width: 767px) {
   .yee-product-slideshow {
     padding: 24px 0 80px;
@@ -705,5 +712,9 @@
   .yee-product-slideshow .slideshow__slide {
     width: 90%;
     height: 90%;
+  }
+
+  .yee-product-slideshow .sildeshow-slide_title {
+    display: none;
   }
 }
