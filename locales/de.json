@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "continue_shopping": "Weiter shoppen",
@@ -21,7 +21,7 @@
       "add_order_note": "Spezielle Bestellanweisungen",
       "save": "Sparen",
       "free_shipping": {
-        "spend_more_for_free_shipping_html": "Geben Sie <span>{{ amount }}<\/span> mehr für KOSTENLOSEN Versand aus.",
+        "spend_more_for_free_shipping_html": "Geben Sie <span>{{ amount }}</span> mehr für KOSTENLOSEN Versand aus.",
         "free_shipping_applied_at_checkout": "KOSTENLOSER Versand wird beim Checkout angewendet"
       }
     },
@@ -82,8 +82,8 @@
       "read_more": "Weiterlesen",
       "tags": "Stichworte:",
       "comments_html": {
-        "one": "<span>{{ count }} Kommentar zu<\/span> {{ title }}",
-        "other": "<span>{{ count }} Kommentare zu<\/span> {{ title }}"
+        "one": "<span>{{ count }} Kommentar zu</span> {{ title }}",
+        "other": "<span>{{ count }} Kommentare zu</span> {{ title }}"
       },
       "moderated": "Bitte beachte, dass Kommentare vor der Veröffentlichung genehmigt werden müssen.",
       "comment_form_title": "Hinterlasse einen Kommentar",
@@ -134,7 +134,7 @@
         "one": "Erhältlich in {{ count }} Farbe",
         "other": "Erhältlich in {{ count }} Farben"
       },
-      "shipping_policy_html": "<a href=\"{{ link }}\">Versand<\/a> wird beim Checkout berechnet",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Versand</a> wird beim Checkout berechnet",
       "quantity": {
         "label": "Anzahl",
         "input_label": "Anzahl von {{ product }}",
@@ -152,8 +152,8 @@
         "view_store_info": "Shop-Informationen anzeigen",
         "check_other_stores": "Verfügbarkeit in anderen Shops überprüfen",
         "pick_up_available": "Abholung verfügbar",
-        "pick_up_available_at_html": "Abholung bei <span class=\"color-foreground\">{{ location_name }}<\/span> verfügbar",
-        "pick_up_unavailable_at_html": "Abholung bei <span class=\"color-foreground\">{{ location_name }}<\/span> derzeit nicht verfügbar",
+        "pick_up_available_at_html": "Abholung bei <span class=\"color-foreground\">{{ location_name }}</span> verfügbar",
+        "pick_up_unavailable_at_html": "Abholung bei <span class=\"color-foreground\">{{ location_name }}</span> derzeit nicht verfügbar",
         "unavailable": "Verfügbarkeit für Abholungen konnte nicht geladen werden",
         "refresh": "Aktualisieren"
       },
@@ -233,9 +233,9 @@
       "ready": "Sind Sie bereit, Ihre neuen Lieblingsprodukte zu finden?",
       "cart_error": "Beim Aktualisieren deines Warenkorbs ist ein Fehler aufgetreten. Bitte versuche es erneut.",
       "cart_quantity_error_html": "Du kannst deinem Warenkorb nur {{ quantity }} Stück dieses Artikels hinzufügen.",
-      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\">Versand<\/a> werden beim Checkout berechnet",
+      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\">Versand</a> werden beim Checkout berechnet",
       "taxes_included_but_shipping_at_checkout": "Inklusive Steuern, Versand wird beim Checkout berechnet",
-      "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\">Versand <\/a> wird beim Checkout berechnet",
+      "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\">Versand </a> wird beim Checkout berechnet",
       "taxes_and_shipping_at_checkout": "Steuern und Versand werden beim Checkout berechnet",
       "headings": {
         "product": "Produkt",
@@ -244,7 +244,7 @@
         "quantity": "Anzahl"
       },
       "terms": "Ich stimme den AGB zu",
-      "terms_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen<\/a> zu",
+      "terms_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen</a> zu",
       "terms_confirm": "Sie müssen den Verkaufsbedingungen zustimmen, um zur Kasse gehen zu können",
       "shipping_estimator": {
         "estimate_shipping": "Versand schätzen",
@@ -260,7 +260,7 @@
     },
     "collection_template": {
       "empty": "Keine Produkte gefunden",
-      "use_fewer_filters_html": "Verwende weniger Filter oder <a class=\"{{ class }}\" href=\"{{ link }}\">entferne alle<\/a>",
+      "use_fewer_filters_html": "Verwende weniger Filter oder <a class=\"{{ class }}\" href=\"{{ link }}\">entferne alle</a>",
       "load_more": "Mehr laden"
     },
     "signup": {
@@ -308,10 +308,10 @@
     }
   },
   "localization": {
-    "country_label": "Land\/Region",
+    "country_label": "Land/Region",
     "language_label": "Sprache",
     "update_language": "Sprache aktualisieren",
-    "update_country": "Land\/Region aktualisieren"
+    "update_country": "Land/Region aktualisieren"
   },
   "customer": {
     "login_page": {
@@ -405,8 +405,8 @@
       "address1": "Adresse 1",
       "address2": "Adresse 2",
       "city": "Ort",
-      "country": "Land\/Region",
-      "province": "Bundesland\/Provinz",
+      "country": "Land/Region",
+      "province": "Bundesland/Provinz",
       "zip": "PLZ",
       "phone": "Telefonnummer",
       "set_default": "Als Standard-Adresse festlegen",
@@ -444,6 +444,19 @@
       "message_label": "Nachricht (optional)",
       "message": "Nachricht",
       "max_characters": "Maximal {{ max_chars }} Zeichen"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "merchant_instruction_errors": {
+        "invalid_variant_id_target": "Die Warenanweisung %{name} verweist auf die Varianten-ID %{variant_id}, aber diese Variante ist nicht in den Warenlinien enthalten."
+      }
+    },
+    "notices": {
+      "customer": {
+        "subscribe_error": "Abonnementfehler",
+        "unsubscribe_error": "Fehler beim Abbestellen"
+      }
     }
   }
 }
