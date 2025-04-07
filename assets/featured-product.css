@@ -1326,3 +1326,8 @@
 .product-card--label-container {
   grid-gap: 5px;
 }
+
+.thb-product-detail .product-add-to-cart-container .button.accent,
+.thb-product-detail .product-add-to-cart-container .button.accent:hover {
+  color: white;
+}
