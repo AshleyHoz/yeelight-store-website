@@ -2973,6 +2973,31 @@ h6,
   content: '';
 }
 
+.product-image-toggle-buttons {
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.product-image-toggle-buttons .toggle-button {
+  width: calc(50% - 10px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.product-image-toggle-buttons .toggle-button:first-child {
+  color: #2c2d2e;
+  border: 1px solid #2c2d2e;
+}
+
+.product-image-toggle-buttons .toggle-button:last-child {
+  background: #2c2d2e;
+}
+
 @media only screen and (max-width: 767px) {
   .product-image-container scroll-shadow {
     display: none;

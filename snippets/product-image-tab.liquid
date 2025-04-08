@@ -1,0 +1,24 @@
+{% comment %}
+  黑白图切换按钮和图片筛选展示逻辑
+{% endcomment %}
+
+<div class="image-toggle-buttons">
+  <button id="show-black" class="active">{{ tab_title1 }}</button>
+  <button id="show-white">{{ tab_title2 }}</button>
+</div>
+
+<div id="product-gallery-switchable">
+  {% for media in product.media %}
+    {% assign alt = media.alt | downcase %}
+    {% assign media_type = '' %}
+    {% if alt contains 'black' %}
+      {% assign media_type = 'black' %}
+    {% elsif alt contains 'white' %}
+      {% assign media_type = 'white' %}
+    {% endif %}
+
+    <div class="custom-image-wrapper {{ media_type }}-image">
+      {{ media | media_tag }}
+    </div>
+  {% endfor %}
+</div>

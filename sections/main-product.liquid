@@ -153,6 +153,10 @@
               </scroll-shadow>
             </div>
           </div>
+          <div class="product-image-toggle-buttons d-flex align-center justify-center">
+            <button id="show-black" class="active toggle-button">{{ section.settings.button_1_title }}</button>
+            <button id="show-white" class="toggle-button">{{ section.settings.button_2_title }}</button>
+          </div>
           {%- assign info_boxes = section.blocks | where: 'type', 'info_box' -%}
           {%- if info_boxes.size > 0 -%}
             {{- 'info-box.css' | asset_url | stylesheet_tag -}}
@@ -407,6 +411,22 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "Enable video looping"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_image_change",
+      "default": false,
+      "label": "Enable image change"
+    },
+    {
+      "id": "button_1_title",
+      "type": "text",
+      "label": "Button1 Title"
+    },
+    {
+      "id": "button_2_title",
+      "type": "text",
+      "label": "Button2 Title"
     }
   ],
   "blocks": [
