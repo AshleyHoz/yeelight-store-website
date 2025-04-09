@@ -265,9 +265,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_WVbABB"
-      ],
+      "block_order": ["heading_WVbABB"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -295,9 +293,7 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_c8aEVF"
-      ],
+      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
       "settings": {}
     },
     "product-recommendations": {

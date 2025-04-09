@@ -153,10 +153,12 @@
               </scroll-shadow>
             </div>
           </div>
-          <div class="product-image-toggle-buttons d-flex align-center justify-center">
-            <button id="show-black" class="active toggle-button">{{ section.settings.button_1_title }}</button>
-            <button id="show-white" class="toggle-button">{{ section.settings.button_2_title }}</button>
-          </div>
+          {% if section.settings.enable_image_change %}
+            <div class="product-image-toggle-buttons d-flex align-center justify-center">
+              <button id="show-black" class="active toggle-button">{{ section.settings.button_1_title }}</button>
+              <button id="show-white" class="toggle-button">{{ section.settings.button_2_title }}</button>
+            </div>
+          {% endif %}
           {%- assign info_boxes = section.blocks | where: 'type', 'info_box' -%}
           {%- if info_boxes.size > 0 -%}
             {{- 'info-box.css' | asset_url | stylesheet_tag -}}

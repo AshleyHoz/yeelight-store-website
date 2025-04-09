@@ -46,8 +46,15 @@
     data-group="{{ image_set_full }}"
   {% endif %}
 >
+  {% assign alt = media.alt | downcase %}
+  {% assign media_type = '' %}
+  {% if alt contains 'black' %}
+    {% assign media_type = 'black' %}
+  {% elsif alt contains 'white' %}
+    {% assign media_type = 'white' %}
+  {% endif %}
   {%- if media.media_type == 'model' -%}
-    <div class="product-thumbnail-icon d-flex align-center justify-center">
+    <div class="product-thumbnail-icon d-flex align-center justify-center {{media_type}}-image">
       {% render 'svg-icons' with 'thb-icon-3d-model' %}
     </div>
   {%- endif -%}

@@ -2979,14 +2979,14 @@ h6,
 }
 
 .product-image-toggle-buttons .toggle-button {
-  width: calc(50% - 10px);
+  width: 40%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  border-radius: 20px;
-  padding: 20px;
+  border-radius: 15px;
+  padding: 15px;
 }
 
 .product-image-toggle-buttons .toggle-button:first-child {
