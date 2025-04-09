@@ -163,9 +163,9 @@
 }
 
 .announcement-bar--item .bar-button .button.accent:hover {
-  background: transparent !important;
+  background: #ffffff26 !important;
   color: #ffffff !important;
-  border: 1px solid #ffffff !important;
+  border: 0;
 }
 
 .yee-activity-christmas .announcement-bar--item .bar-button a.button {
