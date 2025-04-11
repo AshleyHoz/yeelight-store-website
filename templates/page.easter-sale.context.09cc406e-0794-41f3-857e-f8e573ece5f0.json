@@ -12,5 +12,162 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC-tuya.jpg",
+        "image_mobile": "shopify://shop_images/banner-M_-tuya.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title_icon": "",
+        "left_icon": "",
+        "title": "Easter Decor"
+      },
+      "blocks": {
+        "product_9n6LU": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-led-lightstrip-pro"
+          }
+        },
+        "product_dpM4q": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-obsid-rgbic-light-strip"
+          }
+        },
+        "product_UBjiH": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_z7TEf": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        }
+      },
+      "block_order": [
+        "product_WMhTBk",
+        "product_8VyVNY",
+        "product_z7TEf",
+        "product_dFcCKK",
+        "product_dpM4q",
+        "product_UBjiH",
+        "product_NEXyJH",
+        "product_9n6LU"
+      ]
+    },
+    "activity_valentine_N943U7": {
+      "settings": {
+        "title_icon": "",
+        "left_icon": "",
+        "right_icon": "",
+        "title": ""
+      },
+      "blocks": {
+        "product_ikGnam": {
+          "settings": {
+            "product": "yeelight-smart-bulb-1s"
+          }
+        },
+        "product_6qM9pk": {
+          "settings": {
+            "product": "yeelight-smart-bulb"
+          }
+        },
+        "product_GxKGKM": {
+          "settings": {
+            "product": "yeelight-smart-led-light-panels"
+          }
+        },
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        }
+      },
+      "block_order": [
+        "product_ikGnam",
+        "product_6qM9pk",
+        "product_GxKGKM",
+        "product_6hbnXF"
+      ]
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "countdown_banner_TdmrN": {
+      "type": "countdown-banner",
+      "disabled": false,
+      "settings": {
+        "full_width": false,
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "header-930d4bf1c9fd62cac5262ab974b20235": null,
+        "bg_image": null,
+        "bg_mobile_image": null,
+        "header-bbaa36652b5a3a9e170b635f65fdc305": null,
+        "subheading": "",
+        "heading": "Easter 7-Day Sale",
+        "heading_size": "h1",
+        "content": "Up to 40% OFF",
+        "content_size": "medium",
+        "button_text": "",
+        "button_link": "",
+        "header-8f2aeecd4c7119611aba572c26598e04": null,
+        "timer_year": 2025,
+        "timer_month": "04",
+        "timer_day": "18",
+        "timer_hour": "23",
+        "timer_minute": "00",
+        "header-4f94ec99835b9b5e4e66cc68d1acc81b": null,
+        "color_bg": "#362525",
+        "color_text": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10,
+        "header-f0bef79b5a96e91a5376254f9fdee331": null,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      },
+      "blocks": {},
+      "block_order": []
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "single_image_HQL3cr",
+    "activity_valentine_JaTgDy",
+    "countdown_banner_TdmrN",
+    "activity_valentine_N943U7",
+    "173148591784123612",
+    "single_image_RbrWWD",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV"
+  ]
 }
