@@ -13,12 +13,42 @@
     "market": "europe"
   },
   "sections": {
-    "single_image_g3UUwH": {
+    "countdown_banner_Vmxfr": {
+      "type": "countdown-banner",
+      "disabled": false,
       "settings": {
-        "image": "shopify://shop_images/banner-PC-tuya.jpg",
-        "image_mobile": "shopify://shop_images/banner-M_-tuya.jpg"
+        "full_width": true,
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "header-4a38099be5a9556a1cf91727720d7f86": null,
+        "bg_image": null,
+        "bg_mobile_image": null,
+        "header-41ef17c230f48974e5ff9c2a3eb94922": null,
+        "subheading": "",
+        "heading": "Easter 7-Day Sale",
+        "heading_size": "h1",
+        "content": "Up to 40% OFF",
+        "content_size": "medium",
+        "button_text": "",
+        "button_link": "",
+        "header-da3009b71ea651d2b5f87e87352483da": null,
+        "timer_year": 2025,
+        "timer_month": "04",
+        "timer_day": "18",
+        "timer_hour": "23",
+        "timer_minute": "00",
+        "header-b70ae1770d01eda4a7a6f813db01db69": null,
+        "color_bg": "#301f1f",
+        "color_text": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10,
+        "header-83bf01e6c12be41e6008539f6c1be0d5": null,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       },
-      "blocks": {}
+      "blocks": {},
+      "block_order": []
     },
     "collection_tabs_Mb7aa": {
       "type": "collection-tabs",
@@ -30,9 +60,9 @@
         "product_limit": 6,
         "columns_desktop": 4,
         "show_progress_bar": true,
-        "header-7b3a5ba683e2d709591f93dad51630f7": null,
-        "marker_color": "#FD6262",
-        "header-c5969ccbf6122e06922d7affa0161860": null,
+        "header-c73acb014ca0dcc68bdbc3e79ec061dc": null,
+        "marker_color": "#fd6262",
+        "header-e320681699ab5766a926574460d495c0": null,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       },
@@ -42,7 +72,7 @@
           "disabled": false,
           "settings": {
             "collection": "ambient-lighting",
-            "header-ddd3cb991538565bf554bf2473442eda": null,
+            "header-bf67c08e8d7697302e7adf60a3ebc5a1": null,
             "enable_promotion": false,
             "image": null,
             "title": "Promotion",
@@ -53,7 +83,7 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "header-35ea793f23ed415c7023dba676a5d9be": null,
+            "header-3e131b05f7f68b6bf6983ae24b30c427": null,
             "overlay_color": "#000000",
             "overlay_opacity": 70
           }
@@ -63,7 +93,7 @@
           "disabled": false,
           "settings": {
             "collection": "",
-            "header-d173beca5383b60de4fc9ab9a0adaa00": null,
+            "header-ece0e7ec4a4fee9b9adc254840e7e496": null,
             "enable_promotion": false,
             "image": null,
             "title": "Promotion",
@@ -74,7 +104,7 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "header-01d23e421e17cc7a0c6b916bce6c055d": null,
+            "header-a9dd3849843cdd19d1701f517bfc7d34": null,
             "overlay_color": "#000000",
             "overlay_opacity": 70
           }
@@ -84,7 +114,7 @@
           "disabled": false,
           "settings": {
             "collection": "",
-            "header-de04069792c43de5c1cf7a7fccd1b52b": null,
+            "header-285dbdfb7003961f330307af68879a66": null,
             "enable_promotion": false,
             "image": null,
             "title": "Promotion",
@@ -95,7 +125,7 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "header-875a79dfbdc05525c4cf1174216f90dc": null,
+            "header-35b8be9f83396c6c53a087f2c27edc50": null,
             "overlay_color": "#000000",
             "overlay_opacity": 70
           }
@@ -106,6 +136,13 @@
         "collection_V7img",
         "collection_y3qng"
       ]
+    },
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC-tuya.jpg",
+        "image_mobile": "shopify://shop_images/banner-M_-tuya.jpg"
+      },
+      "blocks": {}
     },
     "activity_valentine_JaTgDy": {
       "settings": {
@@ -189,11 +226,7 @@
             "product": "yeelight-smart-bulb"
           }
         },
-        "product_wR3qDg": {
-          "disabled": true,
-          "settings": {}
-        },
-        "product_wtezBt": {
+        "product_WjGkfF": {
           "disabled": true,
           "settings": {}
         },
@@ -201,7 +234,11 @@
           "disabled": true,
           "settings": {}
         },
-        "product_WjGkfF": {
+        "product_wtezBt": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_wR3qDg": {
           "disabled": true,
           "settings": {}
         }
@@ -211,43 +248,6 @@
       "disabled": true,
       "settings": {},
       "blocks": {}
-    },
-    "countdown_banner_Vmxfr": {
-      "type": "countdown-banner",
-      "disabled": false,
-      "settings": {
-        "full_width": false,
-        "section_layout": "horizontal",
-        "desktop_height": "desktop-height-auto",
-        "mobile_height": "mobile-height-auto",
-        "header-b7db8fddde29289cfdc25e628bc92216": null,
-        "bg_image": null,
-        "bg_mobile_image": null,
-        "header-59198066e0d5d701e06ce0f5b6ea35ad": null,
-        "subheading": "",
-        "heading": "Easter 7-Day Sale",
-        "heading_size": "h1",
-        "content": "Up to 40% OFF",
-        "content_size": "medium",
-        "button_text": "",
-        "button_link": "",
-        "header-3cb04b941d601cca4fdc65dcbb309454": null,
-        "timer_year": 2025,
-        "timer_month": "04",
-        "timer_day": "18",
-        "timer_hour": "23",
-        "timer_minute": "00",
-        "header-26b746ae1a0c6b8e057ce6a7fc1e1440": null,
-        "color_bg": "#301f1f",
-        "color_text": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10,
-        "header-243c4a662f4895b57c0966f998bd8e54": null,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      },
-      "blocks": {},
-      "block_order": []
     }
   },
   "order": [

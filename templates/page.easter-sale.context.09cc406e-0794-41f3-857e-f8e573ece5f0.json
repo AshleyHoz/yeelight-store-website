@@ -27,16 +27,16 @@
     },
     "activity_valentine_JaTgDy": {
       "settings": {
+        "title": "Easter Decor",
         "title_icon": "",
-        "left_icon": "",
-        "title": "Easter Decor"
+        "left_icon": ""
       },
       "blocks": {
-        "product_9n6LU": {
+        "product_z7TEf": {
           "type": "product",
           "disabled": false,
           "settings": {
-            "product": "yeelight-smart-led-lightstrip-pro"
+            "product": "yeelight-permanent-outdoor-lights"
           }
         },
         "product_dpM4q": {
@@ -53,16 +53,16 @@
             "product": "a-yeelight-christmas-string-lights"
           }
         },
-        "product_z7TEf": {
-          "type": "product",
-          "disabled": false,
-          "settings": {
-            "product": "yeelight-permanent-outdoor-lights"
-          }
-        },
         "product_NEXyJH": {
           "settings": {
             "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_9n6LU": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-led-lightstrip-pro"
           }
         }
       },
@@ -79,10 +79,10 @@
     },
     "activity_valentine_N943U7": {
       "settings": {
+        "title": "",
         "title_icon": "",
         "left_icon": "",
-        "right_icon": "",
-        "title": ""
+        "right_icon": ""
       },
       "blocks": {
         "product_ikGnam": {
@@ -122,7 +122,7 @@
       "type": "countdown-banner",
       "disabled": false,
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "section_layout": "horizontal",
         "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-auto",
