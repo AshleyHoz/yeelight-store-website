@@ -63,7 +63,7 @@
     "product_label_2": "",
     "product_card_border": false,
     "product_card_shadow": false,
-    "color_product_card_bg": "#ffffff",
+    "color_product_card_bg": "#000000",
     "sale_badge_type": "save_percentage",
     "badge_position": "top right",
     "color_badge_sale": "#c62a32",
