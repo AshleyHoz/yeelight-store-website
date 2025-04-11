@@ -10,7 +10,7 @@
 {
   "parent": "footer-group.json",
   "context": {
-    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
+    "market": "europe"
   },
   "sections": {}
 }

@@ -13,6 +13,43 @@
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
   "sections": {
+    "countdown_banner_TdmrN": {
+      "type": "countdown-banner",
+      "disabled": false,
+      "settings": {
+        "full_width": true,
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "header-38381211941c9b78c1c67be72cf71e55": null,
+        "bg_image": null,
+        "bg_mobile_image": null,
+        "header-eadf3995effc75449cadeb5941b96959": null,
+        "subheading": "",
+        "heading": "Easter 7-Day Sale",
+        "heading_size": "h1",
+        "content": "Up to 40% OFF",
+        "content_size": "medium",
+        "button_text": "",
+        "button_link": "",
+        "header-dd64777aab09d7f59b7906c634e033eb": null,
+        "timer_year": 2025,
+        "timer_month": "04",
+        "timer_day": "18",
+        "timer_hour": "23",
+        "timer_minute": "00",
+        "header-dc2a93184fd9cb8cbf580a5e98ec538f": null,
+        "color_bg": "#362525",
+        "color_text": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10,
+        "header-9a13ff71a5aa825c6b89f11095c64868": null,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      },
+      "blocks": {},
+      "block_order": []
+    },
     "single_image_g3UUwH": {
       "settings": {
         "image": "shopify://shop_images/banner-PC-tuya.jpg",
@@ -118,42 +155,10 @@
       "settings": {},
       "blocks": {}
     },
-    "countdown_banner_TdmrN": {
-      "type": "countdown-banner",
-      "disabled": false,
-      "settings": {
-        "full_width": true,
-        "section_layout": "horizontal",
-        "desktop_height": "desktop-height-auto",
-        "mobile_height": "mobile-height-auto",
-        "header-930d4bf1c9fd62cac5262ab974b20235": null,
-        "bg_image": null,
-        "bg_mobile_image": null,
-        "header-bbaa36652b5a3a9e170b635f65fdc305": null,
-        "subheading": "",
-        "heading": "Easter 7-Day Sale",
-        "heading_size": "h1",
-        "content": "Up to 40% OFF",
-        "content_size": "medium",
-        "button_text": "",
-        "button_link": "",
-        "header-8f2aeecd4c7119611aba572c26598e04": null,
-        "timer_year": 2025,
-        "timer_month": "04",
-        "timer_day": "18",
-        "timer_hour": "23",
-        "timer_minute": "00",
-        "header-4f94ec99835b9b5e4e66cc68d1acc81b": null,
-        "color_bg": "#362525",
-        "color_text": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10,
-        "header-f0bef79b5a96e91a5376254f9fdee331": null,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      },
-      "blocks": {},
-      "block_order": []
+    "rich_text_7JpWaV": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
     }
   },
   "order": [
