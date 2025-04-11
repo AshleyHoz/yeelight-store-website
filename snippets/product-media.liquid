@@ -73,9 +73,12 @@
           </a>
         {%- endif -%}
         {%- render 'responsive-image', image: media.preview_image, sizes: sizes, priority: priority -%}
-        {%- if alt != blank and display_captions -%}
-          <span class="figcaption">{{ alt }}</span>
-        {%- endif -%}
+
+        {% comment %}
+          {%- if alt != blank and display_captions -%}
+            <span class="figcaption">{{ alt }}</span>
+          {%- endif -%}
+        {% endcomment %}
       </div>
     {% when 'external_video' %}
       <div

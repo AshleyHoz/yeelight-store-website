@@ -22,6 +22,9 @@
   elsif media_aspect_ratio == 'landscape'
     assign sizes = '345x255,610x450,1220x900'
   endif
+
+  assign white_images = product.media | where: 'media_type', 'image' | where: 'alt', 'white'
+  assign black_images = product.media | where: 'media_type', 'image' | where: 'alt', 'black'
 -%}
 {%- if first_3d_model -%}
   <link
@@ -61,102 +64,319 @@
         <div class="product-gallery-sticky">
           <div class="product-gallery-container thumbnails-{{ thumbnail_position }}" id="MediaGallery-{{ section.id }}">
             <div class="product-image-container">
-              <product-slider
-                id="Product-Slider"
-                class="product-images static-dots"
-                data-captions="{{ display_captions }}"
-                data-hide-variants="{{ hide_variants }}"
-              >
-                {%- if featured_media != null -%}
-                  {%- liquid
-                    assign image_index = image_index | plus: 1
-                    assign first_image = featured_media.preview_image
-                  -%}
-                  {%- render 'product-media',
-                    product: product,
-                    section: section,
-                    forloop: false,
-                    media: featured_media,
-                    sizes: sizes,
-                    variant_images: variant_images,
-                    media_aspect_ratio: media_aspect_ratio,
-                    hide_variants: hide_variants,
-                    priority: 'high',
-                    display_captions: display_captions
-                  -%}
-                {%- endif -%}
-                {%- for media in product.media -%}
-                  {%- unless media.id == featured_media.id -%}
-                    {%- liquid
-                      if media.media_type == 'image'
-                        assign image_index = image_index | default: 0 | plus: 1
-                      endif
+              {% if section.settings.enable_image_change %}
+                <div class="white-image">
+                  <product-slider
+                    id="Product-Slider"
+                    class="product-images static-dots"
+                    data-captions="{{ display_captions }}"
+                    data-hide-variants="{{ hide_variants }}"
+                  >
+                    {%- if featured_media != null -%}
+                      {%- liquid
+                        assign image_index = image_index | plus: 1
+                        assign first_image = featured_media.preview_image
+                      -%}
+                      {%- render 'product-media',
+                        product: product,
+                        section: section,
+                        forloop: false,
+                        media: featured_media,
+                        sizes: sizes,
+                        variant_images: variant_images,
+                        media_aspect_ratio: media_aspect_ratio,
+                        hide_variants: hide_variants,
+                        priority: 'high',
+                        display_captions: display_captions
+                      -%}
+                    {%- endif -%}
+                    {%- for media in white_images -%}
+                      {%- unless media.id == featured_media.id -%}
+                        {%- liquid
+                          if media.media_type == 'image'
+                            assign image_index = image_index | default: 0 | plus: 1
+                          endif
 
-                      assign priority = false
-                      if image_index == 0
-                        assign first_image = media.preview_image
-                        assign priority = 'high'
-                      endif
+                          assign priority = false
+                          if image_index == 0
+                            assign first_image = media.preview_image
+                            assign priority = 'high'
+                          endif
+                        -%}
+                        {%- render 'product-media',
+                          product: product,
+                          section: section,
+                          forloop: forloop,
+                          media: media,
+                          sizes: sizes,
+                          variant_images: variant_images,
+                          media_aspect_ratio: media_aspect_ratio,
+                          hide_variants: hide_variants,
+                          priority: priority,
+                          display_captions: display_captions
+                        -%}
+                      {%- endunless -%}
+                    {%- endfor -%}
+
+                    {%- if product.media.size > 1 -%}
+                      <div class="flickity-nav flickity-prev" tabindex="0">
+                        {%- render 'svg-icons' with 'carousel-prev' -%}
+                      </div>
+                      <div class="flickity-nav flickity-next" tabindex="0">
+                        {%- render 'svg-icons' with 'carousel-next' -%}
+                      </div>
+                    {%- endif -%}
+                  </product-slider>
+                </div>
+
+                <div class="black-image">
+                  <product-slider
+                    id="Product-Slider"
+                    class="product-images static-dots"
+                    data-captions="{{ display_captions }}"
+                    data-hide-variants="{{ hide_variants }}"
+                  >
+                    {%- if featured_media != null -%}
+                      {%- liquid
+                        assign image_index = image_index | plus: 1
+                        assign first_image = featured_media.preview_image
+                      -%}
+                      {%- render 'product-media',
+                        product: product,
+                        section: section,
+                        forloop: false,
+                        media: featured_media,
+                        sizes: sizes,
+                        variant_images: variant_images,
+                        media_aspect_ratio: media_aspect_ratio,
+                        hide_variants: hide_variants,
+                        priority: 'high',
+                        display_captions: display_captions
+                      -%}
+                    {%- endif -%}
+                    {%- for media in black_images -%}
+                      {%- unless media.id == featured_media.id -%}
+                        {%- liquid
+                          if media.media_type == 'image'
+                            assign image_index = image_index | default: 0 | plus: 1
+                          endif
+
+                          assign priority = false
+                          if image_index == 0
+                            assign first_image = media.preview_image
+                            assign priority = 'high'
+                          endif
+                        -%}
+                        {%- render 'product-media',
+                          product: product,
+                          section: section,
+                          forloop: forloop,
+                          media: media,
+                          sizes: sizes,
+                          variant_images: variant_images,
+                          media_aspect_ratio: media_aspect_ratio,
+                          hide_variants: hide_variants,
+                          priority: priority,
+                          display_captions: display_captions
+                        -%}
+                      {%- endunless -%}
+                    {%- endfor -%}
+
+                    {%- if product.media.size > 1 -%}
+                      <div class="flickity-nav flickity-prev" tabindex="0">
+                        {%- render 'svg-icons' with 'carousel-prev' -%}
+                      </div>
+                      <div class="flickity-nav flickity-next" tabindex="0">
+                        {%- render 'svg-icons' with 'carousel-next' -%}
+                      </div>
+                    {%- endif -%}
+                  </product-slider>
+                </div>
+              {% else %}
+                <product-slider
+                  id="Product-Slider"
+                  class="product-images static-dots"
+                  data-captions="{{ display_captions }}"
+                  data-hide-variants="{{ hide_variants }}"
+                >
+                  {%- if featured_media != null -%}
+                    {%- liquid
+                      assign image_index = image_index | plus: 1
+                      assign first_image = featured_media.preview_image
                     -%}
                     {%- render 'product-media',
                       product: product,
                       section: section,
-                      forloop: forloop,
-                      media: media,
+                      forloop: false,
+                      media: featured_media,
                       sizes: sizes,
                       variant_images: variant_images,
                       media_aspect_ratio: media_aspect_ratio,
                       hide_variants: hide_variants,
-                      priority: priority,
+                      priority: 'high',
                       display_captions: display_captions
                     -%}
-                  {%- endunless -%}
-                {%- endfor -%}
-                {%- if product.media.size > 1 -%}
-                  <div class="flickity-nav flickity-prev" tabindex="0">
-                    {%- render 'svg-icons' with 'carousel-prev' -%}
-                  </div>
-                  <div class="flickity-nav flickity-next" tabindex="0">
-                    {%- render 'svg-icons' with 'carousel-next' -%}
-                  </div>
-                {%- endif -%}
-              </product-slider>
-              <scroll-shadow>
-                <div
-                  id="Product-Thumbnails"
-                  class="product-thumbnail-container"
-                  data-hide-variants="{{ hide_variants }}"
-                >
-                  {%- if featured_media != null -%}
-                    {%- render 'product-thumbnail',
-                      product: product,
-                      media: featured_media,
-                      forloop: false,
-                      variant_images: variant_images,
-                      media_aspect_ratio: media_aspect_ratio,
-                      hide_variants: hide_variants
-                    -%}
                   {%- endif -%}
-                  {%- for media in product.media -%}
+                  {%- for media in white_images -%}
                     {%- unless media.id == featured_media.id -%}
-                      {%- render 'product-thumbnail',
+                      {%- liquid
+                        if media.media_type == 'image'
+                          assign image_index = image_index | default: 0 | plus: 1
+                        endif
+
+                        assign priority = false
+                        if image_index == 0
+                          assign first_image = media.preview_image
+                          assign priority = 'high'
+                        endif
+                      -%}
+                      {%- render 'product-media',
                         product: product,
-                        media: media,
+                        section: section,
                         forloop: forloop,
+                        media: media,
+                        sizes: sizes,
                         variant_images: variant_images,
                         media_aspect_ratio: media_aspect_ratio,
-                        hide_variants: hide_variants
+                        hide_variants: hide_variants,
+                        priority: priority,
+                        display_captions: display_captions
                       -%}
                     {%- endunless -%}
                   {%- endfor -%}
+
+                  {%- if product.media.size > 1 -%}
+                    <div class="flickity-nav flickity-prev" tabindex="0">
+                      {%- render 'svg-icons' with 'carousel-prev' -%}
+                    </div>
+                    <div class="flickity-nav flickity-next" tabindex="0">
+                      {%- render 'svg-icons' with 'carousel-next' -%}
+                    </div>
+                  {%- endif -%}
+                </product-slider>
+              {% endif %}
+
+              {% if section.settings.enable_image_change %}
+                <div class="white-image">
+                  <scroll-shadow>
+                    <div
+                      id="Product-Thumbnails"
+                      class="product-thumbnail-container"
+                      data-hide-variants="{{ hide_variants }}"
+                    >
+                      {%- if featured_media != null -%}
+                        <div
+                          class="                            custom-image-wrapper"
+                        >
+                          {%- render 'product-thumbnail',
+                            product: product,
+                            media: featured_media,
+                            forloop: false,
+                            variant_images: variant_images,
+                            media_aspect_ratio: media_aspect_ratio,
+                            hide_variants: hide_variants
+                          -%}
+                        </div>
+                      {%- endif -%}
+                      {%- for media in white_images -%}
+                        {%- unless media.id == featured_media.id -%}
+                          <div class="custom-image-wrappe">
+                            {%- render 'product-thumbnail',
+                              product: product,
+                              media: media,
+                              forloop: forloop,
+                              variant_images: variant_images,
+                              media_aspect_ratio: media_aspect_ratio,
+                              hide_variants: hide_variants
+                            -%}
+                          </div>
+                        {%- endunless -%}
+                      {%- endfor -%}
+                    </div>
+                  </scroll-shadow>
                 </div>
-              </scroll-shadow>
+                <div class="black-image">
+                  <scroll-shadow>
+                    <div
+                      id="Product-Thumbnails"
+                      class="product-thumbnail-container"
+                      data-hide-variants="{{ hide_variants }}"
+                    >
+                      {%- if featured_media != null -%}
+                        <div
+                          class="custom-image-wrapper"
+                        >
+                          {%- render 'product-thumbnail',
+                            product: product,
+                            media: featured_media,
+                            forloop: false,
+                            variant_images: variant_images,
+                            media_aspect_ratio: media_aspect_ratio,
+                            hide_variants: hide_variants
+                          -%}
+                        </div>
+                      {%- endif -%}
+                      {%- for media in black_images -%}
+                        {%- unless media.id == featured_media.id -%}
+                          <div class="custom-image-wrapper">
+                            {%- render 'product-thumbnail',
+                              product: product,
+                              media: media,
+                              forloop: forloop,
+                              variant_images: variant_images,
+                              media_aspect_ratio: media_aspect_ratio,
+                              hide_variants: hide_variants
+                            -%}
+                          </div>
+                        {%- endunless -%}
+                      {%- endfor -%}
+                    </div>
+                  </scroll-shadow>
+                </div>
+              {% else %}
+                <scroll-shadow>
+                  <div
+                    id="Product-Thumbnails"
+                    class="product-thumbnail-container"
+                    data-hide-variants="{{ hide_variants }}"
+                  >
+                    {%- if featured_media != null -%}
+                      <div
+                        class="custom-image-wrapper"
+                      >
+                        {%- render 'product-thumbnail',
+                          product: product,
+                          media: featured_media,
+                          forloop: false,
+                          variant_images: variant_images,
+                          media_aspect_ratio: media_aspect_ratio,
+                          hide_variants: hide_variants
+                        -%}
+                      </div>
+                    {%- endif -%}
+                    {%- for media in product.media -%}
+                      {%- unless media.id == featured_media.id -%}
+                        <div class="custom-image-wrapper">
+                          {%- render 'product-thumbnail',
+                            product: product,
+                            media: media,
+                            forloop: forloop,
+                            variant_images: variant_images,
+                            media_aspect_ratio: media_aspect_ratio,
+                            hide_variants: hide_variants
+                          -%}
+                        </div>
+                      {%- endunless -%}
+                    {%- endfor -%}
+                  </div>
+                </scroll-shadow>
+              {% endif %}
             </div>
           </div>
           {% if section.settings.enable_image_change %}
             <div class="product-image-toggle-buttons d-flex align-center justify-center">
-              <button id="show-black" class="active toggle-button">{{ section.settings.button_1_title }}</button>
-              <button id="show-white" class="toggle-button">{{ section.settings.button_2_title }}</button>
+              <button id="show-white" class="active toggle-button">{{ section.settings.button_1_title }}</button>
+              <button id="show-black" class="toggle-button">{{ section.settings.button_2_title }}</button>
             </div>
           {% endif %}
           {%- assign info_boxes = section.blocks | where: 'type', 'info_box' -%}
@@ -268,6 +488,34 @@
     assign seo_media = product.featured_media
   endif
 -%}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const showBlackBtn = document.getElementById('show-black');
+    const showWhiteBtn = document.getElementById('show-white');
+    const blackImages = document.querySelectorAll('.black-image');
+    const whiteImages = document.querySelectorAll('.white-image');
+
+    function showImages(type) {
+      if (type === 'black') {
+        blackImages.forEach((img) => (img.style.display = 'block'));
+        whiteImages.forEach((img) => (img.style.display = 'none'));
+        showBlackBtn.classList.add('active');
+        showWhiteBtn.classList.remove('active');
+      } else {
+        blackImages.forEach((img) => (img.style.display = 'none'));
+        whiteImages.forEach((img) => (img.style.display = 'block'));
+        showBlackBtn.classList.remove('active');
+        showWhiteBtn.classList.add('active');
+      }
+    }
+
+    showBlackBtn.addEventListener('click', () => showImages('black'));
+    showWhiteBtn.addEventListener('click', () => showImages('white'));
+
+    // 默认显示黑底图
+    showImages('white');
+  });
+</script>
 <script type="application/ld+json">
   {
     "@context": "http://schema.org/",
