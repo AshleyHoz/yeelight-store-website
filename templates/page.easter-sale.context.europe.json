@@ -21,10 +21,10 @@
         "section_layout": "horizontal",
         "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-auto",
-        "header-4a38099be5a9556a1cf91727720d7f86": null,
+        "header-391b3cb6d9471e6958cd8a9886362925": null,
         "bg_image": null,
         "bg_mobile_image": null,
-        "header-41ef17c230f48974e5ff9c2a3eb94922": null,
+        "header-261d3443cfc7b5692a17688d3e729497": null,
         "subheading": "",
         "heading": "Easter 7-Day Sale",
         "heading_size": "h1",
@@ -32,18 +32,18 @@
         "content_size": "medium",
         "button_text": "",
         "button_link": "",
-        "header-da3009b71ea651d2b5f87e87352483da": null,
+        "header-af90f524c44fc2905dc6d91b1c5ffc18": null,
         "timer_year": 2025,
         "timer_month": "04",
         "timer_day": "18",
         "timer_hour": "23",
         "timer_minute": "00",
-        "header-b70ae1770d01eda4a7a6f813db01db69": null,
+        "header-0d9749d8bec4cf3d960dd72ec08ad3a8": null,
         "color_bg": "#301f1f",
         "color_text": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 10,
-        "header-83bf01e6c12be41e6008539f6c1be0d5": null,
+        "header-d985a07206c51e4be51ddfd327f8d242": null,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       },
@@ -60,9 +60,9 @@
         "product_limit": 6,
         "columns_desktop": 4,
         "show_progress_bar": true,
-        "header-c73acb014ca0dcc68bdbc3e79ec061dc": null,
+        "header-56026654a4bbbc965924400b82ebe72d": null,
         "marker_color": "#fd6262",
-        "header-e320681699ab5766a926574460d495c0": null,
+        "header-2cbc4251f205afffafda108eaf22e083": null,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       },
@@ -72,7 +72,7 @@
           "disabled": false,
           "settings": {
             "collection": "ambient-lighting",
-            "header-bf67c08e8d7697302e7adf60a3ebc5a1": null,
+            "header-29dc01b7e23a74883d69cc6883a0e4d9": null,
             "enable_promotion": false,
             "image": null,
             "title": "Promotion",
@@ -83,7 +83,7 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "header-3e131b05f7f68b6bf6983ae24b30c427": null,
+            "header-4ba770e8bd673cffffd0b0a113d2dd8e": null,
             "overlay_color": "#000000",
             "overlay_opacity": 70
           }
@@ -93,7 +93,7 @@
           "disabled": false,
           "settings": {
             "collection": "",
-            "header-ece0e7ec4a4fee9b9adc254840e7e496": null,
+            "header-bc6a009363a40fe1e2a23c4c05ee2476": null,
             "enable_promotion": false,
             "image": null,
             "title": "Promotion",
@@ -104,7 +104,7 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "header-a9dd3849843cdd19d1701f517bfc7d34": null,
+            "header-df248d97bfdf49bfc2f1fa0d71cb0376": null,
             "overlay_color": "#000000",
             "overlay_opacity": 70
           }
@@ -114,7 +114,7 @@
           "disabled": false,
           "settings": {
             "collection": "",
-            "header-285dbdfb7003961f330307af68879a66": null,
+            "header-600ac1dcb1222807f974ce2e3825e35d": null,
             "enable_promotion": false,
             "image": null,
             "title": "Promotion",
@@ -125,7 +125,7 @@
             "link": "",
             "use_text_button": false,
             "block_link": "",
-            "header-35b8be9f83396c6c53a087f2c27edc50": null,
+            "header-a02b23d88e5d597911649df39b4a6044": null,
             "overlay_color": "#000000",
             "overlay_opacity": 70
           }
@@ -208,7 +208,8 @@
       "settings": {
         "title": "",
         "title_icon": "",
-        "right_icon": ""
+        "right_icon": "",
+        "left_icon": ""
       },
       "blocks": {
         "product_ikGnam": {
