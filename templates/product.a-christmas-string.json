@@ -81,7 +81,7 @@
           "settings": {
             "heading": "Description",
             "open": false,
-            "content": "<ul><li><strong>20+ Pre-Set Lighting Effects for More Than Christmas</strong></li></ul><p>Yeelight Christmas string lights feature over 20 lighting effects that can easily transform your home into a holiday wonderland. Perfect for Christmas, Halloween, or any festive celebration, the lights create a magical atmosphere indoors or out.</p><ul><li><strong>Individually Controllable RGBIC LEDs</strong></li></ul><p>Customize each LED with 16 million colors for endless creativity. The individually controllable LEDs allow you to design custom color schemes and dynamic effects, perfect for decking out your tree, doorposts, or garden.</p><ul><li><strong>Music Sync Mode for Party Fun</strong></li></ul><p>Sync your smart Christmas lightswith the rhythm of your music. These lights respond to sound in real-time, adding an interactive element to your holiday parties or family gatherings.</p><ul><li><strong>Weatherproof and Durable Design</strong></li></ul><p>Built for both indoor and outdoor use, these lights are IP44 waterproof and can operate in temperatures ranging from -4°F to 140°F. Whether on your Christmas tree or lining your garden, they are made to withstand the elements all season long.</p><ul><li><strong>Smart App Control for Easy Customization</strong></li></ul><p>Control your lights effortlessly through the Yeelight app. With Bluetooth connectivity, you can adjust colors, switch lighting modes, and create personalized effects from your phone, making decorating for the holidays easier than ever.</p><ul><li><strong>Seamless Integration with Yeelight Ecosystem</strong></li></ul><p>Combine these Christmas string lights with other Yeelight products, like permanent outdoor lights and curtain lights, to create an immersive lighting experience for any holiday or celebration.</p>",
+            "content": "<ul><li><strong>20+ Pre-Set Lighting Effects for More Than Holiday </strong></li></ul><p>Yeelight holiday string lights feature over 20 lighting effects that can easily transform your home into a holiday wonderland. Perfect for Christmas, Halloween, or any festive celebration, the lights create a magical atmosphere indoors or out.</p><ul><li><strong>Individually Controllable RGBIC LEDs</strong></li></ul><p>Customize each LED with 16 million colors for endless creativity. The individually controllable LEDs allow you to design custom color schemes and dynamic effects, perfect for decking out your tree, doorposts, or garden.</p><ul><li><strong>Music Sync Mode for Party Fun</strong></li></ul><p>Sync your smart holiday lightswith the rhythm of your music. These lights respond to sound in real-time, adding an interactive element to your holiday parties or family gatherings.</p><ul><li><strong>Weatherproof and Durable Design</strong></li></ul><p>Built for both indoor and outdoor use, these lights are IP44 waterproof and can operate in temperatures ranging from -4°F to 140°F. Whether on your Christmas tree or lining your garden, they are made to withstand the elements all season long.</p><ul><li><strong>Smart App Control for Easy Customization</strong></li></ul><p>Control your lights effortlessly through the Yeelight app. With Bluetooth connectivity, you can adjust colors, switch lighting modes, and create personalized effects from your phone, making decorating for the holidays easier than ever.</p><ul><li><strong>Seamless Integration with Yeelight Ecosystem</strong></li></ul><p>Combine these holiday string lights with other Yeelight products, like permanent outdoor lights and curtain lights, to create an immersive lighting experience for any holiday or celebration.</p>",
             "page": "",
             "custom_liquid": ""
           }
@@ -161,11 +161,12 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Christmas_String_Banner.jpg",
-            "button_icon": "",
-            "button_text": "Christmas",
             "mobile_image": "shopify://shop_images/Christmas_String_Banner_M.jpg",
             "slide_link": "",
+            "button_icon": "",
+            "button_text": "Christmas",
             "video_background": false,
+            "title": "",
             "badge_text": "",
             "subheading": "",
             "heading": "",
@@ -198,11 +199,12 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Valentine_Banner.jpg",
-            "button_icon": "",
-            "button_text": "Valentine",
             "mobile_image": "shopify://shop_images/Valentine_Banner_M.jpg",
             "slide_link": "",
+            "button_icon": "",
+            "button_text": "Valentine",
             "video_background": false,
+            "title": "",
             "badge_text": "",
             "subheading": "",
             "heading": "",
@@ -490,16 +492,16 @@
         "collapsible_tab_c3FwVp": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What makes Yeelight Christmas String Lights unique?",
+            "heading": "What makes Yeelight Holiday String Lights unique?",
             "open": false,
-            "content": "<p>Compared to many other Christmas string lights on the market, Yeelight Christmas string lights stand out due to their RGBIC technology and individual LED control, meaning each LED has its own chip. This high level of customization allows you to DIY the color of each LED, customize dynamic effects, and access fun features like Music Flow.</p>",
+            "content": "<p>Compared to many other Christmas string lights on the market, Yeelight holiday string lights stand out due to their RGBIC technology and individual LED control, meaning each LED has its own chip. This high level of customization allows you to DIY the color of each LED, customize dynamic effects, and access fun features like Music Flow.</p>",
             "page": ""
           }
         },
         "collapsible_tab_JahyiW": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How do I control Yeelight Christmas String Lights?",
+            "heading": "How do I control Yeelight Holiday String Lights?",
             "open": false,
             "content": "<p>It connects via Bluetooth and can be smartly controlled using the Yeelight APP. The control box also allows for simple operations like turning the lights on/off and switching lighting effects. However, please note that the lighting effects switched by the control box are not synchronized with the APP.</p>",
             "page": ""
@@ -508,7 +510,7 @@
         "collapsible_tab_iVMxfP": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Are Yeelight Christmas String Lights suitable for outdoor use?",
+            "heading": "Are Yeelight Holiday String Lights suitable for outdoor use?",
             "open": false,
             "content": "<p>Yes. It has an IP44 waterproof rating and can operate at a maximum temperature of 60°C (140°F) and a minimum temperature of -20°C (-4°F).</p>",
             "page": ""
@@ -517,7 +519,7 @@
         "collapsible_tab_M3fHaK": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Can I customize the colors and effects of Yeelight Christmas String Lights?",
+            "heading": "Can I customize the colors and effects of Yeelight Holiday String Lights?",
             "open": false,
             "content": "<p>Yes. You can customize the color, dynamic effects, and movement direction of the light.</p>",
             "page": ""
@@ -526,7 +528,7 @@
         "collapsible_tab_tjq67P": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How energy-efficient are Yeelight Christmas String Lights?",
+            "heading": "How energy-efficient are Yeelight Holiday String Lights?",
             "open": false,
             "content": "<p>For the 66ft version, if used for 3 hours per day at a rate of 11¢/kWh, the estimated annual electricity cost is $2.</p>",
             "page": ""
@@ -535,16 +537,16 @@
         "collapsible_tab_nLhJrL": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Can I connect multiple Yeelight Christmas String Lights together?",
+            "heading": "Can I connect multiple Yeelight Holiday String Lights together?",
             "open": false,
-            "content": "<p>Yes. Connect multiple Christmas string lights to the Yeelight APP for seperate control.</p>",
+            "content": "<p>Yes. Connect multiple holiday string lights to the Yeelight APP for seperate control.</p>",
             "page": ""
           }
         },
         "collapsible_tab_W84JAT": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How long are Yeelight Christmas String Lights, and how many bulbs are on each strand?",
+            "heading": "How long are Yeelight Holiday String Lights, and how many bulbs are on each strand?",
             "open": false,
             "content": "<p>33ft/10m version: 100 LEDs, 66ft/20m version: 200 LEDs</p>",
             "page": ""
