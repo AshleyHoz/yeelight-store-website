@@ -1,0 +1,178 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.easter-sale.json",
+  "context": {
+    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
+  },
+  "sections": {
+    "countdown_banner_TdmrN": {
+      "type": "countdown-banner",
+      "disabled": false,
+      "settings": {
+        "full_width": true,
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "header-38381211941c9b78c1c67be72cf71e55": null,
+        "bg_image": null,
+        "bg_mobile_image": null,
+        "header-eadf3995effc75449cadeb5941b96959": null,
+        "subheading": "",
+        "heading": "Easter 7-Day Sale",
+        "heading_size": "h1",
+        "content": "Up to 40% OFF",
+        "content_size": "medium",
+        "button_text": "",
+        "button_link": "",
+        "header-dd64777aab09d7f59b7906c634e033eb": null,
+        "timer_year": 2025,
+        "timer_month": "04",
+        "timer_day": "18",
+        "timer_hour": "23",
+        "timer_minute": "00",
+        "header-dc2a93184fd9cb8cbf580a5e98ec538f": null,
+        "color_bg": "#362525",
+        "color_text": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10,
+        "header-9a13ff71a5aa825c6b89f11095c64868": null,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC-tuya.jpg",
+        "image_mobile": "shopify://shop_images/banner-M_-tuya.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title": "Easter Decor",
+        "title_icon": "",
+        "left_icon": ""
+      },
+      "blocks": {
+        "product_z7TEf": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_dpM4q": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-obsid-rgbic-light-strip"
+          }
+        },
+        "product_UBjiH": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_9n6LU": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-led-lightstrip-pro"
+          }
+        }
+      },
+      "block_order": [
+        "product_WMhTBk",
+        "product_8VyVNY",
+        "product_z7TEf",
+        "product_dFcCKK",
+        "product_dpM4q",
+        "product_UBjiH",
+        "product_NEXyJH",
+        "product_9n6LU"
+      ]
+    },
+    "activity_valentine_N943U7": {
+      "settings": {
+        "title": "",
+        "title_icon": "",
+        "left_icon": "",
+        "right_icon": ""
+      },
+      "blocks": {
+        "product_ikGnam": {
+          "settings": {
+            "product": "yeelight-smart-bulb-1s"
+          }
+        },
+        "product_6qM9pk": {
+          "settings": {
+            "product": "yeelight-smart-bulb"
+          }
+        },
+        "product_GxKGKM": {
+          "settings": {
+            "product": "yeelight-smart-led-light-panels"
+          }
+        },
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        }
+      },
+      "block_order": [
+        "product_ikGnam",
+        "product_6qM9pk",
+        "product_GxKGKM",
+        "product_6hbnXF"
+      ]
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "rich_text_7JpWaV": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "single_image_HQL3cr",
+    "activity_valentine_JaTgDy",
+    "countdown_banner_TdmrN",
+    "activity_valentine_N943U7",
+    "173148591784123612",
+    "single_image_RbrWWD",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV"
+  ]
+}

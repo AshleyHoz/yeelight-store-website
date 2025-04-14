@@ -1,0 +1,268 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.easter-sale.json",
+  "context": {
+    "market": "europe"
+  },
+  "sections": {
+    "countdown_banner_Vmxfr": {
+      "type": "countdown-banner",
+      "disabled": false,
+      "settings": {
+        "full_width": true,
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "header-391b3cb6d9471e6958cd8a9886362925": null,
+        "bg_image": null,
+        "bg_mobile_image": null,
+        "header-261d3443cfc7b5692a17688d3e729497": null,
+        "subheading": "",
+        "heading": "Easter 7-Day Sale",
+        "heading_size": "h1",
+        "content": "Up to 40% OFF",
+        "content_size": "medium",
+        "button_text": "",
+        "button_link": "",
+        "header-af90f524c44fc2905dc6d91b1c5ffc18": null,
+        "timer_year": 2025,
+        "timer_month": "04",
+        "timer_day": "18",
+        "timer_hour": "23",
+        "timer_minute": "00",
+        "header-0d9749d8bec4cf3d960dd72ec08ad3a8": null,
+        "color_bg": "#301f1f",
+        "color_text": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10,
+        "header-d985a07206c51e4be51ddfd327f8d242": null,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "collection_tabs_Mb7aa": {
+      "type": "collection-tabs",
+      "disabled": true,
+      "settings": {
+        "heading": "Collection Tabs",
+        "marker_style": "style1",
+        "description": "<p>Add a short description for your collections</p>",
+        "product_limit": 6,
+        "columns_desktop": 4,
+        "show_progress_bar": true,
+        "header-56026654a4bbbc965924400b82ebe72d": null,
+        "marker_color": "#fd6262",
+        "header-2cbc4251f205afffafda108eaf22e083": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      },
+      "blocks": {
+        "collection_K78rx": {
+          "type": "collection",
+          "disabled": false,
+          "settings": {
+            "collection": "ambient-lighting",
+            "header-29dc01b7e23a74883d69cc6883a0e4d9": null,
+            "enable_promotion": false,
+            "image": null,
+            "title": "Promotion",
+            "text": "Advertise a promotion or a sale",
+            "link_label": "Explore",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "header-4ba770e8bd673cffffd0b0a113d2dd8e": null,
+            "overlay_color": "#000000",
+            "overlay_opacity": 70
+          }
+        },
+        "collection_V7img": {
+          "type": "collection",
+          "disabled": false,
+          "settings": {
+            "collection": "",
+            "header-bc6a009363a40fe1e2a23c4c05ee2476": null,
+            "enable_promotion": false,
+            "image": null,
+            "title": "Promotion",
+            "text": "Advertise a promotion or a sale",
+            "link_label": "Explore",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "header-df248d97bfdf49bfc2f1fa0d71cb0376": null,
+            "overlay_color": "#000000",
+            "overlay_opacity": 70
+          }
+        },
+        "collection_y3qng": {
+          "type": "collection",
+          "disabled": false,
+          "settings": {
+            "collection": "",
+            "header-600ac1dcb1222807f974ce2e3825e35d": null,
+            "enable_promotion": false,
+            "image": null,
+            "title": "Promotion",
+            "text": "Advertise a promotion or a sale",
+            "link_label": "Explore",
+            "content_position": "bottom-left",
+            "text_alignment": "left",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "header-a02b23d88e5d597911649df39b4a6044": null,
+            "overlay_color": "#000000",
+            "overlay_opacity": 70
+          }
+        }
+      },
+      "block_order": [
+        "collection_K78rx",
+        "collection_V7img",
+        "collection_y3qng"
+      ]
+    },
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC-tuya.jpg",
+        "image_mobile": "shopify://shop_images/banner-M_-tuya.jpg"
+      },
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title": "Easter Decor",
+        "title_icon": "",
+        "left_y_position": 0,
+        "left_icon": "",
+        "right_x_position": 0,
+        "right_y_position": 0
+      },
+      "blocks": {
+        "product_8VyVNY": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_3UDA6": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        },
+        "product_qjGm4": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-obsid-rgbic-light-strip"
+          }
+        },
+        "product_YnUeq": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_ibVdj": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-led-lightstrip-pro"
+          }
+        }
+      },
+      "block_order": [
+        "product_WMhTBk",
+        "product_8VyVNY",
+        "product_dFcCKK",
+        "product_NEXyJH",
+        "product_3UDA6",
+        "product_qjGm4",
+        "product_YnUeq",
+        "product_ibVdj"
+      ]
+    },
+    "activity_valentine_N943U7": {
+      "settings": {
+        "title": "",
+        "title_icon": "",
+        "right_icon": "",
+        "left_icon": ""
+      },
+      "blocks": {
+        "product_ikGnam": {
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        },
+        "product_GxKGKM": {
+          "settings": {
+            "product": "yeelight-smart-bulb-w4"
+          }
+        },
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-smart-bulb"
+          }
+        },
+        "product_WjGkfF": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_UNaT86": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_wtezBt": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_wR3qDg": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "activity_valentine_JaTgDy",
+    "countdown_banner_Vmxfr",
+    "activity_valentine_N943U7",
+    "single_image_RbrWWD",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612",
+    "collection_tabs_Mb7aa"
+  ]
+}

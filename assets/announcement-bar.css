@@ -162,6 +162,12 @@
   height: auto;
 }
 
+.announcement-bar--item .bar-button .button.accent:hover {
+  background: #ffffff26 !important;
+  color: #ffffff !important;
+  border: 0;
+}
+
 .yee-activity-christmas .announcement-bar--item .bar-button a.button {
   color: #fb3b18;
 }

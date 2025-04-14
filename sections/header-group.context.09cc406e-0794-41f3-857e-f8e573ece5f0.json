@@ -13,6 +13,48 @@
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
   "sections": {
+    "announcement_bar_TPJxh": {
+      "type": "announcement-bar",
+      "disabled": false,
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "single",
+        "header-ec570f69976cb9b14704161ce2e50162": null,
+        "direction": "left",
+        "speed": "20s",
+        "header-583c48219f908e4a4d72fcb4737cf10b": null,
+        "use_block_colors": false,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "background_color": "rgba(0,0,0,0)"
+      },
+      "blocks": {
+        "text_3tGKj": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "background_image": null,
+            "background_image_mobile": null,
+            "icon": "none",
+            "text": "Easter Sale",
+            "sub_text": "UP TO 40% OFF!",
+            "link": "shopify://pages/easter-sale",
+            "header-0fb3296a25be8d780e606acf53721839": null,
+            "button_text": "Shop Now",
+            "button_color": "accent",
+            "button_link": "shopify://pages/easter-sale",
+            "use_text_button": false,
+            "header-dcde3090451630957b116711ee6bc1c2": null,
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_3tGKj"
+      ]
+    },
     "announcement-bar": {
       "disabled": true,
       "settings": {},
@@ -23,48 +65,6 @@
           }
         }
       }
-    },
-    "announcement_bar_TPJxh": {
-      "type": "announcement-bar",
-      "disabled": false,
-      "settings": {
-        "announcement_bar": true,
-        "announcement_bar_homepage_only": false,
-        "announcement_bar_layout": "single",
-        "header-2e7b53ef1d5c6750aea59cdfca2c1abb": null,
-        "direction": "left",
-        "speed": "20s",
-        "header-f8a5c85d7dd7a4aae437ec3756024007": null,
-        "use_block_colors": false,
-        "autoplay": true,
-        "autoplay_length": 5,
-        "background_color": "transparent"
-      },
-      "blocks": {
-        "text_3tGKj": {
-          "type": "text",
-          "disabled": false,
-          "settings": {
-            "background_image": null,
-            "background_image_mobile": null,
-            "icon": "none",
-            "text": "Spring Into Savings! ",
-            "sub_text": "UP TO 35% OFF!",
-            "link": "",
-            "header-a4de6a313297d3804f11a5124b69b2fa": null,
-            "button_text": "Shop Now",
-            "button_color": "accent",
-            "button_link": "shopify://pages/spring-sale",
-            "use_text_button": false,
-            "header-abae6304297dcda6195007f93b61abf7": null,
-            "color_bg": "#3F72E5",
-            "color_text": "#FFFFFF"
-          }
-        }
-      },
-      "block_order": [
-        "text_3tGKj"
-      ]
     }
   },
   "order": [
