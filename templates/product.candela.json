@@ -130,7 +130,7 @@
         "hide_variants": false,
         "lightbox": true,
         "enable_video_looping": false,
-        "enable_image_change": true,
+        "enable_image_change": false,
         "button_1_title": "white",
         "button_2_title": "black"
       }
@@ -265,7 +265,9 @@
           }
         }
       },
-      "block_order": ["heading_WVbABB"],
+      "block_order": [
+        "heading_WVbABB"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -293,7 +295,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
       "settings": {}
     },
     "product-recommendations": {
