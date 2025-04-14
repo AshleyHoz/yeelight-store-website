@@ -255,25 +255,25 @@
                 </product-slider>
               {% endif %}
 
-              {% if section.settings.enable_image_change %}
-                <scroll-shadow>
-                  <div
-                    id="Product-Thumbnails"
-                    class="product-thumbnail-container"
-                    data-hide-variants="{{ hide_variants }}"
-                  >
-                    {%- if featured_media != null -%}
-                      <div class="custom-image-wrapper">
-                        {%- render 'product-thumbnail',
-                          product: product,
-                          media: featured_media,
-                          forloop: false,
-                          variant_images: variant_images,
-                          media_aspect_ratio: media_aspect_ratio,
-                          hide_variants: hide_variants
-                        -%}
-                      </div>
-                    {%- endif -%}
+              <scroll-shadow>
+                <div
+                  id="Product-Thumbnails"
+                  class="product-thumbnail-container"
+                  data-hide-variants="{{ hide_variants }}"
+                >
+                  {%- if featured_media != null -%}
+                    <div class="custom-image-wrapper">
+                      {%- render 'product-thumbnail',
+                        product: product,
+                        media: featured_media,
+                        forloop: false,
+                        variant_images: variant_images,
+                        media_aspect_ratio: media_aspect_ratio,
+                        hide_variants: hide_variants
+                      -%}
+                    </div>
+                  {%- endif -%}
+                  {% if section.settings.enable_image_change %}
                     <div class="white-image">
                       {%- for media in white_images -%}
                         {%- unless media.id == featured_media.id -%}
@@ -306,29 +306,7 @@
                         {%- endunless -%}
                       {%- endfor -%}
                     </div>
-                  </div>
-                </scroll-shadow>
-              {% else %}
-                <scroll-shadow>
-                  <div
-                    id="Product-Thumbnails"
-                    class="product-thumbnail-container"
-                    data-hide-variants="{{ hide_variants }}"
-                  >
-                    {%- if featured_media != null -%}
-                      <div
-                        class="custom-image-wrapper"
-                      >
-                        {%- render 'product-thumbnail',
-                          product: product,
-                          media: featured_media,
-                          forloop: false,
-                          variant_images: variant_images,
-                          media_aspect_ratio: media_aspect_ratio,
-                          hide_variants: hide_variants
-                        -%}
-                      </div>
-                    {%- endif -%}
+                  {% else %}
                     {%- for media in product.media -%}
                       {%- unless media.id == featured_media.id -%}
                         <div class="custom-image-wrapper">
@@ -343,9 +321,9 @@
                         </div>
                       {%- endunless -%}
                     {%- endfor -%}
-                  </div>
-                </scroll-shadow>
-              {% endif %}
+                  {% endif %}
+                </div>
+              </scroll-shadow>
             </div>
           </div>
           {% if section.settings.enable_image_change %}
