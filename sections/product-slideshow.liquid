@@ -13,6 +13,11 @@
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
   assign section_title = section.settings.title
 
+  assign enable_controls = true
+  if section.blocks.size < 2
+    assign enable_controls = false
+  endif
+
   if autoplay
     assign autoplay = section.settings.autoplay_length | times: 1000
   endif
@@ -289,6 +294,32 @@
           </div>
         {%- endfor -%}
       </div>
+      {%- if enable_controls -%}
+        {%- if controls == 'arrows-with-numbers' -%}
+          <div class="flickity-custom-navigation-wrapper">
+            <div class="flickity-custom-navigation">
+              <div class="flickity-nav flickity-prev" tabindex="0">{%- render 'svg-icons' with 'carousel-prev' -%}</div>
+              <div class="flickity-custom-navigation--dots">
+                <span class="flickity-custom-navigation--current">1</span>
+                <span class="flickity-custom-navigation--seperator">/</span>
+                <span class="flickity-custom-navigation--total">{{ section.blocks.size }}</span>
+              </div>
+              <div class="flickity-nav flickity-next" tabindex="0">{%- render 'svg-icons' with 'carousel-next' -%}</div>
+            </div>
+          </div>
+        {%- elsif controls == 'arrows' -%}
+          <div class="flickity-custom-navigation-wrapper">
+            <div class="flickity-static-arrows d-flex align-center justify-space-between">
+              <div class="flickity-nav flickity-prev" tabindex="0">
+                {%- render 'svg-icons-custom' with 'custom-carousel-prev' -%}
+              </div>
+              <div class="flickity-nav flickity-next" tabindex="0">
+                {%- render 'svg-icons-custom' with 'custom-carousel-next' -%}
+              </div>
+            </div>
+          </div>
+        {%- endif -%}
+      {%- endif -%}
     </slide-show>
   </div>
 </product-slideshow>
