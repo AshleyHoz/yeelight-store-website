@@ -348,13 +348,7 @@
           }
         }
       },
-      "block_order": [
-        "slide_r4cLYH",
-        "slide_Re8Uxn",
-        "slide_UqXJwU",
-        "slide_idmXF7",
-        "slide_Hyb3Yi"
-      ],
+      "block_order": ["slide_r4cLYH", "slide_Re8Uxn", "slide_UqXJwU", "slide_idmXF7", "slide_Hyb3Yi"],
       "settings": {
         "title": "Yeelight Permanent Outdoor Lights",
         "desktop_height": "desktop-height-auto",
@@ -363,7 +357,7 @@
         "autoplay": false,
         "autoplay_length": 5,
         "transition": "slide",
-        "controls": "dots",
+        "controls": "arrows",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -533,9 +527,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_HR4q6J"
-      ],
+      "block_order": ["heading_HR4q6J"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -563,9 +555,7 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_c8aEVF"
-      ],
+      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
       "settings": {}
     },
     "single_image_FGkhTr": {
@@ -836,11 +826,7 @@
           }
         }
       },
-      "block_order": [
-        "tab_GfgtkE",
-        "tab_bpHEwN",
-        "tab_hBBVUP"
-      ],
+      "block_order": ["tab_GfgtkE", "tab_bpHEwN", "tab_hBBVUP"],
       "settings": {
         "heading": "Product Testing Videos",
         "desktop_height": "desktop-height-650",
