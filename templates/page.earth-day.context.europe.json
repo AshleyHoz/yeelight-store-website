@@ -13,6 +13,119 @@
     "market": "europe"
   },
   "sections": {
+    "featured_product_BQWXw": {
+      "type": "featured-product",
+      "disabled": false,
+      "settings": {
+        "heading": "Best Seller",
+        "marker_style": "style1",
+        "description": "",
+        "header-ef86d00d19edb4068b2323a8afdb72db": null,
+        "product": "yeelight-rgbicww-smart-ceiling-light",
+        "show_taxes_included": true,
+        "header-bebf281711f97e16ba75b2ecb9139dc2": null,
+        "paragraph-f85c436a21ea0ac47a8404c746fe29fa": null,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "header-5648849525cbb5f018c38dfe7dd916b1": null,
+        "marker_color": "#fd6262",
+        "header-d489288a78d67e4cab19c72a98596117": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      },
+      "blocks": {
+        "title_cE8ax": {
+          "type": "title",
+          "disabled": false,
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "variant_picker_pnLKc": {
+          "type": "variant_picker",
+          "disabled": false,
+          "settings": {
+            "picker_type": "button",
+            "color_picker": false,
+            "color_picker_use_variants": false,
+            "variant_is_disabled": false,
+            "sizing_guide_text": "",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "quantity_9rN4M": {
+          "type": "quantity",
+          "disabled": false,
+          "settings": {
+            "paragraph-14095b9801dc06d0a7b57ddbe955afa6": null
+          }
+        },
+        "buy_buttons_zUMbL": {
+          "type": "buy_buttons",
+          "disabled": false,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description_XbAAg": {
+          "type": "description",
+          "disabled": false,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_cE8ax",
+        "variant_picker_pnLKc",
+        "quantity_9rN4M",
+        "buy_buttons_zUMbL",
+        "description_XbAAg"
+      ],
+      "name": "Featured product"
+    },
+    "17447679943d53c620": {
+      "type": "apps",
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "loox_reviews_loox_card_carousel_section_CatG9": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "paragraph-3dcfb05dafda9ee1a2a09b94b23092ce": null,
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "header-116249afd10f20ff4d1705aa45fba00d": null,
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "header-9b6a02a64c2460b50227a63b40b4286a": null,
+            "paragraph-42845d4a2f822ac747d6c943132c54aa": null,
+            "productIds": "yeelight-rgbicww-smart-ceiling-light",
+            "paragraph-76607fab1ccddaedccfec09242509b4c": null
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_card_carousel_section_CatG9"
+      ]
+    },
     "single_image_g3UUwH": {
       "settings": {
         "image": "shopify://shop_images/banner-PC.png",
@@ -90,9 +203,50 @@
       ]
     },
     "activity_valentine_N943U7": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
+      "disabled": false,
+      "settings": {
+        "title": "You may also like",
+        "title_icon": "",
+        "left_icon": "",
+        "right_icon": ""
+      },
+      "blocks": {
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_WjGkfF": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_UNaT86": {
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_wtezBt": {
+          "settings": {
+            "product": "yeelight-smart-bulb-w4"
+          }
+        },
+        "product_wR3qDg": {
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        }
+      },
+      "block_order": [
+        "product_GxKGKM",
+        "product_WjGkfF",
+        "product_UNaT86",
+        "product_6hbnXF",
+        "product_ikGnam",
+        "product_wR3qDg",
+        "product_6qM9pk",
+        "product_wtezBt"
+      ]
     },
     "single_image_RbrWWD": {
       "disabled": true,
@@ -113,6 +267,11 @@
         }
       }
     },
+    "rich_text_7JpWaV": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
     "173148591784123612": {
       "settings": {},
       "blocks": {
@@ -124,135 +283,17 @@
           }
         }
       }
-    },
-    "17447679943d53c620": {
-      "type": "apps",
-      "disabled": false,
-      "settings": {},
-      "blocks": {
-        "loox_reviews_loox_card_carousel_section_CatG9": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
-          "settings": {
-            "paragraph-fee7f96aed169e83fd4a863052874b3c": null,
-            "maxWidth": 1100,
-            "borderRadius": 8,
-            "itemsPerView": 4,
-            "mobileItemsPerView": 1,
-            "maxNumberOfCharacters": 100,
-            "imageRatio": "0.72",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "itemBackgroundColor": "#ffffff",
-            "starsColor": "",
-            "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#FFFFFF",
-            "arrows_iconColor": "#9A9A9A",
-            "header-ba68d221df00815246649eec9e705b14": null,
-            "shadow": "offset-dark",
-            "border_active": false,
-            "border_width": 2,
-            "border_color": "#000000",
-            "header-12566faa05e597c98864890253a499d2": null,
-            "paragraph-2c7e7e18b6c4decfc65cdbf7885db77e": null,
-            "productIds": "yeelight-rgbicww-smart-ceiling-light",
-            "paragraph-5f345fa507cfd9687b65bb335eb53941": null
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_card_carousel_section_CatG9"
-      ]
-    },
-    "rich_text_7JpWaV": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
-    "featured_product_BQWXw": {
-      "type": "featured-product",
-      "disabled": false,
-      "settings": {
-        "heading": "Best Seller",
-        "marker_style": "style1",
-        "description": "",
-        "header-77e73a8e3e01e42d43cbfa79cfd3e6ee": null,
-        "product": "yeelight-rgbicww-smart-ceiling-light",
-        "show_taxes_included": true,
-        "header-11e9316d2bd3194602e97daafe301832": null,
-        "paragraph-d9fa9eb0f77dc6afe10fbd2958db35b0": null,
-        "thumbnail_position": "left",
-        "media_aspect_ratio": "adapt",
-        "display_captions": true,
-        "hide_variants": false,
-        "lightbox": true,
-        "enable_video_looping": false,
-        "header-10a10a953fc8a0a14603cbf0bb98aca1": null,
-        "marker_color": "#FD6262",
-        "header-efe31a6b26a04e14c374034091ba6396": null,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      },
-      "blocks": {
-        "title_cE8ax": {
-          "type": "title",
-          "disabled": false,
-          "settings": {
-            "show_products_rating": true
-          }
-        },
-        "variant_picker_pnLKc": {
-          "type": "variant_picker",
-          "disabled": false,
-          "settings": {
-            "picker_type": "button",
-            "color_picker": false,
-            "color_picker_use_variants": false,
-            "variant_is_disabled": false,
-            "sizing_guide_text": "",
-            "sizing_guide_icon": "ruler",
-            "sizing_guide_page": ""
-          }
-        },
-        "quantity_9rN4M": {
-          "type": "quantity",
-          "disabled": false,
-          "settings": {
-            "paragraph-e54d32138f0b4d6050d896e78ba887fe": null
-          }
-        },
-        "buy_buttons_zUMbL": {
-          "type": "buy_buttons",
-          "disabled": false,
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "description_XbAAg": {
-          "type": "description",
-          "disabled": false,
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_cE8ax",
-        "variant_picker_pnLKc",
-        "quantity_9rN4M",
-        "buy_buttons_zUMbL",
-        "description_XbAAg"
-      ],
-      "name": "Featured product"
     }
   },
   "order": [
     "main",
     "single_image_g3UUwH",
     "activity_valentine_JaTgDy",
-    "activity_valentine_N943U7",
     "single_image_RbrWWD",
     "rich_text_F6XM9m",
     "1731318448f757b534",
     "featured_product_BQWXw",
+    "activity_valentine_N943U7",
     "text_with_icons_LiHffF",
     "rich_text_7JpWaV",
     "173148591784123612",
