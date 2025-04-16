@@ -12,5 +12,42 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC.png",
+        "image_mobile": "shopify://shop_images/banner-M.png"
+      },
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title_icon": "",
+        "left_icon": "",
+        "title": "Go Green & Shop Now"
+      },
+      "blocks": {},
+      "block_order": [
+        "product_WMhTBk",
+        "product_8VyVNY",
+        "product_NEXyJH",
+        "product_dFcCKK"
+      ]
+    },
+    "activity_valentine_N943U7": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }
