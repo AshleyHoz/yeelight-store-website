@@ -27,16 +27,91 @@
     },
     "activity_valentine_JaTgDy": {
       "settings": {
+        "title": "Go Green & Shop Now",
         "title_icon": "",
-        "left_icon": "",
-        "title": "Go Green & Shop Now"
+        "left_icon": ""
       },
-      "blocks": {},
+      "blocks": {
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-smart-led-lightstrip-pro"
+          }
+        },
+        "product_7gpCG": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-ultra-thin-cabinet-light"
+          }
+        },
+        "product_rRPrp": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-pura-monitor-light-bar-pro"
+          }
+        },
+        "product_dzNUb": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-obsid-rgbic-light-strip"
+          }
+        },
+        "product_hPyGA": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_8VyVNY": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_Y6rDG": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_RUKgK": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_LahYp": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-rgbic-led-basic-strip-lights"
+          }
+        },
+        "product_ywN6f": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-bulb"
+          }
+        }
+      },
       "block_order": [
         "product_WMhTBk",
         "product_8VyVNY",
         "product_NEXyJH",
-        "product_dFcCKK"
+        "product_7gpCG",
+        "product_dFcCKK",
+        "product_rRPrp",
+        "product_hPyGA",
+        "product_dzNUb",
+        "product_RUKgK",
+        "product_LahYp",
+        "product_ywN6f",
+        "product_Y6rDG"
       ]
     },
     "activity_valentine_N943U7": {
@@ -45,6 +120,16 @@
       "blocks": {}
     },
     "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "rich_text_7JpWaV": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "173148591784123612": {
       "disabled": true,
       "settings": {},
       "blocks": {}
