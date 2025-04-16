@@ -49,7 +49,7 @@
     assign preload = true
   endif
 -%}
-<product-slideshow class="product-slideshow spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
+<product-slideshow class="product-slideshow spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}{% if section.settings.controls == 'arrows' %}padding-24{% endif %}">
   <div class="main-slideshow-container {% if full_width %} full-width-row{% endif %}">
     {%- if section_title -%}
       {% render 'section-header', section_heading: section_title %}
@@ -62,23 +62,21 @@
       data-transition="{{ transition }}"
       style="--dot-speed: {{ autoplay | divided_by: 1000 | append: 's' }};--color-text: #fff;"
     >
-      <div class="product-slideshow-buttons-container text-center">
+      <div class="product-slideshow-buttons-container text-center {% if section.settings.controls == 'arrows' %}hidden{% endif %}">
         <div class="product-slideshow-buttons-container-inner">
           <div class="product-slideshow-buttons d-flex align-center justify-center flickity-custom-dots">
             <div class="product-slideshow-buttons-bg"></div>
             {%- for block in section.blocks -%}
-              {% if block.settings.button_text != blank %}
-                <li
-                  class="product-slideshow-buttons_item"
-                  data-img="{{block.settings.image}}"
-                  onclick="onChangeBackground()"
-                >
-                  <div class="product-slideshow-buttons_item-content d-flex align-center justify-center">
-                    {% render 'svg-icons' with block.settings.button_icon %}
-                    <span>{{ block.settings.button_text }}</span>
-                  </div>
-                </li>
-              {% endif %}
+              <li
+                class="product-slideshow-buttons_item"
+                data-img="{{block.settings.image}}"
+                onclick="onChangeBackground()"
+              >
+                <div class="product-slideshow-buttons_item-content d-flex align-center justify-center">
+                  {% render 'svg-icons' with block.settings.button_icon %}
+                  <span>{{ block.settings.button_text }}</span>
+                </div>
+              </li>
             {%- endfor -%}
           </div>
         </div>
