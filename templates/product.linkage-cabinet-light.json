@@ -76,7 +76,7 @@
           "settings": {
             "heading": "Shipping",
             "open": false,
-            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>Europe: 7-10 Business Days</li></ul>",
+            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA:3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
             "page": "",
             "custom_liquid": ""
           }
@@ -135,29 +135,29 @@
         "button_2_title": ""
       }
     },
-    "product_slideshow_DqnWb4": {
+    "product_slideshow_KiyeDU": {
       "type": "product-slideshow",
       "blocks": {
-        "slide_h8LHBQ": {
+        "slide_HTXc3c": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/01_fd012619-0bcb-44ab-8207-d652fc3f1cf7.png",
-            "mobile_image": "shopify://shop_images/M_01_46c209ac-4105-46a5-aa6b-683eebefaa24.png",
+            "image": "shopify://shop_images/1_6922a421-1cbd-4763-9682-593c32d6a9f3.jpg",
+            "mobile_image": "shopify://shop_images/1_a578e85c-5d71-40cd-a907-47c5d733b72e.jpg",
             "slide_link": "",
             "button_icon": "",
             "button_text": "",
             "video_background": false,
-            "title": "Dinner in Perfect Light & Air - Enjoy Every Bite",
+            "title": "Find Your Style in Perfect Light",
             "badge_text": "",
-            "subheading": "",
-            "heading": "",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
             "heading_size": "h1",
-            "content": "",
+            "content": "Add descriptive text for your slide here.",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg": "transparent",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 20,
             "color_text": "#2c2d2e",
@@ -176,16 +176,16 @@
             "use_text_button_2": false
           }
         },
-        "slide_J6UdVw": {
+        "slide_9PVAji": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/04_010822a4-2e57-49a6-bfcb-fc1ab423a795.png",
-            "mobile_image": "shopify://shop_images/M_03_9a1731b1-3043-4513-981b-fef082a0964b.png",
+            "image": "shopify://shop_images/3_507be7d0-6704-4bd7-9e03-43b1edfe34a0.jpg",
+            "mobile_image": "shopify://shop_images/3_245c555e-7d1c-4221-b781-81f1f681e444.jpg",
             "slide_link": "",
             "button_icon": "",
             "button_text": "",
             "video_background": false,
-            "title": "Nighttime Bliss - Cool Air & Warm Light in Sync",
+            "title": "Light Your Path, Step by Step",
             "badge_text": "",
             "subheading": "Add a tagline",
             "heading": "Slide Heading",
@@ -195,7 +195,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg": "transparent",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 20,
             "color_text": "#2c2d2e",
@@ -214,16 +214,16 @@
             "use_text_button_2": false
           }
         },
-        "slide_8PV6jz": {
+        "slide_rmHWaF": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/03_98fc35bf-3e59-40e6-9249-4797edd88cae.png",
-            "mobile_image": "shopify://shop_images/M_04_c5a29c6e-42de-4609-9c87-9e80d40c35fe.png",
+            "image": "shopify://shop_images/2_b5fce18c-74a3-4223-9bc5-5f55c038cd7c.jpg",
+            "mobile_image": "shopify://shop_images/2_a842ccdb-6ba1-4b62-811f-28fb4eab9441.jpg",
             "slide_link": "",
             "button_icon": "",
             "button_text": "",
             "video_background": false,
-            "title": "Focus Mode - Bright Light & Steady Breeze",
+            "title": "Soft, Smart Light for Every Sip",
             "badge_text": "",
             "subheading": "Add a tagline",
             "heading": "Slide Heading",
@@ -233,45 +233,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
-            "color_slidebg_opacity": 0,
-            "color_slidebg_blur": 20,
-            "color_text": "#2c2d2e",
-            "color_badge_bg": "#3f72e5",
-            "color_badge_text": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "Shop Now",
-            "button_1_color": "accent",
-            "button_1_link": "",
-            "use_text_button_1": false,
-            "button_2_text": "Shop Now",
-            "button_2_color": "white",
-            "button_2_link": "",
-            "use_text_button_2": false
-          }
-        },
-        "slide_PnkQtQ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/02_670fb20e-2b32-4fe2-956b-41a401794877.png",
-            "mobile_image": "shopify://shop_images/M_02_b8072753-8a4e-4f50-8028-164340316feb.png",
-            "slide_link": "",
-            "button_icon": "",
-            "button_text": "",
-            "video_background": false,
-            "title": "Guest Perfect - Fresh Airflow & Right Light",
-            "badge_text": "",
-            "subheading": "Add a tagline",
-            "heading": "Slide Heading",
-            "heading_size": "h1",
-            "content": "Add descriptive text for your slide here.",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg": "transparent",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 20,
             "color_text": "#2c2d2e",
@@ -292,17 +254,16 @@
         }
       },
       "block_order": [
-        "slide_h8LHBQ",
-        "slide_J6UdVw",
-        "slide_8PV6jz",
-        "slide_PnkQtQ"
+        "slide_HTXc3c",
+        "slide_9PVAji",
+        "slide_rmHWaF"
       ],
       "settings": {
         "title": "",
         "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-500",
         "full_width": false,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_length": 5,
         "transition": "slide",
         "controls": "arrows",
@@ -310,120 +271,120 @@
         "disable_bottom_spacing": true
       }
     },
-    "single_image_mtTtz8": {
+    "single_image_94iCf4": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/01_29104da1-6bad-4c23-832b-1699697004d9.png",
-        "image_mobile": "shopify://shop_images/M_03.png",
+        "image": "shopify://shop_images/1_4af32aa9-0028-4450-aa7d-6db183d2c986.jpg",
+        "image_mobile": "shopify://shop_images/1_4f633486-025a-4740-8c58-563da96688ae.jpg",
         "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
         "activity_wyze": false,
         "activity_icon": false
       }
     },
-    "single_image_CiE9F9": {
+    "single_image_cGkjAk": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/3_61bdb4dd-8090-4595-a23f-f5238e4d8bd1.jpg",
+        "image_mobile": "shopify://shop_images/3_0e6b2d4c-50fa-47d8-abda-b63c7ef26a58.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_UzKaPx": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/4_911531b2-38ea-47c8-8e55-1c9509ac45a9.jpg",
+        "image_mobile": "shopify://shop_images/1_4f633486-025a-4740-8c58-563da96688ae.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_VPNBDW": {
       "type": "single-image",
       "disabled": true,
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/03_f72ee4a5-dee5-4510-87e8-db495bd811d3.png",
-        "image_mobile": "shopify://shop_images/M_01.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
+        "image": "shopify://shop_images/7_658736f6-e2cc-488f-beca-4b69dbb29882.jpg",
+        "image_mobile": "shopify://shop_images/7_d16c8571-099a-43fa-a2b9-9fc577468c53.jpg",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
         "activity_wyze": false,
         "activity_icon": false
       }
     },
-    "single_image_g4CiQU": {
+    "single_image_XDaNAX": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/02_e6dcbafe-d619-4c14-ab23-5e8c5fa3a508.png",
-        "image_mobile": "shopify://shop_images/M_02.png",
+        "image": "shopify://shop_images/5_2ce7f007-6fcf-4594-a648-3d94f50a10ba.jpg",
+        "image_mobile": "shopify://shop_images/5_e55de8e8-8966-4c07-8304-5693914865dc.jpg",
         "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
         "activity_wyze": false,
         "activity_icon": false
       }
     },
-    "single_image_xpAebN": {
+    "single_image_yDNXYx": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/08_325b663f-aaa8-4563-8917-54815337a598.png",
-        "image_mobile": "shopify://shop_images/M_08.png",
+        "image": "shopify://shop_images/6_881f366d-36ec-4126-834a-e04127d6b1fb.jpg",
+        "image_mobile": "shopify://shop_images/6_ebf92a1d-8f51-43f2-b85b-8a6fde1cef26.jpg",
         "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
         "activity_wyze": false,
         "activity_icon": false
       }
     },
-    "single_image_k6gWJB": {
+    "single_image_LazWP6": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/07_6a75cdc3-c290-4584-9477-041e55a439cf.png",
-        "image_mobile": "shopify://shop_images/M_07.png",
+        "image": "shopify://shop_images/7_658736f6-e2cc-488f-beca-4b69dbb29882.jpg",
+        "image_mobile": "shopify://shop_images/7_d16c8571-099a-43fa-a2b9-9fc577468c53.jpg",
         "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
         "activity_wyze": false,
         "activity_icon": false
       }
     },
-    "single_image_nbhytB": {
+    "single_image_gjtYiW": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/06_8618be4d-1098-425a-9ab8-ce41f6f64102.png",
-        "image_mobile": "shopify://shop_images/M_06.png",
+        "image": "shopify://shop_images/8_270d1bf8-ef14-4dcb-8539-000bd3bc04b5.jpg",
+        "image_mobile": "shopify://shop_images/8_d2e64ebd-f44d-4eb1-848d-789152413784.jpg",
         "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
         "activity_wyze": false,
         "activity_icon": false
       }
     },
-    "single_image_8TkYG3": {
+    "single_image_iPP9z3": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/09_16ed5061-dc07-461e-88d3-d2459dce6a35.png",
-        "image_mobile": "shopify://shop_images/M_09.png",
+        "image": "shopify://shop_images/9_bc5f1c27-c6c0-494c-bffa-64abb44c29dc.jpg",
+        "image_mobile": "shopify://shop_images/9_e86bfeef-c343-4e87-be76-0c929d1aadff.jpg",
         "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
-    "single_image_4jwYRE": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/05_16a9c5b5-aa49-4ff8-9483-e7a8d8a351f0.png",
-        "image_mobile": "shopify://shop_images/M_05.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
-    "single_image_DYGjaQ": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/10_6a1a28c1-b6a7-450d-8cc9-44ef2dde3511.png",
-        "image_mobile": "shopify://shop_images/M_10.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
         "activity_wyze": false,
         "activity_icon": false
       }
@@ -492,16 +453,16 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "product_slideshow_DqnWb4",
-    "single_image_mtTtz8",
-    "single_image_CiE9F9",
-    "single_image_g4CiQU",
-    "single_image_xpAebN",
-    "single_image_k6gWJB",
-    "single_image_nbhytB",
-    "single_image_8TkYG3",
-    "single_image_4jwYRE",
-    "single_image_DYGjaQ",
+    "product_slideshow_KiyeDU",
+    "single_image_94iCf4",
+    "single_image_cGkjAk",
+    "single_image_UzKaPx",
+    "single_image_VPNBDW",
+    "single_image_XDaNAX",
+    "single_image_yDNXYx",
+    "single_image_LazWP6",
+    "single_image_gjtYiW",
+    "single_image_iPP9z3",
     "rich_text_igCzBP",
     "1712003137212dc6f8",
     "product-recommendations"
