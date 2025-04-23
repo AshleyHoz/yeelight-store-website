@@ -12,7 +12,8 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {}
+      "settings": {
+      }
     },
     "image_with_text_overlay_EHXcMN": {
       "type": "image-with-text-overlay",
@@ -80,7 +81,7 @@
         "product_BTfM4U"
       ],
       "settings": {
-        "title": "<p><span>Power Your Play</span> in Every Gaming World</p>",
+        "title": "<span>Power Your Play</span> in Every Gaming World",
         "image": "shopify://shop_images/TopicProductBannerGame01.jpg",
         "image_mobile": "shopify://shop_images/TopicProductBannerMobileGame01.jpg",
         "reverse": "row",
@@ -204,7 +205,8 @@
         "loox_reviews_loox_video_slider_cyaCJt"
       ],
       "disabled": true,
-      "settings": {}
+      "settings": {
+      }
     },
     "media_with_tabs_dVM767": {
       "type": "media-with-tabs",
@@ -370,12 +372,21 @@
             "text": "<p>Worldwide shipping</p>"
           }
         },
+        "icon_GGAFrM": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify://shop_images/IconShield.png",
+            "heading": "30 Day",
+            "text": "<p>Money Back Guarantee</p>"
+          }
+        },
         "icon_UmKN3b": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
             "image": "shopify://shop_images/IconCorn.png",
-            "heading": "Worry",
+            "heading": "Lifetime",
             "text": "<p>Customer Support</p>"
           }
         },
@@ -384,17 +395,8 @@
           "settings": {
             "icon": "ruler",
             "image": "shopify://shop_images/IconService.png",
-            "heading": "Lifetime",
+            "heading": "1 Year",
             "text": "<p>warranty</p>"
-          }
-        },
-        "icon_GGAFrM": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify://shop_images/IconShield.png",
-            "heading": "Reliable",
-            "text": "<p>Money Back Guarantee</p>"
           }
         }
       },
