@@ -62,13 +62,13 @@
           {%- if featured_collection != blank -%}
             {%- for product in featured_collection.products limit: product_limit -%}
               <div class="{{ columns_class }} columns {% if display_type == 'carousel' %}carousel__slide{% endif %} featured-collection__inner--column">
-                {% render 'product-card', product_card_product: product, show_cover: section.settings.show_card_cover %}
+                {% render 'product-card', product_card_product: product, show_cover: section.settings.show_cover %}
               </div>
             {%- endfor -%}
           {%- else -%}
             {%- for i in (1..product_limit) -%}
               <div class="{{ columns_class }} columns {% if display_type == 'carousel' %}carousel__slide{% endif %} featured-collection__inner--column">
-                {% render 'product-card', show_cover: section.settings.show_card_cover %}
+                {% render 'product-card', show_cover: section.settings.show_cover %}
               </div>
             {%- endfor -%}
           {%- endif -%}
@@ -237,7 +237,7 @@
     },
     {
       "type": "checkbox",
-      "id": "show_card_cover",
+      "id": "show_cover",
       "default": false,
       "label": "Enable product card cover if collection has more cover images than shown"
     },
