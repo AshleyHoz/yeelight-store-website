@@ -32,7 +32,7 @@
   background-position: center;
   position: relative;
   padding: 60px 0 !important;
-  width: 60vw;
+  width: 68vw;
   margin: 0 auto;
 }
 
@@ -65,8 +65,8 @@
 }
 
 .activity-wyze--cover img {
-  width: auto;
-  height: 500px;
+  width: 100%;
+  height: auto;
 }
 
 .activity-wyze--title {
