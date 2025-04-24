@@ -59,7 +59,7 @@
                 class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %}"
                 data-collection="{{ block.settings.collection.handle }}"
               >
-                {% render 'product-card', product_card_product: product %}
+                {% render 'product-card', product_card_product: product, show_cover: section.settings.show_cover %}
               </div>
             {%- endfor -%}
           {%- else -%}
@@ -77,7 +77,7 @@
                 class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %}"
                 data-collection="collection-{{ block.id }}"
               >
-                {% render 'product-card' %}
+                {% render 'product-card', show_cover: section.settings.show_cover %}
               </div>
             {%- endfor -%}
           {%- endif -%}
@@ -189,6 +189,16 @@
       "id": "disable_bottom_spacing",
       "default": false,
       "label": "Remove bottom spacing"
+    },
+    {
+      "type": "header",
+      "content": "Cover Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cover",
+      "default": false,
+      "label": "Enable product card cover if collection has more cover images"
     }
   ],
   "blocks": [

@@ -92,7 +92,10 @@
                       {%- endif -%}
                     {%- endfor -%}
                     <li class="product-column">
-                      {%- render 'product-card', product_card_product: product -%}
+                      {%- render 'product-card',
+                        product_card_product: product,
+                        show_cover: section.settings.show_cover
+                      -%}
                     </li>
                   {%- endfor -%}
                 {%- endif -%}
@@ -206,6 +209,16 @@
       "default": "sidebar",
       "label": "Desktop position",
       "info": "Position of filters on desktop"
+    },
+    {
+      "type": "header",
+      "content": "Cover Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cover",
+      "default": false,
+      "label": "Enable product card cover if collection has more cover images"
     }
   ],
   "blocks": [

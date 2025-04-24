@@ -30,7 +30,10 @@
     <div class="acitivity--product full-width d-flex justify-space-between">
       {% for block in section.blocks %}
         <div class="product-item">
-          {% render 'product-card', product_card_product: block.settings.product %}
+          {% render 'product-card',
+            product_card_product: block.settings.product,
+            show_cover: section.settings.show_cover
+          %}
         </div>
       {% endfor %}
     </div>
@@ -81,6 +84,16 @@
       "type": "image_picker",
       "id": "background_image_mobile",
       "label": "Mobile Background image (optional)"
+    },
+    {
+      "type": "header",
+      "content": "Cover Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cover",
+      "default": false,
+      "label": "Enable product card cover if collection has more cover images"
     }
   ],
   "blocks": [

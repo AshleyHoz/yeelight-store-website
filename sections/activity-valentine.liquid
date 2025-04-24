@@ -44,7 +44,10 @@
     <div class="activity-valentine--product full-width d-flex flex-wrap">
       {% for block in section.blocks %}
         <div class="product-item">
-          {% render 'product-card', product_card_product: block.settings.product %}
+          {% render 'product-card',
+            product_card_product: block.settings.product,
+            show_cover: section.settings.show_cover
+          %}
         </div>
       {% endfor %}
     </div>
@@ -169,6 +172,16 @@
       "id": "right_icon",
       "label": "Right Icon",
       "info": "Wrap your text."
+    },
+    {
+      "type": "header",
+      "content": "Cover Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cover",
+      "default": false,
+      "label": "Enable product card cover if collection has more cover images"
     }
   ],
   "blocks": [

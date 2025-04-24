@@ -39,7 +39,7 @@
           {% for recommendation in recommendations.products %}
             {% comment %} {{ columns_class }} columns {% endcomment %}
             <li class="product-column">
-              {% render 'product-card', product_card_product: recommendation %}
+              {% render 'product-card', product_card_product: recommendation, show_cover: section.settings.show_cover %}
             </li>
           {% endfor %}
         </ul>
@@ -107,6 +107,16 @@
       "id": "disable_bottom_spacing",
       "default": false,
       "label": "Remove bottom spacing"
+    },
+    {
+      "type": "header",
+      "content": "Cover Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cover",
+      "default": false,
+      "label": "Enable product card cover if collection has more cover images"
     }
   ]
 }

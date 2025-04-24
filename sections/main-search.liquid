@@ -66,7 +66,10 @@
                             <li class="product-column">
                               {%- case item.object_type -%}
                                 {%- when 'product' -%}
-                                  {% render 'product-card', product_card_product: item %}
+                                  {% render 'product-card',
+                                    product_card_product: item,
+                                    show_cover: section.settings.show_cover
+                                  %}
                                 {%- when 'article' -%}
                                   {% render 'blog-post',
                                     article: item,
@@ -239,6 +242,16 @@
       "id": "show_excerpt",
       "default": false,
       "label": "Show excerpt"
+    },
+    {
+      "type": "header",
+      "content": "Cover Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cover",
+      "default": false,
+      "label": "Enable product card cover if collection has more cover images"
     }
   ]
 }
