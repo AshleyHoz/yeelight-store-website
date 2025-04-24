@@ -153,7 +153,7 @@
         "product_PP6Egj"
       ],
       "settings": {
-        "title": "Light Up Your Home with <span>Christmas Cheer</span>",
+        "title": "Light Up Your Home with Christmas Cheer",
         "show_icon": true,
         "left_x_position": 2,
         "left_y_position": 0,
@@ -210,8 +210,8 @@
       "type": "single-image",
       "settings": {
         "link": "shopify://products/yeelight-wyze-member-offer-christmas-string-lights",
-        "image": "shopify://shop_images/ActivityWyzeProduct.png",
-        "image_mobile": "shopify://shop_images/ActivityWyzeProductMobile.png",
+        "image": "shopify://shop_images/PC.png",
+        "image_mobile": "shopify://shop_images/M_3115dab3-afc5-4f10-ba66-4b1e93df4a7b.png",
         "full_width": false,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
