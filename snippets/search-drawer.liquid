@@ -46,10 +46,7 @@
                 -%}
                   {% unless product.metafields.custom.exclude_from_search == true %}
                     <li class="columns">
-                      {% render 'product-card',
-                        product_card_product: product,
-                        show_cover: section.settings.show_cover
-                      %}
+                      {% render 'product-card', product_card_product: product %}
                     </li>
                   {% endunless %}
                 {%- endfor -%}
@@ -66,21 +63,3 @@
 <noscript>
   {{ 'predictive-search.css' | asset_url | stylesheet_tag }}
 </noscript>
-{% schema %}
-{
-  "name": "Search drawer",
-  "class": "yee-searched-drawer",
-  "settings": [
-    {
-      "type": "header",
-      "content": "Cover Settings"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_cover",
-      "default": false,
-      "label": "Enable product card cover if collection has more cover images"
-    }
-  ]
-}
-{% endschema %}
