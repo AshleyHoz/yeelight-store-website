@@ -69,19 +69,6 @@
         "black_friday_ui_flag": false
       }
     },
-    "single_image_Pn6pPg": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/BlackFriday.png",
-        "image_mobile": "shopify://shop_images/BlackFridayMobile.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
     "activity_wyze_FEmHfT": {
       "type": "activity-wyze",
       "blocks": {
@@ -102,7 +89,7 @@
       "settings": {
         "full_width": true,
         "title": "YEELIGHT  X  WYZE GIVEAWAY",
-        "subtitle": "Enter your email for a chance to win one  of 20 amazing prizes",
+        "subtitle": "Enter your email for a chance to win one  of 25 amazing prizes",
         "remark": "*The event runs from 4/28/2025 to 5/11/2025 PST, with winners announced on 5/13/2025 PST.",
         "background_image": "shopify://shop_images/ActivityWyzeBg.png",
         "background_image_mobile": "shopify://shop_images/ActivityWyzeBgMobile.png",
@@ -124,13 +111,13 @@
         "product_pQwwR6": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-member-offer-permanent-outdoor-lights"
+            "product": "yeelight-wyze-smart-cube-kit"
           }
         },
         "product_at8DW3": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-member-offer-curtain-lights"
+            "product": "yeelight-wyze-candela-lamp"
           }
         },
         "product_LgUAQn": {
@@ -219,19 +206,6 @@
         "activity_icon": false
       }
     },
-    "single_image_HQL3cr": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/BlackFriday.png",
-        "image_mobile": "shopify://shop_images/BlackFridayMobile.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
     "rich_text_F6XM9m": {
       "type": "rich-text",
       "blocks": {
@@ -311,12 +285,10 @@
     "main",
     "image_with_text_overlay_EHXcMN",
     "video_MVkEjJ",
-    "single_image_Pn6pPg",
     "activity_wyze_FEmHfT",
     "activity_blackfriday_EDfQAb",
     "activity_blackfriday_Da7PxU",
     "single_image_V4VkTF",
-    "single_image_HQL3cr",
     "rich_text_F6XM9m",
     "1731318448f757b534",
     "text_with_icons_LiHffF"
