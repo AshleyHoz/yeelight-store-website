@@ -320,6 +320,6 @@
   }
 
   .activity-wyze--inner {
-    max-width: none;
+    width: 100%;
   }
 }
