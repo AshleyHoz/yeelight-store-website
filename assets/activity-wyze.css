@@ -322,4 +322,9 @@
   .activity-wyze--inner {
     width: 100%;
   }
+
+  .activity-wyze--cover-mobile img {
+    width: 90%;
+    height: auto;
+  }
 }
