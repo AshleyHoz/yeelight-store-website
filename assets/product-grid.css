@@ -954,6 +954,27 @@
   border-radius: 25px 25px 0 0;
 }
 
+.product-card-cover.hidden {
+  display: none;
+}
+
+.product-card-cover .product-featured-image-link {
+  border-radius: 25px;
+}
+
+.product-card-cover-info {
+  margin-bottom: 18px;
+}
+
+.product-card-cover-star-desc {
+  margin-top: 4px;
+}
+
+.product-recommendations .product-recommendations-items {
+  margin: 0;
+  gap: 20px;
+}
+
 .product-card:hover .product-card-cover {
   bottom: 0;
 }

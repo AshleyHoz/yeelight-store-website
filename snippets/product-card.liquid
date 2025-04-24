@@ -42,6 +42,13 @@
   if product_card_product.available and product_card_product.variants.size == 1
     assign is_purchasable = true
   endif
+
+  assign show_cover = false
+  if show_cover == true
+    assign show_cover = true
+  else
+    assign show_cover = false
+  endif
 -%}
 {%- if product_card_product and product_card_product != empty -%}
   <product-card class="product-card full-width full-height overflow-hidden position-relative d-flex flex-column text-{{ product_content_alignment }} product-card--content-spacing-{{ info_spacing }} product-card--border-{{ product_card_border }} {{ product_card_shadow_class }}">
@@ -139,7 +146,7 @@
           {%- endif -%}
         {% endcomment %}
       </div>
-      <div class="product-card-cover full-width full-height">
+      <div class="product-card-cover full-width full-height {% if show_cover == false %}hidden{% endif %}">
         <div class="product-card-cover-info text-left">
           <a
             href="{{ product_card_product.url | within: collection }}"
