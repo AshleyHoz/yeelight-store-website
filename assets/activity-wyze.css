@@ -32,7 +32,14 @@
   background-position: center;
   position: relative;
   padding: 60px 0 !important;
+  width: 60vw;
+  margin: 0 auto;
 }
+
+.activity-wyze--bg .bg-desktop {
+  display: block
+}
+
 .activity-wyze:after {
   content: '';
   display: block;
@@ -45,58 +52,71 @@
   pointer-events: none;
   background: rgba(var(--color-overlay-rgb), var(--overlay-opacity));
 }
+
 .activity-wyze--inner {
   position: relative;
   z-index: 10;
-  max-width: 720px;
+  width: 50%;
 }
+
 .activity-wyze--cover {
   margin-right: 50px;
+  width: 50%;
 }
+
 .activity-wyze--cover img {
-  width: 280px;
-  height: auto;
+  width: auto;
+  height: 500px;
 }
+
 .activity-wyze--title {
   font-size: 37px;
   font-weight: 900;
   margin-bottom: 10px;
 }
+
 .activity-wyze--title span {
   background: linear-gradient(90deg, #ffcaa4 0%, #d635ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .activity-wyze--title svg,
 .activity-wyze--cover-mobile,
 .activity-wyze--bg .bg-mobile {
   display: none;
 }
+
 .activity-wyze--subtitle {
   font-size: 26px;
   font-weight: 500;
   line-height: 134%;
   margin-bottom: 36px;
 }
+
 .activity-wyze--remark {
   font-size: 16px;
   font-weight: 400;
   margin-top: 36px;
 }
+
 .activity-wyze .thb-placeholder {
   width: 150px;
   margin: 0 auto;
 }
+
 .activity-wyze .signup-container {
   max-width: 580px;
 }
+
 /* .activity-wyze .signup-container fieldset {
   overflow: hidden;
 } */
 .activity-wyze--email {
   position: relative;
 }
+
 .activity-wyze--email input[type='email'] {
   width: 100%;
   height: 56px;
@@ -106,10 +126,12 @@
   border: 0.752px solid #fff;
   background: rgba(190, 173, 255, 0.14);
 }
-.activity-wyze--email input[type='email']:focus + label,
-.activity-wyze--email input[type='email']:not(:placeholder-shown) + label {
+
+.activity-wyze--email input[type='email']:focus+label,
+.activity-wyze--email input[type='email']:not(:placeholder-shown)+label {
   display: none;
 }
+
 .activity-wyze--email .signup-container .signup-form .field label {
   color: #fff;
   font-size: 21.068px;
@@ -117,29 +139,35 @@
   opacity: 0.4;
   top: 2px;
 }
+
 .activity-wyze--email .signup-container button {
   border-left: unset;
   width: 30%;
 }
+
 .activity-wyze--email .signup-container .signup-form fieldset svg {
   position: absolute;
   top: -46px;
   right: -45px;
 }
+
 .activity-wyze--email .signup-container .form-notification {
   padding-left: 25px;
   text-align: left;
 }
+
 .activity-wyze--email .signup-container .form-notification svg {
   position: absolute;
   top: 0;
   left: 0;
 }
+
 .activity-wyze--email .signup-container .signup-container--terms {
   margin-top: 36px;
   display: flex;
   align-items: flex-start;
 }
+
 .activity-wyze--email .signup-container .signup-container--terms a {
   color: #fff;
   font-size: 16px;
@@ -155,6 +183,7 @@
   width: 100%;
   display: block;
 }
+
 .activity-wyze--email .signup-container .signup-container--terms a:hover {
   color: #fff;
 }
@@ -171,13 +200,16 @@
   -moz-appearance: none;
   background: transparent;
 }
+
 .activity-wyze--email .signup-container .custom-filter-checkbox[type='checkbox']:disabled {
   background: #3b3b3b;
 }
+
 .activity-wyze--email .signup-container .custom-filter-checkbox[type='checkbox']:checked {
   background: #0075ff;
   position: relative;
 }
+
 .activity-wyze--email .signup-container .custom-filter-checkbox[type='checkbox']:checked::before {
   content: '';
   position: absolute;
@@ -199,26 +231,32 @@
     /* background-image: var(--background-image-mobile); */
     padding: 24px 16px 0 !important;
     text-align: center;
+    width: 100%;
   }
+
   .activity-wyze .activity-wyze--cover,
   .activity-wyze--title .activity-wyze--title-text,
   .activity-wyze--bg .bg-desktop {
     display: none;
   }
+
   .activity-wyze--icon svg {
     width: 91px;
     height: 81px;
   }
+
   .activity-wyze--title {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: -10px;
   }
+
   .activity-wyze--title svg,
   .activity-wyze--bg .bg-mobile {
     display: block;
   }
+
   .activity-wyze--subtitle {
     text-align: center;
     font-size: 13px;
@@ -228,46 +266,60 @@
     margin: 0 auto;
     margin-bottom: 8px;
   }
+
   .activity-wyze--cover-mobile {
     display: block;
     margin-bottom: 28px;
   }
+
   .activity-wyze--email input[type='email'] {
     font-size: 16px;
     padding: 0 16px;
   }
+
   .activity-wyze--email .signup-container .signup-form .field label {
     font-size: 15.108px;
     font-weight: 400;
   }
+
   .activity-wyze--email .signup-container .signup-form fieldset svg {
     width: 200px;
     height: 112px;
     top: -30px;
     right: -28px;
   }
+
   .activity-wyze--email .signup-container .signup-container--terms {
     margin-top: 10px;
   }
+
   .activity-wyze--email .signup-container .signup-container--terms a {
     font-size: 12px;
     font-weight: 275;
   }
+
   .activity-wyze--email .signup-container .custom-filter-checkbox[type='checkbox'] {
     width: 16px;
     min-width: 16px;
     height: 16px;
   }
+
   .activity-wyze--email .signup-container button {
     width: 40%;
   }
+
   .activity-wyze--remark {
     width: 60%;
     margin: 28px auto;
     font-size: 12px;
     font-weight: 300;
   }
+
   .activity-wyze .single-image--mobile {
     padding: 0 16px;
+  }
+
+  .activity-wyze--inner {
+    max-width: none;
   }
 }
