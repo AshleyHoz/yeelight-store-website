@@ -123,13 +123,13 @@
         "product_LgUAQn": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-member-offer-christmas-string-lights"
+            "product": "yeelight-wyze-monitor-light-bar-pro"
           }
         },
         "product_PP6Egj": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-member-offer-monitor-light-bar-pro"
+            "product": "yeelight-wyze-pura-monitor-light-bar-pro"
           }
         }
       },
@@ -152,39 +152,39 @@
     "activity_blackfriday_Da7PxU": {
       "type": "activity-blackfriday",
       "blocks": {
+        "product_yzg7TP": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-smart-led-lamp-d2"
+          }
+        },
         "product_Wt7qra": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-member-offer-candela-lamp"
+            "product": "yeelight-wyze-permanent-outdoor-lights"
           }
         },
         "product_yCx7XQ": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-member-offer-beam-rgbic-light-bar"
+            "product": "yeelight-curtain-lights-复制"
           }
         },
         "product_WjbRMm": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-member-offer-smart-cube-kit"
-          }
-        },
-        "product_yzg7TP": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-wyze-member-offer-smart-led-lamp-d2"
+            "product": "yeelight-wyze-holiday-string-lights"
           }
         }
       },
       "block_order": [
+        "product_yzg7TP",
         "product_Wt7qra",
         "product_yCx7XQ",
-        "product_WjbRMm",
-        "product_yzg7TP"
+        "product_WjbRMm"
       ],
       "settings": {
-        "title": "Illuminate Your Holiday Gaming with <span>Best Sellers</span>",
+        "title": "Illuminate Your Holiday Gaming with Best Sellers",
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
@@ -204,6 +204,50 @@
         "disable_bottom_spacing": true,
         "activity_wyze": true,
         "activity_icon": false
+      }
+    },
+    "activity_blackfriday_3eBipy": {
+      "type": "activity-blackfriday",
+      "blocks": {
+        "product_jxMjaY": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-floor-task-lamp"
+          }
+        },
+        "product_PjUTjX": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-smart-lamp-cube-lite-seamless-design"
+          }
+        },
+        "product_9nCLAY": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-smart-dimmable-bulb-w3-4pack"
+          }
+        },
+        "product_BBqRpe": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-beam-rgbic-light-bar"
+          }
+        }
+      },
+      "block_order": [
+        "product_jxMjaY",
+        "product_PjUTjX",
+        "product_9nCLAY",
+        "product_BBqRpe"
+      ],
+      "settings": {
+        "title": "Illuminate Your Holiday Gaming with Best Sellers",
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "right_x_position": 0,
+        "right_y_position": 0,
+        "show_cover": false
       }
     },
     "rich_text_F6XM9m": {
@@ -289,6 +333,7 @@
     "activity_blackfriday_EDfQAb",
     "activity_blackfriday_Da7PxU",
     "single_image_V4VkTF",
+    "activity_blackfriday_3eBipy",
     "rich_text_F6XM9m",
     "1731318448f757b534",
     "text_with_icons_LiHffF"
