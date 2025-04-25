@@ -158,6 +158,12 @@
             "product": "yeelight-wyze-smart-led-lamp-d2"
           }
         },
+        "product_WjbRMm": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-smart-lamp-cube-lite-seamless-design"
+          }
+        },
         "product_Wt7qra": {
           "type": "product",
           "settings": {
@@ -169,19 +175,13 @@
           "settings": {
             "product": "yeelight-curtain-lights-复制"
           }
-        },
-        "product_WjbRMm": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-wyze-holiday-string-lights"
-          }
         }
       },
       "block_order": [
         "product_yzg7TP",
+        "product_WjbRMm",
         "product_Wt7qra",
-        "product_yCx7XQ",
-        "product_WjbRMm"
+        "product_yCx7XQ"
       ],
       "settings": {
         "title": "Make Every Part of Your Home Feel Special",
@@ -209,16 +209,16 @@
     "activity_blackfriday_3eBipy": {
       "type": "activity-blackfriday",
       "blocks": {
+        "product_PjUTjX": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-holiday-string-lights"
+          }
+        },
         "product_jxMjaY": {
           "type": "product",
           "settings": {
             "product": "yeelight-wyze-floor-task-lamp"
-          }
-        },
-        "product_PjUTjX": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-wyze-smart-lamp-cube-lite-seamless-design"
           }
         },
         "product_9nCLAY": {
@@ -235,8 +235,8 @@
         }
       },
       "block_order": [
-        "product_jxMjaY",
         "product_PjUTjX",
+        "product_jxMjaY",
         "product_9nCLAY",
         "product_BBqRpe"
       ],
