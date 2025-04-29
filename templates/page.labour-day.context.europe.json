@@ -43,7 +43,8 @@
       "settings": {
         "left_icon": "",
         "right_icon": "",
-        "show_cover": true
+        "show_cover": true,
+        "title_icon": ""
       },
       "blocks": {
         "product_6qM9pk": {
