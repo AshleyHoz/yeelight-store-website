@@ -12,5 +12,212 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner_d1056d58-85cf-43a5-addc-37cfde77896a.jpg",
+        "image_mobile": "shopify://shop_images/banner_948f7a5d-a0bd-45e9-a51f-234ebad0273f.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_blackfriday_3P3A9": {
+      "type": "activity-blackfriday",
+      "disabled": false,
+      "settings": {
+        "title": "Craft Your Perfect Atmosphere",
+        "image": null,
+        "image_mobile": null,
+        "background_image": null,
+        "header-caeb6c79059a8e0d56da68a5a5d9474e": null,
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "header-32cce3a62b1b89367ce44687ea6c4238": null,
+        "right_x_position": 0,
+        "right_y_position": 0,
+        "header-ac4779757858bca8b84823ac06226d84": null,
+        "show_cover": false
+      },
+      "blocks": {
+        "product_BepPp": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_pnBNR": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        },
+        "product_eUkmY": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_TAYMV": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_xVQC3": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_hHd48": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-led-light-panels"
+          }
+        },
+        "product_EBTrp": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_zVceV": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        }
+      },
+      "block_order": [
+        "product_BepPp",
+        "product_pnBNR",
+        "product_eUkmY",
+        "product_TAYMV",
+        "product_xVQC3",
+        "product_hHd48",
+        "product_EBTrp",
+        "product_zVceV"
+      ],
+      "name": "Activity Blackfriday"
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_blackfriday_HUEDg": {
+      "type": "activity-blackfriday",
+      "disabled": false,
+      "settings": {
+        "title": "Illuminate Your Space",
+        "image": null,
+        "image_mobile": null,
+        "background_image": null,
+        "header-caeb6c79059a8e0d56da68a5a5d9474e": null,
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "header-32cce3a62b1b89367ce44687ea6c4238": null,
+        "right_x_position": 0,
+        "right_y_position": 0,
+        "header-ac4779757858bca8b84823ac06226d84": null,
+        "show_cover": true
+      },
+      "blocks": {
+        "product_Fcyj3": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_GHbbG": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        },
+        "product_eY3BB": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_Qay3C": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_VDNxh": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_LjcCp": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-led-light-panels"
+          }
+        },
+        "product_4nLwH": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_rcVHp": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        }
+      },
+      "block_order": [
+        "product_Fcyj3",
+        "product_GHbbG",
+        "product_eY3BB",
+        "product_Qay3C",
+        "product_VDNxh",
+        "product_LjcCp",
+        "product_4nLwH",
+        "product_rcVHp"
+      ],
+      "name": "Activity Blackfriday"
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "single_image_HQL3cr",
+    "single_image_RbrWWD",
+    "activity_blackfriday_3P3A9",
+    "activity_blackfriday_HUEDg",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
 }
