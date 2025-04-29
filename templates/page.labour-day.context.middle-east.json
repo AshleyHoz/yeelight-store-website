@@ -12,5 +12,150 @@
   "context": {
     "market": "middle-east"
   },
-  "sections": {}
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner_d1056d58-85cf-43a5-addc-37cfde77896a.jpg",
+        "image_mobile": "shopify://shop_images/banner_948f7a5d-a0bd-45e9-a51f-234ebad0273f.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_new_year_neYy8": {
+      "type": "activity-new-year",
+      "disabled": false,
+      "settings": {
+        "title": "The best gift",
+        "image": null,
+        "image_mobile": null,
+        "background_image": null,
+        "background_image_mobile": null,
+        "header-84ffb998f0d59069c5b2ed17fabd7c68": null,
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "header-f88f9be230517064a262ccfbdce4e4e0": null,
+        "right_x_position": 0,
+        "right_y_position": 0,
+        "header-f390ea9e45071acad8a4db437eb0cc48": null,
+        "show_cover": false
+      },
+      "blocks": {
+        "product_R4kgp": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_F3Xpa": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_QJcbi": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        },
+        "product_VzdAM": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-2-in-1-lighting-charging-sensor-nightlight"
+          }
+        }
+      },
+      "block_order": [
+        "product_R4kgp",
+        "product_F3Xpa",
+        "product_QJcbi",
+        "product_VzdAM"
+      ],
+      "name": "Activity New Year"
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_new_year_7BxDp": {
+      "type": "activity-new-year",
+      "disabled": false,
+      "settings": {
+        "title": "You May Also Like",
+        "image": null,
+        "image_mobile": null,
+        "background_image": null,
+        "background_image_mobile": null,
+        "header-84ffb998f0d59069c5b2ed17fabd7c68": null,
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "header-f88f9be230517064a262ccfbdce4e4e0": null,
+        "right_x_position": 0,
+        "right_y_position": 0,
+        "header-f390ea9e45071acad8a4db437eb0cc48": null,
+        "show_cover": false
+      },
+      "blocks": {
+        "product_F7QFz": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_GfWPU": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        },
+        "product_Hmh9i": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_nRRzG": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-rechargeable-light-sensor-nightlight-polaris"
+          }
+        }
+      },
+      "block_order": [
+        "product_F7QFz",
+        "product_GfWPU",
+        "product_Hmh9i",
+        "product_nRRzG"
+      ],
+      "name": "Activity New Year"
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "single_image_HQL3cr",
+    "single_image_RbrWWD",
+    "activity_new_year_neYy8",
+    "activity_new_year_7BxDp",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
 }
