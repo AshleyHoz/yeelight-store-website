@@ -12,5 +12,103 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner_3f53eb8f-0cf7-44d7-ae4e-542204c709ed.jpg",
+        "image_mobile": "shopify://shop_images/banner_fcb11144-d741-49b0-b2a1-82d50f216363.jpg"
+      },
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title": "The best gift",
+        "show_cover": true
+      },
+      "blocks": {
+        "product_8VyVNY": {
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        },
+        "product_dFcCKK": {
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        }
+      }
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_valentine_N943U7": {
+      "settings": {
+        "title": "You may also like"
+      },
+      "blocks": {
+        "product_6hbnXF": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_6qM9pk": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_GxKGKM": {
+          "settings": {
+            "product": "yeelight-pura-monitor-light-bar-pro"
+          }
+        },
+        "product_wR3qDg": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-cube"
+          }
+        },
+        "product_wtezBt": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-bulb"
+          }
+        },
+        "product_UNaT86": {
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_WjGkfF": {
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        }
+      },
+      "block_order": [
+        "product_6hbnXF",
+        "product_ikGnam",
+        "product_WjGkfF",
+        "product_UNaT86",
+        "product_6qM9pk",
+        "product_GxKGKM",
+        "product_wtezBt",
+        "product_wR3qDg"
+      ]
+    }
+  }
 }
