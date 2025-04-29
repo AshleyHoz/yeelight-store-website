@@ -12,5 +12,92 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner_3f53eb8f-0cf7-44d7-ae4e-542204c709ed.jpg",
+        "image_mobile": "shopify://shop_images/banner_fcb11144-d741-49b0-b2a1-82d50f216363.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title": "The best gift"
+      },
+      "blocks": {
+        "product_8VyVNY": {
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        },
+        "product_dFcCKK": {
+          "settings": {
+            "product": "yeelight-2-in-1-lighting-charging-sensor-nightlight"
+          }
+        }
+      }
+    },
+    "activity_valentine_N943U7": {
+      "settings": {
+        "title": "You may also like"
+      },
+      "blocks": {
+        "product_ikGnam": {
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_6qM9pk": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-aires"
+          }
+        },
+        "product_GxKGKM": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        },
+        "product_WjGkfF": {
+          "settings": {
+            "product": "yeelight-rechargeable-light-sensor-nightlight-polaris"
+          }
+        },
+        "product_UNaT86": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_wtezBt": {
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_wR3qDg": {
+          "settings": {
+            "product": "yeelight-smart-bulb-w4"
+          }
+        }
+      }
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }
