@@ -41,10 +41,10 @@
     "activity_valentine_N943U7": {
       "disabled": false,
       "settings": {
+        "title_icon": "",
         "left_icon": "",
         "right_icon": "",
-        "show_cover": true,
-        "title_icon": ""
+        "show_cover": true
       },
       "blocks": {
         "product_6qM9pk": {
@@ -88,6 +88,109 @@
       "disabled": true,
       "settings": {},
       "blocks": {}
+    },
+    "activity_new_year_CRzAx": {
+      "type": "activity-new-year",
+      "disabled": false,
+      "settings": {
+        "title": "Craft Your Perfect Atmosphere",
+        "image": null,
+        "image_mobile": null,
+        "background_image": null,
+        "background_image_mobile": null,
+        "header-365d919b9fcfe650a0f72d6e00c314fe": null,
+        "show_icon": false,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "header-fbd3a44ad4eb44fd98ceda4ba05256b5": null,
+        "right_x_position": 0,
+        "right_y_position": 0,
+        "header-df13abe14aa9b2b08ed51e6fad9432b5": null,
+        "show_cover": true
+      },
+      "blocks": {
+        "product_q6YPN": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_4tfLi": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_cmggj": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_zMtcA": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_3h9Aq": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_dxpN4": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-led-light-panels"
+          }
+        },
+        "product_xFKMh": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-beam-rgbic-light-bar"
+          }
+        },
+        "product_iEmCY": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        }
+      },
+      "block_order": [
+        "product_q6YPN",
+        "product_4tfLi",
+        "product_cmggj",
+        "product_zMtcA",
+        "product_3h9Aq",
+        "product_dxpN4",
+        "product_xFKMh",
+        "product_iEmCY"
+      ],
+      "name": "Activity New Year"
     }
-  }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "single_image_HQL3cr",
+    "activity_valentine_JaTgDy",
+    "activity_valentine_N943U7",
+    "activity_new_year_CRzAx",
+    "single_image_RbrWWD",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
 }
