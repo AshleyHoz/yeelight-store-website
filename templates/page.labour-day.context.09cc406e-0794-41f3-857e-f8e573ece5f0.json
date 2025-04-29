@@ -13,18 +13,6 @@
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
   "sections": {
-    "single_image_g3UUwH": {
-      "settings": {
-        "image": "shopify://shop_images/banner_d1056d58-85cf-43a5-addc-37cfde77896a.jpg",
-        "image_mobile": "shopify://shop_images/banner_948f7a5d-a0bd-45e9-a51f-234ebad0273f.jpg"
-      },
-      "blocks": {}
-    },
-    "single_image_HQL3cr": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
     "activity_blackfriday_3P3A9": {
       "type": "activity-blackfriday",
       "disabled": false,
@@ -33,14 +21,14 @@
         "image": null,
         "image_mobile": null,
         "background_image": null,
-        "header-caeb6c79059a8e0d56da68a5a5d9474e": null,
+        "header-5047783a0bf2ec23b6fcbf89e276d102": null,
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
-        "header-32cce3a62b1b89367ce44687ea6c4238": null,
+        "header-2065afbd7b3b6bdf690868821a7d8d28": null,
         "right_x_position": 0,
         "right_y_position": 0,
-        "header-ac4779757858bca8b84823ac06226d84": null,
+        "header-bd997340f47e12dc77892e03c9c49451": null,
         "show_cover": false
       },
       "blocks": {
@@ -113,11 +101,6 @@
       ],
       "name": "Activity Blackfriday"
     },
-    "single_image_RbrWWD": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
     "activity_blackfriday_HUEDg": {
       "type": "activity-blackfriday",
       "disabled": false,
@@ -126,14 +109,14 @@
         "image": null,
         "image_mobile": null,
         "background_image": null,
-        "header-caeb6c79059a8e0d56da68a5a5d9474e": null,
+        "header-92eb0f769670f6453e3e11d3ed1c0392": null,
         "show_icon": false,
         "left_x_position": 0,
         "left_y_position": 0,
-        "header-32cce3a62b1b89367ce44687ea6c4238": null,
+        "header-bd28c93805ad128b9634208864c5871a": null,
         "right_x_position": 0,
         "right_y_position": 0,
-        "header-ac4779757858bca8b84823ac06226d84": null,
+        "header-c96bb86aa453255f1912623f2992d733": null,
         "show_cover": true
       },
       "blocks": {
@@ -148,49 +131,21 @@
           "type": "product",
           "disabled": false,
           "settings": {
-            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+            "product": "a-yeelight-christmas-string-lights"
           }
         },
         "product_eY3BB": {
           "type": "product",
           "disabled": false,
           "settings": {
-            "product": "yeelight-smart-led-lamp-d2"
+            "product": "yeelight-smart-bulb"
           }
         },
         "product_Qay3C": {
           "type": "product",
           "disabled": false,
           "settings": {
-            "product": "a-yeelight-curtain-lights"
-          }
-        },
-        "product_VDNxh": {
-          "type": "product",
-          "disabled": false,
-          "settings": {
-            "product": "yeelight-permanent-outdoor-lights"
-          }
-        },
-        "product_LjcCp": {
-          "type": "product",
-          "disabled": false,
-          "settings": {
-            "product": "yeelight-smart-led-light-panels"
-          }
-        },
-        "product_4nLwH": {
-          "type": "product",
-          "disabled": false,
-          "settings": {
-            "product": "yeelight-smart-lamp-cube-lite"
-          }
-        },
-        "product_rcVHp": {
-          "type": "product",
-          "disabled": false,
-          "settings": {
-            "product": "yeelight-beam-rgbic-light-bar"
+            "product": "yeelight-obsid-rgbic-light-strip"
           }
         }
       },
@@ -198,13 +153,26 @@
         "product_Fcyj3",
         "product_GHbbG",
         "product_eY3BB",
-        "product_Qay3C",
-        "product_VDNxh",
-        "product_LjcCp",
-        "product_4nLwH",
-        "product_rcVHp"
+        "product_Qay3C"
       ],
       "name": "Activity Blackfriday"
+    },
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner_d1056d58-85cf-43a5-addc-37cfde77896a.jpg",
+        "image_mobile": "shopify://shop_images/banner_948f7a5d-a0bd-45e9-a51f-234ebad0273f.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
     }
   },
   "order": [
