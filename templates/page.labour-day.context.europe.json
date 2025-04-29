@@ -12,5 +12,81 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner_d1056d58-85cf-43a5-addc-37cfde77896a.jpg",
+        "image_mobile": "shopify://shop_images/banner_948f7a5d-a0bd-45e9-a51f-234ebad0273f.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "disabled": true,
+      "settings": {
+        "title_icon": "",
+        "left_icon": ""
+      },
+      "blocks": {},
+      "block_order": [
+        "product_WMhTBk",
+        "product_NEXyJH",
+        "product_dFcCKK"
+      ]
+    },
+    "activity_valentine_N943U7": {
+      "disabled": false,
+      "settings": {
+        "left_icon": "",
+        "right_icon": "",
+        "show_cover": true
+      },
+      "blocks": {
+        "product_6qM9pk": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-2-in-1-lighting-charging-sensor-nightlight"
+          }
+        },
+        "product_WjGkfF": {
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_wtezBt": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-aires"
+          }
+        },
+        "product_wR3qDg": {
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        }
+      },
+      "block_order": [
+        "product_GxKGKM",
+        "product_6qM9pk",
+        "product_ikGnam",
+        "product_6hbnXF",
+        "product_WjGkfF",
+        "product_UNaT86",
+        "product_wtezBt",
+        "product_wR3qDg"
+      ]
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }
