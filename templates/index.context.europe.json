@@ -152,7 +152,7 @@
         },
         "slide_ytVX3Y": {
           "type": "slide",
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "image": "shopify://shop_images/Cube_Lite_Banner_PC.jpg",
             "mobile_image": "shopify://shop_images/Cube_Lite_Banner_M.jpg",
