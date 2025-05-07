@@ -1,22 +1,4 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
-/*
  * ------------------------------------------------------------
  * IMPORTANT: The contents of this file are auto-generated.
  *
@@ -44,6 +26,8 @@
           "type": "text",
           "settings": {
             "text": "{{ product.vendor }}",
+            "link": "",
+            "text_type": "type_normal",
             "text_style": "style_vendor"
           }
         },
@@ -130,6 +114,17 @@
             "block_heading": "Pairs well with",
             "product_list_limit": 6
           }
+        },
+        "inventory_level_pkWpHy": {
+          "type": "inventory_level",
+          "settings": {
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "inventory_notice_pulse": true,
+            "inventory_notice_bar": true,
+            "inventory_notice_threshold": 30,
+            "inventory_notice_base": 20
+          }
         }
       },
       "block_order": [
@@ -145,7 +140,8 @@
         "386f7e4a-6127-4141-928b-9cb4614ee18c",
         "d56924f2-0137-4e3b-8c33-49b1f28391c6",
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
-        "fc6da228-45eb-4a6e-aa68-d6ec477bec34"
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34",
+        "inventory_level_pkWpHy"
       ],
       "settings": {
         "enable_sticky_add_to_cart": true,
@@ -155,7 +151,10 @@
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "enable_image_change": false,
+        "button_1_title": "",
+        "button_2_title": ""
       }
     },
     "logo_list_4rGT3p": {
@@ -210,7 +209,14 @@
           }
         }
       },
-      "block_order": ["logo_FMrgMj", "logo_mKzWBz", "logo_rr3cCK", "logo_6WprbV", "logo_btcrht", "logo_wVfCMy"],
+      "block_order": [
+        "logo_FMrgMj",
+        "logo_mKzWBz",
+        "logo_rr3cCK",
+        "logo_6WprbV",
+        "logo_btcrht",
+        "logo_wVfCMy"
+      ],
       "settings": {
         "heading": "Works with",
         "marker_style": "style1",
@@ -228,16 +234,23 @@
       "type": "video",
       "settings": {
         "heading": "",
+        "cover_title": "",
         "marker_style": "style1",
         "description": "",
         "full_width": false,
         "video": "",
         "video_hosted": "shopify://files/videos/Yeelight Cube Smart Lamp 2.mp4",
         "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-400",
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
       }
     },
     "16623743398765981b": {
@@ -261,7 +274,10 @@
           }
         }
       },
-      "block_order": ["1662374339c00286b1-1", "1662374339c00286b1-2"],
+      "block_order": [
+        "1662374339c00286b1-1",
+        "1662374339c00286b1-2"
+      ],
       "settings": {
         "text_width": "xlarge",
         "text_position": "center",
@@ -448,7 +464,11 @@
           }
         }
       },
-      "block_order": ["box_DUL4BR", "box_wpaqGM", "box_q8LRrt"],
+      "block_order": [
+        "box_DUL4BR",
+        "box_wpaqGM",
+        "box_q8LRrt"
+      ],
       "settings": {
         "heading": "Cube Components",
         "marker_style": "style1",
@@ -486,7 +506,10 @@
           }
         }
       },
-      "block_order": ["heading_fz4bUw", "text_aDJmbN"],
+      "block_order": [
+        "heading_fz4bUw",
+        "text_aDJmbN"
+      ],
       "settings": {
         "image": "shopify://shop_images/image_3.png",
         "use_video": false,
@@ -524,7 +547,10 @@
           }
         }
       },
-      "block_order": ["heading_BjnpPb", "text_AX79GB"],
+      "block_order": [
+        "heading_BjnpPb",
+        "text_AX79GB"
+      ],
       "settings": {
         "image": "shopify://shop_images/3_7567291f-cadb-460b-b6ea-d36ad48d4c8e.jpg",
         "use_video": false,
@@ -562,7 +588,10 @@
           }
         }
       },
-      "block_order": ["heading_HhVWrL", "text_86ppUe"],
+      "block_order": [
+        "heading_HhVWrL",
+        "text_86ppUe"
+      ],
       "settings": {
         "image": "shopify://shop_images/4_bd1192da-ec7f-42c7-9c56-e7c5af5320d0.jpg",
         "use_video": false,
@@ -600,7 +629,10 @@
           }
         }
       },
-      "block_order": ["heading_nYHh8d", "text_jLLzCn"],
+      "block_order": [
+        "heading_nYHh8d",
+        "text_jLLzCn"
+      ],
       "settings": {
         "image": "shopify://shop_images/8_29b0a576-50d4-4342-9b43-d65532a900ee.jpg",
         "use_video": false,
@@ -638,7 +670,10 @@
           }
         }
       },
-      "block_order": ["heading_WMp8Qx", "text_fYYLWG"],
+      "block_order": [
+        "heading_WMp8Qx",
+        "text_fYYLWG"
+      ],
       "settings": {
         "image": "shopify://shop_images/6_2f6b420f-bc9d-4f1d-9e1f-4c84f610764a.jpg",
         "use_video": false,
@@ -671,7 +706,9 @@
           }
         }
       },
-      "block_order": ["aab3af59-da6e-4438-a635-b38db53647da"],
+      "block_order": [
+        "aab3af59-da6e-4438-a635-b38db53647da"
+      ],
       "settings": {
         "heading": "Tech Specs",
         "marker_style": "style1",
@@ -760,7 +797,9 @@
           }
         }
       },
-      "block_order": ["heading_qTp7zQ"],
+      "block_order": [
+        "heading_qTp7zQ"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -788,7 +827,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_tQjyDr"],
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_tQjyDr"
+      ],
       "settings": {}
     },
     "product-recommendations": {
@@ -800,7 +841,8 @@
         "product_limit": 4,
         "columns_desktop": 4,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "show_cover": false
       }
     }
   },
