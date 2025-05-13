@@ -113,42 +113,6 @@
         "show_cover": false
       }
     },
-    "activity_wyze_FEmHfT": {
-      "type": "activity-wyze",
-      "blocks": {
-        "form_GcmDgG": {
-          "type": "form",
-          "settings": {
-            "utm_source": "wyze2",
-            "utm_medium": "pr",
-            "utm_campaign": "yeelight-wyze-flash-sale-members-offer",
-            "tag": "wyze2",
-            "link": "shopify://pages/giveaway-terms-conditions"
-          }
-        }
-      },
-      "block_order": [
-        "form_GcmDgG"
-      ],
-      "settings": {
-        "full_width": true,
-        "title": "YEELIGHT  X  WYZE GIVEAWAY",
-        "subtitle": "Enter your email for a chance to win one  of 25 amazing prizes",
-        "remark": "*The event runs from 4/28/2025 to 5/11/2025 PST, with winners announced on 5/13/2025 PST.",
-        "background_image": "shopify://shop_images/ActivityWyzeBg.png",
-        "background_image_mobile": "shopify://shop_images/ActivityWyzeBgMobile.png",
-        "cover_image": "shopify://shop_images/Frame_2090053259_1.png",
-        "cover_image_mobile": "shopify://shop_images/M___1.png",
-        "color_bg": "#f5f5f5",
-        "color_text": "#2c2d2e",
-        "color_heading": "#1a1c1d",
-        "color_border": "#d3d3d3",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "activity_blackfriday_Da7PxU": {
       "type": "activity-blackfriday",
       "blocks": {
@@ -191,6 +155,43 @@
         "right_x_position": 0,
         "right_y_position": 0,
         "show_cover": false
+      }
+    },
+    "activity_wyze_FEmHfT": {
+      "type": "activity-wyze",
+      "blocks": {
+        "form_GcmDgG": {
+          "type": "form",
+          "settings": {
+            "utm_source": "wyze2",
+            "utm_medium": "pr",
+            "utm_campaign": "yeelight-wyze-flash-sale-members-offer",
+            "tag": "wyze2",
+            "link": "shopify://pages/giveaway-terms-conditions"
+          }
+        }
+      },
+      "block_order": [
+        "form_GcmDgG"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "title": "YEELIGHT  X  WYZE GIVEAWAY",
+        "subtitle": "Enter your email for a chance to win one  of 25 amazing prizes",
+        "remark": "*The event runs from 4/28/2025 to 5/11/2025 PST, with winners announced on 5/13/2025 PST.",
+        "background_image": "shopify://shop_images/ActivityWyzeBg.png",
+        "background_image_mobile": "shopify://shop_images/ActivityWyzeBgMobile.png",
+        "cover_image": "shopify://shop_images/Frame_2090053259_1.png",
+        "cover_image_mobile": "shopify://shop_images/M___1.png",
+        "color_bg": "#f5f5f5",
+        "color_text": "#2c2d2e",
+        "color_heading": "#1a1c1d",
+        "color_border": "#d3d3d3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "single_image_V4VkTF": {
