@@ -322,8 +322,8 @@
       "settings": {
         "title": "Yeelight RGB Smart Ceiling Light Mercury",
         "desktop_height": "desktop-height-auto",
-        "mobile_height": "mobile-height-auto",
-        "full_width": false,
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
         "autoplay": false,
         "autoplay_length": 5,
         "transition": "slide",
