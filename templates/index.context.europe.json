@@ -274,8 +274,9 @@
     "featured_collection_M8HqE3": {
       "settings": {
         "collection": "best-seller-eu",
+        "display_type": "grid",
         "mobile_swipe": false,
-        "display_type": "grid"
+        "show_cover": true
       },
       "blocks": {}
     },
