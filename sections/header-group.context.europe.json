@@ -20,10 +20,10 @@
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
-        "header-dc92e4b54438025eb55c7f8538d55c55": null,
+        "header-0a7a58d3fee03dc418041c4711b28662": null,
         "direction": "left",
         "speed": "50s",
-        "header-2a7ab38923dff3f8c5e6ee263596f3db": null,
+        "header-87cfb7a6e685b97bb94ddf1f6d0c3f34": null,
         "use_block_colors": false,
         "autoplay": false,
         "autoplay_length": 10,
@@ -40,12 +40,12 @@
             "text": "Celebrate Labor Day",
             "sub_text": "Up to 40% OFF",
             "link": "shopify://pages/labour-day-sale",
-            "header-b6916e71a183a68593c9eb4bd8cc3117": null,
+            "header-dbe5105fda544c7aba9fd72b1a46da72": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/labour-day-sale",
             "use_text_button": false,
-            "header-b185d3e749794b3d04d2124b52e0c88a": null,
+            "header-592af9af90863fad4e1e34c6b9d69453": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -68,9 +68,12 @@
     },
     "header": {
       "settings": {
-        "menu": "eu-header"
+        "menu": "eu-header-new",
+        "transparent_header": false,
+        "mobile_secondary_menu": ""
       },
-      "blocks": {}
+      "blocks": {},
+      "block_order": []
     }
   },
   "order": [

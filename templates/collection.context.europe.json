@@ -1,1 +1,25 @@
-{"parent":"collection.json","context":{"market":"europe"},"sections":{"image_with_text_overlay_8jXp9g":{"settings":{"image":"shopify:\/\/shop_images\/a_lit-up_house.png","mobile_image":"shopify:\/\/shop_images\/a_lit-up_house_e46e5c07-12a3-481d-934e-a65e4c92cae9.png"},"blocks":{}}}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "collection.json",
+  "context": {
+    "market": "europe"
+  },
+  "sections": {
+    "image_with_text_overlay_8jXp9g": {
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/banner_7615363b-c3b0-45d1-a5bb-a1c9b3af3573.jpg",
+        "mobile_image": "shopify://shop_images/594_x_475.png"
+      },
+      "blocks": {}
+    }
+  }
+}
