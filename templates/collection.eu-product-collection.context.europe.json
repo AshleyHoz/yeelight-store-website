@@ -12,5 +12,11 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {},
+  "order": [
+    "breadcrumbs",
+    "template-header",
+    "spacer_GGPjHa",
+    "product-grid"
+  ]
 }

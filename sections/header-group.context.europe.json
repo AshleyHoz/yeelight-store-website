@@ -68,7 +68,7 @@
     },
     "header": {
       "settings": {
-        "menu": "eu-header",
+        "menu": "eu-header-new",
         "transparent_header": false,
         "mobile_secondary_menu": ""
       },
