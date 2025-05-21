@@ -15,15 +15,15 @@
   "sections": {
     "announcement_bar_x3iKd": {
       "type": "announcement-bar",
-      "disabled": false,
+      "disabled": true,
       "settings": {
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
-        "header-73f926c8db1152e84ffb0588a26f572d": null,
+        "header-dc92e4b54438025eb55c7f8538d55c55": null,
         "direction": "left",
         "speed": "50s",
-        "header-24b29a87fcb5a59af5cdd3d9249695c5": null,
+        "header-2a7ab38923dff3f8c5e6ee263596f3db": null,
         "use_block_colors": false,
         "autoplay": false,
         "autoplay_length": 10,
@@ -40,12 +40,12 @@
             "text": "Celebrate Labor Day",
             "sub_text": "Up to 40% OFF",
             "link": "shopify://pages/labour-day-sale",
-            "header-45da584468723bac87879db641622f34": null,
+            "header-b6916e71a183a68593c9eb4bd8cc3117": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/labour-day-sale",
             "use_text_button": false,
-            "header-c901f2ac179b2794685c8d54f1175184": null,
+            "header-b185d3e749794b3d04d2124b52e0c88a": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
