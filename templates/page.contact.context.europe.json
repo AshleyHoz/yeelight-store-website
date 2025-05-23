@@ -12,5 +12,16 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "multicolumn_xyGgLz": {
+      "settings": {},
+      "blocks": {
+        "column_8pRDyn": {
+          "settings": {
+            "text": "<p>For FAQ and customer service, please contact support@yeelight.com<br/>Mon-Fri 9AM-5PM (UTC+8)<br/>We'll reply within 48 hours in the working days.</p>"
+          }
+        }
+      }
+    }
+  }
 }
