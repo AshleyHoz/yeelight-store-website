@@ -12,5 +12,18 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "image_with_text_overlay_8jXp9g": {
+      "settings": {
+        "image": "shopify://shop_images/Mercury_PC_-_04.png"
+      },
+      "blocks": {
+        "heading_HhgdPq": {
+          "settings": {
+            "text": "Ceiling Light"
+          }
+        }
+      }
+    }
+  }
 }
