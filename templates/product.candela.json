@@ -152,8 +152,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Yeelight_candela_lamp-02.jpg",
-        "image_mobile": "shopify://shop_images/New_Candela_Lamp_2.jpg",
+        "image": "shopify://shop_images/02_b4ed1c3b-8cb5-4232-8bc9-2f218850e8ab.jpg",
+        "image_mobile": "shopify://shop_images/02_054eeafa-fdc0-45b5-a660-5e05baa1c26f.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -217,8 +217,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Yeelight_candela_lamp-07.jpg",
-        "image_mobile": "shopify://shop_images/New_Candela_Lamp_7.jpg",
+        "image": "shopify://shop_images/07_cd7f77bb-9b91-433f-b687-3d0cc150f905.jpg",
+        "image_mobile": "shopify://shop_images/06_1c1850a1-e845-438c-b1ec-4f362e89b0ac.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -265,7 +265,9 @@
           }
         }
       },
-      "block_order": ["heading_WVbABB"],
+      "block_order": [
+        "heading_WVbABB"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -293,7 +295,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
       "settings": {}
     },
     "product-recommendations": {
@@ -305,7 +309,8 @@
         "product_limit": 4,
         "columns_desktop": 4,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "show_cover": false
       }
     }
   },
