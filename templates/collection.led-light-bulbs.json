@@ -11,7 +11,9 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {}
+      "settings": {
+        "enable_opposite_theme": false
+      }
     },
     "image_with_text_overlay_8jXp9g": {
       "type": "image-with-text-overlay",
@@ -19,7 +21,7 @@
         "heading_HhgdPq": {
           "type": "heading",
           "settings": {
-            "text": "Essentials",
+            "text": "LED Light Bulbs​",
             "heading_size": "h1"
           }
         },
@@ -99,7 +101,8 @@
         "show_subcollections": true,
         "color_subcollection_bg": "#ffffff",
         "color_subcollection_text": "#303c43",
-        "display_description": true
+        "display_description": true,
+        "enable_opposite_theme": false
       }
     },
     "product-grid": {
@@ -113,7 +116,8 @@
         "show_counts": true,
         "filter_color_swatches": true,
         "filters_collapsed": false,
-        "facets_desktop": "sidebar"
+        "facets_desktop": "sidebar",
+        "show_cover": false
       }
     },
     "collapsible_content_f67qVU": {
