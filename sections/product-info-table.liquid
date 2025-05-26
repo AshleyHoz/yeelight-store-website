@@ -1,0 +1,406 @@
+<div class="product-comparison-wrapper">
+  <div class="product-comparison-table">
+    <!-- Fixed first column -->
+    <div class="fixed-column">
+      <div class="header-cell">
+        <div class="product-image-placeholder"></div>
+      </div>
+      {% for specification in section.settings.specifications %}
+        <div class="spec-cell">
+          {{ specification.name }}
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Scrollable content -->
+    <div class="scrollable-content">
+      <div class="table-content">
+        <!-- Header row with products -->
+        <div class="header-row">
+          {% for product in section.blocks %}
+            <div class="product-header">
+              {% if product.settings.product_image %}
+                <img
+                  src="{{ product.settings.product_image | img_url: '100x100' }}"
+                  alt="{{ product.settings.model_name }}"
+                  class="product-image"
+                >
+              {% else %}
+                <div class="product-image-placeholder"></div>
+              {% endif %}
+              <div class="model-name">{{ product.settings.model_name }}</div>
+            </div>
+          {% endfor %}
+        </div>
+
+        <!-- Specification rows -->
+        {% for specification in section.settings.specifications %}
+          <div class="spec-row">
+            {% for product in section.blocks %}
+              <div class="spec-value">
+                {% assign spec_key = specification.key %}
+                {{ product.settings[spec_key] | default: '-' }}
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .product-comparison-wrapper {
+    background-color: {{ section.settings.background_color | default: '#1a1a1a' }};
+    color: {{ section.settings.text_color | default: '#ffffff' }};
+    padding: {{ section.settings.padding | default: '40px 20px' }};
+    font-family: {{ section.settings.font_family | default: 'Arial, sans-serif' }};
+  }
+
+  .product-comparison-table {
+    display: flex;
+    max-width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .fixed-column {
+    background-color: rgba(255, 255, 255, 0.05);
+    min-width: 200px;
+    flex-shrink: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .scrollable-content {
+    flex: 1;
+    overflow-x: auto;
+    background-color: rgba(255, 255, 255, 0.02);
+  }
+
+  .table-content {
+    min-width: max-content;
+  }
+
+  .header-cell,
+  .product-header {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .product-header {
+    min-width: 180px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .product-image,
+  .product-image-placeholder {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .product-image-placeholder {
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+    background-size: 400% 400%;
+    animation: gradientShift 3s ease infinite;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .product-image {
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .model-name {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: {{ section.settings.model_text_color | default: '#ffffff' }};
+  }
+
+  .header-row {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .spec-row {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .spec-cell,
+  .spec-value {
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    min-height: 50px;
+  }
+
+  .spec-cell {
+    font-weight: 500;
+    color: {{ section.settings.spec_label_color | default: '#cccccc' }};
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+
+  .spec-value {
+    min-width: 180px;
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    justify-content: center;
+    color: {{ section.settings.spec_value_color | default: '#ffffff' }};
+    font-weight: 400;
+  }
+
+  .spec-row:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+  }
+
+  /* Scrollbar styling */
+  .scrollable-content::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .scrollable-content::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .scrollable-content::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+  }
+
+  .scrollable-content::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .fixed-column {
+      min-width: 150px;
+    }
+
+    .product-header,
+    .spec-value {
+      min-width: 140px;
+    }
+
+    .spec-cell,
+    .spec-value {
+      padding: 12px 15px;
+      font-size: 13px;
+    }
+
+    .model-name {
+      font-size: 12px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Product Info Table",
+  "tag": "section",
+  "class": "product-info-table",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Table Styling"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "model_text_color",
+      "label": "Model Name Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "spec_label_color",
+      "label": "Specification Label Color",
+      "default": "#cccccc"
+    },
+    {
+      "type": "color",
+      "id": "spec_value_color",
+      "label": "Specification Value Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "padding",
+      "label": "Section Padding",
+      "default": "40px 20px",
+      "info": "CSS padding value (e.g., '40px 20px')"
+    },
+    {
+      "type": "select",
+      "id": "font_family",
+      "label": "Font Family",
+      "options": [
+        {
+          "value": "Arial, sans-serif",
+          "label": "Arial"
+        },
+        {
+          "value": "'Helvetica Neue', Helvetica, sans-serif",
+          "label": "Helvetica"
+        },
+        {
+          "value": "'Segoe UI', Tahoma, Geneva, sans-serif",
+          "label": "Segoe UI"
+        },
+        {
+          "value": "Georgia, serif",
+          "label": "Georgia"
+        }
+      ],
+      "default": "Arial, sans-serif"
+    },
+    {
+      "type": "header",
+      "content": "Specifications Configuration"
+    },
+    {
+      "type": "textarea",
+      "id": "specifications",
+      "label": "Specifications (JSON)",
+      "default": "[\n  {\"name\": \"Rated Power\", \"key\": \"rated_power\"},\n  {\"name\": \"Voltage\", \"key\": \"voltage\"},\n  {\"name\": \"Lumens\", \"key\": \"lumens\"},\n  {\"name\": \"Color Temperature\", \"key\": \"color_temp\"},\n  {\"name\": \"Beam Angle\", \"key\": \"beam_angle\"},\n  {\"name\": \"Lifespan\", \"key\": \"lifespan\"}\n]",
+      "info": "Define specifications as JSON array with 'name' and 'key' properties"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "text",
+          "id": "model_name",
+          "label": "Model Name",
+          "default": "YLXDD-0270"
+        },
+        {
+          "type": "image_picker",
+          "id": "product_image",
+          "label": "Product Image"
+        },
+        {
+          "type": "text",
+          "id": "rated_power",
+          "label": "Rated Power",
+          "default": "40W"
+        },
+        {
+          "type": "text",
+          "id": "voltage",
+          "label": "Voltage",
+          "default": "220V"
+        },
+        {
+          "type": "text",
+          "id": "lumens",
+          "label": "Lumens",
+          "default": "3000lm"
+        },
+        {
+          "type": "text",
+          "id": "color_temp",
+          "label": "Color Temperature",
+          "default": "3000K-6500K"
+        },
+        {
+          "type": "text",
+          "id": "beam_angle",
+          "label": "Beam Angle",
+          "default": "120°"
+        },
+        {
+          "type": "text",
+          "id": "lifespan",
+          "label": "Lifespan",
+          "default": "50,000h"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Info Table",
+      "blocks": [
+        {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0270",
+            "rated_power": "40W",
+            "voltage": "220V",
+            "lumens": "3000lm",
+            "color_temp": "3000K-6500K",
+            "beam_angle": "120°",
+            "lifespan": "50,000h"
+          }
+        },
+        {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0271",
+            "rated_power": "40W",
+            "voltage": "220V",
+            "lumens": "3200lm",
+            "color_temp": "3000K-6500K",
+            "beam_angle": "120°",
+            "lifespan": "50,000h"
+          }
+        },
+        {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0272",
+            "rated_power": "40W",
+            "voltage": "220V",
+            "lumens": "3500lm",
+            "color_temp": "3000K-6500K",
+            "beam_angle": "120°",
+            "lifespan": "50,000h"
+          }
+        },
+        {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0273",
+            "rated_power": "40W",
+            "voltage": "220V",
+            "lumens": "3800lm",
+            "color_temp": "3000K-6500K",
+            "beam_angle": "120°",
+            "lifespan": "50,000h"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
