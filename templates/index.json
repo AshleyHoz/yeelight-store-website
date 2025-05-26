@@ -294,7 +294,7 @@
         "spec_value_color": "#ffffff",
         "padding": "40px 20px",
         "font_family": "Arial, sans-serif",
-        "specifications": "[\n  {\"name\": \"Rated Power\", \"key\": \"rated_power\"},\n  {\"name\": \"Voltage\", \"key\": \"voltage\"},\n  {\"name\": \"Lumens\", \"key\": \"lumens\"},\n  {\"name\": \"Color Temperature\", \"key\": \"color_temp\"},\n  {\"name\": \"Beam Angle\", \"key\": \"beam_angle\"},\n  {\"name\": \"Lifespan\", \"key\": \"lifespan\"}\n]"
+        "specifications": "[\n  {\"name\": \"Rated Power\", \"key\": \"rated_power\"},\n  {\"name\": \"Voltage\", \"key\": \"voltage\"},\n  {\"name\": \"Lumens\", \"key\": \"lumens\"},\n  {\"name\": \"Color Temperature\", \"key\": \"color_temp\"},\n  {\"name\": \"Beam Angle\", \"key\": \"beam_angle\"},\n  {\"name\": \"Lifespan\", \"key\": \"lifespan\"},\n{\"name\": \"Beam Angle_1\", \"key\": \"beam_angle_1\"},\n  {\"name\": \"Lifespan_1\", \"key\": \"lifespan_1\"}\n]"
       }
     },
     "shop_the_look_slider_4EBHbg": {
