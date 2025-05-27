@@ -142,7 +142,7 @@
           "type": "product",
           "settings": {
             "model_name": "YLXDD-0270",
-            "specifications_content": "0"
+            "specifications_content": "111/,/222/,/333/,/444/,/555"
           }
         },
         "product_BFXMcj": {
@@ -167,7 +167,12 @@
           }
         }
       },
-      "block_order": ["product_FtK4mq", "product_BFXMcj", "product_9zYgbW", "product_7bywB3"],
+      "block_order": [
+        "product_FtK4mq",
+        "product_BFXMcj",
+        "product_9zYgbW",
+        "product_7bywB3"
+      ],
       "name": "Product Info Table",
       "settings": {
         "background_color": "#1a1a1a",
@@ -310,7 +315,9 @@
           }
         }
       },
-      "block_order": ["heading_WVbABB"],
+      "block_order": [
+        "heading_WVbABB"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -338,7 +345,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
       "settings": {}
     },
     "product-recommendations": {
