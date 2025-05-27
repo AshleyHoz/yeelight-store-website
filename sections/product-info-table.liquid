@@ -24,6 +24,8 @@
                   src="{{ product.settings.product_image | img_url: '100x100' }}"
                   alt="{{ product.settings.model_name }}"
                   class="product-image"
+                  width="{{ product.settings.product_image.width }}"
+                  height="{{ product.settings.product_image.height}}"
                 >
               {% else %}
                 <div class="product-image-placeholder"></div>
