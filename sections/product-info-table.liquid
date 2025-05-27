@@ -1,5 +1,5 @@
 {%- liquid
-  assign specifications = section.settings.specifications | split: ','
+  assign specifications = section.settings.specifications | split: '/,/'
 -%}
 <div class="product-comparison-wrapper">
   <div class="product-comparison-table">
@@ -39,19 +39,18 @@
         </div>
 
         <!-- Specification rows -->
-        {% comment %} {% for specification in section.settings.specifications %} {% endcomment %}
-        <div class="spec-row">
-          {% for product in section.blocks %}
-            <div class="spec-value">
-              {% comment %}
-                {% assign spec_key = specification.key %}
-                {{ product.settings[spec_key] | default: '-' }}
-              {% endcomment %}
-              123321
-            </div>
-          {% endfor %}
-        </div>
-        {% comment %} {% endfor %} {% endcomment %}
+        {% for specification in specifications %}
+          <div class="spec-row">
+            {% for product in section.blocks %}
+              <div class="spec-value">
+                {%- liquid
+                  assign specifications_content = product.settings.specifications_content | split: '/,/'
+                -%}
+                {{ specifications_content | default: '-' }}
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
       </div>
     </div>
   </div>
@@ -67,10 +66,11 @@
 
   .product-comparison-table {
     display: flex;
-    max-width: 100%;
+    max-width: 1440px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
   }
 
   .fixed-column {
@@ -296,8 +296,8 @@
       "type": "textarea",
       "id": "specifications",
       "label": "Specifications (JSON)",
-      "default": "[\n  {\"name\": \"Rated Power\", \"key\": \"rated_power\"},\n  {\"name\": \"Voltage\", \"key\": \"voltage\"},\n  {\"name\": \"Lumens\", \"key\": \"lumens\"},\n  {\"name\": \"Color Temperature\", \"key\": \"color_temp\"},\n  {\"name\": \"Beam Angle\", \"key\": \"beam_angle\"},\n  {\"name\": \"Lifespan\", \"key\": \"lifespan\"}\n]",
-      "info": "Define specifications as JSON array with 'name' and 'key' properties"
+      "default": "Rated Power/,/Voltage/,/Lumens/,/Color Temperature/,/Beam Angle/,/Lifespan",
+      "info": "Define specifications with 'name' properties, use '/,/' to separate these properties."
     }
   ],
   "blocks": [
@@ -318,39 +318,9 @@
         },
         {
           "type": "text",
-          "id": "rated_power",
-          "label": "Rated Power",
-          "default": "40W"
-        },
-        {
-          "type": "text",
-          "id": "voltage",
-          "label": "Voltage",
-          "default": "220V"
-        },
-        {
-          "type": "text",
-          "id": "lumens",
-          "label": "Lumens",
-          "default": "3000lm"
-        },
-        {
-          "type": "text",
-          "id": "color_temp",
-          "label": "Color Temperature",
-          "default": "3000K-6500K"
-        },
-        {
-          "type": "text",
-          "id": "beam_angle",
-          "label": "Beam Angle",
-          "default": "120°"
-        },
-        {
-          "type": "text",
-          "id": "lifespan",
-          "label": "Lifespan",
-          "default": "50,000h"
+          "id": "specifications_content",
+          "label": "Product Specifications Content",
+          "default": "0"
         }
       ]
     }
@@ -363,48 +333,28 @@
           "type": "product",
           "settings": {
             "model_name": "YLXDD-0270",
-            "rated_power": "40W",
-            "voltage": "220V",
-            "lumens": "3000lm",
-            "color_temp": "3000K-6500K",
-            "beam_angle": "120°",
-            "lifespan": "50,000h"
+            "specifications_content": "0"
           }
         },
         {
           "type": "product",
           "settings": {
             "model_name": "YLXDD-0271",
-            "rated_power": "40W",
-            "voltage": "220V",
-            "lumens": "3200lm",
-            "color_temp": "3000K-6500K",
-            "beam_angle": "120°",
-            "lifespan": "50,000h"
+            "specifications_content": "1"
           }
         },
         {
           "type": "product",
           "settings": {
             "model_name": "YLXDD-0272",
-            "rated_power": "40W",
-            "voltage": "220V",
-            "lumens": "3500lm",
-            "color_temp": "3000K-6500K",
-            "beam_angle": "120°",
-            "lifespan": "50,000h"
+            "specifications_content": "2"
           }
         },
         {
           "type": "product",
           "settings": {
             "model_name": "YLXDD-0273",
-            "rated_power": "40W",
-            "voltage": "220V",
-            "lumens": "3800lm",
-            "color_temp": "3000K-6500K",
-            "beam_angle": "120°",
-            "lifespan": "50,000h"
+            "specifications_content": "3"
           }
         }
       ]
