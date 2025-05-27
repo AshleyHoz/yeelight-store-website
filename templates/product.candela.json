@@ -135,6 +135,76 @@
         "button_2_title": "black"
       }
     },
+    "product_info_table_64wVTy": {
+      "type": "product-info-table",
+      "blocks": {
+        "product_FtK4mq": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0270",
+            "rated_power": "40W",
+            "voltage": "220V",
+            "lumens": "3000lm",
+            "color_temp": "3000K-6500K",
+            "beam_angle": "120°",
+            "lifespan": "50,000h"
+          }
+        },
+        "product_BFXMcj": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0271",
+            "rated_power": "40W",
+            "voltage": "220V",
+            "lumens": "3200lm",
+            "color_temp": "3000K-6500K",
+            "beam_angle": "120°",
+            "lifespan": "50,000h"
+          }
+        },
+        "product_9zYgbW": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0272",
+            "rated_power": "40W",
+            "voltage": "220V",
+            "lumens": "3500lm",
+            "color_temp": "3000K-6500K",
+            "beam_angle": "120°",
+            "lifespan": "50,000h"
+          }
+        },
+        "product_7bywB3": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0273",
+            "rated_power": "40W",
+            "voltage": "220V",
+            "lumens": "3800lm",
+            "color_temp": "3000K-6500K",
+            "beam_angle": "120°",
+            "lifespan": "50,000h"
+          }
+        }
+      },
+      "block_order": [
+        "product_FtK4mq",
+        "product_BFXMcj",
+        "product_9zYgbW",
+        "product_7bywB3"
+      ],
+      "name": "Product Info Table",
+      "settings": {
+        "background_color": "#1a1a1a",
+        "text_color": "#ffffff",
+        "model_text_color": "#ffffff",
+        "spec_label_color": "#cccccc",
+        "spec_value_color": "#ffffff",
+        "padding": "40px 20px",
+        "font_family": "Arial, sans-serif",
+        "specifications": "[\n  {\"name\": \"Rated Power\", \"key\": \"rated_power\"},\n  {\"name\": \"Voltage\", \"key\": \"voltage\"},\n  {\"name\": \"Lumens\", \"key\": \"lumens\"},\n  {\"name\": \"Color Temperature\", \"key\": \"color_temp\"},\n  {\"name\": \"Beam Angle\", \"key\": \"beam_angle\"},\n  {\"name\": \"Lifespan\", \"key\": \"lifespan\"}\n]"
+      }
+    },
     "single_image_mtTtz8": {
       "type": "single-image",
       "settings": {
@@ -317,6 +387,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
+    "product_info_table_64wVTy",
     "single_image_mtTtz8",
     "single_image_CiE9F9",
     "single_image_g4CiQU",
