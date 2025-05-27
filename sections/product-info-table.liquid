@@ -1,3 +1,6 @@
+{%- liquid
+  assign specifications = section.settings.specifications | split: ','
+-%}
 <div class="product-comparison-wrapper">
   <div class="product-comparison-table">
     <!-- Fixed first column -->
@@ -5,7 +8,7 @@
       <div class="header-cell">
         <div class="product-image-placeholder"></div>
       </div>
-      {% for specification in section.settings.specifications %}
+      {% for specification in specifications %}
         <div class="spec-cell">
           {{ specification.name }}
         </div>
