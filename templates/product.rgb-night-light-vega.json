@@ -129,91 +129,101 @@
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "enable_image_change": false,
+        "button_1_title": "",
+        "button_2_title": ""
       }
     },
     "single_image_g4CiQU": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/1_5c8476ed-0f04-4e13-a8ea-13443f69ff71.png",
-        "image_mobile": "shopify://shop_images/01_64f3db01-ed6f-47b5-ba92-606ef0e31223.jpg",
+        "image": "shopify://shop_images/Vega_1.jpg",
+        "image_mobile": "shopify://shop_images/1_3f050450-3b4b-4310-a233-781419017eb8.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_mtTtz8": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/2_4f87b4ea-9607-4df5-996e-5004e17aa272.png",
-        "image_mobile": "shopify://shop_images/02_608f0a2e-1ead-4763-9f66-2f10b2bfc279.jpg",
+        "image": "shopify://shop_images/Vega_2.jpg",
+        "image_mobile": "shopify://shop_images/2_b57a5326-e095-4ae5-80f3-3864604176af.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_CiE9F9": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/3_67fe2ad1-5807-4287-8ae2-30ddb855c2a7.png",
-        "image_mobile": "shopify://shop_images/03_bd534fd6-0a67-4a98-8467-468a1ae4f316.jpg",
+        "image": "shopify://shop_images/Vega_3.jpg",
+        "image_mobile": "shopify://shop_images/3_dafc4ca2-942b-4e47-a3c1-da22800f0d91.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_UrkT4K": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/4_5882eb47-2757-414d-8685-503285d8c249.png",
-        "image_mobile": "shopify://shop_images/04_5700ecda-7a52-4271-bdd3-3f6c68c57086.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_k6gWJB": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/5_83e3bfb2-0aa2-40a1-8b71-ed77bc155071.png",
-        "image_mobile": "shopify://shop_images/05_fd4d0ae1-27bd-494f-8446-88da67bec5e4.jpg",
+        "image": "shopify://shop_images/Vega_5.jpg",
+        "image_mobile": "shopify://shop_images/5_2a9ef153-ea23-4c55-ae5a-a8100eaeffcd.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_nbhytB": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/6_8f56b670-1ccf-4fdf-a55e-39650b6912e0.jpg",
-        "image_mobile": "shopify://shop_images/06_b5425fb3-8793-4588-aefd-a223deb31944.jpg",
+        "image": "shopify://shop_images/Vega_6.jpg",
+        "image_mobile": "shopify://shop_images/6_87d1ab63-a773-4ffd-9a18-52b85e8ffc47.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_UrkT4K": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Vega_7.jpg",
+        "image_mobile": "shopify://shop_images/04_5700ecda-7a52-4271-bdd3-3f6c68c57086.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_4jwYRE": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/img_v3_02ff_3dc7194e-4032-4663-9ac4-ff0943bfaabg.png",
-        "image_mobile": "shopify://shop_images/07_d0445aea-05b9-48a2-aa4a-80d76787d389.jpg",
+        "image": "shopify://shop_images/Vega_8.jpg",
+        "image_mobile": "shopify://shop_images/8_dc1dcb11-8b90-4a0e-b68e-c172cb1dc487.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "rich_text_igCzBP": {
@@ -273,7 +283,8 @@
         "product_limit": 4,
         "columns_desktop": 4,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "show_cover": false
       }
     }
   },
@@ -283,9 +294,9 @@
     "single_image_g4CiQU",
     "single_image_mtTtz8",
     "single_image_CiE9F9",
-    "single_image_UrkT4K",
     "single_image_k6gWJB",
     "single_image_nbhytB",
+    "single_image_UrkT4K",
     "single_image_4jwYRE",
     "rich_text_igCzBP",
     "1712003137212dc6f8",
