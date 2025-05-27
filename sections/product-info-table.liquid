@@ -10,7 +10,7 @@
       </div>
       {% for specification in specifications %}
         <div class="spec-cell">
-          {{ specification.name }}
+          {{ specification }}
         </div>
       {% endfor %}
     </div>
@@ -39,16 +39,19 @@
         </div>
 
         <!-- Specification rows -->
-        {% for specification in section.settings.specifications %}
-          <div class="spec-row">
-            {% for product in section.blocks %}
-              <div class="spec-value">
+        {% comment %} {% for specification in section.settings.specifications %} {% endcomment %}
+        <div class="spec-row">
+          {% for product in section.blocks %}
+            <div class="spec-value">
+              {% comment %}
                 {% assign spec_key = specification.key %}
                 {{ product.settings[spec_key] | default: '-' }}
-              </div>
-            {% endfor %}
-          </div>
-        {% endfor %}
+              {% endcomment %}
+              123321
+            </div>
+          {% endfor %}
+        </div>
+        {% comment %} {% endfor %} {% endcomment %}
       </div>
     </div>
   </div>
