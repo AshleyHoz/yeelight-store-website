@@ -5,9 +5,7 @@
   <div class="product-comparison-table">
     <!-- Fixed first column -->
     <div class="fixed-column">
-      <div class="header-cell">
-        <div class="product-image-placeholder"></div>
-      </div>
+      <div class="header-cell d-flex align-center justify-center flex-column"></div>
       {% for specification in specifications %}
         <div class="spec-cell">
           {{ specification }}
@@ -21,7 +19,7 @@
         <!-- Header row with products -->
         <div class="header-row">
           {% for product in section.blocks %}
-            <div class="product-header">
+            <div class="product-header d-flex align-center justify-center flex-column">
               {% if product.settings.product_image %}
                 <img
                   src="{{ product.settings.product_image | img_url: '100x100' }}"
@@ -95,13 +93,10 @@
 
   .header-cell,
   .product-header {
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    height: 180px;
     padding: 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    flex: 1;
   }
 
   .product-header {
@@ -154,11 +149,14 @@
 
   .spec-cell,
   .spec-value {
-    padding: 16px 20px;
-    display: flex;
-    align-items: center;
+    padding: 20px 0;
     font-size: 14px;
     min-height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    flex: 1;
+    opacity: 0.6;
   }
 
   .spec-cell {
@@ -177,6 +175,7 @@
 
   .spec-row:hover {
     background-color: rgba(255, 255, 255, 0.02);
+    opacity: 1;
   }
 
   /* Scrollbar styling */
