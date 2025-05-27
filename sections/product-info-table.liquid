@@ -41,12 +41,15 @@
         <!-- Specification rows -->
         {% for specification in specifications %}
           <div class="spec-row">
+            {%- liquid
+              assign specifications_index = forloop.index0
+            -%}
             {% for product in section.blocks %}
               <div class="spec-value">
                 {%- liquid
                   assign specifications_content = product.settings.specifications_content | split: '/,/'
                 -%}
-                {{ specifications_content | default: '-' }}
+                {{ specifications_content[specifications_index] | default: '-' }}
               </div>
             {% endfor %}
           </div>
