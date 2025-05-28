@@ -135,52 +135,6 @@
         "button_2_title": "black"
       }
     },
-    "product_info_table_64wVTy": {
-      "type": "product-info-table",
-      "blocks": {
-        "product_FtK4mq": {
-          "type": "product",
-          "settings": {
-            "model_name": "",
-            "product_image": "shopify://shop_images/RGB1.jpg",
-            "specifications_content": "1/,/2/,/3/,/4/,/5/,/6"
-          }
-        },
-        "product_BFXMcj": {
-          "type": "product",
-          "settings": {
-            "model_name": "",
-            "specifications_content": "a/,/b/,/c/,/d/,/e/,/f"
-          }
-        },
-        "product_9zYgbW": {
-          "type": "product",
-          "settings": {
-            "model_name": "",
-            "specifications_content": "A/,/B/,/C/,/D/,/E/,/F"
-          }
-        },
-        "product_7bywB3": {
-          "type": "product",
-          "settings": {
-            "model_name": "",
-            "specifications_content": "一/,/二/,/三/,/四/,/五/,/六"
-          }
-        }
-      },
-      "block_order": ["product_FtK4mq", "product_BFXMcj", "product_9zYgbW", "product_7bywB3"],
-      "settings": {
-        "background_color": "#1a1a1a",
-        "text_color": "#ffffff",
-        "model_text_color": "#ffffff",
-        "spec_label_color": "#cccccc",
-        "spec_value_color": "#ffffff",
-        "padding": "40px 20px",
-        "font_family": "Arial, sans-serif",
-        "specifications": "Rated Power/,/Voltage/,/Lumens/,/Color Temperature/,/Beam Angle/,/Lifespan",
-        "show_image": false
-      }
-    },
     "single_image_mtTtz8": {
       "type": "single-image",
       "settings": {
@@ -311,7 +265,9 @@
           }
         }
       },
-      "block_order": ["heading_WVbABB"],
+      "block_order": [
+        "heading_WVbABB"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -339,7 +295,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
       "settings": {}
     },
     "product-recommendations": {
@@ -359,7 +317,6 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "product_info_table_64wVTy",
     "single_image_mtTtz8",
     "single_image_CiE9F9",
     "single_image_g4CiQU",
