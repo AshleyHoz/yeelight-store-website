@@ -168,8 +168,15 @@
           }
         }
       },
-      "block_order": ["product_FtK4mq", "product_BFXMcj", "product_9zYgbW", "product_7bywB3"],
+      "block_order": [
+        "product_FtK4mq",
+        "product_BFXMcj",
+        "product_9zYgbW",
+        "product_7bywB3"
+      ],
       "settings": {
+        "heading": "Specifications",
+        "description": "",
         "background_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "model_text_color": "#ffffff",
@@ -311,7 +318,9 @@
           }
         }
       },
-      "block_order": ["heading_WVbABB"],
+      "block_order": [
+        "heading_WVbABB"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -339,7 +348,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
       "settings": {}
     },
     "product-recommendations": {
