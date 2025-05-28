@@ -1,12 +1,14 @@
 {%- liquid
   assign specifications = section.settings.specifications | split: '/,/'
-  assign show_image_column = section.settings.show_image_column | default: true
+  assign show_image = section.settings.show_image | default: true
 -%}
 <div class="product-comparison-wrapper">
   <div class="product-comparison-table">
     <!-- Fixed first column -->
     <div class="fixed-column">
-      <div class="header-cell d-flex align-center justify-center flex-column"></div>
+      {%- if show_image -%}
+        <div class="header-cell d-flex align-center justify-center flex-column"></div>
+      {%- endif -%}
       {% for specification in specifications %}
         <div class="spec-cell">
           {{ specification }}
@@ -18,7 +20,7 @@
     <div class="scrollable-content">
       <div class="table-content">
         <!-- Header row with products -->
-        {%- if show_image_column -%}
+        {%- if show_image -%}
           <div class="header-row">
             {% for product in section.blocks %}
               <div class="product-header d-flex align-center justify-center flex-column">
@@ -296,8 +298,8 @@
     },
     {
       "type": "checkbox",
-      "id": "show_image_column",
-      "label": "Show Product Image Column",
+      "id": "show_image",
+      "label": "Show Product Image",
       "default": true,
       "info": "Enable this to show product images in the first column."
     }
