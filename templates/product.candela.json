@@ -174,7 +174,6 @@
         "product_9zYgbW",
         "product_7bywB3"
       ],
-      "name": "Product Info Table",
       "settings": {
         "background_color": "#1a1a1a",
         "text_color": "#ffffff",
@@ -183,7 +182,8 @@
         "spec_value_color": "#ffffff",
         "padding": "40px 20px",
         "font_family": "Arial, sans-serif",
-        "specifications": "Rated Power/,/Voltage/,/Lumens/,/Color Temperature/,/Beam Angle/,/Lifespan"
+        "specifications": "Rated Power/,/Voltage/,/Lumens/,/Color Temperature/,/Beam Angle/,/Lifespan",
+        "show_image": false
       }
     },
     "single_image_mtTtz8": {
