@@ -1,5 +1,6 @@
 {%- liquid
   assign specifications = section.settings.specifications | split: '/,/'
+  assign show_image_column = section.settings.show_image_column | default: true
 -%}
 <div class="product-comparison-wrapper">
   <div class="product-comparison-table">
@@ -17,24 +18,20 @@
     <div class="scrollable-content">
       <div class="table-content">
         <!-- Header row with products -->
-        <div class="header-row">
-          {% for product in section.blocks %}
-            <div class="product-header d-flex align-center justify-center flex-column">
-              {% if product.settings.product_image %}
-                <img
-                  src="{{ product.settings.product_image | img_url: '100x100' }}"
-                  alt="{{ product.settings.model_name }}"
-                  class="product-image"
-                  width="{{ product.settings.product_image.width }}"
-                  height="{{ product.settings.product_image.height}}"
-                >
-              {% else %}
-                <div class="product-image-placeholder"></div>
-              {% endif %}
-              <div class="model-name">{{ product.settings.model_name }}</div>
-            </div>
-          {% endfor %}
-        </div>
+        {%- if show_image_column -%}
+          <div class="header-row">
+            {% for product in section.blocks %}
+              <div class="product-header d-flex align-center justify-center flex-column">
+                {% if product.settings.product_image %}
+                  {%- render 'responsive-image', class: 'product-image', image: product.settings.product_image -%}
+                {% endif %}
+                {% if product.settings.model_name %}
+                  <div class="model-name mt-2">{{ product.settings.model_name }}</div>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {%- endif -%}
 
         <!-- Specification rows -->
         {% for specification in specifications %}
@@ -106,17 +103,14 @@
 
   .product-image,
   .product-image-placeholder {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+    width: 120px;
+    height: auto;
   }
 
   .product-image-placeholder {
     background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
     background-size: 400% 400%;
     animation: gradientShift 3s ease infinite;
-    border: 2px solid rgba(255, 255, 255, 0.3);
   }
 
   @keyframes gradientShift {
@@ -127,7 +121,6 @@
 
   .product-image {
     object-fit: cover;
-    border: 2px solid rgba(255, 255, 255, 0.3);
   }
 
   .model-name {
@@ -300,6 +293,13 @@
       "label": "Specifications (JSON)",
       "default": "Rated Power/,/Voltage/,/Lumens/,/Color Temperature/,/Beam Angle/,/Lifespan",
       "info": "Define specifications with 'name' properties, use '/,/' to separate these properties."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image_column",
+      "label": "Show Product Image Column",
+      "default": true,
+      "info": "Enable this to show product images in the first column."
     }
   ],
   "blocks": [
