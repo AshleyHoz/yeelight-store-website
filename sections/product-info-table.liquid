@@ -5,7 +5,9 @@
   assign section_description = section.settings.description
 -%}
 <div class="product-comparison-wrapper">
-  {% render 'section-header', section_heading: section_heading, section_description: section_description %}
+  {%- if section_heading -%}
+    {% render 'section-header', section_heading: section_heading, section_description: section_description %}
+  {%- endif -%}
   <div class="product-comparison-table">
     <!-- Fixed first column -->
     <div class="fixed-column">
@@ -141,7 +143,7 @@
   }
 
   .spec-row:hover{
-    background-color: rgba(255, 255, 255, 0.02);
+    background-color: rgba(255, 255, 255, 0.03);
   }
 
   .spec-row:hover .spec-cell,

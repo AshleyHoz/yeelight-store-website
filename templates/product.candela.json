@@ -185,7 +185,7 @@
         "padding": "40px 20px",
         "font_family": "Arial, sans-serif",
         "specifications": "Rated Power/,/Voltage/,/Lumens/,/Color Temperature/,/Beam Angle/,/Lifespan",
-        "show_image": true
+        "show_image": false
       }
     },
     "single_image_mtTtz8": {
