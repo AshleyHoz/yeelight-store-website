@@ -175,10 +175,10 @@
         "product_7bywB3"
       ],
       "settings": {
-        "background_color": "#1a1a1a",
+        "background_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "model_text_color": "#ffffff",
-        "spec_label_color": "#cccccc",
+        "spec_label_color": "#ffffff",
         "spec_value_color": "#ffffff",
         "padding": "40px 20px",
         "font_family": "Arial, sans-serif",
