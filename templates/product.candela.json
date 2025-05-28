@@ -142,6 +142,7 @@
           "type": "product",
           "settings": {
             "model_name": "",
+            "product_image": "shopify://shop_images/RGB1.jpg",
             "specifications_content": "1/,/2/,/3/,/4/,/5/,/6"
           }
         },
