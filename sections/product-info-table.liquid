@@ -1,8 +1,18 @@
 {%- liquid
   assign specifications = section.settings.specifications | split: '/,/'
   assign show_image = section.settings.show_image | default: false
+  assign section_heading = section.settings.heading
+  assign marker_style = section.settings.marker_style
+  assign section_description = section.settings.description
+  assign marker_color = section.settings.marker_color
 -%}
 <div class="product-comparison-wrapper">
+  {% render 'section-header',
+    section_heading: section_heading,
+    section_description: section_description,
+    marker_color: marker_color,
+    marker_style: marker_style
+  %}
   <div class="product-comparison-table">
     <!-- Fixed first column -->
     <div class="fixed-column">
@@ -219,6 +229,49 @@
   "tag": "section",
   "class": "product-info-table",
   "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Specifications",
+      "info": "Wrap your text between | to add animated markers. For example: Animated |marker| will underline marker text."
+    },
+    {
+      "type": "select",
+      "id": "marker_style",
+      "options": [
+        {
+          "value": "style1",
+          "label": "Basic"
+        },
+        {
+          "value": "style2",
+          "label": "Double"
+        },
+        {
+          "value": "style3",
+          "label": "Squiggle"
+        },
+        {
+          "value": "style4",
+          "label": "Zigzag"
+        }
+      ],
+      "default": "style1",
+      "label": "Marker"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Describe your featured collection here</p>"
+    },
+    {
+      "type": "color",
+      "id": "marker_color",
+      "label": "Marker",
+      "default": "#FD6262"
+    },
     {
       "type": "header",
       "content": "Table Styling"
