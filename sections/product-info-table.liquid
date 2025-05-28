@@ -8,14 +8,14 @@
   {%- if section_heading -%}
     {% render 'section-header', section_heading: section_heading, section_description: section_description %}
   {%- endif -%}
-  <div class="product-comparison-table">
+  <div class="product-comparison-table d-flex overflow-hidden">
     <!-- Fixed first column -->
     <div class="fixed-column">
       {%- if show_image -%}
         <div class="header-cell d-flex align-center justify-center flex-column"></div>
       {%- endif -%}
       {% for specification in specifications %}
-        <div class="spec-cell">
+        <div class="spec-cell d-flex align-center justify-center">
           {{ specification }}
         </div>
       {% endfor %}
@@ -33,7 +33,7 @@
                   {%- render 'responsive-image', class: 'product-image', image: product.settings.product_image -%}
                 {% endif %}
                 {% if product.settings.model_name %}
-                  <div class="model-name mt-2">{{ product.settings.model_name }}</div>
+                  <div class="model-name text-center mt-2">{{ product.settings.model_name }}</div>
                 {% endif %}
               </div>
             {% endfor %}
@@ -42,12 +42,12 @@
 
         <!-- Specification rows -->
         {% for specification in specifications %}
-          <div class="spec-row">
+          <div class="spec-row d-flex">
             {%- liquid
               assign specifications_index = forloop.index0
             -%}
             {% for product in section.blocks %}
-              <div class="spec-value">
+              <div class="spec-value d-flex align-center justify-center">
                 {%- liquid
                   assign specifications_content = product.settings.specifications_content | split: '/,/'
                 -%}
@@ -70,10 +70,7 @@
   }
 
   .product-comparison-table {
-    display: flex;
     max-width: 1440px;
-    border-radius: 12px;
-    overflow: hidden;
     margin: 0 auto;
   }
 
@@ -99,25 +96,13 @@
     flex: 1;
   }
 
-  .header-cell {
-    display: flex;
-    align-items: center;
-  }
-
   .product-header {
     min-width: 180px;
   }
 
-  .product-image,
-  .product-image-placeholder {
+  .product-image {
     width: 120px;
     height: auto;
-  }
-
-  .product-image-placeholder {
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
-    background-size: 400% 400%;
-    animation: gradientShift 3s ease infinite;
   }
 
   @keyframes gradientShift {
@@ -133,16 +118,18 @@
   .model-name {
     font-size: 14px;
     font-weight: 600;
-    text-align: center;
     color: {{ section.settings.model_text_color | default: '#ffffff' }};
   }
 
   .spec-row {
-    display: flex;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
-  .spec-row:hover{
+  .spec-row:last-child {
+    border-bottom: none;
+  }
+
+  .spec-row:hover {
     background-color: rgba(255, 255, 255, 0.03);
   }
 
@@ -158,7 +145,6 @@
     min-height: 50px;
     font-weight: 500;
     font-size: 20px;
-    text-align: center;
     flex: 1;
     min-width: 250px;
     opacity: 0.7;
@@ -171,7 +157,6 @@
   }
 
   .spec-value {
-    justify-content: center;
     color: {{ section.settings.spec_value_color | default: '#ffffff' }};
     font-weight: 400;
   }
@@ -195,24 +180,40 @@
   }
 
   /* Responsive design */
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
+  .product-comparison-table {
+    max-width: 100%;
+    margin: 0;
+  }
     .fixed-column {
-      min-width: 150px;
+      min-width: 80px;
     }
 
-    .product-header,
-    .spec-value {
-      min-width: 140px;
+    .header-cell, .product-header {
+      min-width: 80px;
+      height: 80px;
+      padding: 0;
     }
 
     .spec-cell,
     .spec-value {
-      padding: 12px 15px;
-      font-size: 13px;
+      padding: 6px 0;
+      font-size: 8px;
+      min-width: 80px;
+      opacity: 1;
     }
 
     .model-name {
-      font-size: 12px;
+      font-size: 8px;
+    }
+
+   .product-image {
+      width: 50px;
+      height: auto;
+    }
+
+    .scrollable-content::-webkit-scrollbar {
+      height: 4px;
     }
   }
 </style>
