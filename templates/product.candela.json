@@ -168,12 +168,7 @@
           }
         }
       },
-      "block_order": [
-        "product_FtK4mq",
-        "product_BFXMcj",
-        "product_9zYgbW",
-        "product_7bywB3"
-      ],
+      "block_order": ["product_FtK4mq", "product_BFXMcj", "product_9zYgbW", "product_7bywB3"],
       "settings": {
         "background_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
@@ -183,7 +178,7 @@
         "padding": "40px 20px",
         "font_family": "Arial, sans-serif",
         "specifications": "Rated Power/,/Voltage/,/Lumens/,/Color Temperature/,/Beam Angle/,/Lifespan",
-        "show_image": false
+        "show_image": true
       }
     },
     "single_image_mtTtz8": {
@@ -316,9 +311,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_WVbABB"
-      ],
+      "block_order": ["heading_WVbABB"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -346,9 +339,7 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_c8aEVF"
-      ],
+      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
       "settings": {}
     },
     "product-recommendations": {

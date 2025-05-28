@@ -1,6 +1,6 @@
 {%- liquid
   assign specifications = section.settings.specifications | split: '/,/'
-  assign show_image = section.settings.show_image | default: true
+  assign show_image = section.settings.show_image | default: false
 -%}
 <div class="product-comparison-wrapper">
   <div class="product-comparison-table">
@@ -21,7 +21,7 @@
       <div class="table-content">
         <!-- Header row with products -->
         {%- if show_image -%}
-          <div class="header-row">
+          <div class="header-row d-flex">
             {% for product in section.blocks %}
               <div class="product-header d-flex align-center justify-center flex-column">
                 {% if product.settings.product_image %}
@@ -74,10 +74,8 @@
   }
 
   .fixed-column {
-    background-color: rgba(255, 255, 255, 0.05);
     min-width: 200px;
     flex-shrink: 0;
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .scrollable-content {
@@ -94,13 +92,16 @@
   .product-header {
     height: 180px;
     padding: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     flex: 1;
+  }
+
+  .header-cell {
+    display: flex;
+    align-items: center;
   }
 
   .product-header {
     min-width: 180px;
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .product-image,
@@ -132,14 +133,15 @@
     color: {{ section.settings.model_text_color | default: '#ffffff' }};
   }
 
-  .header-row {
-    display: flex;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
   .spec-row {
     display: flex;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    opacity: 0.6;
+  }
+
+  .spec-row:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+    opacity: 1;
   }
 
   .spec-cell,
@@ -151,26 +153,17 @@
     font-size: 20px;
     text-align: center;
     flex: 1;
-    opacity: 0.6;
     min-width: 250px;
   }
 
   .spec-cell {
-    font-weight: 500;
     color: {{ section.settings.spec_label_color | default: '#cccccc' }};
-    background-color: rgba(255, 255, 255, 0.03);
   }
 
   .spec-value {
-    border-right: 1px solid rgba(255, 255, 255, 0.05);
     justify-content: center;
     color: {{ section.settings.spec_value_color | default: '#ffffff' }};
     font-weight: 400;
-  }
-
-  .spec-row:hover {
-    background-color: rgba(255, 255, 255, 0.02);
-    opacity: 1;
   }
 
   /* Scrollbar styling */
@@ -300,7 +293,7 @@
       "type": "checkbox",
       "id": "show_image",
       "label": "Show Product Image",
-      "default": true,
+      "default": false,
       "info": "Enable this to show product images in the first column."
     }
   ],
