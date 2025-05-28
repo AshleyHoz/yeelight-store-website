@@ -157,6 +157,7 @@
     text-align: center;
     flex: 1;
     opacity: 0.6;
+    min-width: 250px;
   }
 
   .spec-cell {
@@ -166,7 +167,6 @@
   }
 
   .spec-value {
-    min-width: 180px;
     border-right: 1px solid rgba(255, 255, 255, 0.05);
     justify-content: center;
     color: {{ section.settings.spec_value_color | default: '#ffffff' }};
