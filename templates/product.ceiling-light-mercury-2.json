@@ -77,6 +77,7 @@
         },
         "collapsible_tab_nbFtx9": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Description",
             "open": false,
@@ -118,6 +119,7 @@
         },
         "text_PBYMnA": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Product manual (PDF)",
             "link": "https://cdn.shopify.com/s/files/1/0744/6849/1548/files/Manual-Yeelight_Permanent_Light-15M.pdf?v=1729063280",
