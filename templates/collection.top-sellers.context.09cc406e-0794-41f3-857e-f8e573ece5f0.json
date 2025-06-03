@@ -12,5 +12,22 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "image_with_text_overlay_8jXp9g": {
+      "settings": {},
+      "blocks": {
+        "heading_HhgdPq": {
+          "settings": {
+            "text": "Top Sellers"
+          }
+        }
+      }
+    },
+    "product-grid": {
+      "settings": {
+        "enable_filtering": false
+      },
+      "blocks": {}
+    }
+  }
 }
