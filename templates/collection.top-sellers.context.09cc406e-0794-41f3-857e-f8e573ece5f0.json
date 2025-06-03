@@ -14,7 +14,10 @@
   },
   "sections": {
     "image_with_text_overlay_8jXp9g": {
-      "settings": {},
+      "settings": {
+        "image": "shopify://shop_images/banner_7615363b-c3b0-45d1-a5bb-a1c9b3af3573.jpg",
+        "mobile_image": "shopify://shop_images/594_x_475.png"
+      },
       "blocks": {
         "heading_HhgdPq": {
           "settings": {
