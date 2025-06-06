@@ -168,7 +168,7 @@
       "settings": {
         "image": "shopify://shop_images/01_ecd74c1b-4b5a-4d1c-8c2b-2a055f4e8054.jpg",
         "mobile_image": "shopify://shop_images/01_c12df906-2f55-441f-b213-ef2995f45590.jpg",
-        "image_parallax": true,
+        "image_parallax": false,
         "desktop_height": "desktop-height-480",
         "mobile_height": "mobile-height-auto",
         "full_width": true,
