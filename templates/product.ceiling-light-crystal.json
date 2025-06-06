@@ -129,143 +129,155 @@
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "enable_image_change": false,
+        "button_1_title": "",
+        "button_2_title": ""
       }
     },
-    "single_image_mtTtz8": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/03_2f4f8fad-4d36-40e4-b2ba-5d5d82408dbc.jpg",
-        "image_mobile": "shopify://shop_images/3_3287988b-8049-459d-8892-259ae165a711.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_CiE9F9": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/02_8cd0ea89-6ecf-4b59-8427-0705719d19c5.jpg",
-        "image_mobile": "shopify://shop_images/2_b68cf5c1-4608-4707-9cf7-d6d13d91cf8a.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_xpAebN": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/04_dbe1882a-ebb5-45ea-8a95-b58bdad0bf65.jpg",
-        "image_mobile": "shopify://shop_images/4_9f3f311a-14b5-4055-aa2b-3cb67345a19e.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_g4CiQU": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/05_3c665387-cfe4-455a-a061-0b7825e5540b.jpg",
-        "image_mobile": "shopify://shop_images/5_a3c85370-04ed-444d-b6a1-7c5a3027446c.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_k6gWJB": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/06_1e4f7b66-357e-4744-81fa-6ee06df49bbe.jpg",
-        "image_mobile": "shopify://shop_images/6_5f1a84af-c15d-4a7e-89f1-63dc4b933192.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_nbhytB": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/07.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-07.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_8TkYG3": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/08_77372a70-f109-4f96-9be7-4ace1515aff4.jpg",
-        "image_mobile": "shopify://shop_images/8_6d0c9373-2bae-4345-9b94-ceed00e41bf2.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_4jwYRE": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/09.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-09.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_DYGjaQ": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/10_2f42661e-63df-454f-a690-5075f71b8eef.jpg",
-        "image_mobile": "shopify://shop_images/9_4f5edcd5-4264-45a7-b678-ab598f39385b.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "rich_text_igCzBP": {
-      "type": "rich-text",
+    "image_with_text_overlay_NcVGr8": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "heading_WVbABB": {
+        "heading_VX4YkC": {
           "type": "heading",
           "settings": {
-            "text": "Customer Reviews",
-            "marker_style": "style1",
-            "size": "h3",
-            "marker_color": "#fd6262"
+            "text": "Yeelight Crystal Sensory Light Mini",
+            "heading_size": "h2"
+          }
+        },
+        "text_jRWYb4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Light Up at Your Convenience<br/><br/></p>",
+            "description_size": "medium"
+          }
+        },
+        "subheading_bnrriQ": {
+          "type": "subheading",
+          "settings": {
+            "text": "Motion Light | Insect Proof | High Color Rendering | Dual Sensors"
           }
         }
       },
       "block_order": [
-        "heading_WVbABB"
+        "heading_VX4YkC",
+        "text_jRWYb4",
+        "subheading_bnrriQ"
       ],
+      "name": "Image with text overlay",
       "settings": {
-        "text_width": "medium",
-        "text_position": "center",
+        "image": "shopify://shop_images/01_ecd74c1b-4b5a-4d1c-8c2b-2a055f4e8054.jpg",
+        "mobile_image": "shopify://shop_images/01_c12df906-2f55-441f-b213-ef2995f45590.jpg",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-480",
+        "mobile_height": "mobile-height-auto",
+        "full_width": true,
+        "content_width": "medium",
+        "content_position": "middle-right",
         "text_alignment": "center",
-        "color_bg": "rgba(0,0,0,0)",
-        "color_heading": "#1a1c1d",
-        "color_text": "#2c2d2e",
-        "color_links": "#2c2d2e",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_overlay_fECrxH": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_A8HKjJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Dual Sensor Light",
+            "heading_size": "h2"
+          }
+        },
+        "text_9kpgWy": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Smart Motion & Light Detection</strong></p>",
+            "description_size": "medium"
+          }
+        },
+        "subheading_jtVMyW": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Motion-triggered auto-on; 60s auto-off"
+          }
+        }
+      },
+      "block_order": [
+        "heading_A8HKjJ",
+        "text_9kpgWy",
+        "subheading_jtVMyW"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/en-03_28c8b332-0474-4fae-a5c4-27ef4ea1da8b.jpg",
+        "mobile_image": "shopify://shop_images/en-03.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-480",
+        "mobile_height": "mobile-height-auto",
+        "full_width": true,
+        "content_width": "medium",
+        "content_position": "middle-right",
+        "text_alignment": "center",
+        "text_color": "#FFFFFF",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_overlay_NQV8pi": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_pwD6Vy": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Dual Sensor Light",
+            "heading_size": "h2"
+          }
+        },
+        "text_AqkW3T": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Smart Motion & Light Detection</strong></p>",
+            "description_size": "medium"
+          }
+        },
+        "subheading_CdbJFy": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Motion-triggered auto-on; 60s auto-off"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pwD6Vy",
+        "text_AqkW3T",
+        "subheading_CdbJFy"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/en-04.jpg",
+        "mobile_image": "shopify://shop_images/en-03.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-480",
+        "mobile_height": "mobile-height-auto",
+        "full_width": true,
+        "content_width": "medium",
+        "content_position": "middle-right",
+        "text_alignment": "center",
+        "text_color": "#FFFFFF",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "1712003137212dc6f8": {
@@ -297,23 +309,17 @@
         "product_limit": 4,
         "columns_desktop": 4,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "show_cover": false
       }
     }
   },
   "order": [
     "breadcrumbs",
     "main-product",
-    "single_image_mtTtz8",
-    "single_image_CiE9F9",
-    "single_image_xpAebN",
-    "single_image_g4CiQU",
-    "single_image_k6gWJB",
-    "single_image_nbhytB",
-    "single_image_8TkYG3",
-    "single_image_4jwYRE",
-    "single_image_DYGjaQ",
-    "rich_text_igCzBP",
+    "image_with_text_overlay_NcVGr8",
+    "image_with_text_overlay_fECrxH",
+    "image_with_text_overlay_NQV8pi",
     "1712003137212dc6f8",
     "product-recommendations"
   ]
