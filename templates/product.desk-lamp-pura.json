@@ -129,115 +129,114 @@
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "enable_image_change": false,
+        "button_1_title": "",
+        "button_2_title": ""
       }
     },
     "single_image_mtTtz8": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/03_2f4f8fad-4d36-40e4-b2ba-5d5d82408dbc.jpg",
-        "image_mobile": "shopify://shop_images/3_3287988b-8049-459d-8892-259ae165a711.jpg",
+        "image": "shopify://shop_images/01_7913923f-5a89-4cda-b065-4695b6f62792.jpg",
+        "image_mobile": "shopify://shop_images/01_11757370-0028-4878-a732-0c8164f0fd97.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_CiE9F9": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/02_8cd0ea89-6ecf-4b59-8427-0705719d19c5.jpg",
-        "image_mobile": "shopify://shop_images/2_b68cf5c1-4608-4707-9cf7-d6d13d91cf8a.jpg",
+        "image": "shopify://shop_images/02_9471575c-eb2f-417c-b72c-afb442864079.jpg",
+        "image_mobile": "shopify://shop_images/02_025a0aa8-5ab5-4060-aacd-d8dcf84b1825.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_xpAebN": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/04_dbe1882a-ebb5-45ea-8a95-b58bdad0bf65.jpg",
-        "image_mobile": "shopify://shop_images/4_9f3f311a-14b5-4055-aa2b-3cb67345a19e.jpg",
+        "image": "shopify://shop_images/03_60ce1d6d-d239-42fe-95c2-7887c338ca88.jpg",
+        "image_mobile": "shopify://shop_images/03_3258f036-1fd9-4219-b71c-d388482c0269.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_g4CiQU": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/05_3c665387-cfe4-455a-a061-0b7825e5540b.jpg",
-        "image_mobile": "shopify://shop_images/5_a3c85370-04ed-444d-b6a1-7c5a3027446c.jpg",
+        "image": "shopify://shop_images/04_f45d59fa-027c-4803-9dda-23b4ed981360.jpg",
+        "image_mobile": "shopify://shop_images/04_305c2e62-c1e6-4a82-b037-fa1429a7cc2a.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_k6gWJB": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/06_1e4f7b66-357e-4744-81fa-6ee06df49bbe.jpg",
-        "image_mobile": "shopify://shop_images/6_5f1a84af-c15d-4a7e-89f1-63dc4b933192.jpg",
+        "image": "shopify://shop_images/05_4ad0b560-9118-4d9c-b471-4737029a3072.jpg",
+        "image_mobile": "shopify://shop_images/05_6485b773-76b0-47c4-9399-05d83b1aa927.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_nbhytB": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/07.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-07.jpg",
+        "image": "shopify://shop_images/06_945a16a0-b10a-44fb-be30-a6d72f2c1a2f.jpg",
+        "image_mobile": "shopify://shop_images/06_bce6c549-53b6-45e2-b568-92819113d2a4.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_8TkYG3": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/08_77372a70-f109-4f96-9be7-4ace1515aff4.jpg",
-        "image_mobile": "shopify://shop_images/8_6d0c9373-2bae-4345-9b94-ceed00e41bf2.jpg",
+        "image": "shopify://shop_images/07_29421ff8-2c57-4b0c-b41f-a929220c65e3.jpg",
+        "image_mobile": "shopify://shop_images/05_6485b773-76b0-47c4-9399-05d83b1aa927.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_4jwYRE": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/09.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-09.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_DYGjaQ": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/10_2f42661e-63df-454f-a690-5075f71b8eef.jpg",
-        "image_mobile": "shopify://shop_images/9_4f5edcd5-4264-45a7-b678-ab598f39385b.jpg",
+        "image": "shopify://shop_images/08_76a20882-e5e5-4ac3-b148-b4a927dbb1f3.jpg",
+        "image_mobile": "shopify://shop_images/08_267bc6af-2ebc-4646-a3f3-d5c1e2d035f6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "rich_text_igCzBP": {
@@ -297,7 +296,8 @@
         "product_limit": 4,
         "columns_desktop": 4,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "show_cover": false
       }
     }
   },
@@ -311,7 +311,6 @@
     "single_image_k6gWJB",
     "single_image_nbhytB",
     "single_image_8TkYG3",
-    "single_image_4jwYRE",
     "single_image_DYGjaQ",
     "rich_text_igCzBP",
     "1712003137212dc6f8",
