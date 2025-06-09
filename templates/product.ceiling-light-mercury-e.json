@@ -1,0 +1,817 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "enable_opposite_theme": true
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "2b609eea-6cce-4efe-b447-c5560de1d797": {
+          "type": "label",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": false
+          }
+        },
+        "loox_reviews_loox_rating_9g3aA7": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "#2c2d2e",
+            "starColor": "#ff9529",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "separator_qJEjWC": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_use_variants": false,
+            "variant_is_disabled": true,
+            "sizing_guide_variant": "Size",
+            "sizing_guide_text": "",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {}
+        },
+        "collapsible_tab_nbFtx9": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Description",
+            "open": false,
+            "content": "<ul><li><strong>20+ Lighting Effects for Every Occasion</strong></li></ul><p>Effortlessly switch between over 20 preset lighting effects tailored for holidays, parties, or daily use. Whether it's Halloween, Christmas, or a family gathering, these permanent outdoor lights transform your house into the perfect setting.</p><ul><li><strong>High-Brightness RGBIC LEDs</strong></li></ul><p>Each meter of lights contains two high-lumen LEDs, offering 16 million colors to create vivid displays. Seamlessly switch between vibrant RGB lighting and a warm 3000K white for more intimate settings.</p><ul><li><strong>Smart App Control with Customization</strong> </li></ul><p>Connect to the Yeelight app via Bluetooth for intuitive control. Personalize each LED, create custom dynamic effects, adjust speed, and even sync the lights to music for an immersive experience.</p><ul><li><strong>Durable and Weather-Resistant Design</strong> </li></ul><p>Built to withstand the elements, these lights feature IP67 waterproofing and can operate in temperatures from -4°F to 140°F. Their durable design makes them ideal for year-round outdoor use.</p><ul><li><strong>Easy Installation for Long-Term Use</strong> </li></ul><p>Designed for quick and secure installation, the adhesive backing and buckles ensure a firm hold on eaves. With its subtle white color, the strip blends seamlessly into most surfaces for a hidden look.</p><ul><li><strong>Seamless Integration with Yeelight Ecosystem</strong></li></ul><p>Combine these permanent lights with other Yeelight products, like curtain lights and string lights, to create an immersive lighting experience for any holiday or celebration.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "386f7e4a-6127-4141-928b-9cb4614ee18c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "open": false,
+            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA: 3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty",
+            "open": false,
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {}
+        },
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "product_list_limit": 3
+          }
+        },
+        "text_PBYMnA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Product manual (PDF)",
+            "link": "https://cdn.shopify.com/s/files/1/0744/6849/1548/files/Manual-Yeelight_Permanent_Light-15M.pdf?v=1729063280",
+            "text_type": "type_file",
+            "text_style": "style_vendor"
+          }
+        }
+      },
+      "block_order": [
+        "2b609eea-6cce-4efe-b447-c5560de1d797",
+        "title",
+        "loox_reviews_loox_rating_9g3aA7",
+        "separator_qJEjWC",
+        "variant_picker",
+        "quantity",
+        "buy_buttons",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "collapsible_tab_nbFtx9",
+        "386f7e4a-6127-4141-928b-9cb4614ee18c",
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34",
+        "text_PBYMnA"
+      ],
+      "settings": {
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "enable_image_change": false,
+        "button_1_title": "",
+        "button_2_title": ""
+      }
+    },
+    "product_slideshow_ahQAiP": {
+      "type": "product-slideshow",
+      "blocks": {
+        "slide_r4cLYH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Mercury_PC_-_01.png",
+            "mobile_image": "shopify://shop_images/Mercury_M_-01.png",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "For Porch",
+            "video_background": false,
+            "title": "",
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_Re8Uxn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Mercury_PC_-_04.png",
+            "mobile_image": "shopify://shop_images/Mercury_M_-04.png",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "For Living Room",
+            "video_background": false,
+            "title": "",
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_UqXJwU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Mercury_PC_-_02.png",
+            "mobile_image": "shopify://shop_images/Mercury_M_-02.png",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "  For Bedroom",
+            "video_background": false,
+            "title": "",
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_idmXF7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Mercury_PC_-_03.png",
+            "mobile_image": "shopify://shop_images/Mercury_M_-03.png",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "For Dining Room",
+            "video_background": false,
+            "title": "",
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_r4cLYH",
+        "slide_Re8Uxn",
+        "slide_UqXJwU",
+        "slide_idmXF7"
+      ],
+      "settings": {
+        "title": "Yeelight Smart Ceiling Light Mercury",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "transition": "slide",
+        "controls": "dots",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "single_image_3kkr3Y": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Mercury_-PC_01.png",
+        "image_mobile": "shopify://shop_images/Mercury_-M_01.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_8Areip": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Mercury_-PC_02.png",
+        "image_mobile": "shopify://shop_images/Mercury_-M_02.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_bNVALU": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Mercury_-PC_03.png",
+        "image_mobile": "shopify://shop_images/Mercury_-M_03.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_YFNLfJ": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Mercury_-PC_04.png",
+        "image_mobile": "shopify://shop_images/Mercury_-M_04.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_UwbPnd": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Mercury_-PC_05.png",
+        "image_mobile": "shopify://shop_images/Mercury_-M_05.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_FC7Fnr": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Mercury_-PC_07.png",
+        "image_mobile": "shopify://shop_images/Mercury_-M_07.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_UpVXxB": {
+      "type": "single-image",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "image_mobile": "shopify://shop_images/Mercury_-PC_08.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_Txw9w7": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Mercury_-PC_08.png",
+        "image_mobile": "shopify://shop_images/20250521-140908.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "rich_text_6mPtPi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HR4q6J": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer Reviews",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HR4q6J"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1712003137212dc6f8": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_c8aEVF": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
+      "settings": {}
+    },
+    "single_image_FGkhTr": {
+      "type": "single-image",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Permanent_Light_PC11.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_11.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "video_64QYQy": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "How to Use",
+        "cover_title": "",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
+        "video": "https://youtu.be/t7QUKF34r1g?si=ox0nXaWCwQDqvm0U",
+        "video_autoplay": false,
+        "video_loop": true,
+        "video_controls": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-400",
+        "aspect_ratio": "16-9",
+        "marker_color": "#fd6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
+      }
+    },
+    "single_image_m6jW4L": {
+      "type": "single-image",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Permanent_Light_PC12.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_12.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_wA9Aty": {
+      "type": "single-image",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Permanent_Light_PC13.jpg",
+        "image_mobile": "shopify://shop_images/Permanent-M_13.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "collapsible_content_FHcELA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_WiYdkA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What is the length of extension pack?",
+            "open": false,
+            "content": "<p>The length is 16.7ft/5m. For customers who purchase the 50ft or 100ft pack, extension pack can be freely combined based on installation needs, but the maximum extension is 150ft. Therefore, customers who have already purchased the 150ft pack cannot purchase additional extension pack.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gJRVyK": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is it cuttable?",
+            "open": false,
+            "content": "<p>Cutting is not supported, but there are 3 available lengths: 50ft, 100ft, and 150ft, along with a 16.7ft extension pack that can be freely combined.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_7krMiQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What is the extent of waterproofing?",
+            "open": false,
+            "content": "<p>Adapter IP44, Control Box IP65, Light string IP67</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_i4Rpix": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What does the package contain? how many hooks are in? are there any other hanging materials to be included with the string lights?",
+            "open": false,
+            "content": "<ul><li>50ft：Power adapter x1；Control box x1；String light x3；Buckle x15；VHB Tapes x9；</li><li>100ft：Power adapter x1；Control box x1；String light x6；Buckle x30；VHB Tapes x18；Extension line 11.8ft x1</li><li>150ft：Power adapter x1；Control box x1；String light x9；Buckle x45；VHB Tapes x36；Extension line 11.8ft x2</li><li>The lights are secured with 3M tape and buckles, no hooks are needed.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ynermP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do they work in winter?",
+            "open": false,
+            "content": "<p>Yes, the product can operate at a maximum temperature of 60°C (140°F) and a minimum temperature of -20°C (-4°F).</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Gibxfb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "If I move are they resusable?",
+            "open": false,
+            "content": "<p>It can be reused, but after reinstallation, the adhesive strength of the 3M tape will decrease, so it's recommended to have extra tape on hand.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_jHKJHr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Does it cost a lot of run it?",
+            "open": false,
+            "content": "<p>For the 150ft version, if used for 3 hours per day at a rate of 11¢/kWh, the estimated annual electricity cost is $9.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ctymGT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do the lights come in 1 long run? or are they in connectable sections?",
+            "open": false,
+            "content": "<p>They in connectable sections, with each string light measuring 5m/16.7ft in length, and they are connected by waterproof connectors.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ynX9FX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I control Yeelight Permanent Outdoor Lights?",
+            "open": false,
+            "content": "<p>It connects via Bluetooth and can be smartly controlled using the Yeelight APP. The control box also allows for simple operations like turning the lights on/off and switching lighting effects. However, please note that the lighting effects switched by the control box are not synchronized with the APP.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_UDit34": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I integrate Yeelight Permanent Outdoor Lights with other Yeelight products?",
+            "open": false,
+            "content": "<p>Currently, the permanent outdoor lights do not support direct group control with other products. However, each product has similar lighting effects, so you can switch to the same lighting effect on each product individually to achieve a coordinated overall effect.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_aLewyt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I customize the colors and effects of Yeelight Permanent Outdoor Lights?",
+            "open": false,
+            "content": "<p>Yes, the Yeelight permanent outdoor lights are RGBICW, with each LED having an independent chip for control. This allows for high customization, enabling you to set the color of each individual bulb and switch between various dynamic effects such as flashing, breathing, and stacking.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_zcRCff": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do I need a professional installation team for the installation?",
+            "open": false,
+            "content": "<p>You can choose to install it yourself, please refer to the installation video for detailed steps. Alternatively, you can contact a professional for installation services, such as scheduling through <a href=\"http://angi.com\" target=\"_blank\">angi.com</a>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_rygDiG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What if the eaves where I want to install are not continuous?",
+            "open": false,
+            "content": "<p>You can use the extension cable to span across eaves, the length of the extension cable is 11.8ft/3.6m. One piece is included in the 100ft pack and two pieces are included in the 150ft pack (not included in the 50ft pack). You can connect the extension cable between two sections of string lights to bridge discontinuous eaves or other areas where lights are not needed.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_LPdtgW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Where should the control box and power adapter installed?",
+            "open": false,
+            "content": "<p>It is recommended to put the adapter and control box indoors, such as in a garage. Additionally, the control box should be placed in a relatively open area without obstructions to prevent weak signal reception.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_K9WVVR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is the 3M adhesive secure, and is there a possibility of it falling off?",
+            "open": false,
+            "content": "<p>The 3M tape is very strong, but please refer to the installation video before starting. After the initial application, press down for at least 10 seconds. Once the 3M tape has been applied for more than 3 days, it will be very difficult to remove. Additionally, the package includes mounting buckles with screws for more secure installation, and extra 3M tape is provided as a backup in case you need to reapply it.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_WiYdkA",
+        "collapsible_tab_gJRVyK",
+        "collapsible_tab_7krMiQ",
+        "collapsible_tab_i4Rpix",
+        "collapsible_tab_ynermP",
+        "collapsible_tab_Gibxfb",
+        "collapsible_tab_jHKJHr",
+        "collapsible_tab_ctymGT",
+        "collapsible_tab_ynX9FX",
+        "collapsible_tab_UDit34",
+        "collapsible_tab_aLewyt",
+        "collapsible_tab_zcRCff",
+        "collapsible_tab_rygDiG",
+        "collapsible_tab_LPdtgW",
+        "collapsible_tab_K9WVVR"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "FAQ",
+        "marker_style": "style1",
+        "description": "",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "marker_color": "#fd6262",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "color_border": "#dadce0",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "media_with_tabs_GFrrk4": {
+      "type": "media-with-tabs",
+      "blocks": {
+        "tab_GfgtkE": {
+          "type": "tab",
+          "settings": {
+            "use_video": true,
+            "video_hosted": "shopify://files/videos/WaterProofTest.mp4",
+            "heading_icon": "washing",
+            "heading": "IP67 Waterproof Test",
+            "description": "Remains fully operational after 30 mins submerging in water. Capable of withstanding extreme heavy rain.",
+            "video_autoplay": false
+          }
+        },
+        "tab_bpHEwN": {
+          "type": "tab",
+          "settings": {
+            "use_video": true,
+            "video_hosted": "shopify://files/videos/TemperatureTest.mp4",
+            "heading_icon": "snowflake",
+            "heading": "High & Low Temperature Test",
+            "description": "Remains fully functional after being frozen in a refrigerator and baked in an oven. Can be used in temperatures ranging from -4°F to 140°F.",
+            "video_autoplay": false
+          }
+        },
+        "tab_hBBVUP": {
+          "type": "tab",
+          "settings": {
+            "use_video": true,
+            "video_hosted": "shopify://files/videos/AdhesiveTest.mp4",
+            "heading_icon": "leather",
+            "heading": "Adhesive Strength Test",
+            "description": "The single light head can support a more than 2lb object. It resists falling off with long-term use.",
+            "video_autoplay": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_GfgtkE",
+        "tab_bpHEwN",
+        "tab_hBBVUP"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Product Testing Videos",
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "height": "adapt",
+        "desktop_layout": "image_first",
+        "color_bg": "#746461",
+        "color_text": "#ffffff",
+        "color_link": "#ffffff",
+        "color_border": "#827471",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "description": "<p>Combine your style with these products</p>",
+        "mobile_swipe": true,
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false,
+        "show_cover": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "product_slideshow_ahQAiP",
+    "single_image_3kkr3Y",
+    "single_image_8Areip",
+    "single_image_bNVALU",
+    "single_image_YFNLfJ",
+    "single_image_UwbPnd",
+    "single_image_FC7Fnr",
+    "single_image_UpVXxB",
+    "single_image_Txw9w7",
+    "rich_text_6mPtPi",
+    "1712003137212dc6f8",
+    "single_image_FGkhTr",
+    "video_64QYQy",
+    "single_image_m6jW4L",
+    "single_image_wA9Aty",
+    "collapsible_content_FHcELA",
+    "media_with_tabs_GFrrk4",
+    "product-recommendations"
+  ]
+}
