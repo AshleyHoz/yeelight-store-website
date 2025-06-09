@@ -324,9 +324,9 @@
         "title": "Yeelight Smart Ceiling Light Meteor",
         "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-500",
-        "full_width": true,
+        "full_width": false,
         "autoplay": true,
-        "autoplay_length": 5,
+        "autoplay_length": 3,
         "transition": "slide",
         "controls": "dots",
         "disable_top_spacing": false,
@@ -398,19 +398,6 @@
         "activity_icon": false
       }
     },
-    "single_image_UwbPnd": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/Meteor_PC06.png",
-        "image_mobile": "shopify://shop_images/06_c6f2671c-82dc-4518-952f-3e60b3a04a76.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
@@ -424,8 +411,22 @@
         "activity_icon": false
       }
     },
+    "single_image_UwbPnd": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Meteor_PC06.png",
+        "image_mobile": "shopify://shop_images/06_c6f2671c-82dc-4518-952f-3e60b3a04a76.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
     "single_image_Txw9w7": {
       "type": "single-image",
+      "disabled": true,
       "settings": {
         "link": "",
         "image": "shopify://shop_images/Meteor_PC09.png",
@@ -435,6 +436,62 @@
         "disable_bottom_spacing": true,
         "activity_wyze": false,
         "activity_icon": false
+      }
+    },
+    "product_info_table_irgyXL": {
+      "type": "product-info-table",
+      "blocks": {
+        "product_qKJNEp": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0218",
+            "product_image": "shopify://shop_images/Meteor01.png",
+            "specifications_content": "3000K-6500K/,/Approx. 50000h/,/12W/,/1200lm/,/220-240V~50/60Hz 0.08A   /,/230mm*30mm/,/9m²"
+          }
+        },
+        "product_fyKjcy": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0219",
+            "product_image": "shopify://shop_images/Meteor01.png",
+            "specifications_content": "3000K-6500K/,/Approx. 50000h/,/18W/,/1800lm/,/220-240V~50/60Hz 0.12A   /,/300mm*30mm/,/13m²"
+          }
+        },
+        "product_wwG3fD": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0220",
+            "product_image": "shopify://shop_images/Meteor01.png",
+            "specifications_content": "3000K-6500K/,/Approx. 50000h/,/24W/,/2400lm/,/220-240V~50/60Hz 0.16A   /,/400mm*30mm/,/18m²"
+          }
+        },
+        "product_g6hqnC": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0221",
+            "product_image": "shopify://shop_images/Meteor01.png",
+            "specifications_content": "3000K-6500K/,/Approx. 50000h/,/36W/,/3600lm/,/220-240V~50/60Hz 0.18A&nbsp&nbsp&nbsp/,/500mm*30mm/,/26m²"
+          }
+        }
+      },
+      "block_order": [
+        "product_qKJNEp",
+        "product_fyKjcy",
+        "product_wwG3fD",
+        "product_g6hqnC"
+      ],
+      "name": "Product Info Table",
+      "settings": {
+        "heading": "Specifications",
+        "description": "",
+        "text_color": "#ffffff",
+        "model_text_color": "#ffffff",
+        "spec_label_color": "#cccccc",
+        "spec_value_color": "#ffffff",
+        "padding": "40px 20px",
+        "font_family": "Arial, sans-serif",
+        "specifications": "CCT/,/Life Span/,/Rated Power/,/Luminous Flux/,/Rated Input/,/Dimensions/,/Applicable Area",
+        "show_image": true
       }
     },
     "rich_text_6mPtPi": {
@@ -804,6 +861,7 @@
     "single_image_UpVXxB",
     "single_image_UwbPnd",
     "single_image_Txw9w7",
+    "product_info_table_irgyXL",
     "rich_text_6mPtPi",
     "1712003137212dc6f8",
     "single_image_FGkhTr",
