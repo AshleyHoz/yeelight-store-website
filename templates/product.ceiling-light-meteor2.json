@@ -385,12 +385,12 @@
         "activity_icon": false
       }
     },
-    "single_image_UwbPnd": {
+    "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Meteor_PC06.png",
-        "image_mobile": "shopify://shop_images/06_c6f2671c-82dc-4518-952f-3e60b3a04a76.png",
+        "image": "shopify://shop_images/Meteor_PC07.png",
+        "image_mobile": "shopify://shop_images/07_c25800e2-35a6-4448-9bac-5caa78ed3577.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -398,12 +398,12 @@
         "activity_icon": false
       }
     },
-    "single_image_FC7Fnr": {
+    "single_image_UwbPnd": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Meteor_PC07.png",
-        "image_mobile": "shopify://shop_images/07_c25800e2-35a6-4448-9bac-5caa78ed3577.png",
+        "image": "shopify://shop_images/Meteor_PC06.png",
+        "image_mobile": "shopify://shop_images/06_c6f2671c-82dc-4518-952f-3e60b3a04a76.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -800,9 +800,9 @@
     "single_image_8Areip",
     "single_image_bNVALU",
     "single_image_YFNLfJ",
-    "single_image_UwbPnd",
     "single_image_FC7Fnr",
     "single_image_UpVXxB",
+    "single_image_UwbPnd",
     "single_image_Txw9w7",
     "rich_text_6mPtPi",
     "1712003137212dc6f8",
