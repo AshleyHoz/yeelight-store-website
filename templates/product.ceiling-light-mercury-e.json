@@ -158,29 +158,29 @@
         "button_2_title": ""
       }
     },
-    "product_slideshow_ahQAiP": {
+    "product_slideshow_Kajww6": {
       "type": "product-slideshow",
       "blocks": {
-        "slide_r4cLYH": {
+        "slide_qT8kCc": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Mercury_PC_-_01.png",
-            "mobile_image": "shopify://shop_images/Mercury_M_-01.png",
+            "image": "shopify://shop_images/01_647005b8-4b01-49e8-b718-185d7c4e04a0.jpg",
+            "mobile_image": "shopify://shop_images/03_8b16adcb-4104-4227-953b-85258c8e9366.jpg",
             "slide_link": "",
             "button_icon": "",
-            "button_text": "For Porch",
+            "button_text": "",
             "video_background": false,
             "title": "",
             "badge_text": "",
-            "subheading": "",
-            "heading": "",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
             "heading_size": "h1",
-            "content": "",
+            "content": "Add descriptive text for your slide here.",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg": "transparent",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 20,
             "color_text": "#2c2d2e",
@@ -189,74 +189,36 @@
             "overlay_color": "#000000",
             "overlay_opacity": 70,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "",
+            "button_1_text": "Shop Now",
             "button_1_color": "accent",
             "button_1_link": "",
             "use_text_button_1": false,
-            "button_2_text": "",
+            "button_2_text": "Shop Now",
             "button_2_color": "white",
             "button_2_link": "",
             "use_text_button_2": false
           }
         },
-        "slide_Re8Uxn": {
+        "slide_P3Rpq7": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Mercury_PC_-_04.png",
-            "mobile_image": "shopify://shop_images/Mercury_M_-04.png",
+            "image": "shopify://shop_images/02_3d0c6a1a-ceb9-43af-8244-180185ed384e.jpg",
+            "mobile_image": "shopify://shop_images/02_b5ed8792-efd2-44e0-9e84-30c199cea48a.jpg",
             "slide_link": "",
             "button_icon": "",
-            "button_text": "For Living Room",
+            "button_text": "",
             "video_background": false,
             "title": "",
             "badge_text": "",
-            "subheading": "",
-            "heading": "",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
             "heading_size": "h1",
-            "content": "",
+            "content": "Add descriptive text for your slide here.",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
-            "color_slidebg_opacity": 0,
-            "color_slidebg_blur": 0,
-            "color_text": "#2c2d2e",
-            "color_badge_bg": "#3f72e5",
-            "color_badge_text": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "",
-            "button_1_color": "accent",
-            "button_1_link": "",
-            "use_text_button_1": false,
-            "button_2_text": "",
-            "button_2_color": "white",
-            "button_2_link": "",
-            "use_text_button_2": false
-          }
-        },
-        "slide_UqXJwU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Mercury_PC_-_02.png",
-            "mobile_image": "shopify://shop_images/Mercury_M_-02.png",
-            "slide_link": "",
-            "button_icon": "",
-            "button_text": "  For Bedroom",
-            "video_background": false,
-            "title": "",
-            "badge_text": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg": "transparent",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 20,
             "color_text": "#2c2d2e",
@@ -265,36 +227,36 @@
             "overlay_color": "#000000",
             "overlay_opacity": 70,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "",
+            "button_1_text": "Shop Now",
             "button_1_color": "accent",
             "button_1_link": "",
             "use_text_button_1": false,
-            "button_2_text": "",
+            "button_2_text": "Shop Now",
             "button_2_color": "white",
             "button_2_link": "",
             "use_text_button_2": false
           }
         },
-        "slide_idmXF7": {
+        "slide_EVfnCP": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Mercury_PC_-_03.png",
-            "mobile_image": "shopify://shop_images/Mercury_M_-03.png",
+            "image": "shopify://shop_images/03_2029b26a-0660-4027-8b21-dd855c390a4c.jpg",
+            "mobile_image": "shopify://shop_images/01_d1214efe-f14b-478d-8acb-c2dc3ff607ba.jpg",
             "slide_link": "",
             "button_icon": "",
-            "button_text": "For Dining Room",
+            "button_text": "",
             "video_background": false,
             "title": "",
             "badge_text": "",
-            "subheading": "",
-            "heading": "",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
             "heading_size": "h1",
-            "content": "",
+            "content": "Add descriptive text for your slide here.",
             "description_size": "medium",
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg": "transparent",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 20,
             "color_text": "#2c2d2e",
@@ -303,11 +265,11 @@
             "overlay_color": "#000000",
             "overlay_opacity": 70,
             "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "",
+            "button_1_text": "Shop Now",
             "button_1_color": "accent",
             "button_1_link": "",
             "use_text_button_1": false,
-            "button_2_text": "",
+            "button_2_text": "Shop Now",
             "button_2_color": "white",
             "button_2_link": "",
             "use_text_button_2": false
@@ -315,30 +277,30 @@
         }
       },
       "block_order": [
-        "slide_r4cLYH",
-        "slide_Re8Uxn",
-        "slide_UqXJwU",
-        "slide_idmXF7"
+        "slide_qT8kCc",
+        "slide_P3Rpq7",
+        "slide_EVfnCP"
       ],
+      "name": "Product Slideshow",
       "settings": {
-        "title": "Yeelight Smart Ceiling Light Mercury",
+        "title": "Yeelight Sensor Ceiling Light Mercury E",
         "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-500",
         "full_width": true,
-        "autoplay": false,
-        "autoplay_length": 5,
+        "autoplay": true,
+        "autoplay_length": 3,
         "transition": "slide",
-        "controls": "dots",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "controls": "arrows",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "single_image_3kkr3Y": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_01.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_01.png",
+        "image": "shopify://shop_images/01_2eae63e0-0562-41f0-b3bd-ddda9048505e.jpg",
+        "image_mobile": "shopify://shop_images/01_509b857f-b128-4fcc-bceb-caaac292f368.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -350,34 +312,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_02.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_02.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
-    "single_image_bNVALU": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_03.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_03.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
-    "single_image_YFNLfJ": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_04.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_04.png",
+        "image": "shopify://shop_images/06_e9576a74-f9b0-46b5-a447-4e27e6815a5a.jpg",
+        "image_mobile": "shopify://shop_images/06_40021b93-81a8-49cf-a06f-e965ab8a32a5.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -389,8 +325,34 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_05.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_05.png",
+        "image": "shopify://shop_images/07_6dc8f053-9725-4a66-b78c-8c4d8c9ceb3c.jpg",
+        "image_mobile": "shopify://shop_images/07_85cebfaa-fcd9-4bf0-bcf5-b041e3989ace.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_bNVALU": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/05_62161488-13c4-4547-b34e-cdbc5b59db9c.jpg",
+        "image_mobile": "shopify://shop_images/05_c3c06955-a504-4272-b1fc-d2f26d2ed767.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_YFNLfJ": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/08_fff53cb7-5dca-4e24-b4a9-cb728fbdc8ea.jpg",
+        "image_mobile": "shopify://shop_images/08_acdd8231-8c58-4f57-b7ea-8b3f738e2bc3.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -400,6 +362,7 @@
     },
     "single_image_FC7Fnr": {
       "type": "single-image",
+      "disabled": true,
       "settings": {
         "link": "",
         "image": "shopify://shop_images/Mercury_-PC_07.png",
@@ -426,6 +389,7 @@
     },
     "single_image_Txw9w7": {
       "type": "single-image",
+      "disabled": true,
       "settings": {
         "link": "",
         "image": "shopify://shop_images/Mercury_-PC_08.png",
@@ -795,12 +759,12 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "product_slideshow_ahQAiP",
+    "product_slideshow_Kajww6",
     "single_image_3kkr3Y",
     "single_image_8Areip",
+    "single_image_UwbPnd",
     "single_image_bNVALU",
     "single_image_YFNLfJ",
-    "single_image_UwbPnd",
     "single_image_FC7Fnr",
     "single_image_UpVXxB",
     "single_image_Txw9w7",
