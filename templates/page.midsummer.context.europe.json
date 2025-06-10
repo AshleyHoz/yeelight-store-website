@@ -12,5 +12,180 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC_dde2359e-e335-485d-b387-2e08d998e095.png",
+        "image_mobile": "shopify://shop_images/banner-M_0370f605-ff04-4716-af1a-86b8a272feda.png"
+      },
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "left_icon": "",
+        "title": "Light Up Your Longest Day & Brightest Night",
+        "show_cover": true
+      },
+      "blocks": {
+        "product_8VyVNY": {
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        },
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        },
+        "product_dFcCKK": {
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        }
+      },
+      "block_order": [
+        "product_WMhTBk",
+        "product_8VyVNY",
+        "product_NEXyJH",
+        "product_dFcCKK"
+      ]
+    },
+    "single_image_RbrWWD": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC_-1.png",
+        "image_mobile": "shopify://shop_images/banner-M_-1.png"
+      },
+      "blocks": {}
+    },
+    "activity_valentine_N943U7": {
+      "settings": {
+        "title": "",
+        "title_icon": "",
+        "left_icon": "",
+        "show_cover": true
+      },
+      "blocks": {
+        "product_6qM9pk": {
+          "settings": {
+            "product": "yeelight-obsid-rgbic-light-strip"
+          }
+        },
+        "product_GxKGKM": {
+          "settings": {
+            "product": "yeelight-rgb-night-light-vega"
+          }
+        },
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        },
+        "product_WjGkfF": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_UNaT86": {
+          "settings": {
+            "product": "yeelight-led-light-strip-1s-6-56ft"
+          }
+        },
+        "product_wtezBt": {
+          "settings": {
+            "product": "yeelight-smart-led-lightstrip-pro"
+          }
+        },
+        "product_wR3qDg": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        }
+      },
+      "block_order": [
+        "product_ikGnam",
+        "product_6qM9pk",
+        "product_GxKGKM",
+        "product_6hbnXF",
+        "product_WjGkfF",
+        "product_wR3qDg",
+        "product_UNaT86",
+        "product_wtezBt"
+      ]
+    },
+    "activity_valentine_36YKK": {
+      "type": "activity-valentine",
+      "disabled": false,
+      "settings": {
+        "title": "New Arrivals",
+        "title_icon": "",
+        "image": null,
+        "image_mobile": null,
+        "background_image": null,
+        "background_image_mobile": null,
+        "show_icon": false,
+        "header-f0be98408cd22d6c361b6a10b9a9c81a": null,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "left_icon_image": null,
+        "left_icon": "",
+        "header-54ee82b579a9954a94f8786b63ed2f4c": null,
+        "right_x_position": 0,
+        "right_y_position": 0,
+        "right_icon_image": null,
+        "right_icon": "",
+        "header-da1f0cd1008aed591cc6ceb177ae5e65": null,
+        "show_cover": false
+      },
+      "blocks": {
+        "product_bUqHE": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-ceiling-light-meteor-european-version"
+          }
+        },
+        "product_UGkin": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-rgb-smart-ceiling-light-mercury"
+          }
+        },
+        "product_8D7WR": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-sensor-ceiling-light-mercury-e"
+          }
+        },
+        "product_7Ec9H": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-ceiling-light-comet"
+          }
+        }
+      },
+      "block_order": [
+        "product_bUqHE",
+        "product_UGkin",
+        "product_8D7WR",
+        "product_7Ec9H"
+      ],
+      "name": "Activity Valentine"
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "activity_valentine_JaTgDy",
+    "single_image_RbrWWD",
+    "activity_valentine_N943U7",
+    "activity_valentine_36YKK",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
 }
