@@ -402,8 +402,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_07.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_07.png",
+        "image": "shopify://shop_images/Mercury_-PC_07_b8ccfbf1-9694-4041-b105-e39195ecb4d7.png",
+        "image_mobile": "shopify://shop_images/Mercury_-M_07_ed5d8b65-347e-4d8a-9e86-02e45be6ead8.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
