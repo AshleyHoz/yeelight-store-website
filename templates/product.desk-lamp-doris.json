@@ -139,8 +139,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/01_7913923f-5a89-4cda-b065-4695b6f62792.jpg",
-        "image_mobile": "shopify://shop_images/01_11757370-0028-4878-a732-0c8164f0fd97.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_1_c726ebd7-98f4-4a41-81ff-e427547d8d38.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_1_c726ebd7-98f4-4a41-81ff-e427547d8d38.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -152,8 +152,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/02_9471575c-eb2f-417c-b72c-afb442864079.jpg",
-        "image_mobile": "shopify://shop_images/02_025a0aa8-5ab5-4060-aacd-d8dcf84b1825.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_5.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_5.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -165,8 +165,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/03_60ce1d6d-d239-42fe-95c2-7887c338ca88.jpg",
-        "image_mobile": "shopify://shop_images/03_3258f036-1fd9-4219-b71c-d388482c0269.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_4.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_4.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -178,8 +178,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/04_f45d59fa-027c-4803-9dda-23b4ed981360.jpg",
-        "image_mobile": "shopify://shop_images/04_305c2e62-c1e6-4a82-b037-fa1429a7cc2a.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_3.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_3.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -191,8 +191,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/05_4ad0b560-9118-4d9c-b471-4737029a3072.jpg",
-        "image_mobile": "shopify://shop_images/05_6485b773-76b0-47c4-9399-05d83b1aa927.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_2.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_2.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -204,8 +204,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/06_945a16a0-b10a-44fb-be30-a6d72f2c1a2f.jpg",
-        "image_mobile": "shopify://shop_images/06_bce6c549-53b6-45e2-b568-92819113d2a4.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_6.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_6.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -217,8 +217,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/07_29421ff8-2c57-4b0c-b41f-a929220c65e3.jpg",
-        "image_mobile": "shopify://shop_images/05_6485b773-76b0-47c4-9399-05d83b1aa927.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_8.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_8.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -228,6 +228,7 @@
     },
     "single_image_DYGjaQ": {
       "type": "single-image",
+      "disabled": true,
       "settings": {
         "link": "",
         "image": "shopify://shop_images/08_76a20882-e5e5-4ac3-b148-b4a927dbb1f3.jpg",
