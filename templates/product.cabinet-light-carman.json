@@ -1,0 +1,499 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "enable_opposite_theme": true
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "2b609eea-6cce-4efe-b447-c5560de1d797": {
+          "type": "label",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": false
+          }
+        },
+        "loox_reviews_loox_rating_9g3aA7": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "#2c2d2e",
+            "starColor": "#ff9529",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "separator_qJEjWC": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_use_variants": false,
+            "variant_is_disabled": true,
+            "sizing_guide_variant": "Size",
+            "sizing_guide_text": "",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "386f7e4a-6127-4141-928b-9cb4614ee18c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "open": false,
+            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA:3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty",
+            "open": false,
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {}
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {}
+        },
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "product_list_limit": 3
+          }
+        }
+      },
+      "block_order": [
+        "2b609eea-6cce-4efe-b447-c5560de1d797",
+        "title",
+        "loox_reviews_loox_rating_9g3aA7",
+        "separator_qJEjWC",
+        "variant_picker",
+        "quantity",
+        "buy_buttons",
+        "386f7e4a-6127-4141-928b-9cb4614ee18c",
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34"
+      ],
+      "settings": {
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "enable_image_change": false,
+        "button_1_title": "",
+        "button_2_title": ""
+      }
+    },
+    "video_qgkcxX": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "heading": "",
+        "cover_title": "",
+        "cover_image": "shopify://shop_images/1_4af32aa9-0028-4450-aa7d-6db183d2c986.jpg",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
+        "video": "",
+        "video_hosted": "shopify://files/videos/Video 1 (2).mp4",
+        "video_hosted_mobile": "shopify://files/videos/Video 1 (2).mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-auto",
+        "aspect_ratio": "16-9",
+        "marker_color": "#FD6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
+      }
+    },
+    "product_slideshow_KiyeDU": {
+      "type": "product-slideshow",
+      "blocks": {
+        "slide_HTXc3c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_6922a421-1cbd-4763-9682-593c32d6a9f3.jpg",
+            "mobile_image": "shopify://shop_images/1_a578e85c-5d71-40cd-a907-47c5d733b72e.jpg",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "",
+            "video_background": false,
+            "title": "Find Your Style in Perfect Light",
+            "badge_text": "",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
+            "heading_size": "h1",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "Shop Now",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_9PVAji": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_507be7d0-6704-4bd7-9e03-43b1edfe34a0.jpg",
+            "mobile_image": "shopify://shop_images/3_245c555e-7d1c-4221-b781-81f1f681e444.jpg",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "",
+            "video_background": false,
+            "title": "Light Your Path, Step by Step",
+            "badge_text": "",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
+            "heading_size": "h1",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "Shop Now",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_rmHWaF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2_b5fce18c-74a3-4223-9bc5-5f55c038cd7c.jpg",
+            "mobile_image": "shopify://shop_images/2_a842ccdb-6ba1-4b62-811f-28fb4eab9441.jpg",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "",
+            "video_background": false,
+            "title": "Soft, Smart Light for Every Sip",
+            "badge_text": "",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
+            "heading_size": "h1",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "Shop Now",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_HTXc3c",
+        "slide_9PVAji",
+        "slide_rmHWaF"
+      ],
+      "settings": {
+        "title": "",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-500",
+        "full_width": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "transition": "slide",
+        "controls": "arrows",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_94iCf4": {
+      "type": "single-image",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/1_4af32aa9-0028-4450-aa7d-6db183d2c986.jpg",
+        "image_mobile": "shopify://shop_images/1_4f633486-025a-4740-8c58-563da96688ae.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_cGkjAk": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/3_61bdb4dd-8090-4595-a23f-f5238e4d8bd1.jpg",
+        "image_mobile": "shopify://shop_images/3_0e6b2d4c-50fa-47d8-abda-b63c7ef26a58.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_UzKaPx": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/4_911531b2-38ea-47c8-8e55-1c9509ac45a9.jpg",
+        "image_mobile": "shopify://shop_images/1_4f633486-025a-4740-8c58-563da96688ae.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_VPNBDW": {
+      "type": "single-image",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/7_658736f6-e2cc-488f-beca-4b69dbb29882.jpg",
+        "image_mobile": "shopify://shop_images/7_d16c8571-099a-43fa-a2b9-9fc577468c53.jpg",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_XDaNAX": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/5_2ce7f007-6fcf-4594-a648-3d94f50a10ba.jpg",
+        "image_mobile": "shopify://shop_images/5_e55de8e8-8966-4c07-8304-5693914865dc.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_yDNXYx": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/6_881f366d-36ec-4126-834a-e04127d6b1fb.jpg",
+        "image_mobile": "shopify://shop_images/6_ebf92a1d-8f51-43f2-b85b-8a6fde1cef26.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_LazWP6": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/7_658736f6-e2cc-488f-beca-4b69dbb29882.jpg",
+        "image_mobile": "shopify://shop_images/7_d16c8571-099a-43fa-a2b9-9fc577468c53.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_gjtYiW": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/8_270d1bf8-ef14-4dcb-8539-000bd3bc04b5.jpg",
+        "image_mobile": "shopify://shop_images/8_d2e64ebd-f44d-4eb1-848d-789152413784.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_iPP9z3": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/9_bc5f1c27-c6c0-494c-bffa-64abb44c29dc.jpg",
+        "image_mobile": "shopify://shop_images/9_e86bfeef-c343-4e87-be76-0c929d1aadff.jpg",
+        "full_width": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "rich_text_igCzBP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WVbABB": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer Reviews",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WVbABB"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1712003137212dc6f8": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_c8aEVF": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 10,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
+      "settings": {}
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "description": "<p>Combine your style with these products</p>",
+        "mobile_swipe": true,
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false,
+        "show_cover": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "video_qgkcxX",
+    "product_slideshow_KiyeDU",
+    "single_image_94iCf4",
+    "single_image_cGkjAk",
+    "single_image_UzKaPx",
+    "single_image_VPNBDW",
+    "single_image_XDaNAX",
+    "single_image_yDNXYx",
+    "single_image_LazWP6",
+    "single_image_gjtYiW",
+    "single_image_iPP9z3",
+    "rich_text_igCzBP",
+    "1712003137212dc6f8",
+    "product-recommendations"
+  ]
+}
