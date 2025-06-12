@@ -137,6 +137,7 @@
     },
     "video_qgkcxX": {
       "type": "video",
+      "disabled": true,
       "name": "Video",
       "settings": {
         "heading": "",
@@ -154,7 +155,7 @@
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-auto",
         "aspect_ratio": "16-9",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "halloween_skull_flag": false,
@@ -284,6 +285,7 @@
         "slide_9PVAji",
         "slide_rmHWaF"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "desktop_height": "desktop-height-auto",
@@ -315,8 +317,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/3_61bdb4dd-8090-4595-a23f-f5238e4d8bd1.jpg",
-        "image_mobile": "shopify://shop_images/3_0e6b2d4c-50fa-47d8-abda-b63c7ef26a58.jpg",
+        "image": "shopify://shop_images/2x.png",
+        "image_mobile": "shopify://shop_images/2x.png",
         "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
@@ -328,8 +330,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/4_911531b2-38ea-47c8-8e55-1c9509ac45a9.jpg",
-        "image_mobile": "shopify://shop_images/1_4f633486-025a-4740-8c58-563da96688ae.jpg",
+        "image": "shopify://shop_images/29_2x_1.png",
+        "image_mobile": "shopify://shop_images/29_2x_1.png",
         "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
@@ -355,8 +357,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/5_2ce7f007-6fcf-4594-a648-3d94f50a10ba.jpg",
-        "image_mobile": "shopify://shop_images/5_e55de8e8-8966-4c07-8304-5693914865dc.jpg",
+        "image": "shopify://shop_images/In_a_dim_environment_the_light_turns_on_automatically_when_you_2x_e4ec2130-4c53-4b4f-8528-db126ce618c3.png",
+        "image_mobile": "shopify://shop_images/In_a_dim_environment_the_light_turns_on_automatically_when_you_2x_e4ec2130-4c53-4b4f-8528-db126ce618c3.png",
         "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
@@ -368,8 +370,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/6_881f366d-36ec-4126-834a-e04127d6b1fb.jpg",
-        "image_mobile": "shopify://shop_images/6_ebf92a1d-8f51-43f2-b85b-8a6fde1cef26.jpg",
+        "image": "shopify://shop_images/2_2x_51e1a998-d755-4f0d-a2de-bd443a77ea0a.png",
+        "image_mobile": "shopify://shop_images/2_2x_51e1a998-d755-4f0d-a2de-bd443a77ea0a.png",
         "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
@@ -381,8 +383,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/7_658736f6-e2cc-488f-beca-4b69dbb29882.jpg",
-        "image_mobile": "shopify://shop_images/7_d16c8571-099a-43fa-a2b9-9fc577468c53.jpg",
+        "image": "shopify://shop_images/When_the_ambient_temperature_is_close_to_the_human_body_tempera_2x_c4ff7a51-880c-46c4-979b-66553499c8c2.png",
+        "image_mobile": "shopify://shop_images/When_the_ambient_temperature_is_close_to_the_human_body_tempera_2x_c4ff7a51-880c-46c4-979b-66553499c8c2.png",
         "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
@@ -394,8 +396,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/8_270d1bf8-ef14-4dcb-8539-000bd3bc04b5.jpg",
-        "image_mobile": "shopify://shop_images/8_d2e64ebd-f44d-4eb1-848d-789152413784.jpg",
+        "image": "shopify://shop_images/1_2x_4beadc23-46cf-47c8-abd2-fbddcebf8712.png",
+        "image_mobile": "shopify://shop_images/1_2x_4beadc23-46cf-47c8-abd2-fbddcebf8712.png",
         "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
@@ -407,8 +409,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/9_bc5f1c27-c6c0-494c-bffa-64abb44c29dc.jpg",
-        "image_mobile": "shopify://shop_images/9_e86bfeef-c343-4e87-be76-0c929d1aadff.jpg",
+        "image": "shopify://shop_images/1_2x_1.png",
+        "image_mobile": "shopify://shop_images/57.png",
         "full_width": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
