@@ -1,22 +1,4 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
-/*
  * ------------------------------------------------------------
  * IMPORTANT: The contents of this file are auto-generated.
  *
@@ -147,7 +129,10 @@
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "enable_image_change": false,
+        "button_1_title": "",
+        "button_2_title": ""
       }
     },
     "rich_text_pfQJFc": {
@@ -171,7 +156,10 @@
           }
         }
       },
-      "block_order": ["heading_VLRYEb", "text_m74TmP"],
+      "block_order": [
+        "heading_VLRYEb",
+        "text_m74TmP"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -184,30 +172,105 @@
         "disable_bottom_spacing": true
       }
     },
-    "single_image_XWnBgX": {
-      "type": "single-image",
-      "settings": {
-        "image": "shopify://shop_images/Frame_1686633192.png",
-        "image_mobile": "shopify://shop_images/Yeelight_Ultra-Thin_Cabinet_Light-Mobile_09_a7a7f150-2f39-4e3d-b7ba-9b585c7c7c42.jpg",
-        "full_width": false,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
     "video_gWiArh": {
       "type": "video",
       "settings": {
         "heading": "",
+        "cover_title": "",
         "marker_style": "style1",
         "description": "",
         "full_width": false,
         "video": "",
         "video_hosted": "shopify://files/videos/Yeelight Cabinet Light.mp4",
         "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-400",
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
+      }
+    },
+    "single_image_XWnBgX": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Frame_1686633192.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Ultra-Thin_Cabinet_Light-Mobile_09_a7a7f150-2f39-4e3d-b7ba-9b585c7c7c42.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_CkC8cB": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/6c15bde9d79e941d752b3c0c243c3eb3.jpg",
+        "image_mobile": "shopify://shop_images/2_159a21f1-5b46-4953-ac5e-4b1112c69acb.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_GF4Egg": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/2_df1ff74d-1dec-4d2d-8ee7-6e88e5a0a319.jpg",
+        "image_mobile": "shopify://shop_images/3_c8c643a6-0335-4f84-b1df-99fa8b36e495.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_V4NKH4": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/3_b5f5f282-c904-4f3e-bacc-fad1b334c3f6.jpg",
+        "image_mobile": "shopify://shop_images/4_371da2ab-612a-4064-a5e0-9a667b591c49.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_XeEmMr": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/5_45fc2bc8-80e1-4284-973c-f287ee8529cd.jpg",
+        "image_mobile": "shopify://shop_images/5_8f2a5bff-c286-4570-ae6e-7d1e48a8d0c5.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_fr3X8G": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/6_d66b5a85-04c7-4c0e-96ff-d5f73985a57e.jpg",
+        "image_mobile": "shopify://shop_images/7_f492408f-0b6f-4805-8480-7032932dd2de.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "image_with_text_AQWUFj": {
@@ -223,7 +286,10 @@
           }
         }
       },
-      "block_order": ["heading_48yCex"],
+      "block_order": [
+        "heading_48yCex"
+      ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/3_1aa27fdf-0ac2-40ac-a547-166c457b815a.png",
         "use_video": false,
@@ -261,7 +327,11 @@
           }
         }
       },
-      "block_order": ["heading_KEVgGg", "text_KPGNjR"],
+      "block_order": [
+        "heading_KEVgGg",
+        "text_KPGNjR"
+      ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/2_df5f5a66-527a-48b1-b888-49d20975657a.png",
         "use_video": false,
@@ -299,7 +369,11 @@
           }
         }
       },
-      "block_order": ["heading_ApQJta", "text_gjML7W"],
+      "block_order": [
+        "heading_ApQJta",
+        "text_gjML7W"
+      ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/f05fda099e52d22720ed3da6d63976aa_3a065c8e-094c-4bd0-883f-e00452dcd496.png",
         "use_video": false,
@@ -337,7 +411,11 @@
           }
         }
       },
-      "block_order": ["heading_tXFyCk", "text_KkVz98"],
+      "block_order": [
+        "heading_tXFyCk",
+        "text_KkVz98"
+      ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/cabinet_light-3.jpg",
         "use_video": false,
@@ -375,7 +453,11 @@
           }
         }
       },
-      "block_order": ["heading_kJNeh9", "text_PXkxLL"],
+      "block_order": [
+        "heading_kJNeh9",
+        "text_PXkxLL"
+      ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/f05fda099e52d22720ed3da6d63976aa_aa203824-18e1-4780-9d01-b6c452e1a271.png",
         "use_video": false,
@@ -413,7 +495,11 @@
           }
         }
       },
-      "block_order": ["heading_fwk76H", "text_UF3LxX"],
+      "block_order": [
+        "heading_fwk76H",
+        "text_UF3LxX"
+      ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/06.png",
         "use_video": false,
@@ -445,7 +531,10 @@
           }
         }
       },
-      "block_order": ["heading_gfEpbh"],
+      "block_order": [
+        "heading_gfEpbh"
+      ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/pic.png",
         "use_video": false,
@@ -483,7 +572,11 @@
           }
         }
       },
-      "block_order": ["heading_Mn93de", "text_3hgbzQ"],
+      "block_order": [
+        "heading_Mn93de",
+        "text_3hgbzQ"
+      ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Frame_1686633177.png",
         "use_video": false,
@@ -527,7 +620,10 @@
           }
         }
       },
-      "block_order": ["tab_zPhe9b", "tab_RkmYzT"],
+      "block_order": [
+        "tab_zPhe9b",
+        "tab_RkmYzT"
+      ],
       "settings": {
         "heading": "Tech Spec",
         "marker_style": "style1",
@@ -556,7 +652,9 @@
           }
         }
       },
-      "block_order": ["heading_WVbABB"],
+      "block_order": [
+        "heading_WVbABB"
+      ],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -584,7 +682,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
       "settings": {}
     },
     "product-recommendations": {
@@ -596,7 +696,8 @@
         "product_limit": 4,
         "columns_desktop": 4,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "show_cover": false
       }
     }
   },
@@ -604,8 +705,13 @@
     "breadcrumbs",
     "main-product",
     "rich_text_pfQJFc",
-    "single_image_XWnBgX",
     "video_gWiArh",
+    "single_image_XWnBgX",
+    "single_image_CkC8cB",
+    "single_image_GF4Egg",
+    "single_image_V4NKH4",
+    "single_image_XeEmMr",
+    "single_image_fr3X8G",
     "image_with_text_AQWUFj",
     "image_with_text_64JdNJ",
     "image_with_text_tmbbPn",

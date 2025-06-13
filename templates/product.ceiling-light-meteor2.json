@@ -161,49 +161,11 @@
     "product_slideshow_ahQAiP": {
       "type": "product-slideshow",
       "blocks": {
-        "slide_r4cLYH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Mercury_PC_-_01.png",
-            "mobile_image": "shopify://shop_images/Mercury_M_-01.png",
-            "slide_link": "",
-            "button_icon": "",
-            "button_text": "For Porch",
-            "video_background": false,
-            "title": "",
-            "badge_text": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "color_slidebg": "rgba(0,0,0,0)",
-            "color_slidebg_opacity": 0,
-            "color_slidebg_blur": 20,
-            "color_text": "#2c2d2e",
-            "color_badge_bg": "#3f72e5",
-            "color_badge_text": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 70,
-            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
-            "button_1_text": "",
-            "button_1_color": "accent",
-            "button_1_link": "",
-            "use_text_button_1": false,
-            "button_2_text": "",
-            "button_2_color": "white",
-            "button_2_link": "",
-            "use_text_button_2": false
-          }
-        },
         "slide_Re8Uxn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Mercury_PC_-_04.png",
-            "mobile_image": "shopify://shop_images/Mercury_M_-04.png",
+            "image": "shopify://shop_images/Living_Room.png",
+            "mobile_image": "shopify://shop_images/01_37e67dc2-563c-4064-b7ca-9bdcf4060c96.png",
             "slide_link": "",
             "button_icon": "",
             "button_text": "For Living Room",
@@ -237,11 +199,49 @@
             "use_text_button_2": false
           }
         },
+        "slide_r4cLYH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Hallway.png",
+            "mobile_image": "shopify://shop_images/04_f0c7dae5-c9fd-4bfc-9ba6-365fdcdc1376.png",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "For Porch",
+            "video_background": false,
+            "title": "",
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
         "slide_UqXJwU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Mercury_PC_-_02.png",
-            "mobile_image": "shopify://shop_images/Mercury_M_-02.png",
+            "image": "shopify://shop_images/Bedroom.png",
+            "mobile_image": "shopify://shop_images/02_4b5b52ce-e173-4c2b-921c-0165f2f0cf55.png",
             "slide_link": "",
             "button_icon": "",
             "button_text": "  For Bedroom",
@@ -278,11 +278,11 @@
         "slide_idmXF7": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Mercury_PC_-_03.png",
-            "mobile_image": "shopify://shop_images/Mercury_M_-03.png",
+            "image": "shopify://shop_images/Kitchen.png",
+            "mobile_image": "shopify://shop_images/03_d589c8e6-6631-4981-ba19-d41931157ede.png",
             "slide_link": "",
             "button_icon": "",
-            "button_text": "For Dining Room",
+            "button_text": "For Kitchen",
             "video_background": false,
             "title": "",
             "badge_text": "",
@@ -315,18 +315,18 @@
         }
       },
       "block_order": [
-        "slide_r4cLYH",
         "slide_Re8Uxn",
+        "slide_r4cLYH",
         "slide_UqXJwU",
         "slide_idmXF7"
       ],
       "settings": {
-        "title": "Yeelight Smart Ceiling Light Mercury",
+        "title": "Yeelight Smart Ceiling Light Meteor",
         "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-500",
-        "full_width": true,
-        "autoplay": false,
-        "autoplay_length": 5,
+        "full_width": false,
+        "autoplay": true,
+        "autoplay_length": 3,
         "transition": "slide",
         "controls": "dots",
         "disable_top_spacing": false,
@@ -337,8 +337,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_01.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_01.png",
+        "image": "shopify://shop_images/Meteor_PC01.png",
+        "image_mobile": "shopify://shop_images/01_ee1895d4-eedb-4e75-9219-5077cf8ac57b.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -350,8 +350,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_02.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_02.png",
+        "image": "shopify://shop_images/Meteor_PC02.png",
+        "image_mobile": "shopify://shop_images/02_20e9513f-1f69-409a-8eff-9dfd577813b2.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -363,8 +363,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_03.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_03.png",
+        "image": "shopify://shop_images/Meteor_PC04.png",
+        "image_mobile": "shopify://shop_images/05_01f7ea5b-255d-4f21-85cd-71be2230878f.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -376,21 +376,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_04.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_04.png",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
-    "single_image_UwbPnd": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_05_d7e759b8-e3f4-4574-a5ae-ae8aecdecab0.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_05_585e077f-48ba-48bb-92c9-92244a7a6e02.png",
+        "image": "shopify://shop_images/Meteor_PC05.png",
+        "image_mobile": "shopify://shop_images/04_48153aa2-b3e0-4497-8d2f-89378d99733e.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -402,8 +389,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_07_b8ccfbf1-9694-4041-b105-e39195ecb4d7.png",
-        "image_mobile": "shopify://shop_images/Mercury_-M_07_ed5d8b65-347e-4d8a-9e86-02e45be6ead8.png",
+        "image": "shopify://shop_images/Meteor_PC07_7d04659b-419a-4129-8a3e-312e0d23a29b.png",
+        "image_mobile": "shopify://shop_images/07_01f2b07b-832f-4d39-9cd5-c2c1b88d63a8.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -413,10 +400,23 @@
     },
     "single_image_UpVXxB": {
       "type": "single-image",
-      "disabled": true,
       "settings": {
         "link": "",
-        "image_mobile": "shopify://shop_images/Mercury_-PC_08.png",
+        "image": "shopify://shop_images/Meteor_PC08.png",
+        "image_mobile": "shopify://shop_images/08_810d0561-5336-4b77-bafd-c52e24f71a23.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_UwbPnd": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Meteor_PC06_0c85a27d-24cc-416e-b67d-806d2816e795.png",
+        "image_mobile": "shopify://shop_images/Meteor_PC06_0c85a27d-24cc-416e-b67d-806d2816e795.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -426,15 +426,72 @@
     },
     "single_image_Txw9w7": {
       "type": "single-image",
+      "disabled": true,
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Mercury_-PC_08.png",
-        "image_mobile": "shopify://shop_images/20250521-140908.png",
+        "image": "shopify://shop_images/Meteor_PC09.png",
+        "image_mobile": "shopify://shop_images/09_6d0a52de-679e-4ec3-95c8-c4a0fa8cdb05.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
         "activity_wyze": false,
         "activity_icon": false
+      }
+    },
+    "product_info_table_irgyXL": {
+      "type": "product-info-table",
+      "blocks": {
+        "product_qKJNEp": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0218",
+            "product_image": "shopify://shop_images/Meteor01.png",
+            "specifications_content": "3000K-6500K/,/Approx. 50000h/,/12W/,/1200lm/,/220-240V~50/60Hz 0.08A   /,/230mm*30mm/,/9m²"
+          }
+        },
+        "product_fyKjcy": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0219",
+            "product_image": "shopify://shop_images/Meteor01.png",
+            "specifications_content": "3000K-6500K/,/Approx. 50000h/,/18W/,/1800lm/,/220-240V~50/60Hz 0.12A   /,/300mm*30mm/,/13m²"
+          }
+        },
+        "product_wwG3fD": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0220",
+            "product_image": "shopify://shop_images/Meteor01.png",
+            "specifications_content": "3000K-6500K/,/Approx. 50000h/,/24W/,/2400lm/,/220-240V~50/60Hz 0.16A   /,/400mm*30mm/,/18m²"
+          }
+        },
+        "product_g6hqnC": {
+          "type": "product",
+          "settings": {
+            "model_name": "YLXDD-0221",
+            "product_image": "shopify://shop_images/Meteor01.png",
+            "specifications_content": "3000K-6500K/,/Approx. 50000h/,/36W/,/3600lm/,/220-240V~50/60Hz 0.18A&nbsp&nbsp&nbsp/,/500mm*30mm/,/26m²"
+          }
+        }
+      },
+      "block_order": [
+        "product_qKJNEp",
+        "product_fyKjcy",
+        "product_wwG3fD",
+        "product_g6hqnC"
+      ],
+      "name": "Product Info Table",
+      "settings": {
+        "heading": "Specifications",
+        "description": "",
+        "text_color": "#ffffff",
+        "model_text_color": "#ffffff",
+        "spec_label_color": "#cccccc",
+        "spec_value_color": "#ffffff",
+        "padding": "40px 20px",
+        "font_family": "Arial, sans-serif",
+        "specifications": "CCT/,/Life Span/,/Rated Power/,/Luminous Flux/,/Rated Input/,/Dimensions/,/Applicable Area",
+        "show_image": true
       }
     },
     "rich_text_6mPtPi": {
@@ -800,10 +857,11 @@
     "single_image_8Areip",
     "single_image_bNVALU",
     "single_image_YFNLfJ",
-    "single_image_UwbPnd",
     "single_image_FC7Fnr",
     "single_image_UpVXxB",
+    "single_image_UwbPnd",
     "single_image_Txw9w7",
+    "product_info_table_irgyXL",
     "rich_text_6mPtPi",
     "1712003137212dc6f8",
     "single_image_FGkhTr",

@@ -1,0 +1,198 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.new-arrival.json",
+  "context": {
+    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
+  },
+  "sections": {
+    "main": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_g3UUwH": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_Pn6pPg": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "image_with_text_overlay_Ux9w6": {
+      "type": "image-with-text-overlay",
+      "disabled": false,
+      "settings": {
+        "image": "shopify://shop_images/49.png",
+        "mobile_image": null,
+        "image_parallax": false,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-345",
+        "full_width": true,
+        "content_width": "small",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "header-6c67183e30ca7b83e037934ca23eb4e3": null,
+        "text_color": "#FFFFFF",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "header-92c8e4459fcce849a94a90765779187a": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      },
+      "blocks": {
+        "heading_LhCDg": {
+          "type": "heading",
+          "disabled": false,
+          "settings": {
+            "text": "New Arrivals",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "text_M7G3d": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "text": "",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LhCDg",
+        "text_M7G3d"
+      ],
+      "name": "Image with text overlay"
+    },
+    "activity_new_year_di8mPj": {
+      "settings": {
+        "title": "",
+        "show_icon": false
+      },
+      "blocks": {
+        "product_PLDXRU": {
+          "settings": {
+            "product": "yeelight-rgb-night-light-vega"
+          }
+        },
+        "product_qeiKJQ": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-aires"
+          }
+        },
+        "product_R6hT4c": {
+          "settings": {
+            "product": "yeelight-rechargeable-light-sensor-nightlight-polaris"
+          }
+        },
+        "product_ede9rb": {
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        }
+      }
+    },
+    "rich_text_7JpWaV": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "173148591784123612": {
+      "settings": {},
+      "blocks": {
+        "loox_reviews_loox_agg_section_QX3hBc": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
+    },
+    "featured_product_br7nW": {
+      "type": "featured-product",
+      "disabled": false,
+      "settings": {
+        "heading": "Featured product",
+        "marker_style": "style1",
+        "description": "",
+        "header-c0e702c9193dbe49264b04cd9b2f68b6": null,
+        "product": "yeelight-monitor-light-bar-aires",
+        "show_taxes_included": true,
+        "header-df987d4b6b201aff6adcd74979e9d755": null,
+        "paragraph-c31c3ca418ac2566facd2d1efa347dbc": null,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "header-0054ccc9501835857caa3cca49528bdf": null,
+        "marker_color": "#FD6262",
+        "header-4db9a6eb27e5696da259fcdc11322365": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      },
+      "blocks": {
+        "title_kxyjj": {
+          "type": "title",
+          "disabled": false,
+          "settings": {
+            "show_products_rating": false
+          }
+        },
+        "variant_picker_gzag6": {
+          "type": "variant_picker",
+          "disabled": false,
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_use_variants": false,
+            "variant_is_disabled": true,
+            "sizing_guide_text": "Sizing guide",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "quantity_38XTc": {
+          "type": "quantity",
+          "disabled": false,
+          "settings": {
+            "paragraph-ac3b76bb32ffbc7e1c096f0d2bd9a0a6": null
+          }
+        },
+        "buy_buttons_98tGR": {
+          "type": "buy_buttons",
+          "disabled": false,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "title_kxyjj",
+        "variant_picker_gzag6",
+        "quantity_38XTc",
+        "buy_buttons_98tGR"
+      ],
+      "name": "Featured product"
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "single_image_Pn6pPg",
+    "image_with_text_overlay_Ux9w6",
+    "activity_new_year_di8mPj",
+    "featured_product_br7nW",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
+}

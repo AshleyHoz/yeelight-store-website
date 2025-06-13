@@ -1,0 +1,185 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.midsummer.json",
+  "context": {
+    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
+  },
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC_dde2359e-e335-485d-b387-2e08d998e095.png"
+      },
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title": "Light Up Your Longest Day & Brightest Night",
+        "title_icon": "",
+        "left_icon": ""
+      },
+      "blocks": {
+        "product_8VyVNY": {
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-rgb-night-light-vega"
+          }
+        }
+      },
+      "block_order": [
+        "product_WMhTBk",
+        "product_8VyVNY",
+        "product_dFcCKK",
+        "product_NEXyJH"
+      ]
+    },
+    "single_image_ait7g": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/banner-PC_-1.png",
+        "image_mobile": "shopify://shop_images/banner-M_-1.png",
+        "full_width": true,
+        "header-df126bbad66d1e1603f1345adb0f8671": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-6871c9e23ad1c58dcaba0baeea3c4253": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Single image"
+    },
+    "activity_valentine_N943U7": {
+      "settings": {
+        "title_icon": "",
+        "title": "",
+        "left_icon": "",
+        "right_icon": ""
+      },
+      "blocks": {
+        "product_ikGnam": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        },
+        "product_GxKGKM": {
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        },
+        "product_WjGkfF": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_UNaT86": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-aires"
+          }
+        },
+        "product_wtezBt": {
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_wR3qDg": {
+          "settings": {
+            "product": "yeelight-smart-led-lamp-d2"
+          }
+        }
+      }
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_valentine_yicPz": {
+      "type": "activity-valentine",
+      "disabled": false,
+      "settings": {
+        "title": "New Arrivals",
+        "title_icon": "",
+        "image": null,
+        "image_mobile": null,
+        "background_image": null,
+        "background_image_mobile": null,
+        "show_icon": false,
+        "header-f19459f5d714ff75edafb425856b3e88": null,
+        "left_x_position": 0,
+        "left_y_position": 0,
+        "left_icon_image": null,
+        "left_icon": "",
+        "header-f5934c99151f810adc3e966a525fe841": null,
+        "right_x_position": 0,
+        "right_y_position": 0,
+        "right_icon_image": null,
+        "right_icon": "",
+        "header-d4ef0bf44abd4f159e653599bba26f06": null,
+        "show_cover": false
+      },
+      "blocks": {
+        "product_pwERn": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-rgb-night-light-vega"
+          }
+        },
+        "product_8kFha": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        },
+        "product_b3YAP": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-monitor-light-bar-aires"
+          }
+        }
+      },
+      "block_order": [
+        "product_pwERn",
+        "product_8kFha",
+        "product_b3YAP"
+      ],
+      "name": "Activity Valentine"
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "activity_valentine_JaTgDy",
+    "single_image_ait7g",
+    "activity_valentine_N943U7",
+    "single_image_RbrWWD",
+    "activity_valentine_yicPz",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
+}

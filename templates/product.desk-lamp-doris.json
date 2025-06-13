@@ -76,7 +76,7 @@
           "settings": {
             "heading": "Shipping",
             "open": false,
-            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>USA: 3-7 Business Days</li><li>Europe: 7-10 Business Days</li></ul>",
+            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>Europe: 7-10 Business Days</li></ul>",
             "page": "",
             "custom_liquid": ""
           }
@@ -135,52 +135,12 @@
         "button_2_title": ""
       }
     },
-    "video_ciyhef": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "heading": "",
-        "cover_title": "",
-        "cover_image": "shopify://shop_images/Vega_1.jpg",
-        "marker_style": "style1",
-        "description": "",
-        "full_width": false,
-        "video": "",
-        "video_hosted": "shopify://files/videos/Video 1.mp4",
-        "video_hosted_mobile": "shopify://files/videos/vega9.16.mp4",
-        "video_autoplay": true,
-        "video_loop": true,
-        "video_controls": true,
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-400",
-        "aspect_ratio": "16-9",
-        "marker_color": "#fd6262",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false,
-        "halloween_skull_flag": false,
-        "black_friday_ui_flag": false
-      }
-    },
-    "single_image_g4CiQU": {
-      "type": "single-image",
-      "disabled": true,
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/Vega_1.jpg",
-        "image_mobile": "shopify://shop_images/1_3f050450-3b4b-4310-a233-781419017eb8.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
     "single_image_mtTtz8": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Vega_2.jpg",
-        "image_mobile": "shopify://shop_images/2_b57a5326-e095-4ae5-80f3-3864604176af.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_1_c726ebd7-98f4-4a41-81ff-e427547d8d38.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_1_c726ebd7-98f4-4a41-81ff-e427547d8d38.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -192,8 +152,34 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Vega_3.jpg",
-        "image_mobile": "shopify://shop_images/3_dafc4ca2-942b-4e47-a3c1-da22800f0d91.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_5.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_5.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_xpAebN": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_4.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_4.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_g4CiQU": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_3.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_3.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -205,8 +191,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Vega_5.jpg",
-        "image_mobile": "shopify://shop_images/5_2a9ef153-ea23-4c55-ae5a-a8100eaeffcd.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_2.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_2.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -218,8 +204,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Vega_6.jpg",
-        "image_mobile": "shopify://shop_images/6_87d1ab63-a773-4ffd-9a18-52b85e8ffc47.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_6.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_6.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -227,12 +213,12 @@
         "activity_icon": false
       }
     },
-    "single_image_UrkT4K": {
+    "single_image_8TkYG3": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Vega_7.jpg",
-        "image_mobile": "shopify://shop_images/04_5700ecda-7a52-4271-bdd3-3f6c68c57086.jpg",
+        "image": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_8.png",
+        "image_mobile": "shopify://shop_images/Yeelight_Staria_Bedside_Lamp_Pro-pc_8.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -240,12 +226,13 @@
         "activity_icon": false
       }
     },
-    "single_image_4jwYRE": {
+    "single_image_DYGjaQ": {
       "type": "single-image",
+      "disabled": true,
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Vega_8.jpg",
-        "image_mobile": "shopify://shop_images/8_dc1dcb11-8b90-4a0e-b68e-c172cb1dc487.jpg",
+        "image": "shopify://shop_images/08_76a20882-e5e5-4ac3-b148-b4a927dbb1f3.jpg",
+        "image_mobile": "shopify://shop_images/08_267bc6af-2ebc-4646-a3f3-d5c1e2d035f6.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -318,14 +305,14 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "video_ciyhef",
-    "single_image_g4CiQU",
     "single_image_mtTtz8",
     "single_image_CiE9F9",
+    "single_image_xpAebN",
+    "single_image_g4CiQU",
     "single_image_k6gWJB",
     "single_image_nbhytB",
-    "single_image_UrkT4K",
-    "single_image_4jwYRE",
+    "single_image_8TkYG3",
+    "single_image_DYGjaQ",
     "rich_text_igCzBP",
     "1712003137212dc6f8",
     "product-recommendations"

@@ -8,16 +8,27 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "collection.json",
+  "parent": "collection.top-sellers.json",
   "context": {
-    "market": "europe"
+    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
   "sections": {
     "image_with_text_overlay_8jXp9g": {
-      "disabled": false,
       "settings": {
         "image": "shopify://shop_images/banner_7615363b-c3b0-45d1-a5bb-a1c9b3af3573.jpg",
         "mobile_image": "shopify://shop_images/594_x_475.png"
+      },
+      "blocks": {
+        "heading_HhgdPq": {
+          "settings": {
+            "text": "Top Sellers"
+          }
+        }
+      }
+    },
+    "product-grid": {
+      "settings": {
+        "enable_filtering": false
       },
       "blocks": {}
     }
