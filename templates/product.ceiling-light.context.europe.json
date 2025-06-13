@@ -12,7 +12,16 @@
   "context": {
     "market": "europe"
   },
-  "sections": {},
+  "sections": {
+    "video_CwEDhk": {
+      "settings": {
+        "disable_bottom_spacing": true,
+        "disable_top_spacing": true,
+        "full_width": true
+      },
+      "blocks": {}
+    }
+  },
   "order": [
     "breadcrumbs",
     "main-product",
