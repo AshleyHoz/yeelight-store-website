@@ -158,6 +158,30 @@
         "button_2_title": ""
       }
     },
+    "video_fXGy4R": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "heading": "",
+        "cover_title": "",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
+        "video": "",
+        "video_hosted": "shopify://files/videos/JupiterD吸顶灯-有网址版本.mp4",
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-auto",
+        "aspect_ratio": "16-9",
+        "marker_color": "#FD6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
+      }
+    },
     "product_slideshow_ahQAiP": {
       "type": "product-slideshow",
       "blocks": {
@@ -282,14 +306,14 @@
         "slide_UqXJwU"
       ],
       "settings": {
-        "title": "Yeelight Smart Ceiling Light Mercury",
+        "title": "",
         "desktop_height": "desktop-height-auto",
         "mobile_height": "mobile-height-400",
         "full_width": true,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_length": 5,
         "transition": "slide",
-        "controls": "dots",
+        "controls": "arrows",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -756,6 +780,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
+    "video_fXGy4R",
     "product_slideshow_ahQAiP",
     "single_image_3kkr3Y",
     "single_image_8Areip",
