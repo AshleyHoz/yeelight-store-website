@@ -1,1 +1,278 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"text_dNwVVJ":{"type":"text","disabled":true,"settings":{"background_image":"shopify:\/\/shop_images\/NewYearAnnouncementBg.png","background_image_mobile":"shopify:\/\/shop_images\/NewYearAnnouncementBgMobile.png","icon":"none","text":"Start the Year in Style","sub_text":"UP TO 40% OFF","link":"","button_text":"Shop Now","button_color":"accent","button_link":"shopify:\/\/pages\/new-year-sales","use_text_button":false,"color_bg":"#3f72e5","color_text":"#ffffff"}},"955bb93b-7a65-4933-8023-83a64ee46bc2":{"type":"text","disabled":true,"settings":{"background_image":"shopify:\/\/shop_images\/ChristmasAnnouncementBg.png","background_image_mobile":"shopify:\/\/shop_images\/ChristmasAnnouncementBgMobile.png","icon":"none","text":"Bring the Festive Magic Home","sub_text":"UP TO 50% OFF","link":"","button_text":"Shop Now","button_color":"white","button_link":"shopify:\/\/pages\/christmas-sales","use_text_button":false,"color_bg":"#3f72e5","color_text":"#ffffff"}},"text_qr4nfc":{"type":"text","settings":{"background_image":"shopify:\/\/shop_images\/ValentineAnnouncementBarBg.png","background_image_mobile":"shopify:\/\/shop_images\/ValentineAnnouncementBarBgMobile.png","icon":"none","text":"Glow with Love","sub_text":"UP TO 35% OFF","link":"","button_text":"Shop Now","button_color":"accent","button_link":"shopify:\/\/pages\/valentine-sales","use_text_button":false,"color_bg":"#3f72e5","color_text":"#ffffff"}}},"block_order":["text_dNwVVJ","955bb93b-7a65-4933-8023-83a64ee46bc2","text_qr4nfc"],"disabled":true,"settings":{"announcement_bar":true,"announcement_bar_homepage_only":false,"announcement_bar_layout":"single","direction":"left","speed":"50s","use_block_colors":false,"autoplay":true,"autoplay_length":3,"background_color":"rgba(0,0,0,0)"}},"info_bar_9bWAay":{"type":"info-bar","blocks":{"text_ACm6Rt":{"type":"text","settings":{"icon":"custom-service","text":"Free Shipping","link":""}},"text_PWxYtC":{"type":"text","settings":{"icon":"custom-airplane","text":"Worry Free Return","link":""}},"text_y6qtbn":{"type":"text","settings":{"icon":"custom-corn","text":"Lifetime support","link":""}},"text_JGpMAa":{"type":"text","settings":{"icon":"custom-shield","text":"Reliable Warranty","link":""}}},"block_order":["text_ACm6Rt","text_PWxYtC","text_y6qtbn","text_JGpMAa"],"settings":{"info_bar":true,"info_bar_homepage_only":false,"info_bar_layout":"carousel","autoplay":true,"autoplay_length":5,"background_color":"#1a1a1a"}},"header-secondary-menu":{"type":"header-secondary-menu","disabled":true,"settings":{"secondary_menu":"","show_language_switcher":false,"show_currency_switcher":true,"show_social_media":false}},"header":{"type":"header","settings":{"sticky_header":true,"logo":"shopify:\/\/shop_images\/Yeelight-Logo-White.png","logo_height_range":20,"logo_height_range_mobile":41,"style":"style1","header_shadow":"header--shadow-small","menu":"yeelight-new","transparent_header":false,"mobile_secondary_menu":"","show_social_links":true,"show_language_switcher":true,"show_currency_switcher":true}},"header-mobile-navigation":{"type":"header-mobile-navigation","disabled":true,"settings":{"mobile_nav":"main-menu","color_links":"#2c2d2e","color_bg":"#ffffff"}}},"order":["announcement-bar","info_bar_9bWAay","header-secondary-menu","header","header-mobile-navigation"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "text_dNwVVJ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/NewYearAnnouncementBg.png",
+            "background_image_mobile": "shopify://shop_images/NewYearAnnouncementBgMobile.png",
+            "icon": "none",
+            "text": "Start the Year in Style",
+            "sub_text": "UP TO 40% OFF",
+            "link": "",
+            "button_text": "Shop Now",
+            "button_color": "accent",
+            "button_link": "shopify://pages/new-year-sales",
+            "use_text_button": false,
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
+          }
+        },
+        "955bb93b-7a65-4933-8023-83a64ee46bc2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/ChristmasAnnouncementBg.png",
+            "background_image_mobile": "shopify://shop_images/ChristmasAnnouncementBgMobile.png",
+            "icon": "none",
+            "text": "Bring the Festive Magic Home",
+            "sub_text": "UP TO 50% OFF",
+            "link": "",
+            "button_text": "Shop Now",
+            "button_color": "white",
+            "button_link": "shopify://pages/christmas-sales",
+            "use_text_button": false,
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
+          }
+        },
+        "text_qr4nfc": {
+          "type": "text",
+          "settings": {
+            "background_image": "shopify://shop_images/ValentineAnnouncementBarBg.png",
+            "background_image_mobile": "shopify://shop_images/ValentineAnnouncementBarBgMobile.png",
+            "icon": "none",
+            "text": "Glow with Love",
+            "sub_text": "UP TO 35% OFF",
+            "link": "",
+            "button_text": "Shop Now",
+            "button_color": "accent",
+            "button_link": "shopify://pages/valentine-sales",
+            "use_text_button": false,
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_dNwVVJ",
+        "955bb93b-7a65-4933-8023-83a64ee46bc2",
+        "text_qr4nfc"
+      ],
+      "disabled": true,
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "single",
+        "direction": "left",
+        "speed": "50s",
+        "use_block_colors": false,
+        "autoplay": true,
+        "autoplay_length": 3,
+        "background_color": "rgba(0,0,0,0)"
+      }
+    },
+    "info_bar_9bWAay": {
+      "type": "info-bar",
+      "blocks": {
+        "text_ACm6Rt": {
+          "type": "text",
+          "settings": {
+            "icon": "custom-service",
+            "text": "Free Shipping",
+            "link": ""
+          }
+        },
+        "text_PWxYtC": {
+          "type": "text",
+          "settings": {
+            "icon": "custom-airplane",
+            "text": "Worry Free Return",
+            "link": ""
+          }
+        },
+        "text_y6qtbn": {
+          "type": "text",
+          "settings": {
+            "icon": "custom-corn",
+            "text": "Lifetime support",
+            "link": ""
+          }
+        },
+        "text_JGpMAa": {
+          "type": "text",
+          "settings": {
+            "icon": "custom-shield",
+            "text": "Reliable Warranty",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_ACm6Rt",
+        "text_PWxYtC",
+        "text_y6qtbn",
+        "text_JGpMAa"
+      ],
+      "settings": {
+        "info_bar": true,
+        "info_bar_homepage_only": false,
+        "info_bar_layout": "carousel",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "background_color": "#1a1a1a"
+      }
+    },
+    "header-secondary-menu": {
+      "type": "header-secondary-menu",
+      "disabled": true,
+      "settings": {
+        "secondary_menu": "",
+        "show_language_switcher": false,
+        "show_currency_switcher": true,
+        "show_social_media": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "megamenu_FhUpxV": {
+          "type": "megamenu",
+          "settings": {
+            "position": "1",
+            "promo_1_image": "shopify://shop_images/57.png",
+            "promo_1_heading": "Promotion heading",
+            "promo_1_content": "Promotion content",
+            "promo_1_link": "shopify://pages/about-us",
+            "promo_2_image": "shopify://shop_images/56_df8a9a25-bebf-4c44-8cdd-fe03beace00a.png",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_content": "",
+            "promo_2_link": "",
+            "promo_3_image": "shopify://shop_images/Jupiter_D_PC09.png",
+            "promo_3_heading": "Promotion heading",
+            "promo_3_content": "",
+            "promo_3_link": "",
+            "promo_4_image": "shopify://shop_images/Jupiter_D_PC05.png",
+            "promo_4_heading": "Promotion heading",
+            "promo_4_content": "",
+            "promo_4_link": ""
+          }
+        },
+        "megamenu_FkncAE": {
+          "type": "megamenu",
+          "settings": {
+            "position": "2",
+            "promo_1_image": "shopify://shop_images/Jupiter_D_Mobile07.png",
+            "promo_1_heading": "Promotion heading",
+            "promo_1_content": "",
+            "promo_1_link": "",
+            "promo_2_image": "shopify://shop_images/Jupiter_D_Mobile02.png",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_content": "",
+            "promo_2_link": "",
+            "promo_3_image": "shopify://shop_images/Jupiter_D_Mobile03.png",
+            "promo_3_heading": "Promotion heading",
+            "promo_3_content": "",
+            "promo_3_link": "",
+            "promo_4_image": "shopify://shop_images/Jupiter_D_Mobile09.png",
+            "promo_4_heading": "Promotion heading",
+            "promo_4_content": "",
+            "promo_4_link": ""
+          }
+        },
+        "megamenu_VnKGDM": {
+          "type": "megamenu",
+          "settings": {
+            "position": "3",
+            "promo_1_image": "shopify://shop_images/Jupiter_D_Mobile09_be02e774-01a3-426b-b241-225d9316deb9.png",
+            "promo_1_heading": "Promotion heading",
+            "promo_1_content": "",
+            "promo_1_link": "",
+            "promo_2_image": "shopify://shop_images/Jupiter_D_Mobile05_63e45a5b-a64b-4ce2-8f00-68d5198c1392.png",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_content": "",
+            "promo_2_link": "",
+            "promo_3_image": "shopify://shop_images/Jupiter_D_Mobile01_a4e8f6e8-2868-45f8-aaed-030b3a0b4429.png",
+            "promo_3_heading": "Promotion heading",
+            "promo_3_content": "",
+            "promo_3_link": "",
+            "promo_4_image": "shopify://shop_images/Jupiter_D_Mobile03_e8e09422-8b37-4924-b712-771a739aa150.png",
+            "promo_4_heading": "Promotion heading",
+            "promo_4_content": "",
+            "promo_4_link": ""
+          }
+        },
+        "megamenu_PedDaN": {
+          "type": "megamenu",
+          "settings": {
+            "position": "4",
+            "promo_1_image": "shopify://shop_images/JupiterD06.jpg",
+            "promo_1_heading": "Promotion heading",
+            "promo_1_content": "",
+            "promo_1_link": "",
+            "promo_2_image": "shopify://shop_images/JupiterD03.jpg",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_content": "",
+            "promo_2_link": "",
+            "promo_3_heading": "Promotion heading",
+            "promo_3_content": "",
+            "promo_3_link": "",
+            "promo_4_heading": "Promotion heading",
+            "promo_4_content": "",
+            "promo_4_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "megamenu_FhUpxV",
+        "megamenu_FkncAE",
+        "megamenu_VnKGDM",
+        "megamenu_PedDaN"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "logo": "shopify://shop_images/Yeelight-Logo-White.png",
+        "logo_height_range": 20,
+        "logo_height_range_mobile": 41,
+        "style": "style1",
+        "header_shadow": "header--shadow-small",
+        "menu": "yeelight-new",
+        "transparent_header": false,
+        "mobile_secondary_menu": "",
+        "show_social_links": true,
+        "show_language_switcher": true,
+        "show_currency_switcher": true
+      }
+    },
+    "header-mobile-navigation": {
+      "type": "header-mobile-navigation",
+      "disabled": true,
+      "settings": {
+        "mobile_nav": "main-menu",
+        "color_links": "#2c2d2e",
+        "color_bg": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "info_bar_9bWAay",
+    "header-secondary-menu",
+    "header",
+    "header-mobile-navigation"
+  ]
+}
