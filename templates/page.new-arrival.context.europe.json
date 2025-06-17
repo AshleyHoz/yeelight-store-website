@@ -20,20 +20,20 @@
         "heading": "Spark Your Imagination",
         "marker_style": "style1",
         "description": "",
-        "header-aa8ddb9d0e2408d112a046258b4a1e8b": null,
+        "header-9c2999eca49cc834a64a667a1b971924": null,
         "product": "yeelight-rgb-smart-ceiling-light-mercury",
         "show_taxes_included": true,
-        "header-be17099e7b53bff4d92caa2f0d40250d": null,
-        "paragraph-6247ccd5d4a65985a64c5fbf6a0fa121": null,
+        "header-dfd4135ddcc9dd70469d6b664030553d": null,
+        "paragraph-a90840be05d2069b4c985acda3e63466": null,
         "thumbnail_position": "left",
         "media_aspect_ratio": "adapt",
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
         "enable_video_looping": false,
-        "header-4bf08de3fc8da50096a8b918a3a2a780": null,
+        "header-bc480bcd265cfc3513ab14fec3feca5c": null,
         "marker_color": "#fd6262",
-        "header-85d9c575e1ea8ce91aa2c2bf25f98279": null,
+        "header-e5c1da6ef90b2a1e640be527d3f633b0": null,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       },
@@ -75,7 +75,7 @@
           "type": "quantity",
           "disabled": false,
           "settings": {
-            "paragraph-0d0a6d4dc6760b8b9c244a931ff9bd06": null
+            "paragraph-e9ce86d374983c9789c0e512e112a881": null
           }
         },
         "buy_buttons_3FCYR": {
@@ -110,9 +110,7 @@
     "activity_new_year_di8mPj": {
       "settings": {
         "title": "New Arrival  🎉",
-        "show_icon": false,
-        "background_image": null,
-        "background_image_mobile": null
+        "show_icon": false
       },
       "blocks": {
         "product_ede9rb": {
@@ -127,16 +125,6 @@
             "product": "yeelight-rgb-smart-ceiling-light-s-series"
           }
         },
-        "product_PLDXRU": {
-          "settings": {
-            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
-          }
-        },
-        "product_qeiKJQ": {
-          "settings": {
-            "product": "yeelight-rgb-smart-ceiling-light-mercury"
-          }
-        },
         "product_hqBmT": {
           "type": "product",
           "disabled": false,
@@ -144,19 +132,29 @@
             "product": "yeelight-monitor-light-bar-aires"
           }
         },
+        "product_PLDXRU": {
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        },
         "product_R6hT4c": {
           "settings": {
             "product": "yeelight-rgb-night-light-vega"
+          }
+        },
+        "product_qeiKJQ": {
+          "settings": {
+            "product": "yeelight-rgb-led-smart-ceiling-light-jupiter-european-version"
           }
         }
       },
       "block_order": [
         "product_ede9rb",
+        "product_qeiKJQ",
         "product_UDJxR",
         "product_hqBmT",
         "product_PLDXRU",
-        "product_R6hT4c",
-        "product_qeiKJQ"
+        "product_R6hT4c"
       ]
     },
     "activity_new_year_CtQC3B": {
