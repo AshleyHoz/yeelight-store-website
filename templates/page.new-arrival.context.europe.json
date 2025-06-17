@@ -63,10 +63,10 @@
           "disabled": false,
           "settings": {
             "picker_type": "button",
-            "color_picker": true,
+            "color_picker": false,
             "color_picker_use_variants": false,
-            "variant_is_disabled": true,
-            "sizing_guide_text": "Sizing guide",
+            "variant_is_disabled": false,
+            "sizing_guide_text": "",
             "sizing_guide_icon": "ruler",
             "sizing_guide_page": ""
           }
