@@ -154,28 +154,38 @@
           "type": "megamenu",
           "settings": {
             "position": "1",
+            "item_style": "style1",
+            "mobile_colums": "flex",
             "promo_1_image": "shopify://shop_images/57.png",
-            "promo_1_heading": "Promotion heading",
-            "promo_1_content": "Promotion content",
-            "promo_1_link": "shopify://pages/about-us",
+            "promo_1_heading": "",
+            "promo_1_content": "",
+            "promo_1_link": "",
             "promo_2_image": "shopify://shop_images/56_df8a9a25-bebf-4c44-8cdd-fe03beace00a.png",
-            "promo_2_heading": "Promotion heading",
+            "promo_2_heading": "",
             "promo_2_content": "",
             "promo_2_link": "",
             "promo_3_image": "shopify://shop_images/Jupiter_D_PC09.png",
-            "promo_3_heading": "Promotion heading",
+            "promo_3_heading": "",
             "promo_3_content": "",
             "promo_3_link": "",
             "promo_4_image": "shopify://shop_images/Jupiter_D_PC05.png",
-            "promo_4_heading": "Promotion heading",
+            "promo_4_heading": "",
             "promo_4_content": "",
-            "promo_4_link": ""
+            "promo_4_link": "",
+            "promo_5_heading": "",
+            "promo_5_content": "",
+            "promo_5_link": "",
+            "promo_6_heading": "",
+            "promo_6_content": "",
+            "promo_6_link": ""
           }
         },
         "megamenu_FkncAE": {
           "type": "megamenu",
           "settings": {
             "position": "2",
+            "item_style": "style1",
+            "mobile_colums": "flex",
             "promo_1_image": "shopify://shop_images/Jupiter_D_Mobile07.png",
             "promo_1_heading": "Promotion heading",
             "promo_1_content": "",
@@ -191,13 +201,21 @@
             "promo_4_image": "shopify://shop_images/Jupiter_D_Mobile09.png",
             "promo_4_heading": "Promotion heading",
             "promo_4_content": "",
-            "promo_4_link": ""
+            "promo_4_link": "",
+            "promo_5_heading": "Promotion heading",
+            "promo_5_content": "",
+            "promo_5_link": "",
+            "promo_6_heading": "Promotion heading",
+            "promo_6_content": "",
+            "promo_6_link": ""
           }
         },
         "megamenu_VnKGDM": {
           "type": "megamenu",
           "settings": {
             "position": "3",
+            "item_style": "style1",
+            "mobile_colums": "flex",
             "promo_1_image": "shopify://shop_images/Jupiter_D_Mobile09_be02e774-01a3-426b-b241-225d9316deb9.png",
             "promo_1_heading": "Promotion heading",
             "promo_1_content": "",
@@ -213,13 +231,21 @@
             "promo_4_image": "shopify://shop_images/Jupiter_D_Mobile03_e8e09422-8b37-4924-b712-771a739aa150.png",
             "promo_4_heading": "Promotion heading",
             "promo_4_content": "",
-            "promo_4_link": ""
+            "promo_4_link": "",
+            "promo_5_heading": "Promotion heading",
+            "promo_5_content": "",
+            "promo_5_link": "",
+            "promo_6_heading": "Promotion heading",
+            "promo_6_content": "",
+            "promo_6_link": ""
           }
         },
         "megamenu_PedDaN": {
           "type": "megamenu",
           "settings": {
             "position": "4",
+            "item_style": "style1",
+            "mobile_colums": "flex",
             "promo_1_image": "shopify://shop_images/JupiterD06.jpg",
             "promo_1_heading": "Promotion heading",
             "promo_1_content": "",
@@ -233,7 +259,13 @@
             "promo_3_link": "",
             "promo_4_heading": "Promotion heading",
             "promo_4_content": "",
-            "promo_4_link": ""
+            "promo_4_link": "",
+            "promo_5_heading": "Promotion heading",
+            "promo_5_content": "",
+            "promo_5_link": "",
+            "promo_6_heading": "Promotion heading",
+            "promo_6_content": "",
+            "promo_6_link": ""
           }
         }
       },
