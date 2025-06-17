@@ -135,6 +135,31 @@
         "button_2_title": "black"
       }
     },
+    "video_YNh47c": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "heading": "",
+        "cover_title": "",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
+        "video": "",
+        "video_hosted": "shopify://files/videos/Yeelight Candela Lamp.mov",
+        "video_hosted_mobile": "shopify://files/videos/Yeelight Candela Lamp.mov",
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-auto",
+        "aspect_ratio": "16-9",
+        "marker_color": "#FD6262",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
+      }
+    },
     "single_image_mtTtz8": {
       "type": "single-image",
       "settings": {
@@ -317,6 +342,7 @@
   "order": [
     "breadcrumbs",
     "main-product",
+    "video_YNh47c",
     "single_image_mtTtz8",
     "single_image_CiE9F9",
     "single_image_g4CiQU",
