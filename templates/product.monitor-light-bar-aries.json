@@ -290,11 +290,37 @@
         "loox_reviews_loox_dynamic_section_bNPXU4"
       ],
       "settings": {}
+    },
+    "video_iR4CGW": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "heading": "",
+        "cover_title": "",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
+        "video": "",
+        "video_hosted": "shopify://files/videos/Aries Monitor Light Bar.mov",
+        "video_hosted_mobile": "shopify://files/videos/Aries Monitor Light Bar.mov",
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-auto",
+        "aspect_ratio": "16-9",
+        "marker_color": "#FD6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "main-product",
+    "video_iR4CGW",
     "single_image_Y84TeB",
     "single_image_KAXUR8",
     "single_image_Y6WkWC",
