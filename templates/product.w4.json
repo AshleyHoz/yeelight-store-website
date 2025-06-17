@@ -1,22 +1,4 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
-/*
  * ------------------------------------------------------------
  * IMPORTANT: The contents of this file are auto-generated.
  *
@@ -158,7 +140,10 @@
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "enable_image_change": false,
+        "button_1_title": "",
+        "button_2_title": ""
       }
     },
     "d5ba2a2b-8bd0-4354-b15b-a335dd1b21ad": {
@@ -173,101 +158,131 @@
     "single_image_3kkr3Y": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight-smart-bulb-w4_01.jpg",
         "image_mobile": "shopify://shop_images/Yeelight-smart-led-bulb-w4_01.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_8Areip": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight-smart-bulb-w4_02.jpg",
         "image_mobile": "shopify://shop_images/Yeelight-smart-led-bulb-w4_02.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_bNVALU": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight-smart-bulb-w4_03.jpg",
         "image_mobile": "shopify://shop_images/Yeelight-smart-led-bulb-w4_03_846bc117-87c7-47f7-b2ca-6ccef3d0557c.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_YFNLfJ": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight-smart-bulb-w4_04.jpg",
         "image_mobile": "shopify://shop_images/Yeelight-smart-led-bulb-w4_04_e22145f0-1ea5-4172-b868-5909a8a972b2.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_UwbPnd": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight-smart-bulb-w4_05.jpg",
         "image_mobile": "shopify://shop_images/Yeelight-smart-led-bulb-w4_05_b06b3822-5c39-453b-b751-1cbb2702e8ee.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_FC7Fnr": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight-smart-bulb-w4_06.jpg",
         "image_mobile": "shopify://shop_images/Yeelight-smart-led-bulb-w4_06_88b92ea6-ca7a-4208-81c4-6b311ff4d373.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_UpVXxB": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight-smart-bulb-w4_07.jpg",
         "image_mobile": "shopify://shop_images/Yeelight-smart-led-bulb-w4_08_bf19f5bc-5e28-44df-9d7a-b164baf2884a.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_ed9Ffr": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight-smart-bulb-w4_08.jpg",
         "image_mobile": "shopify://shop_images/Yeelight-smart-led-bulb-w4_09_3e5988b8-5cbc-4aa1-954e-f768b633e667.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_j6gWqK": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight-smart-bulb-w4_09.jpg",
         "image_mobile": "shopify://shop_images/Yeelight-smart-led-bulb-w4_10_85abf3df-c45a-4f53-b94b-db15e3225906.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_tdW8aE": {
       "type": "single-image",
       "settings": {
+        "link": "",
         "image": "shopify://shop_images/Yeelight-smart-bulb-w4_11.jpg",
         "image_mobile": "shopify://shop_images/Yeelight-smart-led-bulb-w4_11_a75edb1a-1bad-4f5d-b05f-1eb431000ba0.jpg",
         "full_width": true,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "tabbed_content_8ir4a4": {
@@ -294,7 +309,10 @@
           }
         }
       },
-      "block_order": ["tab_zPhe9b", "tab_RkmYzT"],
+      "block_order": [
+        "tab_zPhe9b",
+        "tab_RkmYzT"
+      ],
       "settings": {
         "heading": "Tech Spec",
         "marker_style": "style1",
@@ -323,7 +341,9 @@
           }
         }
       },
-      "block_order": ["heading_HR4q6J"],
+      "block_order": [
+        "heading_HR4q6J"
+      ],
       "disabled": true,
       "settings": {
         "text_width": "medium",
@@ -352,7 +372,9 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_dynamic_section_EzHjcA"],
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_EzHjcA"
+      ],
       "disabled": true,
       "settings": {}
     },
@@ -365,8 +387,29 @@
         "product_limit": 4,
         "columns_desktop": 4,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "show_cover": false
       }
+    },
+    "175013859175c5e27b": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_xmHBJM": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_xmHBJM"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -386,6 +429,7 @@
     "tabbed_content_8ir4a4",
     "rich_text_6mPtPi",
     "17132577938307cd4c",
+    "175013859175c5e27b",
     "product-recommendations"
   ]
 }
