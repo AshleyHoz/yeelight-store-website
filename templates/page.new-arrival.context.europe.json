@@ -21,7 +21,7 @@
         "marker_style": "style1",
         "description": "",
         "header-9c2999eca49cc834a64a667a1b971924": null,
-        "product": "yeelight-rgb-smart-ceiling-light-mercury",
+        "product": "yeelight-rgb-led-smart-ceiling-light-jupiter-european-version",
         "show_taxes_included": true,
         "header-dfd4135ddcc9dd70469d6b664030553d": null,
         "paragraph-a90840be05d2069b4c985acda3e63466": null,
@@ -118,6 +118,11 @@
             "product": "yeelight-rgbicww-smart-ceiling-light"
           }
         },
+        "product_qeiKJQ": {
+          "settings": {
+            "product": "yeelight-rgb-smart-ceiling-light-mercury"
+          }
+        },
         "product_UDJxR": {
           "type": "product",
           "disabled": false,
@@ -140,11 +145,6 @@
         "product_R6hT4c": {
           "settings": {
             "product": "yeelight-rgb-night-light-vega"
-          }
-        },
-        "product_qeiKJQ": {
-          "settings": {
-            "product": "yeelight-rgb-led-smart-ceiling-light-jupiter-european-version"
           }
         }
       },
