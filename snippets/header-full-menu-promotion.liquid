@@ -22,7 +22,7 @@
       {%- endif -%}
     </div>
     <div class="mega-menu-promotion--content text-center">
-      {%- if promotion_heading and !heading_float -%}
+      {%- if promotion_heading and !heading_float == false -%}
         <h6>{{ promotion_heading }}</h6>
       {%- endif -%}
       {%- if promotion_content -%}
