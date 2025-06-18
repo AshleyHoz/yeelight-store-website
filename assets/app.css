@@ -4101,6 +4101,7 @@ h6,
 
 .mega-menu-promotion {
   width: 100%;
+  height: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -4120,6 +4121,10 @@ h6,
 
 .mega-menu-promotion--image {
   overflow: hidden;
+}
+
+.mega-menu-promotion--image .image-mobile {
+  display: none;
 }
 
 .mega-menu-promotion--content {
@@ -6065,6 +6070,21 @@ input[type='radio'],
   .thb-full-menu .mega-menu-columns {
     padding: 0 50px;
   }
+
+  .thb-full-menu .mega-menu-columns.style2 ul,
+  .thb-full-menu .mega-menu-columns.style3 ul {
+    display: none;
+  }
+
+  .thb-full-menu .mega-menu-columns.style3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .thb-full-menu .mega-menu-columns.style3 li {
+    width: calc(100% / 3 - 30px);
+  }
 }
 
 .section-header {
@@ -6638,5 +6658,13 @@ input[type='submit'].accent .spinner-path {
   .yee-activity-valentine .section-header--content .icon-container svg {
     width: 36px;
     height: 36px;
+  }
+
+  .mega-menu-promotion--image .image-pc {
+    display: none;
+  }
+
+  .mega-menu-promotion--image .image-mobile {
+    display: block;
   }
 }
