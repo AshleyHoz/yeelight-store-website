@@ -102,39 +102,69 @@
                       </li>
                     {%- endfor -%}
                   {%- endif -%}
-                  {% if has_mega_menu == true %}
-                    {%- if mega_menu_block.settings.promo_1_image -%}
-                      {% render 'header-full-menu-promotion',
-                        promotion_image: mega_menu_block.settings.promo_1_image,
-                        promotion_link: mega_menu_block.settings.promo_1_link,
-                        promotion_heading: mega_menu_block.settings.promo_1_heading,
-                        promotion_content: mega_menu_block.settings.promo_1_content
-                      %}
-                    {%- endif -%}
-                    {%- if mega_menu_block.settings.promo_2_image -%}
-                      {% render 'header-full-menu-promotion',
-                        promotion_image: mega_menu_block.settings.promo_2_image,
-                        promotion_link: mega_menu_block.settings.promo_2_link,
-                        promotion_heading: mega_menu_block.settings.promo_2_heading,
-                        promotion_content: mega_menu_block.settings.promo_2_content
-                      %}
-                    {%- endif -%}
-                    {%- if mega_menu_block.settings.promo_3_image -%}
-                      {% render 'header-full-menu-promotion',
-                        promotion_image: mega_menu_block.settings.promo_3_image,
-                        promotion_link: mega_menu_block.settings.promo_3_link,
-                        promotion_heading: mega_menu_block.settings.promo_3_heading,
-                        promotion_content: mega_menu_block.settings.promo_3_content
-                      %}
-                    {%- endif -%}
-                    {%- if mega_menu_block.settings.promo_4_image -%}
-                      {% render 'header-full-menu-promotion',
-                        promotion_image: mega_menu_block.settings.promo_4_image,
-                        promotion_link: mega_menu_block.settings.promo_4_link,
-                        promotion_heading: mega_menu_block.settings.promo_4_heading,
-                        promotion_content: mega_menu_block.settings.promo_4_content
-                      %}
-                    {%- endif -%}
+                  {% if has_mega_menu %}
+                    <ul class="mega-menu {{mega_menu_block.settings.mobile_colums}}">
+                      {%- if mega_menu_block.settings.promo_1_image -%}
+                        {% render 'header-full-menu-promotion',
+                          mega_menu_block: mega_menu_block,
+                          promotion_image: mega_menu_block.settings.promo_1_image,
+                          promotion_image_mobile: mega_menu_block.settings.promo_1_image_mobile,
+                          promotion_link: mega_menu_block.settings.promo_1_link,
+                          promotion_heading: mega_menu_block.settings.promo_1_heading,
+                          promotion_content: mega_menu_block.settings.promo_1_content
+                        %}
+                      {%- endif -%}
+                      {%- if mega_menu_block.settings.promo_2_image -%}
+                        {% render 'header-full-menu-promotion',
+                          mega_menu_block: mega_menu_block,
+                          promotion_image: mega_menu_block.settings.promo_2_image,
+                          promotion_image_mobile: mega_menu_block.settings.promo_2_image_mobile,
+                          promotion_link: mega_menu_block.settings.promo_2_link,
+                          promotion_heading: mega_menu_block.settings.promo_2_heading,
+                          promotion_content: mega_menu_block.settings.promo_2_content
+                        %}
+                      {%- endif -%}
+                      {%- if mega_menu_block.settings.promo_3_image -%}
+                        {% render 'header-full-menu-promotion',
+                          mega_menu_block: mega_menu_block,
+                          promotion_image: mega_menu_block.settings.promo_3_image,
+                          promotion_image_mobile: mega_menu_block.settings.promo_3_image_mobile,
+                          promotion_link: mega_menu_block.settings.promo_3_link,
+                          promotion_heading: mega_menu_block.settings.promo_3_heading,
+                          promotion_content: mega_menu_block.settings.promo_3_content
+                        %}
+                      {%- endif -%}
+                      {%- if mega_menu_block.settings.promo_4_image -%}
+                        {% render 'header-full-menu-promotion',
+                          mega_menu_block: mega_menu_block,
+                          promotion_image: mega_menu_block.settings.promo_4_image,
+                          promotion_image_mobile: mega_menu_block.settings.promo_4_image_mobile,
+                          promotion_link: mega_menu_block.settings.promo_4_link,
+                          promotion_heading: mega_menu_block.settings.promo_4_heading,
+                          promotion_content: mega_menu_block.settings.promo_4_content
+                        %}
+                      {%- endif -%}
+                      {%- if mega_menu_block.settings.promo_5_image -%}
+                        {% render 'header-full-menu-promotion',
+                          mega_menu_block: mega_menu_block,
+                          promotion_image: mega_menu_block.settings.promo_5_image,
+                          promotion_image_mobile: mega_menu_block.settings.promo_5_image_mobile,
+                          promotion_link: mega_menu_block.settings.promo_5_link,
+                          promotion_heading: mega_menu_block.settings.promo_5_heading,
+                          promotion_content: mega_menu_block.settings.promo_5_content
+                        %}
+                      {%- endif -%}
+                      {%- if mega_menu_block.settings.promo_6_image -%}
+                        {% render 'header-full-menu-promotion',
+                          mega_menu_block: mega_menu_block,
+                          promotion_image: mega_menu_block.settings.promo_6_image,
+                          promotion_image_mobile: mega_menu_block.settings.promo_6_image_mobile,
+                          promotion_link: mega_menu_block.settings.promo_6_link,
+                          promotion_heading: mega_menu_block.settings.promo_6_heading,
+                          promotion_content: mega_menu_block.settings.promo_6_content
+                        %}
+                      {%- endif -%}
+                    </ul>
                   {%- endif -%}
                 </ul>
               </details>

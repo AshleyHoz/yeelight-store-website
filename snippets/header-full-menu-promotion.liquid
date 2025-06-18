@@ -1,10 +1,11 @@
 {%- liquid
   assign heading_float = mega_menu_block.settings.heading_float
+  assign mobile_colums = mega_menu_block.settings.mobile_colums
 %}
 
-<li>
+<li class="full-width header-full-menu-promotion {{mobile_colums}}">
   <div class="mega-menu-promotion d-flex align-center justify-space-between flex-column">
-    <div class="mega-menu-promotion--image full-width">
+    <div class="mega-menu-promotion--image full-width position-relative">
       <div class="image-pc">
         {%- render 'responsive-image', image: promotion_image, sizes: '670x0', priority: 'low' -%}
       </div>

@@ -93,7 +93,10 @@
             assign mega_menu_block = mega_menu_blocks[mega_menu_block_index]
           -%}
           <div class="sub-menu mega-menu-container" tabindex="-1">
-            <ul class="mega-menu-columns {{mega_menu_block.settings.item_style}}" tabindex="-1">
+            <ul
+              class="mega-menu-columns d-flex justify-space-between {{mega_menu_block.settings.item_style}}"
+              tabindex="-1"
+            >
               {% if link.links.size > 0 %}
                 <ul>
                   {%- for l in link.links -%}
