@@ -255,6 +255,7 @@
             "mobile_colums": "block",
             "heading_float": false,
             "promo_1_image": "shopify://shop_images/menu_about_1_pc.png",
+            "promo_1_image_mobile": "shopify://shop_images/menu_about_1_mobile.png",
             "promo_1_heading": "Exquisite Design",
             "promo_1_content": "",
             "promo_1_link": "",
