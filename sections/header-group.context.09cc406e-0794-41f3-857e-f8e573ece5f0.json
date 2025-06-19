@@ -74,9 +74,16 @@
         "megamenu_FhUpxV": {
           "settings": {
             "heading_float": false,
-            "promo_1_heading": "New arrival",
-            "promo_3_image": "shopify://shop_images/menu_explore_1.png",
-            "promo_4_image": null
+            "promo_1_heading": "New Arrivals",
+            "promo_3_image": "shopify://shop_images/272_x_328_2.png",
+            "promo_4_image": null,
+            "promo_1_link": "shopify://pages/new-arrival",
+            "promo_2_link": "shopify://collections/top-sellers",
+            "promo_1_image": "shopify://shop_images/272_x_328.png",
+            "promo_3_link": "shopify://collections/sets-bundles",
+            "promo_3_heading": "Sets& Bundles",
+            "promo_2_image": "shopify://shop_images/272_x_328_1.png",
+            "promo_2_heading": "Top Sellers"
           }
         },
         "megamenu_FkncAE": {
@@ -93,12 +100,12 @@
           "settings": {
             "promo_1_link": "shopify://collections/bedroom-lighting",
             "promo_2_heading": "Work & Study",
+            "promo_2_link": "shopify://collections/work-study",
             "promo_3_link": "shopify://collections/living-room",
             "promo_4_link": "shopify://collections/gaming-lights",
             "promo_5_heading": "Outdoor",
             "promo_5_link": "shopify://collections/outdoor-fun",
-            "promo_6_link": "shopify://collections/holiday-decor-lights",
-            "promo_2_link": "shopify://collections/work-study"
+            "promo_6_link": "shopify://collections/holiday-decor-lights"
           }
         }
       }
