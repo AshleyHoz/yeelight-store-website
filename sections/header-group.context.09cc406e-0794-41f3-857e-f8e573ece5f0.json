@@ -20,10 +20,10 @@
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
-        "header-cde2b3656db3d02cf860eb3ba0d27c8d": null,
+        "header-2fc5ddd47e2be1f9794ace04e39743cf": null,
         "direction": "left",
         "speed": "20s",
-        "header-5491c89a1f3f30bc7e339e03767ea0c4": null,
+        "header-ffc4f3b5fe061fc936fa246e6f91443d": null,
         "use_block_colors": false,
         "autoplay": true,
         "autoplay_length": 5,
@@ -40,12 +40,12 @@
             "text": "Easter Sale",
             "sub_text": "UP TO 40% OFF!",
             "link": "shopify://pages/easter-sale",
-            "header-33378d51d6387201bdb0153f24be1509": null,
+            "header-fd21d2d2733ee8251ca56768c0cd1e4f": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/easter-sale",
             "use_text_button": false,
-            "header-adac6e1a7ef01cf77ebc2ad4229df46b": null,
+            "header-de152f14448d691d46ec3b3cd4161e67": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -108,7 +108,13 @@
             "promo_4_link": "shopify://collections/gaming-lights",
             "promo_5_heading": "Outdoor",
             "promo_5_link": "shopify://collections/outdoor-fun",
-            "promo_6_link": "shopify://collections/holiday-decor-lights"
+            "promo_6_link": "shopify://collections/holiday-decor-lights",
+            "heading_float": false
+          }
+        },
+        "megamenu_PedDaN": {
+          "settings": {
+            "promo_2_image": "shopify://shop_images/73f37a2355330ba9f04b30b477e7a5f7.png"
           }
         }
       }
