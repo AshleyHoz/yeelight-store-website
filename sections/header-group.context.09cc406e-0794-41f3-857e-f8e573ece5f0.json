@@ -20,10 +20,10 @@
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
-        "header-95b786b85b3274d90466def86978576e": null,
+        "header-cde2b3656db3d02cf860eb3ba0d27c8d": null,
         "direction": "left",
         "speed": "20s",
-        "header-2dd15d690b1418c5488c99e355a50585": null,
+        "header-5491c89a1f3f30bc7e339e03767ea0c4": null,
         "use_block_colors": false,
         "autoplay": true,
         "autoplay_length": 5,
@@ -40,12 +40,12 @@
             "text": "Easter Sale",
             "sub_text": "UP TO 40% OFF!",
             "link": "shopify://pages/easter-sale",
-            "header-ca324ff3f9ca82dd0df9075189692752": null,
+            "header-33378d51d6387201bdb0153f24be1509": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/easter-sale",
             "use_text_button": false,
-            "header-dccb80897ba4347da1dca5d5cba85874": null,
+            "header-adac6e1a7ef01cf77ebc2ad4229df46b": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -73,18 +73,18 @@
       "blocks": {
         "megamenu_FhUpxV": {
           "settings": {
+            "item_style": "style1",
             "heading_float": false,
-            "promo_1_image": "shopify://shop_images/58_c065c980-8da4-482d-a8ad-54f9cd06a584.png",
+            "promo_1_image": "shopify://shop_images/272_x_328.png",
             "promo_1_heading": "New Arrivals",
             "promo_1_link": "shopify://pages/new-arrival",
-            "promo_2_image": "shopify://shop_images/61_0abaa5f6-b589-493b-bbe1-9f8e372810d1.png",
+            "promo_2_image": "shopify://shop_images/272_x_328_1.png",
             "promo_2_heading": "Top Sellers",
             "promo_2_link": "shopify://collections/top-sellers",
-            "promo_3_image": "shopify://shop_images/60_2caf8e94-30ba-42b8-9471-18a60c2589ea.png",
+            "promo_3_image": "shopify://shop_images/272_x_328_2.png",
             "promo_3_heading": "Sets& Bundles",
             "promo_3_link": "shopify://collections/sets-bundles",
-            "promo_4_image": null,
-            "item_style": "style3"
+            "promo_4_image": "shopify://shop_images/c5be9df65dd133f1d93d7b8875de0aa7.png"
           }
         },
         "megamenu_FkncAE": {
@@ -104,11 +104,11 @@
             "promo_2_heading": "Work & Study",
             "promo_2_link": "shopify://collections/work-study",
             "promo_3_link": "shopify://collections/living-room",
+            "promo_4_image": "shopify://shop_images/20250619-130928.png",
             "promo_4_link": "shopify://collections/gaming-lights",
             "promo_5_heading": "Outdoor",
             "promo_5_link": "shopify://collections/outdoor-fun",
-            "promo_6_link": "shopify://collections/holiday-decor-lights",
-            "promo_4_image": "shopify://shop_images/20250619-130928.png"
+            "promo_6_link": "shopify://collections/holiday-decor-lights"
           }
         }
       }
