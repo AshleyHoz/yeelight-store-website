@@ -286,3 +286,18 @@
   display: block !important;
   width: 100% !important;
 }
+
+@media only screen and (max-width: 767px) {
+
+
+
+  .mobile-menu .sub-menu.style2>li,
+  .mobile-menu .sub-menu.style3>li {
+    display: none;
+  }
+
+  .mobile-menu .sub-menu.style2>.parent-link-back,
+  .mobile-menu .sub-menu.style3>.parent-link-back {
+    display: block;
+  }
+}
