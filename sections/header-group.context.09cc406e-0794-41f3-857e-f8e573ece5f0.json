@@ -115,7 +115,9 @@
         "megamenu_PedDaN": {
           "settings": {
             "promo_2_image": "shopify://shop_images/73f37a2355330ba9f04b30b477e7a5f7.png",
-            "promo_2_heading": "Brand Partnerships"
+            "promo_2_heading": "Brand Partnerships",
+            "promo_1_link": "/",
+            "promo_2_link": "/"
           }
         }
       }
