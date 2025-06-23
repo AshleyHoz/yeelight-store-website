@@ -8,7 +8,7 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "collection.eu-product-collection.json",
+  "parent": "collection.ambient-lighting.json",
   "context": {
     "market": "europe"
   },
