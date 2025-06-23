@@ -20,10 +20,10 @@
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
-        "header-2fc5ddd47e2be1f9794ace04e39743cf": null,
+        "header-41ece069833c2e59898b694b96986290": null,
         "direction": "left",
         "speed": "20s",
-        "header-ffc4f3b5fe061fc936fa246e6f91443d": null,
+        "header-2faa3cbfa7f707f3e6021863531ca7d1": null,
         "use_block_colors": false,
         "autoplay": true,
         "autoplay_length": 5,
@@ -40,12 +40,12 @@
             "text": "Easter Sale",
             "sub_text": "UP TO 40% OFF!",
             "link": "shopify://pages/easter-sale",
-            "header-fd21d2d2733ee8251ca56768c0cd1e4f": null,
+            "header-b041dbbf026213232c78a89b0043055a": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/easter-sale",
             "use_text_button": false,
-            "header-de152f14448d691d46ec3b3cd4161e67": null,
+            "header-ab03bcc1c76a689c41949a21c60323d4": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -99,6 +99,7 @@
         },
         "megamenu_VnKGDM": {
           "settings": {
+            "heading_float": false,
             "promo_1_link": "shopify://collections/bedroom-lighting",
             "promo_2_image": "shopify://shop_images/20250619-130933.png",
             "promo_2_heading": "Work & Study",
@@ -108,13 +109,13 @@
             "promo_4_link": "shopify://collections/gaming-lights",
             "promo_5_heading": "Outdoor",
             "promo_5_link": "shopify://collections/outdoor-fun",
-            "promo_6_link": "shopify://collections/holiday-decor-lights",
-            "heading_float": false
+            "promo_6_link": "shopify://collections/holiday-decor-lights"
           }
         },
         "megamenu_PedDaN": {
           "settings": {
-            "promo_2_image": "shopify://shop_images/73f37a2355330ba9f04b30b477e7a5f7.png"
+            "promo_2_image": "shopify://shop_images/73f37a2355330ba9f04b30b477e7a5f7.png",
+            "promo_2_heading": "Brand Partnerships"
           }
         }
       }
