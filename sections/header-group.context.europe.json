@@ -71,7 +71,7 @@
         "menu": "eu-header-new",
         "transparent_header": false,
         "mobile_secondary_menu": "",
-        "show_language_switcher": true
+        "show_language_switcher": false
       },
       "blocks": {
         "megamenu_FhUpxV": {
