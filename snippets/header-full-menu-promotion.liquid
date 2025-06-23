@@ -30,6 +30,20 @@
         <p>{{ promotion_content }}</p>
       {%- endif -%}
     </div>
-    {%- if promotion_link != empty -%}<a href="{{ promotion_link }}" class="mega-menu-promotion--link"></a>{%- endif -%}
+    {%- if promotion_link != empty -%}
+      {% liquid
+        if promotion_link == '/'
+          assign tag = 'span'
+        else
+          assign tag = 'a'
+        endif
+      %}
+      <{{ tag }}
+        class="mega-menu-promotion--link"
+        {%- if promotion_link -%}
+          href="{{ promotion_link }}"
+        {%- endif -%}
+      ></{{ tag }}>
+    {%- endif -%}
   </div>
 </li>
