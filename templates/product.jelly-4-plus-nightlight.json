@@ -135,37 +135,12 @@
         "button_2_title": ""
       }
     },
-    "video_GnEUey": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "heading": "",
-        "cover_title": "",
-        "marker_style": "style1",
-        "description": "",
-        "full_width": false,
-        "video": "",
-        "video_hosted": "shopify://files/videos/jelly4 plus 6.11(1).mov",
-        "video_hosted_mobile": "shopify://files/videos/jelly4 plus 6.11(1).mov",
-        "video_autoplay": true,
-        "video_loop": true,
-        "video_controls": true,
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-auto",
-        "aspect_ratio": "16-9",
-        "marker_color": "#FD6262",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false,
-        "halloween_skull_flag": false,
-        "black_friday_ui_flag": false
-      }
-    },
     "single_image_g4CiQU": {
       "type": "single-image",
       "settings": {
         "link": "",
         "image": "shopify://shop_images/1_cdd53af3-ea82-4b7d-88a2-840ea07169bc.jpg",
-        "image_mobile": "shopify://shop_images/1_09711116-8764-4e4f-96eb-29de5e8f4652.jpg",
+        "image_mobile": "shopify://shop_images/2_d8eb5409-175c-4a0a-82b7-b53951e1e265.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -277,9 +252,7 @@
           }
         }
       },
-      "block_order": [
-        "heading_WVbABB"
-      ],
+      "block_order": ["heading_WVbABB"],
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -307,9 +280,7 @@
           }
         }
       },
-      "block_order": [
-        "loox_reviews_loox_dynamic_section_c8aEVF"
-      ],
+      "block_order": ["loox_reviews_loox_dynamic_section_c8aEVF"],
       "settings": {}
     },
     "product-recommendations": {
@@ -323,6 +294,31 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": false,
         "show_cover": false
+      }
+    },
+    "video_GnEUey": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "heading": "",
+        "cover_title": "",
+        "marker_style": "style1",
+        "description": "",
+        "full_width": false,
+        "video": "",
+        "video_hosted": "shopify://files/videos/jelly4 plus 6.11(1).mov",
+        "video_hosted_mobile": "shopify://files/videos/jelly4 plus 6.11(1).mov",
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-auto",
+        "aspect_ratio": "16-9",
+        "marker_color": "#FD6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
       }
     }
   },
