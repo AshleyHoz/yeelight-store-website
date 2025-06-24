@@ -114,11 +114,11 @@
         },
         "megamenu_PedDaN": {
           "settings": {
-            "promo_1_link": "/",
+            "promo_1_link": "",
             "promo_2_image": "shopify://shop_images/logo.png",
+            "promo_2_image_mobile": "shopify://shop_images/logo.png",
             "promo_2_heading": "Brand Partnerships",
-            "promo_2_link": "/",
-            "promo_2_image_mobile": "shopify://shop_images/logo.png"
+            "promo_2_link": ""
           }
         }
       }
