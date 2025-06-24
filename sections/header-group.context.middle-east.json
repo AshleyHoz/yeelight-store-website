@@ -20,10 +20,10 @@
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
-        "header-4e24ea87ea94fa5c4440e399a8df5f64": null,
+        "header-87baba32c3eb48063a2cc63a7aec09e9": null,
         "direction": "left",
         "speed": "50s",
-        "header-dd4be45c5be17e403be4427101e1f7e0": null,
+        "header-f506266c8fbfd2a52e2ecebfa1e3d481": null,
         "use_block_colors": false,
         "autoplay": false,
         "autoplay_length": 5,
@@ -40,12 +40,12 @@
             "text": "Spring Into Savings! ",
             "sub_text": "UP TO 35% OFF!",
             "link": "",
-            "header-a01b359fd23062d78e46aa948e364ca0": null,
+            "header-184726deac0271e4b1a2f70ce268cc25": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/spring-sale",
             "use_text_button": false,
-            "header-0b7a2abf7cbc8cc51a8d1cec39996afd": null,
+            "header-b1265a0cd5c157342cac8131fe821f80": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -69,7 +69,44 @@
       "settings": {
         "menu": "us-header-new"
       },
-      "blocks": {}
+      "blocks": {
+        "megamenu_FhUpxV": {
+          "settings": {
+            "promo_3_image": "shopify://shop_images/c5be9df65dd133f1d93d7b8875de0aa7.png",
+            "promo_4_image": "shopify://shop_images/c5be9df65dd133f1d93d7b8875de0aa7.png",
+            "promo_1_link": "shopify://pages/new-arrival",
+            "promo_2_link": "shopify://collections/top-sellers"
+          }
+        },
+        "megamenu_FkncAE": {
+          "settings": {
+            "promo_1_link": "shopify://collections/ceiling-light",
+            "promo_2_link": "shopify://collections/gaming-light",
+            "promo_3_link": "shopify://collections/light-strip-bulbs",
+            "promo_4_link": "shopify://collections/sensor-light",
+            "promo_5_link": "shopify://collections/monitor-light-bar",
+            "promo_6_link": "shopify://collections/desk-lamp"
+          }
+        },
+        "megamenu_VnKGDM": {
+          "settings": {
+            "promo_1_link": "shopify://collections/bedroom-lighting",
+            "promo_2_image": "shopify://shop_images/20250619-130933.png",
+            "promo_2_heading": "Work & Study",
+            "promo_3_link": "shopify://collections/living-room",
+            "promo_4_link": "shopify://collections/gaming-lights",
+            "promo_5_link": "shopify://collections/outdoor-fun",
+            "promo_6_link": "shopify://collections/holiday-decor-lights"
+          }
+        },
+        "megamenu_PedDaN": {
+          "settings": {
+            "promo_2_image": "shopify://shop_images/logo.png",
+            "promo_2_image_mobile": "shopify://shop_images/logo.png",
+            "promo_2_heading": "Brand cooperation"
+          }
+        }
+      }
     }
   },
   "order": [
