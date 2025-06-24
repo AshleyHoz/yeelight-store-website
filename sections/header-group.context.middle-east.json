@@ -72,10 +72,10 @@
       "blocks": {
         "megamenu_FhUpxV": {
           "settings": {
-            "promo_3_image": "shopify://shop_images/c5be9df65dd133f1d93d7b8875de0aa7.png",
-            "promo_4_image": "shopify://shop_images/c5be9df65dd133f1d93d7b8875de0aa7.png",
             "promo_1_link": "shopify://pages/new-arrival",
-            "promo_2_link": "shopify://collections/top-sellers"
+            "promo_2_link": "shopify://collections/top-sellers",
+            "promo_3_image": "shopify://shop_images/c5be9df65dd133f1d93d7b8875de0aa7.png",
+            "promo_4_image": "shopify://shop_images/c5be9df65dd133f1d93d7b8875de0aa7.png"
           }
         },
         "megamenu_FkncAE": {
@@ -103,7 +103,7 @@
           "settings": {
             "promo_2_image": "shopify://shop_images/logo.png",
             "promo_2_image_mobile": "shopify://shop_images/logo.png",
-            "promo_2_heading": "Brand cooperation"
+            "promo_2_heading": "Brand Partnerships"
           }
         }
       }
