@@ -20,10 +20,10 @@
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
-        "header-41ece069833c2e59898b694b96986290": null,
+        "header-896f7734dd837c733435232674c03283": null,
         "direction": "left",
         "speed": "20s",
-        "header-2faa3cbfa7f707f3e6021863531ca7d1": null,
+        "header-95ff15af87b203d76c94970783e7dc99": null,
         "use_block_colors": false,
         "autoplay": true,
         "autoplay_length": 5,
@@ -40,12 +40,12 @@
             "text": "Easter Sale",
             "sub_text": "UP TO 40% OFF!",
             "link": "shopify://pages/easter-sale",
-            "header-b041dbbf026213232c78a89b0043055a": null,
+            "header-d792c1c496434739560bdef4f093aec1": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/easter-sale",
             "use_text_button": false,
-            "header-ab03bcc1c76a689c41949a21c60323d4": null,
+            "header-44cacbae215d8c2059507a2285b278c9": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -114,10 +114,11 @@
         },
         "megamenu_PedDaN": {
           "settings": {
-            "promo_2_image": "shopify://shop_images/73f37a2355330ba9f04b30b477e7a5f7.png",
+            "promo_1_link": "",
+            "promo_2_image": "shopify://shop_images/logo.png",
+            "promo_2_image_mobile": "shopify://shop_images/logo.png",
             "promo_2_heading": "Brand Partnerships",
-            "promo_1_link": "/",
-            "promo_2_link": "/"
+            "promo_2_link": ""
           }
         }
       }
