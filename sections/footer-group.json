@@ -1,1 +1,45 @@
-{"type":"footer","name":"Footer group","sections":{"footer":{"type":"footer","blocks":{"2ab8345e-9f63-4c80-b028-f4edae3633b5":{"type":"signup","settings":{"column_size":"large","title":"Subscribe to our newsletter","text":"<p>Know about New Products and Get Exclusive Offers<\/p>"}},"menu_bAdntc":{"type":"menu","settings":{"column_size":"small","title":"About","menu":"about-us"}},"055d0c35-3f11-4f51-9e3d-eab55edb7a9b":{"type":"menu","settings":{"column_size":"small","title":"Product","menu":"product"}},"menu_CmVPdk":{"type":"menu","settings":{"column_size":"small","title":"Support","menu":"support"}},"menu_9TVnUE":{"type":"menu","settings":{"column_size":"small","title":"Service","menu":"service"}}},"block_order":["2ab8345e-9f63-4c80-b028-f4edae3633b5","menu_bAdntc","055d0c35-3f11-4f51-9e3d-eab55edb7a9b","menu_CmVPdk","menu_9TVnUE"],"settings":{"footer_reveal_animation":false,"copyright_text":"All rights reserved.","show_language_switcher":true,"show_currency_switcher":true,"show_payment_icons":true,"enable_follow_on_shop":false}}},"order":["footer"]}
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "2ab8345e-9f63-4c80-b028-f4edae3633b5": {
+          "type": "signup",
+          "settings": {
+            "column_size": "large",
+            "title": "Subscribe to our newsletter",
+            "text": "<p>Know about New Products and Get Exclusive Offers</p>"
+          }
+        },
+        "menu_bAdntc": { "type": "menu", "settings": { "column_size": "small", "title": "About", "menu": "about-us" } },
+        "055d0c35-3f11-4f51-9e3d-eab55edb7a9b": {
+          "type": "menu",
+          "settings": { "column_size": "small", "title": "Product", "menu": "product" }
+        },
+        "menu_CmVPdk": {
+          "type": "menu",
+          "settings": { "column_size": "small", "title": "Support", "menu": "support" }
+        },
+        "menu_9TVnUE": { "type": "menu", "settings": { "column_size": "small", "title": "Service", "menu": "service" } }
+      },
+      "block_order": [
+        "2ab8345e-9f63-4c80-b028-f4edae3633b5",
+        "menu_bAdntc",
+        "055d0c35-3f11-4f51-9e3d-eab55edb7a9b",
+        "menu_CmVPdk",
+        "menu_9TVnUE"
+      ],
+      "settings": {
+        "footer_reveal_animation": false,
+        "copyright_text": "All rights reserved.",
+        "show_language_switcher": true,
+        "show_currency_switcher": true,
+        "show_payment_icons": true,
+        "enable_follow_on_shop": false
+      }
+    }
+  },
+  "order": ["footer"]
+}

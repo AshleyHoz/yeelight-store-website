@@ -7,7 +7,11 @@
 -%}
 <div class="thb-secondary-area thb-header-right">
   <div class="thb-secondary-area-item thb-quick-localization">
-    {%- render 'localization', id: 'HeaderLocalization', show_language_switcher: false, show_currency_switcher: true -%}
+    {%- render 'localization',
+      id: 'HeaderLocalization',
+      show_language_switcher: header_settings.show_language_switcher,
+      show_currency_switcher: header_settings.show_currency_switcher
+    -%}
   </div>
   <a
     class="thb-secondary-area-item thb-quick-search"
