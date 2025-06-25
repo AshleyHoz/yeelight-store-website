@@ -68,7 +68,11 @@
           }
         }
       },
-      "block_order": ["text_dNwVVJ", "955bb93b-7a65-4933-8023-83a64ee46bc2", "text_qr4nfc"],
+      "block_order": [
+        "text_dNwVVJ",
+        "955bb93b-7a65-4933-8023-83a64ee46bc2",
+        "text_qr4nfc"
+      ],
       "disabled": true,
       "settings": {
         "announcement_bar": true,
@@ -118,7 +122,12 @@
           }
         }
       },
-      "block_order": ["text_ACm6Rt", "text_PWxYtC", "text_y6qtbn", "text_JGpMAa"],
+      "block_order": [
+        "text_ACm6Rt",
+        "text_PWxYtC",
+        "text_y6qtbn",
+        "text_JGpMAa"
+      ],
       "settings": {
         "info_bar": true,
         "info_bar_homepage_only": false,
@@ -269,7 +278,12 @@
           }
         }
       },
-      "block_order": ["megamenu_FhUpxV", "megamenu_FkncAE", "megamenu_VnKGDM", "megamenu_PedDaN"],
+      "block_order": [
+        "megamenu_FhUpxV",
+        "megamenu_FkncAE",
+        "megamenu_VnKGDM",
+        "megamenu_PedDaN"
+      ],
       "settings": {
         "sticky_header": true,
         "logo": "shopify://shop_images/Yeelight-Logo-White.png",
@@ -281,7 +295,7 @@
         "transparent_header": false,
         "mobile_secondary_menu": "",
         "show_social_links": true,
-        "show_language_switcher": false,
+        "show_language_switcher": true,
         "show_currency_switcher": true
       }
     },
@@ -295,5 +309,11 @@
       }
     }
   },
-  "order": ["announcement-bar", "info_bar_9bWAay", "header-secondary-menu", "header", "header-mobile-navigation"]
+  "order": [
+    "announcement-bar",
+    "info_bar_9bWAay",
+    "header-secondary-menu",
+    "header",
+    "header-mobile-navigation"
+  ]
 }
