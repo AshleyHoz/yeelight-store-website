@@ -162,6 +162,7 @@
     },
     "single_image_mtTtz8": {
       "type": "single-image",
+      "disabled": true,
       "settings": {
         "link": "",
         "image": "shopify://shop_images/Yeelight_candela_lamp-01.jpg",
