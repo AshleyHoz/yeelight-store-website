@@ -147,7 +147,7 @@
         "video": "",
         "video_hosted": "shopify://files/videos/Yeelight Candela Lamp.mov",
         "video_hosted_mobile": "shopify://files/videos/Yeelight Candela Lamp.mov",
-        "video_autoplay": false,
+        "video_autoplay": true,
         "video_loop": true,
         "video_controls": true,
         "desktop_height": "desktop-height-650",
