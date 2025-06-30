@@ -129,103 +129,166 @@
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "enable_image_change": false,
+        "button_1_title": "",
+        "button_2_title": ""
       }
     },
     "single_image_g4CiQU": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/1_cd6e1f9e-730d-46e4-91b2-96b4fa9e6ef7.jpg",
-        "image_mobile": "shopify://shop_images/01_d2b37f6f-db99-43f7-9da7-dd6813b1e828.jpg",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_01.jpg",
+        "image_mobile": "shopify://shop_images/Bass-_M__01.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_mtTtz8": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/2_767da071-46ff-441e-bbeb-be8d2a41486f.jpg",
-        "image_mobile": "shopify://shop_images/02_7f3e8210-3eb7-4d99-b43f-11315e1046e5.jpg",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_02.jpg",
+        "image_mobile": "shopify://shop_images/Bass-_M__02.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
-      }
-    },
-    "single_image_CiE9F9": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/4_54a4a9ec-2d59-4fbc-b3f8-858494c06ffc.jpg",
-        "image_mobile": "shopify://shop_images/04_ab768ec4-b24e-4ab3-abee-00066b961cd3.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_xpAebN": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/3_caf6e474-b2a1-4d5a-b095-2c89ec4bca6d.jpg",
-        "image_mobile": "shopify://shop_images/03_dc349327-5063-48a2-aa44-cb4cf8466900.jpg",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_03.jpg",
+        "image_mobile": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_03.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_CiE9F9": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_04.jpg",
+        "image_mobile": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_04.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_k6gWJB": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/6_22783d68-6ff4-48af-9f95-c842d988a541.jpg",
-        "image_mobile": "shopify://shop_images/06_3c105625-dcde-417a-a207-54be5c62f0c2.jpg",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_05.jpg",
+        "image_mobile": "shopify://shop_images/Bass-_M__05.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_nbhytB": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/7_7c32fdab-fbde-440f-990b-0c796babf745.jpg",
-        "image_mobile": "shopify://shop_images/07_b0aa5f3f-8f5f-4f24-a5d5-91623d06b77a.jpg",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_06.jpg",
+        "image_mobile": "shopify://shop_images/Bass-_M__06.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_8TkYG3": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/8_60c6c676-be10-48ec-9642-2fcc8903659a.jpg",
-        "image_mobile": "shopify://shop_images/08_1de69206-dfa1-4c65-8bc1-301c52141626.jpg",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_08.jpg",
+        "image_mobile": "shopify://shop_images/Bass-_M__07.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_4jwYRE": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/9_ac839a73-6c59-4430-8b82-d2e15a511619.jpg",
-        "image_mobile": "shopify://shop_images/09_c5cca380-e9ba-4387-a991-7502aed25bd1.jpg",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_09.jpg",
+        "image_mobile": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_09.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_YVkENx": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_10.jpg",
+        "image_mobile": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_10.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_67tDBt": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_11.jpg",
+        "image_mobile": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_11.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_BXxR48": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_12.jpg",
+        "image_mobile": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_12.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_p7frtr": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_13.jpg",
+        "image_mobile": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_13.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "rich_text_igCzBP": {
@@ -285,7 +348,8 @@
         "product_limit": 4,
         "columns_desktop": 4,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "show_cover": false
       }
     }
   },
@@ -300,6 +364,10 @@
     "single_image_nbhytB",
     "single_image_8TkYG3",
     "single_image_4jwYRE",
+    "single_image_YVkENx",
+    "single_image_67tDBt",
+    "single_image_BXxR48",
+    "single_image_p7frtr",
     "rich_text_igCzBP",
     "1712003137212dc6f8",
     "product-recommendations"
