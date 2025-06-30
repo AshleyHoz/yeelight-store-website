@@ -141,7 +141,7 @@
         "link": "",
         "image": "shopify://shop_images/Yeelight-LED-Folding--Desk-Lamp-Z1-Pro-PC_01.jpg",
         "image_mobile": "shopify://shop_images/Bass-_M__01.jpg",
-        "full_width": true,
+        "full_width": false,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
         "activity_wyze": false,
