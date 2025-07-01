@@ -39,8 +39,8 @@
         "text_HhPXHD"
       ],
       "settings": {
-        "image": "shopify://shop_images/cube_smart_lamp.jpg",
-        "mobile_image": "shopify://shop_images/cube_smart_lamp.jpg",
+        "image": "shopify://shop_images/20250701-135122.jpg",
+        "mobile_image": "shopify://shop_images/20250701-135122.jpg",
         "image_parallax": false,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-350",
@@ -106,21 +106,6 @@
         "enable_opposite_theme": false
       }
     },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "settings": {
-        "products_per_page": 12,
-        "columns_desktop": 4,
-        "pagination_type": "paginated",
-        "enable_filtering": false,
-        "enable_sorting": true,
-        "show_counts": true,
-        "filter_color_swatches": true,
-        "filters_collapsed": false,
-        "facets_desktop": "sidebar",
-        "show_cover": false
-      }
-    },
     "1751340239a1355f1a": {
       "type": "apps",
       "blocks": {
@@ -135,6 +120,21 @@
         "fbp_fast_bundle_bundle_with_ids_mc8fAq"
       ],
       "settings": {}
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "pagination_type": "paginated",
+        "enable_filtering": false,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": true,
+        "filters_collapsed": false,
+        "facets_desktop": "sidebar",
+        "show_cover": false
+      }
     },
     "collapsible_content_f67qVU": {
       "type": "collapsible-content",
