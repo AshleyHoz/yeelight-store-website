@@ -11,7 +11,9 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {}
+      "settings": {
+        "enable_opposite_theme": false
+      }
     },
     "image_with_text_overlay_8jXp9g": {
       "type": "image-with-text-overlay",
@@ -19,7 +21,7 @@
         "heading_HhgdPq": {
           "type": "heading",
           "settings": {
-            "text": "Essentials",
+            "text": "Gaming Room",
             "heading_size": "h1"
           }
         },
@@ -37,7 +39,8 @@
         "text_HhPXHD"
       ],
       "settings": {
-        "image": "shopify://shop_images/smart_bulb.jpg",
+        "image": "shopify://shop_images/cube_smart_lamp.jpg",
+        "mobile_image": "shopify://shop_images/cube_smart_lamp.jpg",
         "image_parallax": false,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-350",
@@ -99,7 +102,8 @@
         "show_subcollections": true,
         "color_subcollection_bg": "#ffffff",
         "color_subcollection_text": "#303c43",
-        "display_description": true
+        "display_description": true,
+        "enable_opposite_theme": false
       }
     },
     "product-grid": {
@@ -113,7 +117,8 @@
         "show_counts": true,
         "filter_color_swatches": true,
         "filters_collapsed": false,
-        "facets_desktop": "sidebar"
+        "facets_desktop": "sidebar",
+        "show_cover": false
       }
     },
     "collapsible_content_f67qVU": {
@@ -216,6 +221,21 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "1751340239a1355f1a": {
+      "type": "apps",
+      "blocks": {
+        "fbp_fast_bundle_bundle_with_ids_mc8fAq": {
+          "type": "shopify://apps/fbp-fast-bundle/blocks/bundle_with_ids/9e87fbe2-9041-4c23-acf5-322413994cef",
+          "settings": {
+            "bundle_ids": "47871863-2e18-4213-9c9f-ebc27b0ee2ef"
+          }
+        }
+      },
+      "block_order": [
+        "fbp_fast_bundle_bundle_with_ids_mc8fAq"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -224,6 +244,7 @@
     "rich_text_ywXme4",
     "template-header",
     "product-grid",
+    "1751340239a1355f1a",
     "collapsible_content_f67qVU"
   ]
 }
