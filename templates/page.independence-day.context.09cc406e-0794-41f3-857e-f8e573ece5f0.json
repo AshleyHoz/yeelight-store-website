@@ -13,42 +13,6 @@
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
   "sections": {
-    "single_image_g3UUwH": {
-      "settings": {
-        "image": "shopify://shop_images/20250704-180210.jpg",
-        "image_mobile": "shopify://shop_images/750_x_1100.png"
-      },
-      "blocks": {}
-    },
-    "single_image_HQL3cr": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
-    "activity_valentine_JaTgDy": {
-      "settings": {
-        "title": "Light Up Freedom's Night!",
-        "title_icon": ""
-      },
-      "blocks": {
-        "product_NEXyJH": {
-          "settings": {
-            "product": "yeelight-permanent-outdoor-lights"
-          }
-        },
-        "product_8VyVNY": {
-          "settings": {
-            "product": "yeelight-pura-monitor-light-bar-pro"
-          }
-        }
-      },
-      "block_order": [
-        "product_WMhTBk",
-        "product_NEXyJH",
-        "product_dFcCKK",
-        "product_8VyVNY"
-      ]
-    },
     "featured_product_DR6rU": {
       "type": "featured-product",
       "disabled": false,
@@ -56,20 +20,20 @@
         "heading": "Patriotic Bundles + Free Shipping!",
         "marker_style": "style1",
         "description": "<p>Transform Your BBQ, Camping & Parties with Voice-Controlled Magic.</p>",
-        "header-a8fa7354c4c3ee09b0e39459d60ba1df": null,
+        "header-52fbdf2c3a2ade0dc1f53c8278ee6abf": null,
         "product": "independence-day-set",
         "show_taxes_included": true,
-        "header-c15f197f56055e6d524a8466c4285b39": null,
-        "paragraph-42822ba7b5f7c0be3660fa6a0de3d3ff": null,
+        "header-fcb4f96ee9b40841cfe8ec2d1e4faa0f": null,
+        "paragraph-8e44c1dfe77c47b23dfa7eddb47d99bb": null,
         "thumbnail_position": "left",
         "media_aspect_ratio": "adapt",
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
         "enable_video_looping": false,
-        "header-94354b793f7e92902859b05e308dcf93": null,
-        "marker_color": "#FD6262",
-        "header-831aa317c35559f869242947a6acd4c4": null,
+        "header-fd8e1c76884d78780fdcc56cda51c3c5": null,
+        "marker_color": "#fd6262",
+        "header-55a98323de6898d4fb42f54228e0c375": null,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       },
@@ -98,7 +62,7 @@
           "type": "quantity",
           "disabled": false,
           "settings": {
-            "paragraph-9a6979e6adc02fa2dbc3b3057e4b49e5": null
+            "paragraph-3c30dbec12beeff7ed34a6241bc727ee": null
           }
         },
         "buy_buttons_Afyj9": {
@@ -117,10 +81,161 @@
       ],
       "name": "Featured product"
     },
+    "featured_product_hAzEJ": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "heading": "Featured product",
+        "marker_style": "style1",
+        "description": "<p>Add a short description for this featured product</p>",
+        "header-64264e56bbe1ceb4dcdffe0557f18a95": null,
+        "product": "",
+        "show_taxes_included": true,
+        "header-f47697076294fcfd2e036b02bd0978e6": null,
+        "paragraph-c81687af819cf31979e65e6706768512": null,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "header-e687605759c91ff4f95a9f456fdf1c21": null,
+        "marker_color": "#fd6262",
+        "header-3df697c4109d06ea584dcbfff8e46552": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      },
+      "blocks": {
+        "title_MqCf3": {
+          "type": "title",
+          "disabled": false,
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "variant_picker_4nwXd": {
+          "type": "variant_picker",
+          "disabled": false,
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_use_variants": false,
+            "variant_is_disabled": true,
+            "sizing_guide_text": "Sizing guide",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "quantity_rPwDC": {
+          "type": "quantity",
+          "disabled": false,
+          "settings": {
+            "paragraph-56fd98264bc1edeae1f167bcdec6904b": null
+          }
+        },
+        "buy_buttons_TMyjR": {
+          "type": "buy_buttons",
+          "disabled": false,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "title_MqCf3",
+        "variant_picker_4nwXd",
+        "quantity_rPwDC",
+        "buy_buttons_TMyjR"
+      ],
+      "name": "Featured product"
+    },
+    "video_9xzFz": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Video",
+        "cover_title": "",
+        "cover_image": null,
+        "marker_style": "style1",
+        "description": "<p>Add a short description for this section</p>",
+        "full_width": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_hosted": null,
+        "video_hosted_mobile": null,
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-400",
+        "aspect_ratio": "16-9",
+        "header-94ab386cf9ba37b5a04f96588b69a762": null,
+        "marker_color": "#fd6262",
+        "header-909e7111ebd2e3087da5510a68e53fca": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "background_image": null,
+        "background_image_mobile": null,
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Video"
+    },
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/20250704-180210.jpg",
+        "image_mobile": "shopify://shop_images/750_x_1100.png"
+      },
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title": "Light Up Freedom's Night!",
+        "title_icon": "",
+        "left_icon": ""
+      },
+      "blocks": {
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-permanent-outdoor-lights"
+          }
+        },
+        "product_8VyVNY": {
+          "settings": {
+            "product": "yeelight-pura-monitor-light-bar-pro"
+          }
+        }
+      },
+      "block_order": [
+        "product_WMhTBk",
+        "product_NEXyJH",
+        "product_dFcCKK",
+        "product_8VyVNY"
+      ]
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "rich_text_7JpWaV": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
     "activity_valentine_N943U7": {
       "disabled": false,
       "settings": {
-        "title": "Patriotic Bundles + Free Shipping!"
+        "title": "All-in-One Independence Illumination",
+        "title_icon": "",
+        "left_icon": "",
+        "right_icon": ""
       },
       "blocks": {
         "product_ikGnam": {
@@ -161,121 +276,10 @@
         }
       }
     },
-    "single_image_RbrWWD": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
-    "rich_text_7JpWaV": {
-      "disabled": true,
-      "settings": {},
-      "blocks": {}
-    },
     "173148591784123612": {
       "disabled": true,
       "settings": {},
       "blocks": {}
-    },
-    "video_9xzFz": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "Video",
-        "cover_title": "",
-        "cover_image": null,
-        "marker_style": "style1",
-        "description": "<p>Add a short description for this section</p>",
-        "full_width": false,
-        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "video_hosted": null,
-        "video_hosted_mobile": null,
-        "video_autoplay": true,
-        "video_loop": true,
-        "video_controls": true,
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-400",
-        "aspect_ratio": "16-9",
-        "header-a53501a73a00aab960d340b40d9a1b29": null,
-        "marker_color": "#FD6262",
-        "header-895e730d1dd3b14d7c40e9e04a3389d1": null,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false,
-        "background_image": null,
-        "background_image_mobile": null,
-        "halloween_skull_flag": false,
-        "black_friday_ui_flag": false
-      },
-      "blocks": {},
-      "block_order": [],
-      "name": "Video"
-    },
-    "featured_product_hAzEJ": {
-      "type": "featured-product",
-      "disabled": true,
-      "settings": {
-        "heading": "Featured product",
-        "marker_style": "style1",
-        "description": "<p>Add a short description for this featured product</p>",
-        "header-a8fa7354c4c3ee09b0e39459d60ba1df": null,
-        "product": "",
-        "show_taxes_included": true,
-        "header-c15f197f56055e6d524a8466c4285b39": null,
-        "paragraph-42822ba7b5f7c0be3660fa6a0de3d3ff": null,
-        "thumbnail_position": "left",
-        "media_aspect_ratio": "adapt",
-        "display_captions": true,
-        "hide_variants": false,
-        "lightbox": true,
-        "enable_video_looping": false,
-        "header-94354b793f7e92902859b05e308dcf93": null,
-        "marker_color": "#FD6262",
-        "header-831aa317c35559f869242947a6acd4c4": null,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      },
-      "blocks": {
-        "title_MqCf3": {
-          "type": "title",
-          "disabled": false,
-          "settings": {
-            "show_products_rating": true
-          }
-        },
-        "variant_picker_4nwXd": {
-          "type": "variant_picker",
-          "disabled": false,
-          "settings": {
-            "picker_type": "button",
-            "color_picker": true,
-            "color_picker_use_variants": false,
-            "variant_is_disabled": true,
-            "sizing_guide_text": "Sizing guide",
-            "sizing_guide_icon": "ruler",
-            "sizing_guide_page": ""
-          }
-        },
-        "quantity_rPwDC": {
-          "type": "quantity",
-          "disabled": false,
-          "settings": {
-            "paragraph-9a6979e6adc02fa2dbc3b3057e4b49e5": null
-          }
-        },
-        "buy_buttons_TMyjR": {
-          "type": "buy_buttons",
-          "disabled": false,
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        }
-      },
-      "block_order": [
-        "title_MqCf3",
-        "variant_picker_4nwXd",
-        "quantity_rPwDC",
-        "buy_buttons_TMyjR"
-      ],
-      "name": "Featured product"
     }
   },
   "order": [
@@ -285,12 +289,12 @@
     "activity_valentine_JaTgDy",
     "featured_product_DR6rU",
     "single_image_RbrWWD",
+    "activity_valentine_N943U7",
     "rich_text_F6XM9m",
     "1731318448f757b534",
     "text_with_icons_LiHffF",
     "rich_text_7JpWaV",
     "featured_product_hAzEJ",
-    "activity_valentine_N943U7",
     "173148591784123612",
     "video_9xzFz"
   ]
