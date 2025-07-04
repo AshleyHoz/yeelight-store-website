@@ -18,15 +18,15 @@
       "blocks": {
         "slide_yHTReh": {
           "type": "slide",
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "image": "shopify://shop_images/20250704-180210.jpg",
             "mobile_image": "shopify://shop_images/750_x_1100.png",
-            "slide_link": "shopify://pages/spring-sale",
-            "header-8291ddff187b182e5a7cc9f3c7be1703": null,
+            "slide_link": "shopify://pages/independence-day",
+            "header-d64e0a41a4bb8e9658ef62898552be73": null,
             "video_background": false,
             "video_hosted": null,
-            "header-9ba69f9563ae5d2b8ac6b6c2a15c9eb0": null,
+            "header-362ea351261286ae2ab2050b9724930c": null,
             "badge_text": "",
             "subheading": "",
             "heading": "",
@@ -36,7 +36,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "header-5c1fa7e2e87ed00f98911802faa2e94c": null,
+            "header-8f2a6377ec8aed00adda459821ff8296": null,
             "color_slidebg": "rgba(0,0,0,0)",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 0,
@@ -46,12 +46,12 @@
             "overlay_color": "#ffffff",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "header-c94ae154f0ac3f04b9b4aad6a317c952": null,
+            "header-f1565cf99aed27c36cc1ed5ead3ef3e9": null,
             "button_1_text": "",
             "button_1_color": "accent",
             "button_1_link": "",
             "use_text_button_1": false,
-            "header-e9d0b622c1ea71f4980883451cd39831": null,
+            "header-aec7ab5d646adc4d9bddd026f1f03c84": null,
             "button_2_text": "",
             "button_2_color": "white",
             "button_2_link": "",
@@ -65,10 +65,10 @@
             "image": "shopify://shop_images/banner_3f53eb8f-0cf7-44d7-ae4e-542204c709ed.jpg",
             "mobile_image": "shopify://shop_images/banner_fcb11144-d741-49b0-b2a1-82d50f216363.jpg",
             "slide_link": "shopify://pages/mothers-day-sale",
-            "header-b92b4ddecdd5d827c615c902972a6ad1": null,
+            "header-3eea7d2b17a39dec6b4344643a9aac69": null,
             "video_background": false,
             "video_hosted": null,
-            "header-b88de10689011b20bd211b67acfe5574": null,
+            "header-caa059f6678b56f26caf9d57f8a5d894": null,
             "badge_text": "",
             "subheading": "",
             "heading": "",
@@ -78,7 +78,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "header-16f425065f2eaaf5a7ac184af380d150": null,
+            "header-8401b6a329aef7ac83439e4d2e61391a": null,
             "color_slidebg": "rgba(0,0,0,0)",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 0,
@@ -88,12 +88,12 @@
             "overlay_color": "#ffffff",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "header-231bcc4ab26c3f17b42d3b64d4b21629": null,
+            "header-0f9a166723905c04b0d59ea7f073bfa7": null,
             "button_1_text": "",
             "button_1_color": "accent",
             "button_1_link": "",
             "use_text_button_1": false,
-            "header-cfdd9ab84dc23c746a551c75f958ad46": null,
+            "header-5100ddbfb2661fae480b7521666963f1": null,
             "button_2_text": "",
             "button_2_color": "white",
             "button_2_link": "",
@@ -116,10 +116,11 @@
           }
         },
         "slide_gEb3pq": {
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Cube_6.jpg",
             "mobile_image": "shopify://shop_images/cube_18575f6a-2999-4223-8f2a-a30145b6dd9e.jpg",
-            "slide_link": "shopify://products/a-yeelight-cube-4-matrix-pack",
+            "slide_link": "shopify://pages/independence-day",
             "content": ""
           }
         }
@@ -162,7 +163,7 @@
             "data-limit": 15,
             "maxwidth": 1080,
             "is_sample": true,
-            "paragraph-69bfcbeba11f517725737de0ad38219f": null
+            "paragraph-81258f1ddade9aa0ebcad9c73ac0060d": null
           }
         }
       },
