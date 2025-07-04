@@ -18,7 +18,7 @@
       "blocks": {
         "slide_yHTReh": {
           "type": "slide",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/20250704-180210.jpg",
             "mobile_image": "shopify://shop_images/750_x_1100.png",
