@@ -65,6 +65,22 @@
 
     {% render 'head-variables' %}
 
+    {% comment %} FOSHO Marketplace click event {% endcomment %}
+    <script src="{{ 'everflow.js' | asset_url }}" defer="defer"></script>
+    <script type="text/javascript">
+      EF.click({
+        offer_id: EF.urlParameter('oid'),
+        affiliate_id: EF.urlParameter('affid'),
+        sub1: EF.urlParameter('sub1'),
+        sub2: EF.urlParameter('sub2'),
+        sub3: EF.urlParameter('sub3'),
+        sub4: EF.urlParameter('sub4'),
+        sub5: EF.urlParameter('sub5'),
+        uid: EF.urlParameter('uid'),
+        source_id: EF.urlParameter('source_id'),
+        transaction_id: EF.urlParameter('_ef_transaction_id'),
+      });
+    </script>
     <script>
       		window.theme = window.theme || {};
       		theme = {
@@ -104,7 +120,7 @@
     </script>
 
     {% comment %} meetbot chat {% endcomment %}
-    <script src="https://s2.meetbot.com/js/webhooks/5124/ws_channel_script.js"></script>
+    <script src="{{ 'ws-channel-script.js' | asset_url }}" defer="defer"></script>
     <script>
       // 获取当前用户选择的货币
       var currentCurrency = Shopify.currency.active;
