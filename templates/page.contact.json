@@ -46,7 +46,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Customer Service",
-            "text": "<p>For FAQ and customer service, please contact <strong>support@yeelight.com</strong><br/>Mon-Fri 9AM-5PM (UTC+8)<br/>We'll reply within 48 hours in the working days.</p>",
+            "text": "<p>For FAQ and customer service, please contact <a href=\"mailto:support@yeelight.com\" target=\"_blank\" title=\"mailto:support@yeelight.com\"><strong>support@yeelight.com</strong></a><br/>Mon-Fri 9AM-5PM (UTC+8)<br/>We'll reply within 48 hours in the working days.</p>",
             "link_label": "",
             "link": ""
           }
@@ -68,7 +68,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Influencer Contact",
-            "text": "<p>For social media KOLs and influencers who love Yeelight products, please mail influencer@yeelight.com</p>",
+            "text": "<p>For social media KOLs and influencers who love Yeelight products, please mail <a href=\"mailto:influencer@yeelight.com\" target=\"_blank\" title=\"mailto:influencer@yeelight.com\">influencer@yeelight.com</a></p>",
             "link_label": "",
             "link": ""
           }
@@ -79,7 +79,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Affiliate Contact",
-            "text": "<p>The Yeelight Affiliate Program offers competitive commissions of 8% with a cookie length of 45 days. Please mail AFF@yeelight.com</p>",
+            "text": "<p>The Yeelight Affiliate Program offers competitive commissions of 8% with a cookie length of 45 days. Please mail <a href=\"mailto:AFF@yeelight.com\" target=\"_blank\" title=\"mailto:AFF@yeelight.com\">AFF@yeelight.com</a></p>",
             "link_label": "",
             "link": ""
           }
@@ -112,7 +112,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Business Contact",
-            "text": "<p>For international business, sales and operations, please mail biz@yeelight.com</p>",
+            "text": "<p>For international business, sales and operations, please mail <a href=\"mailto:biz@yeelight.com\" target=\"_blank\" title=\"mailto:biz@yeelight.com\">biz@yeelight.com</a></p>",
             "link_label": "",
             "link": ""
           }
