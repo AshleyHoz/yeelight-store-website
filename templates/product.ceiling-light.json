@@ -175,6 +175,19 @@
         "activity_icon": false
       }
     },
+    "single_image_LAEmxN": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Arwen_D_01.png",
+        "image_mobile": "shopify://shop_images/Arwen_D-M_01.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
     "single_image_CiE9F9": {
       "type": "single-image",
       "settings": {
@@ -203,10 +216,11 @@
     },
     "single_image_xpAebN": {
       "type": "single-image",
+      "disabled": true,
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/04_9270432d-8b75-4061-b182-9d6d5a21b2fc.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-04.jpg",
+        "image": "shopify://shop_images/Arwen_D_02.png",
+        "image_mobile": "shopify://shop_images/Arwen_D-M_02.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -253,12 +267,25 @@
         "activity_icon": false
       }
     },
+    "single_image_fT7yma": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/Arwen_D_04.png",
+        "image_mobile": "shopify://shop_images/Arwen_D-M_04.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
     "single_image_4jwYRE": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/09.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-09.jpg",
+        "image": "shopify://shop_images/Arwen_D_03.png",
+        "image_mobile": "shopify://shop_images/Arwen_D-M_03.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -346,13 +373,15 @@
     "main-product",
     "video_CwEDhk",
     "single_image_mtTtz8",
+    "single_image_LAEmxN",
     "single_image_CiE9F9",
     "single_image_g4CiQU",
     "single_image_xpAebN",
     "single_image_k6gWJB",
+    "single_image_fT7yma",
+    "single_image_4jwYRE",
     "single_image_nbhytB",
     "single_image_8TkYG3",
-    "single_image_4jwYRE",
     "single_image_DYGjaQ",
     "rich_text_igCzBP",
     "1712003137212dc6f8",
