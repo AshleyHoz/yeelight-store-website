@@ -129,115 +129,127 @@
         "display_captions": true,
         "hide_variants": false,
         "lightbox": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "enable_image_change": false,
+        "button_1_title": "",
+        "button_2_title": ""
       }
     },
     "single_image_mtTtz8": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/03_2f4f8fad-4d36-40e4-b2ba-5d5d82408dbc.jpg",
-        "image_mobile": "shopify://shop_images/3_3287988b-8049-459d-8892-259ae165a711.jpg",
+        "image": "shopify://shop_images/1_68873722-fb1d-4b2c-9534-89114fff9463.png",
+        "image_mobile": "shopify://shop_images/1_7027ab59-1aed-4f16-9e0e-7ea3e679cef6.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_CiE9F9": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/02_8cd0ea89-6ecf-4b59-8427-0705719d19c5.jpg",
-        "image_mobile": "shopify://shop_images/2_b68cf5c1-4608-4707-9cf7-d6d13d91cf8a.jpg",
+        "image": "shopify://shop_images/2_6da9aef9-92a7-4532-ab28-0fccbee5453b.png",
+        "image_mobile": "shopify://shop_images/2_dab9ef25-b151-494a-89dd-c68dae9700dd.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_xpAebN": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/04_dbe1882a-ebb5-45ea-8a95-b58bdad0bf65.jpg",
-        "image_mobile": "shopify://shop_images/4_9f3f311a-14b5-4055-aa2b-3cb67345a19e.jpg",
+        "image": "shopify://shop_images/3_cb5c3056-599a-44e7-8777-c8c37caf0fa8.png",
+        "image_mobile": "shopify://shop_images/3_86e190b0-5719-4119-b9a4-1cfda8ff63ca.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_g4CiQU": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/05_3c665387-cfe4-455a-a061-0b7825e5540b.jpg",
-        "image_mobile": "shopify://shop_images/5_a3c85370-04ed-444d-b6a1-7c5a3027446c.jpg",
+        "image": "shopify://shop_images/4_81c8ce50-fb27-4987-9097-1e069050ef03.png",
+        "image_mobile": "shopify://shop_images/4_b2f8567f-6f12-42d6-9624-62753c9895bc.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_k6gWJB": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/06_1e4f7b66-357e-4744-81fa-6ee06df49bbe.jpg",
-        "image_mobile": "shopify://shop_images/6_5f1a84af-c15d-4a7e-89f1-63dc4b933192.jpg",
+        "image": "shopify://shop_images/5_480d60d9-a3b2-40d1-879c-7fb51bef9c65.png",
+        "image_mobile": "shopify://shop_images/5_954ed9dc-a4fc-4870-9e68-1497deb0828c.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_nbhytB": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/07.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-07.jpg",
+        "image": "shopify://shop_images/6_ef5ab813-ef2f-4517-a9c3-a854cd7234d3.png",
+        "image_mobile": "shopify://shop_images/6_f4aaf19c-ae53-470f-b551-9d66b9f04138.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_8TkYG3": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/08_77372a70-f109-4f96-9be7-4ace1515aff4.jpg",
-        "image_mobile": "shopify://shop_images/8_6d0c9373-2bae-4345-9b94-ceed00e41bf2.jpg",
+        "image": "shopify://shop_images/7_91c44d82-0f87-4a57-8066-d7cc7f450b20.png",
+        "image_mobile": "shopify://shop_images/7_e7c35eb1-1609-433d-a765-a5f9d1d9e785.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_4jwYRE": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/09.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-09.jpg",
+        "image": "shopify://shop_images/8_2caf86db-f578-4f23-807c-6cc1e5402483.png",
+        "image_mobile": "shopify://shop_images/8_93e57ddc-3bb3-4841-9bfd-2c8f25c09be9.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "single_image_DYGjaQ": {
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/10_2f42661e-63df-454f-a690-5075f71b8eef.jpg",
-        "image_mobile": "shopify://shop_images/9_4f5edcd5-4264-45a7-b678-ab598f39385b.jpg",
+        "image": "shopify://shop_images/9_eeac1a35-e791-4049-a9e5-9958ef1f1c53.png",
+        "image_mobile": "shopify://shop_images/9_3957da41-ce99-403f-9baa-3fdc174357af.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "activity_wyze": false
+        "activity_wyze": false,
+        "activity_icon": false
       }
     },
     "rich_text_igCzBP": {
@@ -297,7 +309,8 @@
         "product_limit": 4,
         "columns_desktop": 4,
         "disable_top_spacing": true,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "show_cover": false
       }
     }
   },
