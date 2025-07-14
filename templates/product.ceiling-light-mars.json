@@ -135,26 +135,24 @@
         "button_2_title": ""
       }
     },
-    "video_CwEDhk": {
+    "video_N9WVkk": {
       "type": "video",
       "name": "Video",
       "settings": {
         "heading": "",
         "cover_title": "",
-        "cover_image": "shopify://shop_images/01_cae0cee4-6af7-4bd4-a56e-76e15e0d8a16.jpg",
         "marker_style": "style1",
-        "description": "",
+        "description": "<p> </p>",
         "full_width": false,
         "video": "",
-        "video_hosted": "shopify://files/videos/Arwen D 彩光吸顶灯-网站.mp4",
-        "video_hosted_mobile": "shopify://files/videos/Arwen D 彩光吸顶灯-网站.mp4",
+        "video_hosted": "shopify://files/videos/Mars (with website url).mp4",
         "video_autoplay": true,
         "video_loop": true,
         "video_controls": true,
         "desktop_height": "desktop-height-650",
         "mobile_height": "mobile-height-auto",
         "aspect_ratio": "16-9",
-        "marker_color": "#fd6262",
+        "marker_color": "#FD6262",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "halloween_skull_flag": false,
@@ -163,24 +161,10 @@
     },
     "single_image_mtTtz8": {
       "type": "single-image",
-      "disabled": true,
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/01_cae0cee4-6af7-4bd4-a56e-76e15e0d8a16.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-01.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
-    "single_image_LAEmxN": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/Arwen_D_01.png",
-        "image_mobile": "shopify://shop_images/Arwen_D-M_01.jpg",
+        "image": "shopify://shop_images/1_68873722-fb1d-4b2c-9534-89114fff9463.png",
+        "image_mobile": "shopify://shop_images/1_7027ab59-1aed-4f16-9e0e-7ea3e679cef6.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -192,8 +176,21 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/02_7c1e288b-c882-4159-aeca-a3339dd206ff.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-02.jpg",
+        "image": "shopify://shop_images/2_6da9aef9-92a7-4532-ab28-0fccbee5453b.png",
+        "image_mobile": "shopify://shop_images/2_dab9ef25-b151-494a-89dd-c68dae9700dd.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_xpAebN": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/3_cb5c3056-599a-44e7-8777-c8c37caf0fa8.png",
+        "image_mobile": "shopify://shop_images/3_86e190b0-5719-4119-b9a4-1cfda8ff63ca.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -205,22 +202,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/03.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-03.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
-    "single_image_xpAebN": {
-      "type": "single-image",
-      "disabled": true,
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/Arwen_D_02.png",
-        "image_mobile": "shopify://shop_images/Arwen_D-M_02.jpg",
+        "image": "shopify://shop_images/4_81c8ce50-fb27-4987-9097-1e069050ef03.png",
+        "image_mobile": "shopify://shop_images/4_b2f8567f-6f12-42d6-9624-62753c9895bc.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -232,8 +215,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/06.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-06.jpg",
+        "image": "shopify://shop_images/5_480d60d9-a3b2-40d1-879c-7fb51bef9c65.png",
+        "image_mobile": "shopify://shop_images/5_954ed9dc-a4fc-4870-9e68-1497deb0828c.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -245,8 +228,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/07.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-07.jpg",
+        "image": "shopify://shop_images/6_ef5ab813-ef2f-4517-a9c3-a854cd7234d3.png",
+        "image_mobile": "shopify://shop_images/6_f4aaf19c-ae53-470f-b551-9d66b9f04138.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -258,21 +241,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/08_77581481-1ffa-4dd6-b422-9f9e52055f03.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-08.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
-    "single_image_fT7yma": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/Arwen_D_04.png",
-        "image_mobile": "shopify://shop_images/Arwen_D-M_04.jpg",
+        "image": "shopify://shop_images/7_91c44d82-0f87-4a57-8066-d7cc7f450b20.png",
+        "image_mobile": "shopify://shop_images/7_e7c35eb1-1609-433d-a765-a5f9d1d9e785.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -284,8 +254,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Arwen_D_03.png",
-        "image_mobile": "shopify://shop_images/Arwen_D-M_03.jpg",
+        "image": "shopify://shop_images/8_2caf86db-f578-4f23-807c-6cc1e5402483.png",
+        "image_mobile": "shopify://shop_images/8_93e57ddc-3bb3-4841-9bfd-2c8f25c09be9.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -297,8 +267,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/10_63bb451b-c88c-4a24-8716-6a6a4a35ab01.jpg",
-        "image_mobile": "shopify://shop_images/30.png",
+        "image": "shopify://shop_images/9_eeac1a35-e791-4049-a9e5-9958ef1f1c53.png",
+        "image_mobile": "shopify://shop_images/9_3957da41-ce99-403f-9baa-3fdc174357af.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -371,17 +341,15 @@
   "order": [
     "breadcrumbs",
     "main-product",
-    "video_CwEDhk",
+    "video_N9WVkk",
     "single_image_mtTtz8",
-    "single_image_LAEmxN",
     "single_image_CiE9F9",
-    "single_image_g4CiQU",
     "single_image_xpAebN",
+    "single_image_g4CiQU",
     "single_image_k6gWJB",
-    "single_image_fT7yma",
-    "single_image_4jwYRE",
     "single_image_nbhytB",
     "single_image_8TkYG3",
+    "single_image_4jwYRE",
     "single_image_DYGjaQ",
     "rich_text_igCzBP",
     "1712003137212dc6f8",
