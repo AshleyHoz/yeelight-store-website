@@ -59,6 +59,7 @@
     "show_products_vendor": false,
     "show_products_swatches": true,
     "show_products_rating_average": true,
+    "show_products_inventory": false,
     "product_label_1": "",
     "product_label_2": "",
     "product_card_border": false,
