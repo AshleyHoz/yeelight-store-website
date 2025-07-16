@@ -1,1 +1,534 @@
-{"sections":{"breadcrumbs":{"type":"breadcrumbs","settings":{"enable_opposite_theme":true}},"main-product":{"type":"main-product","blocks":{"2b609eea-6cce-4efe-b447-c5560de1d797":{"type":"label","settings":{}},"title":{"type":"title","settings":{"show_products_rating":false}},"loox_reviews_loox_rating_9g3aA7":{"type":"shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"contentSize":16,"pattern":"","hideText":false,"alignment":"","layout":"","textColor":"#2c2d2e","starColor":"#ff9529","showAllReviews":false,"looxOpenFloatingWidget":false,"emptyRatingWidget":false}},"separator_qJEjWC":{"type":"separator","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","color_picker":true,"color_picker_use_variants":false,"variant_is_disabled":true,"sizing_guide_variant":"Size","sizing_guide_text":"","sizing_guide_icon":"ruler","sizing_guide_page":""}},"quantity":{"type":"quantity","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":false}},"386f7e4a-6127-4141-928b-9cb4614ee18c":{"type":"collapsible_tab","settings":{"heading":"Shipping","open":false,"content":"<p>Order will typically be processed within 24 hours. <\/p><p><strong>Estimated Shipping Time:<\/strong><\/p><ul><li>Europe: 7-10 Business Days<\/li><\/ul>","page":"","custom_liquid":""}},"d56924f2-0137-4e3b-8c33-49b1f28391c6":{"type":"collapsible_tab","settings":{"heading":"Warranty","open":false,"content":"<p>We offer 1 Year Warranty on all Yeelight Products.<\/p>","page":"","custom_liquid":""}},"0b3e272b-c86a-4dba-946c-c6912251371c":{"type":"description","settings":{}},"4fd23485-293f-46a0-8a4c-34d0e25ea41b":{"type":"share","settings":{}},"fc6da228-45eb-4a6e-aa68-d6ec477bec34":{"type":"complementary","settings":{"block_heading":"Pairs well with","product_list_limit":3}}},"block_order":["2b609eea-6cce-4efe-b447-c5560de1d797","title","loox_reviews_loox_rating_9g3aA7","separator_qJEjWC","variant_picker","quantity","buy_buttons","386f7e4a-6127-4141-928b-9cb4614ee18c","d56924f2-0137-4e3b-8c33-49b1f28391c6","0b3e272b-c86a-4dba-946c-c6912251371c","4fd23485-293f-46a0-8a4c-34d0e25ea41b","fc6da228-45eb-4a6e-aa68-d6ec477bec34"],"settings":{"enable_sticky_add_to_cart":true,"show_taxes_included":true,"thumbnail_position":"left","media_aspect_ratio":"adapt","display_captions":true,"hide_variants":false,"lightbox":true,"enable_video_looping":false,"enable_image_change":false,"button_1_title":"","button_2_title":""}},"product_slideshow_DqnWb4":{"type":"product-slideshow","blocks":{"slide_h8LHBQ":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/01_fd012619-0bcb-44ab-8207-d652fc3f1cf7.png","mobile_image":"shopify:\/\/shop_images\/M_01_46c209ac-4105-46a5-aa6b-683eebefaa24.png","slide_link":"","button_icon":"","button_text":"","video_background":false,"title":"Dinner in Perfect Light & Air - Enjoy Every Bite","badge_text":"","subheading":"","heading":"","heading_size":"h1","content":"","description_size":"medium","content_position":"middle-center","text_alignment":"center","content_size":"medium","color_slidebg":"rgba(0,0,0,0)","color_slidebg_opacity":0,"color_slidebg_blur":20,"color_text":"#2c2d2e","color_badge_bg":"#3f72e5","color_badge_text":"#ffffff","overlay_color":"#000000","overlay_opacity":70,"overlay_gradient":"linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)","button_1_text":"Shop Now","button_1_color":"accent","button_1_link":"","use_text_button_1":false,"button_2_text":"Shop Now","button_2_color":"white","button_2_link":"","use_text_button_2":false}},"slide_J6UdVw":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/04_010822a4-2e57-49a6-bfcb-fc1ab423a795.png","mobile_image":"shopify:\/\/shop_images\/M_03_9a1731b1-3043-4513-981b-fef082a0964b.png","slide_link":"","button_icon":"","button_text":"","video_background":false,"title":"Nighttime Bliss - Cool Air & Warm Light in Sync","badge_text":"","subheading":"Add a tagline","heading":"Slide Heading","heading_size":"h1","content":"Add descriptive text for your slide here.","description_size":"medium","content_position":"middle-center","text_alignment":"center","content_size":"medium","color_slidebg":"rgba(0,0,0,0)","color_slidebg_opacity":0,"color_slidebg_blur":20,"color_text":"#2c2d2e","color_badge_bg":"#3f72e5","color_badge_text":"#ffffff","overlay_color":"#000000","overlay_opacity":70,"overlay_gradient":"linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)","button_1_text":"Shop Now","button_1_color":"accent","button_1_link":"","use_text_button_1":false,"button_2_text":"Shop Now","button_2_color":"white","button_2_link":"","use_text_button_2":false}},"slide_8PV6jz":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/03_98fc35bf-3e59-40e6-9249-4797edd88cae.png","mobile_image":"shopify:\/\/shop_images\/M_04_c5a29c6e-42de-4609-9c87-9e80d40c35fe.png","slide_link":"","button_icon":"","button_text":"","video_background":false,"title":"Focus Mode - Bright Light & Steady Breeze","badge_text":"","subheading":"Add a tagline","heading":"Slide Heading","heading_size":"h1","content":"Add descriptive text for your slide here.","description_size":"medium","content_position":"middle-center","text_alignment":"center","content_size":"medium","color_slidebg":"rgba(0,0,0,0)","color_slidebg_opacity":0,"color_slidebg_blur":20,"color_text":"#2c2d2e","color_badge_bg":"#3f72e5","color_badge_text":"#ffffff","overlay_color":"#000000","overlay_opacity":70,"overlay_gradient":"linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)","button_1_text":"Shop Now","button_1_color":"accent","button_1_link":"","use_text_button_1":false,"button_2_text":"Shop Now","button_2_color":"white","button_2_link":"","use_text_button_2":false}},"slide_PnkQtQ":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/02_670fb20e-2b32-4fe2-956b-41a401794877.png","mobile_image":"shopify:\/\/shop_images\/M_02_b8072753-8a4e-4f50-8028-164340316feb.png","slide_link":"","button_icon":"","button_text":"","video_background":false,"title":"Guest Perfect - Fresh Airflow & Right Light","badge_text":"","subheading":"Add a tagline","heading":"Slide Heading","heading_size":"h1","content":"Add descriptive text for your slide here.","description_size":"medium","content_position":"middle-center","text_alignment":"center","content_size":"medium","color_slidebg":"rgba(0,0,0,0)","color_slidebg_opacity":0,"color_slidebg_blur":20,"color_text":"#2c2d2e","color_badge_bg":"#3f72e5","color_badge_text":"#ffffff","overlay_color":"#000000","overlay_opacity":70,"overlay_gradient":"linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)","button_1_text":"Shop Now","button_1_color":"accent","button_1_link":"","use_text_button_1":false,"button_2_text":"Shop Now","button_2_color":"white","button_2_link":"","use_text_button_2":false}}},"block_order":["slide_h8LHBQ","slide_J6UdVw","slide_8PV6jz","slide_PnkQtQ"],"settings":{"title":"","desktop_height":"desktop-height-auto","mobile_height":"mobile-height-500","full_width":false,"autoplay":true,"autoplay_length":5,"transition":"slide","controls":"arrows","disable_top_spacing":true,"disable_bottom_spacing":true}},"single_image_mtTtz8":{"type":"single-image","settings":{"link":"","image":"shopify:\/\/shop_images\/01_29104da1-6bad-4c23-832b-1699697004d9.png","image_mobile":"shopify:\/\/shop_images\/M_03.png","full_width":true,"disable_top_spacing":true,"disable_bottom_spacing":true,"activity_wyze":false,"activity_icon":false}},"single_image_CiE9F9":{"type":"single-image","disabled":true,"settings":{"link":"","image":"shopify:\/\/shop_images\/03_f72ee4a5-dee5-4510-87e8-db495bd811d3.png","image_mobile":"shopify:\/\/shop_images\/M_01.png","full_width":true,"disable_top_spacing":true,"disable_bottom_spacing":true,"activity_wyze":false,"activity_icon":false}},"single_image_g4CiQU":{"type":"single-image","settings":{"link":"","image":"shopify:\/\/shop_images\/02_e6dcbafe-d619-4c14-ab23-5e8c5fa3a508.png","image_mobile":"shopify:\/\/shop_images\/M_02.png","full_width":true,"disable_top_spacing":true,"disable_bottom_spacing":true,"activity_wyze":false,"activity_icon":false}},"single_image_xpAebN":{"type":"single-image","settings":{"link":"","image":"shopify:\/\/shop_images\/08_325b663f-aaa8-4563-8917-54815337a598.png","image_mobile":"shopify:\/\/shop_images\/M_08.png","full_width":true,"disable_top_spacing":true,"disable_bottom_spacing":true,"activity_wyze":false,"activity_icon":false}},"single_image_k6gWJB":{"type":"single-image","settings":{"link":"","image":"shopify:\/\/shop_images\/07_6a75cdc3-c290-4584-9477-041e55a439cf.png","image_mobile":"shopify:\/\/shop_images\/M_07.png","full_width":true,"disable_top_spacing":true,"disable_bottom_spacing":true,"activity_wyze":false,"activity_icon":false}},"single_image_nbhytB":{"type":"single-image","settings":{"link":"","image":"shopify:\/\/shop_images\/06_8618be4d-1098-425a-9ab8-ce41f6f64102.png","image_mobile":"shopify:\/\/shop_images\/M_06.png","full_width":true,"disable_top_spacing":true,"disable_bottom_spacing":true,"activity_wyze":false,"activity_icon":false}},"single_image_8TkYG3":{"type":"single-image","settings":{"link":"","image":"shopify:\/\/shop_images\/09_16ed5061-dc07-461e-88d3-d2459dce6a35.png","image_mobile":"shopify:\/\/shop_images\/M_09.png","full_width":true,"disable_top_spacing":true,"disable_bottom_spacing":true,"activity_wyze":false,"activity_icon":false}},"single_image_4jwYRE":{"type":"single-image","settings":{"link":"","image":"shopify:\/\/shop_images\/05_16a9c5b5-aa49-4ff8-9483-e7a8d8a351f0.png","image_mobile":"shopify:\/\/shop_images\/M_05.png","full_width":true,"disable_top_spacing":true,"disable_bottom_spacing":true,"activity_wyze":false,"activity_icon":false}},"single_image_DYGjaQ":{"type":"single-image","settings":{"link":"","image":"shopify:\/\/shop_images\/10_6a1a28c1-b6a7-450d-8cc9-44ef2dde3511.png","image_mobile":"shopify:\/\/shop_images\/M_10.png","full_width":true,"disable_top_spacing":true,"disable_bottom_spacing":true,"activity_wyze":false,"activity_icon":false}},"rich_text_igCzBP":{"type":"rich-text","blocks":{"heading_WVbABB":{"type":"heading","settings":{"text":"Customer Reviews","marker_style":"style1","size":"h3","marker_color":"#fd6262"}}},"block_order":["heading_WVbABB"],"settings":{"text_width":"medium","text_position":"center","text_alignment":"center","color_bg":"rgba(0,0,0,0)","color_heading":"#1a1c1d","color_text":"#2c2d2e","color_links":"#2c2d2e","disable_top_spacing":false,"disable_bottom_spacing":true}},"1712003137212dc6f8":{"type":"apps","blocks":{"loox_reviews_loox_dynamic_section_c8aEVF":{"type":"shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e","settings":{"only_photos":false,"aggregated":false,"limit":10,"hide_thumbnails":false,"maxwidth":1080,"is_sample":true}}},"block_order":["loox_reviews_loox_dynamic_section_c8aEVF"],"settings":{}},"product-recommendations":{"type":"product-recommendations","settings":{"heading":"You may also like","description":"<p>Combine your style with these products<\/p>","mobile_swipe":true,"product_limit":4,"columns_desktop":4,"disable_top_spacing":true,"disable_bottom_spacing":false}}},"order":["breadcrumbs","main-product","product_slideshow_DqnWb4","single_image_mtTtz8","single_image_CiE9F9","single_image_g4CiQU","single_image_xpAebN","single_image_k6gWJB","single_image_nbhytB","single_image_8TkYG3","single_image_4jwYRE","single_image_DYGjaQ","rich_text_igCzBP","1712003137212dc6f8","product-recommendations"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "enable_opposite_theme": true
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "2b609eea-6cce-4efe-b447-c5560de1d797": {
+          "type": "label",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": false
+          }
+        },
+        "loox_reviews_loox_rating_9g3aA7": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "#2c2d2e",
+            "starColor": "#ff9529",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "separator_qJEjWC": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_use_variants": false,
+            "variant_is_disabled": true,
+            "sizing_guide_variant": "Size",
+            "sizing_guide_text": "",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "386f7e4a-6127-4141-928b-9cb4614ee18c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "open": false,
+            "content": "<p>Order will typically be processed within 24 hours. </p><p><strong>Estimated Shipping Time:</strong></p><ul><li>Europe: 7-10 Business Days</li></ul>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty",
+            "open": false,
+            "content": "<p>We offer 1 Year Warranty on all Yeelight Products.</p>",
+            "page": "",
+            "custom_liquid": ""
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {}
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {}
+        },
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "product_list_limit": 3
+          }
+        }
+      },
+      "block_order": [
+        "2b609eea-6cce-4efe-b447-c5560de1d797",
+        "title",
+        "loox_reviews_loox_rating_9g3aA7",
+        "separator_qJEjWC",
+        "variant_picker",
+        "quantity",
+        "buy_buttons",
+        "386f7e4a-6127-4141-928b-9cb4614ee18c",
+        "d56924f2-0137-4e3b-8c33-49b1f28391c6",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
+        "fc6da228-45eb-4a6e-aa68-d6ec477bec34"
+      ],
+      "settings": {
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "enable_image_change": false,
+        "button_1_title": "",
+        "button_2_title": ""
+      }
+    },
+    "product_slideshow_DqnWb4": {
+      "type": "product-slideshow",
+      "blocks": {
+        "slide_h8LHBQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/01_fd012619-0bcb-44ab-8207-d652fc3f1cf7.png",
+            "mobile_image": "shopify://shop_images/M_01_46c209ac-4105-46a5-aa6b-683eebefaa24.png",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "",
+            "video_background": false,
+            "title": "Dinner in Perfect Light & Air - Enjoy Every Bite",
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "Shop Now",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_J6UdVw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/04_010822a4-2e57-49a6-bfcb-fc1ab423a795.png",
+            "mobile_image": "shopify://shop_images/M_03_9a1731b1-3043-4513-981b-fef082a0964b.png",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "",
+            "video_background": false,
+            "title": "Nighttime Bliss - Cool Air & Warm Light in Sync",
+            "badge_text": "",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
+            "heading_size": "h1",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "Shop Now",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_8PV6jz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/03_98fc35bf-3e59-40e6-9249-4797edd88cae.png",
+            "mobile_image": "shopify://shop_images/M_04_c5a29c6e-42de-4609-9c87-9e80d40c35fe.png",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "",
+            "video_background": false,
+            "title": "Focus Mode - Bright Light & Steady Breeze",
+            "badge_text": "",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
+            "heading_size": "h1",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "Shop Now",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_PnkQtQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/02_670fb20e-2b32-4fe2-956b-41a401794877.png",
+            "mobile_image": "shopify://shop_images/M_02_b8072753-8a4e-4f50-8028-164340316feb.png",
+            "slide_link": "",
+            "button_icon": "",
+            "button_text": "",
+            "video_background": false,
+            "title": "Guest Perfect - Fresh Airflow & Right Light",
+            "badge_text": "",
+            "subheading": "Add a tagline",
+            "heading": "Slide Heading",
+            "heading_size": "h1",
+            "content": "Add descriptive text for your slide here.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 20,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Now",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "button_2_text": "Shop Now",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_h8LHBQ",
+        "slide_J6UdVw",
+        "slide_8PV6jz",
+        "slide_PnkQtQ"
+      ],
+      "settings": {
+        "title": "",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-500",
+        "full_width": false,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "transition": "slide",
+        "controls": "arrows",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_mtTtz8": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/01_29104da1-6bad-4c23-832b-1699697004d9.png",
+        "image_mobile": "shopify://shop_images/M_03.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_CiE9F9": {
+      "type": "single-image",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/03_f72ee4a5-dee5-4510-87e8-db495bd811d3.png",
+        "image_mobile": "shopify://shop_images/M_01.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_g4CiQU": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/02_e6dcbafe-d619-4c14-ab23-5e8c5fa3a508.png",
+        "image_mobile": "shopify://shop_images/M_02.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_xpAebN": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/08_325b663f-aaa8-4563-8917-54815337a598.png",
+        "image_mobile": "shopify://shop_images/M_08.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_k6gWJB": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/07_6a75cdc3-c290-4584-9477-041e55a439cf.png",
+        "image_mobile": "shopify://shop_images/M_07.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_nbhytB": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/06_8618be4d-1098-425a-9ab8-ce41f6f64102.png",
+        "image_mobile": "shopify://shop_images/M_06.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_8TkYG3": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/09_16ed5061-dc07-461e-88d3-d2459dce6a35.png",
+        "image_mobile": "shopify://shop_images/M_09.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_4jwYRE": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/05_16a9c5b5-aa49-4ff8-9483-e7a8d8a351f0.png",
+        "image_mobile": "shopify://shop_images/M_05.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_DYGjaQ": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/10_6a1a28c1-b6a7-450d-8cc9-44ef2dde3511.png",
+        "image_mobile": "shopify://shop_images/M_10.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "rich_text_igCzBP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WVbABB": {
+          "type": "heading",
+          "settings": {
+            "text": "Customer Reviews",
+            "marker_style": "style1",
+            "size": "h3",
+            "marker_color": "#fd6262"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WVbABB"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_heading": "#1a1c1d",
+        "color_text": "#2c2d2e",
+        "color_links": "#2c2d2e",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1712003137212dc6f8": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_c8aEVF": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 10,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_c8aEVF"
+      ],
+      "settings": {}
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "description": "<p>Combine your style with these products</p>",
+        "mobile_swipe": true,
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false,
+        "show_cover": false
+      }
+    },
+    "video_xibtky": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "heading": "",
+        "cover_title": "",
+        "marker_style": "style1",
+        "description": "<p> </p>",
+        "full_width": false,
+        "video": "https://youtu.be/ALJ0ossX-T8",
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-400",
+        "aspect_ratio": "16-9",
+        "marker_color": "#FD6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "video_xibtky",
+    "product_slideshow_DqnWb4",
+    "single_image_mtTtz8",
+    "single_image_CiE9F9",
+    "single_image_g4CiQU",
+    "single_image_xpAebN",
+    "single_image_k6gWJB",
+    "single_image_nbhytB",
+    "single_image_8TkYG3",
+    "single_image_4jwYRE",
+    "single_image_DYGjaQ",
+    "rich_text_igCzBP",
+    "1712003137212dc6f8",
+    "product-recommendations"
+  ]
+}
