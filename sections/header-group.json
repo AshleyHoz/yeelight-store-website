@@ -134,7 +134,7 @@
         "info_bar_layout": "carousel",
         "autoplay": true,
         "autoplay_length": 5,
-        "background_color": "#1a1a1a"
+        "background_color": "#e5e5e5"
       }
     },
     "header-secondary-menu": {
