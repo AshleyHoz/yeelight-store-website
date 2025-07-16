@@ -12,5 +12,14 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "video_ciyhef": {
+      "settings": {
+        "video": "https://youtu.be/gGHByt-pBQs",
+        "video_hosted": null,
+        "video_hosted_mobile": null
+      },
+      "blocks": {}
+    }
+  }
 }
