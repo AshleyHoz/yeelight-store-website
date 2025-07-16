@@ -20,10 +20,10 @@
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
-        "header-896f7734dd837c733435232674c03283": null,
+        "header-5400dcbc414e8d247cde3bd1c7751677": null,
         "direction": "left",
         "speed": "20s",
-        "header-95ff15af87b203d76c94970783e7dc99": null,
+        "header-f9b5e692c3094790a60b574838489e6d": null,
         "use_block_colors": false,
         "autoplay": true,
         "autoplay_length": 5,
@@ -40,12 +40,12 @@
             "text": "Easter Sale",
             "sub_text": "UP TO 40% OFF!",
             "link": "shopify://pages/easter-sale",
-            "header-d792c1c496434739560bdef4f093aec1": null,
+            "header-c787bc3794e8aaf0d97627b7c66a2e27": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/easter-sale",
             "use_text_button": false,
-            "header-44cacbae215d8c2059507a2285b278c9": null,
+            "header-a93300164329ad2b04dcd397874a5de0": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -56,7 +56,7 @@
       ]
     },
     "announcement-bar": {
-      "disabled": true,
+      "disabled": false,
       "settings": {},
       "blocks": {
         "955bb93b-7a65-4933-8023-83a64ee46bc2": {
@@ -122,6 +122,11 @@
           }
         }
       }
+    },
+    "header-secondary-menu": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {}
     }
   },
   "order": [
