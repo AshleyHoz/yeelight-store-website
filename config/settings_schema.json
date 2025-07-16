@@ -1254,6 +1254,18 @@
         "id": "valentine_flag",
         "label": "Enable valentine css globally",
         "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "dark_theme_flag",
+        "label": "Enable dark theme css globally",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "light_theme_flag",
+        "label": "Enable light theme css globally",
+        "default": false
       }
     ]
   },
