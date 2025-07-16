@@ -7,7 +7,8 @@
   top: 100%;
   left: 0;
   width: 100vw;
-  background: #000000;
+  background: var(--color-heading-bg);
+  color: var(--color-heading);
   height: calc(100vh - calc(100% + var(--header-offset, 0px)));
   display: block;
   border-top: 1px solid var(--color-header-border, var(--color-border, #dadce0));
@@ -67,21 +68,26 @@
   right: 0;
 }
 
+.mobile-menu-drawer .thb-mobile-menu-footer .shopify-localization-form svg path,
 .mobile-menu-drawer .thb-mobile-menu-footer .shopify-localization-form .select-arrow svg path {
-  stroke: var(--color-header-text, --color-body);
+  stroke: var(--color-heading-links, --color-body);
 }
 
 .mobile-menu-drawer .thb-mobile-menu-footer .shopify-localization-form select {
   font-size: 0.875rem;
   white-space: nowrap;
   text-overflow: ellipsis;
-  color: var(--color-header-text, --color-body);
+  color: var(--color-heading-links, --color-body);
+}
+
+.mobile-menu-drawer .thb-mobile-menu-footer .shopify-localization-form button {
+  color: var(--color-heading-links, --color-accent);
 }
 
 .mobile-menu-drawer .thb-mobile-menu-footer .thb-mobile-account-link {
   padding: 10px 0;
   font-size: 0.8125rem;
-  color: var(--color-header-links, --color-accent);
+  color: var(--color-heading-links, --color-accent);
 }
 
 .mobile-menu-drawer .thb-mobile-menu-footer .thb-mobile-account-link svg {
@@ -91,7 +97,7 @@
 }
 
 .mobile-menu-drawer .thb-mobile-menu-footer .thb-mobile-account-link svg path {
-  fill: var(--color-header-links, --color-accent);
+  fill: var(--color-heading-links, --color-accent);
 }
 
 [dir='rtl'] .mobile-menu-drawer .thb-mobile-menu-footer .thb-mobile-account-link svg {
@@ -123,7 +129,7 @@
   font-size: 1rem;
   font-weight: var(--font-body-medium-weight, 500);
   border-bottom: 1px solid var(--color-header-border, var(--color-border, #dadce0));
-  color: var(--color-header-links, --color-accent);
+  color: var(--color-heading-links, --color-accent);
 }
 
 .mobile-menu li>a .link-forward,
@@ -145,7 +151,7 @@
 
 .mobile-menu li>a .link-forward svg path,
 .mobile-menu li summary .link-forward svg path {
-  stroke: var(--color-header-links, --color-accent);
+  stroke: var(--color-heading-links, --color-accent);
 }
 
 [dir='rtl'] .mobile-menu li>a .link-forward svg,
@@ -173,7 +179,7 @@
   height: 50px;
   display: flex;
   align-items: center;
-  color: var(--color-header-links, --color-accent);
+  color: var(--color-heading-links, --color-accent);
 }
 
 .mobile-menu .parent-link-back button svg {
@@ -183,7 +189,7 @@
 }
 
 .mobile-menu .parent-link-back button svg path {
-  stroke: var(--color-header-links, --color-accent);
+  stroke: var(--color-heading-links, --color-accent);
 }
 
 [dir='rtl'] .mobile-menu .parent-link-back button svg {
@@ -241,7 +247,7 @@
 }
 
 .mobile-menu-drawer .social-links svg path {
-  fill: var(--color-header-links, --color-accent);
+  fill: var(--color-heading-links, --color-accent);
 }
 
 .mobile-secondary-menu {
@@ -260,7 +266,7 @@
 .mobile-secondary-menu a {
   display: block;
   font-size: inherit;
-  color: var(--color-header-links, --color-accent);
+  color: var(--color-heading-links, --color-accent);
 }
 
 .mobile-menu .header-full-menu-promotion.flex {
