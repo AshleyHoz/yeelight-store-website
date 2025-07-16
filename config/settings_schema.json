@@ -180,12 +180,24 @@
     "settings": [
       {
         "type": "header",
-        "content": "General"
+        "content": "General & Theme"
       },
       {
         "type": "color",
         "id": "color_body_bg",
         "label": "Background",
+        "default": "#F5F5F5"
+      },
+      {
+        "type": "color",
+        "id": "dark_color_body_bg",
+        "label": "Dark Theme Background",
+        "default": "#F5F5F5"
+      },
+      {
+        "type": "color",
+        "id": "light_color_body_bg",
+        "label": "Light Theme Background",
         "default": "#F5F5F5"
       },
       {
@@ -196,8 +208,38 @@
       },
       {
         "type": "color",
+        "id": "dark_color_body",
+        "label": "Text",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "light_color_body",
+        "label": "Text",
+        "default": "#2C2D2E"
+      },
+      {
+        "type": "color",
         "id": "color_heading",
         "label": "Headings",
+        "default": "#1A1C1D"
+      },
+      {
+        "type": "color",
+        "id": "color_heading_hover",
+        "label": "Headings",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "color_heading_bg",
+        "label": "Heading Background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "color_heading_links",
+        "label": "Heading Links Color",
         "default": "#1A1C1D"
       },
       {
@@ -232,7 +274,7 @@
       {
         "type": "color",
         "id": "color_drawer_bg",
-        "label": "Background",
+        "label": "Drawer Background",
         "default": "#ffffff",
         "info": "Choose a color similar to the primary background."
       },
@@ -249,7 +291,7 @@
       {
         "type": "color",
         "id": "color_announcement_bar_bg",
-        "label": "Background",
+        "label": "Announcement Bar Background",
         "default": "#2C2D2E"
       },
       {
@@ -265,7 +307,7 @@
       {
         "type": "color",
         "id": "color_secondary_menu_bg",
-        "label": "Background",
+        "label": "Secondary Menu Background",
         "default": "#F5F5F5"
       },
       {
@@ -275,7 +317,7 @@
       {
         "type": "color",
         "id": "color_header_bg",
-        "label": "Background",
+        "label": "Header Background",
         "default": "#F5F5F5"
       },
       {
@@ -406,7 +448,7 @@
       {
         "type": "color",
         "id": "color_footer_bg",
-        "label": "Background",
+        "label": "Footer Background",
         "default": "#2C2D2E"
       }
     ]

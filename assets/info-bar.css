@@ -15,23 +15,42 @@
 }
 
 .info-bar .bar-text {
-  color: rgba(255, 255, 255, 1);
   font-size: 12px;
   font-weight: 300;
   letter-spacing: 0.24px;
+}
+
+.yee-theme-light .info-bar .bar-text {
+  color: var(--light-color-body);
+}
+
+.yee-theme-dark .info-bar .bar-text {
+  color: var(--dark-color-body);
 }
 
 .info-bar svg {
   width: 18px;
   height: 18px;
 }
-.info-bar svg path {
-  stroke: rgba(255, 255, 255, 1);
+
+.yee-theme-light .info-bar svg path {
+  stroke: var(--light-color-body);
+}
+
+.yee-theme-dark .info-bar svg path {
+  stroke: var(--dark-color-body);
 }
 
 .info-bar .info-bar--item:first-child svg path {
   stroke: unset;
-  fill: rgba(255, 255, 255, 1);
+}
+
+.yee-theme-light .info-bar .info-bar--item:first-child svg path {
+  fill: var(--light-color-body);
+}
+
+.yee-theme-dark .info-bar .info-bar--item:first-child svg path {
+  fill: var(--dark-color-body);
 }
 
 .info-bar-mobile {
@@ -51,27 +70,33 @@
   .info-bar--carousel .flickity-nav svg path {
     transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
   }
+
   .info-bar--carousel .carousel {
     position: relative;
     display: block;
     width: 80%;
     margin: 0 auto;
   }
+
   .info-bar--carousel .carousel__slide {
     width: 100%;
     gap: 4px;
     white-space: normal;
   }
-  .info-bar--carousel .carousel__slide ~ .carousel__slide {
+
+  .info-bar--carousel .carousel__slide~.carousel__slide {
     display: none;
   }
+
   .info-bar--carousel .carousel .flickity-slider {
     display: flex;
     align-items: center;
   }
-  .info-bar--carousel .carousel.flickity-enabled .carousel__slide ~ .carousel__slide {
+
+  .info-bar--carousel .carousel.flickity-enabled .carousel__slide~.carousel__slide {
     display: flex;
   }
+
   .info-bar--carousel .flickity-nav {
     display: flex;
     width: 20px;
@@ -84,7 +109,12 @@
     top: 50%;
     transform: translateY(-50%);
   }
-  .info-bar--carousel .flickity-nav svg path {
-    stroke: rgba(255, 255, 255, 0.4);
+
+  .yee-theme-dark .info-bar--carousel .flickity-nav svg path {
+    stroke: var(--dark-color-body);
+  }
+
+  .yee-theme-light .info-bar--carousel .flickity-nav svg path {
+    stroke: var(--light-color-body);
   }
 }
