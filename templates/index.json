@@ -188,7 +188,13 @@
           }
         }
       },
-      "block_order": ["slide_rYUPUw", "slide_gEb3pq", "slide_Apj7XN", "slide_E8nF4j", "slide_BDHRjb"],
+      "block_order": [
+        "slide_rYUPUw",
+        "slide_gEb3pq",
+        "slide_Apj7XN",
+        "slide_E8nF4j",
+        "slide_BDHRjb"
+      ],
       "settings": {
         "desktop_height": "desktop-height-image",
         "mobile_height": "mobile-height-image",
@@ -321,7 +327,12 @@
           }
         }
       },
-      "block_order": ["slide_nCkgHt", "slide_dfKGLU", "slide_QQaB4A", "slide_KmXyGD"],
+      "block_order": [
+        "slide_nCkgHt",
+        "slide_dfKGLU",
+        "slide_QQaB4A",
+        "slide_KmXyGD"
+      ],
       "settings": {
         "title": "Transform the Outdoors for <span>Every Occasion</span>",
         "view_title": "Grab the Special Bundle Now",
@@ -411,7 +422,11 @@
           }
         }
       },
-      "block_order": ["slide_6VMDww", "slide_nMwfm4", "slide_GcLTeG"],
+      "block_order": [
+        "slide_6VMDww",
+        "slide_nMwfm4",
+        "slide_GcLTeG"
+      ],
       "settings": {
         "title": "Elevate the Indoors in <span>Every Moment</span>",
         "view_title": "Shop the Collection",
@@ -477,7 +492,10 @@
           }
         }
       },
-      "block_order": ["slide_6haFVF", "slide_4qH4Nh"],
+      "block_order": [
+        "slide_6haFVF",
+        "slide_4qH4Nh"
+      ],
       "settings": {
         "title": "<span>Power Your Play</span> in Every Gaming World",
         "view_title": "Shop the Collection",
@@ -585,7 +603,13 @@
           }
         }
       },
-      "block_order": ["logo_9qi8pF", "logo_hwNLBf", "logo_BFPqA8", "logo_QKhtAG", "logo_yeHcyH"],
+      "block_order": [
+        "logo_9qi8pF",
+        "logo_hwNLBf",
+        "logo_BFPqA8",
+        "logo_QKhtAG",
+        "logo_yeHcyH"
+      ],
       "disabled": true,
       "settings": {
         "heading": "Exquisite Design",
@@ -648,7 +672,12 @@
           }
         }
       },
-      "block_order": ["column_hmri3E", "column_J6rMfP", "column_mwJB4Q", "column_CDzWUA"],
+      "block_order": [
+        "column_hmri3E",
+        "column_J6rMfP",
+        "column_mwJB4Q",
+        "column_CDzWUA"
+      ],
       "disabled": true,
       "settings": {
         "heading": "Our Reach",
@@ -791,7 +820,7 @@
         "center_align": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
-        "color_logo_bg": "#F5F8FC",
+        "color_logo_bg": "#f5f8fc",
         "marker_color": "#fd6262"
       }
     },
@@ -808,7 +837,10 @@
           }
         }
       },
-      "block_order": ["heading_ia67Jc"],
+      "block_order": [
+        "heading_ia67Jc"
+      ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -846,7 +878,10 @@
           }
         }
       },
-      "block_order": ["loox_reviews_loox_video_slider_y63DVW"],
+      "block_order": [
+        "loox_reviews_loox_video_slider_y63DVW"
+      ],
+      "disabled": true,
       "settings": {}
     },
     "scrolling_images_ijGKLL": {
@@ -955,6 +990,7 @@
         "image_YLgjXN",
         "image_8rdHFX"
       ],
+      "disabled": true,
       "settings": {
         "title": "Featured In",
         "image_ratio": "adapt",
