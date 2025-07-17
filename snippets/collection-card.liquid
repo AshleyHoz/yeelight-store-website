@@ -46,7 +46,9 @@
   if block_shadows
     assign collection_card_shadow_class = 'collection-card--has-shadow'
   endif
-  assign collection_image_shadow_class = 'has-shadow--true'
+  if image_shadows
+    assign collection_image_shadow_class = 'has-shadow--true'
+  endif
 -%}
 <div class="{{ mobile_columns_class }} {{ columns_class }} custom-collection-list-column">
   <div class="collection-card full-width position-relative {{ style }} {{ collection_card_shadow_class }}">
