@@ -1001,6 +1001,27 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "featured_blog_7KbAVa": {
+      "type": "featured-blog",
+      "name": "Blog posts",
+      "settings": {
+        "heading": "Latest News",
+        "marker_style": "style1",
+        "description": "<p>Add a short description for your brand news</p>",
+        "blog": "everything-about-lights-2",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "show_date": true,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "show_view_all": true,
+        "marker_color": "#FD6262",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -1016,6 +1037,7 @@
     "logo_list_RWbxLf",
     "rich_text_Q8UQ7e",
     "1711998083986c24cc",
-    "scrolling_images_ijGKLL"
+    "scrolling_images_ijGKLL",
+    "featured_blog_7KbAVa"
   ]
 }
