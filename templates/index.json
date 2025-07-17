@@ -1013,7 +1013,7 @@
         "post_limit": 2,
         "columns_desktop": 2,
         "mobile_swipe": true,
-        "image_ratio": "square",
+        "image_ratio": "landscape",
         "show_date": true,
         "show_excerpt": true,
         "show_read_more": true,
