@@ -75,7 +75,7 @@ if (!customElements.get('slide-show')) {
           });
         };
       }
-      if (slideshow.classList.contains('collection-grid__carousel')) {
+      if (slideshow.classList.contains('collection-list-items__carousel')) {
         args.wrapAround = false;
       }
       // Main Slideshow

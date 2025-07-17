@@ -43,7 +43,7 @@
     assign columns_class = columns_class | append: ' carousel__slide columns'
   endif
 
-  if settings.block_shadows
+  if block_shadows
     assign collection_card_shadow_class = 'collection-card--has-shadow'
   endif
   assign collection_image_shadow_class = 'has-shadow--true'
@@ -69,17 +69,17 @@
     <div class="collection-card--content d-flex">
       <a
         href="{{ grid_collection_url }}"
-        class="collection-card--link collection-card--link-{{ heading_size }} collection-card--link-{{ heading_position }}"
+        class="collection-card--link collection-card--link-{{ heading_size }} "
         title="{{ grid_collection_title | escape }}"
       >
-        <div class="custom-collection-card--title full-width full-height position-relative d-flex align-end">
-          <div>
-            {{ grid_collection_title }}
-          </div>
-          <div class="custom-collection-card--desc text-center">
-            <span style="margin-right: 4px;"> View 30+ products </span>
-            {% render 'svg-icons-custom' with 'custom-arrow-right-light' %}
-          </div>
+        <div class="custom-collection-card--title full-width full-height position-relative d-flex align-end collection-card--link-{{ heading_position }}">
+          {{ grid_collection_title }}
+          {% comment %}
+            <div class="custom-collection-card--desc text-center">
+              <span style="margin-right: 4px;"> View 30+ products </span>
+              {% render 'svg-icons-custom' with 'custom-arrow-right-light' %}
+            </div>
+          {% endcomment %}
         </div>
       </a>
     </div>

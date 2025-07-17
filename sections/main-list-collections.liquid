@@ -23,7 +23,7 @@
       <div class="row no-padding" style="--var-collection-list-columns: {{ columns_desktop }}">
         <div class="small-12 columns">
           {% if section.blocks.size > 0 %}
-            <div class="collection-grid">
+            <div class="collection-list-items">
               {% for block in section.blocks %}
                 {% render 'collection-card',
                   grid_collection: collections[block.settings.collection],
@@ -50,7 +50,7 @@
               endif
             -%}
             {%- paginate collections by collection_list_pagination_num -%}
-              <div class="collection-grid">
+              <div class="collection-list-items">
                 {% for collection in collections %}
                   {% render 'collection-card',
                     grid_collection: collection,

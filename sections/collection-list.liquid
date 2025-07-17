@@ -28,10 +28,10 @@
     assign carousel_class = 'carousel'
   endif
 -%}
-<div class="row custom-collection-list--row">
-  <div class="small-12">
+<div class="collection-list" style="background: {{ section.settings.background }};">
+  <div class="row custom-collection-list--row">
     <div
-      class="list-collections spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
+      class="list-collections small-12 spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
       style="--overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}; --var-collection-list-columns:{{ columns_desktop }}; --collection-text-color: {{ text_color }}"
     >
       {%- if section_heading -%}
@@ -42,7 +42,7 @@
           marker_style: marker_style
         -%}
       {%- endif -%}
-      <{{ tag }} class="collection-grid collection-grid__{{ collection_layout }} {{ carousel_class }}{% if mobile_swipe %} swipe-on-mobile{% endif %} mobile-columns--{{ columns_mobile | default: 1 }}">
+      <{{ tag }} class="collection-list-items collection-list-items__{{ collection_layout }} {{ carousel_class }}{% if mobile_swipe %} swipe-on-mobile{% endif %} mobile-columns--{{ columns_mobile | default: 1 }}">
         {%- if collections.count > 0 -%}
           {%- for collection in collections -%}
             {% comment %}
@@ -68,7 +68,8 @@
               columns_desktop: columns_desktop,
               columns_mobile: columns_mobile,
               heading_position: heading_position,
-              heading_size: heading_size
+              heading_size: heading_size,
+              image_shadows: section.settings.image_shadows
             -%}
           {%- endfor -%}
         {%- else -%}
@@ -83,7 +84,8 @@
               columns_desktop: columns_desktop,
               columns_mobile: columns_mobile,
               heading_position: heading_position,
-              heading_size: heading_size
+              heading_size: heading_size,
+              image_shadows: section.settings.image_shadows
             -%}
           {%- endfor -%}
         {%- endif -%}
@@ -244,10 +246,21 @@
         {
           "value": "2",
           "label": "Two Columns"
+        },
+        {
+          "value": "3",
+          "label": "Three Columns"
         }
       ],
       "default": "1",
       "label": "Number of columns on mobile"
+    },
+
+    {
+      "type": "checkbox",
+      "id": "image_shadows",
+      "default": false,
+      "label": "Enable image shadows"
     },
     {
       "type": "header",
@@ -293,6 +306,12 @@
     {
       "type": "header",
       "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "#ffffff"
     },
     {
       "type": "color",
