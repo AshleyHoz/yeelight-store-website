@@ -339,7 +339,9 @@
         "link": "shopify://products/yeelight-holiday-lightshow-package",
         "footer_title": "",
         "footer_description": "",
+        "show_buttons": true,
         "full_width": false,
+        "background": "#ffffff",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -431,7 +433,9 @@
         "link": "shopify://pages/topic-2",
         "footer_title": "",
         "footer_description": "",
+        "show_buttons": true,
         "full_width": false,
+        "background": "#ffffff",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -498,7 +502,9 @@
         "link": "shopify://pages/topic-3",
         "footer_title": "",
         "footer_description": "",
+        "show_buttons": true,
         "full_width": false,
+        "background": "#ffffff",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -511,16 +517,18 @@
         "description": "",
         "heading_size": "small",
         "collection_list": [
-          "decor-lights",
-          "desk-lights",
-          "essentials",
-          "all-lights"
+          "ceiling-light",
+          "gaming-light",
+          "light-strip-bulbs",
+          "sensor-light",
+          "monitor-light-bar",
+          "desk-lamp"
         ],
         "image_ratio": "square",
         "collection_layout": "grid",
-        "style": "style2",
-        "columns_desktop": 4,
-        "columns_mobile": "1",
+        "style": "style1",
+        "columns_desktop": 6,
+        "columns_mobile": "2",
         "show_progress_bar": false,
         "mobile_swipe": true,
         "heading_position": "bottom-center",
