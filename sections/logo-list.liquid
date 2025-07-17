@@ -10,56 +10,54 @@
 
   assign marker_color = section.settings.marker_color
   assign color_logo_bg = section.settings.color_logo_bg | downcase
-  assign color_body_bg = settings.color_body_bg | downcase
-
-  assign has_bg = true
-  if color_body_bg == color_logo_bg or color_logo_bg == 'transparent' or color_logo_bg == 'rgba(0,0,0,0)'
-    assign has_bg = false
-  endif
 -%}
-<div class="logo-list logo-list--centered-{{ center_align }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
-  {% render 'section-header',
-    section_heading: section_heading,
-    section_description: section_description,
-    marker_color: marker_color,
-    marker_style: marker_style
-  %}
-  <div
-    class="logo-list--inner{% if mobile_swipe %} swipe-on-mobile{% endif %}"
-    style="--logo-columns: {{ section.settings.columns }}; --logo-bg: {{ color_logo_bg }};"
-  >
-    {% for block in section.blocks %}
-      <a
-        class="logo-list--logo d-flex align-center justify-center text-center {% if has_bg -%}logo-list--logo--has-bg{% endif %}"
-        {% if block.settings.link %}
-          href="{{ block.settings.link | escape }}"
-        {% endif %}
-      >
-        {% comment %}
-            {% else %}
-            aria-disabled
-          {{ block.shopify_attributes }}
-        {% endcomment %}
-        {% if block.settings.image %}
-          <div class="logo-image--item full-width position-relative cursor-pointer">
-            <div class="logo-image main-image">
-              {% assign image = block.settings.image %}
-              {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
-              {%- render 'responsive-image', image: image, sizes: master_width -%}
+<div class="logo-list" style="background: {{ color_logo_bg }};">
+  <div class="logo-list--inner logo-list--centered-{{ center_align }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+    {% render 'section-header',
+      section_heading: section_heading,
+      section_description: section_description,
+      marker_color: marker_color,
+      marker_style: marker_style
+    %}
+    <div
+      class="logo-list--items{% if mobile_swipe %} swipe-on-mobile{% endif %}"
+      style="--logo-columns: {{ section.settings.columns }}; --logo-bg: {{ color_logo_bg }};"
+    >
+      {% for block in section.blocks %}
+        <a
+          class="logo-list--logo d-flex align-center justify-center text-center"
+          {% if block.settings.link %}
+            href="{{ block.settings.link | escape }}"
+          {% endif %}
+        >
+          {% comment %}
+              {% else %}
+              aria-disabled
+            {{ block.shopify_attributes }}
+          {% endcomment %}
+          {% if block.settings.image %}
+            <div class="logo-image--item full-width position-relative cursor-pointer">
+              <div class="logo-image main-image">
+                {% assign image = block.settings.image %}
+                {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
+                {%- render 'responsive-image', image: image, sizes: master_width -%}
+              </div>
+              {% comment %}
+                <div class="logo-image logo-cover-image full-width full-height">
+                  {% assign cover_image = block.settings.cover_image %}
+                  {% assign cover_width = cover_image.src.width | append: 'x' | append: cover_image.src.height %}
+                  {%- render 'responsive-image', image: cover_image, sizes: cover_width -%}
+                </div>
+              {% endcomment %}
             </div>
-            <div class="logo-image logo-cover-image full-width full-height">
-              {% assign cover_image = block.settings.cover_image %}
-              {% assign cover_width = cover_image.src.width | append: 'x' | append: cover_image.src.height %}
-              {%- render 'responsive-image', image: cover_image, sizes: cover_width -%}
+          {% else %}
+            <div class="thb-placeholder">
+              {{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
             </div>
-          </div>
-        {% else %}
-          <div class="thb-placeholder">
-            {{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
-          </div>
-        {% endif %}
-      </a>
-    {% endfor %}
+          {% endif %}
+        </a>
+      {% endfor %}
+    </div>
   </div>
 </div>
 {% schema %}
@@ -149,7 +147,7 @@
       "type": "color",
       "id": "color_logo_bg",
       "label": "Logo background",
-      "default": "#ffffff"
+      "default": "#F5F8FC"
     },
     {
       "type": "color",
