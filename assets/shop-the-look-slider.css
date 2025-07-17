@@ -39,6 +39,7 @@
 .shop-the-look-slider--area img {
   width: 100%;
 }
+
 /* .shop-the-look--full-width-false {
   overflow: hidden;
 } */
@@ -48,6 +49,7 @@
 .shop-the-look--mobile .thb-placeholder {
   height: 500px;
 }
+
 /* .shop-look-slider--desktop,
 .desktop-height-image {
   display: none;
@@ -64,14 +66,17 @@
 .shop-look-slider--desktop .thb-placeholder {
   height: 600px;
 }
+
 .shop-the-look-slider .thb-placeholder {
   background: var(--color-accent);
 }
+
 .shop-the-look-slider .thb-placeholder svg {
   padding: 50px;
   fill: var(--bg-body, #fff);
   opacity: 0.5;
 }
+
 .shop-the-look-slider .thb-hotspot {
   position: absolute;
   top: 0;
@@ -79,10 +84,12 @@
   z-index: 20;
   pointer-events: all;
 }
+
 .shop-the-look-slider .thb-hotspot:hover,
 .shop-the-look-slider .thb-hotspot.loading {
   z-index: 40;
 }
+
 .shop-the-look-slider .thb-hotspot:hover .thb-hotspot-arrow,
 .shop-the-look-slider .thb-hotspot:hover .thb-hotspot-bubble,
 .shop-the-look-slider .thb-hotspot.loading .thb-hotspot-arrow,
@@ -90,20 +97,25 @@
   opacity: 1;
   pointer-events: all;
 }
+
 .shop-the-look-slider .thb-hotspot:hover .thb-hotspot-arrow,
 .shop-the-look-slider .thb-hotspot.loading .thb-hotspot-arrow {
   transform: translateY(0px);
 }
+
 .shop-the-look-slider .thb-hotspot:hover .thb-hotspot-bubble,
 .shop-the-look-slider .thb-hotspot.loading .thb-hotspot-bubble {
   transform: translateX(-50%) translateY(0px);
 }
+
 .shop-the-look-slider .thb-hotspot.loading .thb-hotspot-content {
   border-width: 12px;
 }
+
 .shop-the-look-slider .thb-hotspot.loading .thb-hotspot-content .loading-overlay {
   display: flex;
 }
+
 .shop-the-look-slider .thb-hotspot-content {
   width: 24px;
   height: 24px;
@@ -117,6 +129,7 @@
   -ms-user-select: none;
   user-select: none;
 }
+
 .shop-the-look-slider .thb-hotspot-content .loading-overlay {
   position: absolute;
   top: 0;
@@ -128,12 +141,15 @@
   align-items: center;
   justify-content: center;
 }
+
 .shop-the-look-slider .thb-hotspot-content .loading-overlay svg {
   width: 14px;
 }
+
 .shop-the-look-slider .thb-hotspot-content .loading-overlay svg circle {
   stroke: var(--color-body, #2c2d2e);
 }
+
 .shop-the-look-slider .thb-hotspot-content.thb-pulsate:after,
 .shop-the-look-slider .thb-hotspot-content.thb-pulsate:before {
   content: '';
@@ -151,6 +167,7 @@
   -o-animation: pulsing 2s infinite;
   animation: pulsing 2s infinite;
 }
+
 .shop-the-look-slider .thb-hotspot-content.thb-pulsate:after {
   animation-delay: -0.4s;
 }
@@ -166,7 +183,8 @@
 
 .shop-the-look-slider .shop-the-look-slider--link {
   border-radius: 52px;
-  background: linear-gradient(100deg, #0871ff 0%, #e70bb3 49.91%, #ff8f03 100%);
+  /* background: linear-gradient(100deg, #0871ff 0%, #e70bb3 49.91%, #ff8f03 100%); */
+  background: linear-gradient(135deg, #FFC64C 0%, #FF8F03 100%);
   backdrop-filter: blur(20px);
   padding: 12px 12px 12px 24px;
 }
@@ -290,6 +308,7 @@
     opacity: 0;
   }
 }
+
 .shop-the-look-slider .thb-hotspot-arrow {
   position: absolute;
   top: calc(100% + 11px);
@@ -306,6 +325,7 @@
   pointer-events: none;
   display: none;
 }
+
 .shop-the-look-slider .thb-hotspot-arrow:before {
   content: '';
   display: block;
@@ -315,6 +335,7 @@
   width: 52px;
   height: 22px;
 }
+
 .shop-the-look-slider .thb-hotspot-bubble {
   position: absolute;
   top: 100%;
@@ -331,6 +352,7 @@
   transform: translate(-50%) translateY(20px);
   pointer-events: none;
 }
+
 /* .shop-the-look-slider .thb-hotspot-bubble  */
 .thb-hotspot-product-image {
   width: 80px;
@@ -339,6 +361,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 /* .shop-the-look-slider .thb-hotspot-bubble  */
 .thb-hotspot-product-image img {
   width: 100%;
@@ -346,6 +369,7 @@
   object-fit: cover;
   border-radius: calc(var(--block-border-radius, 16px) / 2);
 }
+
 .shop-the-look-slider .thb-hotspot-product-content {
   text-align: left;
   height: 80px;
@@ -353,6 +377,7 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
 .shop-the-look-slider .thb-hotspot-product-content .thb-hotspot-product-title {
   color: #fff;
   font-size: 14px;
@@ -360,6 +385,7 @@
   line-height: normal;
   text-transform: capitalize;
 }
+
 .shop-the-look-slider .thb-hotspot-product-content a {
   font-size: 0.75rem;
   font-weight: var(--font-body-medium-weight, 500);

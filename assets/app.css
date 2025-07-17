@@ -6325,6 +6325,14 @@ input[type='radio'],
   text-transform: capitalize;
 }
 
+.yee-theme-light .shop-the-look-slider .section-header--title {
+  color: var(--light-color-body);
+}
+
+.yee-theme-dark .shop-the-look-slider .section-header--title {
+  color: var(--dark-color-body);
+}
+
 .section-header--title>span {
   background: linear-gradient(108deg,
       #46d3ff 0.14%,
