@@ -214,7 +214,7 @@
   list-style: none;
   padding: 0 15px;
   visibility: hidden;
-  background: #000000;
+  background: var(--color-heading-bg);
 }
 
 [dir='rtl'] .mobile-menu .sub-menu {
