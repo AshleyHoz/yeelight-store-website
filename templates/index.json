@@ -334,12 +334,12 @@
         "slide_KmXyGD"
       ],
       "settings": {
-        "title": "Transform the Outdoors for <span>Every Occasion</span>",
-        "view_title": "Grab the Special Bundle Now",
+        "title": "Smart Lighting for Every Mood, Every Moment",
+        "view_title": "Explore More",
         "link": "shopify://products/yeelight-holiday-lightshow-package",
         "footer_title": "",
         "footer_description": "",
-        "show_buttons": true,
+        "show_buttons": false,
         "full_width": false,
         "background": "#ffffff",
         "disable_top_spacing": true,
@@ -428,12 +428,12 @@
         "slide_GcLTeG"
       ],
       "settings": {
-        "title": "Elevate the Indoors in <span>Every Moment</span>",
-        "view_title": "Shop the Collection",
+        "title": "Sync Your Senses, Feel Every Frame",
+        "view_title": "Explore More",
         "link": "shopify://pages/topic-2",
         "footer_title": "",
         "footer_description": "",
-        "show_buttons": true,
+        "show_buttons": false,
         "full_width": false,
         "background": "#ffffff",
         "disable_top_spacing": true,
@@ -497,8 +497,8 @@
         "slide_4qH4Nh"
       ],
       "settings": {
-        "title": "<span>Power Your Play</span> in Every Gaming World",
-        "view_title": "Shop the Collection",
+        "title": "Epic Gaming Atmosphere",
+        "view_title": "Explore More",
         "link": "shopify://pages/topic-3",
         "footer_title": "",
         "footer_description": "",
