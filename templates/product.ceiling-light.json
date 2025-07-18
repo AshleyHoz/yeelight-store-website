@@ -145,9 +145,7 @@
         "marker_style": "style1",
         "description": "",
         "full_width": false,
-        "video": "",
-        "video_hosted": "shopify://files/videos/Arwen D 彩光吸顶灯-网站.mp4",
-        "video_hosted_mobile": "shopify://files/videos/Arwen D 彩光吸顶灯-网站.mp4",
+        "video": "https://youtu.be/TR8qMT8wGq8",
         "video_autoplay": true,
         "video_loop": true,
         "video_controls": true,
@@ -241,32 +239,6 @@
         "activity_icon": false
       }
     },
-    "single_image_nbhytB": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/07.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-07.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
-    "single_image_8TkYG3": {
-      "type": "single-image",
-      "settings": {
-        "link": "",
-        "image": "shopify://shop_images/08_77581481-1ffa-4dd6-b422-9f9e52055f03.jpg",
-        "image_mobile": "shopify://shop_images/D500M_-08.jpg",
-        "full_width": true,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true,
-        "activity_wyze": false,
-        "activity_icon": false
-      }
-    },
     "single_image_fT7yma": {
       "type": "single-image",
       "settings": {
@@ -286,6 +258,32 @@
         "link": "",
         "image": "shopify://shop_images/Arwen_D_03.png",
         "image_mobile": "shopify://shop_images/Arwen_D-M_03.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_nbhytB": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/07.jpg",
+        "image_mobile": "shopify://shop_images/D500M_-07.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_8TkYG3": {
+      "type": "single-image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/08_77581481-1ffa-4dd6-b422-9f9e52055f03.jpg",
+        "image_mobile": "shopify://shop_images/D500M_-08.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
