@@ -33,7 +33,7 @@
 
 .shop-the-look-slider {
   display: block;
-  padding: 100px 0 40px;
+  padding: 60px 0;
 }
 
 .shop-the-look-slider--area img {
@@ -542,7 +542,8 @@
   }
 
   .shop-the-look-slider--view {
-    padding-bottom: 16px;
+    /* padding-bottom: 16px; */
+    display: none;
   }
 
   .shop-the-look-slider .shop-the-look-slider--link {
