@@ -1018,7 +1018,10 @@
         "show_excerpt": true,
         "show_read_more": true,
         "show_view_all": false,
+        "background": "#ffffff",
         "marker_color": "#fd6262",
+        "card_background": "#f5f8fc",
+        "has_shadow": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
