@@ -435,7 +435,7 @@
         "footer_description": "",
         "show_buttons": false,
         "full_width": false,
-        "background": "#ffffff",
+        "background": "#f5f8fc",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
