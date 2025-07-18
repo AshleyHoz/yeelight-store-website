@@ -169,7 +169,7 @@
         "full_width": false,
         "video": "",
         "video_hosted": "shopify://files/videos/JupiterD吸顶灯-有网址版本.mp4",
-        "video_autoplay": false,
+        "video_autoplay": true,
         "video_loop": true,
         "video_controls": true,
         "desktop_height": "desktop-height-650",
