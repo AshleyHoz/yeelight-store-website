@@ -5,7 +5,7 @@
   assign info_spacing = true
   assign article_card_border = settings.article_card_border
   assign article_card_shadow = settings.article_card_shadow
-  assign article_card_shadow_class = 'has-shadow--' | append: article_card_shadow
+  assign article_card_shadow_class = 'has-shadow--' | append: has_shadow
 
   case image_ratio
     when 'adapt'
@@ -37,7 +37,10 @@
   endif
 -%}
 {%- if article -%}
-  <div class="blog-post text-{{ article_content_alignment }} blog-post--content-spacing-{{ info_spacing }} blog-post--border-{{ article_card_border }} {{ article_card_shadow_class }} d-flex flex-column">
+  <div
+    class="blog-post text-{{ article_content_alignment }} blog-post--content-spacing-{{ info_spacing }} blog-post--border-{{ article_card_border }} {{ article_card_shadow_class }} d-flex flex-column"
+    style="background: {{card_background}};"
+  >
     <figure class="featured-image">
       <div class="aspect-ratio" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
         <a href="{{ article.url }}" class="featured-image-link" title="{{ article.title | escape }}">
@@ -53,7 +56,7 @@
           {{ article.published_at | date: '%B %d %Y' }}
         </aside>
       {% endif %}
-      <h5>
+      <h5 class="post-meta-title">
         <a href="{{ article.url }}" title="{{ article.title | escape }}">{{ article.title }}</a>
       </h5>
       {% if show_excerpt %}

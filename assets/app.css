@@ -6328,12 +6328,14 @@ input[type='radio'],
 /* TODO: Remove this when the theme is updated */
 .yee-theme-light .shop-the-look-slider .section-header--title,
 .yee-theme-light .logo-list .section-header--title,
+.yee-theme-light .featured-blog .section-header--title,
 .yee-theme-light .collection-list .section-header--title {
   color: var(--light-color-body);
 }
 
 .yee-theme-dark .shop-the-look-slider .section-header--title,
 .yee-theme-dark .logo-list .section-header--title,
+.yee-theme-dark .featured-blog .section-header--title,
 .yee-theme-dark .collection-list .section-header--title {
   color: var(--dark-color-body);
 }

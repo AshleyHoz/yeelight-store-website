@@ -13,6 +13,7 @@
   assign image_ratio = section.settings.image_ratio
 
   assign marker_color = section.settings.marker_color
+  assign has_shadow = section.settings.has_shadow
 
   assign disable_top_spacing = section.settings.disable_top_spacing
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
@@ -31,9 +32,9 @@
     assign section_heading_button_blog = section_blog
   endif
 -%}
-<div class="row">
-  <div class="small-12 columns">
-    <div class="blog-posts{% if mobile_swipe %} swipe-on-mobile{% endif %} spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
+<div class="featured-blog" style="background: {{ section.settings.background }};">
+  <div class="row">
+    <div class="blog-posts{% if mobile_swipe %} swipe-on-mobile{% endif %} {% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}">
       {% render 'section-header',
         section_heading: section_heading,
         section_description: section_description,
@@ -44,21 +45,23 @@
       <div class="row articles no-padding">
         {% if section_blog and blogs[section_blog].articles.size > 0 %}
           {% for article in blogs[section_blog].articles limit: post_limit %}
-            <div class="small-12 {{ columns_class }} columns">
+            <div class="article-item">
               {% render 'blog-post',
                 article: article,
                 show_date: show_date,
                 show_excerpt: show_excerpt,
                 image_ratio: image_ratio,
-                show_read_more: show_read_more
+                show_read_more: show_read_more,
+                has_shadow: has_shadow,
+                card_background: section.settings.card_background
               %}
             </div>
           {% endfor %}
         {% else %}
           {% assign placeholder_array = '1,2,3,4,5,6' | split: ',' %}
           {% for item in placeholder_array limit: post_limit %}
-            <div class="small-12 {{ columns_class }} columns">
-              {% render 'blog-post', article: false, show_date: show_date, show_excerpt: show_excerpt, image_ratio: image_ratio, show_read_more, show_read_more %}
+            <div class="article-item">
+              {% render 'blog-post', article: false, show_date: show_date, show_excerpt: show_excerpt, image_ratio: image_ratio, show_read_more, show_read_more, has_shadow: has_shadow, card_background: section.settings.card_background %}
             </div>
           {% endfor %}
         {% endif %}
@@ -192,9 +195,27 @@
     },
     {
       "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
       "id": "marker_color",
       "label": "Marker",
       "default": "#FD6262"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Card background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "id": "has_shadow",
+      "default": true,
+      "label": "Enable swipe on mobile"
     },
     {
       "type": "header",

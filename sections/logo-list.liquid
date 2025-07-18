@@ -12,7 +12,7 @@
   assign color_logo_bg = section.settings.color_logo_bg | downcase
 -%}
 <div class="logo-list" style="background: {{ color_logo_bg }};">
-  <div class="logo-list--inner logo-list--centered-{{ center_align }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+  <div class="row logo-list--centered-{{ center_align }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
     {% render 'section-header',
       section_heading: section_heading,
       section_description: section_description,
@@ -24,7 +24,13 @@
       style="--logo-columns: {{ section.settings.columns }}; --logo-bg: {{ color_logo_bg }};"
     >
       {% for block in section.blocks %}
-        <a
+        {%- liquid
+          assign tag = 'div'
+          if block.settings.link
+            assign tag = 'a'
+          endif
+        -%}
+        <{{ tag }}
           class="logo-list--logo d-flex align-center justify-center text-center"
           {% if block.settings.link %}
             href="{{ block.settings.link | escape }}"
@@ -36,7 +42,7 @@
             {{ block.shopify_attributes }}
           {% endcomment %}
           {% if block.settings.image %}
-            <div class="logo-image--item full-width position-relative cursor-pointer">
+            <div class="logo-image--item full-width position-relative">
               <div class="logo-image main-image">
                 {% assign image = block.settings.image %}
                 {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
@@ -55,7 +61,7 @@
               {{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
             </div>
           {% endif %}
-        </a>
+        </{{ tag }}>
       {% endfor %}
     </div>
   </div>
