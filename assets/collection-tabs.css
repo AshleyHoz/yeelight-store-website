@@ -36,7 +36,7 @@
 
 .collection-tabs {
   overflow: hidden;
-  padding: 140px 0;
+  padding: 80px 0;
 }
 
 .yee-theme-light .collection-tabs {
@@ -104,7 +104,7 @@
   justify-content: space-between;
 }
 
-.yee-theme-light .collection-tabs .product-card .product-card-content {
+.yee-theme-light .collection-tabs .product-card {
   background: var(--light-bg-body);
 }
 

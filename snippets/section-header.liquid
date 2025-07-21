@@ -35,31 +35,32 @@
       </div>
     {%- endif -%}
   </div>
-  {%- if blocks -%}
-    <scroll-shadow>
-      <collection-tabs class="collection-tabs__list text-left" data-target="product-grid-{{ section_id }}">
-        {%- for block in blocks -%}
-          {%- if block.settings.collection != blank -%}
-            <button
-              type="button"
-              data-collection="{{ block.settings.collection.handle }}"
-              class="collection-tabs__list-link{% if forloop.first == true %} active{% endif %}"
-              {{ block.shopify_attributes }}
-            >
-              {{ block.settings.collection.title }}
-            </button>
-          {%- else -%}
-            <button
-              type="button"
-              data-collection="collection-{{ block.id }}"
-              class="collection-tabs__list-link{% if forloop.first == true %} active{% endif %}"
-              {{ block.shopify_attributes }}
-            >
-              Collection {{ forloop.index }}
-            </button>
-          {%- endif -%}
-        {%- endfor -%}
-      </collection-tabs>
-    </scroll-shadow>
-  {%- endif -%}
+{%- endif -%}
+
+{%- if blocks -%}
+  <scroll-shadow>
+    <collection-tabs class="collection-tabs__list text-left" data-target="product-grid-{{ section_id }}">
+      {%- for block in blocks -%}
+        {%- if block.settings.collection != blank -%}
+          <button
+            type="button"
+            data-collection="{{ block.settings.collection.handle }}"
+            class="collection-tabs__list-link{% if forloop.first == true %} active{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {{ block.settings.collection.title }}
+          </button>
+        {%- else -%}
+          <button
+            type="button"
+            data-collection="collection-{{ block.id }}"
+            class="collection-tabs__list-link{% if forloop.first == true %} active{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            Collection {{ forloop.index }}
+          </button>
+        {%- endif -%}
+      {%- endfor -%}
+    </collection-tabs>
+  </scroll-shadow>
 {%- endif -%}
