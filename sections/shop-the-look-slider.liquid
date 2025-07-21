@@ -190,7 +190,7 @@
         </div>
         <div
           class="shop-look-slider-buttons-container full-width text-center"
-          style="{%- if show_buttons -%}opacity: 1;{%- else -%}opacity: 0;{%- endif -%}"
+          style="{%- if show_buttons -%}display: block;{%- else -%}display: none;{%- endif -%}"
         >
           <div class="shop-look-slider-buttons-container-inner">
             <div class=" shop-look-slider-buttons d-flex align-center justify-center flickity-custom-dots">
@@ -216,6 +216,31 @@
               {%- endfor -%}
             </div>
           </div>
+        </div>
+        <div class="shop-the-look-slider--view--mobile d-flex justify-center">
+          <a
+            href="{{ section_link }}"
+            class="shop-the-look-slider--link d-flex align-center justify-space-between{% if show_buttons %} normal{% endif %}"
+          >
+            <div class="slider-view_images d-flex align-center">
+              {% for block in section.blocks %}
+                {%- liquid
+                  assign hotspot_product_1 = all_products[block.settings.product_handle_1]
+                  assign hotspot_product_2 = all_products[block.settings.product_handle_2]
+                  assign hotspot_product_3 = all_products[block.settings.product_handle_3]
+                -%}
+                <div class="slider-view_image_item">
+                  {%- render 'responsive-image', image: hotspot_product_1.images[1], sizes: '150x0' -%}
+                  {%- render 'responsive-image', image: hotspot_product_2.images[1], sizes: '150x0' -%}
+                  {%- render 'responsive-image', image: hotspot_product_3.images[1], sizes: '150x0' -%}
+                </div>
+              {%- endfor -%}
+            </div>
+            <span> {{ view_title }} </span>
+            <div class="shop-the-look-slider--link--icon">
+              {% render 'svg-icons-custom' with 'custom-arrow-right-circle' %}
+            </div>
+          </a>
         </div>
       </slide-show>
     </div>

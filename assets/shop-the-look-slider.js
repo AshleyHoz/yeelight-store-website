@@ -9,14 +9,24 @@ if (!customElements.get('shop-the-look-slider')) {
       this.addEventListener('click', this.onChangeBackground);
       // const coverEle = this.getElementsByClassName('shop-look-slider-buttons-bg')[0];
       const button1 = this.getElementsByClassName('shop-look-slider-buttons_item')[0];
+      const imagesEle1 = this.getElementsByClassName('slider-view_image_item')[0];
       // if (!coverEle) return;
       // coverEle.style.width = button1.offsetWidth + 'px';
       // coverEle.style.height = button1.offsetHeight * 0.5 + 'px';
       button1.classList.add('active');
+      imagesEle1.classList.add('active');
       const hotpotsEle = this.getElementsByClassName('shop-the-look-slider--area');
       hotpotsEle[0].classList.add('is-selected');
 
-      const removeEles = document.getElementsByClassName('shop-look-slider-buttons-container');
+      // 按钮放在底部显示
+      // const removeEles = document.getElementsByClassName('shop-look-slider-buttons-container');
+      // for (let i = 0; i < removeEles.length; i++) {
+      //   const removeEle = removeEles[i];
+      //   const parentEle = removeEle.parentNode;
+      //   parentEle.removeChild(removeEle);
+      //   parentEle.appendChild(removeEle);
+      // }
+      const removeEles = document.getElementsByClassName('shop-the-look-slider--view--mobile');
       for (let i = 0; i < removeEles.length; i++) {
         const removeEle = removeEles[i];
         const parentEle = removeEle.parentNode;
@@ -29,6 +39,7 @@ if (!customElements.get('shop-the-look-slider')) {
       const currentEle = this.getElementsByClassName('shop-look-slider-buttons_item is-selected')[0];
       // const containerEle = this.getElementsByClassName('shop-look-slider-buttons')[0];
       const buttonsEle = this.getElementsByClassName('shop-look-slider-buttons_item');
+      const imagesEle = this.getElementsByClassName('slider-view_image_item');
       const index = Array.from(buttonsEle).indexOf(currentEle);
       // const currentRect = currentEle.getBoundingClientRect();
       // const containerRect = containerEle.getBoundingClientRect();
@@ -44,6 +55,11 @@ if (!customElements.get('shop-the-look-slider')) {
         buttonsEle[i].classList.remove('active');
       }
       currentEle.classList.add('active');
+
+      for (let i = 0; i < imagesEle.length; i++) {
+        imagesEle[i].classList.remove('active');
+      }
+      imagesEle[index].classList.add('active');
 
       const hotpotsEle = this.getElementsByClassName('shop-the-look-slider--area');
       for (let i = 0; i < hotpotsEle.length; i++) {

@@ -181,6 +181,10 @@
   padding-bottom: 30px;
 }
 
+.shop-the-look-slider--view--mobile {
+  display: none;
+}
+
 .shop-the-look-slider .shop-the-look-slider--link {
   border-radius: 52px;
   background: linear-gradient(135deg, #FFC64C 0%, #FF8F03 100%);
@@ -465,7 +469,7 @@
   }
 
   .shop-look-slider-buttons-container {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     position: relative;
     left: 0;
     bottom: 0;
@@ -476,6 +480,11 @@
   .shop-look-slider-buttons_item-content-color {
     gap: 4px;
     z-index: 1;
+    opacity: 1;
+  }
+
+  .yee-theme-dark .shop-look-slider-buttons_item-content,
+  .yee-theme-dark .shop-look-slider-buttons_item-content-color {
     opacity: 0.6;
   }
 
@@ -505,26 +514,61 @@
     border-radius: 0;
     gap: 8px;
     flex-wrap: wrap;
-    background: rgba(255, 255, 255, 0.1);
     border-radius: 0 0 12px 12px;
     backdrop-filter: unset;
+    padding: 0;
+  }
+
+  .yee-theme-dark .shop-look-slider-buttons {
+    background: rgba(255, 255, 255, 0.1);
   }
 
   .shop-look-slider-buttons_item {
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
     flex: auto;
-    color: #fff;
     font-size: 12px;
     font-weight: 500;
     background: transparent;
     min-width: calc(50% - 4px);
   }
 
+  .yee-theme-light .shop-look-slider-buttons_item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .yee-theme-light .shop-look-slider-buttons_item svg path {
+    fill: rgba(0, 0, 0, 0.4);
+  }
+
+  .yee-theme-dark .shop-look-slider-buttons_item {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .yee-theme-dark .shop-look-slider-buttons_item svg path {
+    fill: rgba(255, 255, 255, 0.2);
+  }
+
   .shop-look-slider-buttons_item.active {
-    border: 1px solid #fff;
+    background: transparent;
     border-radius: 12px;
+  }
+
+  .yee-theme-light .shop-look-slider-buttons_item.active {
+    border: 1px solid var(--light-color-body);
+    color: var(--light-color-body);
+  }
+
+  .yee-theme-light .shop-look-slider-buttons_item.active svg path {
+    fill: var(--light-color-body);
+  }
+
+  .yee-theme-dark .shop-look-slider-buttons_item.active {
     background: rgba(255, 255, 255, 0.1);
+    color: var(--dark-color-body);
+  }
+
+  .yee-theme-dark .shop-look-slider-buttons_item.active svg path {
+    fill: var(--dark-color-body);
   }
 
   .shop-look-slider_slide {
@@ -546,21 +590,70 @@
     display: none;
   }
 
+  .shop-the-look-slider--view--mobile {
+    display: block;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 12px 12px;
+  }
+
+  .shop-the-look-slider .shop-the-look-slider--link.normal,
   .shop-the-look-slider .shop-the-look-slider--link {
-    padding: 10px;
+    background: transparent;
+  }
+
+  .shop-the-look-slider .shop-the-look-slider--link .shop-the-look-slider--link--icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #FFC64C 0%, #FF8F03 100%);
+  }
+
+  .shop-the-look-slider .shop-the-look-slider--link.normal .shop-the-look-slider--link--icon {
+    background: linear-gradient(100deg, #0871ff 0%, #e70bb3 49.91%, #ff8f03 100%);
+  }
+
+  .shop-the-look-slider .shop-the-look-slider--link.normal svg rect {
+    fill: transparent;
+  }
+
+  .shop-the-look-slider .shop-the-look-slider--link {
+    padding: 0;
   }
 
   .shop-the-look-slider .shop-the-look-slider--link span {
-    color: #fff;
     font-size: 14px;
     font-weight: 600;
     line-height: 150%;
-    letter-spacing: 0.28px;
+  }
+
+  .yee-theme-light .shop-the-look-slider .shop-the-look-slider--link span {
+    color: var(--light-color-body);
+  }
+
+  .yee-theme-dark .shop-the-look-slider .shop-the-look-slider--link span {
+    color: var(--dark-color-body);
   }
 
   .shop-the-look-slider .shop-the-look-slider--link svg {
     width: 25px;
     height: 24px;
+  }
+
+  .shop-the-look-slider--view--mobile .slider-view_images img {
+    width: 42px;
+    height: 42px;
+    margin-right: 4px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .slider-view_images .slider-view_image_item {
+    display: none;
+  }
+
+  .slider-view_images .slider-view_image_item.active {
+    display: block;
   }
 
   .shop-look-slider-buttons_item.active .shop-look-slider-buttons_item-content {
