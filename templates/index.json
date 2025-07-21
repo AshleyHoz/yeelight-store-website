@@ -289,15 +289,15 @@
       ],
       "name": "Collection tabs",
       "settings": {
-        "heading": "Collection Tabs",
+        "heading": "",
         "marker_style": "style1",
-        "description": "<p>Add a short description for your collections</p>",
+        "description": "",
         "product_limit": 6,
         "columns_desktop": 4,
-        "show_progress_bar": true,
-        "marker_color": "#FD6262",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false,
+        "show_progress_bar": false,
+        "marker_color": "#fd6262",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
         "show_cover": false
       }
     },
