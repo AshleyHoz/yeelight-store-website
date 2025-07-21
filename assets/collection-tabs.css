@@ -4,56 +4,158 @@
 
 .collection-tabs__list-link {
   display: inline-flex;
+  gap: 5px;
   white-space: nowrap;
-  font-size: 0.8125rem;
-  padding: 5px 15px;
-  height: 31px;
+  font-size: 14px;
+  padding: 10px 15px;
   border-radius: var(--button-border-radius, 6px);
   align-items: center;
   font-weight: var(--font-body-medium-weight, 500);
-  margin: 0 2px 2px 0;
   line-height: 1;
-  background: rgba(var(--color-body-rgb), 0.05);
-  color: rgba(var(--color-body-rgb), 0.8);
 }
-.collection-tabs__list-link:hover,
-.active.collection-tabs__list-link {
-  color: #fff;
-  background: var(--color-accent);
+
+.yee-theme-light .collection-tabs__list-link {
+  color: rgba(var(--light-color-body-rgb), 0.6);
+}
+
+.yee-theme-dark .collection-tabs__list-link {
+  color: rgba(var(--dark-color-body-rgb), 0.8);
+}
+
+.yee-theme-light .collection-tabs__list-link:hover,
+.yee-theme-light .active.collection-tabs__list-link {
+  color: var(--dark-color-body);
+  background: var(--dark-bg-body);
+}
+
+.yee-theme-dark .collection-tabs__list-link:hover,
+.yee-theme-dark .active.collection-tabs__list-link {
+  color: var(--light-color-body);
+  background: var(--light-bg-body);
 }
 
 .collection-tabs {
   overflow: hidden;
+  padding: 140px 0;
 }
+
+.yee-theme-light .collection-tabs {
+  color: var(--light-color-body);
+}
+
+.yee-theme-dark .collection-tabs {
+  color: var(--dark-color-body);
+}
+
+.yee-theme-light .collection-tabs scroll-shadow {
+  text-align: center;
+}
+
 .collection-tabs__list {
-  display: block;
+  display: inline-flex;
+  align-items: center;
   overflow-x: scroll;
   white-space: nowrap;
   grid-gap: 10px;
   scrollbar-width: none;
-  margin-top: 15px;
+  margin: 30px 0;
+  background: #DCDFE3;
+  padding: 4px;
+  border-radius: 50px;
 }
+
 .collection-tabs__list::-webkit-scrollbar {
   display: none;
 }
-.collection-tabs__list-link + .collection-tabs__list-link {
+
+.collection-tabs__list-link+.collection-tabs__list-link {
   margin-left: 10px;
-}
-@media only screen and (max-width: 767px) {
-  .collection-tabs__list {
-    width: 100%;
-  }
 }
 
 .yee-collection-tabs .products.carousel .columns {
   display: none;
 }
+
 .yee-collection-tabs .products.carousel .columns.carousel__slide {
   display: flex;
 }
 
+.yee-theme-light .collection-tabs .flickity-nav.flickity-prev,
+.yee-theme-light .collection-tabs .flickity-nav.flickity-next {
+  background: var(--light-bg-body);
+}
+
+.yee-theme-dark .collection-tabs .flickity-nav.flickity-prev,
+.yee-theme-dark .collection-tabs .flickity-nav.flickity-next {
+  background: var(--dark-bg-body);
+}
+
+.yee-theme-light .collection-tabs .products svg path {
+  stroke: var(--light-color-body);
+}
+
+.yee-theme-dark .collection-tabs .products svg path {
+  stroke: var(--dark-color-body);
+}
+
+.yee-theme-light .collection-tabs .product-card {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.yee-theme-light .collection-tabs .product-card .product-card-content {
+  background: var(--light-bg-body);
+}
+
+.yee-theme-dark .collection-tabs .product-card .product-card-content {
+  background: var(--dark-bg-body);
+}
+
+.yee-theme-light .collection-tabs .product-card .product-card-title,
+.yee-theme-light .collection-tabs .product-card .price .custom-amount-ins {
+  color: var(--light-color-body);
+}
+
+.yee-theme-light .collection-tabs .product-card .price .custom-amount-del {
+  color: rgba(var(--light-color-body-rgb), 0.4);
+}
+
+.yee-theme-dark .collection-tabs .product-card .product-card-title,
+.yee-theme-dark .collection-tabs .product-card .price .custom-amount-ins {
+  color: var(--dark-color-body);
+}
+
+.yee-theme-dark .collection-tabs .product-card .price .custom-amount-del {
+  color: rgba(var(--dark-color-body-rgb), 0.4);
+}
+
+.yee-theme-light .collection-tabs .product-card--add-to-cart-button-wrapper {
+  border: 1px solid var(--light-color-body);
+  border-radius: 15px;
+}
+
+.yee-theme-dark .collection-tabs .product-card--add-to-cart-button-wrapper {
+  border: 1px solid var(--dark-color-body);
+  border-radius: 15px;
+}
+
+.yee-theme-light .collection-tabs .shop-now-wrapper {
+  height: 100%;
+  flex: 1;
+}
+
 @media only screen and (max-width: 767px) {
+
+  .collection-tabs__list {
+    width: 100%;
+  }
+
   .yee-collection-tabs .products.carousel .carousel__slide {
     width: calc(50vw - 15px);
+  }
+
+  .collection-tabs {
+    padding: 40px 0;
   }
 }

@@ -6329,14 +6329,16 @@ input[type='radio'],
 .yee-theme-light .shop-the-look-slider .section-header--title,
 .yee-theme-light .logo-list .section-header--title,
 .yee-theme-light .featured-blog .section-header--title,
-.yee-theme-light .collection-list .section-header--title {
+.yee-theme-light .collection-list .section-header--title,
+.yee-theme-light .collection-tabs .section-header--title {
   color: var(--light-color-body);
 }
 
 .yee-theme-dark .shop-the-look-slider .section-header--title,
 .yee-theme-dark .logo-list .section-header--title,
 .yee-theme-dark .featured-blog .section-header--title,
-.yee-theme-dark .collection-list .section-header--title {
+.yee-theme-dark .collection-list .section-header--title,
+.yee-theme-dark .collection-tabs .section-header--title {
   color: var(--dark-color-body);
 }
 
@@ -6382,6 +6384,13 @@ input[type='radio'],
 
 .section-header--description p {
   margin-top: 24px;
+}
+
+.yee-theme-light .section-header--description p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.yee-theme-dark .section-header--description p {
   color: rgba(255, 255, 255, 0.6);
 }
 
