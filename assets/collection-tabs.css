@@ -97,7 +97,7 @@
 
 .yee-collection-tabs .products.carousel .columns.carousel__slide {
   display: flex;
-  width: 25%;
+  /* width: 25%; */
   padding: 0 10px;
   height: 100%;
 }
