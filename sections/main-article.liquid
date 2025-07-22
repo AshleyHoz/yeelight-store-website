@@ -27,11 +27,10 @@
               assign article_card_border = settings.article_card_border
             -%}
             <div
-              class="post-title-wrapper post-title-wrapper--has-img-{{- has_image }} post-title-wrapper--border-{{ article_card_border }} {{ article_card_shadow_class }} d-flex"
+              class="post-title-wrapper post-title-wrapper--has-img-{{- has_image }} post-title-wrapper--border-{{ article_card_border }} {{ article_card_shadow_class }}"
               id="post-title-wrapper"
               {{ block.shopify_attributes }}
             >
-              <div class="post-title d-flex flex-column"></div>
               {% if section.settings.article_show_date or section.settings.article_show_author %}
                 <div class="post-meta-wrapper">
                   {%- if section.settings.article_show_date -%}
