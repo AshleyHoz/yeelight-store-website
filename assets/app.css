@@ -4532,7 +4532,7 @@ input[type='time'],
 input[type='url'],
 textarea,
 select {
-  border: 1px solid #1a1a1a;
+  border: 1px solid #ffffff;
   padding: 12px 17px;
   height: 50px;
   margin-bottom: 10px;
