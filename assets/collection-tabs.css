@@ -77,11 +77,11 @@
 }
 
 .collection-tabs .products .collection__inner--column {
-  flex: none;
+  flex: 1;
   width: calc(25% - 10px);
   /* min-width: auto;
-  max-width: none; */
-  /* min-height: auto;
+  max-width: none;
+  min-height: auto;
   max-height: none; */
   height: 100%;
 }
