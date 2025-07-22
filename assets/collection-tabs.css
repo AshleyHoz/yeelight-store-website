@@ -76,20 +76,20 @@
   margin-top: 30px;
 }
 
-.collection-tabs .products .collection__inner--column {
-  /* flex: 1; */
+/* .collection-tabs .products .collection__inner--column {
+  flex: 1;
   width: calc(25% - 10px);
-  /* min-width: auto;
+  min-width: auto;
   max-width: none;
   min-height: auto;
-  max-height: none; */
+  max-height: none;
   height: 100%;
 }
 
 .collection-tabs .products .flickity-slider {
   display: flex;
   gap: 20px;
-}
+} */
 
 .yee-collection-tabs .products.carousel .columns {
   display: none;
