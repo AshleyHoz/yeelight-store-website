@@ -97,9 +97,9 @@
 
 .yee-collection-tabs .products.carousel .columns.carousel__slide {
   display: flex;
-  /* width: 25%; */
+  width: 25%;
   padding: 0 10px;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .yee-theme-light .collection-tabs .flickity-nav.flickity-prev,
