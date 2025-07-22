@@ -6130,6 +6130,7 @@ input[type='radio'],
   padding: 0 0 40px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -6138,7 +6139,6 @@ input[type='radio'],
     align-items: end;
     justify-content: space-between;
     grid-gap: 30px;
-    width: 100%;
   }
 }
 
