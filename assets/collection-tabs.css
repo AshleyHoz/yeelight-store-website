@@ -157,7 +157,7 @@
   border-radius: 15px;
 }
 
-.yee-theme-light .collection-tabs .product-card .product-opt-wrapper .product-card-view {
+.collection-tabs .product-card .product-opt-wrapper .product-card-view {
   padding: 15px;
 }
 
@@ -179,7 +179,7 @@
     min-height: 100px;
   }
 
-  .yee-theme-light .collection-tabs .product-card .product-opt-wrapper .product-card-view {
-    padding: 15px;
+  .collection-tabs .product-card .product-opt-wrapper .product-card-view {
+    padding: 10px;
   }
 }
