@@ -677,8 +677,12 @@
   opacity: 1;
 }
 
-.product-card--add-to-cart-button.loading .spinner .spinner-path {
-  stroke: #ffffff;
+.yee-theme-light .product-card--add-to-cart-button.loading .spinner .spinner-path {
+  stroke: var(--light-color-body);
+}
+
+.yee-theme-dark .product-card--add-to-cart-button.loading .spinner .spinner-path {
+  stroke: var(--dark-color-body);
 }
 
 .product-card--add-to-cart-button.loading .product-card--add-to-cart-text {
