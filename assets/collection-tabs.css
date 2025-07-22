@@ -169,6 +169,14 @@
   padding: 15px;
 }
 
+.yee-theme-light .collection-tabs .product-card .product-card--add-to-cart-button.loading .spinner .spinner-path {
+  stroke: var(--light-color-body);
+}
+
+.yee-theme-dark .collection-tabs .product-card .product-card--add-to-cart-button.loading .spinner .spinner-path {
+  stroke: var(--dark-color-body);
+}
+
 @media only screen and (max-width: 767px) {
 
   .collection-tabs__list {

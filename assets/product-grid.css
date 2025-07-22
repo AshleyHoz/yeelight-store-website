@@ -677,12 +677,8 @@
   opacity: 1;
 }
 
-.yee-theme-light .product-card--add-to-cart-button.loading .spinner .spinner-path {
-  stroke: var(--light-color-body);
-}
-
-.yee-theme-dark .product-card--add-to-cart-button.loading .spinner .spinner-path {
-  stroke: var(--dark-color-body);
+.product-card--add-to-cart-button.loading .spinner .spinner-path {
+  stroke: #ffffff;
 }
 
 .product-card--add-to-cart-button.loading .product-card--add-to-cart-text {
