@@ -81,13 +81,13 @@
   margin-bottom: 16px;
 }
 
-.yee-theme-light .blog-post,
-.yee-theme-light .blog-post a {
+.yee-theme-light .featured-blog .blog-post,
+.yee-theme-light .featured-blog .blog-post a {
   color: var(--light-color-body);
 }
 
-.yee-theme-dark .blog-post,
-.yee-theme-dark .blog-post a {
+.yee-theme-dark .featured-blog .blog-post,
+.yee-theme-dark .featured-blog .blog-post a {
   color: var(--dark-color-body);
 }
 
