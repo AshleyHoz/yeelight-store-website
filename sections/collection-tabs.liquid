@@ -59,7 +59,7 @@
             {%- endif -%}
             {%- for product in block.settings.collection.products limit: product_limit -%}
               <div
-                class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %} featured-collection__inner--column"
+                class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %} collection__inner--column"
                 data-collection="{{ block.settings.collection.handle }}"
               >
                 {% render 'product-card', product_card_product: product, show_cover: section.settings.show_cover %}
@@ -77,7 +77,7 @@
             {%- endif -%}
             {%- for i in (1..product_limit) -%}
               <div
-                class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %} featured-collection__inner--column"
+                class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %} collection__inner--column"
                 data-collection="collection-{{ block.id }}"
               >
                 {% render 'product-card', show_cover: section.settings.show_cover %}
