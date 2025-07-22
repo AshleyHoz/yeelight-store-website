@@ -198,4 +198,8 @@
   .collection-tabs .product-card .product-opt-wrapper .product-card-view {
     padding: 10px;
   }
+
+  .collection-tabs .products.carousel .carousel__slide {
+    padding: 0;
+  }
 }
