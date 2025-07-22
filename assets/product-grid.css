@@ -400,6 +400,14 @@
   padding: 24px 20px 20px;
 }
 
+.product-card .badge .shop-badge svg path {
+  fill: #FF9A00;
+}
+
+.yee-activity-black-friday .product-card .badge .shop-badge svg path {
+  fill: #FE2B39;
+}
+
 .yee-activity-halloween .product-card .badge .halloween-shop-badge,
 .yee-activity-halloween .product-card .badge .halloween-shop-badge-mobile,
 .yee-activity-christmas .product-card .badge .christmas-shop-badge,

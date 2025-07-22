@@ -28,14 +28,11 @@
       <span class="valentine-shop-badge">
         {%- render 'svg-icons-valentine' with 'custom-valentine-badge' -%}
       </span>
-    {%- elsif settings.black_friday_flag -%}
+    {%- else -%}
       <span class="shop-badge">
         {%- render 'svg-icons-friday' with 'custom-friday-badge' -%}
       </span>
-      
-    {%- else -%}
-      <span class="shop-badge"></span>
-
+    {%- endif -%}
     {% comment %} {%- if settings.black_friday_flag or settings.christmas_flag or settings.new_year_flag -%} {% endcomment %}
     <div class="activity-badge-content">
       <div class="badge-title">
