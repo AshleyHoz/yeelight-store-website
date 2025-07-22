@@ -174,4 +174,12 @@
   .collection-tabs {
     padding: 40px 0;
   }
+
+  .collection-tabs .products .product-card-info {
+    min-height: 100px;
+  }
+
+  .yee-theme-light .collection-tabs .product-card .product-opt-wrapper .product-card-view {
+    padding: 15px;
+  }
 }
