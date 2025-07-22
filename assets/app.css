@@ -6607,9 +6607,14 @@ input[type='submit'].accent .spinner-path {
     color: #ffffff;
   }
 
-  .button.accent:hover .spinner-path,
-  input[type='submit'].accent:hover .spinner-path {
-    stroke: #ffffff;
+  .yee-theme-light.button.accent:hover .spinner-path,
+  .yee-theme-light [type='submit'].accent:hover .spinner-path {
+    stroke: var(--light-color-body);
+  }
+
+  .yee-theme-dark.button.accent:hover .spinner-path,
+  .yee-theme-dark [type='submit'].accent:hover .spinner-path {
+    stroke: var(--dark-color-body);
   }
 
   .yee-theme-white .button.accent:hover,
