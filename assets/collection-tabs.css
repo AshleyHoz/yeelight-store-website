@@ -107,7 +107,7 @@
   background: var(--dark-bg-body);
 }
 
-.yee-theme-light .collection-tabs .products svg path {
+.yee-theme-light .collection-tabs .products .product-card--add-to-cart-button-wrapper svg path {
   stroke: var(--light-color-body);
 }
 
