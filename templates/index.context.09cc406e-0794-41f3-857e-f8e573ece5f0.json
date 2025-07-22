@@ -23,10 +23,10 @@
             "image": "shopify://shop_images/20250704-180210.jpg",
             "mobile_image": "shopify://shop_images/750_x_1100.png",
             "slide_link": "shopify://pages/independence-day",
-            "header-1f6a6a36016cf87867313178df1185dd": null,
+            "header-a6d2888532471f0ac1c837a7f33a0400": null,
             "video_background": false,
             "video_hosted": null,
-            "header-f92c7ea1e8138952bd1de11a919ecb6b": null,
+            "header-70e1b96dfbe7ae864c996c213d49218d": null,
             "badge_text": "",
             "subheading": "",
             "heading": "",
@@ -36,7 +36,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "header-03d530c542c2bff0fbdc7391547a0663": null,
+            "header-b386dd7273ba46a6694db49ce7a6821d": null,
             "color_slidebg": "rgba(0,0,0,0)",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 0,
@@ -46,12 +46,12 @@
             "overlay_color": "#ffffff",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "header-99db8e874072fc48834dab53152bf774": null,
+            "header-860668e21ec8a5bf3ddf468c09602259": null,
             "button_1_text": "",
             "button_1_color": "accent",
             "button_1_link": "",
             "use_text_button_1": false,
-            "header-b1613b1ae89c80385a68c67c83725437": null,
+            "header-dd6dfd6fbce7cd443a11611b61f45a57": null,
             "button_2_text": "",
             "button_2_color": "white",
             "button_2_link": "",
@@ -65,10 +65,10 @@
             "image": "shopify://shop_images/banner_3f53eb8f-0cf7-44d7-ae4e-542204c709ed.jpg",
             "mobile_image": "shopify://shop_images/banner_fcb11144-d741-49b0-b2a1-82d50f216363.jpg",
             "slide_link": "shopify://pages/mothers-day-sale",
-            "header-704696beadec4cfb6a5e5119c28ae51d": null,
+            "header-06a653dd1502797248bb7fe82831daba": null,
             "video_background": false,
             "video_hosted": null,
-            "header-d23b196ea93ce95eead1c7ba896b3312": null,
+            "header-85abbc7120ba8e6cccdd2e747fdbb8f9": null,
             "badge_text": "",
             "subheading": "",
             "heading": "",
@@ -78,7 +78,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "header-6c529e7a62b555fe8e3d90a3371e2dbb": null,
+            "header-7d280a5af57bcd078f38eef2f9ffd8b4": null,
             "color_slidebg": "rgba(0,0,0,0)",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 0,
@@ -88,12 +88,12 @@
             "overlay_color": "#ffffff",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "header-6e26a6e2007736103c548ebf7e8b77a8": null,
+            "header-8e6fd462f211f6588c6fdfbd237c5c51": null,
             "button_1_text": "",
             "button_1_color": "accent",
             "button_1_link": "",
             "use_text_button_1": false,
-            "header-c0efaf307f126a3a1ef41bc36bd7277a": null,
+            "header-d6a0a06b955d8a133a63243831b8f716": null,
             "button_2_text": "",
             "button_2_color": "white",
             "button_2_link": "",
@@ -163,7 +163,8 @@
             "data-limit": 15,
             "maxwidth": 1080,
             "is_sample": true,
-            "paragraph-eb71b9a3d577825e1fe281e53bb0ef2a": null
+            "paragraph-632496f52a01320fbde3d285095b32dc": null,
+            "paragraph-d8edcedd62458a60d8fc5080fd692849": null
           }
         }
       },
@@ -171,6 +172,19 @@
         "loox_reviews_loox_video_slider_y63DVW",
         "loox_reviews_loox_agg_section_RXGtX"
       ]
+    },
+    "collection_list_7U8MXe": {
+      "settings": {
+        "collection_list": [
+          "ceiling-light",
+          "gaming-light",
+          "light-strip-bulbs",
+          "sensor-light",
+          "monitor-light-bar",
+          "desk-lamp"
+        ]
+      },
+      "blocks": {}
     }
   },
   "order": [
