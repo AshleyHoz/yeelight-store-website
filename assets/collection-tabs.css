@@ -54,6 +54,7 @@
 .collection-tabs__list {
   display: inline-flex;
   align-items: center;
+  justify-content: space-between;
   overflow-x: scroll;
   white-space: nowrap;
   grid-gap: 10px;
