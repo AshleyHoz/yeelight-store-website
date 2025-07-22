@@ -209,6 +209,7 @@
     },
     "featured_collection_M8HqE3": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "heading": "What's <span>Popular</span> Now",
