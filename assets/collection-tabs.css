@@ -156,9 +156,8 @@
   border-radius: 15px;
 }
 
-.yee-theme-light .collection-tabs .shop-now-wrapper {
-  height: 100%;
-  flex: 1;
+.yee-theme-light .collection-tabs .product-card .product-opt-wrapper .product-card-view {
+  padding: 15px;
 }
 
 @media only screen and (max-width: 767px) {
