@@ -80,6 +80,11 @@
   min-height: 110px;
 }
 
+.collection-tabs .products .flickity-nav {
+  position: absolute;
+  top: 60%;
+}
+
 .collection-tabs .products.carousel .columns {
   display: none;
 }
