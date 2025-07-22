@@ -6546,6 +6546,16 @@ input[type='submit'].accent .spinner-path {
   stroke: var(--bg-body);
 }
 
+.yee-theme-light .button.accent .spinner-path,
+.yee-theme-light input[type='submit'].accent .spinner-path {
+  stroke: var(--light-color-body);
+}
+
+.yee-theme-dark .button.accent .spinner-path,
+.yee-theme-dark input[type='submit'].accent .spinner-path {
+  stroke: var(--dark-color-body);
+}
+
 .yee-theme-white .button.accent,
 .yee-theme-white input[type='submit'].accent {
   border: 1px solid #000000;
