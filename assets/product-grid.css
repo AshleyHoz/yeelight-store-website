@@ -253,7 +253,7 @@
   text-transform: capitalize;
   border-radius: 14px;
   /* background: linear-gradient(103deg, #111bff 0%, #fd119e 100%), rgba(255, 255, 255, 0.1); */
-  background: rgba(255, 255, 255, 0.1) #FF9A00;
+  background: #FF9A00;
 }
 
 /* .yee-activity-black-friday .product-card .product-opt-wrapper .product-card-view {
@@ -280,7 +280,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .product-card .product-featured-image {
