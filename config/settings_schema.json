@@ -1296,6 +1296,15 @@
         "id": "valentine_flag",
         "label": "Enable valentine css globally",
         "default": false
+      }
+    ]
+  },
+  {
+    "name": "Theme",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Only one theme is allowed to be opened."
       },
       {
         "type": "checkbox",
