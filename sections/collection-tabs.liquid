@@ -31,72 +31,72 @@
   style="background: {{ section.settings.background }};"
 >
   <div class="row">
-    <div class="small-12 columns">
-      {% render 'section-header',
-        section_heading: section_heading,
-        section_description: section_description,
-        section_id: section.id,
-        blocks: section.blocks,
-        marker_color: marker_color,
-        marker_style: marker_style
-      %}
-      <slide-show
-        id="product-grid-{{ section.id }}"
-        data-id="{{ section.id }}"
-        class="products carousel row small-up-2 medium-up-{{ columns_desktop }}"
-      >
-        {%- for block in section.blocks -%}
-          {%- assign mainloop = forloop -%}
-          {% if block.settings.collection != blank %}
-            {%- if block.settings.enable_promotion -%}
-              {{- 'gallery.css' | asset_url | stylesheet_tag -}}
-              <div
-                class="promotion-column {{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %}"
-                data-collection="{{ block.settings.collection.handle }}"
-              >
-                {%- render 'product-promotion', block: block -%}
-              </div>
-            {%- endif -%}
-            {%- for product in block.settings.collection.products limit: product_limit -%}
-              <div
-                class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %} collection__inner--column"
-                data-collection="{{ block.settings.collection.handle }}"
-              >
-                {% render 'product-card', product_card_product: product, show_cover: section.settings.show_cover %}
-              </div>
-            {%- endfor -%}
-          {%- else -%}
-            {%- if block.settings.enable_promotion -%}
-              {{- 'gallery.css' | asset_url | stylesheet_tag -}}
-              <div
-                class="promotion-column {{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %}"
-                data-collection="collection-{{ block.id }}"
-              >
-                {%- render 'product-promotion', block: block -%}
-              </div>
-            {%- endif -%}
-            {%- for i in (1..product_limit) -%}
-              <div
-                class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %} collection__inner--column"
-                data-collection="collection-{{ block.id }}"
-              >
-                {% render 'product-card', show_cover: section.settings.show_cover %}
-              </div>
-            {%- endfor -%}
+    {% comment %} <div class="small-12 columns"> {% endcomment %}
+    {% render 'section-header',
+      section_heading: section_heading,
+      section_description: section_description,
+      section_id: section.id,
+      blocks: section.blocks,
+      marker_color: marker_color,
+      marker_style: marker_style
+    %}
+    <slide-show
+      id="product-grid-{{ section.id }}"
+      data-id="{{ section.id }}"
+      class="products carousel row small-up-2 medium-up-{{ columns_desktop }}"
+    >
+      {%- for block in section.blocks -%}
+        {%- assign mainloop = forloop -%}
+        {% if block.settings.collection != blank %}
+          {%- if block.settings.enable_promotion -%}
+            {{- 'gallery.css' | asset_url | stylesheet_tag -}}
+            <div
+              class="promotion-column {{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %}"
+              data-collection="{{ block.settings.collection.handle }}"
+            >
+              {%- render 'product-promotion', block: block -%}
+            </div>
           {%- endif -%}
-        {%- endfor -%}
-
-        {%- if product_limit > columns_desktop -%}
-          <div class="flickity-nav flickity-prev" tabindex="0">{% render 'svg-icons' with 'carousel-prev' %}</div>
-          <div class="flickity-nav flickity-next" tabindex="0">{% render 'svg-icons' with 'carousel-next' %}</div>
+          {%- for product in block.settings.collection.products limit: product_limit -%}
+            <div
+              class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %} collection__inner--column"
+              data-collection="{{ block.settings.collection.handle }}"
+            >
+              {% render 'product-card', product_card_product: product, show_cover: section.settings.show_cover %}
+            </div>
+          {%- endfor -%}
+        {%- else -%}
+          {%- if block.settings.enable_promotion -%}
+            {{- 'gallery.css' | asset_url | stylesheet_tag -}}
+            <div
+              class="promotion-column {{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %}"
+              data-collection="collection-{{ block.id }}"
+            >
+              {%- render 'product-promotion', block: block -%}
+            </div>
+          {%- endif -%}
+          {%- for i in (1..product_limit) -%}
+            <div
+              class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %} collection__inner--column"
+              data-collection="collection-{{ block.id }}"
+            >
+              {% render 'product-card', show_cover: section.settings.show_cover %}
+            </div>
+          {%- endfor -%}
         {%- endif -%}
-      </slide-show>
-      {%- if show_progress_bar -%}
-        <div class="flickity-progress">
-          <div class="flickity-progress--bar"></div>
-        </div>
+      {%- endfor -%}
+
+      {%- if product_limit > columns_desktop -%}
+        <div class="flickity-nav flickity-prev" tabindex="0">{% render 'svg-icons' with 'carousel-prev' %}</div>
+        <div class="flickity-nav flickity-next" tabindex="0">{% render 'svg-icons' with 'carousel-next' %}</div>
       {%- endif -%}
-    </div>
+    </slide-show>
+    {%- if show_progress_bar -%}
+      <div class="flickity-progress">
+        <div class="flickity-progress--bar"></div>
+      </div>
+    {%- endif -%}
+    {% comment %} </div> {% endcomment %}
   </div>
 </div>
 <script src="{{ 'collection-tabs.js' | asset_url }}" defer="defer"></script>
