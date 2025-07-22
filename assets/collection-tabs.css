@@ -97,6 +97,14 @@
   height: auto;
 }
 
+.yee-theme-light .collection-tabs .products .flickity-nav svg path {
+  stroke: var(--light-color-body);
+}
+
+.yee-theme-dark .collection-tabs .products .flickity-nav svg path {
+  stroke: var(--dark-color-body);
+}
+
 .yee-theme-light .collection-tabs .flickity-nav.flickity-prev,
 .yee-theme-light .collection-tabs .flickity-nav.flickity-next {
   background: var(--light-bg-body);
