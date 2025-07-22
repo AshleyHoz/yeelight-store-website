@@ -6138,6 +6138,7 @@ input[type='radio'],
     align-items: end;
     justify-content: space-between;
     grid-gap: 30px;
+    width: 100%;
   }
 }
 
