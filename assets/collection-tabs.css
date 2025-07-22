@@ -200,6 +200,6 @@
   }
 
   .collection-tabs .products.carousel .carousel__slide {
-    padding: 0;
+    padding: 0 5px;
   }
 }
