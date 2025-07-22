@@ -89,7 +89,7 @@
   display: none;
 }
 
-.collection-tabs .products.carousel .columns.carousel__slide {
+.collection-tabs .products.carousel .carousel__slide {
   display: flex;
   width: 25%;
   padding: 0 10px;

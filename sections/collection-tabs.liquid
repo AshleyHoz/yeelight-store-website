@@ -59,10 +59,12 @@
           {%- endif -%}
           {%- for product in block.settings.collection.products limit: product_limit -%}
             <div
-              class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %}"
+              class="{{ columns_class }} columns"
               data-collection="{{ block.settings.collection.handle }}"
             >
-              {% render 'product-card', product_card_product: product, show_cover: section.settings.show_cover %}
+              <div class="{% if mainloop.first == true %} carousel__slide{% endif %}">
+                {% render 'product-card', product_card_product: product, show_cover: section.settings.show_cover %}
+              </div>
             </div>
           {%- endfor -%}
         {%- else -%}
@@ -77,10 +79,12 @@
           {%- endif -%}
           {%- for i in (1..product_limit) -%}
             <div
-              class="{{ columns_class }} columns{% if mainloop.first == true %} carousel__slide{% endif %}"
+              class="{{ columns_class }} columns"
               data-collection="collection-{{ block.id }}"
             >
-              {% render 'product-card', show_cover: section.settings.show_cover %}
+              <div class="{% if mainloop.first == true %} carousel__slide{% endif %}">
+                {% render 'product-card', show_cover: section.settings.show_cover %}
+              </div>
             </div>
           {%- endfor -%}
         {%- endif -%}
