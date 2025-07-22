@@ -77,7 +77,7 @@
 }
 
 .collection-tabs .products .collection__inner--column {
-  flex: 1;
+  /* flex: 1; */
   width: calc(25% - 10px);
   /* min-width: auto;
   max-width: none;
