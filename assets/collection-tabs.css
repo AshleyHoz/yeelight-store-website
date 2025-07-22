@@ -93,7 +93,7 @@
   display: flex;
   width: 25%;
   padding: 0 10px;
-  height: auto;
+  height: 100%;
 }
 
 .yee-theme-light .collection-tabs .flickity-nav.flickity-prev,
