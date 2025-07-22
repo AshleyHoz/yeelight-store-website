@@ -273,15 +273,6 @@
         "slide_BDHRjb"
       ]
     },
-    "featured_collection_M8HqE3": {
-      "settings": {
-        "collection": "best-seller-eu",
-        "display_type": "grid",
-        "mobile_swipe": false,
-        "show_cover": true
-      },
-      "blocks": {}
-    },
     "shop_the_look_slider_33yC6m": {
       "disabled": true,
       "settings": {},
@@ -335,7 +326,6 @@
   },
   "order": [
     "slideshow_AaGJwH",
-    "featured_collection_M8HqE3",
     "shop_the_look_slider_4EBHbg",
     "shop_the_look_slider_33yC6m",
     "shop_the_look_slider_rFbmyG",
