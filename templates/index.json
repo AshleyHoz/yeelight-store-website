@@ -594,10 +594,10 @@
         "heading_size": "small",
         "collection_list": [
           "ceiling-light",
-          "ambient-lighting",
+          "gaming-light",
           "light-strip-bulbs",
-          "sensor-light",
           "monitor-light-bar",
+          "sensor-light",
           "desk-lamp"
         ],
         "image_ratio": "square",
