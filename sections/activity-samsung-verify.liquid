@@ -360,19 +360,6 @@
       ]
     },
     {
-      "type": "subheading",
-      "name": "Subheading",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Text",
-          "default": "Add a tagline"
-        }
-      ]
-    },
-    {
       "type": "heading",
       "name": "Heading",
       "limit": 1,
@@ -406,6 +393,31 @@
             }
           ],
           "default": "h1-xlarge"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo",
+          "info": "1400 x 650 .jpg recommended."
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "name": "Subheading",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Add a tagline"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo",
+          "info": "1400 x 650 .jpg recommended."
         }
       ]
     },
@@ -439,6 +451,53 @@
             }
           ],
           "default": "medium"
+        },
+        {
+          "type": "color",
+          "id": "desc_color_bg",
+          "label": "Background"
+        },
+        {
+          "type": "color",
+          "id": "desc_color_text",
+          "label": "Text",
+          "default": "#ffffff"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "name": "Link",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Add a tagline"
+        },
+
+        {
+          "id": "link",
+          "type": "url",
+          "label": "Link"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo",
+          "info": "1400 x 650 .jpg recommended."
+        },
+        {
+          "type": "color",
+          "id": "link_color_bg",
+          "label": "Background"
+        },
+        {
+          "type": "color",
+          "id": "link_color_text",
+          "label": "Text",
+          "default": "#ffffff"
         }
       ]
     },
@@ -502,12 +561,6 @@
       "name": "Column",
       "settings": [
         {
-          "type": "image_picker",
-          "id": "logo",
-          "label": "Logo",
-          "info": "1400 x 650 .jpg recommended."
-        },
-        {
           "type": "text",
           "id": "column_heading",
           "label": "Column heading",
@@ -530,6 +583,23 @@
           "id": "column_subdescription",
           "label": "Column subdescription",
           "default": "<p>Add a sub-description for this section</p>"
+        },
+        {
+          "type": "color",
+          "id": "column_color_bg",
+          "label": "Background"
+        },
+        {
+          "type": "color",
+          "id": "column_color_title",
+          "label": "Text",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "column_color_text",
+          "label": "Text",
+          "default": "#ffffff"
         }
       ]
     },
