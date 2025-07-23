@@ -133,6 +133,7 @@
                   {{ block.shopify_attributes }}
                 >
                   {{ block.settings.text }}
+                  {%- render 'svg-icons-custom' with 'custom-arrow-right' -%}
                 </a>
               {%- when 'button' -%}
                 {% if block.settings.button_text != blank %}
@@ -158,6 +159,7 @@
                   assign column_subheading = block.settings.column_subheading
                   assign column_description = block.settings.column_description
                   assign column_subdescription = block.settings.column_subdescription
+                  assign column_note = block.settings.column_note
                 -%}
                 <div
                   class="activity-samsung-verify--column"
@@ -189,6 +191,10 @@
                       errorAlert: 'Oops, something went wrong. Please try again later.',
                       warningAlert: 'This email address is already registered. Please use a different email address. '
                     -%}
+                  {%- endif -%}
+                  {%- if column_note -%}
+                    <div>{{ column_note }}</div>
+                    {%- render 'svg-icons-custom' with 'custom-help' -%}
                   {%- endif -%}
                 </div>
               {%- endif -%}
@@ -661,6 +667,12 @@
           "id": "column_subdescription",
           "label": "Column subdescription",
           "default": "<p>Add a sub-description for this section</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "column_note",
+          "label": "Note",
+          "default": "<p>Add a note for this section</p>"
         },
         {
           "type": "color",
