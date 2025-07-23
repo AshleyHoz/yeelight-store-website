@@ -20,8 +20,9 @@
         "heading_bGanLY": {
           "type": "heading",
           "settings": {
-            "text": "Activity Samsung Verify",
-            "heading_size": "h1-xlarge"
+            "text": "",
+            "heading_size": "h1-xlarge",
+            "logo": "shopify://shop_images/samsung-verify-logo.png"
           }
         },
         "subheading_Exdg9Q": {
@@ -34,7 +35,9 @@
           "type": "text",
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "description_size": "medium"
+            "description_size": "medium",
+            "color_bg": "",
+            "color_text": "#ffffff"
           }
         },
         "button_hqdJ3q": {
@@ -61,7 +64,10 @@
             "column_heading": "Customer reviews",
             "column_subheading": "Customer reviews",
             "column_description": "<p>Add a short description for this section</p>",
-            "column_subdescription": "<p>Add a sub-description for this section</p>"
+            "column_subdescription": "<p>Add a sub-description for this section</p>",
+            "color_bg": "",
+            "color_title": "#ffffff",
+            "color_text": "#ffffff"
           }
         },
         "column_WwdXMm": {
@@ -70,7 +76,10 @@
             "column_heading": "Customer reviews",
             "column_subheading": "Customer reviews",
             "column_description": "<p>Add a short description for this section</p>",
-            "column_subdescription": "<p>Add a sub-description for this section</p>"
+            "column_subdescription": "<p>Add a sub-description for this section</p>",
+            "color_bg": "",
+            "color_title": "#ffffff",
+            "color_text": "#ffffff"
           }
         }
       },
