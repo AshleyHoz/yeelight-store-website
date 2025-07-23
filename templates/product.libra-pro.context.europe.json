@@ -1,1 +1,140 @@
-{"parent":"product.libra-pro.json","context":{"market":"europe"},"sections":{"image_with_text_JEngU3":{"settings":{},"blocks":{"heading_BjnpPb":{"settings":{"text":"One-for-all Easy Installation"}}}},"image_with_text_9x7Vgb":{"settings":{},"blocks":{"heading_HhVWrL":{"settings":{"text":"Space-saving & Better Task Lighting"}}}}}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.libra-pro.json",
+  "context": {
+    "market": "europe"
+  },
+  "sections": {
+    "image_with_text_JEngU3": {
+      "settings": {},
+      "blocks": {
+        "heading_BjnpPb": {
+          "settings": {
+            "text": "One-for-all Easy Installation"
+          }
+        }
+      }
+    },
+    "image_with_text_9x7Vgb": {
+      "settings": {},
+      "blocks": {
+        "heading_HhVWrL": {
+          "settings": {
+            "text": "Space-saving & Better Task Lighting"
+          }
+        }
+      }
+    },
+    "logo_list_4rGT3p": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_3gHC3": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-01.jpg",
+        "image_mobile": "shopify://shop_images/US_Monitor_light_Bar_pro_01-mobile.jpg",
+        "full_width": true,
+        "header-78cd55ea245f883094fe644c770cfb3c": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-a6fd3cd0b414592e39a41acf5f7b95a4": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Single image"
+    },
+    "single_image_6qLzm": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-02.jpg",
+        "image_mobile": "shopify://shop_images/US_Monitor_light_Bar_pro_02-mobile.jpg",
+        "full_width": true,
+        "header-78cd55ea245f883094fe644c770cfb3c": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-a6fd3cd0b414592e39a41acf5f7b95a4": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Single image"
+    },
+    "single_image_tk3zq": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-03.jpg",
+        "image_mobile": "shopify://shop_images/US_Monitor_light_Bar_pro_03-mobile.jpg",
+        "full_width": true,
+        "header-78cd55ea245f883094fe644c770cfb3c": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-a6fd3cd0b414592e39a41acf5f7b95a4": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Single image"
+    },
+    "single_image_4LDXb": {
+      "type": "single-image",
+      "disabled": false,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/US_Monitor_light_Bar_pro_-_PC-04.jpg",
+        "image_mobile": "shopify://shop_images/US_Monitor_light_Bar_pro_03-mobile.jpg",
+        "full_width": true,
+        "header-78cd55ea245f883094fe644c770cfb3c": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-a6fd3cd0b414592e39a41acf5f7b95a4": null,
+        "activity_wyze": false,
+        "activity_icon": false
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "Single image"
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "logo_list_4rGT3p",
+    "16623743398765981b",
+    "3a444c86-680e-4deb-b870-63aec684439f",
+    "single_image_3gHC3",
+    "single_image_6qLzm",
+    "single_image_tk3zq",
+    "single_image_4LDXb",
+    "image_with_text_JEngU3",
+    "image_with_text_9x7Vgb",
+    "image_with_text_9VQgQG",
+    "image_with_text_jtdTDz",
+    "image_with_text_AnkELY",
+    "image_with_text_kxtL8c",
+    "245ee280-dfa9-4791-91ed-b65a153cc976",
+    "1663667029efc274af",
+    "rich_text_PMLY8L",
+    "1712653930ba36f195",
+    "product-recommendations"
+  ]
+}
