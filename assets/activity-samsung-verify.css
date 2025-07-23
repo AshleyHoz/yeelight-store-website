@@ -189,3 +189,23 @@
   justify-content: flex-end;
   align-items: flex-end;
 }
+
+.activity-samsung-verify--content .content-heading img {
+  width: 563px;
+  height: auto;
+  margin: 0 auto 30px;
+}
+
+.activity-samsung-verify--content .content-subheading .subheading {
+  margin: 0;
+}
+
+.activity-samsung-verify--content .content-subheading img {
+  width: 402px;
+  height: auto;
+  margin: 0 auto 50px;
+}
+
+.activity-samsung-verify--content .content-desc {
+  font-weight: 300;
+}

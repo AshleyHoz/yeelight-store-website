@@ -205,3 +205,83 @@
 .order-last {
   order: 13;
 }
+
+.gap-1 {
+  gap: 2px;
+}
+
+.gap-2 {
+  gap: 4px;
+}
+
+.gap-3 {
+  gap: 6px;
+}
+
+.gap-4 {
+  gap: 8px;
+}
+
+.gap-5 {
+  gap: 10px;
+}
+
+.gap-6 {
+  gap: 12px;
+}
+
+.gap-7 {
+  gap: 14px;
+}
+
+.gap-8 {
+  gap: 16px;
+}
+
+.gap-9 {
+  gap: 18px;
+}
+
+.gap-10 {
+  gap: 20px;
+}
+
+.gap-11 {
+  gap: 22px;
+}
+
+.gap-12 {
+  gap: 24px;
+}
+
+.gap-13 {
+  gap: 26px;
+}
+
+.gap-14 {
+  gap: 28px;
+}
+
+.gap-15 {
+  gap: 30px;
+}
+
+.gap-16 {
+  gap: 32px;
+}
+
+.gap-17 {
+  gap: 34px;
+}
+
+.gap-18 {
+  gap: 36px;
+}
+
+.gap-19 {
+  gap: 38px;
+}
+
+.gap-20 {
+  gap: 40px;
+}

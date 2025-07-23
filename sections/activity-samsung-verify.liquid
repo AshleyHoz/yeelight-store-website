@@ -96,27 +96,30 @@
                   </span>
                 </div>
               {%- when 'heading' -%}
-                {%- if block.settings.text -%}
-                  <h3 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                    {{ block.settings.text | newline_to_br }}
-                  </h3>
-                {%- endif -%}
-                {%- if block.settings.logo -%}
-                  <div {{ block.shopify_attributes }}>
+                <div class="content-heading" {{ block.shopify_attributes }}>
+                  {%- if block.settings.text -%}
+                    <h3 class="{{ block.settings.heading_size }}">
+                      {{ block.settings.text | newline_to_br }}
+                    </h3>
+                  {%- endif -%}
+                  {%- if block.settings.logo -%}
                     {%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width | append: 'x' | append: image.src.height -%}
-                  </div>
-                {%- endif -%}
+                  {%- endif -%}
+                </div>
               {%- when 'subheading' -%}
-                {%- if block.settings.text -%}
-                  <p class="subheading" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
-                {%- endif -%}
-                {%- if block.settings.logo -%}
-                  <div {{ block.shopify_attributes }}>
+                <div class="content-subheading" {{ block.shopify_attributes }}>
+                  {%- if block.settings.text -%}
+                    <p class="subheading">{{ block.settings.text }}</p>
+                  {%- endif -%}
+                  {%- if block.settings.logo -%}
                     {%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width | append: 'x' | append: image.src.height -%}
-                  </div>
-                {%- endif -%}
+                  {%- endif -%}
+                </div>
               {%- when 'text' -%}
-                <div class="rte description-size--{{ block.settings.description_size }}" {{ block.shopify_attributes }}>
+                <div
+                  class="rte description-size--{{ block.settings.description_size }}content-desc"
+                  {{ block.shopify_attributes }}
+                >
                   {{ block.settings.text }}
                 </div>
               {%- when 'link' -%}
@@ -147,7 +150,7 @@
                 <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
             {%- endcase -%}
           {% endfor %}
-          <div class="activity-samsung-verify--columns d-flex">
+          <div class="activity-samsung-verify--columns d-flex justify-center gap-10 full-width">
             {% for block in section.blocks %}
               {%- if block.type == 'column' -%}
                 {%- liquid
@@ -156,7 +159,11 @@
                   assign column_description = block.settings.column_description
                   assign column_subdescription = block.settings.column_subdescription
                 -%}
-                <div class="activity-samsung-verify--column" {{ block.shopify_attributes }}>
+                <div
+                  class="activity-samsung-verify--column"
+                  {{ block.shopify_attributes }}
+                  style="background: {{ block.settings.color_bg }};"
+                >
                   {%- if column_heading -%}
                     <div>{{ column_heading }}</div>
                   {%- endif -%}
