@@ -95,16 +95,38 @@
                     {{- block.settings.text -}}
                   </span>
                 </div>
-              {%- when 'subheading' -%}
-                <p class="subheading" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
               {%- when 'heading' -%}
-                <h3 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                  {{ block.settings.text | newline_to_br }}
-                </h3>
+                {%- if block.settings.text -%}
+                  <h3 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                    {{ block.settings.text | newline_to_br }}
+                  </h3>
+                {%- endif -%}
+                {%- if block.settings.logo -%}
+                  {%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width | append: 'x' | append: image.src.height -%}
+                {%- endif -%}
+              {%- when 'subheading' -%}
+                {%- if block.settings.text -%}
+                  <p class="subheading" {{ block.shopify_attributes }}>{{ block.settings.text }}</p>
+                {%- endif -%}
+                {%- if block.settings.logo -%}
+                  {%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width | append: 'x' | append: image.src.height -%}
+                {%- endif -%}
               {%- when 'text' -%}
                 <div class="rte description-size--{{ block.settings.description_size }}" {{ block.shopify_attributes }}>
                   {{ block.settings.text }}
                 </div>
+              {%- when 'link' -%}
+                <a
+                  href="{{ block.settings.link_url }}"
+                  class="link"
+                  style="
+                    color:{{ block.settings.color_text }};background:
+                    {{- block.settings.color_bg -}}
+                  "
+                  {{ block.shopify_attributes }}
+                  >"
+                  {{ block.settings.text }}
+                </a>
               {%- when 'button' -%}
                 {% if block.settings.button_text != blank %}
                   <a
@@ -120,6 +142,42 @@
               {% when 'space' %}
                 <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
             {%- endcase -%}
+          {% endfor %}
+          {% for block in section.blocks %}
+            {%- if block.type == 'column' -%}
+              {%- liquid
+                assign column_heading = block.settings.column_heading
+                assign column_subheading = block.settings.column_subheading
+                assign column_description = block.settings.column_description
+                assign column_subdescription = block.settings.column_subdescription
+              -%}
+              {%- if column_heading -%}
+                <div>{{ column_heading }}</div>
+              {%- endif -%}
+              {%- if column_subheading -%}
+                <div>{{ column_subheading }}</div>
+              {%- endif -%}
+              {%- if column_description -%}
+                <div>{{ column_description }}</div>
+              {%- endif -%}
+              {%- if column_subdescription -%}
+                <div>{{ column_subdescription }}</div>
+              {%- endif -%}
+              {%- if column_heading == 'STEP 2' -%}
+                {%- render 'email-signup-form',
+                  tag: block.settings.tag,
+                  link: block.settings.link,
+                  utm_source: block.settings.utm_source,
+                  utm_medium: block.settings.utm_medium,
+                  utm_campaign: block.settings.utm_campaign,
+                  activity: true,
+                  successAlert: 'Thanks, you are all set! <br />
+              Watch your mailbox for the results on 13th May.',
+                  errorAlert: 'Oops, something went wrong. Please try again later.',
+                  warningAlert: 'This email address is already registered. Please use a different email address. '
+                -%}
+              {%- endif -%}
+            {%- endif -%}
           {% endfor %}
         </div>
       </div>
@@ -454,12 +512,12 @@
         },
         {
           "type": "color",
-          "id": "desc_color_bg",
+          "id": "color_bg",
           "label": "Background"
         },
         {
           "type": "color",
-          "id": "desc_color_text",
+          "id": "color_text",
           "label": "Text",
           "default": "#ffffff"
         }
@@ -476,10 +534,9 @@
           "label": "Text",
           "default": "Add a tagline"
         },
-
         {
-          "id": "link",
           "type": "url",
+          "id": "link_url",
           "label": "Link"
         },
         {
@@ -490,12 +547,12 @@
         },
         {
           "type": "color",
-          "id": "link_color_bg",
+          "id": "color_bg",
           "label": "Background"
         },
         {
           "type": "color",
-          "id": "link_color_text",
+          "id": "color_text",
           "label": "Text",
           "default": "#ffffff"
         }
@@ -586,18 +643,18 @@
         },
         {
           "type": "color",
-          "id": "column_color_bg",
+          "id": "color_bg",
           "label": "Background"
         },
         {
           "type": "color",
-          "id": "column_color_title",
+          "id": "color_title",
           "label": "Text",
           "default": "#ffffff"
         },
         {
           "type": "color",
-          "id": "column_color_text",
+          "id": "color_text",
           "label": "Text",
           "default": "#ffffff"
         }
