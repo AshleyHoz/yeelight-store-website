@@ -17,17 +17,17 @@
     "activity_samsung_verify_9AUqmM": {
       "type": "activity-samsung-verify",
       "blocks": {
-        "subheading_nWtmXV": {
-          "type": "subheading",
-          "settings": {
-            "text": "Add a tagline"
-          }
-        },
         "heading_bGanLY": {
           "type": "heading",
           "settings": {
             "text": "Activity Samsung Verify",
             "heading_size": "h1-xlarge"
+          }
+        },
+        "subheading_Exdg9Q": {
+          "type": "subheading",
+          "settings": {
+            "text": "Add a tagline"
           }
         },
         "text_DFj3P4": {
@@ -54,14 +54,34 @@
             "tag": "newsletter",
             "link": ""
           }
+        },
+        "column_abdREL": {
+          "type": "column",
+          "settings": {
+            "column_heading": "Customer reviews",
+            "column_subheading": "Customer reviews",
+            "column_description": "<p>Add a short description for this section</p>",
+            "column_subdescription": "<p>Add a sub-description for this section</p>"
+          }
+        },
+        "column_WwdXMm": {
+          "type": "column",
+          "settings": {
+            "column_heading": "Customer reviews",
+            "column_subheading": "Customer reviews",
+            "column_description": "<p>Add a short description for this section</p>",
+            "column_subdescription": "<p>Add a sub-description for this section</p>"
+          }
         }
       },
       "block_order": [
-        "subheading_nWtmXV",
         "heading_bGanLY",
+        "subheading_Exdg9Q",
         "text_DFj3P4",
         "button_hqdJ3q",
-        "form_VTarTg"
+        "form_VTarTg",
+        "column_abdREL",
+        "column_WwdXMm"
       ],
       "name": "Activity Samsung Verify",
       "settings": {
