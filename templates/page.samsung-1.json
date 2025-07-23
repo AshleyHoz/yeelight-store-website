@@ -41,6 +41,15 @@
             "color_text": "#ffffff"
           }
         },
+        "link_Ti4m4M": {
+          "type": "link",
+          "settings": {
+            "text": "Learn about LightEcho™ TV Sync",
+            "link_url": "",
+            "color_bg": "",
+            "color_text": "#ffffff"
+          }
+        },
         "form_VTarTg": {
           "type": "form",
           "settings": {
@@ -80,6 +89,7 @@
         "heading_bGanLY",
         "subheading_Exdg9Q",
         "text_DFj3P4",
+        "link_Ti4m4M",
         "form_VTarTg",
         "column_abdREL",
         "column_WwdXMm"
