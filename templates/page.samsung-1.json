@@ -28,13 +28,14 @@
         "subheading_Exdg9Q": {
           "type": "subheading",
           "settings": {
-            "text": "Add a tagline"
+            "text": "",
+            "logo": "shopify://shop_images/samsung-verify-discount.png"
           }
         },
         "text_DFj3P4": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Experience Immersive Lighting with Yeelight LightEcho™ TV Sync. Watch your screen come to life as lighting syncs perfectly with every scene. <br/>Now, Samsung TV users enjoy an exclusive 20% discount on all TV Sync lighting products. Don't just watch—feel every frame in light.</p>",
             "description_size": "medium",
             "color_bg": "",
             "color_text": "#ffffff"
