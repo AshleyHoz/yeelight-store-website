@@ -14,30 +14,65 @@
       "disabled": true,
       "settings": {}
     },
-    "image_with_text_overlay_EHXcMN": {
-      "type": "image-with-text-overlay",
+    "activity_samsung_verify_9AUqmM": {
+      "type": "activity-samsung-verify",
       "blocks": {
-        "heading_GeKdfB": {
+        "subheading_nWtmXV": {
+          "type": "subheading",
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "heading_bGanLY": {
           "type": "heading",
           "settings": {
-            "text": "Customer Reviews",
-            "heading_size": "h2"
+            "text": "Activity Samsung Verify",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "text_DFj3P4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "description_size": "medium"
+          }
+        },
+        "button_hqdJ3q": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_color": "accent"
+          }
+        },
+        "form_VTarTg": {
+          "type": "form",
+          "settings": {
+            "utm_source": "",
+            "utm_medium": "",
+            "utm_campaign": "",
+            "tag": "newsletter",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading_GeKdfB"
+        "subheading_nWtmXV",
+        "heading_bGanLY",
+        "text_DFj3P4",
+        "button_hqdJ3q",
+        "form_VTarTg"
       ],
+      "name": "Activity Samsung Verify",
       "settings": {
-        "image": "shopify://shop_images/TopicBackground-1.png",
         "image_parallax": false,
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-500",
+        "desktop_height": "desktop-height-480",
+        "mobile_height": "mobile-height-345",
         "full_width": true,
         "content_width": "medium",
         "content_position": "bottom-center",
         "text_alignment": "center",
-        "text_color": "#ffffff",
+        "text_color": "#FFFFFF",
         "overlay_color": "#000000",
         "overlay_opacity": 30,
         "disable_top_spacing": false,
@@ -47,6 +82,6 @@
   },
   "order": [
     "main",
-    "image_with_text_overlay_EHXcMN"
+    "activity_samsung_verify_9AUqmM"
   ]
 }
