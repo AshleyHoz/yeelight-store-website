@@ -36,17 +36,9 @@
           "type": "text",
           "settings": {
             "text": "<p>Experience Immersive Lighting with Yeelight LightEcho™ TV Sync. Watch your screen come to life as lighting syncs perfectly with every scene. <br/>Now, Samsung TV users enjoy an exclusive 20% discount on all TV Sync lighting products. Don't just watch—feel every frame in light.</p>",
-            "description_size": "medium",
+            "description_size": "small",
             "color_bg": "",
             "color_text": "#ffffff"
-          }
-        },
-        "button_hqdJ3q": {
-          "type": "button",
-          "settings": {
-            "button_text": "Shop Now",
-            "button_link": "",
-            "button_color": "accent"
           }
         },
         "form_VTarTg": {
@@ -88,7 +80,6 @@
         "heading_bGanLY",
         "subheading_Exdg9Q",
         "text_DFj3P4",
-        "button_hqdJ3q",
         "form_VTarTg",
         "column_abdREL",
         "column_WwdXMm"
