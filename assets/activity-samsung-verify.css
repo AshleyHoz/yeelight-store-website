@@ -1,0 +1,191 @@
+.activity-samsung-verify--full-width-false {
+  isolation: isolate;
+  border-radius: var(--block-border-radius, 16px);
+}
+
+.activity-samsung-verify {
+  box-shadow: var(--block-shadows);
+}
+
+.activity-samsung-verify {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-accent);
+  color: var(--text-color, #fff);
+}
+
+.activity-samsung-verify .row {
+  width: 100%;
+}
+
+.activity-samsung-verify--mobile {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .activity-samsung-verify--mobile {
+    display: none;
+  }
+}
+
+.activity-samsung-verify--desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .activity-samsung-verify--desktop {
+    display: block;
+  }
+}
+
+.activity-samsung-verify--bg {
+  height: auto;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.activity-samsung-verify--bg.parallax--true {
+  top: -5%;
+  height: 110%;
+}
+
+.activity-samsung-verify--bg svg,
+.activity-samsung-verify--bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.activity-samsung-verify--bg svg {
+  padding: 50px;
+  fill: var(--bg-body, #fff);
+  opacity: 0.5;
+}
+
+/* .activity-samsung-verify--bg:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  background: rgba(var(--overlay-color-rgb), var(--overlay-opacity));
+  pointer-events: none;
+} */
+.activity-samsung-verify--content {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  max-width: 1440px;
+  color: var(--text-color, #fff);
+  z-index: 5;
+  transform: translateX(-50%);
+}
+
+@media only screen and (min-width: 768px) {
+  .activity-samsung-verify--content {
+    padding: 80px 50px;
+  }
+}
+
+.activity-samsung-verify--content-inner {
+  max-width: 650px;
+}
+
+.activity-samsung-verify--content-inner.content-width-small {
+  max-width: 480px;
+}
+
+.activity-samsung-verify--content-inner.content-width-medium {
+  max-width: 650px;
+}
+
+.activity-samsung-verify--content-inner.content-width-large {
+  max-width: 900px;
+}
+
+.activity-samsung-verify--content h3 {
+  color: var(--text-color, #fff);
+}
+
+.animations-true .activity-samsung-verify--content h3 {
+  visibility: hidden;
+  will-change: visibility;
+}
+
+.activity-samsung-verify--content>*+.button {
+  margin-top: 30px;
+}
+
+.animations-true .activity-samsung-verify--content .subheading,
+.animations-true .activity-samsung-verify--content .button,
+.animations-true .activity-samsung-verify--content .inline-badge {
+  opacity: 0;
+}
+
+@media only screen and (min-width: 1068px) {
+  .activity-samsung-verify--content .rte.description-size--medium {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 1068px) {
+  .activity-samsung-verify--content .rte.description-size--large {
+    font-size: 1.5rem;
+  }
+}
+
+.activity-samsung-verify--content .rte p {
+  font-size: inherit;
+}
+
+.animations-true .activity-samsung-verify--content .rte p {
+  visibility: hidden;
+  will-change: visibility;
+}
+
+.activity-samsung-verify--content.content-top-left {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.activity-samsung-verify--content.content-top-center {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.activity-samsung-verify--content.content-top-right {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.activity-samsung-verify--content.content-middle-left {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.activity-samsung-verify--content.content-middle-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-samsung-verify--content.content-middle-right {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.activity-samsung-verify--content.content-bottom-left {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.activity-samsung-verify--content.content-bottom-center {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.activity-samsung-verify--content.content-bottom-right {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
