@@ -15,10 +15,15 @@
   "sections": {
     "video_CwEDhk": {
       "settings": {
-        "disable_bottom_spacing": true,
+        "full_width": true,
         "disable_top_spacing": true,
-        "full_width": true
+        "disable_bottom_spacing": true
       },
+      "blocks": {}
+    },
+    "single_image_g4CiQU": {
+      "disabled": true,
+      "settings": {},
       "blocks": {}
     }
   },
@@ -26,16 +31,19 @@
     "breadcrumbs",
     "main-product",
     "video_CwEDhk",
+    "single_image_LAEmxN",
     "single_image_CiE9F9",
     "single_image_xpAebN",
     "single_image_k6gWJB",
+    "single_image_4jwYRE",
+    "single_image_fT7yma",
     "single_image_nbhytB",
     "single_image_8TkYG3",
-    "single_image_4jwYRE",
     "single_image_DYGjaQ",
     "single_image_mtTtz8",
     "rich_text_igCzBP",
     "1712003137212dc6f8",
-    "product-recommendations"
+    "product-recommendations",
+    "single_image_g4CiQU"
   ]
 }
