@@ -63,11 +63,15 @@
         "column_abdREL": {
           "type": "column",
           "settings": {
-            "column_id": "Customer id",
-            "column_heading": "Customer reviews",
-            "column_subheading": "Customer reviews",
-            "column_description": "<p>Add a short description for this section</p>",
-            "column_subdescription": "<p>Add a sub-description for this section</p>",
+            "column_id": "1",
+            "column_heading": "STEP 1",
+            "column_subheading": "Check if Your TV Model Is Compatible",
+            "column_description": "<p>Find out if your Samsung TV supports Yeelight LightEcho™ TV Sync.</p>",
+            "column_subtitle_1": "<p>TV：</p>",
+            "column_subdescription_1": "<p>2025 Neo QLED, Micro LED, OLED, and QLED (except Q6F) TV</p>",
+            "column_subtitle_2": "<p>Monitor:</p>",
+            "column_subdescription_2": "<p>2025 UHD smart monitor</p>",
+            "column_note": "",
             "color_bg": "",
             "color_title": "#ffffff",
             "color_text": "#ffffff"
@@ -76,11 +80,15 @@
         "column_WwdXMm": {
           "type": "column",
           "settings": {
-            "column_id": "Customer id",
-            "column_heading": "Customer reviews",
-            "column_subheading": "Customer reviews",
-            "column_description": "<p>Add a short description for this section</p>",
-            "column_subdescription": "<p>Add a sub-description for this section</p>",
+            "column_id": "2",
+            "column_heading": "STEP 2",
+            "column_subheading": "Verify Your TV SN",
+            "column_description": "",
+            "column_subtitle_1": "",
+            "column_subdescription_1": "",
+            "column_subtitle_2": "",
+            "column_subdescription_2": "",
+            "column_note": "<p>Need help finding it</p>",
             "color_bg": "",
             "color_title": "#ffffff",
             "color_text": "#ffffff"
