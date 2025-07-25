@@ -35,7 +35,7 @@
         "text_DFj3P4": {
           "type": "text",
           "settings": {
-            "text": "<p>Experience Immersive Lighting with Yeelight LightEcho™ TV Sync. Watch your screen come to life as lighting syncs perfectly with every scene. <br/>Now, Samsung TV users enjoy an exclusive 20% discount on all TV Sync lighting products. Don't just watch—feel every frame in light.</p>",
+            "text": "Experience Immersive Lighting with Yeelight LightEcho™ TV Sync. Watch your screen come to life as lighting syncs perfectly with every scene. Now, Samsung TV users enjoy an exclusive 20% discount on all TV Sync lighting products. Don't just watch—feel every frame in light.",
             "description_size": "small",
             "color_bg": "",
             "color_text": "#ffffff"
@@ -56,7 +56,7 @@
             "utm_source": "",
             "utm_medium": "",
             "utm_campaign": "",
-            "tag": "samsung",
+            "tag": "samsung-verify",
             "link": ""
           }
         },
@@ -66,11 +66,11 @@
             "column_id": "1",
             "column_heading": "STEP 1",
             "column_subheading": "Check if Your TV Model Is Compatible",
-            "column_description": "<p>Find out if your Samsung TV supports Yeelight LightEcho™ TV Sync.</p>",
-            "column_subtitle_1": "<p>TV：</p>",
-            "column_subdescription_1": "<p>2025 Neo QLED, Micro LED, OLED, and QLED (except Q6F) TV</p>",
-            "column_subtitle_2": "<p>Monitor:</p>",
-            "column_subdescription_2": "<p>2025 UHD smart monitor</p>",
+            "column_description": "Find out if your Samsung TV supports Yeelight LightEcho™ TV Sync.",
+            "column_subtitle_1": "TV：",
+            "column_subdescription_1": "2025 Neo QLED, Micro LED, OLED, and QLED (except Q6F) TV",
+            "column_subtitle_2": "Monitor:",
+            "column_subdescription_2": "2025 UHD smart monitor",
             "column_note": "",
             "color_bg": "",
             "color_title": "#ffffff",
@@ -88,7 +88,7 @@
             "column_subdescription_1": "",
             "column_subtitle_2": "",
             "column_subdescription_2": "",
-            "column_note": "<p>Need help finding it</p>",
+            "column_note": "Need help finding it",
             "color_bg": "",
             "color_title": "#ffffff",
             "color_text": "#ffffff"
