@@ -14,6 +14,9 @@
     },
     "09cc406e-0794-41f3-857e-f8e573ece5f0": {
       "parent": "@default"
+    },
+    "southeast-asia": {
+      "parent": "@default"
     }
   }
 }
