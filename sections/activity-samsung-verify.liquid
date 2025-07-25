@@ -125,7 +125,7 @@
               {%- when 'link' -%}
                 <a
                   href="{{ block.settings.link_url }}"
-                  class="link"
+                  class="link d-flex align-center justify-center"
                   style="
                     color:{{ block.settings.color_text }};background:
                     {{- block.settings.color_bg -}}
@@ -155,6 +155,7 @@
             {% for block in section.blocks %}
               {%- if block.type == 'column' -%}
                 {%- liquid
+                  assign column_id = block.settings.column_id
                   assign column_heading = block.settings.column_heading
                   assign column_subheading = block.settings.column_subheading
                   assign column_description = block.settings.column_description
@@ -169,28 +170,28 @@
                   {{ block.shopify_attributes }}
                   style="background: {{ block.settings.color_bg }};"
                 >
-                  {%- if column_heading -%}
+                  {%- if column_heading != blank -%}
                     <div>{{ column_heading }}</div>
                   {%- endif -%}
-                  {%- if column_subheading -%}
+                  {%- if column_subheading != blank -%}
                     <div>{{ column_subheading }}</div>
                   {%- endif -%}
-                  {%- if column_description -%}
+                  {%- if column_description != blank -%}
                     <div>{{ column_description }}</div>
                   {%- endif -%}
-                  {%- if column_subtitle_1 -%}
+                  {%- if column_subtitle_1 != blank -%}
                     <div>{{ column_subtitle_1 }}</div>
                   {%- endif -%}
-                  {%- if column_subdescription_1 -%}
+                  {%- if column_subdescription_1 != blank -%}
                     <div>{{ column_subdescription_1 }}</div>
                   {%- endif -%}
-                  {%- if column_subtitle_2 -%}
+                  {%- if column_subtitle_2 != blank -%}
                     <div>{{ column_subtitle_2 }}</div>
                   {%- endif -%}
-                  {%- if column_subdescription_2 -%}
+                  {%- if column_subdescription_2 != blank -%}
                     <div>{{ column_subdescription_2 }}</div>
                   {%- endif -%}
-                  {%- if column_heading == 'STEP 2' -%}
+                  {%- if column_id == '2' -%}
                     {%- render 'email-signup-form',
                       tag: block.settings.tag,
                       link: block.settings.link,
@@ -204,9 +205,13 @@
                       warningAlert: 'This email address is already registered. Please use a different email address. '
                     -%}
                   {%- endif -%}
-                  {%- if column_note -%}
-                    <div>{{ column_note }}</div>
-                    {%- render 'svg-icons-custom' with 'custom-help' -%}
+                  {%- if column_note != blank -%}
+                    <div class="d-flex align-center">
+                      <div>
+                        {{ column_note }}
+                      </div>
+                      {%- render 'svg-icons-custom' with 'custom-help' -%}
+                    </div>
                   {%- endif -%}
                 </div>
               {%- endif -%}
@@ -518,7 +523,7 @@
       "limit": 1,
       "settings": [
         {
-          "type": "richtext",
+          "type": "text",
           "id": "text",
           "label": "Content",
           "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
@@ -669,40 +674,40 @@
           "default": "Customer reviews"
         },
         {
-          "type": "richtext",
+          "type": "text",
           "id": "column_description",
           "label": "Description",
-          "default": "<p>Add a short description for this section</p>"
+          "default": "Add a short description for this section"
         },
         {
-          "type": "richtext",
+          "type": "text",
           "id": "column_subtitle_1",
           "label": "Column subtitle 1",
-          "default": "<p>Add a sub-title 1 for this section</p>"
+          "default": "Add a sub-title 1 for this section"
         },
         {
-          "type": "richtext",
+          "type": "text",
           "id": "column_subdescription_1",
           "label": "Column subdescription_1",
-          "default": "<p>Add a sub-description 1 for this section</p>"
+          "default": "Add a sub-description 1 for this section"
         },
         {
-          "type": "richtext",
+          "type": "text",
           "id": "column_subtitle_2",
           "label": "Column subtitle 2",
-          "default": "<p>Add a sub-title 2 for this section</p>"
+          "default": "Add a sub-title 2 for this section"
         },
         {
-          "type": "richtext",
+          "type": "text",
           "id": "column_subdescription_2",
           "label": "Column subdescription_2",
-          "default": "<p>Add a sub-description 2 for this section</p>"
+          "default": "Add a sub-description 2 for this section"
         },
         {
-          "type": "richtext",
+          "type": "text",
           "id": "column_note",
           "label": "Note",
-          "default": "<p>Add a note for this section</p>"
+          "default": "Add a note for this section"
         },
         {
           "type": "color",
