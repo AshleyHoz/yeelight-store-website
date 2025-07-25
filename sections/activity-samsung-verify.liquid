@@ -158,7 +158,10 @@
                   assign column_heading = block.settings.column_heading
                   assign column_subheading = block.settings.column_subheading
                   assign column_description = block.settings.column_description
-                  assign column_subdescription = block.settings.column_subdescription
+                  assign column_subtitle_1 = block.settings.column_subtitle_1
+                  assign column_subtitle_2 = block.settings.column_subtitle_2
+                  assign column_subdescription_1 = block.settings.column_subdescription_1
+                  assign column_subdescription_2 = block.settings.column_subdescription_2
                   assign column_note = block.settings.column_note
                 -%}
                 <div
@@ -175,8 +178,17 @@
                   {%- if column_description -%}
                     <div>{{ column_description }}</div>
                   {%- endif -%}
-                  {%- if column_subdescription -%}
-                    <div>{{ column_subdescription }}</div>
+                  {%- if column_subtitle_1 -%}
+                    <div>{{ column_subtitle_1 }}</div>
+                  {%- endif -%}
+                  {%- if column_subdescription_1 -%}
+                    <div>{{ column_subdescription_1 }}</div>
+                  {%- endif -%}
+                  {%- if column_subtitle_2 -%}
+                    <div>{{ column_subtitle_2 }}</div>
+                  {%- endif -%}
+                  {%- if column_subdescription_2 -%}
+                    <div>{{ column_subdescription_2 }}</div>
                   {%- endif -%}
                   {%- if column_heading == 'STEP 2' -%}
                     {%- render 'email-signup-form',
@@ -664,9 +676,27 @@
         },
         {
           "type": "richtext",
-          "id": "column_subdescription",
-          "label": "Column subdescription",
-          "default": "<p>Add a sub-description for this section</p>"
+          "id": "column_subtitle_1",
+          "label": "Column subtitle 1",
+          "default": "<p>Add a sub-title 1 for this section</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "column_subdescription_1",
+          "label": "Column subdescription_1",
+          "default": "<p>Add a sub-description 1 for this section</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "column_subtitle_2",
+          "label": "Column subtitle 2",
+          "default": "<p>Add a sub-title 2 for this section</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "column_subdescription_2",
+          "label": "Column subdescription_2",
+          "default": "<p>Add a sub-description 2 for this section</p>"
         },
         {
           "type": "richtext",
