@@ -72,7 +72,7 @@
             "column_subtitle_2": "Monitor:",
             "column_subdescription_2": "2025 UHD smart monitor",
             "column_note": "",
-            "color_bg": "",
+            "color_bg": "#171717",
             "color_title": "#ffffff",
             "color_text": "#ffffff"
           }
@@ -89,7 +89,7 @@
             "column_subtitle_2": "",
             "column_subdescription_2": "",
             "column_note": "Need help finding it",
-            "color_bg": "",
+            "color_bg": "#171717",
             "color_title": "#ffffff",
             "color_text": "#ffffff"
           }
