@@ -117,7 +117,7 @@
                 </div>
               {%- when 'text' -%}
                 <div
-                  class="rte description-size--{{ block.settings.description_size }}content-desc"
+                  class="rte description-size--{{ block.settings.description_size }}  mb-3 content-desc"
                   {{ block.shopify_attributes }}
                 >
                   {{ block.settings.text }}
@@ -125,10 +125,12 @@
               {%- when 'link' -%}
                 <a
                   href="{{ block.settings.link_url }}"
-                  class="link d-flex align-center justify-center"
+                  class="content-link d-flex align-center justify-center mb-10"
                   style="
-                    color:{{ block.settings.color_text }};background:
-                    {{- block.settings.color_bg -}}
+                    color:{{ block.settings.color_text }};
+                    background:
+                    {{- block.settings.color_bg -}};
+                    --link-color:{{ block.settings.color_text }};;
                   "
                   {{ block.shopify_attributes }}
                 >
@@ -151,7 +153,7 @@
                 <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
             {%- endcase -%}
           {% endfor %}
-          <div class="activity-samsung-verify--columns d-flex justify-center gap-10 full-width">
+          <div class="activity-samsung-verify--columns d-flex align-center justify-space-between gap-10 full-width text-left">
             {% for block in section.blocks %}
               {%- if block.type == 'column' -%}
                 {%- liquid
@@ -166,48 +168,62 @@
                   assign column_note = block.settings.column_note
                 -%}
                 <div
-                  class="activity-samsung-verify--column"
+                  class="activity-samsung-verify--column pa-6"
                   {{ block.shopify_attributes }}
                   style="background: {{ block.settings.color_bg }};"
                 >
                   {%- if column_heading != blank -%}
-                    <div>{{ column_heading }}</div>
+                    <div class="column-heading mb-3" style="color:{{ block.settings.color_title}}">
+                      {{ column_heading }}
+                    </div>
                   {%- endif -%}
                   {%- if column_subheading != blank -%}
-                    <div>{{ column_subheading }}</div>
+                    <div class="column-subheading mb-2" style="color:{{ block.settings.color_text}}">
+                      {{ column_subheading }}
+                    </div>
                   {%- endif -%}
                   {%- if column_description != blank -%}
-                    <div>{{ column_description }}</div>
+                    <div class="column-description mb-4" style="color:{{ block.settings.color_text}}">
+                      {{ column_description }}
+                    </div>
                   {%- endif -%}
                   {%- if column_subtitle_1 != blank -%}
-                    <div>{{ column_subtitle_1 }}</div>
+                    <div class="column-subtitle">{{ column_subtitle_1 }}</div>
                   {%- endif -%}
                   {%- if column_subdescription_1 != blank -%}
-                    <div>{{ column_subdescription_1 }}</div>
+                    <div class="column-subdescription mb-2">{{ column_subdescription_1 }}</div>
                   {%- endif -%}
                   {%- if column_subtitle_2 != blank -%}
-                    <div>{{ column_subtitle_2 }}</div>
+                    <div class="column-subtitle">{{ column_subtitle_2 }}</div>
                   {%- endif -%}
                   {%- if column_subdescription_2 != blank -%}
-                    <div>{{ column_subdescription_2 }}</div>
+                    <div class="column-subdescription">{{ column_subdescription_2 }}</div>
                   {%- endif -%}
                   {%- if column_id == '2' -%}
-                    {%- render 'email-signup-form',
-                      tag: block.settings.tag,
-                      link: block.settings.link,
-                      utm_source: block.settings.utm_source,
-                      utm_medium: block.settings.utm_medium,
-                      utm_campaign: block.settings.utm_campaign,
-                      activity: true,
-                      successAlert: 'Thanks, you are all set! <br />
-              Watch your mailbox for the results on 13th May.',
-                      errorAlert: 'Oops, something went wrong. Please try again later.',
-                      warningAlert: 'This email address is already registered. Please use a different email address. '
-                    -%}
+                    {% comment %}
+                             {%- render 'email-signup-form',
+                              tag: block.settings.tag,
+                              link: block.settings.link,
+                              utm_source: block.settings.utm_source,
+                              utm_medium: block.settings.utm_medium,
+                              utm_campaign: block.settings.utm_campaign,
+                              activity: true,
+                              successAlert: 'Thanks, you are all set! <br />
+                      Watch your mailbox for the results on 13th May.',
+                              errorAlert: 'Oops, something went wrong. Please try again later.',
+                              warningAlert: 'This email address is already registered. Please use a different email address. '
+                            -%}
+                    {% endcomment %}
+                    <form id="serial-form">
+                      <label for="serial-number">请输入产品序列号：</label>
+                      <input type="text" id="serial-number" name="serial_number" maxlength="15" required>
+                      <button type="submit">提交</button>
+                      <p id="error-msg" style="color: red; display: none;"></p>
+                    </form>
                   {%- endif -%}
                   {%- if column_note != blank -%}
-                    <div class="d-flex align-center">
-                      <div>
+                    <div class="d-flex align-center gap-5 mt-2">
+                      <div class="column-note">
                         {{ column_note }}
                       </div>
                       {%- render 'svg-icons-custom' with 'custom-help' -%}
@@ -222,6 +238,23 @@
     </activity-samsung-verify>
   </div>
 </div>
+<script>
+  document.getElementById('serial-form').addEventListener('submit', function (event) {
+    const input = document.getElementById('serial-number').value.trim();
+    const errorMsg = document.getElementById('error-msg');
+
+    const isValid = /^\d\d.{12}\d$/.test(input);
+
+    if (input.length !== 15 || !isValid) {
+      event.preventDefault();
+      errorMsg.textContent = '请输入15位序列号，且第1、2、15位必须是数字。';
+      errorMsg.style.display = 'block';
+    } else {
+      errorMsg.style.display = 'none';
+      // 继续提交表单或触发后续逻辑
+    }
+  });
+</script>
 <script src="{{ 'activity-samsung-verify.js' | asset_url }}" defer="defer"></script>
 {% schema %}
 {
@@ -717,13 +750,13 @@
         {
           "type": "color",
           "id": "color_title",
-          "label": "Text",
+          "label": "Title color",
           "default": "#ffffff"
         },
         {
           "type": "color",
           "id": "color_text",
-          "label": "Text",
+          "label": "Text color",
           "default": "#ffffff"
         }
       ]

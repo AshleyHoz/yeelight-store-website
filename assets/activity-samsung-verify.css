@@ -206,6 +206,54 @@
   margin: 0 auto 50px;
 }
 
-.activity-samsung-verify--content .content-desc {
+.activity-samsung-verify--content .content-desc,
+.activity-samsung-verify--content .content-link {
   font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.activity-samsung-verify--content .content-link svg path {
+  stroke: var(--link-color);
+}
+
+
+
+.activity-samsung-verify--columns .activity-samsung-verify--column {
+  width: calc(50% - 10px);
+  border-radius: 40px;
+}
+
+.activity-samsung-verify--columns .column-heading {
+  font-weight: 900;
+  font-size: 42px;
+}
+
+.activity-samsung-verify--columns .column-subheading {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.activity-samsung-verify--columns .column-description {
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.activity-samsung-verify--columns .column-subtitle {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.activity-samsung-verify--columns .column-subdescription {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.activity-samsung-verify--columns .column-note {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.activity-samsung-verify--columns #login-user-notification.form-notification {
+  display: none;
 }
