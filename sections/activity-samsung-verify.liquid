@@ -170,7 +170,7 @@
                 <div
                   class="activity-samsung-verify--column pa-6"
                   {{ block.shopify_attributes }}
-                  style="background: {{ block.settings.color_bg }};"
+                  style="--column-bg: {{ block.settings.color_bg }};"
                 >
                   {%- if column_heading != blank -%}
                     <div class="column-heading mb-3" style="color:{{ block.settings.color_title}}">
@@ -191,7 +191,7 @@
                     <div class="column-subtitle">{{ column_subtitle_1 }}</div>
                   {%- endif -%}
                   {%- if column_subdescription_1 != blank -%}
-                    <div class="column-subdescription mb-2">{{ column_subdescription_1 }}</div>
+                    <div class="column-subdescription mb-4">{{ column_subdescription_1 }}</div>
                   {%- endif -%}
                   {%- if column_subtitle_2 != blank -%}
                     <div class="column-subtitle">{{ column_subtitle_2 }}</div>
@@ -214,11 +214,18 @@
                               warningAlert: 'This email address is already registered. Please use a different email address. '
                             -%}
                     {% endcomment %}
-                    <form id="serial-form">
-                      <label for="serial-number">请输入产品序列号：</label>
-                      <input type="text" id="serial-number" name="serial_number" maxlength="15" required>
-                      <button type="submit">提交</button>
-                      <p id="error-msg" style="color: red; display: none;"></p>
+                    <form id="serial-form" class="serial-form full-width position-relative">
+                      <input
+                        class="content-input full-width"
+                        type="text"
+                        id="serial-number"
+                        name="serial_number"
+                        maxlength="15"
+                        required
+                        placeholder="Series Number"
+                      >
+                      <button class="column-button px-5 py-3" type="submit">Verify</button>
+                      <p id="error-msg" class="error-msg my-2"></p>
                     </form>
                   {%- endif -%}
                   {%- if column_note != blank -%}
@@ -226,8 +233,11 @@
                       <div class="column-note">
                         {{ column_note }}
                       </div>
-                      {%- render 'svg-icons-custom' with 'custom-help' -%}
+                      <div id="openModalBtn" class="cursor-pointer d-flex align-center">
+                        {%- render 'svg-icons-custom' with 'custom-help' -%}
+                      </div>
                     </div>
+                    {%- render 'activity-samsung-dialog', block: block -%}
                   {%- endif -%}
                 </div>
               {%- endif -%}
@@ -247,7 +257,8 @@
 
     if (input.length !== 15 || !isValid) {
       event.preventDefault();
-      errorMsg.textContent = '请输入15位序列号，且第1、2、15位必须是数字。';
+      // 请输入15位序列号，且第1、2、15位必须是数字。
+      errorMsg.textContent = 'Please enter a serial number in the correct format.';
       errorMsg.style.display = 'block';
     } else {
       errorMsg.style.display = 'none';
@@ -255,6 +266,7 @@
     }
   });
 </script>
+
 <script src="{{ 'activity-samsung-verify.js' | asset_url }}" defer="defer"></script>
 {% schema %}
 {
@@ -758,6 +770,12 @@
           "id": "color_text",
           "label": "Text color",
           "default": "#ffffff"
+        },
+        {
+          "type": "image_picker",
+          "id": "note_image",
+          "label": "Image",
+          "info": "2800 x 650 .jpg recommended."
         }
       ]
     },

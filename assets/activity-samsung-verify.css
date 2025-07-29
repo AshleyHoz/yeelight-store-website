@@ -221,7 +221,9 @@
 
 .activity-samsung-verify--columns .activity-samsung-verify--column {
   width: calc(50% - 10px);
+  min-height: 370px;
   border-radius: 40px;
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .activity-samsung-verify--columns .column-heading {
@@ -237,6 +239,7 @@
 .activity-samsung-verify--columns .column-description {
   font-weight: 300;
   font-size: 17px;
+  opacity: 0.8;
 }
 
 .activity-samsung-verify--columns .column-subtitle {
@@ -247,13 +250,44 @@
 .activity-samsung-verify--columns .column-subdescription {
   font-weight: 300;
   font-size: 16px;
+  opacity: 0.8;
 }
 
 .activity-samsung-verify--columns .column-note {
   font-weight: 300;
   font-size: 18px;
+  opacity: 0.8;
 }
 
-.activity-samsung-verify--columns #login-user-notification.form-notification {
-  display: none;
+.activity-samsung-verify--columns .serial-form {
+  margin-top: 60px;
+}
+
+.activity-samsung-verify--columns .column-button {
+  font-weight: 400;
+  font-size: 12px;
+  background: linear-gradient(118deg, #2529FF 0%, #EF00B7 100%);
+  border-radius: 50px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.activity-samsung-verify--columns .content-input {
+  background: rgba(190, 173, 255, 0.08);
+  border-radius: 49px 49px 49px 49px;
+  border: 1px solid #FFFFFF;
+  margin-bottom: 0;
+}
+
+.activity-samsung-verify--columns .content-input[type='text']::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.activity-samsung-verify--columns .error-msg {
+  color: red;
+  font-size: 14px;
 }

@@ -1,0 +1,104 @@
+<!-- 弹窗 -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <div id="closeModalBtn" class="text-right">
+      {%- render 'svg-icons-custom' with 'custom-close-circle' -%}
+    </div>
+    <div class="modal-inner">
+      <div class="inner-img">
+        {%- render 'responsive-image' , image: block.settings.note_image, sizes: block.settings.note_image.src.width | append: 'x' | append: block.settings.note_image.src.height -%}
+      </div>
+      <div class="inner-content d-flex gap-10">
+        <div class="inner-title">Method 1: Check the Packaging Box</div>
+        <div class="inner-desc mb-6">Find the model number printed on the outer packaging box.</div>
+        <div class="inner-title">Method 2: Sticker on the Back of the TV</div>
+        <div class="inner-desc mb-6">
+          Locate the model information on the sticker attached to the back of your television.
+        </div>
+        <div class="inner-title mb-6">Method 3: Check the TV Menu</div>
+        <div class="inner-desc mb-3">
+          Press the Home button on your remote control. Navigate to Settings. Select Support > About This TV.
+        </div>
+        <div class="inner-desc">Find the model number printed on the outer packaging box.</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  // 获取元素
+  const openModalBtn = document.getElementById('openModalBtn');
+  const closeModalBtn = document.getElementById('closeModalBtn');
+  const modal = document.getElementById('myModal');
+
+  // 打开弹窗
+  openModalBtn.addEventListener('click', function () {
+    modal.style.display = 'block';
+    setTimeout(() => {
+      modal.classList.add('show'); // 添加show类触发动画
+    }, 10); // 延迟10ms确保display生效
+  });
+
+  // 关闭弹窗
+  closeModalBtn.addEventListener('click', function () {
+    modal.classList.remove('show'); // 移除show类触发缩小动画
+    setTimeout(() => {
+      modal.style.display = 'none'; // 延迟隐藏弹窗
+    }, 300); // 与动画时间一致
+  });
+
+  // 点击弹窗外区域关闭弹窗
+  window.addEventListener('click', function (event) {
+    if (event.target === modal) {
+      modal.classList.remove('show'); // 移除show类触发缩小动画
+      setTimeout(() => {
+        modal.style.display = 'none'; // 延迟隐藏弹窗
+      }, 300); // 与动画时间一致
+    }
+  });
+</script>
+<style>
+  /* 弹窗样式 */
+  .modal {
+    display: none;
+    /* 默认隐藏 */
+    position: fixed;
+    /* 固定定位 */
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* 允许滚动 */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 背景半透明 */
+    z-index: 99;
+  }
+
+  /* 弹窗内容 */
+  .modal .modal-content {
+    background: #202022;
+    margin: 30% auto;
+    /* 居中 */
+    padding: 20px;
+    width: 80vh;
+    max-width: 600px;
+    transform: scale(0);
+    /* 初始缩小 */
+    transition: transform 0.3s ease;
+    /* 添加动画效果 */
+    border-radius: 50px;
+  }
+
+  /* 关闭按钮 */
+  .modal #closeModalBtn {
+    width: 33px;
+    height: auto;
+  }
+
+  /* 弹窗显示时的动画 */
+  .modal.show .modal-content {
+    transform: scale(1);
+    /* 放大 */
+  }
+</style>
