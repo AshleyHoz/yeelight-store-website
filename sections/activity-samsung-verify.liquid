@@ -262,7 +262,7 @@
       errorMsg.style.display = 'block';
     } else {
       errorMsg.style.display = 'none';
-      // 继续提交表单或触发后续逻辑
+      window.location.href = '/pages/get-coupon';
     }
   });
 </script>
@@ -776,6 +776,12 @@
           "id": "note_image",
           "label": "Image",
           "info": "2800 x 650 .jpg recommended."
+        },
+        {
+          "type": "text",
+          "id": "discount_code",
+          "label": "Discount code",
+          "default": "Add a discount code"
         }
       ]
     },

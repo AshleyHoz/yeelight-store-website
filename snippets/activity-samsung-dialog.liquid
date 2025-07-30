@@ -1,24 +1,24 @@
 <!-- 弹窗 -->
 <div id="myModal" class="modal">
   <div class="modal-content">
-    <div id="closeModalBtn" class="text-right">
+    <div id="closeModalBtn" class="full-width text-right cursor-pointer">
       {%- render 'svg-icons-custom' with 'custom-close-circle' -%}
     </div>
-    <div class="modal-inner">
+    <div class="modal-inner d-flex gap-10">
       <div class="inner-img">
         {%- render 'responsive-image' , image: block.settings.note_image, sizes: block.settings.note_image.src.width | append: 'x' | append: block.settings.note_image.src.height -%}
       </div>
-      <div class="inner-content d-flex gap-10">
+      <div class="inner-content">
         <div class="inner-title">Method 1: Check the Packaging Box</div>
-        <div class="inner-desc mb-6">Find the model number printed on the outer packaging box.</div>
+        <div class="inner-desc mb-5">Find the model number printed on the outer packaging box.</div>
         <div class="inner-title">Method 2: Sticker on the Back of the TV</div>
-        <div class="inner-desc mb-6">
+        <div class="inner-desc mb-5">
           Locate the model information on the sticker attached to the back of your television.
         </div>
-        <div class="inner-title mb-6">Method 3: Check the TV Menu</div>
-        <div class="inner-desc mb-3">
-          Press the Home button on your remote control. Navigate to Settings. Select Support > About This TV.
-        </div>
+        <div class="inner-title mb-5">Method 3: Check the TV Menu</div>
+        <div class="inner-desc">Press the Home button on your remote control.</div>
+        <div class="inner-desc">Navigate to Settings.</div>
+        <div class="inner-desc mb-3">Select Support > About This TV.</div>
         <div class="inner-desc">Find the model number printed on the outer packaging box.</div>
       </div>
     </div>
@@ -80,9 +80,8 @@
     background: #202022;
     margin: 30% auto;
     /* 居中 */
-    padding: 20px;
+    padding: 30px;
     width: 80vh;
-    max-width: 600px;
     transform: scale(0);
     /* 初始缩小 */
     transition: transform 0.3s ease;
@@ -92,13 +91,31 @@
 
   /* 关闭按钮 */
   .modal #closeModalBtn {
-    width: 33px;
-    height: auto;
+    position: absolute;
+    top: 30px;
+    right: 30px;
   }
 
   /* 弹窗显示时的动画 */
   .modal.show .modal-content {
     transform: scale(1);
     /* 放大 */
+  }
+
+  .modal .inner-img img {
+    width: 301px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .modal .inner-title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .modal .inner-desc {
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.8;
   }
 </style>
