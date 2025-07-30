@@ -10,7 +10,7 @@
 {
   "parent": "footer-group.json",
   "context": {
-    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
+    "market": "southeast-asia"
   },
   "sections": {
     "footer": {
@@ -18,8 +18,13 @@
       "blocks": {
         "055d0c35-3f11-4f51-9e3d-eab55edb7a9b": {
           "settings": {
-            "menu": "category",
-            "title": "Category"
+            "title": "Category",
+            "menu": "category"
+          }
+        },
+        "menu_CmVPdk": {
+          "settings": {
+            "title": "Privacy & Terms"
           }
         }
       }

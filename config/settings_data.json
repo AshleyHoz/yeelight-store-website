@@ -163,6 +163,11 @@
         "type": "shopify://apps/hextom-translate-and-currency/blocks/app-block/b927a799-be04-4b97-9efb-5c8f0290a68e",
         "disabled": false,
         "settings": {}
+      },
+      "16160716078332068383": {
+        "type": "shopify://apps/rubik-variant-images/blocks/rubik-variant-images/e684282e-1343-4a60-8fa2-6393aded15f6",
+        "disabled": true,
+        "settings": {}
       }
     }
   },

@@ -12,5 +12,22 @@
   "context": {
     "market": "europe"
   },
-  "sections": {}
+  "sections": {
+    "footer": {
+      "settings": {},
+      "blocks": {
+        "055d0c35-3f11-4f51-9e3d-eab55edb7a9b": {
+          "settings": {
+            "menu": "category",
+            "title": "Category"
+          }
+        },
+        "menu_CmVPdk": {
+          "settings": {
+            "title": "Privacy & Terms"
+          }
+        }
+      }
+    }
+  }
 }

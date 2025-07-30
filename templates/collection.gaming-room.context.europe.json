@@ -8,21 +8,9 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "footer-group.json",
+  "parent": "collection.gaming-room.json",
   "context": {
-    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
+    "market": "europe"
   },
-  "sections": {
-    "footer": {
-      "settings": {},
-      "blocks": {
-        "055d0c35-3f11-4f51-9e3d-eab55edb7a9b": {
-          "settings": {
-            "menu": "category",
-            "title": "Category"
-          }
-        }
-      }
-    }
-  }
+  "sections": {}
 }

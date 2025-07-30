@@ -1,0 +1,208 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.new-arrival.json",
+  "context": {
+    "market": "southeast-asia"
+  },
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/20241231-171406.jpg",
+        "image_mobile": "shopify://shop_images/20241231-171412.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_Pn6pPg": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_new_year_di8mPj": {
+      "disabled": true,
+      "settings": {
+        "title": "Spark Your Imagination"
+      },
+      "blocks": {}
+    },
+    "featured_product_7ytRj": {
+      "type": "featured-product",
+      "disabled": false,
+      "settings": {
+        "heading": "Spark Your Imagination",
+        "marker_style": "style1",
+        "description": "",
+        "header-7c4cd32d9d64803c598368650a52a424": null,
+        "product": "yeelight-monitor-light-bar-aires",
+        "show_taxes_included": true,
+        "header-ded223d7ecba3d830e02c8cffcb8ba1d": null,
+        "paragraph-47fd27ff5a267b215d5b495a2d25b88c": null,
+        "thumbnail_position": "left",
+        "media_aspect_ratio": "adapt",
+        "display_captions": true,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "header-67fe54656bdea31aa78a4bc8036e540c": null,
+        "marker_color": "#FD6262",
+        "header-d80566cb9e39dde0e0122b3e72b53d29": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      },
+      "blocks": {
+        "title_XitAd": {
+          "type": "title",
+          "disabled": false,
+          "settings": {
+            "show_products_rating": false
+          }
+        },
+        "variant_picker_iLKgc": {
+          "type": "variant_picker",
+          "disabled": false,
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_picker_use_variants": false,
+            "variant_is_disabled": true,
+            "sizing_guide_text": "Sizing guide",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": ""
+          }
+        },
+        "quantity_BQAfe": {
+          "type": "quantity",
+          "disabled": false,
+          "settings": {
+            "paragraph-aea8847ddf25ef1c093c8e20dbdd591b": null
+          }
+        },
+        "buy_buttons_RU8QB": {
+          "type": "buy_buttons",
+          "disabled": false,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "title_XitAd",
+        "variant_picker_iLKgc",
+        "quantity_BQAfe",
+        "buy_buttons_RU8QB"
+      ],
+      "name": "Featured product"
+    },
+    "activity_new_year_CtQC3B": {
+      "settings": {
+        "title": "New Arrival 🎉"
+      },
+      "blocks": {
+        "product_6CGqxC": {
+          "settings": {
+            "product": "yeelight-rgb-night-light-vega"
+          }
+        },
+        "product_fdJTTT": {
+          "settings": {
+            "product": "yeelight-rgbicww-smart-ceiling-light"
+          }
+        },
+        "product_8PwmNL": {
+          "settings": {
+            "product": "yeelight-smart-ceiling-light-meteor-european-version"
+          }
+        },
+        "product_wRn9pV": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-aires"
+          }
+        },
+        "product_wXC9gR": {
+          "settings": {
+            "product": "yeelight-ultra-thin-intelligent-linkage-cabinet-light"
+          }
+        },
+        "product_8HNVkz": {
+          "settings": {
+            "product": "yeelight-sensor-ceiling-light-mercury-e"
+          }
+        },
+        "product_qnXdGf": {
+          "settings": {
+            "product": "yeelight-rgb-smart-ceiling-light-mercury"
+          }
+        },
+        "product_DYEXrj": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
+    },
+    "single_image_jKHqAE": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "rich_text_F6XM9m": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "1731318448f757b534": {
+      "settings": {},
+      "blocks": {
+        "loox_reviews_loox_video_slider_NgXFBA": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
+    },
+    "text_with_icons_LiHffF": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "rich_text_7JpWaV": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "173148591784123612": {
+      "settings": {},
+      "blocks": {
+        "loox_reviews_loox_agg_section_QX3hBc": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "single_image_Pn6pPg",
+    "activity_new_year_di8mPj",
+    "featured_product_7ytRj",
+    "activity_new_year_CtQC3B",
+    "single_image_jKHqAE",
+    "single_image_HQL3cr",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
+}
