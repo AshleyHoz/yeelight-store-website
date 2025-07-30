@@ -74,7 +74,8 @@
             "column_note": "",
             "color_bg": "#171717",
             "color_title": "#574bfc",
-            "color_text": "#ffffff"
+            "color_text": "#ffffff",
+            "discount_code": "Add a discount code"
           }
         },
         "column_WwdXMm": {
@@ -92,7 +93,8 @@
             "color_bg": "#171717",
             "color_title": "#fc4bcc",
             "color_text": "#ffffff",
-            "note_image": "shopify://shop_images/samsung-series-example.png"
+            "note_image": "shopify://shop_images/samsung-series-example.png",
+            "discount_code": "Add a discount code"
           }
         }
       },
@@ -108,6 +110,7 @@
       "name": "Activity Samsung Verify",
       "settings": {
         "image": "shopify://shop_images/samsung-verify-bg.png",
+        "mobile_image": "shopify://shop_images/samsung-verify-bg-mobile.png",
         "image_parallax": false,
         "desktop_height": "desktop-height-480",
         "mobile_height": "mobile-height-345",
