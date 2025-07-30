@@ -91,7 +91,8 @@
             "column_note": "Need help finding it",
             "color_bg": "#171717",
             "color_title": "#fc4bcc",
-            "color_text": "#ffffff"
+            "color_text": "#ffffff",
+            "note_image": "shopify://shop_images/samsung-series-example.png"
           }
         }
       },
