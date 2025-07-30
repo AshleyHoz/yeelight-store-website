@@ -46,7 +46,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Customer Service",
-            "text": "<p>For FAQ and customer service, please contact <a href=\"mailto:support@yeelight.com\" target=\"_blank\" title=\"mailto:support@yeelight.com\"><strong>support@yeelight.com</strong></a><br/>Mon-Fri 9AM-5PM (UTC+8)<br/>We'll reply within 48 hours in the working days.</p>",
+            "text": "<p>For FAQ and customer service, please contact <a href=\"mailto:official-site@yeelight.com\" target=\"_blank\" title=\"mailto:official-site@yeelight.com\">official-site@yeelight.com</a><br/>Mon-Fri 9AM-5PM (UTC+8)<br/>We'll reply within 48 hours in the working days.</p>",
             "link_label": "",
             "link": ""
           }
@@ -57,7 +57,7 @@
             "image_full_width": false,
             "image_link": "",
             "title": "Media and Press Contact",
-            "text": "<p>For any media and press activities, interviews, or product introductions, please mail pr@yeelight.com</p>",
+            "text": "<p>For any media and press activities, interviews, or product introductions, please mail <a href=\"mailto:pr@yeelight.com\" target=\"_blank\" title=\"mailto:pr@yeelight.com\">pr@yeelight.com</a></p>",
             "link_label": "",
             "link": ""
           }
