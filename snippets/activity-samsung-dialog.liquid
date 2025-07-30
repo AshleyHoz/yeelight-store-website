@@ -118,4 +118,28 @@
     font-size: 14px;
     opacity: 0.8;
   }
+
+  @media only screen and (max-width: 768px) {
+    .modal {
+      padding: 20px;
+    }
+
+    .modal .modal-content {
+      width: 100%;
+      border-radius: 30px;
+    }
+
+    .modal .modal-inner {
+      flex-wrap: wrap;
+    }
+
+    .modal .inner-img,
+    .modal .inner-img img {
+      width: 100%;
+    }
+
+    .modal #closeModalBtn {
+      display: none;
+    }
+  }
 </style>

@@ -42,7 +42,7 @@
 <div class="row {% if full_width %}full-width-row-full{% endif %}">
   <div class="small-12 columns">
     <activity-samsung-verify
-      class="activity-samsung-verify full-width activity-samsung-verify--full-width-{{ full_width }} text-{{ text_alignment }}{% if mobile_height %} {{mobile_height}}{% endif %}{% if desktop_height %} {{ desktop_height }}{% endif %} {% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
+      class="activity-samsung-verify full-width activity-samsung-verify--full-width-{{ full_width }} text-{{ text_alignment }}"
       style="--text-color: {{ text_color }}; --overlay-color-rgb: {{ overlay_color.rgb | replace: ' ' , ',' }}; --overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}"
     >
       <div class="activity-samsung-verify--bg full-width parallax--{{ image_parallax }}">
@@ -229,7 +229,7 @@
                     </form>
                   {%- endif -%}
                   {%- if column_note != blank -%}
-                    <div class="d-flex align-center gap-5 mt-2">
+                    <div class="d-flex align-center gap-5 mt-2 column-note-container">
                       <div class="column-note">
                         {{ column_note }}
                       </div>
