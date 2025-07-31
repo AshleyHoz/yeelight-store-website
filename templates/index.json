@@ -252,7 +252,7 @@
         "collection_NEBBVw": {
           "type": "collection",
           "settings": {
-            "collection": "work-study",
+            "collection": "ceiling-light",
             "enable_promotion": false,
             "title": "Promotion",
             "text": "Advertise a promotion or a sale",
@@ -269,7 +269,7 @@
         "collection_ydebXW": {
           "type": "collection",
           "settings": {
-            "collection": "essentials",
+            "collection": "gaming-light",
             "enable_promotion": false,
             "title": "Promotion",
             "text": "Advertise a promotion or a sale",
@@ -286,7 +286,7 @@
         "collection_EjHxJV": {
           "type": "collection",
           "settings": {
-            "collection": "decor-lights",
+            "collection": "monitor-light-bar",
             "enable_promotion": false,
             "title": "Promotion",
             "text": "Advertise a promotion or a sale",
@@ -321,6 +321,75 @@
         "show_cover": false
       }
     },
+    "shop_the_look_slider_rFbmyG": {
+      "type": "shop-the-look-slider",
+      "blocks": {
+        "slide_6haFVF": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-game",
+            "button_text": "Game",
+            "image": "shopify://shop_images/HomeTopicGame-game.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicGameMobile-game.jpg",
+            "product_handle_1": "yeelight-rgbic-led-basic-strip-lights",
+            "x_position_1": 20,
+            "y_position_1": 12,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "a-yeelight-curtain-lights",
+            "x_position_2": 75,
+            "y_position_2": 50,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "yeelight-obsid-rgbic-light-strip",
+            "x_position_3": 30,
+            "y_position_3": 61,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
+          }
+        },
+        "slide_4qH4Nh": {
+          "type": "slide",
+          "settings": {
+            "button_icon": "custom-interstellar",
+            "button_text": "Interstellar",
+            "image": "shopify://shop_images/HomeTopicGame-interstellar.jpg",
+            "image_mobile": "shopify://shop_images/HomeTopicGameMobile-interstellar.jpg",
+            "product_handle_1": "yeelight-rgbic-led-basic-strip-lights",
+            "x_position_1": 20,
+            "y_position_1": 10,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "product_handle_2": "a-yeelight-curtain-lights",
+            "x_position_2": 80,
+            "y_position_2": 50,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "product_handle_3": "yeelight-obsid-rgbic-light-strip",
+            "x_position_3": 25,
+            "y_position_3": 72,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20
+          }
+        }
+      },
+      "block_order": [
+        "slide_6haFVF",
+        "slide_4qH4Nh"
+      ],
+      "settings": {
+        "title": "Epic Gaming Atmosphere",
+        "view_title": "Explore More",
+        "link": "shopify://pages/topic-3",
+        "footer_title": "",
+        "footer_description": "",
+        "show_buttons": true,
+        "full_width": false,
+        "background": "#ffffff",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
     "shop_the_look_slider_4EBHbg": {
       "type": "shop-the-look-slider",
       "blocks": {
@@ -329,20 +398,20 @@
           "settings": {
             "button_icon": "custom-warm",
             "button_text": "Warm",
-            "image": "shopify://shop_images/HomeTopicOutdoor-warm.jpg",
-            "image_mobile": "shopify://shop_images/HomeTopicOutdoorMobile-warm.jpg",
-            "product_handle_1": "yeelight-permanent-outdoor-lights",
-            "x_position_1": 25,
-            "y_position_1": 12,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "product_handle_2": "a-yeelight-christmas-string-lights",
-            "x_position_2": 40,
-            "y_position_2": 32,
+            "image": "shopify://shop_images/20250731-155551.jpg",
+            "image_mobile": "shopify://shop_images/20250731-155551.jpg",
+            "product_handle_1": "bundle-save",
+            "x_position_1": 37,
+            "y_position_1": 14,
+            "x_position_mobile_1": 41,
+            "y_position_mobile_1": 28,
+            "product_handle_2": "yeelight-ultra-thin-intelligent-linkage-cabinet-light",
+            "x_position_2": 13,
+            "y_position_2": 51,
             "x_position_mobile_2": 20,
             "y_position_mobile_2": 20,
             "product_handle_3": "a-yeelight-curtain-lights",
-            "x_position_3": 28,
+            "x_position_3": 56,
             "y_position_3": 72,
             "x_position_mobile_3": 20,
             "y_position_mobile_3": 20
@@ -350,6 +419,7 @@
         },
         "slide_dfKGLU": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "button_icon": "custom-party",
             "button_text": "Party",
@@ -374,6 +444,7 @@
         },
         "slide_QQaB4A": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "button_icon": "custom-christmas",
             "button_text": "Christmas",
@@ -398,6 +469,7 @@
         },
         "slide_KmXyGD": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "button_icon": "custom-halloween",
             "button_text": "Halloween",
@@ -530,75 +602,6 @@
         "show_buttons": false,
         "full_width": false,
         "background": "#f5f8fc",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "shop_the_look_slider_rFbmyG": {
-      "type": "shop-the-look-slider",
-      "blocks": {
-        "slide_6haFVF": {
-          "type": "slide",
-          "settings": {
-            "button_icon": "custom-game",
-            "button_text": "Game",
-            "image": "shopify://shop_images/HomeTopicGame-game.jpg",
-            "image_mobile": "shopify://shop_images/HomeTopicGameMobile-game.jpg",
-            "product_handle_1": "yeelight-rgbic-led-basic-strip-lights",
-            "x_position_1": 20,
-            "y_position_1": 12,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "product_handle_2": "a-yeelight-curtain-lights",
-            "x_position_2": 75,
-            "y_position_2": 50,
-            "x_position_mobile_2": 20,
-            "y_position_mobile_2": 20,
-            "product_handle_3": "yeelight-obsid-rgbic-light-strip",
-            "x_position_3": 30,
-            "y_position_3": 61,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 20
-          }
-        },
-        "slide_4qH4Nh": {
-          "type": "slide",
-          "settings": {
-            "button_icon": "custom-interstellar",
-            "button_text": "Interstellar",
-            "image": "shopify://shop_images/HomeTopicGame-interstellar.jpg",
-            "image_mobile": "shopify://shop_images/HomeTopicGameMobile-interstellar.jpg",
-            "product_handle_1": "yeelight-rgbic-led-basic-strip-lights",
-            "x_position_1": 20,
-            "y_position_1": 10,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "product_handle_2": "a-yeelight-curtain-lights",
-            "x_position_2": 80,
-            "y_position_2": 50,
-            "x_position_mobile_2": 20,
-            "y_position_mobile_2": 20,
-            "product_handle_3": "yeelight-obsid-rgbic-light-strip",
-            "x_position_3": 25,
-            "y_position_3": 72,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 20
-          }
-        }
-      },
-      "block_order": [
-        "slide_6haFVF",
-        "slide_4qH4Nh"
-      ],
-      "settings": {
-        "title": "Epic Gaming Atmosphere",
-        "view_title": "Explore More",
-        "link": "shopify://pages/topic-3",
-        "footer_title": "",
-        "footer_description": "",
-        "show_buttons": true,
-        "full_width": false,
-        "background": "#ffffff",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -1124,9 +1127,9 @@
   "order": [
     "slideshow_AaGJwH",
     "collection_tabs_78e4hX",
+    "shop_the_look_slider_rFbmyG",
     "shop_the_look_slider_4EBHbg",
     "shop_the_look_slider_33yC6m",
-    "shop_the_look_slider_rFbmyG",
     "collection_list_7U8MXe",
     "text_with_icons_MqACi7",
     "image_text_logo_XX38Ra",
