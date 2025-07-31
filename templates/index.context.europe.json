@@ -14,7 +14,9 @@
   },
   "sections": {
     "slideshow_AaGJwH": {
-      "settings": {},
+      "settings": {
+        "desktop_height": "desktop-height-image"
+      },
       "blocks": {
         "slide_rYUPUw": {
           "disabled": true,
@@ -274,7 +276,7 @@
       ]
     },
     "shop_the_look_slider_33yC6m": {
-      "disabled": true,
+      "disabled": false,
       "settings": {},
       "blocks": {}
     },
@@ -328,10 +330,17 @@
         "link": "shopify://collections/living-room"
       },
       "blocks": {}
+    },
+    "logo_list_RWbxLf": {
+      "settings": {
+        "heading": "Brand Partners"
+      },
+      "blocks": {}
     }
   },
   "order": [
     "slideshow_AaGJwH",
+    "collection_tabs_78e4hX",
     "shop_the_look_slider_4EBHbg",
     "shop_the_look_slider_33yC6m",
     "shop_the_look_slider_rFbmyG",
@@ -342,6 +351,7 @@
     "logo_list_RWbxLf",
     "rich_text_Q8UQ7e",
     "1711998083986c24cc",
-    "scrolling_images_ijGKLL"
+    "scrolling_images_ijGKLL",
+    "featured_blog_7KbAVa"
   ]
 }
