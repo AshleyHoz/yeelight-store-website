@@ -400,7 +400,7 @@
             "button_text": "Warm",
             "image": "shopify://shop_images/20250731-155551.jpg",
             "image_mobile": "shopify://shop_images/20250731-155551.jpg",
-            "product_handle_1": "bundle-save",
+            "product_handle_1": "yeelight-rgbicww-smart-ceiling-light",
             "x_position_1": 37,
             "y_position_1": 14,
             "x_position_mobile_1": 41,
@@ -410,9 +410,9 @@
             "y_position_2": 51,
             "x_position_mobile_2": 20,
             "y_position_mobile_2": 20,
-            "product_handle_3": "a-yeelight-curtain-lights",
-            "x_position_3": 56,
-            "y_position_3": 72,
+            "product_handle_3": "yeelight-candela-lamp",
+            "x_position_3": 55,
+            "y_position_3": 65,
             "x_position_mobile_3": 20,
             "y_position_mobile_3": 20
           }
