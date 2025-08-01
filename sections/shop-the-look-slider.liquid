@@ -302,11 +302,21 @@
                   assign hotspot_product_5 = all_products[block.settings.product_handle_5]
                 -%}
                 <div class="slider-view_image_item">
-                  {%- render 'responsive-image', image: hotspot_product_1.images[1], sizes: '150x0' -%}
-                  {%- render 'responsive-image', image: hotspot_product_2.images[1], sizes: '150x0' -%}
-                  {%- render 'responsive-image', image: hotspot_product_3.images[1], sizes: '150x0' -%}
-                  {%- render 'responsive-image', image: hotspot_product_4.images[1], sizes: '150x0' -%}
-                  {%- render 'responsive-image', image: hotspot_product_5.images[1], sizes: '150x0' -%}
+                  {% if hotspot_product_1 != empty %}
+                    {%- render 'responsive-image', image: hotspot_product_1.images[1], sizes: '150x0' -%}
+                  {% endif %}
+                  {% if hotspot_product_2 != empty %}
+                    {%- render 'responsive-image', image: hotspot_product_2.images[1], sizes: '150x0' -%}
+                  {% endif %}
+                  {% if hotspot_product_3 != empty %}
+                    {%- render 'responsive-image', image: hotspot_product_3.images[1], sizes: '150x0' -%}
+                  {% endif %}
+                  {% if hotspot_product_4 != empty %}
+                    {%- render 'responsive-image', image: hotspot_product_4.images[1], sizes: '150x0' -%}
+                  {% endif %}
+                  {% if hotspot_product_5 != empty %}
+                    {%- render 'responsive-image', image: hotspot_product_5.images[1], sizes: '150x0' -%}
+                  {% endif %}
                 </div>
               {%- endfor -%}
             </div>
