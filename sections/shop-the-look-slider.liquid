@@ -185,6 +185,76 @@
                   </div>
                 </quick-view>
               {% endif %}
+              {%- assign hotspot_product_4 = all_products[block.settings.product_handle_4] -%}
+              {% if hotspot_product_4 != empty %}
+                <quick-view
+                  class="thb-hotspot pin-white"
+                  style="left: {{- block.settings.x_position_4 | append: '%' -}}; top: {{- block.settings.y_position_4 | append: '%' -}};"
+                  data-product-handle="{{ hotspot_product_4.handle }}"
+                >
+                  <div class="thb-hotspot-content thb-pulsate">
+                    {%- unless hotspot_product_4 == empty -%}
+                      <div class="loading-overlay">
+                        {% render 'svg-icons' with 'thb-loading' %}
+                      </div>
+                      <div class="thb-hotspot-arrow"></div>
+                      <div class="thb-hotspot-bubble">
+                        {% if hotspot_product_4.images[1] %}
+                          <a
+                            href="{{ hotspot_product_4.url }}"
+                            title="{{ hotspot_product_4.title | escape }}"
+                            class="thb-hotspot-product-image"
+                          >
+                            {%- render 'responsive-image', image: hotspot_product_4.images[1], sizes: '150x0' -%}
+                          </a>
+                        {% endif %}
+                        <div class="thb-hotspot-product-content">
+                          <div class="thb-hotspot-product-title">{{ hotspot_product_4.title }}</div>
+                          <div class="thb-hotspot-product-pricebox">
+                            {% render 'product-price', product: hotspot_product_4 %}
+                            <a class="thb-hotspot-product-view" href="{{ hotspot_product_4.url }}">View</a>
+                          </div>
+                        </div>
+                      </div>
+                    {%- endunless -%}
+                  </div>
+                </quick-view>
+              {% endif %}
+              {%- assign hotspot_product_5 = all_products[block.settings.product_handle_5] -%}
+              {% if hotspot_product_5 != empty %}
+                <quick-view
+                  class="thb-hotspot pin-white"
+                  style="left: {{- block.settings.x_position_5 | append: '%' -}}; top: {{- block.settings.y_position_5 | append: '%' -}};"
+                  data-product-handle="{{ hotspot_product_5.handle }}"
+                >
+                  <div class="thb-hotspot-content thb-pulsate">
+                    {%- unless hotspot_product_5 == empty -%}
+                      <div class="loading-overlay">
+                        {% render 'svg-icons' with 'thb-loading' %}
+                      </div>
+                      <div class="thb-hotspot-arrow"></div>
+                      <div class="thb-hotspot-bubble">
+                        {% if hotspot_product_5.images[1] %}
+                          <a
+                            href="{{ hotspot_product_5.url }}"
+                            title="{{ hotspot_product_5.title | escape }}"
+                            class="thb-hotspot-product-image"
+                          >
+                            {%- render 'responsive-image', image: hotspot_product_5.images[1], sizes: '150x0' -%}
+                          </a>
+                        {% endif %}
+                        <div class="thb-hotspot-product-content">
+                          <div class="thb-hotspot-product-title">{{ hotspot_product_5.title }}</div>
+                          <div class="thb-hotspot-product-pricebox">
+                            {% render 'product-price', product: hotspot_product_5 %}
+                            <a class="thb-hotspot-product-view" href="{{ hotspot_product_5.url }}">View</a>
+                          </div>
+                        </div>
+                      </div>
+                    {%- endunless -%}
+                  </div>
+                </quick-view>
+              {% endif %}
             </figure>
           {% endfor %}
         </div>
@@ -228,11 +298,15 @@
                   assign hotspot_product_1 = all_products[block.settings.product_handle_1]
                   assign hotspot_product_2 = all_products[block.settings.product_handle_2]
                   assign hotspot_product_3 = all_products[block.settings.product_handle_3]
+                  assign hotspot_product_4 = all_products[block.settings.product_handle_4]
+                  assign hotspot_product_5 = all_products[block.settings.product_handle_5]
                 -%}
                 <div class="slider-view_image_item">
                   {%- render 'responsive-image', image: hotspot_product_1.images[1], sizes: '150x0' -%}
                   {%- render 'responsive-image', image: hotspot_product_2.images[1], sizes: '150x0' -%}
                   {%- render 'responsive-image', image: hotspot_product_3.images[1], sizes: '150x0' -%}
+                  {%- render 'responsive-image', image: hotspot_product_4.images[1], sizes: '150x0' -%}
+                  {%- render 'responsive-image', image: hotspot_product_5.images[1], sizes: '150x0' -%}
                 </div>
               {%- endfor -%}
             </div>
