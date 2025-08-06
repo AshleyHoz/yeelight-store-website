@@ -1,0 +1,330 @@
+.activity-samsung--full-width-false {
+  isolation: isolate;
+  border-radius: var(--block-border-radius, 16px);
+}
+
+.yee-activity-samsung {
+  position: relative;
+}
+
+.activity-samsung--bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.activity-samsung--bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.activity-samsung {
+  box-shadow: var(--block-shadows);
+  /* background-image: var(--background-image); */
+  z-index: 1;
+}
+
+.yee-activity-samsung .activity-samsung {
+  /* background-color: var(--color-bg, var(--bg-body, #f5f5f5)); */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 60px 0 !important;
+  width: 68vw;
+  margin: 0 auto;
+}
+
+.activity-samsung--bg .bg-desktop {
+  display: block
+}
+
+.activity-samsung:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  background: rgba(var(--color-overlay-rgb), var(--overlay-opacity));
+}
+
+.activity-samsung--inner {
+  position: relative;
+  z-index: 10;
+  width: 50%;
+}
+
+.activity-samsung--cover {
+  margin-right: 50px;
+  width: 50%;
+}
+
+.activity-samsung--cover img {
+  width: 100%;
+  height: auto;
+}
+
+.activity-samsung--title {
+  font-size: 37px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.activity-samsung--title span {
+  background: linear-gradient(90deg, #ffcaa4 0%, #d635ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.activity-samsung--title svg,
+.activity-samsung--cover-mobile,
+.activity-samsung--bg .bg-mobile {
+  display: none;
+}
+
+.activity-samsung--subtitle {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 134%;
+  margin-bottom: 36px;
+}
+
+.activity-samsung--remark {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 36px;
+}
+
+.activity-samsung .thb-placeholder {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.activity-samsung .signup-container {
+  max-width: 580px;
+}
+
+/* .activity-samsung .signup-container fieldset {
+  overflow: hidden;
+} */
+.activity-samsung--email {
+  position: relative;
+}
+
+.activity-samsung--email input[type='email'] {
+  width: 100%;
+  height: 56px;
+  flex-shrink: 0;
+  font-size: 26px;
+  border-radius: 73.738px;
+  border: 0.752px solid #fff;
+  background: rgba(190, 173, 255, 0.14);
+}
+
+.activity-samsung--email input[type='email']:focus+label,
+.activity-samsung--email input[type='email']:not(:placeholder-shown)+label {
+  display: none;
+}
+
+.activity-samsung--email .signup-container .signup-form .field label {
+  color: #fff;
+  font-size: 21.068px;
+  font-weight: 400;
+  opacity: 0.4;
+  top: 2px;
+}
+
+.activity-samsung--email .signup-container button {
+  border-left: unset;
+  width: 30%;
+}
+
+.activity-samsung--email .signup-container .signup-form fieldset svg {
+  position: absolute;
+  top: -46px;
+  right: -45px;
+}
+
+.activity-samsung--email .signup-container .form-notification {
+  padding-left: 25px;
+  text-align: left;
+}
+
+.activity-samsung--email .signup-container .form-notification svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.activity-samsung--email .signup-container .signup-container--terms {
+  margin-top: 36px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.activity-samsung--email .signup-container .signup-container--terms a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 275;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: capitalize;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
+
+.activity-samsung--email .signup-container .signup-container--terms a:hover {
+  color: #fff;
+}
+
+.activity-samsung--email .signup-container .custom-filter-checkbox[type='checkbox'] {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  border: 1px solid #767676;
+  margin: 6px 8px 0 0;
+  padding: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+}
+
+.activity-samsung--email .signup-container .custom-filter-checkbox[type='checkbox']:disabled {
+  background: #3b3b3b;
+}
+
+.activity-samsung--email .signup-container .custom-filter-checkbox[type='checkbox']:checked {
+  background: #0075ff;
+  position: relative;
+}
+
+.activity-samsung--email .signup-container .custom-filter-checkbox[type='checkbox']:checked::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.activity-samsung--email #login-user-notification {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .yee-activity-samsung .activity-samsung {
+    /* background-image: var(--background-image-mobile); */
+    padding: 24px 16px 0 !important;
+    text-align: center;
+    width: 100%;
+  }
+
+  .activity-samsung .activity-samsung--cover,
+  .activity-samsung--title .activity-samsung--title-text,
+  .activity-samsung--bg .bg-desktop {
+    display: none;
+  }
+
+  .activity-samsung--icon svg {
+    width: 91px;
+    height: 81px;
+  }
+
+  .activity-samsung--title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+  }
+
+  .activity-samsung--title svg,
+  .activity-samsung--bg .bg-mobile {
+    display: block;
+  }
+
+  .activity-samsung--subtitle {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 134%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+
+  .activity-samsung--cover-mobile {
+    display: block;
+    margin-bottom: 28px;
+  }
+
+  .activity-samsung--email input[type='email'] {
+    font-size: 16px;
+    padding: 0 16px;
+  }
+
+  .activity-samsung--email .signup-container .signup-form .field label {
+    font-size: 15.108px;
+    font-weight: 400;
+  }
+
+  .activity-samsung--email .signup-container .signup-form fieldset svg {
+    width: 200px;
+    height: 112px;
+    top: -30px;
+    right: -28px;
+  }
+
+  .activity-samsung--email .signup-container .signup-container--terms {
+    margin-top: 10px;
+  }
+
+  .activity-samsung--email .signup-container .signup-container--terms a {
+    font-size: 12px;
+    font-weight: 275;
+  }
+
+  .activity-samsung--email .signup-container .custom-filter-checkbox[type='checkbox'] {
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+  }
+
+  .activity-samsung--email .signup-container button {
+    width: 40%;
+  }
+
+  .activity-samsung--remark {
+    width: 60%;
+    margin: 28px auto;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .activity-samsung .single-image--mobile {
+    padding: 0 16px;
+  }
+
+  .activity-samsung--inner {
+    width: 100%;
+  }
+
+  .activity-samsung--cover-mobile img {
+    width: 90%;
+    height: auto;
+  }
+}
