@@ -14,34 +14,27 @@
       "disabled": true,
       "settings": {}
     },
-    "image_with_text_overlay_EHXcMN": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_GeKdfB": {
-          "type": "heading",
-          "settings": {
-            "text": "Customer Reviews",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GeKdfB"
-      ],
+    "video_3haYra": {
+      "type": "video",
+      "name": "Video",
       "settings": {
-        "image": "shopify://shop_images/TopicBackground-1.png",
-        "image_parallax": false,
+        "heading": "Video",
+        "cover_title": "",
+        "marker_style": "style1",
+        "description": "<p>Add a short description for this section</p>",
+        "full_width": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
         "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-500",
-        "full_width": true,
-        "content_width": "medium",
-        "content_position": "bottom-center",
-        "text_alignment": "center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30,
+        "mobile_height": "mobile-height-400",
+        "aspect_ratio": "16-9",
+        "marker_color": "#FD6262",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
       }
     },
     "custom_liquid_4Fk7Mk": {
@@ -82,7 +75,8 @@
         "title": "Illuminate Your Villa with <span>Brilliance</span>",
         "image": "shopify://shop_images/OverseasRedesign.png",
         "reverse": "row",
-        "halloween_hand_flag": false
+        "halloween_hand_flag": false,
+        "show_cover": false
       }
     },
     "background_video_dY4YJx": {
@@ -105,17 +99,23 @@
       "type": "video",
       "settings": {
         "heading": "",
+        "cover_title": "",
         "marker_style": "style1",
         "description": "",
         "full_width": false,
         "video": "",
         "video_hosted": "shopify://files/videos/Yeelight Cube Smart Lamp 2.mp4",
         "video_autoplay": true,
+        "video_loop": true,
+        "video_controls": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-400",
         "aspect_ratio": "16-9",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
-        "halloween_skull_flag": false
+        "halloween_skull_flag": false,
+        "black_friday_ui_flag": false
       }
     },
     "17254343215895ce76": {
@@ -297,6 +297,7 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconFree.png",
             "heading": "Free",
+            "sub_heading": "sub_heading",
             "text": "<p>Worldwide shipping</p>"
           }
         },
@@ -306,6 +307,7 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconShield.png",
             "heading": "30 Day",
+            "sub_heading": "sub_heading",
             "text": "<p>Money Back Guarantee</p>"
           }
         },
@@ -315,6 +317,7 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconCorn.png",
             "heading": "Lifetime",
+            "sub_heading": "sub_heading",
             "text": "<p>Customer Support</p>"
           }
         },
@@ -324,6 +327,7 @@
             "icon": "ruler",
             "image": "shopify://shop_images/IconService.png",
             "heading": "1 Year",
+            "sub_heading": "sub_heading",
             "text": "<p>warranty</p>"
           }
         }
@@ -351,7 +355,7 @@
   },
   "order": [
     "main",
-    "image_with_text_overlay_EHXcMN",
+    "video_3haYra",
     "custom_liquid_4Fk7Mk",
     "background_video_dY4YJx",
     "video_eHFe8c",
