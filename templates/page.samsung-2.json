@@ -120,7 +120,7 @@
       "settings": {
         "heading": "Recommended for You",
         "marker_style": "style1",
-        "description": "<p>Add a short description for your collections</p>",
+        "description": "",
         "heading_size": "small",
         "collection_list": [
           "bedroom-lighting",
@@ -140,9 +140,9 @@
         "mobile_swipe": true,
         "heading_position": "bottom-center",
         "background": "#000000",
-        "marker_color": "#FD6262",
+        "marker_color": "#fd6262",
         "text_color": "#ffffff",
-        "overlay_color": "transparent",
+        "overlay_color": "rgba(0,0,0,0)",
         "overlay_opacity": 30,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
