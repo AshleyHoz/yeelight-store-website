@@ -114,6 +114,40 @@
         "show_cover": false
       }
     },
+    "collection_list_zPfgmW": {
+      "type": "collection-list",
+      "name": "Collection list",
+      "settings": {
+        "heading": "Recommended for You",
+        "marker_style": "style1",
+        "description": "<p>Add a short description for your collections</p>",
+        "heading_size": "small",
+        "collection_list": [
+          "bedroom-lighting",
+          "work-study",
+          "living-room",
+          "gaming-lights",
+          "outdoor-fun",
+          "decor-lights"
+        ],
+        "image_ratio": "portrait",
+        "collection_layout": "grid",
+        "style": "style1",
+        "columns_desktop": 3,
+        "columns_mobile": "2",
+        "image_shadows": false,
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "heading_position": "bottom-center",
+        "background": "#000000",
+        "marker_color": "#FD6262",
+        "text_color": "#ffffff",
+        "overlay_color": "transparent",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "scene_recommend_z9n8kE": {
       "type": "scene-recommend",
       "blocks": {
@@ -174,6 +208,7 @@
     "video_3haYra",
     "activity_samsung_z79TFd",
     "custom_liquid_4Fk7Mk",
+    "collection_list_zPfgmW",
     "scene_recommend_z9n8kE",
     "1754535192d39de9c3"
   ]
