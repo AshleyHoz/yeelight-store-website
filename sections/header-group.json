@@ -220,7 +220,7 @@
             "position": "3",
             "item_style": "style3",
             "mobile_colums": "flex",
-            "heading_float": true,
+            "heading_float": false,
             "promo_1_image": "shopify://shop_images/menu_use_1.png",
             "promo_1_heading": "Bedroom",
             "promo_1_content": "",
