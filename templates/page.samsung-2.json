@@ -107,8 +107,9 @@
       ],
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/OverseasRedesign.png",
-        "reverse": "row",
+        "image": "shopify://shop_images/SamsungProductbanner.png",
+        "image_mobile": "shopify://shop_images/SamsungProductbannerM.png",
+        "reverse": "row-regular",
         "halloween_hand_flag": false,
         "show_cover": false
       }
