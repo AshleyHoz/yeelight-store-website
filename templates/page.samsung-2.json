@@ -61,7 +61,7 @@
         "title": "Add a title",
         "subtitle": "Add a subtitle",
         "remark": "Add a remark",
-        "color_bg": "#f5f5f5",
+        "color_bg": "#000000",
         "color_text": "#2c2d2e",
         "color_heading": "#1a1c1d",
         "color_border": "#d3d3d3",
