@@ -106,7 +106,7 @@
         "product_BTfM4U"
       ],
       "settings": {
-        "title": "Illuminate Your Villa with <span>Brilliance</span>",
+        "title": "Illuminate Your Villa with Brilliance",
         "image": "shopify://shop_images/OverseasRedesign.png",
         "reverse": "row",
         "halloween_hand_flag": false,
@@ -145,6 +145,27 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "1754535192d39de9c3": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_j6bFtJ": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_j6bFtJ"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -152,6 +173,7 @@
     "video_3haYra",
     "activity_samsung_z79TFd",
     "custom_liquid_4Fk7Mk",
-    "scene_recommend_z9n8kE"
+    "scene_recommend_z9n8kE",
+    "1754535192d39de9c3"
   ]
 }
