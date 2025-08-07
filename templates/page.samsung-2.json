@@ -148,39 +148,6 @@
         "disable_bottom_spacing": false
       }
     },
-    "scene_recommend_z9n8kE": {
-      "type": "scene-recommend",
-      "blocks": {
-        "form_HikUdY": {
-          "type": "form",
-          "settings": {
-            "utm_source": "",
-            "utm_medium": "",
-            "utm_campaign": "",
-            "tag": "newsletter",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "form_HikUdY"
-      ],
-      "name": "Scene Recommend",
-      "settings": {
-        "full_width": false,
-        "title": "Add a title",
-        "subtitle": "Add a subtitle",
-        "remark": "Add a remark",
-        "color_bg": "#f5f5f5",
-        "color_text": "#2c2d2e",
-        "color_heading": "#1a1c1d",
-        "color_border": "#d3d3d3",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "1754535192d39de9c3": {
       "type": "apps",
       "blocks": {
@@ -209,7 +176,6 @@
     "activity_samsung_z79TFd",
     "custom_liquid_4Fk7Mk",
     "collection_list_zPfgmW",
-    "scene_recommend_z9n8kE",
     "1754535192d39de9c3"
   ]
 }
