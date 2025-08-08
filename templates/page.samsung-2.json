@@ -136,6 +136,8 @@
         "columns_desktop": 3,
         "columns_mobile": "2",
         "image_shadows": false,
+        "show_heading": false,
+        "dark_mode": true,
         "show_progress_bar": true,
         "mobile_swipe": true,
         "heading_position": "bottom-center",
