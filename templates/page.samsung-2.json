@@ -130,7 +130,7 @@
           "outdoor-fun",
           "decor-lights"
         ],
-        "image_ratio": "portrait",
+        "image_ratio": "adapt",
         "collection_layout": "grid",
         "style": "style2",
         "columns_desktop": 3,
