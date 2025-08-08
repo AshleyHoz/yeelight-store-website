@@ -20,6 +20,7 @@
   assign disable_top_spacing = section.settings.disable_top_spacing
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
   assign is_carousel = false
+  assign dark_mode = section.settings.dark_mode
 
   assign tag = 'div'
   if collection_layout == 'carousel'
@@ -28,7 +29,10 @@
     assign carousel_class = 'carousel'
   endif
 -%}
-<div class="collection-list" style="background: {{ section.settings.background }};">
+<div
+  class="collection-list {%- if dark_mode -%}dark{%- endif -%}"
+  style="background: {{ section.settings.background }};"
+>
   <div class="row custom-collection-list--row">
     <div
       class="list-collections small-12 spacing{% if disable_top_spacing %} spacing--disable-top{% endif %}{% if disable_bottom_spacing %} spacing--disable-bottom{% endif %}"
@@ -69,7 +73,8 @@
               columns_mobile: columns_mobile,
               heading_position: heading_position,
               heading_size: heading_size,
-              image_shadows: section.settings.image_shadows
+              image_shadows: section.settings.image_shadows,
+              show_heading: section.settings.show_heading
             -%}
           {%- endfor -%}
         {%- else -%}
@@ -85,7 +90,8 @@
               columns_mobile: columns_mobile,
               heading_position: heading_position,
               heading_size: heading_size,
-              image_shadows: section.settings.image_shadows
+              image_shadows: section.settings.image_shadows,
+              show_heading: section.settings.show_heading
             -%}
           {%- endfor -%}
         {%- endif -%}
@@ -261,6 +267,18 @@
       "id": "image_shadows",
       "default": false,
       "label": "Enable image shadows"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_heading",
+      "default": true,
+      "label": "Show heading"
+    },
+    {
+      "type": "checkbox",
+      "id": "dark_mode",
+      "default": false,
+      "label": "Enable dark mode"
     },
     {
       "type": "header",
