@@ -233,7 +233,7 @@
 
 .collection-card.style2 .collection-card--content .collection-card--link-bottom-center {
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   text-align: center;
 }
 
