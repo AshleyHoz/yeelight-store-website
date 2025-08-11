@@ -36,7 +36,7 @@
           {%- render 'svg-icons-halloween' with 'custom-halloween-hand' -%}
         </div>
       {%- endif -%}
-      <div class="image-products--img">
+      <div class="image-products--img position-relative">
         <div class="mobile-cover-img full-width full-height">
           {% assign master_width = mobile_cover_image.src.width | append: 'x' | append: mobile_cover_image.src.height %}
           {% render 'responsive-image', image: mobile_cover_image, sizes: master_width %}
@@ -44,6 +44,11 @@
         <div class="cover-img full-width full-height">
           {% assign master_width = conver_image.src.width | append: 'x' | append: conver_image.src.height %}
           {% render 'responsive-image', image: conver_image, sizes: master_width %}
+        </div>
+        <div class="cover-content">
+          <div class="cover-title">{{ section.settings.cover_title }}</div>
+          <div class="cover-desc">{{ section.settings.cover_description }}</div>
+          {%- render 'text-button', link: section.settings.button_link, title: section.settings.button_text -%}
         </div>
       </div>
       <div class="image-products--product d-flex justify-space-between flex-wrap">
@@ -100,6 +105,10 @@
       "label": "Product Position"
     },
     {
+      "type": "header",
+      "content": "Image Settings"
+    },
+    {
       "type": "image_picker",
       "id": "background_image",
       "label": "Background Image"
@@ -110,6 +119,28 @@
       "label": "Mobile Background image (optional)"
     },
     {
+      "type": "text",
+      "id": "cover_title",
+      "label": "Header Cover Title",
+      "info": "Wrap your text."
+    },
+    {
+      "type": "text",
+      "id": "cover_description",
+      "label": "Header Cover Description",
+      "info": "Wrap your text."
+    },
+    {
+      "id": "button_link",
+      "type": "url",
+      "label": "Button link"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text"
+    },
+    {
       "type": "checkbox",
       "id": "halloween_hand_flag",
       "default": false,
@@ -117,7 +148,7 @@
     },
     {
       "type": "header",
-      "content": "Cover Settings"
+      "content": "Product Card Cover Settings"
     },
     {
       "type": "checkbox",
