@@ -45,11 +45,17 @@
           {% assign master_width = conver_image.src.width | append: 'x' | append: conver_image.src.height %}
           {% render 'responsive-image', image: conver_image, sizes: master_width %}
         </div>
-        <div class="cover-content">
-          <div class="cover-title">{{ section.settings.cover_title }}</div>
-          <div class="cover-desc">{{ section.settings.cover_description }}</div>
-          {%- render 'text-button', link: section.settings.button_link, title: section.settings.button_text -%}
-        </div>
+        {%- if section.settings.cover_title != blank -%}
+          <div class="cover-content full-width full-height d-flex flex-column align-center">
+            <div class="cover-title">{{ section.settings.cover_title }}</div>
+            <div class="cover-desc">{{ section.settings.cover_description }}</div>
+            {%- render 'text-button',
+              link: section.settings.button_link,
+              title: section.settings.button_text,
+              has_icon: false
+            -%}
+          </div>
+        {%- endif -%}
       </div>
       <div class="image-products--product d-flex justify-space-between flex-wrap">
         {% for block in section.blocks %}

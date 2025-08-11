@@ -90,7 +90,7 @@
   line-height: 1.2;
   font-weight: var(--font-body-medium-weight, 500);
   width: 100%;
-  padding: 20px;
+  padding: 30px;
 }
 
 .collection-card--link:hover {
@@ -395,5 +395,9 @@
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
+  }
+
+  .collection-card--link {
+    padding: 0 12px;
   }
 }
