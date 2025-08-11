@@ -59,7 +59,7 @@
       ],
       "name": "Activity Samsung",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "title": "Exclusive Discount for Samsung TV Us",
         "subtitle": "Immerse in Light. Save  20%  on TV Sync Collection!",
         "remark": "",
