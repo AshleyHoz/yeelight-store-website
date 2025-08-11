@@ -29,6 +29,7 @@
         "video_autoplay": true,
         "video_loop": true,
         "video_controls": false,
+        "show_cover": true,
         "desktop_height": "desktop-height-550",
         "mobile_height": "mobile-height-350",
         "aspect_ratio": "16-9",
