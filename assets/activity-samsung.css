@@ -202,6 +202,7 @@
 }
 
 .activity-samsung--email .activity-samsung--text {
+  width: 18%;
   font-weight: 800;
   font-size: 52px;
   line-height: 57px;

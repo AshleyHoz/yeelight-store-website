@@ -80,40 +80,41 @@
             </div>
           {%- endif -%}
         </div>
-        <div class="activity-samsung--email full-width full-height d-flex flex-column align-center justify-center">
-          {%- for block in section.blocks -%}
-            {%- case block.type -%}
-              {%- when 'discount' -%}
-                <div class="activity-samsung--discount">
-                  {%- if block.settings.show_code -%}
-                    <div class="discount-code">{{ block.settings.discount_code }}</div>
-                    <div>
-                      <button>Copy Code</button>
-                    </div>
-                    <div>or</div>
-                  {%- else -%}
-                    <div class="discount-title">{{ block.settings.discount_title }}</div>
-                    <div class="discount-subtitle">{{ block.settings.discount_subtitle }}</div>
-                  {%- endif -%}
-                </div>
-              {%- when 'form' -%}
-                {%- render 'email-signup-form',
-                  tag: block.settings.tag,
-                  link: block.settings.link,
-                  utm_source: block.settings.utm_source,
-                  utm_medium: block.settings.utm_medium,
-                  utm_campaign: block.settings.utm_campaign,
-                  activity: true,
-                  successAlert: 'Thanks, you are all set! <br />
+        <div class="activity-samsung--email full-width full-height d-flex align-center">
+          <div class="d-flex align-center justify-center flex-column full-width">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when 'discount' -%}
+                  <div class="activity-samsung--discount full-width text-center mb-3">
+                    {%- if block.settings.show_code -%}
+                      <div class="discount-code mb-3">{{ block.settings.discount_code }}</div>
+                      <div class="mb-3">
+                        <button>Copy Code</button>
+                      </div>
+                      <div>or</div>
+                    {%- else -%}
+                      <div class="discount-title mb-3">{{ block.settings.discount_title }}</div>
+                      <div class="discount-subtitle">{{ block.settings.discount_subtitle }}</div>
+                    {%- endif -%}
+                  </div>
+                {%- when 'form' -%}
+                  {%- render 'email-signup-form',
+                    tag: block.settings.tag,
+                    link: block.settings.link,
+                    utm_source: block.settings.utm_source,
+                    utm_medium: block.settings.utm_medium,
+                    utm_campaign: block.settings.utm_campaign,
+                    activity: true,
+                    successAlert: 'Thanks, you are all set! <br />
                   Watch your mailbox for the results on 13th May.',
-                  errorAlert: 'Oops, something went wrong. Please try again later.',
-                  warningAlert: 'This email address is already registered. Please use a different email address. ',
-                  agreeText: "Submit your email, and we'll deliver a discount code straight to your inbox for convenient use anytime."
-                -%}
-              {%- when 'text' -%}
-                <div class="activity-samsung--text">{{ section.settings.discount_text }}</div>
-            {%- endcase -%}
-          {%- endfor -%}
+                    errorAlert: 'Oops, something went wrong. Please try again later.',
+                    warningAlert: 'This email address is already registered. Please use a different email address. ',
+                    agreeText: "Submit your email, and we'll deliver a discount code straight to your inbox for convenient use anytime."
+                  -%}
+              {%- endcase -%}
+            {%- endfor -%}
+          </div>
+          <div class="activity-samsung--text text-center">20% OFF</div>
         </div>
       </div>
       <div class="activity-samsung--remark">
@@ -320,19 +321,6 @@
           "id": "link",
           "label": "Link",
           "info": "Wrap the apply link."
-        }
-      ]
-    },
-    {
-      "type": "text",
-      "name": "Text",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "discount_text",
-          "label": "Discount Text",
-          "default": "Add your text here"
         }
       ]
     }
