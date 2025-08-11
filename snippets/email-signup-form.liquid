@@ -93,7 +93,11 @@
         <input type="checkbox" class="custom-filter-checkbox" id="NewsletterTerms-{{ form.id }}" required>
         <label for="NewsletterTerms-{{ form.id }}">
           <a href="{{ link }}" target="_blank">
-            {{ 'sections.signup.i_agree' | t }}
+            {%- if agreeText != blank -%}
+              {{ agreeText }}
+            {%- else -%}
+              {{ 'sections.signup.i_agree' | t }}
+            {%- endif -%}
           </a>
         </label>
       </div>
