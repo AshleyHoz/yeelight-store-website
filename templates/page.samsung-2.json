@@ -19,10 +19,10 @@
       "name": "Video",
       "settings": {
         "heading": "",
-        "cover_title": "",
+        "cover_title": "Every Frame Extends, Every Color Breaths",
         "cover_image": "shopify://shop_images/samsung-banner-logo.png",
         "marker_style": "style1",
-        "description": "<p>Every Frame Extends, Every Color Breaths</p>",
+        "description": "",
         "full_width": true,
         "video": "",
         "video_hosted": "shopify://files/videos/samsung-banner-video.mp4",
