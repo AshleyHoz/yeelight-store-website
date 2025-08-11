@@ -16,6 +16,7 @@
   assign video_loop = section.settings.video_loop
   assign cover_title = section.settings.cover_title
   assign cover_image = section.settings.cover_image
+  assign show_cover = section.settings.show_cover
 
   assign disable_top_spacing = section.settings.disable_top_spacing
   assign disable_bottom_spacing = section.settings.disable_bottom_spacing
@@ -55,7 +56,7 @@
     </div>
   {%- endif -%}
 
-  {%- if settings.christmas_flag and cover_title != blank -%}
+  {%- if settings.christmas_flag and cover_title != blank or show_cover -%}
     <div class="video-info-cover full-width full-height d-flex flex-column row">
       {%- if cover_image -%}
         {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
@@ -245,6 +246,12 @@
       "id": "video_controls",
       "default": true,
       "label": "Enable video controls"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cover",
+      "default": false,
+      "label": "Show cover"
     },
     {
       "type": "select",
