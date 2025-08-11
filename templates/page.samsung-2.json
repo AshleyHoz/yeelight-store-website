@@ -43,6 +43,15 @@
     "activity_samsung_z79TFd": {
       "type": "activity-samsung",
       "blocks": {
+        "discount_deKmY4": {
+          "type": "discount",
+          "settings": {
+            "show_code": true,
+            "discount_code": "Add a discount code",
+            "discount_title": "Enter your email, and we'll deliver the discount code straight to your inbox",
+            "discount_subtitle": "(Please check your spam folder if you don't receive it)"
+          }
+        },
         "form_JzAYhG": {
           "type": "form",
           "settings": {
@@ -52,10 +61,18 @@
             "tag": "newsletter",
             "link": ""
           }
+        },
+        "text_8FCEeY": {
+          "type": "text",
+          "settings": {
+            "discount_text": "20% OFF"
+          }
         }
       },
       "block_order": [
-        "form_JzAYhG"
+        "discount_deKmY4",
+        "form_JzAYhG",
+        "text_8FCEeY"
       ],
       "name": "Activity Samsung",
       "settings": {
