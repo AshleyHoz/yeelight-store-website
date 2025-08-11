@@ -110,6 +110,10 @@
         "image": "shopify://shop_images/SamsungProductbanner.png",
         "image_mobile": "shopify://shop_images/SamsungProductbannerM.png",
         "reverse": "row-regular",
+        "cover_title": "Find Your Perfect TV Lighting Kit",
+        "cover_description": "For every screen size — no guesswork, just plug & glow",
+        "button_link": "",
+        "button_text": "Explore Ready-to-Go Kits",
         "halloween_hand_flag": false,
         "show_cover": false
       }
