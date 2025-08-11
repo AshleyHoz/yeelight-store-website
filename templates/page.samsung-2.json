@@ -29,7 +29,7 @@
         "video_autoplay": true,
         "video_loop": true,
         "video_controls": false,
-        "desktop_height": "desktop-height-480",
+        "desktop_height": "desktop-height-550",
         "mobile_height": "mobile-height-350",
         "aspect_ratio": "16-9",
         "marker_color": "#fd6262",
