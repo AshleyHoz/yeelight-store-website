@@ -56,8 +56,19 @@
     </div>
   {%- endif -%}
 
-  {%- if settings.christmas_flag and cover_title != blank or show_cover -%}
+  {%- if settings.christmas_flag and cover_title != blank -%}
     <div class="video-info-cover full-width full-height d-flex flex-column row">
+      {%- if cover_image -%}
+        {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
+      {%- endif -%}
+      {%- if cover_title -%}
+        <div class="cover-title">{{ cover_title }}</div>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  {%- if show_cover -%}
+    <div class="video-cover full-width full-height text-center">
       {%- if cover_image -%}
         {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
       {%- endif -%}
