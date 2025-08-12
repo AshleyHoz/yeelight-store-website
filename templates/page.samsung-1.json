@@ -43,6 +43,7 @@
         },
         "link_Ti4m4M": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "text": "Learn about LightEcho™ TV Sync",
             "link_url": "shopify://pages/samsung-2",
