@@ -45,7 +45,7 @@
           "type": "link",
           "settings": {
             "text": "Learn about LightEcho™ TV Sync",
-            "link_url": "",
+            "link_url": "shopify://pages/samsung-2",
             "color_bg": "",
             "color_text": "#4b72ff"
           }
@@ -126,5 +126,8 @@
       }
     }
   },
-  "order": ["main", "activity_samsung_verify_9AUqmM"]
+  "order": [
+    "main",
+    "activity_samsung_verify_9AUqmM"
+  ]
 }
