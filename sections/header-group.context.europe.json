@@ -72,16 +72,16 @@
             "background_image": null,
             "background_image_mobile": null,
             "icon": "none",
-            "text": "Add campaign text here.",
-            "sub_text": "Add sub campaign text here.",
-            "link": "",
+            "text": "Samsung TV User Exclusive",
+            "sub_text": "Explore Now🔥",
+            "link": "shopify://pages/samsung-1",
             "header-5141280fbc5eb8fdb1def9ebf7233cca": null,
-            "button_text": "Shop Now",
+            "button_text": "Explore Now",
             "button_color": "accent",
             "button_link": "",
             "use_text_button": false,
             "header-e9d870b2f067b5d5149867f0090fbbcd": null,
-            "color_bg": "#3f72e5",
+            "color_bg": "#5f43ff",
             "color_text": "#ffffff"
           }
         }
