@@ -117,7 +117,7 @@
                 </div>
               {%- when 'text' -%}
                 <div
-                  class="rte description-size--{{ block.settings.description_size }}  mb-3 content-desc"
+                  class="rte description-size--{{ block.settings.description_size }}  mb-10 content-desc"
                   {{ block.shopify_attributes }}
                 >
                   {{ block.settings.text }}
@@ -256,22 +256,27 @@
   </div>
 </div>
 <script>
-  document.getElementById('serial-form').addEventListener('submit', function (event) {
-    const input = document.getElementById('serial-number').value.trim();
-    const errorMsg = document.getElementById('error-msg');
+  document.addEventListener('DOMContentLoaded', function () {
     const verifyBtn = document.getElementById('verify-btn');
 
-    const isValid = /^\d\d.{12}\d$/.test(input);
+    verifyBtn.addEventListener('click', function () {
+      const input = document.getElementById('serial-number').value.trim();
+      const isValid = /^\d{2}[A-Za-z0-9]{12}\d$/.test(input);
+      const errorMsg = document.getElementById('error-msg');
+      console.log(input.length, !isValid);
 
-    if (input.length !== 15 || !isValid) {
-      event.preventDefault();
-      // 请输入15位序列号，且第1、2、15位必须是数字。
-      errorMsg.textContent = 'Please enter a serial number in the correct format.';
-      errorMsg.style.display = 'block';
-    } else {
-      errorMsg.style.display = 'none';
-      window.location.href = verifyBtn.dataset.code;
-    }
+      if (input.length !== 15 || !isValid) {
+        event.preventDefault();
+        // 请输入15位序列号，且第1、2、15位必须是数字。
+        errorMsg.textContent = 'Please enter a serial number in the correct format.';
+        errorMsg.style.display = 'block';
+      } else {
+        errorMsg.style.display = 'none';
+        console.log(verifyBtn.dataset.code);
+
+        window.location.href = verifyBtn.dataset.code;
+      }
+    });
   });
 </script>
 
