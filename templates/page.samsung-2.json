@@ -73,7 +73,7 @@
       "settings": {
         "full_width": true,
         "title": "Exclusive Discount for Samsung TV Us",
-        "subtitle": "Immerse in Light. Save  <span>20%</span>  on TV Sync Collection!",
+        "subtitle": "Immerse in Light. Save  20%  on TV Sync Collection!",
         "remark": "",
         "background_image": "shopify://shop_images/samsung-email-bg.png",
         "cover_image": "shopify://shop_images/samsung-email-cover.png",
@@ -94,25 +94,25 @@
         "product_nmh8jV": {
           "type": "product",
           "settings": {
-            "product": "a-yeelight-cube-4-matrix-pack"
+            "product": "yeelight-smart-cube"
           }
         },
         "product_Qger9E": {
           "type": "product",
           "settings": {
-            "product": "yeelight-smart-cube"
+            "product": "yeelight-smart-lamp-cube-lite"
           }
         },
         "product_wG8iCm": {
           "type": "product",
           "settings": {
-            "product": "yeelight-candela-lamp"
+            "product": "yeelight-beam-rgbic-light-bar"
           }
         },
         "product_BTfM4U": {
           "type": "product",
           "settings": {
-            "product": "yeelight-candela-lamp-1"
+            "product": "yeelight-rgbic-led-basic-strip-lights"
           }
         }
       },
