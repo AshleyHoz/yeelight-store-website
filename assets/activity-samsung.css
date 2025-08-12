@@ -15,8 +15,8 @@
 }
 
 .activity-samsung--bg img {
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -77,6 +77,25 @@
 .activity-samsung .thb-placeholder {
   width: 150px;
   margin: 0 auto;
+}
+
+.activity-samsung .activity-samsung--discount .coupon-char {
+  background: rgba(169, 169, 255, 0.1);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 10px;
+}
+
+.activity-samsung .activity-samsung--discount .discount-btn .button-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.activity-samsung .activity-samsung--discount .discount-btn .button-img img {
+  width: 100%;
+  height: 100%;
 }
 
 .activity-samsung .signup-container {

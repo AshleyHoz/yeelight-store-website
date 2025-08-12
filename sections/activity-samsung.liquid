@@ -87,9 +87,18 @@
                 {%- when 'discount' -%}
                   <div class="activity-samsung--discount full-width text-center mb-3">
                     {%- if block.settings.show_code -%}
-                      <div class="discount-code mb-3">{{ block.settings.discount_code }}</div>
-                      <div class="mb-3">
-                        <button>Copy Code</button>
+                      <div
+                        id="discount-code"
+                        class="discount-code mb-3"
+                        data-code="{{ block.settings.discount_code }}"
+                      ></div>
+                      <div class="discount-btn mb-3">
+                        <button class="position-relative">
+                          {{ block.settings.button_text }}
+                          <div class="button-img">
+                            {%- render 'responsive-image', image: block.settings.button_image,sizes: block.settings.button_image.src.width | append: 'x' | append: block.settings.button_image.src.height -%}
+                          </div>
+                        </button>
                       </div>
                       <div>or</div>
                     {%- else -%}
@@ -124,6 +133,25 @@
   </div>
 </div>
 {{- 'activity-samsung.css' | asset_url | stylesheet_tag -}}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const discountCodeEle = document.getElementById('discount-code');
+    if (discountCodeEle) {
+      const code = discountCodeEle.dataset.code;
+      discountCodeEle.setAttribute('aria-label', '优惠码 ' + code);
+
+      // 把每个字符包在 span
+      const fragment = document.createDocumentFragment();
+      for (let ch of code) {
+        const span = document.createElement('span');
+        span.className = 'coupon-char pa-2 mx-1';
+        span.textContent = ch;
+        fragment.appendChild(span);
+      }
+      discountCodeEle.appendChild(fragment);
+    }
+  });
+</script>
 {% schema %}
 {
   "name": "Activity Samsung",
@@ -267,6 +295,17 @@
           "id": "discount_code",
           "label": "Discount Code",
           "default": "Add a discount code"
+        },
+        {
+          "type": "image_picker",
+          "id": "button_image",
+          "label": "Button Image"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "Add a button text"
         },
         {
           "type": "text",
