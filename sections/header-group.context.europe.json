@@ -15,18 +15,37 @@
   "sections": {
     "announcement_bar_x3iKd": {
       "type": "announcement-bar",
+      "disabled": true,
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "single",
+        "header-9e8ce5d0db4f8b23aa26433cbdf5499b": null,
+        "direction": "left",
+        "speed": "50s",
+        "header-25a281ba1bb21b00557444d41f9a0f05": null,
+        "use_block_colors": false,
+        "autoplay": false,
+        "autoplay_length": 10,
+        "background_color": "rgba(0,0,0,0)"
+      },
       "blocks": {
         "text_rajCq": {
           "type": "text",
+          "disabled": false,
           "settings": {
+            "background_image": null,
+            "background_image_mobile": null,
             "icon": "none",
             "text": "Celebrate Labor Day",
             "sub_text": "Up to 40% OFF",
             "link": "shopify://pages/labour-day-sale",
+            "header-caad65e4718987d14417af6b241b3493": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/labour-day-sale",
             "use_text_button": false,
+            "header-d561547c0bdc85fbb71a40d3a58d8906": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -34,21 +53,12 @@
       },
       "block_order": [
         "text_rajCq"
-      ],
-      "disabled": true,
-      "settings": {
-        "announcement_bar": true,
-        "announcement_bar_homepage_only": false,
-        "announcement_bar_layout": "single",
-        "direction": "left",
-        "speed": "50s",
-        "use_block_colors": false,
-        "autoplay": false,
-        "autoplay_length": 10,
-        "background_color": "rgba(0,0,0,0)"
-      }
+      ]
     },
     "announcement-bar": {
+      "settings": {
+        "background_color": "#5f43ff"
+      },
       "blocks": {
         "text_qr4nfc": {
           "disabled": true,
@@ -58,15 +68,20 @@
         },
         "text_XPEtn": {
           "type": "text",
+          "disabled": false,
           "settings": {
+            "background_image": null,
+            "background_image_mobile": null,
             "icon": "none",
             "text": "Samsung TV User Exclusive",
             "sub_text": "Explore Now🔥",
             "link": "shopify://pages/samsung-verify",
+            "header-ca23d18078c6d876b730b6f41a539dd7": null,
             "button_text": "Explore Now",
             "button_color": "accent",
             "button_link": "",
             "use_text_button": false,
+            "header-b1a6eeccff44c74e170e915aad5cc0b4": null,
             "color_bg": "#5f43ff",
             "color_text": "#ffffff"
           }
@@ -77,19 +92,21 @@
         "955bb93b-7a65-4933-8023-83a64ee46bc2",
         "text_qr4nfc",
         "text_XPEtn"
-      ],
-      "settings": {
-        "background_color": "#5f43ff"
-      }
+      ]
     },
     "header": {
+      "settings": {
+        "menu": "eu-header-new",
+        "mobile_secondary_menu": ""
+      },
       "blocks": {
         "megamenu_FhUpxV": {
           "settings": {
             "promo_1_link": "shopify://pages/new-arrival",
             "promo_2_link": "shopify://collections/top-sellers",
             "promo_3_image": "shopify://shop_images/20250717-171101.jpg",
-            "promo_3_link": "shopify://pages/samsung-verify"
+            "promo_3_link": "shopify://pages/samsung-verify",
+            "heading_float": true
           }
         },
         "megamenu_FkncAE": {
@@ -112,7 +129,8 @@
             "promo_4_link": "shopify://collections/gaming-lights",
             "promo_5_heading": "Outdoor",
             "promo_5_link": "shopify://collections/outdoor-fun",
-            "promo_6_link": "shopify://collections/holiday-decor-lights"
+            "promo_6_link": "shopify://collections/holiday-decor-lights",
+            "heading_float": true
           }
         },
         "megamenu_PedDaN": {
@@ -128,11 +146,7 @@
         "megamenu_FkncAE",
         "megamenu_VnKGDM",
         "megamenu_PedDaN"
-      ],
-      "settings": {
-        "menu": "eu-header-new",
-        "mobile_secondary_menu": ""
-      }
+      ]
     }
   },
   "order": [
