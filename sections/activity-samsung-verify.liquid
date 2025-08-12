@@ -224,7 +224,14 @@
                         required
                         placeholder="Series Number"
                       >
-                      <button class="column-button px-5 py-3" type="submit">Verify</button>
+                      <button
+                        id="verify-btn"
+                        class="column-button px-5 py-3"
+                        type="button"
+                        data-code="{{ block.settings.column_link }}"
+                      >
+                        Verify
+                      </button>
                       <p id="error-msg" class="error-msg my-2"></p>
                     </form>
                   {%- endif -%}
@@ -252,6 +259,7 @@
   document.getElementById('serial-form').addEventListener('submit', function (event) {
     const input = document.getElementById('serial-number').value.trim();
     const errorMsg = document.getElementById('error-msg');
+    const verifyBtn = document.getElementById('verify-btn');
 
     const isValid = /^\d\d.{12}\d$/.test(input);
 
@@ -262,7 +270,7 @@
       errorMsg.style.display = 'block';
     } else {
       errorMsg.style.display = 'none';
-      window.location.href = 'https://store.yeelight.com/pages/samsung';
+      window.location.href = verifyBtn.dataset.code;
     }
   });
 </script>
@@ -782,6 +790,11 @@
           "id": "discount_code",
           "label": "Discount code",
           "default": "Add a discount code"
+        },
+        {
+          "type": "url",
+          "id": "column_link",
+          "label": "Column link"
         }
       ]
     },
