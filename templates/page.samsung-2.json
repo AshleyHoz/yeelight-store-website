@@ -47,7 +47,9 @@
           "type": "discount",
           "settings": {
             "show_code": true,
-            "discount_code": "Add a discount code",
+            "discount_code": "discount",
+            "button_image": "shopify://shop_images/samsung-btn.png",
+            "button_text": "Copy Code",
             "discount_title": "Enter your email, and we'll deliver the discount code straight to your inbox",
             "discount_subtitle": "(Please check your spam folder if you don't receive it)"
           }
@@ -61,18 +63,11 @@
             "tag": "newsletter",
             "link": ""
           }
-        },
-        "text_8FCEeY": {
-          "type": "text",
-          "settings": {
-            "discount_text": "20% OFF"
-          }
         }
       },
       "block_order": [
         "discount_deKmY4",
-        "form_JzAYhG",
-        "text_8FCEeY"
+        "form_JzAYhG"
       ],
       "name": "Activity Samsung",
       "settings": {
