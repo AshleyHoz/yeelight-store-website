@@ -57,7 +57,9 @@
     },
     "announcement-bar": {
       "disabled": false,
-      "settings": {},
+      "settings": {
+        "background_color": "#5f43ff"
+      },
       "blocks": {
         "text_qr4nfc": {
           "disabled": true,
