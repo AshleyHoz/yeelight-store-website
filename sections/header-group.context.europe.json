@@ -56,15 +56,42 @@
       ]
     },
     "announcement-bar": {
-      "disabled": true,
+      "disabled": false,
       "settings": {},
       "blocks": {
         "text_qr4nfc": {
+          "disabled": true,
           "settings": {
             "button_link": "shopify://pages/valentine-eu"
           }
+        },
+        "text_XPEtn": {
+          "type": "text",
+          "disabled": false,
+          "settings": {
+            "background_image": null,
+            "background_image_mobile": null,
+            "icon": "none",
+            "text": "Add campaign text here.",
+            "sub_text": "Add sub campaign text here.",
+            "link": "",
+            "header-5141280fbc5eb8fdb1def9ebf7233cca": null,
+            "button_text": "Shop Now",
+            "button_color": "accent",
+            "button_link": "",
+            "use_text_button": false,
+            "header-e9d870b2f067b5d5149867f0090fbbcd": null,
+            "color_bg": "#3f72e5",
+            "color_text": "#ffffff"
+          }
         }
-      }
+      },
+      "block_order": [
+        "text_dNwVVJ",
+        "955bb93b-7a65-4933-8023-83a64ee46bc2",
+        "text_qr4nfc",
+        "text_XPEtn"
+      ]
     },
     "header": {
       "settings": {
@@ -79,8 +106,8 @@
             "promo_1_link": "shopify://pages/new-arrival",
             "promo_2_link": "shopify://collections/top-sellers",
             "promo_3_image": "shopify://shop_images/20250717-171101.jpg",
-            "promo_4_image": null,
-            "promo_3_link": "shopify://pages/samsung-1"
+            "promo_3_link": "shopify://pages/samsung-1",
+            "promo_4_image": null
           }
         },
         "megamenu_FkncAE": {
