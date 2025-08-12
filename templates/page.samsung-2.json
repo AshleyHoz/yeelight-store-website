@@ -57,11 +57,11 @@
         "form_JzAYhG": {
           "type": "form",
           "settings": {
-            "utm_source": "",
-            "utm_medium": "",
-            "utm_campaign": "",
-            "tag": "newsletter",
-            "link": ""
+            "utm_source": "samsung",
+            "utm_medium": "samsung",
+            "utm_campaign": "samsung",
+            "tag": "samsung",
+            "link": "shopify://policies/privacy-policy"
           }
         }
       },
