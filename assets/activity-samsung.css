@@ -87,6 +87,29 @@
   letter-spacing: 10px;
 }
 
+.activity-samsung .activity-samsung--discount .discount-btn button {
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.activity-samsung .activity-samsung--discount .discount-btn span {
+  padding-top: 4px;
+}
+
+.activity-samsung .activity-samsung--discount .discount-btn .discount-copied {
+  display: none;
+}
+
+.activity-samsung .activity-samsung--discount .discount-btn button.copied .discount-copy {
+  display: none;
+}
+
+.activity-samsung .activity-samsung--discount .discount-btn button.copied .discount-copied {
+  display: inline-block;
+
+}
+
 .activity-samsung .activity-samsung--discount .discount-btn .button-img {
   position: absolute;
   top: 0;
@@ -96,6 +119,12 @@
 .activity-samsung .activity-samsung--discount .discount-btn .button-img img {
   width: 100%;
   height: 100%;
+}
+
+.activity-samsung .activity-samsung--discount .discount-or {
+  font-weight: 300;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .activity-samsung .signup-container {

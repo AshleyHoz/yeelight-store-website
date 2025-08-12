@@ -89,18 +89,26 @@
                     {%- if block.settings.show_code -%}
                       <div
                         id="discount-code"
-                        class="discount-code mb-3"
+                        class="discount-code mb-4 d-flex align-center justify-center"
                         data-code="{{ block.settings.discount_code }}"
                       ></div>
-                      <div class="discount-btn mb-3">
-                        <button class="position-relative">
-                          {{ block.settings.button_text }}
-                          <div class="button-img">
+                      <div class="discount-btn mb-3 d-flex align-center justify-center">
+                        <button
+                          id="discount-code-btn"
+                          class="position-relative d-flex align-center justify-center px-3 py-2"
+                          type="button"
+                          data-code="{{ block.settings.discount_code }}"
+                        >
+                          <span class="discount-copy">
+                            {{ block.settings.button_text }}
+                          </span>
+                          <span class="discount-copied">Code Copied</span>
+                          <div class="button-img full-width">
                             {%- render 'responsive-image', image: block.settings.button_image,sizes: block.settings.button_image.src.width | append: 'x' | append: block.settings.button_image.src.height -%}
                           </div>
                         </button>
                       </div>
-                      <div>or</div>
+                      <div class="discount-or">or</div>
                     {%- else -%}
                       <div class="discount-title mb-3">{{ block.settings.discount_title }}</div>
                       <div class="discount-subtitle">{{ block.settings.discount_subtitle }}</div>
@@ -143,13 +151,29 @@
       // 把每个字符包在 span
       const fragment = document.createDocumentFragment();
       for (let ch of code) {
-        const span = document.createElement('span');
-        span.className = 'coupon-char pa-2 mx-1';
-        span.textContent = ch;
-        fragment.appendChild(span);
+        const str = document.createElement('div');
+        str.className = 'coupon-char pl-4 pr-2 py-1 mx-1 text-center';
+        str.textContent = ch;
+        fragment.appendChild(str);
       }
       discountCodeEle.appendChild(fragment);
     }
+
+    const btn = document.getElementById('discount-code-btn');
+    btn.addEventListener('click', function () {
+      const code = btn.getAttribute('data-code');
+      navigator.clipboard
+        .writeText(code)
+        .then(function () {
+          btn.classList.add('copied');
+          setTimeout(() => {
+            btn.classList.remove('copied');
+          }, 2000);
+        })
+        .catch(function (err) {
+          alert('Copy failed, please copy manually');
+        });
+    });
   });
 </script>
 {% schema %}

@@ -6148,6 +6148,12 @@ input[type='radio'],
 
 .section-header--description {
   font-size: 0.9375rem;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+.section-header--description>span {
+  font-weight: 900;
 }
 
 @media only screen and (min-width: 768px) {
