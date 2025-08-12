@@ -15,37 +15,18 @@
   "sections": {
     "announcement_bar_x3iKd": {
       "type": "announcement-bar",
-      "disabled": true,
-      "settings": {
-        "announcement_bar": true,
-        "announcement_bar_homepage_only": false,
-        "announcement_bar_layout": "single",
-        "header-c7214761b3e60a2d460600180628214f": null,
-        "direction": "left",
-        "speed": "50s",
-        "header-4ac6f360844e07b5e6efdd98b4554017": null,
-        "use_block_colors": false,
-        "autoplay": false,
-        "autoplay_length": 10,
-        "background_color": "rgba(0,0,0,0)"
-      },
       "blocks": {
         "text_rajCq": {
           "type": "text",
-          "disabled": false,
           "settings": {
-            "background_image": null,
-            "background_image_mobile": null,
             "icon": "none",
             "text": "Celebrate Labor Day",
             "sub_text": "Up to 40% OFF",
             "link": "shopify://pages/labour-day-sale",
-            "header-c47626a375905a6d7fd1f2faa2979179": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/labour-day-sale",
             "use_text_button": false,
-            "header-5ee2ca83ef7296ef902d471e35291d6b": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -53,13 +34,21 @@
       },
       "block_order": [
         "text_rajCq"
-      ]
+      ],
+      "disabled": true,
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "single",
+        "direction": "left",
+        "speed": "50s",
+        "use_block_colors": false,
+        "autoplay": false,
+        "autoplay_length": 10,
+        "background_color": "rgba(0,0,0,0)"
+      }
     },
     "announcement-bar": {
-      "disabled": false,
-      "settings": {
-        "background_color": "#5f43ff"
-      },
       "blocks": {
         "text_qr4nfc": {
           "disabled": true,
@@ -69,20 +58,15 @@
         },
         "text_XPEtn": {
           "type": "text",
-          "disabled": false,
           "settings": {
-            "background_image": null,
-            "background_image_mobile": null,
             "icon": "none",
             "text": "Samsung TV User Exclusive",
             "sub_text": "Explore Now🔥",
-            "link": "shopify://pages/samsung-1",
-            "header-5141280fbc5eb8fdb1def9ebf7233cca": null,
+            "link": "shopify://pages/samsung-verify",
             "button_text": "Explore Now",
             "button_color": "accent",
             "button_link": "",
             "use_text_button": false,
-            "header-e9d870b2f067b5d5149867f0090fbbcd": null,
             "color_bg": "#5f43ff",
             "color_text": "#ffffff"
           }
@@ -93,23 +77,19 @@
         "955bb93b-7a65-4933-8023-83a64ee46bc2",
         "text_qr4nfc",
         "text_XPEtn"
-      ]
+      ],
+      "settings": {
+        "background_color": "#5f43ff"
+      }
     },
     "header": {
-      "settings": {
-        "menu": "eu-header-new",
-        "transparent_header": false,
-        "mobile_secondary_menu": "",
-        "show_language_switcher": false
-      },
       "blocks": {
         "megamenu_FhUpxV": {
           "settings": {
             "promo_1_link": "shopify://pages/new-arrival",
             "promo_2_link": "shopify://collections/top-sellers",
             "promo_3_image": "shopify://shop_images/20250717-171101.jpg",
-            "promo_3_link": "shopify://pages/samsung-1",
-            "promo_4_image": null
+            "promo_3_link": "shopify://pages/samsung-verify"
           }
         },
         "megamenu_FkncAE": {
@@ -148,7 +128,11 @@
         "megamenu_FkncAE",
         "megamenu_VnKGDM",
         "megamenu_PedDaN"
-      ]
+      ],
+      "settings": {
+        "menu": "eu-header-new",
+        "mobile_secondary_menu": ""
+      }
     }
   },
   "order": [
