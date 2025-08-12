@@ -76,7 +76,8 @@
             "color_bg": "#171717",
             "color_title": "#574bfc",
             "color_text": "#ffffff",
-            "discount_code": "Add a discount code"
+            "discount_code": "Add a discount code",
+            "column_link": ""
           }
         },
         "column_WwdXMm": {
@@ -95,7 +96,8 @@
             "color_title": "#fc4bcc",
             "color_text": "#ffffff",
             "note_image": "shopify://shop_images/samsung-series-example.png",
-            "discount_code": "Add a discount code"
+            "discount_code": "Add a discount code",
+            "column_link": "shopify://pages/samsung"
           }
         }
       },
