@@ -15,18 +15,37 @@
   "sections": {
     "announcement_bar_TPJxh": {
       "type": "announcement-bar",
+      "disabled": true,
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "single",
+        "header-38fb4d5a47bba184ca4ec945585b5a60": null,
+        "direction": "left",
+        "speed": "20s",
+        "header-6c77e476282d51b2fb74505a551265c1": null,
+        "use_block_colors": false,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "background_color": "rgba(0,0,0,0)"
+      },
       "blocks": {
         "text_3tGKj": {
           "type": "text",
+          "disabled": false,
           "settings": {
+            "background_image": null,
+            "background_image_mobile": null,
             "icon": "none",
             "text": "Easter Sale",
             "sub_text": "UP TO 40% OFF!",
             "link": "shopify://pages/easter-sale",
+            "header-185faf8d34811ee955fcb15fa1a0e704": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/easter-sale",
             "use_text_button": false,
+            "header-d97aef945b1e3ba5858d943b01e46df9": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -34,21 +53,12 @@
       },
       "block_order": [
         "text_3tGKj"
-      ],
-      "disabled": true,
-      "settings": {
-        "announcement_bar": true,
-        "announcement_bar_homepage_only": false,
-        "announcement_bar_layout": "single",
-        "direction": "left",
-        "speed": "20s",
-        "use_block_colors": false,
-        "autoplay": true,
-        "autoplay_length": 5,
-        "background_color": "rgba(0,0,0,0)"
-      }
+      ]
     },
     "announcement-bar": {
+      "settings": {
+        "background_color": "#5f43ff"
+      },
       "blocks": {
         "955bb93b-7a65-4933-8023-83a64ee46bc2": {
           "settings": {
@@ -56,19 +66,25 @@
           }
         },
         "text_qr4nfc": {
-          "disabled": true
+          "disabled": true,
+          "settings": {}
         },
         "text_E38CH": {
           "type": "text",
+          "disabled": false,
           "settings": {
+            "background_image": null,
+            "background_image_mobile": null,
             "icon": "none",
             "text": "Samsung TV User Exclusive",
             "sub_text": "Explore Now🔥",
             "link": "shopify://pages/samsung-verify",
+            "header-605a05976565a53d0e60974add1275b5": null,
             "button_text": "Explore Now",
             "button_color": "accent",
             "button_link": "",
             "use_text_button": false,
+            "header-df833ac4169f7b4f889247b7e639fd55": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -79,16 +95,17 @@
         "955bb93b-7a65-4933-8023-83a64ee46bc2",
         "text_qr4nfc",
         "text_E38CH"
-      ],
-      "settings": {
-        "background_color": "#5f43ff"
-      }
+      ]
     },
     "header-secondary-menu": {
       "disabled": true,
-      "settings": {}
+      "settings": {},
+      "blocks": {}
     },
     "header": {
+      "settings": {
+        "menu": "us-header-new"
+      },
       "blocks": {
         "megamenu_FhUpxV": {
           "settings": {
@@ -104,7 +121,8 @@
             "promo_3_link": "shopify://collections/sets-bundles",
             "promo_4_image": "shopify://shop_images/20250717-171101.jpg",
             "promo_4_heading": "Samsung",
-            "promo_4_link": "shopify://pages/samsung-verify"
+            "promo_4_link": "shopify://pages/samsung-verify",
+            "heading_float": true
           }
         },
         "megamenu_FkncAE": {
@@ -128,7 +146,8 @@
             "promo_4_link": "shopify://collections/gaming-lights",
             "promo_5_heading": "Outdoor",
             "promo_5_link": "shopify://collections/outdoor-fun",
-            "promo_6_link": "shopify://collections/holiday-decor-lights"
+            "promo_6_link": "shopify://collections/holiday-decor-lights",
+            "heading_float": true
           }
         },
         "megamenu_PedDaN": {
@@ -140,9 +159,6 @@
             "promo_2_link": ""
           }
         }
-      },
-      "settings": {
-        "menu": "us-header-new"
       }
     }
   },
