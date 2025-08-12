@@ -81,7 +81,13 @@
           aria-label="{{ 'sections.signup.enter_your_email' | t }}"
         >
           {%- if activity -%}
-            {%- render 'svg-icons-wyze' with 'custom-wyze-submit' -%}
+            {%- if source == 'wyze' -%}
+              {%- render 'svg-icons-wyze' with 'custom-wyze-submit' -%}
+            {%- else -%}
+              <div class="activity-samsung-submit full-width full-height d-flex align-center justify-center">
+                Submit
+              </div>
+            {%- endif -%}
           {%- else -%}
             {% render 'svg-icons' with 'signup-submit' %}
           {%- endif -%}
