@@ -20,10 +20,10 @@
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
         "announcement_bar_layout": "single",
-        "header-9d8b521956da0a85a2b37d5d1639bb1f": null,
+        "header-c7214761b3e60a2d460600180628214f": null,
         "direction": "left",
         "speed": "50s",
-        "header-45ddbed6680bd909fdfcbbbcb605b8c5": null,
+        "header-4ac6f360844e07b5e6efdd98b4554017": null,
         "use_block_colors": false,
         "autoplay": false,
         "autoplay_length": 10,
@@ -40,12 +40,12 @@
             "text": "Celebrate Labor Day",
             "sub_text": "Up to 40% OFF",
             "link": "shopify://pages/labour-day-sale",
-            "header-efd0d1c801dde591acb6148045cae8d6": null,
+            "header-c47626a375905a6d7fd1f2faa2979179": null,
             "button_text": "Shop Now",
             "button_color": "accent",
             "button_link": "shopify://pages/labour-day-sale",
             "use_text_button": false,
-            "header-c001bed77bfbc86c737a9cbd73e71884": null,
+            "header-5ee2ca83ef7296ef902d471e35291d6b": null,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
           }
@@ -78,8 +78,9 @@
           "settings": {
             "promo_1_link": "shopify://pages/new-arrival",
             "promo_2_link": "shopify://collections/top-sellers",
-            "promo_3_image": "shopify://shop_images/c5be9df65dd133f1d93d7b8875de0aa7.png",
-            "promo_4_image": "shopify://shop_images/c5be9df65dd133f1d93d7b8875de0aa7.png"
+            "promo_3_image": "shopify://shop_images/20250717-171101.jpg",
+            "promo_4_image": null,
+            "promo_3_link": "shopify://pages/samsung-1"
           }
         },
         "megamenu_FkncAE": {
