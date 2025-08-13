@@ -13,6 +13,59 @@
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
   "sections": {
+    "shop_the_look_slider_33yC6m": {
+      "settings": {},
+      "blocks": {},
+      "block_order": [
+        "slide_nMwfm4",
+        "slide_6VMDww",
+        "slide_GcLTeG"
+      ]
+    },
+    "shop_the_look_slider_4EBHbg": {
+      "settings": {
+        "view_title": "Shop the Collection",
+        "link": "shopify://pages/topic-1"
+      },
+      "blocks": {}
+    },
+    "collection_list_7U8MXe": {
+      "settings": {
+        "collection_list": [
+          "ceiling-light",
+          "gaming-light",
+          "light-strip-bulbs",
+          "sensor-light",
+          "monitor-light-bar",
+          "desk-lamp"
+        ]
+      },
+      "blocks": {}
+    },
+    "1711998083986c24cc": {
+      "settings": {},
+      "blocks": {
+        "loox_reviews_loox_agg_section_RXGtX": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": false,
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 15,
+            "maxwidth": 1080,
+            "is_sample": true,
+            "paragraph-5b0b32904b0a82dd2f12d4367f9d5f40": null,
+            "paragraph-cfdd95854d71edcdfad1dd1e672d18ed": null
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_video_slider_y63DVW",
+        "loox_reviews_loox_agg_section_RXGtX"
+      ]
+    },
     "slideshow_AaGJwH": {
       "settings": {},
       "blocks": {
@@ -23,10 +76,10 @@
             "image": "shopify://shop_images/20250704-180210.jpg",
             "mobile_image": "shopify://shop_images/750_x_1100.png",
             "slide_link": "shopify://pages/independence-day",
-            "header-a6d2888532471f0ac1c837a7f33a0400": null,
+            "header-d1514f281ef0a19dc8c81d3d59377ee8": null,
             "video_background": false,
             "video_hosted": null,
-            "header-70e1b96dfbe7ae864c996c213d49218d": null,
+            "header-19f80175059b6f98a4df569a8593eabd": null,
             "badge_text": "",
             "subheading": "",
             "heading": "",
@@ -36,7 +89,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "header-b386dd7273ba46a6694db49ce7a6821d": null,
+            "header-4c1aa538644e18dad646f9ad18f1ea4f": null,
             "color_slidebg": "rgba(0,0,0,0)",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 0,
@@ -46,12 +99,12 @@
             "overlay_color": "#ffffff",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "header-860668e21ec8a5bf3ddf468c09602259": null,
+            "header-bb17ff030c190b0708bb8739b41ec1ae": null,
             "button_1_text": "",
             "button_1_color": "accent",
             "button_1_link": "",
             "use_text_button_1": false,
-            "header-dd6dfd6fbce7cd443a11611b61f45a57": null,
+            "header-8c99ef72d328e738fa03cb24fd6d7bd3": null,
             "button_2_text": "",
             "button_2_color": "white",
             "button_2_link": "",
@@ -65,10 +118,10 @@
             "image": "shopify://shop_images/banner_3f53eb8f-0cf7-44d7-ae4e-542204c709ed.jpg",
             "mobile_image": "shopify://shop_images/banner_fcb11144-d741-49b0-b2a1-82d50f216363.jpg",
             "slide_link": "shopify://pages/mothers-day-sale",
-            "header-06a653dd1502797248bb7fe82831daba": null,
+            "header-9bafeb1496372b8c8def1b84e8d68330": null,
             "video_background": false,
             "video_hosted": null,
-            "header-85abbc7120ba8e6cccdd2e747fdbb8f9": null,
+            "header-e87bc28cb01c5423633660725081c101": null,
             "badge_text": "",
             "subheading": "",
             "heading": "",
@@ -78,7 +131,7 @@
             "content_position": "middle-center",
             "text_alignment": "center",
             "content_size": "medium",
-            "header-7d280a5af57bcd078f38eef2f9ffd8b4": null,
+            "header-eaeb02a5d73ba2e88b80d749d7e811cd": null,
             "color_slidebg": "rgba(0,0,0,0)",
             "color_slidebg_opacity": 0,
             "color_slidebg_blur": 0,
@@ -88,12 +141,12 @@
             "overlay_color": "#ffffff",
             "overlay_opacity": 0,
             "overlay_gradient": "",
-            "header-8e6fd462f211f6588c6fdfbd237c5c51": null,
+            "header-5fb6f8f74034d9199929fd4b490e2e63": null,
             "button_1_text": "",
             "button_1_color": "accent",
             "button_1_link": "",
             "use_text_button_1": false,
-            "header-d6a0a06b955d8a133a63243831b8f716": null,
+            "header-992fbd9b74d1638b5d6477c99794be3f": null,
             "button_2_text": "",
             "button_2_color": "white",
             "button_2_link": "",
@@ -123,68 +176,23 @@
             "slide_link": "shopify://pages/independence-day",
             "content": ""
           }
+        },
+        "slide_E8nF4j": {
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/samsungbanner.jpg",
+            "slide_link": "shopify://pages/samsung-verify"
+          }
         }
       },
       "block_order": [
         "slide_yHTReh",
         "slide_xfFJL",
+        "slide_E8nF4j",
         "slide_rYUPUw",
         "slide_Apj7XN",
         "slide_gEb3pq"
       ]
-    },
-    "shop_the_look_slider_33yC6m": {
-      "settings": {},
-      "blocks": {},
-      "block_order": [
-        "slide_nMwfm4",
-        "slide_6VMDww",
-        "slide_GcLTeG"
-      ]
-    },
-    "shop_the_look_slider_4EBHbg": {
-      "settings": {
-        "view_title": "Shop the Collection",
-        "link": "shopify://pages/topic-1"
-      },
-      "blocks": {}
-    },
-    "1711998083986c24cc": {
-      "settings": {},
-      "blocks": {
-        "loox_reviews_loox_agg_section_RXGtX": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": false,
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 15,
-            "maxwidth": 1080,
-            "is_sample": true,
-            "paragraph-632496f52a01320fbde3d285095b32dc": null,
-            "paragraph-d8edcedd62458a60d8fc5080fd692849": null
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_video_slider_y63DVW",
-        "loox_reviews_loox_agg_section_RXGtX"
-      ]
-    },
-    "collection_list_7U8MXe": {
-      "settings": {
-        "collection_list": [
-          "ceiling-light",
-          "gaming-light",
-          "light-strip-bulbs",
-          "sensor-light",
-          "monitor-light-bar",
-          "desk-lamp"
-        ]
-      },
-      "blocks": {}
     }
   },
   "order": [
