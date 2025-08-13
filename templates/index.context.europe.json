@@ -89,6 +89,162 @@
       ],
       "name": "Shop the look slider"
     },
+    "shop_the_look_slider_4EBHbg": {
+      "settings": {
+        "link": "shopify://collections/living-room"
+      },
+      "blocks": {
+        "slide_nCkgHt": {
+          "settings": {
+            "image_mobile": "shopify://shop_images/66.png"
+          }
+        }
+      }
+    },
+    "shop_the_look_slider_33yC6m": {
+      "disabled": false,
+      "settings": {
+        "link": "shopify://collections/living-room"
+      },
+      "blocks": {
+        "slide_6VMDww": {
+          "disabled": true,
+          "settings": {}
+        },
+        "slide_nMwfm4": {
+          "disabled": true,
+          "settings": {}
+        },
+        "slide_GcLTeG": {
+          "disabled": true,
+          "settings": {}
+        },
+        "slide_Y3R9Y": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "header-9815ebb0d548552aa5f4805875751b97": null,
+            "button_icon": "",
+            "button_text": "1",
+            "image": "shopify://shop_images/20250801-100011.jpg",
+            "image_mobile": "shopify://shop_images/67.png",
+            "header-cd099a5c4495e05741de24fa72011125": null,
+            "product_handle_1": "bundle-save",
+            "header-a59390541649459f7d7af8da69b301e4": null,
+            "x_position_1": 25,
+            "y_position_1": 17,
+            "header-37b1f31dc78274a5a20ead46cf23db7d": null,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "header-2b5e690ad2634f99909fe0210d59d493": null,
+            "product_handle_2": "yeelight-ultra-thin-intelligent-linkage-cabinet-light",
+            "header-03d0e4c282c173855b5785609b3a510b": null,
+            "x_position_2": 3,
+            "y_position_2": 49,
+            "header-5c30577caa6d3fcb9cfc6df9b793f680": null,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "header-1bb8d3a49a4428864ea3d551fb939eaf": null,
+            "product_handle_3": "yeelight-candela-lamp",
+            "header-9fa59cfd8bedefc09c7411fa4b8a8bd3": null,
+            "x_position_3": 55,
+            "y_position_3": 68,
+            "header-ecf221dc40d52e00745d6bdbd109c8c2": null,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 0,
+            "header-10e211b9627413cf3193a42d5afcf6f8": null,
+            "product_handle_4": "",
+            "header-526149d8acd0c3a483ec4267ac311805": null,
+            "x_position_4": 20,
+            "y_position_4": 20,
+            "header-b60c184630022d9c4acb61f1ab03c77b": null,
+            "x_position_mobile_4": 20,
+            "y_position_mobile_4": 20,
+            "header-036334b55da12687d202f82cb77d2b98": null,
+            "product_handle_5": "",
+            "header-a28847e207be6d72843c537bc7471cc9": null,
+            "x_position_5": 20,
+            "y_position_5": 20,
+            "header-05c7dcf991d5d65d414366019f316e9f": null,
+            "x_position_mobile_5": 20,
+            "y_position_mobile_5": 20
+          }
+        }
+      },
+      "block_order": [
+        "slide_6VMDww",
+        "slide_nMwfm4",
+        "slide_GcLTeG",
+        "slide_Y3R9Y"
+      ]
+    },
+    "shop_the_look_slider_rFbmyG": {
+      "settings": {},
+      "blocks": {
+        "slide_Fzr8PT": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "header-42039ce802d3ad81b455b0f35a4a7936": null,
+            "button_icon": "custom-valentine",
+            "button_text": "Home",
+            "image": "shopify://shop_images/3_26c505ec-f8e7-4352-b76e-596cad624aa1.jpg",
+            "image_mobile": "shopify://shop_images/38.png",
+            "header-fb7838a9f4dbdab6488d0a41c59f79c0": null,
+            "product_handle_1": "yeelight-rgbic-led-basic-strip-lights",
+            "header-c9557caff96649db363dfb899294f6cf": null,
+            "x_position_1": 20,
+            "y_position_1": 10,
+            "header-1e4eba8e65cb69b3c2d724b1acce0611": null,
+            "x_position_mobile_1": 20,
+            "y_position_mobile_1": 20,
+            "header-7d7890a285825f626556cfaef17791a2": null,
+            "product_handle_2": "a-yeelight-curtain-lights",
+            "header-7c1bbfe2b7a0375a6080276420e98d26": null,
+            "x_position_2": 80,
+            "y_position_2": 50,
+            "header-5a4ff34fc5522243f2a093a25734302d": null,
+            "x_position_mobile_2": 20,
+            "y_position_mobile_2": 20,
+            "header-06cd01a2b16e8ed6afbbc60c37d4699a": null,
+            "product_handle_3": "yeelight-obsid-rgbic-light-strip",
+            "header-51bad71815999a091679f2bae898e1e6": null,
+            "x_position_3": 25,
+            "y_position_3": 72,
+            "header-41f7a8059a5863bd343274eccd03555c": null,
+            "x_position_mobile_3": 20,
+            "y_position_mobile_3": 20,
+            "header-39ccdfc3ef5dfdbfda31a64d19731966": null,
+            "product_handle_4": "",
+            "header-bc669c64218aac0867f4a62f6c304ecb": null,
+            "x_position_4": 20,
+            "y_position_4": 20,
+            "header-0d21a3ed4404763bbcca9fb59c3e85e3": null,
+            "x_position_mobile_4": 20,
+            "y_position_mobile_4": 20,
+            "header-cc535c7854c78cbb62408e72262216fe": null,
+            "product_handle_5": "",
+            "header-9c9a3ad2ae11c8df075a7a660ae4b57d": null,
+            "x_position_5": 20,
+            "y_position_5": 20,
+            "header-39350fadebec755780482d83698c87dc": null,
+            "x_position_mobile_5": 20,
+            "y_position_mobile_5": 20
+          }
+        }
+      },
+      "block_order": [
+        "slide_Fzr8PT",
+        "slide_6haFVF",
+        "slide_4qH4Nh"
+      ]
+    },
+    "logo_list_RWbxLf": {
+      "settings": {
+        "heading": "Brand Partners"
+      },
+      "blocks": {}
+    },
     "slideshow_AaGJwH": {
       "settings": {
         "desktop_height": "desktop-height-image"
@@ -332,10 +488,6 @@
         "slide_E8nF4j": {
           "disabled": true,
           "settings": {}
-        },
-        "slide_BDHRjb": {
-          "disabled": true,
-          "settings": {}
         }
       },
       "block_order": [
@@ -344,168 +496,12 @@
         "slide_fMkqa",
         "slide_JcXiX",
         "slide_Apj7XN",
+        "slide_terdc3",
         "slide_gEb3pq",
         "slide_TXUC3V",
         "slide_ytVX3Y",
-        "slide_E8nF4j",
-        "slide_BDHRjb"
+        "slide_E8nF4j"
       ]
-    },
-    "shop_the_look_slider_4EBHbg": {
-      "settings": {
-        "link": "shopify://collections/living-room"
-      },
-      "blocks": {
-        "slide_nCkgHt": {
-          "settings": {
-            "image_mobile": "shopify://shop_images/66.png"
-          }
-        }
-      }
-    },
-    "shop_the_look_slider_33yC6m": {
-      "disabled": false,
-      "settings": {
-        "link": "shopify://collections/living-room"
-      },
-      "blocks": {
-        "slide_6VMDww": {
-          "disabled": true,
-          "settings": {}
-        },
-        "slide_nMwfm4": {
-          "disabled": true,
-          "settings": {}
-        },
-        "slide_GcLTeG": {
-          "disabled": true,
-          "settings": {}
-        },
-        "slide_Y3R9Y": {
-          "type": "slide",
-          "disabled": false,
-          "settings": {
-            "header-9815ebb0d548552aa5f4805875751b97": null,
-            "button_icon": "",
-            "button_text": "1",
-            "image": "shopify://shop_images/20250801-100011.jpg",
-            "image_mobile": "shopify://shop_images/67.png",
-            "header-cd099a5c4495e05741de24fa72011125": null,
-            "product_handle_1": "bundle-save",
-            "header-a59390541649459f7d7af8da69b301e4": null,
-            "x_position_1": 25,
-            "y_position_1": 17,
-            "header-37b1f31dc78274a5a20ead46cf23db7d": null,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "header-2b5e690ad2634f99909fe0210d59d493": null,
-            "product_handle_2": "yeelight-ultra-thin-intelligent-linkage-cabinet-light",
-            "header-03d0e4c282c173855b5785609b3a510b": null,
-            "x_position_2": 3,
-            "y_position_2": 49,
-            "header-5c30577caa6d3fcb9cfc6df9b793f680": null,
-            "x_position_mobile_2": 20,
-            "y_position_mobile_2": 20,
-            "header-1bb8d3a49a4428864ea3d551fb939eaf": null,
-            "product_handle_3": "yeelight-candela-lamp",
-            "header-9fa59cfd8bedefc09c7411fa4b8a8bd3": null,
-            "x_position_3": 55,
-            "y_position_3": 68,
-            "header-ecf221dc40d52e00745d6bdbd109c8c2": null,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 0,
-            "header-10e211b9627413cf3193a42d5afcf6f8": null,
-            "product_handle_4": "",
-            "header-526149d8acd0c3a483ec4267ac311805": null,
-            "x_position_4": 20,
-            "y_position_4": 20,
-            "header-b60c184630022d9c4acb61f1ab03c77b": null,
-            "x_position_mobile_4": 20,
-            "y_position_mobile_4": 20,
-            "header-036334b55da12687d202f82cb77d2b98": null,
-            "product_handle_5": "",
-            "header-a28847e207be6d72843c537bc7471cc9": null,
-            "x_position_5": 20,
-            "y_position_5": 20,
-            "header-05c7dcf991d5d65d414366019f316e9f": null,
-            "x_position_mobile_5": 20,
-            "y_position_mobile_5": 20
-          }
-        }
-      },
-      "block_order": [
-        "slide_6VMDww",
-        "slide_nMwfm4",
-        "slide_GcLTeG",
-        "slide_Y3R9Y"
-      ]
-    },
-    "shop_the_look_slider_rFbmyG": {
-      "settings": {},
-      "blocks": {
-        "slide_Fzr8PT": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "header-42039ce802d3ad81b455b0f35a4a7936": null,
-            "button_icon": "custom-valentine",
-            "button_text": "Home",
-            "image": "shopify://shop_images/3_26c505ec-f8e7-4352-b76e-596cad624aa1.jpg",
-            "image_mobile": "shopify://shop_images/38.png",
-            "header-fb7838a9f4dbdab6488d0a41c59f79c0": null,
-            "product_handle_1": "yeelight-rgbic-led-basic-strip-lights",
-            "header-c9557caff96649db363dfb899294f6cf": null,
-            "x_position_1": 20,
-            "y_position_1": 10,
-            "header-1e4eba8e65cb69b3c2d724b1acce0611": null,
-            "x_position_mobile_1": 20,
-            "y_position_mobile_1": 20,
-            "header-7d7890a285825f626556cfaef17791a2": null,
-            "product_handle_2": "a-yeelight-curtain-lights",
-            "header-7c1bbfe2b7a0375a6080276420e98d26": null,
-            "x_position_2": 80,
-            "y_position_2": 50,
-            "header-5a4ff34fc5522243f2a093a25734302d": null,
-            "x_position_mobile_2": 20,
-            "y_position_mobile_2": 20,
-            "header-06cd01a2b16e8ed6afbbc60c37d4699a": null,
-            "product_handle_3": "yeelight-obsid-rgbic-light-strip",
-            "header-51bad71815999a091679f2bae898e1e6": null,
-            "x_position_3": 25,
-            "y_position_3": 72,
-            "header-41f7a8059a5863bd343274eccd03555c": null,
-            "x_position_mobile_3": 20,
-            "y_position_mobile_3": 20,
-            "header-39ccdfc3ef5dfdbfda31a64d19731966": null,
-            "product_handle_4": "",
-            "header-bc669c64218aac0867f4a62f6c304ecb": null,
-            "x_position_4": 20,
-            "y_position_4": 20,
-            "header-0d21a3ed4404763bbcca9fb59c3e85e3": null,
-            "x_position_mobile_4": 20,
-            "y_position_mobile_4": 20,
-            "header-cc535c7854c78cbb62408e72262216fe": null,
-            "product_handle_5": "",
-            "header-9c9a3ad2ae11c8df075a7a660ae4b57d": null,
-            "x_position_5": 20,
-            "y_position_5": 20,
-            "header-39350fadebec755780482d83698c87dc": null,
-            "x_position_mobile_5": 20,
-            "y_position_mobile_5": 20
-          }
-        }
-      },
-      "block_order": [
-        "slide_Fzr8PT",
-        "slide_6haFVF",
-        "slide_4qH4Nh"
-      ]
-    },
-    "logo_list_RWbxLf": {
-      "settings": {
-        "heading": "Brand Partners"
-      },
-      "blocks": {}
     }
   },
   "order": [
