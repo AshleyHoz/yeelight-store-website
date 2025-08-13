@@ -81,18 +81,18 @@
           {%- endif -%}
         </div>
         <div class="activity-samsung--email full-width full-height d-flex align-center">
-          <div class="d-flex align-center justify-center flex-column full-width">
+          <div class="d-flex align-center justify-center flex-column full-width full-height">
             {%- for block in section.blocks -%}
               {%- case block.type -%}
                 {%- when 'discount' -%}
-                  <div class="activity-samsung--discount full-width text-center mb-3 d-flex align-center justify-center flex-column">
+                  <div class="activity-samsung--discount full-width text-center mb-4 d-flex align-center justify-center flex-column">
                     {%- if block.settings.show_code -%}
                       <div
                         id="discount-code"
-                        class="discount-code mb-4 d-flex align-center justify-center"
+                        class="discount-code d-flex align-center justify-center"
                         data-code="{{ block.settings.discount_code }}"
                       ></div>
-                      <div class="discount-btn mb-3 d-flex align-center justify-center">
+                      <div class="discount-btn my-4 d-flex align-center justify-center">
                         <button
                           id="discount-code-btn"
                           class="position-relative d-flex align-center justify-center px-3 py-2"
@@ -132,7 +132,7 @@
               {%- endcase -%}
             {%- endfor -%}
           </div>
-          <div class="activity-samsung--text text-center">20% OFF</div>
+          <div class="activity-samsung--text text-center d-flex align-center justify-center">20% OFF</div>
         </div>
       </div>
       <div class="activity-samsung--remark">
@@ -153,7 +153,7 @@
       const fragment = document.createDocumentFragment();
       for (let ch of code) {
         const str = document.createElement('div');
-        str.className = 'coupon-char pl-4 pr-2 py-1 mx-1 text-center';
+        str.className = 'coupon-char text-center';
         str.textContent = ch;
         fragment.appendChild(str);
       }

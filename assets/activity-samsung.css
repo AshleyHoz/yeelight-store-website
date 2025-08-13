@@ -7,6 +7,14 @@
   position: relative;
 }
 
+.yee-theme-light .activity-samsung {
+  background: var(--dark-bg-body);
+}
+
+.yee-theme-dark .activity-samsung {
+  background: var(--light-bg-body);
+}
+
 .activity-samsung--bg {
   position: absolute;
   top: 0;
@@ -85,6 +93,8 @@
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 10px;
+  padding: 5px 10px 5px 20px;
+  margin: 0 5px;
 }
 
 .activity-samsung .activity-samsung--discount .discount-btn button {
@@ -151,6 +161,8 @@
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  align-items: center;
 }
 
 .activity-samsung--email input[type='email'] {
@@ -184,6 +196,12 @@
   max-height: 50px;
   width: 110px;
   border: unset;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: linear-gradient(118deg, #2529FF 0%, #EF00B7 100%);
+  border-radius: 51px 51px 51px 51px;
+  padding: 0 20px;
 }
 
 .activity-samsung--email .signup-container .signup-form fieldset svg {
@@ -210,19 +228,12 @@
 }
 
 .activity-samsung--email .signup-container .signup-container--terms a {
-  color: #fff;
   font-size: 16px;
   font-weight: 275;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-skip-ink: auto;
-  text-decoration-thickness: auto;
-  text-underline-offset: auto;
-  text-underline-position: from-font;
-  text-transform: capitalize;
   text-align: left;
   width: 100%;
   display: block;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .activity-samsung--email .signup-container .signup-container--terms a:hover {
@@ -275,16 +286,7 @@
   opacity: .9;
 }
 
-.activity-samsung--email .signup-container .activity-samsung-submit {
-  font-weight: 400;
-  font-size: 16px;
-  color: #FFFFFF;
-  background: linear-gradient(118deg, #2529FF 0%, #EF00B7 100%);
-  border-radius: 51px 51px 51px 51px;
-  padding: 0 20px;
-}
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .yee-activity-samsung .activity-samsung {
     /* background-image: var(--background-image-mobile); */
     padding: 24px 16px 0 !important;
@@ -330,14 +332,42 @@
     margin-bottom: 28px;
   }
 
+  .activity-samsung .activity-samsung--discount .discount-btn {
+    margin: 10px 0;
+  }
+
+  .activity-samsung .activity-samsung--discount .discount-btn span {
+    padding-top: 2px;
+  }
+
+  .activity-samsung .signup-container {
+    max-width: 280px;
+  }
+
+  .activity-samsung--email {
+    flex-direction: column;
+  }
+
   .activity-samsung--email input[type='email'] {
     font-size: 16px;
-    padding: 0 16px;
+    padding: 0 8px;
+    height: 32px;
   }
 
   .activity-samsung--email .signup-container .signup-form .field label {
-    font-size: 15.108px;
+    font-size: 14px;
     font-weight: 400;
+    padding: 0 20px;
+    height: 32px;
+    top: 0;
+  }
+
+  .activity-samsung--email .signup-container button {
+    background: linear-gradient(118deg, #EEADFF 0%, #C907FC 100%);
+    max-height: 26px;
+    width: 75px;
+    border-radius: 50px;
+    font-size: 14px;
   }
 
   .activity-samsung--email .signup-container .signup-form fieldset svg {
@@ -352,14 +382,41 @@
   }
 
   .activity-samsung--email .signup-container .signup-container--terms a {
-    font-size: 12px;
-    font-weight: 275;
+    font-size: 10px;
+    font-weight: 300;
   }
 
   .activity-samsung--email .signup-container .custom-filter-checkbox[type='checkbox'] {
     width: 16px;
     min-width: 16px;
     height: 16px;
+  }
+
+  .activity-samsung--email .signup-container .custom-filter-checkbox[type='checkbox']:checked::before {
+    left: 4px;
+    top: 0px;
+  }
+
+  .activity-samsung--email .activity-samsung--discount {
+    margin-top: 50px;
+  }
+
+  .activity-samsung--email .activity-samsung--discount .coupon-char {
+    background: rgba(255, 231, 255, 0.16);
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding: 2px 2px 0 6px;
+    margin: 0 2px;
+  }
+
+  .activity-samsung--email .activity-samsung--text {
+    width: 100%;
+    height: 20%;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
   }
 
   .activity-samsung--remark {
@@ -378,7 +435,7 @@
   }
 
   .activity-samsung--cover-mobile img {
-    width: 90%;
+    width: 100%;
     height: auto;
   }
 }

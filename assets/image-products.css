@@ -115,6 +115,7 @@
 .image-products-row {
   z-index: 2;
   position: relative;
+  padding: 0;
 }
 
 .image-products-halloween-hand {
@@ -133,7 +134,7 @@
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .image-products {
     padding: 40px 0;
   }
@@ -198,6 +199,7 @@
 
   .image-products--product {
     gap: 12px;
+    padding: 0 16px;
   }
 
   .image-products .product-item {
