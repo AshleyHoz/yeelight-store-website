@@ -51,6 +51,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/samsungbanner.jpg",
+            "mobile_image": "shopify://shop_images/samsungbanner-m.jpg",
             "slide_link": "shopify://pages/samsung-verify",
             "video_background": false,
             "badge_text": "",
