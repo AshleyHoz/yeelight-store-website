@@ -13,6 +13,169 @@
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
   "sections": {
+    "slideshow_AaGJwH": {
+      "settings": {},
+      "blocks": {
+        "slide_yHTReh": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/20250704-180210.jpg",
+            "mobile_image": "shopify://shop_images/750_x_1100.png",
+            "slide_link": "shopify://pages/independence-day",
+            "header-0a5a8386b461dae0c0d9956865130463": null,
+            "video_background": false,
+            "video_hosted": null,
+            "header-1f0300269ce83b1686488f7ac4348035": null,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "header-3e500df6cd672dc4ae76c40699cb7f88": null,
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#ffffff",
+            "color_badge_bg": "#ffffff",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "header-dbc5086545656882e7212af1f8c71c02": null,
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "header-79043ea7d196b3567f5ba433142c1a7f": null,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_xfFJL": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/banner_3f53eb8f-0cf7-44d7-ae4e-542204c709ed.jpg",
+            "mobile_image": "shopify://shop_images/banner_fcb11144-d741-49b0-b2a1-82d50f216363.jpg",
+            "slide_link": "shopify://pages/mothers-day-sale",
+            "header-3e357c7541c13ca07c15b78ff5b5d1d0": null,
+            "video_background": false,
+            "video_hosted": null,
+            "header-d12f9405c44e99166a0878e4bf8a47c0": null,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "header-c1896ae0fceac6f18664744f7f6fd519": null,
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#ffffff",
+            "color_badge_bg": "#ffffff",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "overlay_gradient": "",
+            "header-7e2089cfeaa54805fd3e6221ebb4355e": null,
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "header-0d76323cb8243f40f3fe0a9312328e15": null,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_dFFi6": {
+          "type": "slide",
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/samsungbanner.jpg",
+            "mobile_image": "shopify://shop_images/samsungbanner-m.jpg",
+            "slide_link": "shopify://pages/samsung-verify",
+            "header-e233b339635a1dd4ce6d6081bc996633": null,
+            "video_background": false,
+            "video_hosted": null,
+            "header-b53956bcd8878f485dcce44c542dde05": null,
+            "badge_text": "",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
+            "content": "",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "medium",
+            "header-5bc4c00fb49dc338828a1706ab98128c": null,
+            "color_slidebg": "rgba(0,0,0,0)",
+            "color_slidebg_opacity": 0,
+            "color_slidebg_blur": 0,
+            "color_text": "#2c2d2e",
+            "color_badge_bg": "#3f72e5",
+            "color_badge_text": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "",
+            "header-2c801f37daecd45654961934ff5a1f07": null,
+            "button_1_text": "",
+            "button_1_color": "accent",
+            "button_1_link": "",
+            "use_text_button_1": false,
+            "header-99fd8e77e7c8474732caef328131b86a": null,
+            "button_2_text": "",
+            "button_2_color": "white",
+            "button_2_link": "",
+            "use_text_button_2": false
+          }
+        },
+        "slide_rYUPUw": {
+          "disabled": false,
+          "settings": {
+            "image": "shopify://shop_images/Cube_Lite_Banner_PC.jpg",
+            "mobile_image": "shopify://shop_images/Cube_Lite_Banner_M.jpg",
+            "slide_link": "shopify://products/yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "slide_Apj7XN": {
+          "settings": {
+            "image": "shopify://shop_images/candela_b7b2b501-6b9b-4984-86d5-f0604ea76189.jpg",
+            "mobile_image": "shopify://shop_images/candela_fd4d974d-a2b6-4ef7-8743-2828b6bd76bf.jpg",
+            "slide_link": "shopify://products/yeelight-candela-lamp"
+          }
+        },
+        "slide_gEb3pq": {
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Cube_6.jpg",
+            "mobile_image": "shopify://shop_images/cube_18575f6a-2999-4223-8f2a-a30145b6dd9e.jpg",
+            "slide_link": "shopify://pages/independence-day",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_yHTReh",
+        "slide_xfFJL",
+        "slide_dFFi6",
+        "slide_rYUPUw",
+        "slide_Apj7XN",
+        "slide_gEb3pq"
+      ]
+    },
     "shop_the_look_slider_33yC6m": {
       "settings": {},
       "blocks": {},
@@ -56,134 +219,14 @@
             "data-limit": 15,
             "maxwidth": 1080,
             "is_sample": true,
-            "paragraph-3082135581cecc10e7021d91041daf69": null,
-            "paragraph-08d8b898bfdc90cb975296a05fed28ff": null
+            "paragraph-7050b59f04403d16d2edf0e631dca985": null,
+            "paragraph-6c28a51974d65479fdfdb7d45694fa78": null
           }
         }
       },
       "block_order": [
         "loox_reviews_loox_video_slider_y63DVW",
         "loox_reviews_loox_agg_section_RXGtX"
-      ]
-    },
-    "slideshow_AaGJwH": {
-      "settings": {},
-      "blocks": {
-        "slide_yHTReh": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/20250704-180210.jpg",
-            "mobile_image": "shopify://shop_images/750_x_1100.png",
-            "slide_link": "shopify://pages/independence-day",
-            "header-56c014a094b30d38571fbc8c12535e55": null,
-            "video_background": false,
-            "video_hosted": null,
-            "header-e5eb27c0f9479914c55a908135f66876": null,
-            "badge_text": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "header-a30ebba9e34790e1b1e004a8085bdfce": null,
-            "color_slidebg": "rgba(0,0,0,0)",
-            "color_slidebg_opacity": 0,
-            "color_slidebg_blur": 0,
-            "color_text": "#ffffff",
-            "color_badge_bg": "#ffffff",
-            "color_badge_text": "#ffffff",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 0,
-            "overlay_gradient": "",
-            "header-ccab702db5661e0fc765c8e7e5655123": null,
-            "button_1_text": "",
-            "button_1_color": "accent",
-            "button_1_link": "",
-            "use_text_button_1": false,
-            "header-d39ce3f3e50fbc55882fadde1325ee24": null,
-            "button_2_text": "",
-            "button_2_color": "white",
-            "button_2_link": "",
-            "use_text_button_2": false
-          }
-        },
-        "slide_xfFJL": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/banner_3f53eb8f-0cf7-44d7-ae4e-542204c709ed.jpg",
-            "mobile_image": "shopify://shop_images/banner_fcb11144-d741-49b0-b2a1-82d50f216363.jpg",
-            "slide_link": "shopify://pages/mothers-day-sale",
-            "header-9b3562921cac3997fcc28e70c9ce7a35": null,
-            "video_background": false,
-            "video_hosted": null,
-            "header-524a2fa67eec4f0bbe40edf854a342e1": null,
-            "badge_text": "",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "h1",
-            "content": "",
-            "description_size": "medium",
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "content_size": "medium",
-            "header-34a0d694682d459c7539520b591d5aa2": null,
-            "color_slidebg": "rgba(0,0,0,0)",
-            "color_slidebg_opacity": 0,
-            "color_slidebg_blur": 0,
-            "color_text": "#ffffff",
-            "color_badge_bg": "#ffffff",
-            "color_badge_text": "#ffffff",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 0,
-            "overlay_gradient": "",
-            "header-09f78d54d9fa6598f8864440d6b4a436": null,
-            "button_1_text": "",
-            "button_1_color": "accent",
-            "button_1_link": "",
-            "use_text_button_1": false,
-            "header-8ad0e43a30f106dede98b5b7fdb035e1": null,
-            "button_2_text": "",
-            "button_2_color": "white",
-            "button_2_link": "",
-            "use_text_button_2": false
-          }
-        },
-        "slide_rYUPUw": {
-          "disabled": false,
-          "settings": {
-            "image": "shopify://shop_images/Cube_Lite_Banner_PC.jpg",
-            "mobile_image": "shopify://shop_images/Cube_Lite_Banner_M.jpg",
-            "slide_link": "shopify://products/yeelight-smart-lamp-cube-lite"
-          }
-        },
-        "slide_Apj7XN": {
-          "settings": {
-            "image": "shopify://shop_images/candela_b7b2b501-6b9b-4984-86d5-f0604ea76189.jpg",
-            "mobile_image": "shopify://shop_images/candela_fd4d974d-a2b6-4ef7-8743-2828b6bd76bf.jpg",
-            "slide_link": "shopify://products/yeelight-candela-lamp"
-          }
-        },
-        "slide_gEb3pq": {
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Cube_6.jpg",
-            "mobile_image": "shopify://shop_images/cube_18575f6a-2999-4223-8f2a-a30145b6dd9e.jpg",
-            "slide_link": "shopify://pages/independence-day",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_yHTReh",
-        "slide_xfFJL",
-        "slide_rYUPUw",
-        "slide_Apj7XN",
-        "slide_gEb3pq"
       ]
     }
   },
