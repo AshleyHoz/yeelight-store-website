@@ -72,12 +72,12 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "Add campaign text here.",
-            "sub_text": "Add sub campaign text here.",
-            "link": "",
+            "text": "Samsung TV User Exclusive",
+            "sub_text": "Explore Now🔥",
+            "link": "shopify://pages/samsung-verify",
             "button_text": "Shop Now",
             "button_color": "accent",
-            "button_link": "",
+            "button_link": "shopify://pages/samsung-verify",
             "use_text_button": false,
             "color_bg": "#3f72e5",
             "color_text": "#ffffff"
