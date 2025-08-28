@@ -20,7 +20,8 @@
       "settings": {
         "heading": "",
         "cover_title": "Every Frame Extends, Every Color Breaths",
-        "cover_image": "shopify://shop_images/samsung-banner-logo.png",
+        "cover_logo": "shopify://shop_images/samsung-banner-logo.png",
+        "cover_image": "shopify://shop_images/samsung-banner-img.png",
         "marker_style": "style1",
         "description": "",
         "full_width": true,
@@ -173,23 +174,6 @@
     },
     "1754535192d39de9c3": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_j6bFtJ": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_j6bFtJ"
-      ],
       "settings": {}
     }
   },
