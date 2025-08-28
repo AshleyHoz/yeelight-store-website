@@ -244,16 +244,16 @@
   .video-cover img {
     width: 330px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   .video-cover .cover-logo img {
-    width: 300px;
+    width: 280px;
     height: auto;
   }
 
   .video-cover .cover-image img {
-    width: 200px;
+    width: 180px;
     height: auto;
   }
 
