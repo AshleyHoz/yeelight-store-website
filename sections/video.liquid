@@ -71,7 +71,7 @@
   {%- if show_cover -%}
     <div class="video-cover full-width full-height text-center">
       {%- if cover_logo -%}
-        <div class="cover-logo mb-6">
+        <div class="cover-logo">
           {%- render 'responsive-image', image: cover_logo, sizes: cover_logo.src.width | append: 'x' | append: cover_logo.src.height -%}
         </div>
       {%- endif -%}
