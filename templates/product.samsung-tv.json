@@ -217,7 +217,9 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "link": "",
+        "link": "shopify://products/yeelight-beam-rgbic-light-bar",
+        "image": "shopify://shop_images/samsung08.jpg",
+        "image_mobile": "shopify://shop_images/samsung-m08.jpg",
         "full_width": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
