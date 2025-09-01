@@ -245,7 +245,7 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "link": "",
+        "link": "shopify://products/yeelight-smart-lamp-cube-lite",
         "image": "shopify://shop_images/samsung10.jpg",
         "full_width": false,
         "disable_top_spacing": false,
