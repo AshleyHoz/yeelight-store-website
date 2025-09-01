@@ -246,6 +246,7 @@
       "name": "Single image",
       "settings": {
         "link": "",
+        "image": "shopify://shop_images/samsung10.jpg",
         "full_width": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
