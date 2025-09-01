@@ -162,7 +162,8 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/Frame_1686633401.jpg",
+        "image": "shopify://shop_images/samsung04.jpg",
+        "image_mobile": "shopify://shop_images/samsung-m04.jpg",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
@@ -175,6 +176,8 @@
       "name": "Single image",
       "settings": {
         "link": "",
+        "image": "shopify://shop_images/samsung05.jpg",
+        "image_mobile": "shopify://shop_images/samsung-m05.jpg",
         "full_width": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
@@ -187,6 +190,8 @@
       "name": "Single image",
       "settings": {
         "link": "",
+        "image": "shopify://shop_images/samsung06.jpg",
+        "image_mobile": "shopify://shop_images/samsung-m06.jpg",
         "full_width": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
@@ -198,7 +203,9 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "link": "",
+        "link": "shopify://products/yeelight-obsid-rgbic-light-strip",
+        "image": "shopify://shop_images/samsung07.jpg",
+        "image_mobile": "shopify://shop_images/samsung-m07.jpg",
         "full_width": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
