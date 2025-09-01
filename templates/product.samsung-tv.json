@@ -231,7 +231,9 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "link": "",
+        "link": "shopify://products/yeelight-smart-cube",
+        "image": "shopify://shop_images/samsung09.jpg",
+        "image_mobile": "shopify://shop_images/samsung-m09.jpg",
         "full_width": false,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
