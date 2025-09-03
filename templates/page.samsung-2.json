@@ -92,10 +92,10 @@
     "custom_liquid_4Fk7Mk": {
       "type": "image-products",
       "blocks": {
-        "product_nmh8jV": {
+        "product_BTfM4U": {
           "type": "product",
           "settings": {
-            "product": "yeelight-smart-cube"
+            "product": "yeelight-obsid-rgbic-light-strip"
           }
         },
         "product_Qger9E": {
@@ -104,24 +104,24 @@
             "product": "yeelight-smart-lamp-cube-lite"
           }
         },
+        "product_nmh8jV": {
+          "type": "product",
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        },
         "product_wG8iCm": {
           "type": "product",
           "settings": {
             "product": "yeelight-beam-rgbic-light-bar"
           }
-        },
-        "product_BTfM4U": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-obsid-rgbic-light-strip"
-          }
         }
       },
       "block_order": [
-        "product_nmh8jV",
+        "product_BTfM4U",
         "product_Qger9E",
-        "product_wG8iCm",
-        "product_BTfM4U"
+        "product_nmh8jV",
+        "product_wG8iCm"
       ],
       "settings": {
         "title": "",
