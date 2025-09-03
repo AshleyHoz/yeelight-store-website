@@ -108,12 +108,7 @@
     },
     "173148591784123612": {
       "settings": {},
-      "blocks": {
-        "loox_reviews_loox_agg_section_QX3hBc": {
-          "disabled": true,
-          "settings": {}
-        }
-      }
+      "blocks": {}
     },
     "featured_product_br7nW": {
       "type": "featured-product",

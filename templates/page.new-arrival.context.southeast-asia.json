@@ -163,12 +163,7 @@
     },
     "1731318448f757b534": {
       "settings": {},
-      "blocks": {
-        "loox_reviews_loox_video_slider_NgXFBA": {
-          "disabled": true,
-          "settings": {}
-        }
-      }
+      "blocks": {}
     },
     "text_with_icons_LiHffF": {
       "disabled": true,
@@ -182,12 +177,7 @@
     },
     "173148591784123612": {
       "settings": {},
-      "blocks": {
-        "loox_reviews_loox_agg_section_QX3hBc": {
-          "disabled": true,
-          "settings": {}
-        }
-      }
+      "blocks": {}
     }
   },
   "order": [
