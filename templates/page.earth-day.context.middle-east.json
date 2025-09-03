@@ -1,1 +1,138 @@
-{"parent":"page.earth-day.json","context":{"market":"middle-east"},"sections":{"single_image_g3UUwH":{"settings":{"image":"shopify:\/\/shop_images\/banner-PC.png","image_mobile":"shopify:\/\/shop_images\/banner-M.png"},"blocks":{}},"single_image_HQL3cr":{"disabled":true,"settings":{},"blocks":{}},"activity_valentine_JaTgDy":{"settings":{"title_icon":"","left_icon":"","title":"Go Green & Shop Now"},"blocks":{"product_WMhTBk":{"settings":{"product":"yeelight-rechargeable-light-sensor-nightlight-polaris"}},"product_8VyVNY":{"settings":{"product":"yeelight-night-lights"}},"product_NEXyJH":{"settings":{"product":"yeelight-plug-in-light-sensor-nightlight-pura"}},"product_dFcCKK":{"settings":{"product":"yeelight-2-in-1-lighting-charging-sensor-nightlight"}}}},"activity_valentine_N943U7":{"disabled":false,"settings":{"title_icon":"","left_icon":"","title":"You may also like","right_icon":""},"blocks":{"product_ikGnam":{"settings":{"product":"yeelight-candela-lamp"}},"product_6qM9pk":{"settings":{"product":"yeelight-smart-lamp-cube-lite"}},"product_GxKGKM":{"settings":{"product":"yeelight-monitor-light-bar-pro-flagship-edition"}},"product_6hbnXF":{"settings":{"product":"yeelight-ultra-thin-cabinet-light"}},"product_WjGkfF":{"settings":{"product":"a-yeelight-curtain-lights"}},"product_UNaT86":{"settings":{"product":"yeelight-smart-bulb-w4"}},"product_wR3qDg":{"settings":{"product":"yeelight-smart-cube-kit"}}},"block_order":["product_ikGnam","product_6qM9pk","product_GxKGKM","product_wR3qDg","product_6hbnXF","product_WjGkfF","product_UNaT86","product_wtezBt"]},"single_image_RbrWWD":{"disabled":true,"settings":{},"blocks":{}},"rich_text_F6XM9m":{"disabled":true,"settings":{},"blocks":{}},"1731318448f757b534":{"disabled":true,"settings":{},"blocks":{}},"173148591784123612":{"settings":{},"blocks":{"loox_reviews_loox_agg_section_QX3hBc":{"disabled":true,"settings":{}}}},"rich_text_7JpWaV":{"disabled":true,"settings":{},"blocks":{}}}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.earth-day.json",
+  "context": {
+    "market": "middle-east"
+  },
+  "sections": {
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC.png",
+        "image_mobile": "shopify://shop_images/banner-M.png"
+      },
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title_icon": "",
+        "left_icon": "",
+        "title": "Go Green & Shop Now"
+      },
+      "blocks": {
+        "product_WMhTBk": {
+          "settings": {
+            "product": "yeelight-rechargeable-light-sensor-nightlight-polaris"
+          }
+        },
+        "product_8VyVNY": {
+          "settings": {
+            "product": "yeelight-night-lights"
+          }
+        },
+        "product_NEXyJH": {
+          "settings": {
+            "product": "yeelight-plug-in-light-sensor-nightlight-pura"
+          }
+        },
+        "product_dFcCKK": {
+          "settings": {
+            "product": "yeelight-2-in-1-lighting-charging-sensor-nightlight"
+          }
+        }
+      }
+    },
+    "activity_valentine_N943U7": {
+      "disabled": false,
+      "settings": {
+        "title_icon": "",
+        "left_icon": "",
+        "title": "You may also like",
+        "right_icon": ""
+      },
+      "blocks": {
+        "product_ikGnam": {
+          "settings": {
+            "product": "yeelight-candela-lamp"
+          }
+        },
+        "product_6qM9pk": {
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_GxKGKM": {
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_6hbnXF": {
+          "settings": {
+            "product": "yeelight-ultra-thin-cabinet-light"
+          }
+        },
+        "product_WjGkfF": {
+          "settings": {
+            "product": "a-yeelight-curtain-lights"
+          }
+        },
+        "product_UNaT86": {
+          "settings": {
+            "product": "yeelight-smart-bulb-w4"
+          }
+        },
+        "product_wR3qDg": {
+          "settings": {
+            "product": "yeelight-smart-cube-kit"
+          }
+        }
+      },
+      "block_order": [
+        "product_ikGnam",
+        "product_6qM9pk",
+        "product_GxKGKM",
+        "product_wR3qDg",
+        "product_6hbnXF",
+        "product_WjGkfF",
+        "product_UNaT86",
+        "product_wtezBt"
+      ]
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "rich_text_F6XM9m": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "1731318448f757b534": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "173148591784123612": {
+      "settings": {},
+      "blocks": {}
+    },
+    "rich_text_7JpWaV": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
+}

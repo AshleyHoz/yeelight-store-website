@@ -167,23 +167,12 @@
           }
         }
       },
-      "block_order": [
-        "slide_yHTReh",
-        "slide_xfFJL",
-        "slide_dFFi6",
-        "slide_rYUPUw",
-        "slide_Apj7XN",
-        "slide_gEb3pq"
-      ]
+      "block_order": ["slide_yHTReh", "slide_xfFJL", "slide_dFFi6", "slide_rYUPUw", "slide_Apj7XN", "slide_gEb3pq"]
     },
     "shop_the_look_slider_33yC6m": {
       "settings": {},
       "blocks": {},
-      "block_order": [
-        "slide_nMwfm4",
-        "slide_6VMDww",
-        "slide_GcLTeG"
-      ]
+      "block_order": ["slide_nMwfm4", "slide_6VMDww", "slide_GcLTeG"]
     },
     "shop_the_look_slider_4EBHbg": {
       "settings": {
@@ -207,8 +196,24 @@
     },
     "1711998083986c24cc": {
       "settings": {},
-      "blocks": {},
-      "block_order": []
+      "blocks": {
+        "loox_reviews_loox_agg_section_RXGtX": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": false,
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 15,
+            "maxwidth": 1080,
+            "is_sample": true,
+            "paragraph-7050b59f04403d16d2edf0e631dca985": null,
+            "paragraph-6c28a51974d65479fdfdb7d45694fa78": null
+          }
+        }
+      },
+      "block_order": ["loox_reviews_loox_agg_section_RXGtX"]
     }
   },
   "order": [

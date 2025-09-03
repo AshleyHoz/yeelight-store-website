@@ -1,1 +1,165 @@
-{"parent":"page.spring-sale-2.json","context":{"market":"09cc406e-0794-41f3-857e-f8e573ece5f0"},"sections":{"featured_collection_e3YVM":{"type":"featured-collection","disabled":false,"settings":{"heading":"Illuminate Your Space","marker_style":"style1","description":"","header-7e1ed9fec4b27e7209bd8f1af8b21e3d":null,"collection":"ambient-lighting","display_type":"grid","product_limit":4,"columns_desktop":4,"show_view_all":false,"header-d3e8bf073d781ac5fe8f9645c888e626":null,"mobile_swipe":false,"header-928793ef82729d34e13f320fd3eaae43":null,"show_progress_bar":false,"header-5f257060ae618031ab199bd9bf74b023":null,"marker_color":"#fd6262","header-20334a6464f9c469048c719982a9e04d":null,"disable_top_spacing":false,"disable_bottom_spacing":false,"header-d327bc7ffdb3f1f6cbb6440504cf8c8e":null,"button_background":null},"blocks":{},"block_order":[]},"single_image_g3UUwH":{"settings":{"image":"shopify:\/\/shop_images\/banner-PC_9e4dada0-d5d1-4291-a889-6a2876d53355.jpg","image_mobile":"shopify:\/\/shop_images\/banner-M_d23c4d1f-b72d-4b3a-8019-cb3dc333f409.jpg"},"blocks":{}},"single_image_HQL3cr":{"disabled":true,"settings":{},"blocks":{}},"activity_valentine_JaTgDy":{"settings":{"title":"Spring into Savings","show_icon":false},"blocks":{"product_pmfDW":{"type":"product","disabled":false,"settings":{"product":"yeelight-smart-lamp-cube-lite"}},"product_nirPR":{"type":"product","disabled":false,"settings":{"product":"yeelight-monitor-light-bar-pro-flagship-edition"}},"product_GYjbE":{"type":"product","disabled":false,"settings":{"product":"a-yeelight-cube-4-matrix-pack"}}},"block_order":["product_WMhTBk","product_pmfDW","product_nirPR","product_GYjbE"]},"activity_valentine_N943U7":{"settings":{"title":"Brighten Your Outdoors","show_icon":false},"blocks":{"product_6qM9pk":{"disabled":true,"settings":{}},"product_GxKGKM":{"disabled":true,"settings":{}},"product_WjGkfF":{"disabled":true,"settings":{}},"product_UNaT86":{"disabled":true,"settings":{}},"product_wtezBt":{"disabled":false,"settings":{}},"product_kRcbD":{"type":"product","disabled":false,"settings":{"product":"a-yeelight-christmas-string-lights"}},"product_wR3qDg":{"disabled":true,"settings":{}}},"block_order":["product_6hbnXF","product_ikGnam","product_6qM9pk","product_GxKGKM","product_WjGkfF","product_UNaT86","product_wtezBt","product_kRcbD","product_wR3qDg"]},"single_image_RbrWWD":{"disabled":true,"settings":{},"blocks":{}},"173148591784123612":{"settings":{},"blocks":{"loox_reviews_loox_agg_section_QX3hBc":{"settings":{"data-limit":6}}}}},"order":["main","single_image_g3UUwH","single_image_HQL3cr","activity_valentine_JaTgDy","activity_valentine_N943U7","featured_collection_e3YVM","single_image_RbrWWD","rich_text_F6XM9m","1731318448f757b534","text_with_icons_LiHffF","rich_text_7JpWaV","173148591784123612"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.spring-sale-2.json",
+  "context": {
+    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
+  },
+  "sections": {
+    "featured_collection_e3YVM": {
+      "type": "featured-collection",
+      "disabled": false,
+      "settings": {
+        "heading": "Illuminate Your Space",
+        "marker_style": "style1",
+        "description": "",
+        "header-7e1ed9fec4b27e7209bd8f1af8b21e3d": null,
+        "collection": "ambient-lighting",
+        "display_type": "grid",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "header-d3e8bf073d781ac5fe8f9645c888e626": null,
+        "mobile_swipe": false,
+        "header-928793ef82729d34e13f320fd3eaae43": null,
+        "show_progress_bar": false,
+        "header-5f257060ae618031ab199bd9bf74b023": null,
+        "marker_color": "#fd6262",
+        "header-20334a6464f9c469048c719982a9e04d": null,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "header-d327bc7ffdb3f1f6cbb6440504cf8c8e": null,
+        "button_background": null
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "single_image_g3UUwH": {
+      "settings": {
+        "image": "shopify://shop_images/banner-PC_9e4dada0-d5d1-4291-a889-6a2876d53355.jpg",
+        "image_mobile": "shopify://shop_images/banner-M_d23c4d1f-b72d-4b3a-8019-cb3dc333f409.jpg"
+      },
+      "blocks": {}
+    },
+    "single_image_HQL3cr": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "activity_valentine_JaTgDy": {
+      "settings": {
+        "title": "Spring into Savings",
+        "show_icon": false
+      },
+      "blocks": {
+        "product_pmfDW": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-smart-lamp-cube-lite"
+          }
+        },
+        "product_nirPR": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
+          }
+        },
+        "product_GYjbE": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-cube-4-matrix-pack"
+          }
+        }
+      },
+      "block_order": [
+        "product_WMhTBk",
+        "product_pmfDW",
+        "product_nirPR",
+        "product_GYjbE"
+      ]
+    },
+    "activity_valentine_N943U7": {
+      "settings": {
+        "title": "Brighten Your Outdoors",
+        "show_icon": false
+      },
+      "blocks": {
+        "product_6qM9pk": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_GxKGKM": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_WjGkfF": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_UNaT86": {
+          "disabled": true,
+          "settings": {}
+        },
+        "product_wtezBt": {
+          "disabled": false,
+          "settings": {}
+        },
+        "product_kRcbD": {
+          "type": "product",
+          "disabled": false,
+          "settings": {
+            "product": "a-yeelight-christmas-string-lights"
+          }
+        },
+        "product_wR3qDg": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_6hbnXF",
+        "product_ikGnam",
+        "product_6qM9pk",
+        "product_GxKGKM",
+        "product_WjGkfF",
+        "product_UNaT86",
+        "product_wtezBt",
+        "product_kRcbD",
+        "product_wR3qDg"
+      ]
+    },
+    "single_image_RbrWWD": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "173148591784123612": {
+      "settings": {},
+      "blocks": {}
+    }
+  },
+  "order": [
+    "main",
+    "single_image_g3UUwH",
+    "single_image_HQL3cr",
+    "activity_valentine_JaTgDy",
+    "activity_valentine_N943U7",
+    "featured_collection_e3YVM",
+    "single_image_RbrWWD",
+    "rich_text_F6XM9m",
+    "1731318448f757b534",
+    "text_with_icons_LiHffF",
+    "rich_text_7JpWaV",
+    "173148591784123612"
+  ]
+}
