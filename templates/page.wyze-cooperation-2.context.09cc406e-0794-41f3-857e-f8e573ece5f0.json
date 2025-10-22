@@ -12,5 +12,21 @@
   "context": {
     "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
   },
-  "sections": {}
+  "sections": {
+    "activity_blackfriday_EDfQAb": {
+      "settings": {},
+      "blocks": {},
+      "block_order": [
+        "product_pQwwR6",
+        "product_at8DW3",
+        "product_LgUAQn",
+        "product_PP6Egj"
+      ]
+    },
+    "activity_wyze_FEmHfT": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }
