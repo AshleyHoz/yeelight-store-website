@@ -120,7 +120,7 @@
         "product_yzg7TP": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-smart-led-lamp-d2"
+            "product": "yeelight-wyze-holiday-string-lights"
           }
         },
         "product_WjbRMm": {
@@ -211,16 +211,16 @@
     "activity_blackfriday_3eBipy": {
       "type": "activity-blackfriday",
       "blocks": {
-        "product_PjUTjX": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-wyze-holiday-string-lights"
-          }
-        },
         "product_jxMjaY": {
           "type": "product",
           "settings": {
             "product": "yeelight-wyze-floor-task-lamp"
+          }
+        },
+        "product_PjUTjX": {
+          "type": "product",
+          "settings": {
+            "product": "yeetag-smart-tracker"
           }
         },
         "product_9nCLAY": {
@@ -237,8 +237,8 @@
         }
       },
       "block_order": [
-        "product_PjUTjX",
         "product_jxMjaY",
+        "product_PjUTjX",
         "product_9nCLAY",
         "product_BBqRpe"
       ],
