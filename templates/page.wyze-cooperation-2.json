@@ -94,7 +94,7 @@
         "product_PP6Egj": {
           "type": "product",
           "settings": {
-            "product": "yeelight-monitor-light-bar-aires"
+            "product": "yeelight-wyze-floor-task-lamp"
           }
         }
       },
@@ -211,10 +211,10 @@
     "activity_blackfriday_3eBipy": {
       "type": "activity-blackfriday",
       "blocks": {
-        "product_jxMjaY": {
+        "product_9nCLAY": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-floor-task-lamp"
+            "product": "yeelight-wyze-smart-dimmable-bulb-w3-4pack"
           }
         },
         "product_PjUTjX": {
@@ -223,10 +223,10 @@
             "product": "yeetag-smart-tracker"
           }
         },
-        "product_9nCLAY": {
+        "product_jxMjaY": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-smart-dimmable-bulb-w3-4pack"
+            "product": "yeelight-monitor-light-bar-aires"
           }
         },
         "product_BBqRpe": {
@@ -237,9 +237,9 @@
         }
       },
       "block_order": [
-        "product_jxMjaY",
-        "product_PjUTjX",
         "product_9nCLAY",
+        "product_PjUTjX",
+        "product_jxMjaY",
         "product_BBqRpe"
       ],
       "settings": {
