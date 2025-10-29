@@ -59,6 +59,7 @@
         "video_autoplay": true,
         "video_loop": true,
         "video_controls": true,
+        "show_cover": false,
         "desktop_height": "desktop-height-480",
         "mobile_height": "mobile-height-345",
         "aspect_ratio": "16-9",
@@ -87,13 +88,13 @@
         "product_LgUAQn": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-monitor-light-bar-pro"
+            "product": "yeelight-wyze-beam-rgbic-light-bar"
           }
         },
         "product_PP6Egj": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-pura-monitor-light-bar-pro"
+            "product": "yeelight-wyze-floor-task-lamp"
           }
         }
       },
@@ -119,7 +120,7 @@
         "product_yzg7TP": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-smart-led-lamp-d2"
+            "product": "yeelight-wyze-holiday-string-lights"
           }
         },
         "product_WjbRMm": {
@@ -198,7 +199,7 @@
       "type": "single-image",
       "settings": {
         "link": "",
-        "image": "shopify://shop_images/PC.png",
+        "image": "shopify://shop_images/Frame_2090053264.png",
         "image_mobile": "shopify://shop_images/M_3115dab3-afc5-4f10-ba66-4b1e93df4a7b.png",
         "full_width": false,
         "disable_top_spacing": true,
@@ -210,35 +211,35 @@
     "activity_blackfriday_3eBipy": {
       "type": "activity-blackfriday",
       "blocks": {
-        "product_PjUTjX": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-wyze-holiday-string-lights"
-          }
-        },
-        "product_jxMjaY": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-wyze-floor-task-lamp"
-          }
-        },
         "product_9nCLAY": {
           "type": "product",
           "settings": {
             "product": "yeelight-wyze-smart-dimmable-bulb-w3-4pack"
           }
         },
+        "product_PjUTjX": {
+          "type": "product",
+          "settings": {
+            "product": "yeetag-smart-tracker"
+          }
+        },
+        "product_jxMjaY": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-monitor-light-bar-aires"
+          }
+        },
         "product_BBqRpe": {
           "type": "product",
           "settings": {
-            "product": "yeelight-wyze-beam-rgbic-light-bar"
+            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
           }
         }
       },
       "block_order": [
+        "product_9nCLAY",
         "product_PjUTjX",
         "product_jxMjaY",
-        "product_9nCLAY",
         "product_BBqRpe"
       ],
       "settings": {
@@ -281,32 +282,6 @@
     },
     "1731318448f757b534": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_video_slider_NgXFBA": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-video-slider/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "show-by-tag": false,
-            "layout": "classic",
-            "shadow": "",
-            "show-rating": true,
-            "show-reviewer-name": true,
-            "hide-arrows-mobile": true,
-            "auto-play": true,
-            "show-border": false,
-            "border-width": 1,
-            "border-radius": 16,
-            "text-color": "",
-            "rating-icon-color": "",
-            "border-color": "",
-            "play-button-color": "",
-            "shadow-color": "",
-            "product-id": ""
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_video_slider_NgXFBA"
-      ],
       "settings": {}
     },
     "text_with_icons_LiHffF": {
