@@ -16,6 +16,7 @@
     },
     "video_3haYra": {
       "type": "video",
+      "disabled": true,
       "name": "Video",
       "settings": {
         "heading": "",
@@ -123,6 +124,7 @@
         "product_nmh8jV",
         "product_wG8iCm"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SamsungProductbanner.png",
