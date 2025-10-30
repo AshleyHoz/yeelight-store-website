@@ -151,6 +151,8 @@
                 {% endif %}
               {% when 'space' %}
                 <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
+              {%- when 'radio' -%}
+                {%- render 'activity-samsung-radio' -%}
             {%- endcase -%}
           {% endfor %}
           <div class="activity-samsung-verify--columns d-flex align-center justify-space-between gap-10 full-width text-left">
@@ -842,6 +844,44 @@
           "id": "link",
           "label": "Link",
           "info": "Wrap the apply link."
+        }
+      ]
+    },
+    {
+      "type": "radio",
+      "name": "Radio",
+      "settings": [
+        {
+          "type": "text",
+          "id": "radio_heading",
+          "label": "Heading",
+          "default": "Activity Samsung Verify"
+        },
+        {
+          "type": "text",
+          "id": "radio_text_y",
+          "label": "Content Y",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+        },
+        {
+          "type": "text",
+          "id": "radio_text_n",
+          "label": "Content N",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+        },
+        {
+          "id": "radio_button_text_y",
+          "type": "text",
+          "label": "Button label Y",
+          "default": "Claim Now",
+          "info": "Leave the label blank to hide the button."
+        },
+        {
+          "id": "radio_button_text_n",
+          "type": "text",
+          "label": "Button label N",
+          "default": "Claim Now",
+          "info": "Leave the label blank to hide the button."
         }
       ]
     }

@@ -1,0 +1,26 @@
+{%- liquid
+  assign section_title = block.settings.heading
+-%}
+<div class="activity-samsung-radio">
+  {% render 'section-header', section_heading: section_title %}
+  <div class="radio-container">
+    <div class="radio-item">
+      <input type="radio" id="radio-y" name="radio" value="y">
+      <label for="radio-y">{{ block.settings.radio_text_y }}</label>
+      <button>{{ block.settings.radio_button_text_y }}</button>
+    </div>
+    <div class="radio-item">
+      <input type="radio" id="radio-n" name="radio" value="n">
+      <label for="radio-n">{{ block.settings.radio_text_n }}</label>
+      <button>{{ block.settings.radio_button_text_n }}</button>
+    </div>
+  </div>
+</div>
+<script></script>
+<style>
+  .activity-samsung-radio {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 20px;
+  }
+</style>
