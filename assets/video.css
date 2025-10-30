@@ -105,15 +105,13 @@
 .activity-samsung-video .cover-button {
   font-size: 22px;
   font-weight: 900;
-  background: rgba(255, 255, 255, 0.1);
   border-radius: 14px;
   border: 1px solid #FFFFFF;
   padding: 8px 15px;
 }
 
 .activity-samsung-video .cover-button:hover {
-  background: #ffffff;
-  color: #000000;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 
