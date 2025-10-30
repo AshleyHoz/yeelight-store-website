@@ -100,6 +100,16 @@
             "discount_code": "Add a discount code",
             "column_link": "shopify://pages/samsung"
           }
+        },
+        "radio_C6VhJw": {
+          "type": "radio",
+          "settings": {
+            "radio_heading": "Is Your Device The 2025 Model?",
+            "radio_text_y": "Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.",
+            "radio_text_n": "Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.",
+            "radio_button_text_y": "Claim Now",
+            "radio_button_text_n": "Lock In Discounts In Advance."
+          }
         }
       },
       "block_order": [
@@ -109,7 +119,8 @@
         "link_Ti4m4M",
         "form_VTarTg",
         "column_abdREL",
-        "column_WwdXMm"
+        "column_WwdXMm",
+        "radio_C6VhJw"
       ],
       "name": "Activity Samsung Verify",
       "settings": {
