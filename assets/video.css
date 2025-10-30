@@ -91,13 +91,14 @@
   height: auto;
 }
 
+.activity-samsung-video .conver-title,
 .video-cover .cover-title {
   font-weight: 300;
   font-size: 24px;
   color: rgba(255, 255, 255, 0.9);
 }
 
-.activity-samsung-video .video-cover .cover-button {
+.activity-samsung-video .cover-button {
   font-size: 22px;
   font-weight: 900;
   background: rgba(255, 255, 255, 0.1);
