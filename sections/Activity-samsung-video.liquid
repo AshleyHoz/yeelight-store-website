@@ -82,17 +82,19 @@
           {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
         </div>
       {%- endif -%}
-      <div class="video-section--inner d-flex flex-column align-center">
+      {%- if section_heading -%}
         {% render 'section-header',
           section_heading: section_heading,
-          section_description: section_description,
+          section_description: cover_title,
           marker_color: marker_color,
           marker_style: marker_style
         %}
-      </div>
-      {%- if cover_title -%}
-        <div class="cover-title text-center">{{ cover_title }}</div>
       {%- endif -%}
+      {% comment %}
+        {%- if cover_title -%}
+          <div class="cover-title text-center">{{ cover_title }}</div>
+        {%- endif -%}
+      {% endcomment %}
       {%- if button_text -%}
         <a href="{{ button_link }}" class="cover-button mt-5 overflow-hidden">{{ button_text }}</a>
       {%- endif -%}

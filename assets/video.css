@@ -3,10 +3,6 @@
   position: relative;
 }
 
-.activity-samsung-video {
-  padding: 60px 0;
-}
-
 .video-container {
   position: relative;
 }
@@ -75,6 +71,14 @@
   padding: 100px 0;
 }
 
+.activity-samsung-video .video-cover {
+  padding: 60px 0;
+}
+
+.activity-samsung-video .video-cover .section-header {
+  padding-bottom: 20px;
+}
+
 .video-cover img {
   width: 800px;
   height: auto;
@@ -104,7 +108,7 @@
   background: rgba(255, 255, 255, 0.1);
   border-radius: 14px;
   border: 1px solid #FFFFFF;
-  padding: 15px 8px;
+  padding: 8px 15px;
 }
 
 .activity-samsung-video .cover-button:hover {
