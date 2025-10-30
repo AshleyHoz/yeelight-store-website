@@ -93,7 +93,7 @@
 
   <div class="row {% if full_width %} full-width-row-full{% endif %} {% if settings.halloween_flag and halloween_skull_flag %} video-section-inner {% else %} video-section-inner-container {% endif %}">
     <div class="video-section section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
-      <div class="video-section--inner">
+      <div class="video-section--inner d-flex flex-column align-center">
         {% render 'section-header',
           section_heading: section_heading,
           section_description: section_description,
@@ -101,10 +101,10 @@
           marker_style: marker_style
         %}
         {%- if cover_title -%}
-          <div class="cover-title">{{ cover_title }}</div>
+          <div class="cover-title text-center py-5">{{ cover_title }}</div>
         {%- endif -%}
         {%- if button_text -%}
-          <a href="{{ button_link }}" class="cover-button mt-3">{{ button_text }}</a>
+          <a href="{{ button_link }}" class="cover-button mt-3 overflow-hidden">{{ button_text }}</a>
         {%- endif -%}
       </div>
       <div class="video-section--container full-width position-relative overflow-hidden video-aspect--{{ aspect_ratio }}  {{ mobile_height }} {{ desktop_height }}">
