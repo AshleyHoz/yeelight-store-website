@@ -1,26 +1,146 @@
 {%- liquid
-  assign section_title = block.settings.heading
+  assign section_title = block.settings.radio_heading
+  assign radio_text_y = block.settings.radio_text_y
+  assign radio_text_n = block.settings.radio_text_n
+  assign radio_button_text_y = block.settings.radio_button_text_y
+  assign radio_button_text_n = block.settings.radio_button_text_n
 -%}
-<div class="activity-samsung-radio">
-  {% render 'section-header', section_heading: section_title %}
-  <div class="radio-container">
-    <div class="radio-item">
-      <input type="radio" id="radio-y" name="radio" value="y">
-      <label for="radio-y">{{ block.settings.radio_text_y }}</label>
-      <button>{{ block.settings.radio_button_text_y }}</button>
+<div class="activity-samsung-radio" {{ block.shopify_attributes }}>
+  {%- if section_title -%}
+    {% render 'section-header', section_heading: section_title %}
+    <div class="radio-container">
+      <div class=" d-flex align-center justify-center flex-nowrap">
+        <div class="radio-item">
+          <input type="radio" id="radio-y" name="radio" value="Yes">
+          <label for="radio-y">Yes</label>
+        </div>
+        <div class="mx-6"></div>
+        <div class="radio-item">
+          <input type="radio" id="radio-n" name="radio" value="No">
+          <label for="radio-n">No</label>
+        </div>
+      </div>
+      <div class="radio-content radio-content-y">
+        <div class="radio-text">{{ radio_text_y }}</div>
+        <a
+          href="{{ block.settings.radio_button_link }}"
+          class="radio-btn"
+          {{ block.shopify_attributes }}
+        >
+          {{- radio_button_text_y -}}
+        </a>
+      </div>
+      <div class="radio-content radio-content-n">
+        <div class="radio-text">{{ radio_text_n }}</div>
+        <a
+          href="{{ block.settings.radio_button_link }}"
+          class="radio-btn"
+          {{ block.shopify_attributes }}
+        >
+          {{- radio_button_text_n -}}
+        </a>
+      </div>
     </div>
-    <div class="radio-item">
-      <input type="radio" id="radio-n" name="radio" value="n">
-      <label for="radio-n">{{ block.settings.radio_text_n }}</label>
-      <button>{{ block.settings.radio_button_text_n }}</button>
-    </div>
-  </div>
+  {%- endif -%}
 </div>
-<script></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const radioY = document.getElementById('radio-y');
+    const radioN = document.getElementById('radio-n');
+    const radioContentY = document.querySelector('.radio-content-y');
+    const radioContentN = document.querySelector('.radio-content-n');
+
+    radioY.addEventListener('change', function () {
+      radioContentY.style.display = 'block';
+      radioContentN.style.display = 'none';
+    });
+
+    radioN.addEventListener('change', function () {
+      radioContentY.style.display = 'none';
+      radioContentN.style.display = 'block';
+    });
+  });
+</script>
 <style>
   .activity-samsung-radio {
-    width: 50vw;
+    width: 70vw;
     margin: 0 auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 40px;
+  }
+  .activity-samsung-radio .section-header h3 {
+    font-size: 28px;
+    visibility: visible;
+  }
+  .radio-container {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
     padding: 20px;
+  }
+  .radio-content {
+    display: none;
+  }
+
+  .radio-text {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 40px 0;
+  }
+
+  .radio-btn {
+    background: #fc4bcc;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-weight: 500;
+  }
+
+  .activity-samsung-radio input[type='radio'] {
+  }
+
+  .activity-samsung-radio input[type='radio'] {
+    appearance: none;
+    background: rgba(190, 173, 255, 0.08) !important;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .activity-samsung-radio input[type='radio']:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background: #fc4bcc;
+  }
+
+  @media screen and (max-width: 768px) {
+    .activity-samsung-radio {
+      width: 100%;
+      padding: 20px;
+    }
+
+    .activity-samsung-radio .section-header h3 {
+      font-size: 18px;
+    }
+
+    .radio-container {
+      border-radius: 0;
+      background: transparent;
+    }
+
+    .radio-text {
+      font-size: 16px;
+    }
+
+    .radio-btn {
+      font-size: 16px;
+      padding: 5px 8px;
+    }
   }
 </style>

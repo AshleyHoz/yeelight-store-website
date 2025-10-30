@@ -152,7 +152,7 @@
               {% when 'space' %}
                 <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
               {%- when 'radio' -%}
-                {%- render 'activity-samsung-radio' -%}
+                {%- render 'activity-samsung-radio', block: block -%}
             {%- endcase -%}
           {% endfor %}
           <div class="activity-samsung-verify--columns d-flex align-center justify-space-between gap-10 full-width text-left">
@@ -882,6 +882,11 @@
           "label": "Button label N",
           "default": "Claim Now",
           "info": "Leave the label blank to hide the button."
+        },
+        {
+          "type": "url",
+          "id": "radio_button_link",
+          "label": "Link"
         }
       ]
     }
