@@ -1,0 +1,443 @@
+{{- 'video.css' | asset_url | stylesheet_tag -}}
+{%- liquid
+  assign section_heading = section.settings.heading
+  assign marker_style = section.settings.marker_style
+  assign section_description = section.settings.description
+  assign full_width = section.settings.full_width
+  assign video = section.settings.video
+  assign video_hosted = section.settings.video_hosted
+  assign video_hosted_mobile = section.settings.video_hosted_mobile
+  assign video_autoplay = section.settings.video_autoplay
+  assign aspect_ratio = section.settings.aspect_ratio
+  assign desktop_height = section.settings.desktop_height
+  assign mobile_height = section.settings.mobile_height
+  assign marker_color = section.settings.marker_color
+  assign video_controls = section.settings.video_controls
+  assign video_loop = section.settings.video_loop
+  assign cover_title = section.settings.cover_title
+  assign cover_logo = section.settings.cover_logo
+  assign cover_image = section.settings.cover_image
+  assign show_cover = section.settings.show_cover
+
+  assign disable_top_spacing = section.settings.disable_top_spacing
+  assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+  assign background_image = section.settings.background_image
+  assign halloween_skull_flag = section.settings.halloween_skull_flag
+
+  case mobile_height
+    when 'mobile-height-345'
+      assign mobile_image_height = 345
+    when 'mobile-height-350'
+      assign mobile_image_height = 350
+    when 'mobile-height-400'
+      assign mobile_image_height = 400
+    when 'mobile-height-450'
+      assign mobile_image_height = 450
+    when 'mobile-height-500'
+      assign mobile_image_height = 500
+    else
+      assign mobile_image_height = 900
+  endcase
+-%}
+<div
+  class="
+    {%- if cover_title == blank -%}yee-video {% endif %}
+    video-container{% if settings.halloween_flag and halloween_skull_flag %} video-container-halloween{% endif %}{% if settings.black_friday_flag and section.settings.black_friday_ui_flag %} video-container-blackfriday{% endif %}
+  "
+>
+  {%- if settings.halloween_flag and halloween_skull_flag -%}
+    <div class="image-product-bg full-width full-height">
+      <div class="image-product-bg-icons full-width full-height position-relative">
+        <div class="ic-bat"></div>
+        {%- render 'svg-icons-halloween' with 'custom-halloween-bat' -%}
+      </div>
+      <div class="ic-spider-web-large">
+        {%- render 'svg-icons-halloween' with 'custom-halloween-spider-web-large' -%}
+      </div>
+    </div>
+  {%- endif -%}
+
+  {%- if settings.christmas_flag and cover_title != blank -%}
+    <div class="video-info-cover full-width full-height d-flex flex-column row">
+      {%- if cover_logo -%}
+        {%- render 'responsive-image', image: cover_logo, sizes: cover_logo.src.width | append: 'x' | append: cover_logo.src.height -%}
+      {%- endif -%}
+      {%- if cover_title -%}
+        <div class="cover-title">{{ cover_title }}</div>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  {%- if show_cover -%}
+    <div class="video-cover full-width full-height text-center">
+      {%- if cover_logo -%}
+        <div class="cover-logo">
+          {%- render 'responsive-image', image: cover_logo, sizes: cover_logo.src.width | append: 'x' | append: cover_logo.src.height -%}
+        </div>
+      {%- endif -%}
+      {%- if cover_image -%}
+        <div class="cover-image">
+          {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
+        </div>
+      {%- endif -%}
+      {%- if cover_title -%}
+        <div class="cover-title">{{ cover_title }}</div>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  <div class="row {% if full_width %} full-width-row-full{% endif %} {% if settings.halloween_flag and halloween_skull_flag %} video-section-inner {% else %} video-section-inner-container {% endif %}">
+    <div class="video-section section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+      <div class="video-section--inner">
+        {% render 'section-header',
+          section_heading: section_heading,
+          section_description: section_description,
+          marker_color: marker_color,
+          marker_style: marker_style
+        %}
+      </div>
+      <div class="video-section--container full-width position-relative overflow-hidden video-aspect--{{ aspect_ratio }}  {{ mobile_height }} {{ desktop_height }}">
+        {%- if video_hosted != blank and video_hosted_mobile != blank -%}
+          <div class="video_hosted_mobile">
+            {{
+              video_hosted_mobile
+              | video_tag: autoplay: video_autoplay, loop: video_loop, controls: video_controls, muted: video_autoplay
+            }}
+          </div>
+          <div class="video_hosted">
+            {%- liquid
+              assign sizes = '1280x'
+              if full_width
+                assign sizes = '1600x'
+              endif
+            -%}
+            {{
+              video_hosted
+              | video_tag:
+                autoplay: video_autoplay,
+                loop: video_loop,
+                controls: video_controls,
+                muted: video_autoplay,
+                image_size: sizes
+            }}
+          </div>
+        {%- elsif video_hosted != blank -%}
+          {%- liquid
+            assign sizes = '1280x'
+            if full_width
+              assign sizes = '1600x'
+            endif
+          -%}
+          {{
+            video_hosted
+            | video_tag:
+              autoplay: video_autoplay,
+              loop: video_loop,
+              controls: video_controls,
+              muted: video_autoplay,
+              image_size: sizes
+          }}
+        {%- elsif video != blank -%}
+          {%- if video.type == 'youtube' -%}
+            <iframe
+              data-src="https://www.youtube.com/embed/{{ video.id }}?loop=1{%- if video_autoplay -%}&autoplay=1&mute=1{%- endif -%}&playlist={{ video.id }}&iv_load_policy=3&disablekb=1&controls=1&playsinline=1"
+              frameborder="0"
+              class="lazyload"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              title="{{ section.settings.heading | escape }}"
+              tabindex="-1"
+            ></iframe>
+          {%- else -%}
+            <iframe
+              data-src="https://player.vimeo.com/video/{{ video.id }}{%- if video_autoplay -%}?background=1{%- endif -%}"
+              frameborder="0"
+              class="lazyload"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              title="{{ section.settings.heading | escape }}"
+              tabindex="-1"
+            ></iframe>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+      {%- if settings.halloween_flag and halloween_skull_flag -%}
+        <div class="video-section--inner_halloween-skull">
+          {%- render 'svg-icons-halloween' with 'custom-halloween-skull' -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Activity Samsung Video",
+  "class": "yee-activity-samsung-video",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Video",
+      "info": "Wrap your text between | to add animated markers. For example: Animated |marker| will underline marker text."
+    },
+    {
+      "type": "text",
+      "id": "cover_title",
+      "label": "Cover Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "cover_logo",
+      "label": "CoverLogo"
+    },
+    {
+      "type": "image_picker",
+      "id": "cover_image",
+      "label": "CoverImage"
+    },
+    {
+      "type": "select",
+      "id": "marker_style",
+      "options": [
+        {
+          "value": "style1",
+          "label": "Basic"
+        },
+        {
+          "value": "style2",
+          "label": "Double"
+        },
+        {
+          "value": "style3",
+          "label": "Squiggle"
+        },
+        {
+          "value": "style4",
+          "label": "Zigzag"
+        }
+      ],
+      "default": "style1",
+      "label": "Marker"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Add a short description for this section</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Make section full width",
+      "default": false
+    },
+    {
+      "type": "video_url",
+      "id": "video",
+      "label": "Video URL",
+      "accept": ["youtube", "vimeo"],
+      "placeholder": "Use a YouTube or Vimeo URL",
+      "default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+    },
+    {
+      "type": "video",
+      "id": "video_hosted",
+      "label": "Shopify-hosted video",
+      "info": "Overrides the Video URL setting."
+    },
+    {
+      "type": "video",
+      "id": "video_hosted_mobile",
+      "label": "Shopify-hosted video in mobile",
+      "info": "Overrides the Video URL setting."
+    },
+    {
+      "type": "checkbox",
+      "id": "video_autoplay",
+      "default": true,
+      "label": "Autoplay",
+      "info": "Video will be muted"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_loop",
+      "default": true,
+      "label": "Loop"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_controls",
+      "default": true,
+      "label": "Enable video controls"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cover",
+      "default": false,
+      "label": "Show cover"
+    },
+    {
+      "type": "select",
+      "id": "desktop_height",
+      "label": "Desktop height",
+      "options": [
+        {
+          "value": "desktop-height-450",
+          "label": "450px"
+        },
+        {
+          "value": "desktop-height-480",
+          "label": "480px"
+        },
+        {
+          "value": "desktop-height-550",
+          "label": "550px"
+        },
+        {
+          "value": "desktop-height-650",
+          "label": "650px"
+        },
+        {
+          "value": "desktop-height-800",
+          "label": "800px"
+        },
+        {
+          "value": "desktop-height-full",
+          "label": "Full screen"
+        }
+      ],
+      "default": "desktop-height-650"
+    },
+    {
+      "type": "select",
+      "id": "mobile_height",
+      "label": "Mobile height",
+      "options": [
+        {
+          "value": "mobile-height-auto",
+          "label": "Adapt to content"
+        },
+        {
+          "value": "mobile-height-345",
+          "label": "345px"
+        },
+        {
+          "value": "mobile-height-350",
+          "label": "350px"
+        },
+        {
+          "value": "mobile-height-400",
+          "label": "400px"
+        },
+        {
+          "value": "mobile-height-450",
+          "label": "450px"
+        },
+        {
+          "value": "mobile-height-500",
+          "label": "500px"
+        },
+        {
+          "value": "mobile-height-full",
+          "label": "Full screen"
+        }
+      ],
+      "default": "mobile-height-400"
+    },
+    {
+      "type": "select",
+      "id": "aspect_ratio",
+      "options": [
+        {
+          "value": "16-9",
+          "label": "16/9"
+        },
+        {
+          "value": "9-16",
+          "label": "9/16"
+        },
+        {
+          "value": "4-3",
+          "label": "4/3"
+        },
+        {
+          "value": "3-4",
+          "label": "3/4"
+        },
+        {
+          "value": "square",
+          "label": "Square"
+        }
+      ],
+      "default": "16-9",
+      "label": "Video aspect ratio"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "marker_color",
+      "label": "Marker",
+      "default": "#FD6262"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_top_spacing",
+      "default": false,
+      "label": "Remove top spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_bottom_spacing",
+      "default": false,
+      "label": "Remove bottom spacing"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_mobile",
+      "label": "Mobile Background image (optional)"
+    },
+    {
+      "type": "checkbox",
+      "id": "halloween_skull_flag",
+      "default": false,
+      "label": "Show Halloween Skull"
+    },
+    {
+      "type": "checkbox",
+      "id": "black_friday_ui_flag",
+      "default": false,
+      "label": "Show black friday ui"
+    },
+    {
+      "id": "button_text",
+      "type": "text",
+      "label": "Button label",
+      "default": "Shop Now",
+      "info": "Leave the label blank to hide the button."
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Activity Samsung Video"
+    }
+  ]
+}
+{% endschema %}
