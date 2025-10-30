@@ -82,17 +82,6 @@
           {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
         </div>
       {%- endif -%}
-      {%- if cover_title -%}
-        <div class="cover-title">{{ cover_title }}</div>
-      {%- endif -%}
-      {%- if button_text -%}
-        <a href="{{ button_link }}" class="cover-button mt-3">{{ button_text }}</a>
-      {%- endif -%}
-    </div>
-  {%- endif -%}
-
-  <div class="row {% if full_width %} full-width-row-full{% endif %} {% if settings.halloween_flag and halloween_skull_flag %} video-section-inner {% else %} video-section-inner-container {% endif %}">
-    <div class="video-section section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
       <div class="video-section--inner d-flex flex-column align-center">
         {% render 'section-header',
           section_heading: section_heading,
@@ -100,13 +89,28 @@
           marker_color: marker_color,
           marker_style: marker_style
         %}
-        {%- if cover_title -%}
-          <div class="cover-title text-center">{{ cover_title }}</div>
-        {%- endif -%}
-        {%- if button_text -%}
-          <a href="{{ button_link }}" class="cover-button mt-5 overflow-hidden">{{ button_text }}</a>
-        {%- endif -%}
       </div>
+      {%- if cover_title -%}
+        <div class="cover-title text-center">{{ cover_title }}</div>
+      {%- endif -%}
+      {%- if button_text -%}
+        <a href="{{ button_link }}" class="cover-button mt-5 overflow-hidden">{{ button_text }}</a>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  <div class="row {% if full_width %} full-width-row-full{% endif %} {% if settings.halloween_flag and halloween_skull_flag %} video-section-inner {% else %} video-section-inner-container {% endif %}">
+    <div class="video-section section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+      {% comment %}
+        <div class="video-section--inner d-flex flex-column align-center">
+          {% render 'section-header',
+            section_heading: section_heading,
+            section_description: section_description,
+            marker_color: marker_color,
+            marker_style: marker_style
+          %}
+        </div>
+      {% endcomment %}
       <div class="video-section--container full-width position-relative overflow-hidden video-aspect--{{ aspect_ratio }}  {{ mobile_height }} {{ desktop_height }}">
         {%- if video_hosted != blank and video_hosted_mobile != blank -%}
           <div class="video_hosted_mobile">
