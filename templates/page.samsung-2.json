@@ -90,6 +90,25 @@
         "disable_bottom_spacing": true
       }
     },
+    "acitivity_mTNTh3": {
+      "type": "acitivity",
+      "blocks": {
+        "product_QW39k7": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_QW39k7"
+      ],
+      "name": "Activity",
+      "settings": {
+        "title": "",
+        "show_cover": false
+      }
+    },
     "custom_liquid_4Fk7Mk": {
       "type": "image-products",
       "blocks": {
@@ -183,6 +202,7 @@
     "main",
     "video_3haYra",
     "activity_samsung_z79TFd",
+    "acitivity_mTNTh3",
     "custom_liquid_4Fk7Mk",
     "collection_list_zPfgmW",
     "1754535192d39de9c3"
