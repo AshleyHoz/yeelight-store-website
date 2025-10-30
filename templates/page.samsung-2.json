@@ -98,10 +98,31 @@
           "settings": {
             "product": ""
           }
+        },
+        "product_JgwQjF": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_fzNEWV": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        },
+        "product_Gi8ymp": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
         }
       },
       "block_order": [
-        "product_QW39k7"
+        "product_QW39k7",
+        "product_JgwQjF",
+        "product_fzNEWV",
+        "product_Gi8ymp"
       ],
       "name": "Activity",
       "settings": {
