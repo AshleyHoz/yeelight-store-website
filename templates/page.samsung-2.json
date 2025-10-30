@@ -96,25 +96,25 @@
         "product_QW39k7": {
           "type": "product",
           "settings": {
-            "product": "yeelight-smart-lamp-cube-lite"
+            "product": "yeelight-smart-cube-kit"
           }
         },
         "product_JgwQjF": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "yeelight-obsid-rgbic-light-strip"
           }
         },
         "product_fzNEWV": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "yeelight-beam-rgbic-light-bar"
           }
         },
         "product_Gi8ymp": {
           "type": "product",
           "settings": {
-            "product": ""
+            "product": "bundle-save"
           }
         }
       },
