@@ -211,6 +211,12 @@
     "activity_blackfriday_3eBipy": {
       "type": "activity-blackfriday",
       "blocks": {
+        "product_BBqRpe": {
+          "type": "product",
+          "settings": {
+            "product": "yeelight-wyze-smart-led-lamp-d2"
+          }
+        },
         "product_9nCLAY": {
           "type": "product",
           "settings": {
@@ -228,19 +234,13 @@
           "settings": {
             "product": "yeelight-monitor-light-bar-aires"
           }
-        },
-        "product_BBqRpe": {
-          "type": "product",
-          "settings": {
-            "product": "yeelight-monitor-light-bar-pro-flagship-edition"
-          }
         }
       },
       "block_order": [
+        "product_BBqRpe",
         "product_9nCLAY",
         "product_PjUTjX",
-        "product_jxMjaY",
-        "product_BBqRpe"
+        "product_jxMjaY"
       ],
       "settings": {
         "title": "There's Always One For You",
