@@ -44,7 +44,7 @@
 <div
   class="
     {%- if cover_title == blank -%}yee-video {% endif %}
-    video-container{% if settings.halloween_flag and halloween_skull_flag %} video-container-halloween{% endif %}{% if settings.black_friday_flag and section.settings.black_friday_ui_flag %} video-container-blackfriday{% endif %}
+    video-container{% if settings.halloween_flag and halloween_skull_flag %} video-container-halloween{% endif %}{% if settings.black_friday_flag and section.settings.black_friday_ui_flag %} video-container-blackfriday{% endif %} activity-samsung-video
   "
 >
   {%- if settings.halloween_flag and halloween_skull_flag -%}
@@ -86,7 +86,7 @@
         <div class="cover-title">{{ cover_title }}</div>
       {%- endif -%}
       {%- if button_text -%}
-        <a href="{{ button_link }}" class="button">{{ button_text }}</a>
+        <a href="{{ button_link }}" class="cover-button mt-3">{{ button_text }}</a>
       {%- endif -%}
     </div>
   {%- endif -%}
@@ -100,6 +100,12 @@
           marker_color: marker_color,
           marker_style: marker_style
         %}
+        {%- if cover_title -%}
+          <div class="cover-title">{{ cover_title }}</div>
+        {%- endif -%}
+        {%- if button_text -%}
+          <a href="{{ button_link }}" class="cover-button mt-3">{{ button_text }}</a>
+        {%- endif -%}
       </div>
       <div class="video-section--container full-width position-relative overflow-hidden video-aspect--{{ aspect_ratio }}  {{ mobile_height }} {{ desktop_height }}">
         {%- if video_hosted != blank and video_hosted_mobile != blank -%}

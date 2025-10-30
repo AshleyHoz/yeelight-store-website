@@ -3,6 +3,10 @@
   position: relative;
 }
 
+.activity-samsung-video {
+  padding: 60px 0;
+}
+
 .video-container {
   position: relative;
 }
@@ -92,6 +96,16 @@
   font-size: 24px;
   color: rgba(255, 255, 255, 0.9);
 }
+
+.activity-samsung-video .video-cover .cover-button {
+  font-size: 22px;
+  font-weight: 900;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  border: 1px solid #FFFFFF;
+}
+
+
 
 .video-section-container .video-section-inner {
   z-index: 2;
