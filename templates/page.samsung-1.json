@@ -108,7 +108,8 @@
             "radio_text_y": "\"Congratulations! Your device has been perfectly adapted. You are eligible to receive an additional 10% discount coupon, with a maximum cumulative savings of 28%!\"",
             "radio_text_n": "The software adaptation support for your Samsung TV (2022 model and others) is expected to officially launch in May 2026. You can now purchase the Yeelight kit in advance to enjoy an exclusive 20% discount, and you can also receive an additional 10% discount voucher, which can be used once the features are launched. Buying now is more cost-effective.",
             "radio_button_text_y": "Claim Now",
-            "radio_button_text_n": "Lock In Discounts In Advance."
+            "radio_button_text_n": "Lock In Discounts In Advance.",
+            "radio_button_link": "shopify://pages/samsung"
           }
         }
       },
