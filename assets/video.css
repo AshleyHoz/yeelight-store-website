@@ -260,9 +260,12 @@
     text-align: center;
   }
 
-  .activity-samsung-video .video-cover,
   .video-cover {
     padding: 10px 0;
+  }
+
+  .activity-samsung-video .video-cover {
+    padding: 5px 0;
   }
 
   .video-cover img {
