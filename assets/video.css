@@ -110,6 +110,7 @@
   padding: 10px;
   width: 360px;
   margin: 0 auto;
+  gap: 10px;
 }
 
 .video-section-container .video-section-inner {
@@ -299,12 +300,12 @@
     font-size: 12px;
     color: #FFFFFF;
     width: 190px;
+    gap: 5px;
   }
 
   .activity-samsung-video .cover-button svg {
     width: 20px;
     height: 20px;
-    margin-left: 5px;
   }
 
   .activity-samsung-video .video-section-inner-container {
