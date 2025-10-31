@@ -98,7 +98,7 @@
         "cover_title": "For every screen size — no guesswork, just plug & glow",
         "marker_style": "style1",
         "description": "",
-        "full_width": false,
+        "full_width": true,
         "video": "",
         "video_hosted": "shopify://files/videos/samsung-banner-video.mp4",
         "video_autoplay": true,
