@@ -100,50 +100,13 @@
     "search_product_list": [],
     "content_for_index": [],
     "blocks": {
-      "11532412952436166569": {
-        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-        "disabled": false,
-        "settings": {}
-      },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
       },
-      "3667842014806057753": {
-        "type": "shopify://apps/one-click-upsell-zipify-ocu/blocks/app-embed/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-        "disabled": false,
-        "settings": {
-          "allowed_templates": ""
-        }
-      },
       "1373006865992778634": {
         "type": "shopify://apps/impact-com/blocks/utt/adac1a7f-d17f-4936-8a12-45628cdd8add",
-        "disabled": false,
-        "settings": {}
-      },
-      "10864971697205422121": {
-        "type": "shopify://apps/gorgias-live-chat-helpdesk/blocks/gorgias/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
-        "disabled": false,
-        "settings": {}
-      },
-      "4915582726668902442": {
-        "type": "shopify://apps/meet-bot/blocks/onsite_kits/dd67cd18-41cc-486c-9db5-c3347b090728",
-        "disabled": false,
-        "settings": {}
-      },
-      "2104245418471043333": {
-        "type": "shopify://apps/17track/blocks/app-embed/1519e068-e330-4e0b-92dd-0a3263bfceda",
-        "disabled": false,
-        "settings": {}
-      },
-      "14327677521557774844": {
-        "type": "shopify://apps/simprosys-google-shopping-feed/blocks/core_settings_block/1f0b859e-9fa6-4007-97e8-4513aff5ff3b",
-        "disabled": false,
-        "settings": {}
-      },
-      "573254258818049612": {
-        "type": "shopify://apps/crazy-egg/blocks/app-embed/7ea73823-6ad9-4252-a63e-088397d54aed",
         "disabled": false,
         "settings": {}
       },
@@ -152,20 +115,13 @@
         "disabled": false,
         "settings": {}
       },
-      "1530068250781986104": {
-        "type": "shopify://apps/fbp-fast-bundle/blocks/fast_bundle/9e87fbe2-9041-4c23-acf5-322413994cef",
-        "disabled": false,
-        "settings": {
-          "home": true
-        }
-      },
-      "9670189827046205946": {
-        "type": "shopify://apps/hextom-translate-and-currency/blocks/app-block/b927a799-be04-4b97-9efb-5c8f0290a68e",
-        "disabled": false,
-        "settings": {}
-      },
       "16160716078332068383": {
         "type": "shopify://apps/rubik-variant-images/blocks/rubik-variant-images/e684282e-1343-4a60-8fa2-6393aded15f6",
+        "disabled": true,
+        "settings": {}
+      },
+      "4915582726668902442": {
+        "type": "shopify://apps/meet-bot/blocks/onsite_kits/dd67cd18-41cc-486c-9db5-c3347b090728",
         "disabled": true,
         "settings": {}
       }
