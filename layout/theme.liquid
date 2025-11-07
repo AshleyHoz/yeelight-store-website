@@ -120,39 +120,41 @@
     </script>
 
     {% comment %} meetbot chat {% endcomment %}
-    <script src="{{ 'ws-channel-script.js' | asset_url }}" defer="defer"></script>
-    <script>
-      // 获取当前用户选择的货币
-      var currentCurrency = Shopify.currency.active;
+    {% comment %} <script src="{{ 'ws-channel-script.js' | asset_url }}" defer="defer"></script> {% endcomment %}
+    {% comment %}
+      <script>
+        // 获取当前用户选择的货币
+        var currentCurrency = Shopify.currency.active;
 
-      const style = document.createElement('style');
-      const head = document.getElementsByTagName('head')[0];
-      var rules;
-      // 检查当前货币是否是美元（USD）或加拿大元（CAD）
-      if (currentCurrency === 'USD' || currentCurrency === 'CAD') {
-        // 隐藏 class 为 meetbot-widget-popover 的元素
-        rules = document.createTextNode(`
-          .meetbot-widget-wachat {
-            z-index: 99 !important;
-          }
-          .meetbot-widget-popover { 
-            z-index: 99 !important;
-            display: none !important;
-          }
-        `);
-      } else {
-        rules = document.createTextNode(`
-          .meetbot-widget-wachat {
-            z-index: 99 !important;
-          }
-          .meetbot-widget-popover { 
-            z-index: 99 !important;
-          }
-        `);
-      }
-      style.appendChild(rules);
-      head.appendChild(style);
-    </script>
+        const style = document.createElement('style');
+        const head = document.getElementsByTagName('head')[0];
+        var rules;
+        // 检查当前货币是否是美元（USD）或加拿大元（CAD）
+        if (currentCurrency === 'USD' || currentCurrency === 'CAD') {
+          // 隐藏 class 为 meetbot-widget-popover 的元素
+          rules = document.createTextNode(`
+            .meetbot-widget-wachat {
+              z-index: 99 !important;
+            }
+            .meetbot-widget-popover {
+              z-index: 99 !important;
+              display: none !important;
+            }
+          `);
+        } else {
+          rules = document.createTextNode(`
+            .meetbot-widget-wachat {
+              z-index: 99 !important;
+            }
+            .meetbot-widget-popover {
+              z-index: 99 !important;
+            }
+          `);
+        }
+        style.appendChild(rules);
+        head.appendChild(style);
+      </script>
+    {% endcomment %}
     {{ settings.custom_html_head }}
   </head>
   <body class="animations-{{ settings.animations }} button-uppercase-{{ settings.button_uppercase }} navigation-uppercase-{{ settings.navigation_uppercase }} product-card-spacing-{{ settings.product_card_spacing }} article-card-spacing-{{ settings.article_card_spacing }} {% if customer %} customer-logged-in{% endif %} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', '-' | handle }} {% if settings.halloween_flag %}yee-activity-halloween{% endif %} {% if settings.black_friday_flag %}yee-activity-black-friday{% endif %} {% if settings.christmas_flag %}yee-activity-christmas{% endif %} {% if settings.new_year_flag %}yee-activity-new-year{% endif %} {% if settings.valentine_flag %}yee-activity-valentine{% endif %}{% if settings.new_year_flag %}yee-activity-new-year{% endif %} {% if settings.dark_theme_flag_flag %}yee-theme-dark {% elsif settings.light_theme_flag %} yee-theme-light {% endif %}">
@@ -216,7 +218,7 @@
         ></script>
       {%- endunless -%}
     {%- endif -%}
-    <div id="wa.meetbot-widget-wachat-1lfj"></div>
+    {% comment %} <div id="wa.meetbot-widget-wachat-1lfj"></div> {% endcomment %}
     {%- if product -%}
       <script type="text/javascript">
         //console.log('test');
