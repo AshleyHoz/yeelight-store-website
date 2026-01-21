@@ -290,6 +290,20 @@
         "activity_icon": false
       }
     },
+    "single_image_iGnVB9": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "link": "shopify://products/yeelight-smart-lamp-cube-lite",
+        "image": "shopify://shop_images/samsung10.jpg",
+        "image_mobile": "shopify://shop_images/samsung-m10.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
     "collection_list_zPfgmW": {
       "type": "collection-list",
       "name": "Collection list",
@@ -344,6 +358,7 @@
     "single_image_dBTCEF",
     "single_image_MmdKCM",
     "single_image_4gEktf",
+    "single_image_iGnVB9",
     "collection_list_zPfgmW",
     "1754535192d39de9c3"
   ]
