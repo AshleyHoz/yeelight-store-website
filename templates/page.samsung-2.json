@@ -220,6 +220,20 @@
         "activity_icon": false
       }
     },
+    "single_image_we8GzX": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/samsung04.jpg",
+        "image_mobile": "shopify://shop_images/samsung-m04.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
     "collection_list_zPfgmW": {
       "type": "collection-list",
       "name": "Collection list",
@@ -269,6 +283,7 @@
     "acitivity_mTNTh3",
     "custom_liquid_4Fk7Mk",
     "single_image_CeCmaC",
+    "single_image_we8GzX",
     "collection_list_zPfgmW",
     "1754535192d39de9c3"
   ]
