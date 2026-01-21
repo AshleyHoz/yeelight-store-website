@@ -212,7 +212,7 @@
       "settings": {
         "link": "",
         "image": "shopify://shop_images/samsung03.jpg",
-        "image_mobile": "shopify://shop_images/samsung-m03.jpg",
+        "image_mobile": "shopify://shop_images/samsung03-m1.png",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true,
