@@ -252,7 +252,7 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "link": "shopify://products/yeelight-obsid-rgbic-light-strip",
+        "link": "shopify://products/samsung-tv-set",
         "image": "shopify://shop_images/samsung07.jpg",
         "image_mobile": "shopify://shop_images/samsung-m07.jpg",
         "full_width": true,
@@ -266,7 +266,7 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "link": "shopify://products/yeelight-beam-rgbic-light-bar",
+        "link": "shopify://products/samsung-tv-set",
         "image": "shopify://shop_images/samsung08.jpg",
         "image_mobile": "shopify://shop_images/samsung-m08.jpg",
         "full_width": true,
@@ -280,7 +280,7 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "link": "shopify://products/yeelight-smart-cube",
+        "link": "shopify://products/samsung-tv-set",
         "image": "shopify://shop_images/samsung09.jpg",
         "image_mobile": "shopify://shop_images/samsung-m09.jpg",
         "full_width": true,
@@ -294,7 +294,7 @@
       "type": "single-image",
       "name": "Single image",
       "settings": {
-        "link": "shopify://products/yeelight-smart-lamp-cube-lite",
+        "link": "shopify://products/samsung-tv-set",
         "image": "shopify://shop_images/samsung10.jpg",
         "image_mobile": "shopify://shop_images/samsung-m10.jpg",
         "full_width": true,
