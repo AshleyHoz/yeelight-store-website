@@ -206,6 +206,20 @@
         "show_cover": false
       }
     },
+    "single_image_CeCmaC": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/samsung03.jpg",
+        "image_mobile": "shopify://shop_images/samsung-m03.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
     "collection_list_zPfgmW": {
       "type": "collection-list",
       "name": "Collection list",
@@ -254,6 +268,7 @@
     "activity_samsung_video_qhjPeb",
     "acitivity_mTNTh3",
     "custom_liquid_4Fk7Mk",
+    "single_image_CeCmaC",
     "collection_list_zPfgmW",
     "1754535192d39de9c3"
   ]
