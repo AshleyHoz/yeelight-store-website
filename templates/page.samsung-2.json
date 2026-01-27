@@ -206,6 +206,34 @@
         "show_cover": false
       }
     },
+    "single_image_VLdpJ7": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/samsung01.jpg",
+        "image_mobile": "shopify://shop_images/samsung-m01.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
+    "single_image_yyWGV7": {
+      "type": "single-image",
+      "name": "Single image",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/samsung02.jpg",
+        "image_mobile": "shopify://shop_images/samsung-m02.jpg",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true,
+        "activity_wyze": false,
+        "activity_icon": false
+      }
+    },
     "single_image_CeCmaC": {
       "type": "single-image",
       "name": "Single image",
@@ -352,6 +380,8 @@
     "activity_samsung_video_qhjPeb",
     "acitivity_mTNTh3",
     "custom_liquid_4Fk7Mk",
+    "single_image_VLdpJ7",
+    "single_image_yyWGV7",
     "single_image_CeCmaC",
     "single_image_we8GzX",
     "single_image_dwVaaJ",
