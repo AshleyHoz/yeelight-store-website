@@ -210,7 +210,8 @@ if (!customElements.get('full-menu')) {
 
     var contactItem = contactLink.closest('li');
     if (!contactItem) return;
-    var supportItem = contactItem.closest('.thb-full-menu > li.menu-item-has-children');
+    var supportMenu = contactItem.closest('ul.sub-menu');
+    var supportItem = supportMenu ? supportMenu.parentElement : null;
 
     var item = document.createElement('li');
     item.className = 'yee-support-whatsapp';
@@ -225,6 +226,7 @@ if (!customElements.get('full-menu')) {
     contactItem.insertAdjacentElement('afterend', item);
 
     if (supportItem) {
+      supportItem.setAttribute('data-yee-support-whatsapp', 'ready');
       var openSupportMenu = function () {
         supportItem.classList.add('yee-support-open');
       };
@@ -243,11 +245,43 @@ if (!customElements.get('full-menu')) {
       if (supportTrigger) {
         supportTrigger.addEventListener('click', function (event) {
           event.preventDefault();
+          event.stopPropagation();
           supportItem.classList.toggle('yee-support-open');
         });
       }
     }
   }
+
+  function findSupportMenuItem(target) {
+    if (!target || !target.closest) return null;
+    var item = target.closest('.thb-full-menu > li.menu-item-has-children');
+    if (!item) return null;
+    return item.querySelector('.sub-menu a[href*="/pages/contact-us"]') ? item : null;
+  }
+
+  document.addEventListener(
+    'pointerover',
+    function (event) {
+      var item = findSupportMenuItem(event.target);
+      if (item) {
+        item.classList.add('yee-support-open');
+      }
+    },
+    true
+  );
+
+  document.addEventListener(
+    'click',
+    function (event) {
+      var trigger = event.target.closest && event.target.closest('.thb-full-menu > li.menu-item-has-children > a');
+      var item = trigger ? findSupportMenuItem(trigger) : null;
+      if (!item) return;
+      event.preventDefault();
+      event.stopPropagation();
+      item.classList.toggle('yee-support-open');
+    },
+    true
+  );
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', addSupportWhatsappQr);
