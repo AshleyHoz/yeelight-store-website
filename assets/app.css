@@ -101,6 +101,45 @@ input[type='radio'],
   font-size: 11px;
 }
 
+.thb-full-menu > li > .sub-menu > li:has(> a[href*="/pages/contact-us"]) {
+  margin-bottom: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.08);
+}
+
+.thb-full-menu > li > .sub-menu > li:has(> a[href*="/pages/contact-us"])::after {
+  content: 'WhatsApp\A Scan or tap to chat';
+  box-sizing: border-box;
+  display: block;
+  width: 148px;
+  min-height: 168px;
+  margin-top: 4px;
+  padding: 128px 8px 9px;
+  border: 1px solid #d9f5e7;
+  border-radius: 8px;
+  background-color: #f8fffb;
+  background-image: url('https://cdn.shopify.com/s/files/1/0744/6849/1548/t/46/assets/yeelight-whatsapp-qr-clean.png?v=1781183748');
+  background-position: center 10px;
+  background-repeat: no-repeat;
+  background-size: 112px 112px;
+  color: #151515;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.22;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.thb-full-menu > li > .sub-menu > li:has(> a[href*="/pages/contact-us"]):has(+ .yee-support-whatsapp) {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.thb-full-menu > li > .sub-menu > li:has(> a[href*="/pages/contact-us"]):has(+ .yee-support-whatsapp)::after {
+  display: none;
+}
+
 .thb-full-menu .sub-menu {
   transition: all 0.25s ease;
 }
