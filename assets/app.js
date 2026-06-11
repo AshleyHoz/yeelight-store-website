@@ -1172,3 +1172,26 @@ document.addEventListener('DOMContentLoaded', () => {
     new FooterMenuToggle();
   }
 });
+
+
+/* Codex contact WhatsApp patch */
+(function () {
+  function addContactWhatsapp() {
+    if (!/\/pages\/contact-us\/?$/.test(window.location.pathname)) return;
+    if (document.querySelector('a[href*="wa.me/message/6WZQJZ7VFMM3O1"]')) return;
+    var headings = Array.prototype.slice.call(document.querySelectorAll('.yee-multicolumn h4'));
+    var heading = headings.find(function (node) { return node.textContent.trim() === 'Customer Service'; });
+    if (!heading) return;
+    var column = heading.closest('.multicolumn__column');
+    var rte = column && column.querySelector('.rte');
+    if (!rte) return;
+    var p = document.createElement('p');
+    p.innerHTML = 'WhatsApp: <a href="https://wa.me/message/6WZQJZ7VFMM3O1?src=qr" target="_blank" title="Chat with Yeelight on WhatsApp">Open WhatsApp</a>';
+    rte.appendChild(p);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', addContactWhatsapp);
+  } else {
+    addContactWhatsapp();
+  }
+})();
