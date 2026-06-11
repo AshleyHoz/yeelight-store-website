@@ -1,0 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.contact-whatsapp.json",
+  "context": {
+    "market": "europe"
+  },
+  "sections": {
+    "multicolumn_xyGgLz": {
+      "settings": {},
+      "blocks": {
+        "column_8pRDyn": {
+          "settings": {
+            "text": "<p>For FAQ and customer service, please contact support@yeelight.com<br/>Mon-Fri 9AM-5PM (UTC+8)<br/>We'll reply within 48 hours in the working days.</p>"
+          }
+        }
+      }
+    }
+  }
+}
