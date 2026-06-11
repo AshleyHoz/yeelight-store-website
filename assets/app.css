@@ -4044,6 +4044,11 @@ h6,
   opacity: 1;
 }
 
+.thb-full-menu li.menu-item-has-children.yee-support-open>.sub-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
 .thb-full-menu li.menu-item-has-children:hover>.sub-menu.mega-menu-container {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% + 15px), 0 calc(100% + 15px));
 }

@@ -210,6 +210,7 @@ if (!customElements.get('full-menu')) {
 
     var contactItem = contactLink.closest('li');
     if (!contactItem) return;
+    var supportItem = contactItem.closest('.thb-full-menu > li.menu-item-has-children');
 
     var item = document.createElement('li');
     item.className = 'yee-support-whatsapp';
@@ -222,6 +223,15 @@ if (!customElements.get('full-menu')) {
       '</a>';
 
     contactItem.insertAdjacentElement('afterend', item);
+
+    if (supportItem) {
+      supportItem.addEventListener('mouseenter', function () {
+        supportItem.classList.add('yee-support-open');
+      });
+      supportItem.addEventListener('mouseleave', function () {
+        supportItem.classList.remove('yee-support-open');
+      });
+    }
   }
 
   if (document.readyState === 'loading') {
