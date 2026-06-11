@@ -86,6 +86,29 @@
                   </ul>
                 {%- endif -%}
               </li>
+              {%- if link.title == 'Support' and l.title == 'Contact Us' -%}
+                <li class="yee-support-whatsapp" role="none">
+                  <a
+                    class="yee-support-whatsapp__card"
+                    href="https://wa.me/message/6WZQJZ7VFMM3O1?src=qr"
+                    target="_blank"
+                    rel="noopener"
+                    role="menuitem"
+                    title="Chat with Yeelight on WhatsApp"
+                  >
+                    <img
+                      src="{{ 'yeelight-whatsapp-qr-clean.png' | asset_url }}"
+                      alt="Chat with Yeelight on WhatsApp"
+                      width="112"
+                      height="112"
+                      loading="eager"
+                      decoding="async"
+                    >
+                    <span class="yee-support-whatsapp__label">WhatsApp</span>
+                    <span class="yee-support-whatsapp__hint">Scan or tap to chat</span>
+                  </a>
+                </li>
+              {%- endif -%}
             {%- endfor -%}
           </ul>
         {%- elsif has_sub_menu == true or has_mega_menu == true -%}

@@ -52,6 +52,55 @@ input[type='radio'],
   transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
 }
 
+.thb-full-menu .sub-menu li.yee-support-whatsapp {
+  margin: 4px 0 8px;
+  padding: 0 0 10px;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.08);
+}
+
+.thb-full-menu .sub-menu li.yee-support-whatsapp a.yee-support-whatsapp__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 148px;
+  padding: 10px 8px 9px;
+  border: 1px solid #d9f5e7;
+  border-radius: 8px;
+  background: #f8fffb;
+  color: #151515;
+  text-align: center;
+  white-space: normal;
+}
+
+.thb-full-menu .sub-menu li.yee-support-whatsapp a.yee-support-whatsapp__card:after {
+  display: none;
+}
+
+.thb-full-menu .sub-menu li.yee-support-whatsapp img {
+  display: block;
+  width: 112px;
+  height: 112px;
+  margin: 0;
+}
+
+.yee-support-whatsapp__label,
+.yee-support-whatsapp__hint {
+  display: block;
+  line-height: 1.15;
+}
+
+.yee-support-whatsapp__label {
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.yee-support-whatsapp__hint {
+  color: #6b7280;
+  font-size: 11px;
+}
+
 .thb-full-menu .sub-menu {
   transition: all 0.25s ease;
 }

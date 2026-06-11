@@ -116,23 +116,10 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_whatsapp": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/yeelight-whatsapp-qr.png",
-            "image_full_width": false,
-            "image_link": "https://wa.me/message/6WZQJZ7VFMM3O1?src=qr",
-            "title": "WhatsApp",
-            "text": "<p>Chat with us on WhatsApp, or scan the QR code above to follow us.<br/><a href=\"https://wa.me/message/6WZQJZ7VFMM3O1?src=qr\" target=\"_blank\" title=\"Chat with Yeelight on WhatsApp\">Open WhatsApp</a></p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "column_8pRDyn",
-        "column_whatsapp",
         "column_jqDD66",
         "column_ByaQxY",
         "column_ViyKX3",
