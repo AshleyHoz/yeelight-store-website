@@ -1,0 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.contact.json",
+  "context": {
+    "market": "09cc406e-0794-41f3-857e-f8e573ece5f0"
+  },
+  "sections": {
+    "multicolumn_xyGgLz": {
+      "settings": {},
+      "blocks": {
+        "column_8pRDyn": {
+          "settings": {
+            "text": "<p>For FAQ and customer service, please contact <a href=\"mailto:official-site@yeelight.com\" target=\"_blank\" title=\"mailto:official-site@yeelight.com\">official-site@yeelight.com</a><br/>WhatsApp: <a href=\"https://wa.me/message/6WZQJZ7VFMM3O1?src=qr\" target=\"_blank\" title=\"Chat with Yeelight on WhatsApp\">Open WhatsApp</a><br/>Mon-Fri 9AM-5PM (UTC+8)<br/>We'll reply within 48 hours in the working days.</p>"
+          }
+        }
+      }
+    }
+  }
+}
