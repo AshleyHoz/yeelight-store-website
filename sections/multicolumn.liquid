@@ -81,7 +81,9 @@
                 <div class="rte" {{ block.shopify_attributes }}>
                   {{ block.settings.text }}
                   {%- if page.handle == 'contact-us' and block.settings.title == 'Customer Service' -%}
-                    <p>WhatsApp: <a href="https://wa.me/message/6WZQJZ7VFMM3O1?src=qr" target="_blank" title="Chat with Yeelight on WhatsApp">Open WhatsApp</a></p>
+                    {%- unless block.settings.text contains 'wa.me/message/6WZQJZ7VFMM3O1' -%}
+                      <p>WhatsApp: <a href="https://wa.me/message/6WZQJZ7VFMM3O1?src=qr" target="_blank" title="Chat with Yeelight on WhatsApp">Open WhatsApp</a></p>
+                    {%- endunless -%}
                   {%- endif -%}
                 </div>
               {% endif %}
