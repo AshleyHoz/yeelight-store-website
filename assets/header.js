@@ -201,8 +201,6 @@ if (!customElements.get('full-menu')) {
 /* Codex support WhatsApp QR fallback */
 (function () {
   function addSupportWhatsappQr() {
-    if (document.querySelector('.thb-full-menu .yee-support-whatsapp')) return;
-
     var contactLink = document.querySelector(
       '.thb-full-menu .sub-menu a[role="menuitem"][href*="/pages/contact-us"]'
     );
@@ -212,20 +210,23 @@ if (!customElements.get('full-menu')) {
     if (!contactItem) return;
     var supportMenu = contactItem.closest('ul.sub-menu');
     var supportItem = supportMenu ? supportMenu.parentElement : null;
+    var existingItem = supportMenu ? supportMenu.querySelector('.yee-support-whatsapp') : null;
 
-    var item = document.createElement('li');
-    item.className = 'yee-support-whatsapp';
-    item.setAttribute('role', 'none');
-    item.innerHTML =
-      '<a class="yee-support-whatsapp__card" href="https://wa.me/message/6WZQJZ7VFMM3O1?src=qr" target="_blank" rel="noopener" role="menuitem" title="Chat with Yeelight on WhatsApp">' +
-      '<img src="https://cdn.shopify.com/s/files/1/0744/6849/1548/t/46/assets/yeelight-whatsapp-qr-clean.png?v=1781183748" alt="Chat with Yeelight on WhatsApp" width="112" height="112" loading="eager" decoding="async">' +
-      '<span class="yee-support-whatsapp__label">WhatsApp</span>' +
-      '<span class="yee-support-whatsapp__hint">Scan or tap to chat</span>' +
-      '</a>';
+    if (!existingItem) {
+      var item = document.createElement('li');
+      item.className = 'yee-support-whatsapp';
+      item.setAttribute('role', 'none');
+      item.innerHTML =
+        '<a class="yee-support-whatsapp__card" href="https://wa.me/message/6WZQJZ7VFMM3O1?src=qr" target="_blank" rel="noopener" role="menuitem" title="Chat with Yeelight on WhatsApp">' +
+        '<img src="https://cdn.shopify.com/s/files/1/0744/6849/1548/t/46/assets/yeelight-whatsapp-qr-clean.png?v=1781183748" alt="Chat with Yeelight on WhatsApp" width="112" height="112" loading="eager" decoding="async">' +
+        '<span class="yee-support-whatsapp__label">WhatsApp</span>' +
+        '<span class="yee-support-whatsapp__hint">Scan or tap to chat</span>' +
+        '</a>';
 
-    contactItem.insertAdjacentElement('afterend', item);
+      contactItem.insertAdjacentElement('afterend', item);
+    }
 
-    if (supportItem) {
+    if (supportItem && !supportItem.hasAttribute('data-yee-support-whatsapp')) {
       supportItem.setAttribute('data-yee-support-whatsapp', 'ready');
       var openSupportMenu = function () {
         supportItem.classList.add('yee-support-open');
