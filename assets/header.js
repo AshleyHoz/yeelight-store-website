@@ -225,12 +225,27 @@ if (!customElements.get('full-menu')) {
     contactItem.insertAdjacentElement('afterend', item);
 
     if (supportItem) {
-      supportItem.addEventListener('mouseenter', function () {
+      var openSupportMenu = function () {
         supportItem.classList.add('yee-support-open');
-      });
-      supportItem.addEventListener('mouseleave', function () {
+      };
+      var closeSupportMenu = function () {
         supportItem.classList.remove('yee-support-open');
-      });
+      };
+
+      supportItem.addEventListener('mouseenter', openSupportMenu);
+      supportItem.addEventListener('mouseover', openSupportMenu);
+      supportItem.addEventListener('pointerover', openSupportMenu);
+      supportItem.addEventListener('focusin', openSupportMenu);
+      supportItem.addEventListener('mouseleave', closeSupportMenu);
+      supportItem.addEventListener('focusout', closeSupportMenu);
+
+      var supportTrigger = supportItem.querySelector(':scope > a');
+      if (supportTrigger) {
+        supportTrigger.addEventListener('click', function (event) {
+          event.preventDefault();
+          supportItem.classList.toggle('yee-support-open');
+        });
+      }
     }
   }
 
