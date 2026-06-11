@@ -86,7 +86,7 @@
                   </ul>
                 {%- endif -%}
               </li>
-              {%- if link.title == 'Support' and l.title == 'Contact Us' -%}
+              {%- if l.url contains 'contact-us' -%}
                 <li class="yee-support-whatsapp" role="none">
                   <a
                     class="yee-support-whatsapp__card"
