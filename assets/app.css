@@ -101,6 +101,73 @@ input[type='radio'],
   font-size: 11px;
 }
 
+.yee-contact-service-layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 28px;
+  max-width: 700px;
+}
+
+.yee-contact-service-copy {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.yee-contact-whatsapp-card {
+  display: flex;
+  flex: 0 0 172px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 13px 12px 12px;
+  border: 1px solid #d9f5e7;
+  border-radius: 8px;
+  background: #f8fffb;
+  color: #151515;
+  text-align: center;
+  text-decoration: none;
+}
+
+.yee-contact-whatsapp-card:after {
+  display: none;
+}
+
+.yee-contact-whatsapp-card img {
+  display: block;
+  width: 132px;
+  height: 132px;
+  margin: 0;
+}
+
+.yee-contact-whatsapp-card__label,
+.yee-contact-whatsapp-card__hint {
+  display: block;
+  line-height: 1.16;
+}
+
+.yee-contact-whatsapp-card__label {
+  margin-top: 3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.yee-contact-whatsapp-card__hint {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .yee-contact-service-layout {
+    display: block;
+  }
+
+  .yee-contact-whatsapp-card {
+    width: 172px;
+    margin-top: 18px;
+  }
+}
+
 .thb-full-menu > li > .sub-menu > li:has(> a[href*="/pages/contact-us"]) {
   margin-bottom: 8px;
   padding-bottom: 10px;

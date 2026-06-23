@@ -79,11 +79,35 @@
               {% endif %}
               {% if block.settings.text != blank %}
                 <div class="rte" {{ block.shopify_attributes }}>
-                  {{ block.settings.text }}
                   {%- if page.handle == 'contact-us' and block.settings.title == 'Customer Service' -%}
-                    {%- unless block.settings.text contains 'wa.me/message/6WZQJZ7VFMM3O1' -%}
-                      <p>WhatsApp: <a href="https://wa.me/message/6WZQJZ7VFMM3O1?src=qr" target="_blank" title="Chat with Yeelight on WhatsApp">Open WhatsApp</a></p>
-                    {%- endunless -%}
+                    <div class="yee-contact-service-layout">
+                      <div class="yee-contact-service-copy">
+                        {{ block.settings.text }}
+                        {%- unless block.settings.text contains 'wa.me/message/6WZQJZ7VFMM3O1' -%}
+                          <p>WhatsApp: <a href="https://wa.me/message/6WZQJZ7VFMM3O1?src=qr" target="_blank" title="Chat with Yeelight on WhatsApp">Open WhatsApp</a></p>
+                        {%- endunless -%}
+                      </div>
+                      <a
+                        class="yee-contact-whatsapp-card"
+                        href="https://wa.me/message/6WZQJZ7VFMM3O1?src=qr"
+                        target="_blank"
+                        rel="noopener"
+                        title="Chat with Yeelight on WhatsApp"
+                      >
+                        <img
+                          src="{{ 'yeelight-whatsapp-qr-clean.png' | asset_url }}"
+                          alt="Chat with Yeelight on WhatsApp"
+                          width="132"
+                          height="132"
+                          loading="eager"
+                          decoding="async"
+                        >
+                        <span class="yee-contact-whatsapp-card__label">WhatsApp</span>
+                        <span class="yee-contact-whatsapp-card__hint">Scan or tap to chat</span>
+                      </a>
+                    </div>
+                  {%- else -%}
+                    {{ block.settings.text }}
                   {%- endif -%}
                 </div>
               {% endif %}
