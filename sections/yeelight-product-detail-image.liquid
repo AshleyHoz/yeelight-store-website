@@ -1,0 +1,79 @@
+<section class="yeelight-product-detail-image{% if section.settings.disable_top_spacing %} yeelight-product-detail-image--no-top{% endif %}{% if section.settings.disable_bottom_spacing %} yeelight-product-detail-image--no-bottom{% endif %}">
+  {%- liquid
+    assign desktop_asset = section.settings.desktop_asset | strip
+    assign mobile_asset = section.settings.mobile_asset | strip
+    assign alt_text = section.settings.alt | default: product.title
+  -%}
+  {%- if desktop_asset != blank -%}
+    <picture>
+      {%- if mobile_asset != blank -%}
+        <source media="(max-width: 749px)" srcset="{{ mobile_asset | asset_url }}">
+      {%- endif -%}
+      <img
+        src="{{ desktop_asset | asset_url }}"
+        alt="{{ alt_text | escape }}"
+        loading="lazy"
+        width="1920"
+        height="auto">
+    </picture>
+  {%- endif -%}
+</section>
+
+<style>
+  .yeelight-product-detail-image {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .yeelight-product-detail-image picture,
+  .yeelight-product-detail-image img {
+    display: block;
+    width: 100%;
+  }
+
+  .yeelight-product-detail-image img {
+    height: auto;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Yeelight detail image",
+  "settings": [
+    {
+      "type": "text",
+      "id": "desktop_asset",
+      "label": "Desktop theme asset filename"
+    },
+    {
+      "type": "text",
+      "id": "mobile_asset",
+      "label": "Mobile theme asset filename"
+    },
+    {
+      "type": "text",
+      "id": "alt",
+      "label": "Alt text"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_top_spacing",
+      "label": "Remove top spacing",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_bottom_spacing",
+      "label": "Remove bottom spacing",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Yeelight detail image"
+    }
+  ]
+}
+{% endschema %}
