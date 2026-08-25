@@ -124,6 +124,11 @@
         "type": "shopify://apps/meet-bot/blocks/onsite_kits/dd67cd18-41cc-486c-9db5-c3347b090728",
         "disabled": true,
         "settings": {}
+      },
+      "2539598332178966696": {
+        "type": "shopify://apps/xcotton-post-purchase-guard/blocks/insurance/6531bb8b-340c-42d4-b5da-1734c7a2c524",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
