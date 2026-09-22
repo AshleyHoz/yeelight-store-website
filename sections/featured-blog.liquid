@@ -61,7 +61,7 @@
           {% assign placeholder_array = '1,2,3,4,5,6' | split: ',' %}
           {% for item in placeholder_array limit: post_limit %}
             <div class="article-item">
-              {% render 'blog-post', article: false, show_date: show_date, show_excerpt: show_excerpt, image_ratio: image_ratio, show_read_more, show_read_more, has_shadow: has_shadow, card_background: section.settings.card_background %}
+              {% render 'blog-post', article: false, show_date: show_date, show_excerpt: show_excerpt, image_ratio: image_ratio, has_shadow: has_shadow, card_background: section.settings.card_background %}
             </div>
           {% endfor %}
         {% endif %}
@@ -241,3 +241,17 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'blog-post', article: false, show_date: show_date, show_excerpt:
+    show_excerpt, image_ratio: image_ratio, show_read_more, show_read_more, has_shadow:
+    has_shadow, card_background: section.settings.card_background %}"
+  to: "{% render 'blog-post', article: false, show_date: show_date, show_excerpt:
+    show_excerpt, image_ratio: image_ratio, has_shadow: has_shadow, card_background:
+    section.settings.card_background %}"
+  position: 2725..2916
+{% endcomment %}

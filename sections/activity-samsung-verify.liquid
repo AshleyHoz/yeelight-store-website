@@ -103,7 +103,7 @@
                     </h3>
                   {%- endif -%}
                   {%- if block.settings.logo -%}
-                    {%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width | append: 'x' | append: image.src.height -%}
+                    {%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width, append: image.src.height -%}
                   {%- endif -%}
                 </div>
               {%- when 'subheading' -%}
@@ -112,7 +112,7 @@
                     <p class="subheading">{{ block.settings.text }}</p>
                   {%- endif -%}
                   {%- if block.settings.logo -%}
-                    {%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width | append: 'x' | append: image.src.height -%}
+                    {%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width, append: image.src.height -%}
                   {%- endif -%}
                 </div>
               {%- when 'text' -%}
@@ -913,3 +913,20 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width
+    | append: 'x' | append: image.src.height -%}"
+  to: "{%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width,
+    append: image.src.height -%}"
+  position: 4486..4597
+- from: "{%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width
+    | append: 'x' | append: image.src.height -%}"
+  to: "{%- render 'responsive-image', image: block.settings.logo, sizes: image.src.width,
+    append: image.src.height -%}"
+  position: 4995..5106
+{% endcomment %}
