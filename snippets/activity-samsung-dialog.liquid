@@ -6,7 +6,7 @@
     </div>
     <div class="modal-inner d-flex gap-10">
       <div class="inner-img">
-        {%- render 'responsive-image' , image: block.settings.note_image, sizes: block.settings.note_image.src.width | append: 'x' | append: block.settings.note_image.src.height -%}
+        {%- render 'responsive-image', image: block.settings.note_image, sizes: block.settings.note_image.src.width, append: block.settings.note_image.src.height -%}
       </div>
       <div class="inner-content">
         <div class="inner-title">Method 1: Check the Packaging Box</div>
@@ -143,3 +143,16 @@
     }
   }
 </style>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'responsive-image' , image: block.settings.note_image, sizes:
+    block.settings.note_image.src.width | append: 'x' | append: block.settings.note_image.src.height
+    -%}"
+  to: "{%- render 'responsive-image', image: block.settings.note_image, sizes: block.settings.note_image.src.width,
+    append: block.settings.note_image.src.height -%}"
+  position: 309..466
+{% endcomment %}

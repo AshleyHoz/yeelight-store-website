@@ -35,7 +35,7 @@
   style="--color-heading: {{ color_heading }}; --color-text: {{ color_text }}; --color-accent: {{ color_links }}; --color-accent-rgb: {{ color_links.rgb | replace: ' ' , ',' }};"
 >
   <div class="image-multicolumn_bg full-width full-height">
-    {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+    {%- render 'responsive-image', image: background_image, sizes: background_image.src.width, append: background_image.src.height -%}
   </div>
   <div class="row image-multicolumn_container">
     <div class="small-12 columns">
@@ -339,3 +339,15 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'responsive-image', image: background_image, sizes: background_image.src.width
+    | append: 'x' | append: background_image.src.height -%}"
+  to: "{%- render 'responsive-image', image: background_image, sizes: background_image.src.width,
+    append: background_image.src.height -%}"
+  position: 1720..1850
+{% endcomment %}

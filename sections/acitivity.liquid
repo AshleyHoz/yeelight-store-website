@@ -12,12 +12,12 @@
   <div class="acitivity--img full-width position-relative">
     <div class="mobile-cover-img">
       {%- if background_image_mobile -%}
-        {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width | append: 'x' | append: background_image_mobile.src.height -%}
+        {%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width, append: background_image_mobile.src.height -%}
       {%- endif -%}
     </div>
     <div class="cover-img">
       {%- if background_image -%}
-        {%- render 'responsive-image', image: background_image, sizes: background_image.src.width | append: 'x' | append: background_image.src.height -%}
+        {%- render 'responsive-image', image: background_image, sizes: background_image.src.width, append: background_image.src.height -%}
       {%- endif -%}
     </div>
   </div>
@@ -40,12 +40,12 @@
     <div class="acitivity--info full-width">
       <div class="mobile-info-img full-width text-center">
         {%- if image_mobile -%}
-          {%- render 'responsive-image', image: image_mobile, sizes: image_mobile.src.width | append: 'x' | append: image_mobile.src.height -%}
+          {%- render 'responsive-image', image: image_mobile, sizes: image_mobile.src.width, append: image_mobile.src.height -%}
         {%- endif -%}
       </div>
       <div class="info-img full-width text-center">
         {%- if image -%}
-          {%- render 'responsive-image', image: image, sizes: image.src.width | append: 'x' | append: image.src.height -%}
+          {%- render 'responsive-image', image: image, sizes: image.src.width, append: image.src.height -%}
         {%- endif -%}
       </div>
     </div>
@@ -121,3 +121,30 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width
+    | append: 'x' | append: background_image_mobile.src.height -%}"
+  to: "{%- render 'responsive-image', image: background_image_mobile, sizes: background_image_mobile.src.width,
+    append: background_image_mobile.src.height -%}"
+  position: 569..720
+- from: "{%- render 'responsive-image', image: background_image, sizes: background_image.src.width
+    | append: 'x' | append: background_image.src.height -%}"
+  to: "{%- render 'responsive-image', image: background_image, sizes: background_image.src.width,
+    append: background_image.src.height -%}"
+  position: 822..952
+- from: "{%- render 'responsive-image', image: image_mobile, sizes: image_mobile.src.width
+    | append: 'x' | append: image_mobile.src.height -%}"
+  to: "{%- render 'responsive-image', image: image_mobile, sizes: image_mobile.src.width,
+    append: image_mobile.src.height -%}"
+  position: 1714..1832
+- from: "{%- render 'responsive-image', image: image, sizes: image.src.width | append:
+    'x' | append: image.src.height -%}"
+  to: "{%- render 'responsive-image', image: image, sizes: image.src.width, append:
+    image.src.height -%}"
+  position: 1955..2052
+{% endcomment %}

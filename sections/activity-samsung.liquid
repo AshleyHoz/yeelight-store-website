@@ -104,7 +104,7 @@
                           </span>
                           <span class="discount-copied">Code Copied</span>
                           <div class="button-img full-width">
-                            {%- render 'responsive-image', image: block.settings.button_image,sizes: block.settings.button_image.src.width | append: 'x' | append: block.settings.button_image.src.height -%}
+                            {%- render 'responsive-image', image: block.settings.button_image, sizes: block.settings.button_image.src.width, append: block.settings.button_image.src.height -%}
                           </div>
                         </button>
                       </div>
@@ -401,3 +401,16 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'responsive-image', image: block.settings.button_image,sizes:
+    block.settings.button_image.src.width | append: 'x' | append: block.settings.button_image.src.height
+    -%}"
+  to: "{%- render 'responsive-image', image: block.settings.button_image, sizes: block.settings.button_image.src.width,
+    append: block.settings.button_image.src.height -%}"
+  position: 5598..5761
+{% endcomment %}

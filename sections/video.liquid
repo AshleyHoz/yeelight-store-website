@@ -60,7 +60,7 @@
   {%- if settings.christmas_flag and cover_title != blank -%}
     <div class="video-info-cover full-width full-height d-flex flex-column row">
       {%- if cover_logo -%}
-        {%- render 'responsive-image', image: cover_logo, sizes: cover_logo.src.width | append: 'x' | append: cover_logo.src.height -%}
+        {%- render 'responsive-image', image: cover_logo, sizes: cover_logo.src.width, append: cover_logo.src.height -%}
       {%- endif -%}
       {%- if cover_title -%}
         <div class="cover-title">{{ cover_title }}</div>
@@ -72,12 +72,12 @@
     <div class="video-cover full-width full-height text-center">
       {%- if cover_logo -%}
         <div class="cover-logo">
-          {%- render 'responsive-image', image: cover_logo, sizes: cover_logo.src.width | append: 'x' | append: cover_logo.src.height -%}
+          {%- render 'responsive-image', image: cover_logo, sizes: cover_logo.src.width, append: cover_logo.src.height -%}
         </div>
       {%- endif -%}
       {%- if cover_image -%}
         <div class="cover-image">
-          {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width | append: 'x' | append: cover_image.src.height -%}
+          {%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width, append: cover_image.src.height -%}
         </div>
       {%- endif -%}
       {%- if cover_title -%}
@@ -429,3 +429,25 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'responsive-image', image: cover_logo, sizes: cover_logo.src.width
+    | append: 'x' | append: cover_logo.src.height -%}"
+  to: "{%- render 'responsive-image', image: cover_logo, sizes: cover_logo.src.width,
+    append: cover_logo.src.height -%}"
+  position: 2708..2820
+- from: "{%- render 'responsive-image', image: cover_logo, sizes: cover_logo.src.width
+    | append: 'x' | append: cover_logo.src.height -%}"
+  to: "{%- render 'responsive-image', image: cover_logo, sizes: cover_logo.src.width,
+    append: cover_logo.src.height -%}"
+  position: 3135..3247
+- from: "{%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width
+    | append: 'x' | append: cover_image.src.height -%}"
+  to: "{%- render 'responsive-image', image: cover_image, sizes: cover_image.src.width,
+    append: cover_image.src.height -%}"
+  position: 3356..3471
+{% endcomment %}
