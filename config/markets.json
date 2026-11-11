@@ -17,9 +17,6 @@
     },
     "southeast-asia": {
       "parent": "@default"
-    },
-    "middle-east": {
-      "parent": "@default"
     }
   }
 }
